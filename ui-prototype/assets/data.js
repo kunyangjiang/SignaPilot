@@ -1,6 +1,6 @@
 /* SignaPilot UI prototype — catalog data.
    Titles and IDs follow "SignaPilot Content Baseline v1.0.md" (SEALED).
-   Scope lines, stage questions, reading lengths and progress are UI copy / demo values. */
+   Scope lines, stage questions and reading lengths are UI copy. */
 window.SP = (function () {
   const S = (id, title, q, glyph, courses) => ({ id, title, q, glyph, courses: courses.map(c => ({ id: c[0], title: c[1], scope: c[2] })) });
 
@@ -112,7 +112,7 @@ window.SP = (function () {
       '<rect x="7" y="12" width="34" height="24"/><path d="M7 12l17 14 17-14"/>'),
     C('06', '澄清声明', '职场讽刺喜剧', '当代公司', '网民从公司 logo 里读出了一个没人放进去的意思。公司决定解释它“不是”什么。', ['当代', '喜剧'], '#c8602a', 1.6,
       '<path d="M7 9h34v23H23l-9 8v-8H7z"/><path d="M14 20.5h20"/>'),
-    C('07', '进丹', '历史悲剧', '唐代', '宫廷炼丹人怀疑手中的丹药有害；不进，先死的可能是他自己。', ['历史'], '#86672c', 2.3,
+    C('07', '进丹', '历史悲剧', '唐代', '宫廷炼丹人怀疑手中的丹药有害；不进，先死的可能是他自己。', ['历史'], '#86672c', 1.5,
       '<path d="M11 17h26l-5 16H16z"/><path d="M16 33l-3 9M32 33l3 9"/><circle cx="24" cy="9" r="2.6"/>'),
     C('08', '圣骨', '中世纪盗宝喜剧', '中世纪基督教欧洲', '两名修士去“请”走另一座修院的圣徒遗骨，并且相信圣徒本人会同意。', ['历史', '喜剧'], '#3b7667', 2.0,
       '<path d="M11 42V20a13 13 0 0 1 26 0v22z"/><path d="M24 17v16M18 23h12"/>'),
@@ -142,15 +142,9 @@ window.SP = (function () {
     { name: '误读与过度诠释', note: '意义什么时候是我们自己放进去的。', items: ['01-07', '09-03', 'C06', 'C09'] },
   ];
 
-  // Demo-only reading state so progress treatments can be reviewed.
-  const demo = {
-    done: ['01-01', '01-02', '01-03', '01-04', '01-05', '01-06', '01-07', '02-01', '02-02', '05-01', '05-02', 'C02'],
-    reading: { '02-03': 0.4, '05-06': 0.25, 'C01': 0.35 },
-  };
-
   const courseIndex = {};
   stages.forEach(s => s.courses.forEach((c, i) => { courseIndex[c.id] = Object.assign({ stage: s, n: i + 1 }, c); }));
   const allCourses = stages.flatMap(s => s.courses);
 
-  return { stages, map, cases, threads, demo, courseIndex, allCourses };
+  return { stages, map, cases, threads, courseIndex, allCourses };
 })();

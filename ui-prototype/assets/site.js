@@ -106,12 +106,9 @@
   };
 
   /* ---------- catalogue helpers ---------- */
-  const stateOf = id => D.demo.done.includes(id) ? 'done' : (id in D.demo.reading ? 'half' : '');
   const caseById = id => D.cases.find(c => c.id === id);
   const lessonHref = id => `lesson.html?c=${id}`;
   const caseHref = id => `case.html?c=${id}`;
-  const ticks = s => `<span class="ticks" aria-hidden="true">${s.courses.map(c => `<i class="${stateOf(c.id)}"></i>`).join('')}</span>`;
-  const doneCount = s => s.courses.filter(c => stateOf(c.id) === 'done').length;
 
   /* ---------- the shape of the curriculum: four parts, nine stages ---------- */
   // Grouping follows the master plan's outer logic. It is navigation copy, not a change to the sealed catalogue.
@@ -337,6 +334,7 @@
     '04': { story: 'content/cases/c04.md', notes: 'content/cases/c04-notes.md' },
     '05': { story: 'content/cases/c05.md', notes: 'content/cases/c05-notes.md' },
     '06': { story: 'content/cases/c06.md', notes: 'content/cases/c06-notes.md' },
+    '07': { story: 'content/cases/c07.md', notes: 'content/cases/c07-notes.md' },
   };
   const inline = s => esc(s).replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a class="ext" href="$2" target="_blank" rel="noopener">$1</a>').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>');
   // A deliberately small Markdown reader: just the handful of block types the manuscripts use.
@@ -518,7 +516,7 @@
       $('#rail').innerHTML = rail(null, true);
       const srow = sid => {
         const s = D.stages.find(x => x.id === sid), i = D.stages.indexOf(s);
-        return `<a class="srow" id="st-${sid}" href="stage.html?s=${sid}">${draw(i)}<div><span class="srow-n">Stage ${Number(sid)}</span><h3>${esc(s.title)}</h3><p>${esc(s.q)}</p></div><div class="srow-m"><span>${s.courses.length} 课</span>${ticks(s)}</div><i class="srow-go">→</i></a>`;
+        return `<a class="srow" id="st-${sid}" href="stage.html?s=${sid}">${draw(i)}<div><span class="srow-n">Stage ${Number(sid)}</span><h3>${esc(s.title)}</h3><p>${esc(s.q)}</p></div><div class="srow-m"><span>${s.courses.length} 课</span></div><i class="srow-go">→</i></a>`;
       };
       $('#parts').innerHTML = PARTS.map(p => `<section class="part" id="${p.id}">
         <div class="part-h"><span class="label">第${p.n}部分</span><h2>${p.name}</h2><p>${p.note}</p></div>
@@ -534,7 +532,7 @@
         addEventListener('load', go); setTimeout(go, 700);
       }
       // the flat list of all 61 courses is still here for people who want it, but folded away so it does not compete
-      $('#toc').innerHTML = D.stages.map(s => `<section class="toc-stage" id="s${s.id}"><div><span class="mono">Stage ${Number(s.id)}</span><h3><a href="stage.html?s=${s.id}">${esc(s.title)}</a></h3></div><div class="toc-list">${s.courses.map(c => `<a href="${lessonHref(c.id)}"><span class="mono">${c.id}</span><span class="t">${esc(c.title)}</span><i class="state ${stateOf(c.id)}"></i></a>`).join('')}</div></section>`).join('');
+      $('#toc').innerHTML = D.stages.map(s => `<section class="toc-stage" id="s${s.id}"><div><span class="mono">Stage ${Number(s.id)}</span><h3><a href="stage.html?s=${s.id}">${esc(s.title)}</a></h3></div><div class="toc-list">${s.courses.map(c => `<a href="${lessonHref(c.id)}"><span class="mono">${c.id}</span><span class="t">${esc(c.title)}</span></a>`).join('')}</div></section>`).join('');
     },
 
     stage() {
@@ -549,13 +547,11 @@
             <p class="crumb"><a href="knowledge.html#${partOf(s.id).id}">第${partOf(s.id).n}部分 · ${partOf(s.id).name}</a> ／ Stage ${Number(s.id)}，共 9 个阶段</p>
             <h1>${esc(s.title)}</h1>
             <p class="stage-q">${esc(s.q)}</p>
-            <div class="stage-meta"><span>${s.courses.length} 门课</span><span>${pre[s.id]}</span>${ticks(s)}<span>已读 ${doneCount(s)}</span></div>
+            <div class="stage-meta"><span>${s.courses.length} 门课</span><span>${pre[s.id]}</span></div>
           </div><div class="stage-num" aria-hidden="true">${draw(i)}</div></div>
         </div></div>
         <div class="wrap"><ol class="seq">${s.courses.map(c => {
-          const st = stateOf(c.id), pct = D.demo.reading[c.id];
-          const side = st === 'done' ? '<b>已读</b>' : st === 'half' ? `<b>读到 ${Math.round(pct * 100)}%</b>` : '未读';
-          return `<li class="${st} ${hooks[c.id] ? 'featured' : ''}"><div><span class="mono">${c.id}</span><h3><a href="${lessonHref(c.id)}">${esc(c.title)}</a></h3><p class="scope">${esc(c.scope)}</p>${hooks[c.id] ? `<p class="hook">${hooks[c.id]}</p>` : ''}</div><div class="side"><span>${side}</span><span>约 16 分钟</span></div></li>`;
+          return `<li class="${hooks[c.id] ? 'featured' : ''}"><div><span class="mono">${c.id}</span><h3><a href="${lessonHref(c.id)}">${esc(c.title)}</a></h3><p class="scope">${esc(c.scope)}</p>${hooks[c.id] ? `<p class="hook">${hooks[c.id]}</p>` : ''}</div></li>`;
         }).join('')}</ol>
         <nav class="stage-nav">${i > 0 ? `<a href="stage.html?s=${D.stages[i - 1].id}"><span class="label">上一阶段</span><b>${esc(D.stages[i - 1].title)}</b></a>` : '<span></span>'}${i < 8 ? `<a href="stage.html?s=${D.stages[i + 1].id}"><span class="label">下一阶段</span><b>${esc(D.stages[i + 1].title)}</b></a>` : '<span></span>'}</nav></div>`;
       headField($('.page-head'));
@@ -609,13 +605,11 @@
       const tags = ['全部', '当代', '历史', '幻想', '喜剧', '恐怖', '爱情'];
       $('#filters').innerHTML = tags.map((t, i) => `<button type="button" aria-pressed="${i === 0}">${t}</button>`).join('');
       $('#shelf').innerHTML = D.cases.map(c => {
-        const st = stateOf('C' + c.id), pct = D.demo.reading['C' + c.id];
-        const prog = st === 'done' ? '已读完' : st === 'half' ? `读到 ${Math.round(pct * 100)}%` : '';
         return `<li data-tags="${c.tags.join(' ')}"><a href="${caseHref(c.id)}">
           <div class="em">${glyphSvg(c.glyph)}<span class="mono">${Number(c.id)}</span></div>
           <div><h3>${esc(c.title)}</h3><p class="genre">${esc(c.genre)}</p><p class="setting">${esc(c.setting)}</p></div>
           <p class="premise">${esc(c.premise)}</p>
-          <div class="len"><b>约 ${c.len.toFixed(1)} 万字</b><span>${Math.round(c.len * 10000 / 420 / 5) * 5} 分钟</span>${prog ? `<span>${prog}</span><div class="readbar"><i style="width:${st === 'done' ? 100 : pct * 100}%"></i></div>` : ''}</div>
+          <div class="len"><b>约 ${c.len.toFixed(1)} 万字</b></div>
         </a></li>`;
       }).join('');
       $('#filters').addEventListener('click', e => {

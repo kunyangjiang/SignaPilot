@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="时间线：元和十三年十月到元和十五年闰正月。上排是史书记载的事：柳泌入兴唐观炼药、柳泌任台州刺史、柳泌逃亡后复待诏翰林、裴潾上疏、裴潾贬江陵令、宪宗崩于中和殿、皇甫镈贬崖州、柳泌与大通杖杀。下排是小说虚构的事：严守一受命炼九转、冬至进蜜丸、腊月十四阿鲤送丹、御史台审问、流端州">
+  <g class="l" filter="url(#wob2)">
+    <path d="M40 200H690"/>
+    <path d="M70 192v16M250 192v16M430 192v16M610 192v16"/>
+  </g>
+  <g class="sm" text-anchor="middle">
+    <text x="70" y="226">元和十三年秋</text>
+    <text x="250" y="226">十四年夏</text>
+    <text x="430" y="226">十四年冬</text>
+    <text x="610" y="226">十五年正月—闰正月</text>
+  </g>
+  <text class="sm" x="40" y="30">史书所记</text>
+  <g class="l thin" filter="url(#wob2)">
+    <path d="M70 186V60M250 186V110M430 186V60M610 186V60"/>
+  </g>
+  <g font-size="14" text-anchor="middle">
+    <text x="70" y="54">柳泌入兴唐观炼药</text>
+    <text x="70" y="74" class="sm">十一月任台州刺史</text>
+    <text x="250" y="104">柳泌逃而复获</text>
+    <text x="250" y="124" class="sm">复待诏翰林，上服其药</text>
+    <text x="430" y="54">裴潾上疏</text>
+    <text x="430" y="74" class="sm">十一月贬江陵令</text>
+    <text x="610" y="54">庚子，崩于中和殿</text>
+    <text x="610" y="74" class="sm">皇甫镈贬崖州</text>
+    <text x="610" y="94" class="sm">柳泌、大通杖杀</text>
+  </g>
+  <text class="sm gt" x="40" y="388">小说虚构</text>
+  <g class="gl" filter="url(#wob2)">
+    <path d="M110 214V300M400 214V286M470 214V330M610 236V286M680 214V340"/>
+  </g>
+  <g font-size="14" text-anchor="middle" class="gt">
+    <text x="110" y="318">严守一受命炼九转</text>
+    <text x="400" y="304">冬至进蜜丸</text>
+    <text x="470" y="348">腊月十四阿鲤送丹</text>
+    <text x="590" y="304">御史台审问</text>
+    <text x="664" y="358">流端州</text>
+  </g>
+</svg>

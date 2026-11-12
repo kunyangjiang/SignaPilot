@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="概念图：葛洪的论证。左边草木一烧就成灰，一去不返；右边丹砂烧之成水银，积变又还成丹砂，是一个能回来的循环。下方是葛洪由此推出的结论：能自我复还的东西吃下去，人也能不朽。图中不包含任何操作条件">
+  <g class="l" filter="url(#wob2)">
+    <path d="M60 120h150"/>
+    <path d="M196 112l14 8-14 8"/>
+    <path d="M380 70 C 440 30, 580 30, 640 70"/>
+    <path d="M626 60l14 10-16 6"/>
+    <path d="M640 170 C 580 210, 440 210, 380 170"/>
+    <path d="M394 180l-14-10 16-6"/>
+  </g>
+  <g class="l thin" filter="url(#wob2)">
+    <path d="M360 40v250"/>
+  </g>
+  <g font-size="17" text-anchor="middle">
+    <text x="60" y="110">草木</text>
+    <text x="250" y="126">灰</text>
+    <text x="380" y="126">丹砂</text>
+    <text x="640" y="126">水银</text>
+  </g>
+  <g class="sm" text-anchor="middle">
+    <text x="135" y="150">“烧之即焦”，一去不返</text>
+    <text x="510" y="34">“烧之成水银”</text>
+    <text x="510" y="224">“积变又还成丹砂”</text>
+  </g>
+  <g font-size="15" text-anchor="middle">
+    <text x="180" y="262">“不能自生，何能生人乎”</text>
+    <text class="gt" x="540" y="262">能复还的东西 → 吃下去，人也不朽</text>
+  </g>
+  <text class="sm" text-anchor="middle" x="360" y="316">葛洪《抱朴子内篇·金丹》的类比推理（示意，不含任何操作条件）。化学上这只是硫化汞的分解与化合；推理的那一步不成立。</text>
+</svg>

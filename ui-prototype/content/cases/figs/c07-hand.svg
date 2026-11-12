@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="示意图：阿鲤抄经的同一行字，正月、三月、五月、七月四页并排，字一页比一页抖，七月那一页像是另一个老人描出来的">
+  <defs>
+    <filter id="c07h1" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.09" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="1.2"/></filter>
+    <filter id="c07h2" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.11" numOctaves="2" seed="5"/><feDisplacementMap in="SourceGraphic" scale="2.6"/></filter>
+    <filter id="c07h3" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.13" numOctaves="2" seed="7"/><feDisplacementMap in="SourceGraphic" scale="4.6"/></filter>
+    <filter id="c07h4" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.16" numOctaves="3" seed="9"/><feDisplacementMap in="SourceGraphic" scale="7.5"/></filter>
+  </defs>
+  <g class="l thin" filter="url(#wob2)">
+    <rect x="40" y="34" width="140" height="210"/>
+    <rect x="210" y="34" width="140" height="210"/>
+    <rect x="380" y="34" width="140" height="210"/>
+    <rect x="550" y="34" width="140" height="210"/>
+  </g>
+  <g class="sm" text-anchor="middle">
+    <text x="110" y="24">正月</text>
+    <text x="280" y="24">三月</text>
+    <text x="450" y="24">五月</text>
+    <text x="620" y="24">七月</text>
+  </g>
+  <g font-size="44" text-anchor="middle" style="font-family:'KaiTi','STKaiti','Kaiti SC',serif">
+    <g filter="url(#c07h1)"><text x="110" y="104">清</text><text x="110" y="160">静</text><text x="110" y="216">经</text></g>
+    <g filter="url(#c07h2)"><text x="280" y="104">清</text><text x="280" y="160">静</text><text x="280" y="216">经</text></g>
+    <g filter="url(#c07h3)"><text x="450" y="104">清</text><text x="450" y="160">静</text><text x="450" y="216">经</text></g>
+    <g filter="url(#c07h4)"><text x="620" y="104">清</text><text x="620" y="160">静</text><text x="620" y="216">经</text></g>
+  </g>
+  <text class="sm" text-anchor="middle" x="365" y="280">同一个人，同一句经，隔两个月一页。师父说这是“药在走”。</text>
+</svg>
