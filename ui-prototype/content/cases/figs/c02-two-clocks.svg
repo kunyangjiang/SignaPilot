@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-label="卡片上的 23:38 如果是墙上的北京时间，就落在有争议的那个钟头；如果是护士手表上的新疆时间，北京时间已是 15 号凌晨 1:38，两派都算 15 号">
+  <g class="l" filter="url(#wob2)">
+    <!-- the card -->
+    <rect x="270" y="16" width="180" height="50" rx="6"/>
+    <circle cx="284" cy="41" r="3"/>
+    <path d="M316 66L196 108M404 66L524 108"/>
+    <!-- wall clock -->
+    <circle cx="190" cy="160" r="46"/>
+    <path d="M190 160V128M190 160l-22-14"/>
+    <!-- wrist watch -->
+    <circle cx="530" cy="160" r="30"/>
+    <path d="M512 134l6-20h24l6 20M512 186l6 20h24l6-20"/>
+    <path d="M530 160V140M530 160l-14-9"/>
+    <path d="M190 212v34M530 198v48"/>
+    <path d="M190 246l-6-10M190 246l6-10M530 246l-6-10M530 246l6-10"/>
+    <rect x="390" y="250" width="280" height="66" rx="8"/>
+  </g>
+  <g class="gl" filter="url(#wob2)"><rect x="50" y="250" width="280" height="66" rx="8"/></g>
+  <rect class="wash" x="50" y="250" width="280" height="66" rx="8"/>
+  <g text-anchor="middle">
+    <text font-size="19" x="366" y="48">卡片上写着 23:38</text>
+    <text font-size="16" x="190" y="100" dx="-70">墙上的钟</text>
+    <text class="sm" x="96" y="166">北京时间</text>
+    <text font-size="16" x="624" y="148">护士的手表</text>
+    <text class="sm" x="624" y="170">新疆时间，晚 2 小时</text>
+    <text font-size="18" class="gt" x="190" y="280">14 号夜里 11 点 38</text>
+    <text class="sm gt" x="190" y="302">正是吵了一个多月的那个钟头</text>
+    <text font-size="18" x="530" y="280">15 号凌晨 1 点 38</text>
+    <text class="sm" x="530" y="302">哪一派算，都是 15 号</text>
+  </g>
+</svg>

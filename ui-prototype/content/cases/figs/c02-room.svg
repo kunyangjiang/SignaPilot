@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-label="邱先生的屋子平面图：外间一张八仙桌，陈屿和邱先生对坐；蓝布帘子后面的灶间里是许美凤，屏风后面是周慧兰">
+  <!-- the two hiding places -->
+  <rect class="wash" x="480" y="50" width="180" height="250"/>
+  <rect class="wash" x="78" y="62" width="120" height="70"/>
+  <g class="l" filter="url(#wob2)">
+    <!-- walls, with the street door at the bottom -->
+    <path d="M250 300H60V50h600v250H330"/>
+    <path d="M250 300l34 26"/>
+    <!-- the table -->
+    <rect x="270" y="130" width="96" height="96"/>
+    <!-- shrine -->
+    <rect x="70" y="50" width="56" height="18"/>
+    <!-- stove -->
+    <rect x="596" y="64" width="50" height="34"/>
+    <circle cx="621" cy="81" r="9"/>
+  </g>
+  <g class="gl" filter="url(#wob2)">
+    <!-- the curtain -->
+    <path d="M480 50c10 14-10 28 0 42s-10 28 0 42 -10 28 0 42 -10 28 0 42 -10 28 0 42 0 26 0 38"/>
+    <!-- the folding screen -->
+    <path d="M86 140l22-14 22 14 22-14 22 14 22-14"/>
+  </g>
+  <!-- people -->
+  <circle class="dotk" cx="318" cy="112" r="6"/>
+  <circle class="dotk" cx="318" cy="246" r="6"/>
+  <circle class="gdot" cx="566" cy="150" r="6"/>
+  <circle class="gdot" cx="138" cy="100" r="6"/>
+  <g>
+    <text font-size="17" x="334" y="106">邱先生</text>
+    <text font-size="17" x="334" y="262">陈屿</text>
+    <text class="sm" x="334" y="281">“先生，您是真有东西。”</text>
+    <text font-size="17" class="gt" text-anchor="middle" x="566" y="182">许美凤</text>
+    <text class="sm gt" text-anchor="middle" x="566" y="202">手里一把塞了抹布的壶</text>
+    <text font-size="17" class="gt" x="152" y="96">周慧兰</text>
+    <text class="sm gt" x="152" y="116">和一盒脆饼</text>
+    <text class="sm" x="210" y="152">屏风</text>
+    <text class="sm" text-anchor="end" x="470" y="72">蓝布帘子</text>
+    <text class="sm" text-anchor="middle" x="570" y="286">灶间</text>
+    <text class="sm" x="132" y="46">神龛</text>
+    <text class="sm" text-anchor="middle" x="290" y="350">门，阿嬷还有两分钟到</text>
+  </g>
+</svg>

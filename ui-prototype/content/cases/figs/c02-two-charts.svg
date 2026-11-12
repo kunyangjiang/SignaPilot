@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" role="img" aria-label="两部手机并排：一张盘的日柱是庚寅，另一张是己丑，其余完全相同">
+  <g class="l" filter="url(#wob2)">
+    <rect x="96" y="22" width="228" height="266" rx="22"/>
+    <rect x="396" y="22" width="228" height="266" rx="22"/>
+    <path d="M186 40h48M486 40h48"/>
+    <path d="M120 108h180M420 108h180"/>
+    <path d="M120 206h180M420 206h180"/>
+  </g>
+  <g class="wash"><ellipse cx="231" cy="158" rx="30" ry="46"/><ellipse cx="531" cy="158" rx="30" ry="46"/></g>
+  <g class="gl" filter="url(#wob2)"><ellipse cx="231" cy="158" rx="27" ry="43"/><ellipse cx="531" cy="158" rx="27" ry="43"/></g>
+  <g text-anchor="middle">
+    <text class="sm" x="210" y="76">邱先生的语音</text>
+    <text class="sm" x="510" y="76">排盘软件</text>
+    <g class="sm"><text x="145" y="100">年</text><text x="188" y="100">月</text><text x="231" y="100">日</text><text x="274" y="100">时</text>
+      <text x="445" y="100">年</text><text x="488" y="100">月</text><text x="531" y="100">日</text><text x="574" y="100">时</text></g>
+    <g font-size="27">
+      <text x="145" y="152">丁</text><text x="145" y="188">丑</text>
+      <text x="188" y="152">庚</text><text x="188" y="188">戌</text>
+      <text class="gt" x="231" y="152">庚</text><text class="gt" x="231" y="188">寅</text>
+      <text x="274" y="152">丙</text><text x="274" y="188">子</text>
+      <text x="445" y="152">丁</text><text x="445" y="188">丑</text>
+      <text x="488" y="152">庚</text><text x="488" y="188">戌</text>
+      <text class="gt" x="531" y="152">己</text><text class="gt" x="531" y="188">丑</text>
+      <text x="574" y="152">丙</text><text x="574" y="188">子</text>
+    </g>
+    <text font-size="20" x="210" y="246">不宜</text>
+    <text font-size="20" x="510" y="246">上上之选</text>
+    <text class="sm" x="210" y="270">15 号</text>
+    <text class="sm" x="510" y="270">14 号</text>
+  </g>
+</svg>

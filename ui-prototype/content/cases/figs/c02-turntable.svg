@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 396" role="img" aria-label="电动转盘上的红漆小盘里有四张庚帖，十四把椅子围着圆桌">
+  <g class="wash"><circle cx="360" cy="200" r="42"/></g>
+  <g class="l" filter="url(#wob2)">
+    <circle cx="360" cy="200" r="120"/>
+    <circle cx="360" cy="200" r="80"/>
+    <circle cx="360" cy="200" r="40"/>
+    <path d="M423.6 124.2A99 99 0 0 1 457.5 182.8"/>
+    <path d="M457.5 182.8l-10-7M457.5 182.8l4-12"/>
+  </g>
+  <!-- fourteen chairs -->
+  <g class="dotk">
+    <circle cx="360" cy="58" r="4.5"/><circle cx="421.6" cy="72" r="4.5"/><circle cx="471" cy="111.5" r="4.5"/><circle cx="498.4" cy="168.3" r="4.5"/>
+    <circle cx="498.4" cy="231.7" r="4.5"/><circle cx="471" cy="288.5" r="4.5"/><circle cx="421.6" cy="328" r="4.5"/><circle cx="360" cy="342" r="4.5"/>
+    <circle cx="298.4" cy="328" r="4.5"/><circle cx="249" cy="288.5" r="4.5"/><circle cx="221.6" cy="231.7" r="4.5"/><circle cx="221.6" cy="168.3" r="4.5"/>
+    <circle cx="249" cy="111.5" r="4.5"/><circle cx="298.4" cy="72" r="4.5"/>
+  </g>
+  <!-- four slips in the dish -->
+  <g class="gl" filter="url(#wob2)">
+    <rect x="343" y="166" width="13" height="34" transform="rotate(-18 349.5 183)"/>
+    <rect x="365" y="169" width="13" height="34" transform="rotate(14 371.5 186)"/>
+    <rect x="339" y="200" width="13" height="34" transform="rotate(62 345.5 217)"/>
+    <rect x="363" y="203" width="13" height="34" transform="rotate(-48 369.5 220)"/>
+  </g>
+  <g class="l thin">
+    <path d="M346 172L204 92"/><path d="M375 176L516 92"/><path d="M336 222L204 300"/><path d="M382 226L516 300"/>
+  </g>
+  <g>
+    <text text-anchor="end" x="196" y="90" font-size="20">子时</text>
+    <text class="sm" text-anchor="end" x="196" y="111">阿嬷请人重抄的</text>
+    <text x="524" y="90" font-size="20">亥时</text>
+    <text class="sm" x="524" y="111">周慧兰带来的</text>
+    <text text-anchor="end" x="196" y="298" font-size="20">夜十一点三十八分</text>
+    <text class="sm" text-anchor="end" x="196" y="319">枕套里抖出来的</text>
+    <text x="524" y="298" font-size="20">陈屿的</text>
+    <text class="sm" x="524" y="319">唯一没有争议的一张</text>
+    <text class="sm" text-anchor="middle" x="360" y="378">电动转盘，每分钟一圈</text>
+  </g>
+</svg>

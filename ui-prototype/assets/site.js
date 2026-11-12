@@ -132,7 +132,8 @@
   /* ---------- chrome ---------- */
   const isReader = page === 'lesson' || page === 'case';
   if (isReader) body.classList.add('reader');
-  if (isReader && store.get('sp-day') === '1') document.documentElement.classList.add('day');
+  // day or night is one choice for the whole site (each page's <head> applies it before first paint)
+  document.documentElement.classList.toggle('day', store.get('sp-day') === '1');
   /* back: go to the page the reader came from, at the place they left it */
   // Where "back" goes when there is no in-site page to return to (a link opened directly, a new tab).
   const parentHref = (() => {
@@ -164,7 +165,55 @@
       if (sameSite && history.length > 1) { e.preventDefault(); save(); history.back(); }
     });
   }
+  /* reading position: lessons and stories remember how far the reader got, across visits */
+  // Unlike the session memory above, this is kept in localStorage and applies however the reader arrives:
+  // a refresh, a link from the home page, the back button. Pressing "back to top" or "从头读" clears it.
+  const readerNow = page === 'lesson' || page === 'case';
+  const readId = page === 'lesson' ? (D.courseIndex[qs.get('c')] ? qs.get('c') : '05-06') : (D.cases.some(c => c.id === qs.get('c')) ? qs.get('c') : '01');
+  const READ_KEY = `sp-read:${page}:${readId}`;
+  const reading = {
+    get() { try { return JSON.parse(localStorage.getItem(READ_KEY) || 'null'); } catch (e) { return null; } },
+    set(v) { try { if (v) localStorage.setItem(READ_KEY, JSON.stringify(v)); else localStorage.removeItem(READ_KEY); } catch (e) { /* not remembered */ } },
+  };
+  // Until the saved place has been restored, scrolling must not overwrite it (the page is still growing as text and fonts arrive).
+  let holdSave = readerNow && !!reading.get();
+  if (holdSave) setTimeout(() => { holdSave = false; }, 6000);
+  // After "back to top" the page is still gliding upward; leaving mid-glide must not save a half-way position.
+  let resetting = false;
+  ['wheel', 'touchstart', 'keydown'].forEach(ev => addEventListener(ev, () => { resetting = false; }, { passive: true }));
+  function saveReading() {
+    if (resetting) { if (scrollY <= 4) resetting = false; return; }
+    if (!readerNow || holdSave) return;
+    const max = document.documentElement.scrollHeight - innerHeight;
+    reading.set(scrollY <= 4 || max <= 0 ? null : { y: Math.round(scrollY), r: +(scrollY / max).toFixed(4), w: innerWidth });
+  }
+  function resumeNote() {
+    const n = document.createElement('div');
+    n.className = 'resume-note'; n.setAttribute('role', 'status');
+    n.innerHTML = '<span>已回到上次读到的位置</span><button type="button">从头读</button>';
+    body.appendChild(n);
+    void n.offsetWidth; n.classList.add('is-on');           // reflow first, so it fades in
+    const close = () => { n.classList.remove('is-on'); setTimeout(() => n.remove(), 400); };
+    $('button', n).addEventListener('click', () => { reading.set(null); scrollTo({ top: 0, behavior: 'instant' }); close(); });
+    setTimeout(close, 7000);
+  }
+  function resumeReading() {
+    if (!readerNow) return;
+    const p = reading.get();
+    if (!p || location.hash || p.y < innerHeight * 0.5) { holdSave = false; return; }   // near the top is not worth a jump
+    const max = () => document.documentElement.scrollHeight - innerHeight;
+    // same window width: the exact pixel position; a different width reflows the text, so use the fraction read instead
+    const where = () => Math.abs((p.w || 0) - innerWidth) < 40 ? Math.min(p.y, max()) : Math.round(p.r * max());
+    let live = true; const stop = () => { live = false; holdSave = false; };
+    ['wheel', 'touchstart', 'keydown', 'pointerdown'].forEach(ev => addEventListener(ev, stop, { once: true, passive: true }));
+    const go = () => { if (live) scrollTo(0, where()); };
+    go(); if (document.fonts && document.fonts.ready) document.fonts.ready.then(go);
+    addEventListener('load', go); setTimeout(go, 400); setTimeout(() => { go(); live = false; holdSave = false; }, 900);
+    resumeNote();
+  }
+
   function restorePosition() {
+    if (readerNow) return false;                              // readers use the long-lived reading position instead
     const p = isBack && sess.get(POS_KEY); if (!p) return false;
     if (p.open && $('.all')) $('.all').open = true;
     if (p.filter) { const b = $$('#filters button').find(x => x.textContent === p.filter); if (b) b.click(); }
@@ -183,8 +232,8 @@
   };
   body.insertAdjacentHTML('afterbegin', `
     <header class="top"><div class="wrap">
-      <a class="back" href="${parentHref}" data-back aria-label="返回上一页">‹ 返回</a>
       <a class="brand" href="index.html">SignaPilot</a>
+      <a class="back" href="${parentHref}" data-back aria-label="返回上一页"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 5.5L8 12l6.5 6.5"/></svg><span>返回</span></a>
       <nav aria-label="主导航">
         <a href="knowledge.html" class="${dept === 'k' ? 'on' : ''}">Knowledge 知识</a>
         <a href="cases.html" class="${dept === 'c' ? 'on' : ''}">Cases 小说</a>
@@ -235,26 +284,38 @@
     if (e.key === '/' && !/INPUT|TEXTAREA/.test(document.activeElement.tagName)) { e.preventDefault(); openSheet(); }
   });
 
+  /* day / night: the same button in the same corner of every page; the choice is kept for the whole site */
+  body.insertAdjacentHTML('beforeend', '<div class="tools"><button type="button" data-day aria-label="切换日间与夜间"></button></div>');
+  {
+    const root = document.documentElement, dayBtn = $('[data-day]');
+    const syncDay = () => { dayBtn.textContent = root.classList.contains('day') ? '夜' : '昼'; };
+    syncDay();
+    dayBtn.addEventListener('click', () => { store.set('sp-day', root.classList.toggle('day') ? '1' : '0'); syncDay(); fields.forEach(f => f()); });
+    // another tab changed it, or this page came back from the back/forward cache
+    const follow = () => { const on = store.get('sp-day') === '1'; if (on !== root.classList.contains('day')) { root.classList.toggle('day', on); syncDay(); fields.forEach(f => f()); } };
+    addEventListener('storage', follow); addEventListener('pageshow', follow);
+  }
+
   /* readers: hairline progress, chrome steps aside while reading down, type size and day/night */
   if (isReader) {
-    body.insertAdjacentHTML('beforeend', '<div class="bar"></div><div class="tools"><button type="button" data-fs="1" aria-label="放大字号">大</button><button type="button" data-fs="-1" aria-label="缩小字号">小</button><button type="button" data-day aria-label="切换日间与夜间">昼</button></div>');
+    body.insertAdjacentHTML('beforeend', '<div class="bar"></div>');
+    $('.tools').insertAdjacentHTML('afterbegin', '<button type="button" data-fs="1" aria-label="放大字号">大</button><button type="button" data-fs="-1" aria-label="缩小字号">小</button>');
     const bar = $('.bar'), top = $('.top');
-    let last = 0;
+    let last = 0, readTimer = 0;
     const onScroll = () => {
       const y = scrollY, max = document.documentElement.scrollHeight - innerHeight;
       bar.style.transform = `scaleX(${max > 0 ? Math.min(1, y / max) : 0})`;
       top.classList.toggle('hide', y > last && y > 200); last = y;
+      clearTimeout(readTimer); readTimer = setTimeout(saveReading, 150);
     };
+    addEventListener('pagehide', saveReading);
     addEventListener('scroll', onScroll, { passive: true }); onScroll();
     const target = $('.story') || $('.prose');
     let fs = parseFloat(store.get('sp-fs') || '0'), base = target ? parseFloat(getComputedStyle(target).fontSize) : 0;
     const applyFs = () => { if (target) target.style.fontSize = fs ? (base + fs) + 'px' : ''; };
     applyFs();
-    const dayBtn = $('[data-day]'), syncDay = () => { dayBtn.textContent = document.documentElement.classList.contains('day') ? '夜' : '昼'; };
-    syncDay();
     $('.tools').addEventListener('click', e => {
       const b = e.target.closest('button'); if (!b) return;
-      if (b.dataset.day !== undefined) { const on = document.documentElement.classList.toggle('day'); store.set('sp-day', on ? '1' : '0'); syncDay(); fields.forEach(f => f()); }
       if (b.dataset.fs) { fs = Math.max(-2, Math.min(4, fs + Number(b.dataset.fs))); store.set('sp-fs', String(fs)); applyFs(); }
     });
   }
@@ -266,6 +327,120 @@
     if (W < 700) return (x, y) => smooth(0.5, 1, x / W) * (1 - smooth(0.06, 0.24, y / H)) * 0.8;
     return (x, y) => smooth(0.48, 1, x / W) * (1 - smooth(0.62, 1, y / H)) * clear(x, y);
   }, 0.9);
+
+  /* ---------- written content ---------- */
+  // Finished manuscripts live as Markdown under content/. Cases not listed here still show the layout sample.
+  const WRITTEN = { '02': { story: 'content/cases/c02.md', notes: 'content/cases/c02-notes.md' } };
+  const inline = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>');
+  // A deliberately small Markdown reader: just the handful of block types the manuscripts use.
+  function blocks(text) {
+    const L = text.replace(/\r/g, '').split('\n'), out = []; let i = 0;
+    const run = (re, strip) => { const b = []; while (i < L.length && re.test(L[i])) b.push(strip(L[i++])); return b; };
+    while (i < L.length) {
+      const l = L[i];
+      if (!l.trim()) i++;
+      else if (/^# /.test(l)) { out.push({ t: 'h1', s: l.slice(2) }); i++; }
+      else if (/^## /.test(l)) { out.push({ t: 'h2', s: l.slice(3) }); i++; }
+      else if (/^-{3,}\s*$/.test(l)) { out.push({ t: 'hr' }); i++; }
+      else if (/^\*\s\*\s\*\s*$/.test(l)) { out.push({ t: 'gap' }); i++; }
+      else if (/^>/.test(l)) out.push({ t: 'quote', s: run(/^>/, x => x.replace(/^>\s?/, '')) });
+      else if (/^\|/.test(l)) out.push({ t: 'table', rows: run(/^\|/, x => x.trim().replace(/^\||\|$/g, '').split('|').map(c => c.trim())).filter(r => !r.every(c => /^:?-+:?$/.test(c))) });
+      else if (/^- /.test(l)) out.push({ t: 'ul', it: run(/^- /, x => x.slice(2)) });
+      else if (/^!\[.*\]\(.+\)\s*$/.test(l)) { const m = l.match(/^!\[(.*)\]\((.+)\)/); out.push({ t: 'img', cap: m[1], src: m[2] }); i++; }
+      else { out.push({ t: 'p', s: l }); i++; }
+    }
+    return out;
+  }
+  const table = b => `<div class="tblwrap"><table><thead><tr>${b.rows[0].map(c => `<th>${inline(c)}</th>`).join('')}</tr></thead><tbody>${b.rows.slice(1).map(r => `<tr>${r.map(c => `<td>${inline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+  // Figures are original SVG drawings stored next to the manuscript. They are fetched and placed inline rather than
+  // shown as <img>, so their lines follow the page's ink colour, day or night, and share its hand-drawn filter.
+  const figure = b => `<figure class="fig ill" data-src="content/cases/${esc(b.src)}"><div class="fig-frame"></div>${b.cap ? `<figcaption>${inline(b.cap)}</figcaption>` : ''}</figure>`;
+  const placeFigures = root => $$('figure.ill[data-src]', root).forEach(f => load(f.dataset.src)
+    .then(svg => { if (/^\s*<svg[\s>]/.test(svg)) $('.fig-frame', f).innerHTML = svg; else f.remove(); })
+    .catch(() => f.remove()));
+  // Fiction: nothing but the story. Front matter is dropped; "## 一" becomes a chapter mark; lines the manuscript
+  // indents with full-width spaces are documents quoted inside the story (a chart, a note, a log entry).
+  function storyHtml(text) {
+    const bs = blocks(text), start = bs.findIndex(b => b.t === 'h2' && b.s.trim() !== '人物');
+    return bs.slice(start).map(b => {
+      if (b.t === 'h2') return `<p class="chap"><span>${esc(b.s)}</span></p>`;
+      if (b.t === 'gap') return '<div class="gap"></div>';
+      if (b.t === 'table') return table(b);
+      if (b.t === 'img') return figure(b);
+      if (b.t !== 'p') return '';
+      if (/^　　/.test(b.s)) return `<p class="rec">${inline(b.s.trim())}</p>`;
+      if (/^\*\*[^*]+\*\*$/.test(b.s)) return `<p class="mark">${inline(b.s)}</p>`;
+      return `<p>${inline(b.s)}</p>`;
+    }).join('');
+  }
+  // Who is who: every story opens with a "## 人物" section in its manuscript. It is shown on its own, before and
+  // outside the story text: a line of setup, then groups (a bold line) of people ("- **名字**：一句话").
+  function castHtml(text) {
+    const bs = blocks(text), a = bs.findIndex(b => b.t === 'h2' && b.s.trim() === '人物');
+    if (a < 0) return '';
+    let end = bs.findIndex((b, k) => k > a && b.t === 'h2'); if (end < 0) end = bs.length;
+    let intro = '', groups = [], cur = null;
+    bs.slice(a + 1, end).forEach(b => {
+      if (b.t === 'p' && /^\*\*[^*]+\*\*$/.test(b.s)) { cur = { name: b.s.replace(/\*/g, ''), who: [] }; groups.push(cur); }
+      else if (b.t === 'p') intro += `<p class="cast-intro">${inline(b.s)}</p>`;
+      else if (b.t === 'ul') { if (!cur) { cur = { name: '', who: [] }; groups.push(cur); } b.it.forEach(x => { const m = x.match(/^\*\*(.+?)\*\*[：:]\s*(.+)$/); cur.who.push(m ? { n: m[1], d: m[2] } : { n: '', d: x }); }); }
+    });
+    return `<h2 class="label">本篇人物</h2>${intro}<div class="cast-groups">${groups.map(g => `<section>${g.name ? `<h3>${esc(g.name)}</h3>` : ''}<dl>${g.who.map(w => `<div><dt>${esc(w.n)}</dt><dd>${inline(w.d)}</dd></div>`).join('')}</dl></section>`).join('')}</div>`;
+  }
+  // Notes: sections come from "## 一、标题"; evidence tags in full-width brackets get their own style;
+  // a list item that starts with a course number becomes a link to that lesson.
+  function notesHtml(text) {
+    const tag = h => h.replace(/［(已核|待核)([^］]*)］/g, '<span class="ev ev-$1">$1$2</span>');
+    const secs = []; let cur = null;
+    blocks(text).forEach(b => {
+      if (b.t === 'h2') { const m = b.s.match(/^(.+?)、(.+)$/); cur = { n: m ? m[1] : '', title: m ? m[2] : b.s, html: '' }; secs.push(cur); return; }
+      if (!cur) return;
+      if (b.t === 'p') cur.html += /^　　/.test(b.s) ? `<p class="rec">${tag(inline(b.s.trim()))}</p>` : `<p>${tag(inline(b.s))}</p>`;
+      else if (b.t === 'table') cur.html += tag(table(b));
+      else if (b.t === 'img') cur.html += figure(b);
+      else if (b.t === 'ul') cur.html += `<ul class="reading">${b.it.map(x => { const m = x.match(/^(\d\d-\d\d)\s+(.+)$/); return m && D.courseIndex[m[1]] ? `<li><a href="${lessonHref(m[1])}"><span class="mono">${m[1]}</span> ${esc(m[2])}</a></li>` : `<li>${tag(inline(x))}</li>`; }).join('')}</ul>`;
+    });
+    return {
+      nav: secs.map((s, k) => `<a href="#n${k + 1}">${esc(s.title)}</a>`).join(''),
+      body: secs.map((s, k) => `<section id="n${k + 1}"><h2>${s.n ? `<span class="mono">${esc(s.n)}</span>` : ''}${esc(s.title)}</h2>${s.html}</section>`).join(''),
+    };
+  }
+  // 'no-cache' makes the browser check with the server each time, so an edited manuscript shows up on reload
+  const load = url => fetch(url, { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error(r.status); return r.text(); });
+
+  // The chapter list that stays at the left edge of a reading page (wide screens only). It is built from the
+  // headings already on the page, marks the one being read, and is only shown while the text itself is on screen.
+  // items: [{ el, n, label, sub }]
+  function chapterNav(article, items) {
+    const old = $('.chap-nav'); if (old) old.remove();
+    if (!article || items.length < 2) return;
+    const nav = document.createElement('nav');
+    nav.className = 'chap-nav'; nav.setAttribute('aria-label', '章节目录');
+    nav.innerHTML = `<p class="label">目录</p><ol>${items.map((it, k) => `<li class="${it.sub ? 'sub' : ''}"><a href="#" data-k="${k}">${it.n ? `<b>${esc(it.n)}</b>` : ''}${it.label ? `<span>${esc(it.label)}</span>` : ''}</a></li>`).join('')}</ol>`;
+    body.append(nav);
+    const links = $$('a', nav);
+    nav.addEventListener('click', e => {
+      const a = e.target.closest('a'); if (!a) return;
+      e.preventDefault();
+      const top = items[+a.dataset.k].el.getBoundingClientRect().top + scrollY - 110;
+      scrollTo({ top: Math.max(0, top), behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+    });
+    let cur = -2;
+    const update = () => {
+      const r = article.getBoundingClientRect();
+      nav.classList.toggle('is-on', r.top < innerHeight * 0.55 && r.bottom > innerHeight * 0.45);
+      let k = -1;
+      items.forEach((it, j) => { if (it.el.getBoundingClientRect().top <= innerHeight * 0.4) k = j; });
+      if (k === cur) return;
+      cur = k;
+      links.forEach((a, j) => { a.classList.toggle('on', j === k); if (j === k) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current'); });
+      const on = links[k];
+      if (on && nav.scrollHeight > nav.clientHeight) nav.scrollTop = on.offsetTop - nav.clientHeight / 2;
+    };
+    addEventListener('scroll', update, { passive: true });
+    addEventListener('resize', update);
+    update(); setTimeout(update, 500);
+  }
 
   /* ---------- pages ---------- */
   const R = {
@@ -390,6 +565,10 @@
       if (id !== '05-06') $('#l-note').hidden = false;
       const p = all[i - 1], n = all[i + 1];
       $('#l-pager').innerHTML = (p ? `<a href="${lessonHref(p.id)}"><span>上一课 · ${p.id}</span><b>${esc(p.title)}</b></a>` : '<span></span>') + (n ? `<a href="${lessonHref(n.id)}"><span>下一课 · ${n.id}</span><b>${esc(n.title)}</b></a>` : '<span></span>');
+      chapterNav($('.prose'), $$('.prose h2').map(el => {
+        const m = $('.mono', el), n = m ? m.textContent.trim() : '';
+        return { el, n, label: el.textContent.trim().slice(n.length) };
+      }));
       // citation marker: on narrow screens it unfolds its note under the paragraph; on wide screens it points at the reference
       $$('.cite').forEach(a => a.addEventListener('click', e => {
         e.preventDefault();
@@ -427,7 +606,7 @@
         const prog = st === 'done' ? '已读完' : st === 'half' ? `读到 ${Math.round(pct * 100)}%` : '';
         return `<li data-tags="${c.tags.join(' ')}"><a href="${caseHref(c.id)}">
           <div class="em">${glyphSvg(c.glyph)}<span class="mono">${Number(c.id)}</span></div>
-          <div><h3>${esc(c.title)}</h3><p class="genre">${esc(c.genre)}</p><p class="setting">${esc(c.setting)}</p></div>
+          <div><h3>${esc(c.title)}${WRITTEN[c.id] ? '<span class="ready">全文</span>' : ''}</h3><p class="genre">${esc(c.genre)}</p><p class="setting">${esc(c.setting)}</p></div>
           <p class="premise">${esc(c.premise)}</p>
           <div class="len"><b>约 ${c.len.toFixed(1)} 万字</b><span>${Math.round(c.len * 10000 / 420 / 5) * 5} 分钟</span>${prog ? `<span>${prog}</span><div class="readbar"><i style="width:${st === 'done' ? 100 : pct * 100}%"></i></div>` : ''}</div>
         </a></li>`;
@@ -449,7 +628,23 @@
       field(cover, (W, H, rect) => around($('.cover-in', cover), rect, W <= 700 ? [1, 1.05] : [1.3, 1.25], 0.8, W <= 700 ? 1.5 : 1.9));
       const after = $('.after');
       field(after, (W, H, rect) => { const f = around($('div', after), rect, [1.5, 2], 0.8, 2.2); return (x, y) => f(x, y) * smooth(0.1, 0.6, y / H); }, 0.5);
-      if (c.id !== '01') $('#c-note').hidden = false;
+      const w = WRITTEN[c.id];
+      if (w) {
+        // a written case replaces the layout sample with its manuscript; if it cannot be fetched the sample stays and says so
+        load(w.story).then(text => {
+          $('#story').innerHTML = storyHtml(text);
+          const cast = castHtml(text);
+          if (cast) { $('#cast').innerHTML = cast; $('#cast').hidden = false; const b = $('.begin', cover); if (b) b.href = '#cast'; }
+          placeFigures($('#story'));
+          chapterNav($('#story'), $$('#story .chap, #story .mark').map(el => {
+            const t = el.textContent.trim();
+            return el.classList.contains('chap') ? { el, n: t, label: '' } : { el, sub: true, label: (t.match(/^第.{1,3}?[盏场幕夜天封]./) || [t.slice(0, 8)])[0] };
+          }));
+          fields.forEach(f => f());      // the page is much taller now, so the writing is laid out again
+          resumeReading();
+        }).catch(() => { const n = $('#c-note'); n.textContent = '这篇小说的正文暂时没有加载出来，下面显示的是版式示意。'; n.hidden = false; resumeReading(); });
+        deferResume = true;              // the manuscript arrives later; resume once it is on the page
+      } else if (c.id !== '01') $('#c-note').hidden = false;
       $('#c-notes').href = `notes.html?c=${c.id}`;
       $('#c-next').innerHTML = `下一篇 · <a href="${caseHref(n.id)}">${esc(n.title)}</a>`;
     },
@@ -460,13 +655,23 @@
       $('#n-label').textContent = `Case Notes · ${Number(c.id)}`;
       $('#n-title').textContent = `《${c.title}》背后的档案`;
       $('#n-back').href = caseHref(c.id);
-      if (c.id !== '01') $('#n-note').hidden = false;
+      const w = WRITTEN[c.id];
+      if (w) {
+        load(w.notes).then(text => {
+          const n = notesHtml(text);
+          $('.notes-nav').innerHTML = n.nav; $('.notes-body').innerHTML = n.body;
+          placeFigures($('.notes-body'));
+          restorePosition();
+        }).catch(() => { const n = $('#n-note'); n.textContent = '这篇的 Case Notes 暂时没有加载出来，下面显示的是示例结构。'; n.hidden = false; });
+      } else if (c.id !== '01') $('#n-note').hidden = false;
       headField($('.notes-head'));
       $('#n-links').innerHTML = ['01-03', '02-02', '02-04'].map(id => { const k = D.courseIndex[id]; return `<a href="${lessonHref(id)}"><span class="mono">${id}</span><span class="t">${esc(k.title)}</span><em>Stage ${Number(k.stage.id)}</em></a>`; }).join('');
     },
   };
+  let deferResume = false;
   if (R[page]) R[page]();
   restorePosition();
+  if (!deferResume) resumeReading();
 
   /* ---------- back to top ---------- */
   // Same behaviour as the sibling sites: it appears after one screen of scrolling and leaves only at the very top.
@@ -488,9 +693,15 @@
       shown = scrollY <= 4 ? false : (shown || scrollY > innerHeight);
       btn.classList.toggle('is-shown', shown); btn.tabIndex = shown ? 0 : -1; btn.setAttribute('aria-hidden', String(!shown));
     };
-    const toTop = () => scrollTo({ top: 0, behavior: reduced ? 'auto' : 'smooth' });
+    // going back to the top is also the reader saying "start over": the saved reading position is cleared
+    const toTop = () => { reading.set(null); resetting = true; scrollTo({ top: 0, behavior: reduced ? 'auto' : 'smooth' }); };
+    // The floating back button: once the reader has scrolled down, "back" waits in the bottom-left corner,
+    // opposite the back-to-top button. It is the same action as the one in the top bar, and it does not move.
+    body.insertAdjacentHTML('beforeend', `<a class="to-back" href="${parentHref}" data-back aria-label="返回上一页" tabindex="-1" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M19 12H6M11.5 5.5 5 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>返回</span></a>`);
+    const fab = $('.to-back');
+    const updateFab = () => { const on = scrollY > 240; fab.classList.toggle('is-on', on); fab.tabIndex = on ? 0 : -1; fab.setAttribute('aria-hidden', String(!on)); };
     place(); addEventListener('resize', place);
-    addEventListener('scroll', update, { passive: true }); setTimeout(update, 400);
+    addEventListener('scroll', () => { update(); updateFab(); }, { passive: true }); setTimeout(() => { update(); updateFab(); }, 400);
     btn.addEventListener('pointerdown', e => {
       if (e.button !== 0) return;
       const r = btn.getBoundingClientRect();

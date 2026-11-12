@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="子时横跨两天：23 点到 0 点这一小时，两种换日法给出不同的日柱">
+  <!-- the contested hour -->
+  <rect class="wash" x="260" y="34" width="100" height="270"/>
+  <!-- three double-hours -->
+  <g class="l" filter="url(#wob2)">
+    <rect x="60" y="54" width="200" height="46"/>
+    <rect x="260" y="54" width="200" height="46"/>
+    <rect x="460" y="54" width="200" height="46"/>
+    <path d="M60 138h600"/>
+    <path d="M60 132v12M160 132v12M260 132v12M360 132v12M460 132v12M560 132v12M660 132v12"/>
+  </g>
+  <g class="gl" filter="url(#wob2)"><path d="M360 40v264" stroke-dasharray="5 6"/></g>
+  <g text-anchor="middle">
+    <text font-size="21" x="160" y="85">亥时</text>
+    <text font-size="21" class="gt" x="360" y="85">子时</text>
+    <text font-size="21" x="560" y="85">丑时</text>
+    <g class="sm"><text x="60" y="162">21:00</text><text x="160" y="162">22:00</text><text x="260" y="162">23:00</text><text x="360" y="162">0:00</text><text x="460" y="162">1:00</text><text x="560" y="162">2:00</text><text x="660" y="162">3:00</text></g>
+    <text class="sm gt" x="360" y="28">零点</text>
+  </g>
+  <!-- 23:38 -->
+  <g class="gl"><path d="M323 104v30"/></g>
+  <circle class="gdot" cx="323" cy="138" r="5"/>
+  <text class="gt" font-size="15" text-anchor="middle" x="323" y="122" dx="26">23:38</text>
+  <!-- rule A: the day changes at 23:00 -->
+  <g class="l" filter="url(#wob2)"><path d="M60 208h196M264 208h396"/><path d="M260 196v24"/></g>
+  <text class="sm" x="60" y="196">子时换日</text>
+  <text font-size="17" text-anchor="middle" x="160" y="232">14 号</text>
+  <text font-size="17" text-anchor="middle" x="460" y="232">15 号</text>
+  <!-- rule B: the day changes at midnight -->
+  <g class="l" filter="url(#wob2)"><path d="M60 274h296M364 274h296"/><path d="M360 262v24"/></g>
+  <text class="sm" x="60" y="262">夜子时不换日</text>
+  <text font-size="17" text-anchor="middle" x="210" y="298">14 号</text>
+  <text font-size="17" text-anchor="middle" x="510" y="298">15 号</text>
+  <text class="sm gt" text-anchor="middle" x="310" y="322">只有这一个钟头，两种算法不一样</text>
+</svg>
