@@ -606,7 +606,7 @@
         const prog = st === 'done' ? '已读完' : st === 'half' ? `读到 ${Math.round(pct * 100)}%` : '';
         return `<li data-tags="${c.tags.join(' ')}"><a href="${caseHref(c.id)}">
           <div class="em">${glyphSvg(c.glyph)}<span class="mono">${Number(c.id)}</span></div>
-          <div><h3>${esc(c.title)}${WRITTEN[c.id] ? '<span class="ready">全文</span>' : ''}</h3><p class="genre">${esc(c.genre)}</p><p class="setting">${esc(c.setting)}</p></div>
+          <div><h3>${esc(c.title)}</h3><p class="genre">${esc(c.genre)}</p><p class="setting">${esc(c.setting)}</p></div>
           <p class="premise">${esc(c.premise)}</p>
           <div class="len"><b>约 ${c.len.toFixed(1)} 万字</b><span>${Math.round(c.len * 10000 / 420 / 5) * 5} 分钟</span>${prog ? `<span>${prog}</span><div class="readbar"><i style="width:${st === 'done' ? 100 : pct * 100}%"></i></div>` : ''}</div>
         </a></li>`;

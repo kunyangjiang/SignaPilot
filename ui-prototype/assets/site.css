@@ -436,7 +436,6 @@ figure.fig { margin: 2.7em 0; }
 .ev { font-size: 12px; border-radius: 10px; padding: 0 7px; margin: 0 2px; white-space: nowrap; border: 1px solid var(--line-2); color: var(--ink-3); }
 .ev-已核 { border-color: var(--gold); color: var(--gold); }
 .reading li a:hover { color: var(--gold); }
-.ready { font-family: var(--f-hei); font-size: 12px; letter-spacing: .08em; color: var(--gold); border: 1px solid var(--gold); border-radius: 10px; padding: 1px 8px; margin-left: 14px; vertical-align: middle; }
 .story .elide { text-indent: 0; text-align: center; color: var(--ink-3); font-family: var(--f-hei); font-size: .72em; margin: 2.6em 0; }
 .fin { text-align: center; padding: 110px 0 0; }
 .fin span { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 16px var(--gold); font-size: 0; }
