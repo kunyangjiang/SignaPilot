@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 400" role="img" aria-label="三个判断的台阶：第一，这种密码在技术上行得通；第二，这段文字看起来合得上，需要可重复的盲测；第三，某位作者确实用了它，需要独立史料。前一个成立，不能推出后一个。">
+<rect class="l" x="8" y="12" width="344" height="106" rx="4"/>
+<text x="22" y="44" font-size="19">一　这种密码行得通</text>
+<text x="22" y="74" font-size="15.5">技术判断：两类符号，五个一组，</text>
+<text x="22" y="100" font-size="15.5">任何两种可区分的东西都能载密文</text>
+<path class="l thin" d="M48 118v26" stroke-dasharray="3 4"/>
+<rect class="l" x="22" y="144" width="316" height="106" rx="4"/>
+<text x="36" y="176" font-size="19">二　这段文字看起来合得上</text>
+<text x="36" y="206" font-size="15.5">模式判断：要问分类能否被别人、</text>
+<text x="36" y="232" font-size="15.5">被同一个人盲测时重复出来</text>
+<path class="l thin" d="M62 250v26" stroke-dasharray="3 4"/>
+<rect class="l" x="36" y="276" width="288" height="106" rx="4"/>
+<text x="50" y="308" font-size="19">三　某位作者确实用了它</text>
+<text x="50" y="338" font-size="15.5">历史判断：还要有独立的史料，</text>
+<text x="50" y="364" font-size="15.5">而不只是字体里读出来的话</text>
+</svg>

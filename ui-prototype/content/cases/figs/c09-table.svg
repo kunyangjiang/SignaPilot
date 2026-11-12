@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 400" role="img" aria-label="培根双字母密码的二十四字母表：I 与 J、U 与 V 共用一组。A aaaaa 到 Z babbb，按二进制顺序排列；bbaaa 到 bbbbb 八组不对应任何字母。">
+<text x="26" y="40" font-size="18">A</text>
+<text x="72" y="40" font-size="16" letter-spacing="1">aaaaa</text>
+<text x="26" y="76" font-size="18">B</text>
+<text x="72" y="76" font-size="16" letter-spacing="1">aaaab</text>
+<text x="26" y="112" font-size="18">C</text>
+<text x="72" y="112" font-size="16" letter-spacing="1">aaaba</text>
+<text x="26" y="148" font-size="18">D</text>
+<text x="72" y="148" font-size="16" letter-spacing="1">aaabb</text>
+<text x="26" y="184" font-size="18">E</text>
+<text x="72" y="184" font-size="16" letter-spacing="1">aabaa</text>
+<text x="26" y="220" font-size="18">F</text>
+<text x="72" y="220" font-size="16" letter-spacing="1">aabab</text>
+<text x="26" y="256" font-size="18">G</text>
+<text x="72" y="256" font-size="16" letter-spacing="1">aabba</text>
+<text x="26" y="292" font-size="18">H</text>
+<text x="72" y="292" font-size="16" letter-spacing="1">aabbb</text>
+<text x="166" y="40" font-size="18">I/J</text>
+<text x="212" y="40" font-size="16" letter-spacing="1">abaaa</text>
+<text x="166" y="76" font-size="18">K</text>
+<text x="212" y="76" font-size="16" letter-spacing="1">abaab</text>
+<text x="166" y="112" font-size="18">L</text>
+<text x="212" y="112" font-size="16" letter-spacing="1">ababa</text>
+<text x="166" y="148" font-size="18">M</text>
+<text x="212" y="148" font-size="16" letter-spacing="1">ababb</text>
+<text x="166" y="184" font-size="18">N</text>
+<text x="212" y="184" font-size="16" letter-spacing="1">abbaa</text>
+<text x="166" y="220" font-size="18">O</text>
+<text x="212" y="220" font-size="16" letter-spacing="1">abbab</text>
+<text x="166" y="256" font-size="18">P</text>
+<text x="212" y="256" font-size="16" letter-spacing="1">abbba</text>
+<text x="166" y="292" font-size="18">Q</text>
+<text x="212" y="292" font-size="16" letter-spacing="1">abbbb</text>
+<text x="306" y="40" font-size="18">R</text>
+<text x="352" y="40" font-size="16" letter-spacing="1">baaaa</text>
+<text x="306" y="76" font-size="18">S</text>
+<text x="352" y="76" font-size="16" letter-spacing="1">baaab</text>
+<text x="306" y="112" font-size="18">T</text>
+<text x="352" y="112" font-size="16" letter-spacing="1">baaba</text>
+<text x="306" y="148" font-size="18">U/V</text>
+<text x="352" y="148" font-size="16" letter-spacing="1">baabb</text>
+<text x="306" y="184" font-size="18">W</text>
+<text x="352" y="184" font-size="16" letter-spacing="1">babaa</text>
+<text x="306" y="220" font-size="18">X</text>
+<text x="352" y="220" font-size="16" letter-spacing="1">babab</text>
+<text x="306" y="256" font-size="18">Y</text>
+<text x="352" y="256" font-size="16" letter-spacing="1">babba</text>
+<text x="306" y="292" font-size="18">Z</text>
+<text x="352" y="292" font-size="16" letter-spacing="1">babbb</text>
+<path class="l thin" d="M150 16V316M290 16V316"/>
+<text x="220" y="350" font-size="15" text-anchor="middle">bbaaa 到 bbbbb 这八组不对应任何字母；</text>
+<text x="220" y="372" font-size="15" text-anchor="middle">读出这样的组，说明分法本身出了问题</text>
+</svg>
