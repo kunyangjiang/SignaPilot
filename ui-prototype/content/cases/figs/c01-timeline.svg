@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="时间线：6 月 12 日是合同落款日期，13 日进场，18 日有人摔伤，21 日完工，25 日乙方才领到营业执照，7 月 1 日新制度施行，7 月 17 日实际盖章">
+  <rect class="wash" x="96" y="150" width="554" height="20"/>
+  <g class="l" filter="url(#wob2)">
+    <path d="M50 160h620"/>
+    <path d="M96 150v20M148 150v20M278 150v20M356 150v20M468 150v20M560 150v20M650 150v20"/>
+    <path d="M148 150V96M278 170v54M356 150V96M468 170v54M560 150V96"/>
+  </g>
+  <g class="gl" filter="url(#wob2)"><path d="M96 150V60M650 170v84"/></g>
+  <circle class="gdot" cx="96" cy="160" r="5"/><circle class="gdot" cx="650" cy="160" r="5"/>
+  <circle class="dotk" cx="148" cy="160" r="4"/><circle class="dotk" cx="278" cy="160" r="4"/><circle class="dotk" cx="356" cy="160" r="4"/><circle class="dotk" cx="468" cy="160" r="4"/><circle class="dotk" cx="560" cy="160" r="4"/>
+  <g>
+    <text class="gt" font-size="17" x="60" y="34">6 月 12 日</text>
+    <text class="sm gt" x="60" y="54">合同上的落款日期</text>
+    <text font-size="16" x="130" y="74">13 日</text>
+    <text class="sm" x="130" y="92">进场</text>
+    <text font-size="16" text-anchor="middle" x="278" y="244">18 日</text>
+    <text class="sm" text-anchor="middle" x="278" y="264">小伍摔伤</text>
+    <text font-size="16" x="340" y="74">21 日</text>
+    <text class="sm" x="340" y="92">完工</text>
+    <text font-size="16" text-anchor="middle" x="468" y="244">25 日</text>
+    <text class="sm" text-anchor="middle" x="468" y="264">乙方领到营业执照</text>
+    <text font-size="16" x="540" y="74">7 月 1 日</text>
+    <text class="sm" x="540" y="92">新制度施行</text>
+    <text class="gt" font-size="17" text-anchor="end" x="676" y="276">7 月 17 日</text>
+    <text class="sm gt" text-anchor="end" x="676" y="296">章实际盖下去的那天</text>
+    <text class="sm" text-anchor="middle" x="282" y="326">金色的一段：这些事发生的时候，合同还不存在</text>
+  </g>
+</svg>

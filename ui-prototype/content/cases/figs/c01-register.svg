@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="用印登记簿 6 月 12 日那一页：上午两笔，第二笔底下画了一道线，线尾写着一个周字，紧接着就是 6 月 13 日，中间没有空行">
+  <rect class="wash" x="60" y="150" width="600" height="14"/>
+  <g class="l" filter="url(#wob2)">
+    <rect x="60" y="30" width="600" height="262"/>
+    <path d="M60 70h600M60 110h600M60 150h600M60 204h600M60 244h600"/>
+    <path d="M118 30v262M214 30v262M470 30v262M566 30v262"/>
+  </g>
+  <g class="gl" filter="url(#wob2)"><path d="M70 157h540"/></g>
+  <g class="sm" text-anchor="middle">
+    <text x="89" y="56">序号</text><text x="166" y="56">日期</text><text x="342" y="56">文件名称</text><text x="518" y="56">领用人</text><text x="613" y="56">管理员</text>
+  </g>
+  <g font-size="15">
+    <text x="82" y="96">1</text><text x="130" y="96">6 月 12 日</text><text x="226" y="96">致街道办回函</text><text x="482" y="96">张（签）</text><text x="578" y="96">周敏</text>
+    <text x="82" y="136">2</text><text x="130" y="136">6 月 12 日</text><text x="226" y="136">品质部续保申请</text><text x="482" y="136">方（签）</text><text x="578" y="136">周敏</text>
+    <text x="82" y="190">1</text><text x="130" y="190">6 月 13 日</text><text x="226" y="190">停水通知</text><text x="482" y="190">张（签）</text><text x="578" y="190">周敏</text>
+    <text x="82" y="230">2</text><text x="130" y="230">6 月 13 日</text><text x="226" y="230">……</text>
+  </g>
+  <text class="gt" font-size="17" x="622" y="163">周</text>
+  <text class="sm gt" text-anchor="middle" x="360" y="318">这道线和下一天之间，没有空行</text>
+</svg>

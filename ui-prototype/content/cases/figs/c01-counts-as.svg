@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-label="一枚印文要算作公司说的话，需要三样东西：纸上的印文、有权的人、按程序。缺了后两样，印文只是一个红色的图案">
+  <g class="l" filter="url(#wob2)">
+    <rect x="40" y="40" width="170" height="92" rx="8"/>
+    <rect x="275" y="40" width="170" height="92" rx="8"/>
+    <path d="M210 86h58M268 86l-10-6M268 86l-10 6M445 86h58M503 86l-10-6M503 86l-10 6"/>
+    <path d="M125 132v60M360 132v60M595 132v60"/>
+    <rect x="40" y="250" width="290" height="70" rx="8"/>
+    <rect x="390" y="250" width="290" height="70" rx="8"/>
+  </g>
+  <g class="gl" filter="url(#wob2)"><rect x="510" y="40" width="170" height="92" rx="8"/><circle cx="66" cy="86" r="14"/></g>
+  <rect class="wash" x="510" y="40" width="170" height="92" rx="8"/>
+  <g text-anchor="middle">
+    <text font-size="18" x="148" y="82">纸上的印文</text>
+    <text class="sm" x="148" y="106">看得见的记号</text>
+    <text font-size="18" x="360" y="82">谁、凭什么盖的</text>
+    <text class="sm" x="360" y="106">权限与程序</text>
+    <text font-size="18" class="gt" x="595" y="82">“公司说了这句话”</text>
+    <text class="sm gt" x="595" y="106">机构的表示</text>
+    <text class="sm" x="125" y="212">X</text>
+    <text class="sm" x="360" y="212">在情境 C 中</text>
+    <text class="sm gt" x="595" y="212">算作 Y</text>
+    <text font-size="16" x="185" y="280">有印文，没有权限</text>
+    <text class="sm" x="185" y="302">法院可以不认这是公司的话</text>
+    <text font-size="16" x="535" y="280">有权限，没有印文</text>
+    <text class="sm" x="535" y="302">法院仍可能认这是公司的话</text>
+  </g>
+</svg>

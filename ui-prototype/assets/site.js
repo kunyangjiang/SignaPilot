@@ -330,8 +330,11 @@
 
   /* ---------- written content ---------- */
   // Finished manuscripts live as Markdown under content/. Cases not listed here still show the layout sample.
-  const WRITTEN = { '02': { story: 'content/cases/c02.md', notes: 'content/cases/c02-notes.md' } };
-  const inline = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>');
+  const WRITTEN = {
+    '01': { story: 'content/cases/c01.md', notes: 'content/cases/c01-notes.md' },
+    '02': { story: 'content/cases/c02.md', notes: 'content/cases/c02-notes.md' },
+  };
+  const inline = s => esc(s).replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a class="ext" href="$2" target="_blank" rel="noopener">$1</a>').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>');
   // A deliberately small Markdown reader: just the handful of block types the manuscripts use.
   function blocks(text) {
     const L = text.replace(/\r/g, '').split('\n'), out = []; let i = 0;

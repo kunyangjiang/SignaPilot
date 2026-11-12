@@ -430,6 +430,7 @@ figure.fig { margin: 2.7em 0; }
 .tblwrap th, .tblwrap td { text-align: left; padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
 .tblwrap th { font-weight: 400; color: var(--gold); border-bottom-color: var(--line-2); white-space: nowrap; }
 .notes-body .rec { font-family: var(--f-kai); margin-left: 1.5em; color: var(--ink); }
+.notes-body a.ext { border-bottom: 1px solid var(--gold); color: var(--ink); overflow-wrap: anywhere; }
 .notes-body strong { font-weight: 600; color: var(--ink); }
 .notes-body em { font-style: normal; font-family: var(--f-lat); font-size: 1.08em; }
 .notes-body .tblwrap table { font-size: 14.5px; }
@@ -510,7 +511,7 @@ figure.fig { margin: 2.7em 0; }
   .lesson { max-width: calc(var(--measure) + var(--gutter) * 2); }
   .sn { float: none; width: auto; margin: 0 0 1.3em; display: none; border-top: 0; border-left: 1px solid var(--gold); padding: 2px 0 2px 16px; }
   .sn.open { display: block; }
-  .notes { grid-template-columns: 1fr; gap: 20px; }
+  .notes { grid-template-columns: minmax(0, 1fr); gap: 20px; }
   .notes-nav { position: static; display: flex; overflow-x: auto; gap: 22px; border-left: 0; border-bottom: 1px solid var(--line); }
   .notes-nav a { white-space: nowrap; padding: 8px 0 10px; }
 }
