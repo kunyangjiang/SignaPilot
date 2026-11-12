@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="账本上的 124 本书：25 本在 2008 年卖掉，18 本最老的寄存县图书馆，80 本留在屋里，其中 31 本是女儿抄的，1 本是儿子 14 岁抄的，由他带走">
+  <rect class="wash" x="345" y="96" width="180" height="56"/>
+  <g class="l" filter="url(#wob2)">
+    <rect x="165" y="96" width="104" height="56"/>
+    <rect x="269" y="96" width="256" height="56"/>
+    <path d="M345 96v56"/>
+    <rect x="525" y="96" width="14" height="56"/>
+    <path d="M217 152v40M397 152v40M532 152v70"/>
+    <path d="M40 76h499M40 70v12M539 70v12"/>
+  </g>
+  <g class="l thin" filter="url(#wob2)"><rect x="40" y="96" width="125" height="56" stroke-dasharray="5 5"/><path d="M102 152v40"/></g>
+  <g class="gl" filter="url(#wob2)"><path d="M345 86h180M345 80v12M525 80v12"/></g>
+  <g text-anchor="middle">
+    <text class="sm" x="290" y="62">我爸的账本上：124 本</text>
+    <text font-size="18" x="102" y="130">25</text>
+    <text font-size="18" x="217" y="130">18</text>
+    <text font-size="18" x="307" y="130">49</text>
+    <text font-size="18" class="gt" x="435" y="130">31</text>
+    <text class="sm gt" x="435" y="76" dy="-2">我抄的</text>
+    <text font-size="15" x="102" y="212">卖掉了</text>
+    <text class="sm" x="102" y="232">2008 年，曹老板</text>
+    <text font-size="15" x="217" y="212">寄存县里</text>
+    <text class="sm" x="217" y="232">最老的，用不得了</text>
+    <text font-size="15" x="397" y="212">留在屋里：80 本</text>
+    <text class="sm" x="397" y="232">在用的，嗣明来抄</text>
+    <text font-size="15" x="560" y="244">1 本，卫东带走</text>
+    <text class="sm" x="560" y="264">他 14 岁抄的</text>
+  </g>
+</svg>

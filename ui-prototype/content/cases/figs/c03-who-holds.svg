@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="四个人各自手里有什么：儿子有继承权，徒弟有职位和上坛的本事，女儿有继承权、抄写的字迹和对改动的记忆，馆员有保存的条件。没有一个人四样都有">
+  <g class="l" filter="url(#wob2)">
+    <path d="M40 70h640M40 122h640M40 174h640M40 226h640M40 278h640"/>
+    <path d="M200 30v248M320 30v248M440 30v248M560 30v248"/>
+  </g>
+  <g class="sm" text-anchor="middle">
+    <text x="260" y="46">书这件东西</text><text x="260" y="62">（继承）</text>
+    <text x="380" y="46">会用</text><text x="380" y="62">（上过坛）</text>
+    <text x="500" y="46">有职</text><text x="500" y="62">（奏过职）</text>
+    <text x="620" y="46">讲得清</text><text x="620" y="62">（哪句是谁添的）</text>
+  </g>
+  <g font-size="17">
+    <text x="48" y="102">儿子 卫东</text>
+    <text x="48" y="154">徒弟 嗣明</text>
+    <text x="48" y="206">女儿 春梅</text>
+    <text x="48" y="258">馆员 易岚</text>
+  </g>
+  <circle class="gdot" cx="260" cy="96" r="7"/>
+  <circle class="gdot" cx="380" cy="148" r="7"/><circle class="gdot" cx="500" cy="148" r="7"/>
+  <circle class="gdot" cx="260" cy="200" r="7"/><circle class="gdot" cx="620" cy="200" r="7"/>
+  <g class="l"><circle cx="620" cy="148" r="7"/><circle cx="620" cy="252" r="7"/></g>
+  <text class="sm" text-anchor="middle" x="360" y="310">实心：有。空心：有一部分。易岚另有一样别人都没有的：让纸不烂掉的条件。</text>
+</svg>
