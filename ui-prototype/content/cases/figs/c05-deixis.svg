@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="时间线：信里的三个词，上周三的组会、新来的还没有调好的仪器、最快到年底，放在去年 10 月 27 日夜里都说得通，放在今年 3 月 10 日发信那天都说不通">
+  <rect class="wash" x="110" y="150" width="310" height="20"/>
+  <g class="l" filter="url(#wob2)">
+    <path d="M40 160h640"/>
+    <path d="M110 150v20M310 150v20M420 150v20M585 150v20M650 150v20"/>
+    <path d="M110 170v16M310 150v-26M420 170v16M585 150v-26M650 170v16"/>
+  </g>
+  <g class="gl" filter="url(#wob2)"><path d="M178 150V66"/></g>
+  <circle class="dotk" cx="110" cy="160" r="4"/><circle class="dotk" cx="310" cy="160" r="4"/><circle class="dotk" cx="420" cy="160" r="4"/><circle class="dotk" cx="585" cy="160" r="4"/><circle class="dotk" cx="650" cy="160" r="4"/>
+  <circle class="gdot" cx="178" cy="160" r="5"/>
+  <g>
+    <text class="gt" font-size="17" text-anchor="middle" x="178" y="36">去年 10 月 27 日夜</text>
+    <text class="sm gt" text-anchor="middle" x="178" y="56">信里的“现在”</text>
+    <text font-size="16" text-anchor="middle" x="110" y="206">10 月 23 日，周三</text>
+    <text class="sm" text-anchor="middle" x="110" y="226">“上周三的组会”</text>
+    <text class="sm" text-anchor="middle" x="110" y="244">那学期组会在周三</text>
+    <text font-size="16" text-anchor="middle" x="310" y="96">11 月 20 日</text>
+    <text class="sm" text-anchor="middle" x="310" y="116">原位 XRD 验收</text>
+    <text font-size="16" text-anchor="middle" x="420" y="206">年底</text>
+    <text class="sm" text-anchor="middle" x="420" y="226">“重做最快到年底”</text>
+    <text font-size="16" text-anchor="middle" x="560" y="78">3 月 5 日，周三</text>
+    <text class="sm" text-anchor="middle" x="560" y="98">这学期组会在周一</text>
+    <text class="sm" text-anchor="middle" x="560" y="116">罗景行在北京开会</text>
+    <text font-size="16" text-anchor="end" x="690" y="206">3 月 10 日</text>
+    <text class="sm" text-anchor="end" x="690" y="226">信发出的那一天</text>
+    <text class="sm" text-anchor="middle" x="503" y="188">四个多月</text>
+    <text class="sm" text-anchor="middle" x="360" y="304">三个词放在发信那天都别扭，放在去年 10 月下旬都顺。</text>
+  </g>
+</svg>

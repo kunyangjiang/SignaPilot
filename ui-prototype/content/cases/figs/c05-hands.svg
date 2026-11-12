@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="一封信上的三只手：起草的人、删改的人、发出的人。语言证据对起草的人能说一些，对删改的人因为字数太少几乎说不了，对发出的人完全说不了">
+  <g class="l" filter="url(#wob2)">
+    <path d="M40 70h180v96H40zM270 70h180v96H270zM500 70h180v96H500z" fill="none"/>
+    <path d="M224 118h40M256 112l8 6-8 6M454 118h40M486 112l8 6-8 6"/>
+    <path d="M130 166v40M360 166v40M590 166v40"/>
+  </g>
+  <g text-anchor="middle">
+    <text font-size="19" x="130" y="106">起草的人</text>
+    <text class="sm" x="130" y="132">写下底稿</text>
+    <text class="sm" x="130" y="150">去年 10 月，约 300 字</text>
+    <text font-size="19" x="360" y="106">删改的人</text>
+    <text class="sm" x="360" y="132">删去“我”，添上一段</text>
+    <text class="sm" x="360" y="150">今年，约 100 字</text>
+    <text font-size="19" x="590" y="106">发出的人</text>
+    <text class="sm" x="590" y="132">按下发送</text>
+    <text class="sm" x="590" y="150">今年 3 月 10 日，0 字</text>
+    <text class="sm" x="360" y="42">一封信上可以有不止一只手，各自留下的东西不一样多。</text>
+    <text class="gt" font-size="16" x="130" y="230">语言证据能说一些</text>
+    <text class="sm" x="130" y="252">时间词、称呼、用词习惯</text>
+    <text class="sm" x="130" y="270">只到“相合”，到不了“就是”</text>
+    <text class="gt" font-size="16" x="360" y="230">几乎说不了</text>
+    <text class="sm" x="360" y="252">字太少，又多是套话</text>
+    <text class="gt" font-size="16" x="590" y="230">完全说不了</text>
+    <text class="sm" x="590" y="252">发送不留文风</text>
+    <text class="sm" x="590" y="270">要看账号、日志、设备</text>
+    <text class="sm" x="360" y="312">问“这封信是谁写的”之前，先要问清楚问的是哪一只手。</text>
+  </g>
+</svg>
