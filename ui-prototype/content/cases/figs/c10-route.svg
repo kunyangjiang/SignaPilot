@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" role="img" aria-label="这部手抄本的去向。1574 年在威尼斯抄成；1586 年剪下的一角随婴儿进了皮耶塔；1589 年到 1596 年卢克雷齐娅在费拉拉写信，书留在威尼斯尼科洛手里；1618 年书和那一角在穆拉诺的安佐拉手里合在一起；1766 年卖给法国神父，1768 年在巴黎重装；1792 年押进巴黎当铺，1793 年由他的外甥赎回；1884 年到伦敦书商手里，那一角被揭下藏进后衬；1885 年卖给 T 先生；1975 年随遗赠进图书馆，1976 年修复。">
+  <g class="l" filter="url(#wob2)">
+    <path d="M60 40V480"/>
+  </g>
+  <g font-size="15">
+    <circle class="l" cx="60" cy="40" r="5"/><text x="80" y="45">1574　威尼斯，马蒂亚抄成</text>
+    <circle class="l" cx="60" cy="92" r="5"/><text x="80" y="97">1586　一角剪下，随婴儿进皮耶塔</text>
+    <circle class="l" cx="60" cy="144" r="5"/><text x="80" y="149">1589—1596　书在尼科洛手里；</text>
+    <text x="80" y="169">卢克雷齐娅在费拉拉写信</text>
+    <circle class="l" cx="60" cy="206" r="5"/><text x="80" y="211">1618　穆拉诺，安佐拉把两半合上</text>
+    <circle class="l" cx="60" cy="258" r="5"/><text x="80" y="263">1766　卖给法国神父</text>
+    <circle class="l" cx="60" cy="300" r="5"/><text x="80" y="305">1768　巴黎重装，切边</text>
+    <circle class="l" cx="60" cy="342" r="5"/><text x="80" y="347">1792—1793　押进巴黎当铺，又赎回</text>
+    <circle class="l" cx="60" cy="394" r="5"/><text x="80" y="399">1884　伦敦，那一角被揭下，</text>
+    <text x="80" y="419">换上摹写的补纸</text>
+    <circle class="l" cx="60" cy="456" r="5"/><text x="80" y="461">1975—1976　进图书馆，修复，</text>
+    <text x="80" y="481">那一角贴回原处</text>
+  </g>
+  <text x="200" y="512" font-size="14" text-anchor="middle">书走过的路，和那一角走过的路</text>
+</svg>

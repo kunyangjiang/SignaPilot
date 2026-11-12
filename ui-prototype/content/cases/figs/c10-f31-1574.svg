@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 480" role="img" aria-label="第 31 叶正面，1574 年马蒂亚抄成时的样子。上方是红墨标题 Per ritrovare le cose rubate o perdute，即寻回被偷或遗失之物的方法，下面几行正文。下半页是一个双圈的圆，圈带里写着 TETRAGRAMMATON、EL、AGLA、ADONAI 四个名字，圆心写着 N.，留给用的人自己填。叶子四角完整。">
+  <rect class="l" x="20" y="16" width="320" height="430" filter="url(#wob2)"/>
+  <text x="180" y="62" font-size="15" text-anchor="middle" font-style="italic">Per ritrovare le cose</text>
+  <text x="180" y="80" font-size="15" text-anchor="middle" font-style="italic">rubate o perdute</text>
+  <g class="l" style="stroke-width:1.1;opacity:.8"><path d="M50 96H310"/><path d="M50 108H310"/><path d="M50 120H310"/><path d="M50 132H230"/><path d="M50 144H310"/><path d="M50 156H310"/><path d="M50 168H310"/></g>
+  <g class="l" filter="url(#wob2)">
+    <circle cx="180" cy="300" r="115"/>
+    <circle cx="180" cy="300" r="72"/>
+  </g>
+  <g font-size="14" text-anchor="middle" letter-spacing="1">
+    <text x="180" y="210">TETRAGRAMMATON</text>
+    <text x="92" y="305">EL</text>
+    <text x="262" y="351">AGLA</text>
+    <text x="219" y="390">ADONAI</text>
+  </g>
+  <text x="180" y="309" font-size="26" text-anchor="middle">N.</text>
+  <text x="180" y="472" font-size="15" text-anchor="middle">圆心的 N. 留给用的人自己填</text>
+</svg>

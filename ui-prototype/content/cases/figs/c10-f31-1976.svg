@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" role="img" aria-label="第 31 叶右下角的放大示意，1976 年。一道弯弯曲曲的剪口把这一角和书页分开：书页这边写着 me，补回的那一角写着 tà，合起来是 metà，意大利文的一半。圆上的名字也被剪口切成两半：AG 和 LA，ADO 和 NAI。剪口上方有一个被浓墨涂去的词，红外照片上能看出 A?zola，结合书中其他证据读作 Anzola；旁边是尼科洛的拉丁文 Nomen hoc deleo, ne inveniatur。补回的那一角背面，是安佐拉 1618 年写给母亲的字。">
+  <path class="wash" d="M380 70 L340 92 L326 112 L320 132 L292 150 L272 146 L266 176 L238 192 L218 200 L210 232 L200 250 L184 300 L380 300 Z" fill="currentColor" style="opacity:.24"/>
+  <g class="l" filter="url(#wob2)">
+    <path d="M20 20H380V300H20"/>
+    <path d="M373 20 A375 375 0 0 1 195 300" style="stroke-width:1.2;opacity:.8"/>
+    <path d="M257 20 A260 260 0 0 1 20 239" style="stroke-width:1.2;opacity:.8"/>
+  </g>
+  <path class="l" d="M380 70 L340 92 L326 112 L320 132 L292 150 L272 146 L266 176 L238 192 L218 200 L210 232 L200 250 L184 300" stroke-dasharray="5 3"/>
+  <g font-size="22" letter-spacing="2">
+    <text x="316" y="128" text-anchor="end">me</text>
+    <text x="328" y="128">tà</text>
+    <text x="264" y="172" text-anchor="end">AG</text>
+    <text x="272" y="172">LA</text>
+    <text x="206" y="226" text-anchor="end">ADO</text>
+    <text x="214" y="226">NAI</text>
+  </g>
+  <rect x="196" y="48" width="104" height="30" fill="currentColor" opacity=".85"/>
+  <text x="248" y="70" font-size="19" text-anchor="middle" font-style="italic" style="fill:var(--bg,#f2efe7)">Anzola</text>
+  <text x="40" y="56" font-size="14" font-style="italic">Nomen hoc deleo,</text>
+  <text x="40" y="74" font-size="14" font-style="italic">ne inveniatur.</text>
+  <g font-size="15">
+    <text x="20" y="338">虚线：1586 年剪开的口子</text>
+    <text x="20" y="362">浅色块：这一角，1618 年贴回，</text>
+    <text x="20" y="384">1884 年被揭下，1976 年再贴回</text>
+    <text x="20" y="410">深色块：尼科洛 1589 年涂去的词，</text>
+    <text x="20" y="432">红外照片上可见 A?zola，读作 Anzola</text>
+    <text x="20" y="458">me ＋ tà ＝ metà，“一半”</text>
+  </g>
+</svg>
