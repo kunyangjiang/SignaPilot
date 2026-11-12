@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="坐标公司的新标志：一个圆点是头，一道竖线是背，一道横线是大腿，一道竖线是小腿，一个坐着的人的侧影，身下没有椅子。底下一行字：坐得住，才能走得远">
+  <g class="l" filter="url(#wob2)" style="stroke-width:11;stroke-linecap:round;stroke-linejoin:round">
+    <path d="M330 98v92h92v82" fill="none"/>
+  </g>
+  <circle class="dotk" cx="330" cy="62" r="17"/>
+  <g class="l thin" filter="url(#wob2)"><path d="M250 296h220"/></g>
+  <text class="sm" text-anchor="middle" x="360" y="320">坐得住，才能走得远。</text>
+  <g class="sm">
+    <text x="372" y="66">头</text>
+    <text text-anchor="end" x="306" y="150">背</text>
+    <text text-anchor="middle" x="376" y="172">大腿</text>
+    <text x="442" y="236">小腿</text>
+  </g>
+</svg>

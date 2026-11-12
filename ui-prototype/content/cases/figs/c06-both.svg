@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="三个图：左边是今年 9 月的版本，一个坐着的人，没有椅子；中间是 2009 年的老标志，一把腿不一样长的椅子，没有人；右边是两个叠在一起，人坐在椅子上，坐得有一点斜">
+  <g transform="translate(-102 30) scale(.6)">
+    <g class="l" filter="url(#wob2)" style="stroke-width:13;stroke-linecap:round;stroke-linejoin:round"><path d="M330 98v92h102v82" fill="none"/></g>
+    <circle class="dotk" cx="330" cy="62" r="18"/>
+  </g>
+  <g transform="translate(138 30) scale(.6)">
+    <g class="gl" filter="url(#wob2)" style="stroke-width:11;stroke-linecap:round;stroke-linejoin:round"><path d="M300 92l6 114l-5 84M306 206l112 3l5 62" fill="none"/></g>
+  </g>
+  <g transform="translate(378 30) scale(.6)">
+    <g class="gl" filter="url(#wob2)" style="stroke-width:11;stroke-linecap:round;stroke-linejoin:round"><path d="M300 92l6 114l-5 84M306 206l112 3l5 62" fill="none"/></g>
+    <g transform="rotate(1.5 330 190)">
+      <g class="l" filter="url(#wob2)" style="stroke-width:13;stroke-linecap:round;stroke-linejoin:round"><path d="M330 98v92h102v82" fill="none"/></g>
+      <circle class="dotk" cx="330" cy="62" r="18"/>
+    </g>
+  </g>
+  <g font-size="22" text-anchor="middle"><text x="240" y="150">+</text><text x="480" y="150">=</text></g>
+  <g text-anchor="middle">
+    <text font-size="16" x="120" y="246">9 月版</text>
+    <text class="sm" x="120" y="268">人在，椅子没了</text>
+    <text class="gt" font-size="16" x="360" y="246">2009 年的老标志</text>
+    <text class="sm gt" x="360" y="268">椅子在，人没了</text>
+    <text font-size="16" x="600" y="246">11 月版</text>
+    <text class="sm" x="600" y="268">网友先叠出来的，有一点斜</text>
+    <text class="sm" x="360" y="312">人是公司画的。椅子是秦师傅画的。叠在一起，是外面的人想到的。</text>
+  </g>
+</svg>

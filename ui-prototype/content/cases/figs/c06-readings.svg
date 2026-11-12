@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="一张表：对同一个图形的五种读法，分别看图形本身支持不支持。是坐，支持；椅子没了，支持；像跪，被图形否定，因为小腿没有着地；草书的乙字，图形不反对也不支持；风水上无根，与图形无关">
+  <g class="l" filter="url(#wob2)">
+    <path d="M40 62h640M40 108h640M40 154h640M40 200h640M40 246h640M40 292h640"/>
+    <path d="M230 30v262M440 30v262"/>
+  </g>
+  <g class="sm" text-anchor="middle">
+    <text x="135" y="50">读法</text>
+    <text x="335" y="50">图上有什么可以对证</text>
+    <text x="560" y="50">结果</text>
+  </g>
+  <g font-size="16" text-anchor="middle">
+    <text x="135" y="91">“是坐”</text>
+    <text x="135" y="137">“椅子没了”</text>
+    <text x="135" y="183">“像跪”</text>
+    <text x="135" y="229">“草书的乙字”</text>
+    <text x="135" y="275">“无座则无根”</text>
+  </g>
+  <g class="sm" text-anchor="middle">
+    <text x="335" y="91">膝和髋都是直角，躯干直立</text>
+    <text x="335" y="137">身下确实一笔也没有</text>
+    <text x="335" y="183">小腿没有着地</text>
+    <text x="335" y="229">只有轮廓有点像</text>
+    <text x="335" y="275">图上没有可对证的东西</text>
+  </g>
+  <g font-size="15" text-anchor="middle">
+    <text x="560" y="91">托得住（也是设计者的本意）</text>
+    <text class="gt" x="560" y="137">托得住（不是本意，摘不掉）</text>
+    <text x="560" y="183">被图形否定，慢慢没人提</text>
+    <text x="560" y="229">没有人跟</text>
+    <text x="560" y="275">换一家公司也能讲</text>
+  </g>
+  <text class="sm" text-anchor="middle" x="360" y="318">设计者说了不算，读的人也不是说什么都算。中间隔着图形本身。</text>
+</svg>
