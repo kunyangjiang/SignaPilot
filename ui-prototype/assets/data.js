@@ -128,6 +128,8 @@ window.SP = (function () {
       '<path d="M6 41h36"/><path d="M12 41l5-28 6 28M27 41l4-19 5 19"/>'),
     C('14', '条件熵', '宇宙恐怖 · 科学悬疑', '考古与计算语言学研究', '研究者用正当的统计方法分析一批异常的刻符。分析越成功，“这是写给谁的”就越不对劲。', ['幻想', '恐怖'], '#24314a', 2.2,
       '<g fill="currentColor" stroke="none"><circle cx="10" cy="10" r="2.4"/><circle cx="24" cy="10" r="1.2"/><circle cx="38" cy="10" r="2.4"/><circle cx="10" cy="24" r="1.2"/><circle cx="24" cy="24" r="2.4"/><circle cx="38" cy="24" r="1.2"/><circle cx="10" cy="38" r="2.4"/><circle cx="24" cy="38" r="2.4"/><circle cx="38" cy="38" r="1.2"/></g><path d="M10 10L24 24 38 10M24 24v14"/>'),
+    C('15', '剩下的词', '当代现实 · 母女 · 悲剧', '当代中国家庭', '教了一辈子语文的母亲开始丢词。她和女儿做了一本沟通本，想把两个人之间的话留住。', ['当代'], '#5d6b7a', 2.0,
+      '<path d="M9 13h30M9 21h22M9 29h13M9 37h5"/>'),
   ];
 
   // Cross-department discovery threads (UI copy; items reference sealed IDs only)
