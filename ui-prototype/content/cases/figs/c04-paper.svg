@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-label="小说中虚构的婚书示意：三折红纸，竖写三行。新娘一行最后的死期是后来添的，墨色不同">
+  <g class="l" filter="url(#wob2)">
+    <rect x="150" y="24" width="420" height="400"/>
+    <path d="M290 24v400M430 24v400" stroke-dasharray="4 7"/>
+  </g>
+  <g font-size="19" style="writing-mode: vertical-rl; letter-spacing: 3px">
+    <text x="500" y="48">乾造　祁晓军　壬申年生　十月殁</text>
+    <text x="360" y="48">坤造　李改花　己卯年生</text>
+    <text x="220" y="48">两姓合婚　同归一茔　永为眷属</text>
+  </g>
+  <text class="gt" font-size="19" style="writing-mode: vertical-rl; letter-spacing: 3px" x="360" y="298">腊月十三殁</text>
+  <g class="gl" filter="url(#wob2)"><path d="M360 414v30"/></g>
+  <text class="sm gt" text-anchor="middle" x="360" y="462">金色的五个字是后添的。写婚书那天，她还活着。</text>
+  <text class="sm" text-anchor="middle" x="360" y="486">示意图。小说虚构的文书，不是任何真实婚书的样式。</text>
+</svg>

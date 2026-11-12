@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="时间线：腊月初五写婚书并交一半钱，死期一格空着；腊月十三是婚书上后来填的死期，同一天下午 4 点 42 分她在超市买东西；腊月十五夜里送到；腊月十六原定卯时下葬，后改寅时">
+  <rect class="wash" x="110" y="150" width="250" height="20"/>
+  <g class="l" filter="url(#wob2)">
+    <path d="M50 160h620"/>
+    <path d="M110 150v20M360 150v20M520 150v20M630 150v20"/>
+    <path d="M110 150V92M520 150V92M630 170v54"/>
+  </g>
+  <g class="gl" filter="url(#wob2)"><path d="M360 150V70M360 170v64"/></g>
+  <circle class="dotk" cx="110" cy="160" r="4"/><circle class="dotk" cx="520" cy="160" r="4"/><circle class="dotk" cx="630" cy="160" r="4"/>
+  <circle class="gdot" cx="360" cy="160" r="5"/>
+  <g>
+    <text font-size="17" x="60" y="52">腊月初五</text>
+    <text class="sm" x="60" y="72">写婚书，交一半钱</text>
+    <text class="sm" x="60" y="90">死期那一格空着</text>
+    <text class="gt" font-size="17" text-anchor="middle" x="360" y="34">腊月十三</text>
+    <text class="sm gt" text-anchor="middle" x="360" y="54">婚书上后来填的死期</text>
+    <text class="gt" font-size="16" text-anchor="middle" x="360" y="256">同一天 16:42</text>
+    <text class="sm gt" text-anchor="middle" x="360" y="276">她在超市买退热贴、作业本、挂面</text>
+    <text font-size="17" text-anchor="middle" x="520" y="72">腊月十五夜</text>
+    <text class="sm" text-anchor="middle" x="520" y="90">送到祁家</text>
+    <text font-size="17" text-anchor="end" x="680" y="246">腊月十六</text>
+    <text class="sm" text-anchor="end" x="680" y="266">原定卯时，临时改寅时</text>
+    <text class="sm" text-anchor="middle" x="235" y="196">等的这 8 天，等的是一个人死</text>
+    <text class="sm" text-anchor="middle" x="360" y="316">喜日子是初五就定下的。死期是后来照着它填的。</text>
+  </g>
+</svg>
