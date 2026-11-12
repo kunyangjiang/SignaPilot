@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="示意图：西边是荒原上的布吕耶尔修院，第一天往东走，第二天傍晚到维厄河渡口，渡口东岸是雷蒙的客店；第三天下午到河湾里的蒙塔扬修院。河西岸是子爵的地，河东岸归蒙塔扬镇长管。一条大路沿河岸往北。">
+  <g class="l thin" filter="url(#wob2)">
+    <path d="M222 14C236 60 210 96 226 140S212 230 230 290"/>
+    <path d="M236 14C250 60 224 96 240 140S226 230 244 290"/>
+  </g>
+  <g class="l" filter="url(#wob2)">
+    <path d="M73 156C110 148 160 158 214 146"/>
+    <path d="M262 142C320 130 370 142 404 120"/>
+    <path d="M214 146L262 142" stroke-dasharray="4 6"/>
+    <rect x="43" y="138" width="30" height="26"/>
+    <path d="M43 138l15-12 15 12"/>
+    <rect x="408" y="100" width="36" height="30"/>
+    <path d="M408 100l18-16 18 16M426 84v-12"/>
+    <rect x="252" y="156" width="24" height="18"/>
+  </g>
+  <path class="l thin" d="M262 136C270 100 266 60 274 18" stroke-dasharray="2 6" filter="url(#wob2)"/>
+  <g font-size="17" text-anchor="middle">
+    <text x="58" y="190">布吕耶尔</text>
+    <text x="426" y="156">蒙塔扬</text>
+    <text x="300" y="196">雷蒙的客店</text>
+  </g>
+  <g font-size="14" text-anchor="middle">
+    <text x="120" y="136">第一天</text>
+    <text x="176" y="124">第二天傍晚</text>
+    <text x="336" y="118">第三天下午</text>
+    <text x="300" y="216">渡口</text>
+    <text x="226" y="282">维厄河</text>
+    <text x="282" y="22" text-anchor="start">往北的大路</text>
+  </g>
+  <g font-size="14" text-anchor="middle" opacity=".8">
+    <text x="58" y="210">荒原上的穷修院</text>
+    <text x="426" y="176">供奉圣伊尔德</text>
+    <text x="110" y="256">西岸：子爵的地</text>
+    <text x="370" y="256">东岸：蒙塔扬镇长管</text>
+  </g>
+</svg>

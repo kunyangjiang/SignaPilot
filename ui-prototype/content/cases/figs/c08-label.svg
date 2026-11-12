@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="两种签条。左边是朗贝尔写的签条，只有一个名字 ILDA，即伊尔德，用细密的针脚缝死在紫色丝绸的角上。右边是洛泰尔的签条，写着作者拟的缩写拉丁文 DE DIGITO III SIN SCI AGAPITI MR，意思是圣阿加皮图斯殉道者左手第三指（的骨），用细绳绑在小包上，可以解下来。">
+  <g class="l" filter="url(#wob2)">
+    <path d="M20 40H210V230"/>
+    <path d="M20 40L210 230" class="thin"/>
+    <rect x="110" y="56" width="84" height="40"/>
+  </g>
+  <g class="l thin" filter="url(#wob2)">
+    <path d="M106 52h92M106 100h92M106 52v48M198 52v48" stroke-dasharray="3 4"/>
+    <path d="M40 40c10 30 30 60 60 90M70 40c10 24 26 46 50 70" stroke-dasharray="1 7"/>
+  </g>
+  <text x="152" y="83" font-size="20" text-anchor="middle" letter-spacing="2">ILDA</text>
+  <text x="152" y="124" font-size="14" text-anchor="middle">伊尔德</text>
+  <g font-size="14">
+    <text x="20" y="262">朗贝尔：一个名字，</text>
+    <text x="20" y="282">缝死在丝绸上</text>
+  </g>
+  <g class="l" filter="url(#wob2)">
+    <path d="M290 150c-14 10-20 40-6 70 10 18 120 18 130 0 14-30 8-60-6-70z"/>
+    <path d="M300 148c20-8 80-8 100 0"/>
+    <path d="M330 146c-6-18-2-32 6-40M370 146c6-18 2-32-6-40"/>
+    <rect x="266" y="64" width="168" height="48"/>
+  </g>
+  <path class="l thin" d="M336 106v-0M350 112v32" filter="url(#wob2)"/>
+  <g font-size="14" text-anchor="middle" letter-spacing="1">
+    <text x="350" y="84">DE DIGITO III SIN</text>
+    <text x="350" y="104">SCI AGAPITI MR</text>
+  </g>
+  <g font-size="14" text-anchor="middle">
+    <text x="350" y="38">圣阿加皮图斯，殉道者，</text>
+    <text x="350" y="56">左手第三指骨</text>
+  </g>
+  <g font-size="14">
+    <text x="266" y="262">洛泰尔：一句说明，</text>
+    <text x="266" y="282">绑在小包上，解得下来</text>
+  </g>
+</svg>
