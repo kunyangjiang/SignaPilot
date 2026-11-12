@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output and caches (none are produced today; listed so a future build step cannot leak them)
+dist/
+build/
+out/
+.cache/
+.wrangler/
+.vercel/
+
+# Credentials and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.dev.vars
+
+# Local tooling
+.claude/
+.vscode/
+.idea/
+
+# Logs and OS files
+*.log
+npm-debug.log*
+Thumbs.db
+Desktop.ini
+.DS_Store
