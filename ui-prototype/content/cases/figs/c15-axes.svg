@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" role="img" aria-label="同一把剪刀的两条轴。竖轴是选择与替换：剪刀、剪鱼的、“像勺子那个”，看卡片说名字时她卡住了。横轴是组合与邻接：灶台、左边挂钩、剪刀、剪开姜袋、挂回去，说“灶台左边挂着的”时她一伸手就拿到。">
+<text x="20.0" y="24.0" font-size="14" class="gt">同一把剪刀，两条轴</text>
+<path class="l" fill="none" d="M108 50V250" stroke-dasharray="5 5"/>
+<circle class="l" cx="108" cy="92" r="4" fill="none"/>
+<text x="96.0" y="97.0" font-size="13" text-anchor="end">剪刀</text>
+<circle class="l" cx="108" cy="148" r="4" fill="none"/>
+<text x="96.0" y="153.0" font-size="13" text-anchor="end">剪鱼的</text>
+<circle class="l" cx="108" cy="204" r="4" fill="none"/>
+<text x="96.0" y="209.0" font-size="13" text-anchor="end">“像勺子那个”</text>
+<text x="108.0" y="274.0" font-size="13" text-anchor="middle">选择与替换（相似）</text>
+<text x="108.0" y="292.0" font-size="12" text-anchor="middle">卡片上问“这个叫什么”</text>
+<text x="108.0" y="308.0" font-size="12" text-anchor="middle">卡住</text>
+<path class="gl" fill="none" d="M200 148H384"/>
+<circle class="gdot" cx="206" cy="148" r="3.5"/>
+<text x="206.0" y="134.0" font-size="12" text-anchor="middle">灶台</text>
+<circle class="gdot" cx="249" cy="148" r="3.5"/>
+<text x="249.0" y="174.0" font-size="12" text-anchor="middle">左边挂钩</text>
+<circle class="gdot" cx="292" cy="148" r="3.5"/>
+<text x="292.0" y="134.0" font-size="12" text-anchor="middle">剪刀</text>
+<circle class="gdot" cx="335" cy="148" r="3.5"/>
+<text x="335.0" y="174.0" font-size="12" text-anchor="middle">剪开姜袋</text>
+<circle class="gdot" cx="378" cy="148" r="3.5"/>
+<text x="378.0" y="134.0" font-size="12" text-anchor="middle">挂回去</text>
+<text x="292.0" y="274.0" font-size="13" text-anchor="middle">组合与邻接</text>
+<text x="292.0" y="292.0" font-size="12" text-anchor="middle">“灶台左边挂着的”</text>
+<text x="292.0" y="308.0" font-size="12" text-anchor="middle">一伸手就拿到</text>
+</svg>
