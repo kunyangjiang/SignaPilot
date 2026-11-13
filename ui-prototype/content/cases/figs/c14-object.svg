@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 290" role="img" aria-label="孔盘与封球示意：孔盘上 8 个符号排成一圈，正对面两两相连；封球外圈 5 个镜像符号，缺的搭档刻在球内泥片上，字面朝球心。">
+<text x="20.0" y="24.0" font-size="14" class="gt">孔盘与封球</text>
+<circle class="l" cx="100" cy="135" r="72" fill="none"/>
+<circle class="wash" cx="100" cy="135" r="12"/><circle class="l" cx="100" cy="135" r="12" fill="none"/>
+<path class="l" fill="none" stroke-linecap="round" transform="translate(119.9,87.0) rotate(22.5)" d="M-6 6V-6H6M2 2h0.1"/>
+<path class="l" fill="none" stroke-linecap="round" transform="translate(148.0,115.1) rotate(67.5)" d="M-6 4A6 6 0 0 1 6 4M0 -1V-7"/>
+<path class="l" fill="none" stroke-linecap="round" transform="translate(148.0,154.9) rotate(112.5)" d="M-6 -6L6 6M-6 6h5"/>
+<path class="l" fill="none" stroke-linecap="round" transform="translate(119.9,183.0) rotate(157.5)" d="M-6 0h12M-3 -6v12M4 -6l2 3"/>
+<path class="l" fill="none" stroke-linecap="round" transform="translate(80.1,183.0) rotate(202.5)" d="M-5 -6q10 6 0 12M3 0h3"/>
+<path class="l" fill="none" stroke-linecap="round" transform="translate(52.0,154.9) rotate(247.5)" d="M-6 6l6 -12l6 12M-2 2h4"/>
+<path class="l" fill="none" stroke-linecap="round" transform="translate(52.0,115.1) rotate(292.5)" d="M-6 -4h12M-6 4h8M6 4v-3"/>
+<path class="l" fill="none" stroke-linecap="round" transform="translate(80.1,87.0) rotate(337.5)" d="M0 -6v12M0 0l6 -5M-6 3h3"/>
+<path class="gl" stroke-dasharray="3 4" fill="none" d="M114.5 99.9L105.7 121.1M94.3 148.9L85.5 170.1"/>
+<path class="gl" stroke-dasharray="3 4" fill="none" d="M135.1 120.5L113.9 129.3M86.1 140.7L64.9 149.5"/>
+<path class="gl" stroke-dasharray="3 4" fill="none" d="M135.1 149.5L113.9 140.7M86.1 129.3L64.9 120.5"/>
+<path class="gl" stroke-dasharray="3 4" fill="none" d="M114.5 170.1L105.7 148.9M94.3 121.1L85.5 99.9"/>
+<path class="l" d="M100 63v10"/>
+<text x="106.0" y="57.0" font-size="13">刻痕</text>
+<path class="l thin" fill="none" d="M130 55a84 84 0 0 1 50 24l-2 -8m2 8l-8 0"/>
+<text x="170.0" y="53.0" font-size="13">抄录：顺时针</text>
+<text x="100.0" y="231.0" font-size="13" text-anchor="middle">孔盘：8 个符号，偶数</text>
+<text x="100.0" y="249.0" font-size="13" text-anchor="middle">虚线连起正对面的两个</text>
+<circle class="l" cx="300" cy="135" r="72" fill="none"/>
+<circle class="l thin" cx="300" cy="135" r="62" fill="none"/>
+<path class="l" fill="none" stroke-linecap="round" transform="translate(300.0,51.0) rotate(0.0) scale(-1,1)" d="M-6 4A6 6 0 0 1 6 4M0 -1V-7"/>
+<path class="l" fill="none" stroke-linecap="round" transform="translate(372.7,93.0) rotate(60.0) scale(-1,1)" d="M-6 0h12M-3 -6v12M4 -6l2 3"/>
+<path class="l" fill="none" stroke-linecap="round" transform="translate(300.0,219.0) rotate(180.0) scale(-1,1)" d="M-6 -4h12M-6 4h8M6 4v-3"/>
+<path class="l" fill="none" stroke-linecap="round" transform="translate(227.3,177.0) rotate(240.0) scale(-1,1)" d="M-6 6V-6H6M2 2h0.1"/>
+<path class="l" fill="none" stroke-linecap="round" transform="translate(227.3,93.0) rotate(300.0) scale(-1,1)" d="M-6 6l6 -12l6 12M-2 2h4"/>
+<rect class="wash" x="341.5" y="156.0" width="14" height="14" transform="rotate(120 348.5 163.0)"/>
+<path class="gl" fill="none" stroke-linecap="round" transform="translate(348.5,163.0) rotate(300.0)" d="M0 -6v12M0 0l6 -5M-6 3h3"/>
+<path class="gl" stroke-dasharray="3 4" fill="none" d="M227.3 107.0L348.5 153.0"/>
+<path class="l" d="M300 63v-8"/>
+<text x="300.0" y="243.0" font-size="13" text-anchor="middle">封球剖面：5 个符号，奇数</text>
+<text x="300.0" y="261.0" font-size="13" text-anchor="middle">缺的搭档在里面的泥片上</text>
+<text x="300.0" y="279.0" font-size="13" text-anchor="middle">外圈镜像、逆时针</text>
+</svg>

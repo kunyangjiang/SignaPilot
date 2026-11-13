@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="8 符环上按偏移 k 的留出条件熵：k=1 到 7 依次为 7.16、7.54、7.34、4.17、7.38、7.54、7.17，不给提示为 7.51；正对面 k=4 明显最低。">
+<text x="20.0" y="22.0" font-size="14" class="gt">8 符环：隔 k 个位置的那个符号有多大帮助</text>
+<path class="l thin" stroke-dasharray="2 4" d="M60 227.8h310"/>
+<text x="52.0" y="231.8" font-size="13" text-anchor="end">4</text>
+<path class="l thin" stroke-dasharray="2 4" d="M60 183.3h310"/>
+<text x="52.0" y="187.3" font-size="13" text-anchor="end">5</text>
+<path class="l thin" stroke-dasharray="2 4" d="M60 138.9h310"/>
+<text x="52.0" y="142.9" font-size="13" text-anchor="end">6</text>
+<path class="l thin" stroke-dasharray="2 4" d="M60 94.4h310"/>
+<text x="52.0" y="98.4" font-size="13" text-anchor="end">7</text>
+<path class="l thin" stroke-dasharray="2 4" d="M60 50.0h310"/>
+<text x="52.0" y="54.0" font-size="13" text-anchor="end">8</text>
+<path class="gl" stroke-dasharray="6 4" d="M60 71.8h310"/>
+<text x="370.0" y="42.0" font-size="13" text-anchor="end">虚线：不给提示，7.51</text>
+<rect class="wash" x="80" y="87.3" width="30" height="162.7"/>
+<rect class="l" fill="none" x="80" y="87.3" width="30" height="162.7"/>
+<text x="95.0" y="82.3" font-size="12" text-anchor="middle">7.16</text>
+<text x="95.0" y="268.0" font-size="13" text-anchor="middle">1</text>
+<rect class="wash" x="122" y="70.4" width="30" height="179.6"/>
+<rect class="l" fill="none" x="122" y="70.4" width="30" height="179.6"/>
+<text x="137.0" y="65.4" font-size="12" text-anchor="middle">7.54</text>
+<text x="137.0" y="268.0" font-size="13" text-anchor="middle">2</text>
+<rect class="wash" x="164" y="79.3" width="30" height="170.7"/>
+<rect class="l" fill="none" x="164" y="79.3" width="30" height="170.7"/>
+<text x="179.0" y="74.3" font-size="12" text-anchor="middle">7.34</text>
+<text x="179.0" y="268.0" font-size="13" text-anchor="middle">3</text>
+<rect class="wash" x="206" y="220.2" width="30" height="29.8"/>
+<rect class="gl" fill="none" x="206" y="220.2" width="30" height="29.8"/>
+<text x="221.0" y="215.2" font-size="12" text-anchor="middle">4.17</text>
+<text x="221.0" y="268.0" font-size="13" text-anchor="middle">4</text>
+<rect class="wash" x="248" y="77.6" width="30" height="172.4"/>
+<rect class="l" fill="none" x="248" y="77.6" width="30" height="172.4"/>
+<text x="263.0" y="72.6" font-size="12" text-anchor="middle">7.38</text>
+<text x="263.0" y="268.0" font-size="13" text-anchor="middle">5</text>
+<rect class="wash" x="290" y="70.4" width="30" height="179.6"/>
+<rect class="l" fill="none" x="290" y="70.4" width="30" height="179.6"/>
+<text x="305.0" y="65.4" font-size="12" text-anchor="middle">7.54</text>
+<text x="305.0" y="268.0" font-size="13" text-anchor="middle">6</text>
+<rect class="wash" x="332" y="86.9" width="30" height="163.1"/>
+<rect class="l" fill="none" x="332" y="86.9" width="30" height="163.1"/>
+<text x="347.0" y="81.9" font-size="12" text-anchor="middle">7.17</text>
+<text x="347.0" y="268.0" font-size="13" text-anchor="middle">7</text>
+<path class="l" d="M60 50v200h310"/>
+<text x="215.0" y="288.0" font-size="13" text-anchor="middle">k（隔几个位置；k=4 是正对面）</text>
+<text x="18.0" y="150.0" font-size="13">比特</text>
+</svg>
