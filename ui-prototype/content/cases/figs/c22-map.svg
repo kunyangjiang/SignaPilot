@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 406" role="img" aria-label="底比斯东西两岸示意图，不按比例。尼罗河自南向北流过。东岸是城，有阿蒙神庙即大法庭所在、卜塔神庙和市长帕塞尔管辖的城区。西岸是死者的一边：北边山脚下是先王的金字塔，即十八日巡查的十座；山后是王谷；中间是工匠村；西南是美丽之地即王后谷，十九日巡查；南边是拉美西斯三世祭庙。两岸之间靠渡船。小说里那座往北第三道门的墓是虚构的，图上没有。">
+<text x="20.0" y="24.0" font-size="14" class="gt">底比斯东西两岸（示意，不按比例）</text>
+<text x="200.0" y="46.0" font-size="12" text-anchor="middle">北 ↑</text>
+<path class="wash" d="M236 56C226 110 250 170 240 230C234 280 252 320 246 350H276C282 320 264 280 270 230C280 170 256 110 266 56Z"/>
+<text x="256.0" y="204.0" font-size="12" text-anchor="middle">尼</text>
+<text x="256.0" y="222.0" font-size="12" text-anchor="middle">罗</text>
+<text x="256.0" y="240.0" font-size="12" text-anchor="middle">河</text>
+<text x="70.0" y="70.0" font-size="13">西岸：死者的一边</text>
+<text x="290.0" y="70.0" font-size="13">东岸：城</text>
+<circle class="gdot" cx="310" cy="120" r="3.5"/>
+<text x="322.0" y="124.0" font-size="12">阿蒙神庙</text>
+<text x="322.0" y="142.0" font-size="12">大法庭所在</text>
+<circle class="l" cx="300" cy="168" r="3.5" fill="none"/>
+<text x="312.0" y="172.0" font-size="12">卜塔神庙</text>
+<circle class="l" cx="310" cy="250" r="3.5" fill="none"/>
+<text x="322.0" y="254.0" font-size="12">市长帕塞尔</text>
+<text x="322.0" y="272.0" font-size="12">的城</text>
+<path class="l thin" fill="none" d="M30 96C70 86 120 92 160 110" stroke-dasharray="3 3"/>
+<text x="30.0" y="88.0" font-size="12">山崖</text>
+<circle class="gdot" cx="170" cy="128" r="3.5"/>
+<text x="28.0" y="132.0" font-size="12">北山脚：先王的金字塔</text>
+<text x="28.0" y="150.0" font-size="12">（18 日巡查的十座）</text>
+<circle class="l" cx="96" cy="188" r="3.5" fill="none"/>
+<text x="28.0" y="192.0" font-size="12">山后</text>
+<text x="28.0" y="210.0" font-size="12">王谷</text>
+<circle class="gdot" cx="128" cy="234" r="3.5"/>
+<text x="140.0" y="238.0" font-size="12">工匠村</text>
+<circle class="gdot" cx="84" cy="280" r="3.5"/>
+<text x="28.0" y="300.0" font-size="12">“美丽之地”（王后谷）</text>
+<text x="28.0" y="318.0" font-size="12">19 日巡查</text>
+<circle class="l" cx="176" cy="300" r="3.5" fill="none"/>
+<text x="140.0" y="322.0" font-size="12">拉美西斯三世祭庙</text>
+<path class="gl" fill="none" d="M232 180H276"/>
+<text x="254.0" y="172.0" font-size="12" text-anchor="middle">渡</text>
+<path class="l thin" fill="none" d="M20 350H380"/>
+<text x="20.0" y="372.0" font-size="12">方位据通行的地图知识绘成，未量距离；</text>
+<text x="20.0" y="392.0" font-size="12">小说里那座“往北第三道门”的墓是虚构的，图上没有。</text>
+</svg>

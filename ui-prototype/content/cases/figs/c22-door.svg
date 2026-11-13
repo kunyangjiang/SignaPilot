@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" role="img" aria-label="小说示意图：一道封门，各人看的地方。门楣上是墓主的名字，先知看名字；灰泥面上是一方一方压在湿泥上的墓区印，宰相的书记看印；库房书记看门前的土；警卫长看脚印；门的右下角有一块拆开又补上的地方，没有人看。封门抹灰压印有考古实例；看抹子方向、掺旧土、翻模做印是小说虚构。">
+<text x="20.0" y="24.0" font-size="14" class="gt">一道封门：各人看的地方（小说示意）</text>
+<rect class="l" x="130.0" y="60.0" width="140.0" height="190.0" rx="3" fill="none"/>
+<path class="l thin" fill="none" d="M130 84H270"/>
+<text x="200.0" y="78.0" font-size="12" text-anchor="middle">门楣：墓主的名字</text>
+<rect class="l thin" x="150" y="98" width="44" height="20" rx="2" fill="none"/>
+<circle class="gdot" cx="172" cy="108" r="4"/>
+<rect class="l thin" x="206" y="98" width="44" height="20" rx="2" fill="none"/>
+<circle class="gdot" cx="228" cy="108" r="4"/>
+<rect class="l thin" x="150" y="128" width="44" height="20" rx="2" fill="none"/>
+<circle class="gdot" cx="172" cy="138" r="4"/>
+<rect class="l thin" x="206" y="128" width="44" height="20" rx="2" fill="none"/>
+<circle class="gdot" cx="228" cy="138" r="4"/>
+<rect class="l thin" x="150" y="158" width="44" height="20" rx="2" fill="none"/>
+<circle class="gdot" cx="172" cy="168" r="4"/>
+<rect class="l thin" x="206" y="158" width="44" height="20" rx="2" fill="none"/>
+<circle class="gdot" cx="228" cy="168" r="4"/>
+<rect class="l thin" x="150" y="188" width="44" height="20" rx="2" fill="none"/>
+<circle class="gdot" cx="172" cy="198" r="4"/>
+<rect class="l thin" x="206" y="188" width="44" height="20" rx="2" fill="none"/>
+<circle class="gdot" cx="228" cy="198" r="4"/>
+<path class="wash" d="M236 214H270V250H224Z"/>
+<path class="gl" fill="none" d="M224 250L236 214H270" stroke-dasharray="3 3"/>
+<path class="l thin" fill="none" d="M110 262H290"/>
+<text x="20.0" y="82.0" font-size="12">先知</text>
+<text x="20.0" y="100.0" font-size="12">看名字</text>
+<path class="l thin" fill="none" d="M70 78H128"/>
+<text x="20.0" y="138.0" font-size="12">宰相的书记</text>
+<text x="20.0" y="156.0" font-size="12">看印</text>
+<path class="l thin" fill="none" d="M92 134H148"/>
+<text x="20.0" y="270.0" font-size="12">库房书记</text>
+<text x="20.0" y="288.0" font-size="12">看门前的土</text>
+<text x="292.0" y="138.0" font-size="12">警卫长</text>
+<text x="292.0" y="156.0" font-size="12">看脚印</text>
+<text x="284.0" y="226.0" font-size="12">补过的角</text>
+<text x="284.0" y="244.0" font-size="12">没有人看</text>
+<path class="l thin" fill="none" d="M20 304H380"/>
+<text x="20.0" y="326.0" font-size="12">圆点是压在湿灰泥上的墓区印。虚线是拆开又补上的一角。</text>
+<text x="20.0" y="346.0" font-size="12">封门抹灰、压印，有考古实例；</text>
+<text x="20.0" y="366.0" font-size="12">“看抹子方向”“掺旧土”“翻模做印”是小说虚构。</text>
+</svg>
