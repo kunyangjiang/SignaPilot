@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 410" role="img" aria-label="从嘴到纸的五层。一，说了什么：孩子当时说出口的话，例如“我妈说的”。二，听见了什么：问话的人听进去的，诺埃尔听到她母亲告诉她。三，记下了什么：书记员写成的句子，“据该受询人之母告知，皆为女巫”。四，解释成什么：法庭和印书的人加上的意思，“女巫大议会”“上帝亲手所为”。五，我们能知道什么：只有上面这几层留下来的纸。内德 1634 年的重审笔录也一样，他画了记号，句子是书记员的。">
+<text x="20.0" y="24.0" font-size="14" class="gt">从嘴到纸：五层</text>
+<rect class="l" x="20" y="46" width="360" height="52" rx="3" fill="none"/>
+<text x="32.0" y="67.0" font-size="13">1　说了什么</text>
+<text x="170.0" y="67.0" font-size="12">孩子当时说出口的话</text>
+<text x="32.0" y="87.0" font-size="12">“我妈说的。”</text>
+<path class="l thin" fill="none" d="M200 98v14m-4 -5l4 5l4 -5"/>
+<rect class="l" x="20" y="112" width="360" height="52" rx="3" fill="none"/>
+<text x="32.0" y="133.0" font-size="13">2　听见了什么</text>
+<text x="170.0" y="133.0" font-size="12">问话的人听进去的</text>
+<text x="32.0" y="153.0" font-size="12">诺埃尔：她母亲告诉她</text>
+<path class="l thin" fill="none" d="M200 164v14m-4 -5l4 5l4 -5"/>
+<rect class="l" x="20" y="178" width="360" height="52" rx="3" fill="none"/>
+<text x="32.0" y="199.0" font-size="13">3　记下了什么</text>
+<text x="170.0" y="199.0" font-size="12">书记员写成的句子</text>
+<text x="32.0" y="219.0" font-size="12">“据该受询人之母告知，皆为女巫”</text>
+<path class="l thin" fill="none" d="M200 230v14m-4 -5l4 5l4 -5"/>
+<rect class="l" x="20" y="244" width="360" height="52" rx="3" fill="none"/>
+<text x="32.0" y="265.0" font-size="13">4　解释成什么</text>
+<text x="170.0" y="265.0" font-size="12">法庭和印书的人加上的意思</text>
+<text x="32.0" y="285.0" font-size="12">“女巫大议会”“上帝亲手所为”</text>
+<path class="l thin" fill="none" d="M200 296v14m-4 -5l4 5l4 -5"/>
+<rect class="wash" x="20" y="310" width="360" height="52" rx="3"/>
+<rect class="l" x="20" y="310" width="360" height="52" rx="3" fill="none"/>
+<text x="32.0" y="331.0" font-size="13">5　我们能知道什么</text>
+<text x="170.0" y="331.0" font-size="12">三百多年后能读到的</text>
+<text x="32.0" y="351.0" font-size="12">只有上面这几层留下来的纸</text>
+<text x="20.0" y="380.0" font-size="12">例子取自珍妮特 1612 年关于马尔金塔的证词。内德 1634 年的</text>
+<text x="20.0" y="398.0" font-size="12">重审笔录也一样：他画了记号，句子是书记员的。</text>
+</svg>
