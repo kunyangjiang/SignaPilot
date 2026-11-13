@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 544" role="img" aria-label="海地刑法第 246 条的逻辑。第一段是旧条文：用足以致死的物质谋害人命，以投毒论。第二段 1864 年增补：用不致死但造成昏睡的物质，同样以谋害性命论。第三段 1864 年增补：人因这种昏睡而被埋葬，以谋杀论。要用这一条定罪须证明四样：一种物质，没有找到；有人把它用在他身上，只有他本人的指认，被指的人已故；昏睡由它造成，医生说不出病因；因此被埋葬，有死亡证明和下葬的钟点。法条规定如果有人这样做怎么定罪，不能证明有人这样做过。本案没有依此条起诉的记录。">
+<text x="20.0" y="24.0" font-size="14" class="gt">刑法第 246 条：三段，四样要证明的东西</text>
+<rect class="l thin" x="20.0" y="42.0" width="360.0" height="74.0" rx="3" fill="none"/>
+<text x="30.0" y="62.0" font-size="12">第一段（旧条文）</text>
+<text x="30.0" y="84.0" font-size="13">用足以致死的物质谋害人命</text>
+<text x="30.0" y="106.0" font-size="13">→ 投毒</text>
+<path class="l thin" fill="none" d="M200 116v10"/>
+<rect class="l thin" x="20.0" y="126.0" width="360.0" height="74.0" rx="3" fill="none"/>
+<text x="30.0" y="146.0" font-size="12">第二段（1864 年增）</text>
+<text x="30.0" y="168.0" font-size="13">用不致死、但造成昏睡的物质</text>
+<text x="30.0" y="190.0" font-size="13">→ 同样以谋害性命论</text>
+<path class="l thin" fill="none" d="M200 200v10"/>
+<rect class="l thin" x="20.0" y="210.0" width="360.0" height="74.0" rx="3" fill="none"/>
+<text x="30.0" y="230.0" font-size="12">第三段（1864 年增）</text>
+<text x="30.0" y="252.0" font-size="13">人因这种昏睡而被埋葬</text>
+<text x="30.0" y="274.0" font-size="14" class="gt">→ 以谋杀论</text>
+<path class="l thin" fill="none" d="M20 298H380"/>
+<text x="20.0" y="320.0" font-size="13">要用这一条定罪，须证明：</text>
+<circle class="l" cx="26" cy="340" r="3.5" fill="none"/>
+<text x="38.0" y="344.0" font-size="13">一种物质</text>
+<text x="38.0" y="362.0" font-size="12">没有找到</text>
+<circle class="l" cx="26" cy="380" r="3.5" fill="none"/>
+<text x="38.0" y="384.0" font-size="13">有人把它用在他身上</text>
+<text x="38.0" y="402.0" font-size="12">只有他本人的指认，被指的人已故</text>
+<circle class="l" cx="26" cy="420" r="3.5" fill="none"/>
+<text x="38.0" y="424.0" font-size="13">昏睡由它造成</text>
+<text x="38.0" y="442.0" font-size="12">医生说不出病因</text>
+<circle class="gdot" cx="26" cy="460" r="3.5"/>
+<text x="38.0" y="464.0" font-size="13">因此被埋葬</text>
+<text x="38.0" y="482.0" font-size="12">有死亡证明和下葬的钟点</text>
+<text x="20.0" y="510.0" font-size="12">法条规定“如果有人这样做，怎么定罪”，</text>
+<text x="20.0" y="530.0" font-size="12">不能证明“有人这样做过”。本案没有依此条起诉的记录。</text>
+</svg>
