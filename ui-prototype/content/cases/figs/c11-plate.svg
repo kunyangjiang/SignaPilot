@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" role="img" aria-label="用两次曝光做鬼影的三步。第一步，头一天夜里在干片上先拍一张翻拍来的脸，镜头前蒙纱，曝光很短，片上留下看不见的潜影。第二步，第二天用同一片干片拍坐在椅子上的主顾。第三步，显影时两个像一起出来，脸淡而透明。干片右上角锉了一个口子作记号。干片一直在同一只片匣里，洗出来只有一道片框。下方列出当时能查的破绽，每一条只对某几种做法有效。">
+<rect class="l" x="30" y="30" width="120" height="96"/><path class="l" d="M138 30 l12 12" style="stroke-width:1.2"/><g ><circle cx="116" cy="64" r="13" fill="none" stroke="currentColor" stroke-dasharray="3 3"/></g><text x="170" y="70" font-size="15">一、头一天夜里</text><text x="170" y="92" font-size="14">翻拍的脸，蒙纱，数到一</text><rect class="l" x="30" y="160" width="120" height="96"/><path class="l" d="M138 160 l12 12" style="stroke-width:1.2"/><g ><circle cx="116" cy="194" r="13" fill="none" stroke="currentColor" stroke-dasharray="3 3"/></g><circle class="l" cx="86" cy="200" r="13"/><path class="l" d="M60 256 Q60 220 86 216 Q112 220 112 256"/><text x="170" y="200" font-size="15">二、第二天下午</text><text x="170" y="222" font-size="14">同一片干片，再拍主顾</text><rect class="l" x="30" y="290" width="120" height="96"/><path class="l" d="M138 290 l12 12" style="stroke-width:1.2"/><circle cx="116" cy="324" r="13" class="wash" style="opacity:.45"/><circle class="l" cx="86" cy="330" r="13"/><path class="l" d="M60 386 Q60 350 86 346 Q112 350 112 386"/><text x="170" y="330" font-size="15">三、显影</text><text x="170" y="352" font-size="14">两个像一起出来</text>
+<path class="l" d="M90 130V154M90 260V284" style="stroke-width:1.2"/>
+<text x="30" y="420" font-size="15">当时能查的破绽（各只对某几种做法有效）：</text>
+<text x="30" y="446" font-size="14">干片拿出来重装过，片框会有两道；光的方向不同；</text>
+<text x="30" y="470" font-size="14">纱的格子留在脸上；照片上有、底片上没有，</text>
+<text x="30" y="494" font-size="14">说明是晒印时叠上去的。</text>
+</svg>

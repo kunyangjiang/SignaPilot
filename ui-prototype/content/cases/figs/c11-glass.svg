@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" role="img" aria-label="照相机后面的毛玻璃。毛玻璃上的人是头朝下的：坐着的主顾倒过来，头在下方，膝盖在上方。一侧用蜡笔画了一个方框，是给“鬼”留的位置；一条横线标出主顾肩膀应该在的高度。">
+<rect class="l" x="40" y="30" width="320" height="250" filter="url(#wob2)"/>
+<path class="l" d="M48 40H352M48 270H352" style="stroke-width:.8;opacity:.5"/>
+<g transform="rotate(180 200 155)">
+  <circle class="l" cx="200" cy="105" r="26"/>
+  <path class="l" d="M150 225 Q150 150 200 140 Q250 150 250 225"/>
+  <path class="l" d="M140 225H260"/>
+  <rect x="236" y="70" width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.8" stroke-dasharray="6 4"/>
+  <path d="M232 152H312" stroke="currentColor" stroke-width="1.8" stroke-dasharray="6 4"/>
+</g>
+<text x="40" y="312" font-size="15">毛玻璃上，人是头朝下的。</text>
+<text x="40" y="336" font-size="15">虚线框：蜡笔画的，给“鬼”留的位置。</text>
+<text x="40" y="360" font-size="15">虚线：主顾的肩膀明天要压在这里。</text>
+</svg>
