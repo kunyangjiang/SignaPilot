@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 314" role="img" aria-label="小说虚构的半朽竹简：竖写六字，第一个字是刘，第二个字只剩上半截的禾，下半截烂了，后面是当为天子。禾加子是季，刘季是高皇帝的小名；禾加乃是秀，可以指国师，也可以指别的叫刘秀的人。苟敞在登记簿上写成了秀，原简随后焚毁。">
+<text x="20.0" y="24.0" font-size="14" class="gt">半朽的竹简（小说虚构）</text>
+<rect class="l" x="44" y="40" width="44" height="262" rx="3" fill="none"/>
+<path class="l thin" fill="none" d="M66 44V298" stroke-dasharray="2 4"/>
+<ellipse class="wash" cx="66" cy="128" rx="20" ry="14"/>
+<text x="66.0" y="74.0" font-size="22" text-anchor="middle">刘</text>
+<clipPath id="c16top"><rect x="40" y="86" width="52" height="20"/></clipPath>
+<text x="66" y="114" font-size="26" text-anchor="middle" clip-path="url(#c16top)">禾</text>
+<path class="l thin" fill="none" d="M57 120q4 6 10 2q4 -3 2 8"/>
+<text x="66.0" y="172.0" font-size="22" text-anchor="middle">当</text>
+<text x="66.0" y="206.0" font-size="22" text-anchor="middle">为</text>
+<text x="66.0" y="240.0" font-size="22" text-anchor="middle">天</text>
+<text x="66.0" y="274.0" font-size="22" text-anchor="middle">子</text>
+<path class="l thin" fill="none" d="M98 108L150 84M98 108L150 172"/>
+<text x="160.0" y="80.0" font-size="16">禾 ＋ 子 ＝ 季</text>
+<text x="160.0" y="102.0" font-size="12">刘季：高皇帝的小名</text>
+<text x="160.0" y="120.0" font-size="12">意思是“汉当复兴”</text>
+<text x="160.0" y="168.0" font-size="16" class="gt">禾 ＋ 乃 ＝ 秀</text>
+<text x="160.0" y="190.0" font-size="12">刘秀：国师？</text>
+<text x="160.0" y="208.0" font-size="12">还是天下别的叫刘秀的人？</text>
+<path class="l thin" fill="none" d="M160 226H370"/>
+<text x="160.0" y="248.0" font-size="12">苟敞抄了一个多月“国师公秀”，</text>
+<text x="160.0" y="266.0" font-size="12">登记簿上写的是“秀”。</text>
+<text x="160.0" y="284.0" font-size="12">原简随后焚毁。</text>
+</svg>

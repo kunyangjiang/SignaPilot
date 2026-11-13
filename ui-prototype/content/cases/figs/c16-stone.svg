@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 304" role="img" aria-label="武功白石示意：石头上圆下方，丹书九字，从右往左竖读：告安汉公莽为皇帝。元始五年腊月武功长孟通浚井所得，《汉书》说符命自此开始。字体为示意，原石不存。">
+<text x="20.0" y="24.0" font-size="14" class="gt">武功白石：上圆下方，丹书九字</text>
+<path class="wash" d="M110 250V120A90 90 0 0 1 290 120V250Z"/>
+<path class="l" fill="none" d="M110 250V120A90 90 0 0 1 290 120V250Z"/>
+<text x="236.0" y="110.0" font-size="26" class="gt" text-anchor="middle">告</text>
+<text x="236.0" y="150.0" font-size="26" class="gt" text-anchor="middle">安</text>
+<text x="236.0" y="190.0" font-size="26" class="gt" text-anchor="middle">汉</text>
+<text x="200.0" y="110.0" font-size="26" class="gt" text-anchor="middle">公</text>
+<text x="200.0" y="150.0" font-size="26" class="gt" text-anchor="middle">莽</text>
+<text x="200.0" y="190.0" font-size="26" class="gt" text-anchor="middle">为</text>
+<text x="164.0" y="110.0" font-size="26" class="gt" text-anchor="middle">皇</text>
+<text x="164.0" y="150.0" font-size="26" class="gt" text-anchor="middle">帝</text>
+<path class="l thin" fill="none" d="M300 96l8 0M304 92v120"/>
+<text x="314.0" y="112.0" font-size="12">从右往左</text>
+<text x="314.0" y="132.0" font-size="12">竖读</text>
+<text x="200.0" y="274.0" font-size="12" text-anchor="middle">元始五年（公元 5 年）腊月，武功长孟通浚井所得</text>
+<text x="200.0" y="292.0" font-size="12" text-anchor="middle">《汉书》：“符命之起，自此始矣。”</text>
+</svg>

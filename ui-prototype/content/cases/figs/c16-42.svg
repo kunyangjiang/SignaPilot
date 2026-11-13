@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 354" role="img" aria-label="符命四十二篇的三类：德祥 5 篇，如黄龙见于成纪、新都，王伯墓门梓柱生枝叶；符命 25 篇，井石、金匮之属；福应 12 篇，雌鸡化为雄之属。总说列出十二应：丹石、三能文马、铁契、石龟、虞符、文圭、玄印、茂陵石书、玄龙石、神井、大神石、铜符帛图。">
+<text x="20.0" y="24.0" font-size="14" class="gt">符命四十二篇的三类</text>
+<rect class="l" x="20.0" y="40" width="42.9" height="26" fill="none"/>
+<text x="41.4" y="58.0" font-size="13" text-anchor="middle">德祥 5</text>
+<rect class="wash" x="62.9" y="40" width="214.3" height="26" />
+<rect class="l" x="62.9" y="40" width="214.3" height="26" fill="none"/>
+<text x="170.0" y="58.0" font-size="13" text-anchor="middle">符命 25</text>
+<rect class="l" x="277.1" y="40" width="102.9" height="26" fill="none"/>
+<text x="328.6" y="58.0" font-size="13" text-anchor="middle">福应 12</text>
+<text x="20.0" y="96.0" font-size="13">德祥</text>
+<text x="64.0" y="96.0" font-size="12">黄龙见于成纪（文帝）、新都（宣帝）；</text>
+<text x="64.0" y="113.0" font-size="12">王伯墓门梓柱生枝叶</text>
+<text x="20.0" y="138.0" font-size="13">符命</text>
+<text x="64.0" y="138.0" font-size="12">井石、金匮之属：</text>
+<text x="64.0" y="155.0" font-size="12">武功丹石、齐井、铜匮……</text>
+<text x="20.0" y="180.0" font-size="13">福应</text>
+<text x="64.0" y="180.0" font-size="12">雌鸡化为雄之属</text>
+<text x="20.0" y="224.0" font-size="12">《汉书》：“其文尔雅依托，皆为作说。”</text>
+<path class="l thin" fill="none" d="M20 238H380"/>
+<text x="20.0" y="260.0" font-size="13">总说里的“十二应”（顺序照原文）</text>
+<circle class="gdot" cx="24" cy="282" r="3"/>
+<text x="32.0" y="286.0" font-size="12">1 丹石</text>
+<circle class="gdot" cx="116" cy="282" r="3"/>
+<text x="124.0" y="286.0" font-size="12">2 三能文马</text>
+<circle class="gdot" cx="208" cy="282" r="3"/>
+<text x="216.0" y="286.0" font-size="12">3 铁契</text>
+<circle class="gdot" cx="300" cy="282" r="3"/>
+<text x="308.0" y="286.0" font-size="12">4 石龟</text>
+<circle class="gdot" cx="24" cy="308" r="3"/>
+<text x="32.0" y="312.0" font-size="12">5 虞符</text>
+<circle class="gdot" cx="116" cy="308" r="3"/>
+<text x="124.0" y="312.0" font-size="12">6 文圭</text>
+<circle class="gdot" cx="208" cy="308" r="3"/>
+<text x="216.0" y="312.0" font-size="12">7 玄印</text>
+<circle class="gdot" cx="300" cy="308" r="3"/>
+<text x="308.0" y="312.0" font-size="12">8 茂陵石书</text>
+<circle class="gdot" cx="24" cy="334" r="3"/>
+<text x="32.0" y="338.0" font-size="12">9 玄龙石</text>
+<circle class="gdot" cx="116" cy="334" r="3"/>
+<text x="124.0" y="338.0" font-size="12">10 神井</text>
+<circle class="gdot" cx="208" cy="334" r="3"/>
+<text x="216.0" y="338.0" font-size="12">11 大神石</text>
+<circle class="gdot" cx="300" cy="334" r="3"/>
+<text x="308.0" y="338.0" font-size="12">12 铜符帛图</text>
+</svg>

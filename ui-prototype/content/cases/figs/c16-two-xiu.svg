@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 322" role="img" aria-label="两个刘秀的时间线。上面一条是刘歆：建平元年（前 6 年）改名秀，始建国元年（9 年）为国师，地皇四年（23 年）七月谋劫莽事泄自杀。下面一条是南阳蔡阳的刘秀：天凤中在长安受《尚书》，地皇三年（22 年）起兵于宛，建武元年（25 年）即位。两条线之间是宛城宴会上蔡少公说的“刘秀当为天子”，座中有人问是不是国师公刘秀，刘秀笑答“何用知非仆耶”。">
+<text x="20.0" y="24.0" font-size="14" class="gt">两个刘秀</text>
+<path class="l thin" fill="none" d="M40.0 150H370.0"/>
+<path class="l thin" fill="none" d="M40.0 146v8"/>
+<text x="40.0" y="168.0" font-size="12" text-anchor="middle">前 6</text>
+<path class="l thin" fill="none" d="M157.1 146v8"/>
+<text x="157.1" y="168.0" font-size="12" text-anchor="middle">5</text>
+<path class="l thin" fill="none" d="M199.7 146v8"/>
+<text x="199.7" y="168.0" font-size="12" text-anchor="middle">9</text>
+<path class="l thin" fill="none" d="M348.7 146v8"/>
+<text x="348.7" y="168.0" font-size="12" text-anchor="middle">23</text>
+<path class="l thin" fill="none" d="M370.0 146v8"/>
+<text x="370.0" y="168.0" font-size="12" text-anchor="middle">25</text>
+<text x="20.0" y="46.0" font-size="13">刘歆→刘秀（国师）</text>
+<circle class="l" cx="40.0" cy="120" r="4" fill="none"/>
+<text x="40.0" y="104.0" font-size="12">建平元年改名秀</text>
+<circle class="l" cx="199.7" cy="120" r="4" fill="none"/>
+<text x="199.7" y="86.0" font-size="12" text-anchor="middle">始建国元年为国师</text>
+<circle class="l" cx="348.7" cy="120" r="4" fill="none"/>
+<text x="348.7" y="104.0" font-size="12" text-anchor="end">地皇四年七月自杀</text>
+<text x="20.0" y="210.0" font-size="13">刘秀（南阳蔡阳）</text>
+<circle class="gdot" cx="252.9" cy="180" r="4"/>
+<text x="252.9" y="238.0" font-size="12" text-anchor="middle">天凤中在长安受《尚书》</text>
+<circle class="gdot" cx="338.1" cy="180" r="4"/>
+<text x="338.1" y="256.0" font-size="12" text-anchor="middle">地皇三年起兵于宛</text>
+<circle class="gdot" cx="370.0" cy="180" r="4"/>
+<text x="370.0" y="274.0" font-size="12" text-anchor="end">建武元年即位</text>
+<path class="gl" fill="none" d="M338.1 124V176" stroke-dasharray="3 3"/>
+<text x="332.1" y="138.0" font-size="12" text-anchor="end">宛宴：“刘秀当为天子”</text>
+<text x="20.0" y="292.0" font-size="12">上：国师刘歆。下：后来的光武帝。虚线是蔡少公那句谶，</text>
+<text x="20.0" y="310.0" font-size="12">座中先把它读给国师，刘秀笑问“何用知非仆耶？”</text>
+</svg>

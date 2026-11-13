@@ -130,6 +130,8 @@ window.SP = (function () {
       '<g fill="currentColor" stroke="none"><circle cx="10" cy="10" r="2.4"/><circle cx="24" cy="10" r="1.2"/><circle cx="38" cy="10" r="2.4"/><circle cx="10" cy="24" r="1.2"/><circle cx="24" cy="24" r="2.4"/><circle cx="38" cy="24" r="1.2"/><circle cx="10" cy="38" r="2.4"/><circle cx="24" cy="38" r="2.4"/><circle cx="38" cy="38" r="1.2"/></g><path d="M10 10L24 24 38 10M24 24v14"/>'),
     C('15', '剩下的词', '当代现实 · 夫妻 · 悲剧', '杭州拱宸桥的一家面馆，后来是北京', '开了 28 年面馆的妻子开始丢词。她和丈夫用敲锅、画葱、一把钥匙编出一套只有两个人懂的话。后来，他开始替她翻译。', ['当代'], '#5d6b7a', 1.7,
       '<path d="M9 13h30M9 21h22M9 29h13M9 37h5"/>'),
+    C('16', '符命', '历史黑色喜剧 · 政治讽刺', '西汉末年到新朝，长安与南阳', '太史府的一个抄书吏，替新朝誊过白石、铜匮和四十二篇符命。后来，他在一枚半朽的竹简上补了半个字。', ['历史', '喜剧'], '#9a4b3a', 1.6,
+      '<path d="M14 40V22a10 10 0 0 1 20 0v18zM24 18v16M19 26h10"/>'),
   ];
 
   // Cross-department discovery threads (UI copy; items reference sealed IDs only)
