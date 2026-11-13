@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" role="img" aria-label="不留的平面示意。一个边长约两千米的方框，外垄上原有三十二根石柱，现在站着十九根。正中是黑石，南边是王坑，东南角的高垄上是盐王坟，坟底下是旧人的黑屋。虚线圈是苇按黑石的比例估出的地下巷子范围，半径约四百八十米。东边离黑石九百米、外垄以内的地方，是后来堵上的那口井；外垄以外、离黑石两千米处是新井。北垄下标出蒿和白杖十四岁时挖的坑，西门外是洗脚池和窑。">
+<text x="20" y="24" font-size="14" class="gt">不留的平面</text>
+<rect class="l" x="50" y="60" width="200" height="200" fill="none"/>
+<circle cx="62.5" cy="60" r="3" fill="currentColor"/>
+<path class="l thin" d="M58.5 263l8 -6"/>
+<circle cx="50" cy="72.5" r="3" fill="currentColor"/>
+<circle cx="250" cy="72.5" r="3" fill="currentColor"/>
+<path class="l thin" d="M83.5 63l8 -6"/>
+<circle cx="87.5" cy="260" r="3" fill="currentColor"/>
+<path class="l thin" d="M46 100.5l8 -6"/>
+<circle cx="250" cy="97.5" r="3" fill="currentColor"/>
+<circle cx="112.5" cy="60" r="3" fill="currentColor"/>
+<path class="l thin" d="M108.5 263l8 -6"/>
+<circle cx="50" cy="122.5" r="3" fill="currentColor"/>
+<circle cx="250" cy="122.5" r="3" fill="currentColor"/>
+<path class="l thin" d="M133.5 63l8 -6"/>
+<circle cx="137.5" cy="260" r="3" fill="currentColor"/>
+<circle cx="50" cy="147.5" r="3" fill="currentColor"/>
+<path class="l thin" d="M246 150.5l8 -6"/>
+<circle cx="162.5" cy="60" r="3" fill="currentColor"/>
+<circle cx="162.5" cy="260" r="3" fill="currentColor"/>
+<path class="l thin" d="M46 175.5l8 -6"/>
+<circle cx="250" cy="172.5" r="3" fill="currentColor"/>
+<circle cx="187.5" cy="60" r="3" fill="currentColor"/>
+<path class="l thin" d="M183.5 263l8 -6"/>
+<path class="l thin" d="M46 200.5l8 -6"/>
+<circle cx="250" cy="197.5" r="3" fill="currentColor"/>
+<circle cx="212.5" cy="60" r="3" fill="currentColor"/>
+<path class="l thin" d="M208.5 263l8 -6"/>
+<circle cx="50" cy="222.5" r="3" fill="currentColor"/>
+<path class="l thin" d="M246 225.5l8 -6"/>
+<circle cx="237.5" cy="60" r="3" fill="currentColor"/>
+<path class="l thin" d="M233.5 263l8 -6"/>
+<circle cx="50" cy="247.5" r="3" fill="currentColor"/>
+<path class="l thin" d="M246 250.5l8 -6"/>
+<rect x="146" y="154" width="8" height="12" fill="currentColor"/>
+<text x="150" y="148" font-size="13" text-anchor="middle">黑石</text>
+<ellipse class="l thin" cx="150" cy="190" rx="12" ry="7" fill="none"/>
+<text x="150" y="212" font-size="13" text-anchor="middle">王坑</text>
+<circle class="gl" cx="150" cy="160" r="48" fill="none" stroke-dasharray="4 4"/>
+<text x="150" y="234" font-size="13" class="gt" text-anchor="middle">虚线：苇按黑石估的巷子范围</text>
+<path class="wash" d="M220 260 q30 -34 50 0z"/>
+<path class="l" d="M220 260 q30 -34 50 0" fill="none"/>
+<text x="264" y="280" font-size="13">盐王坟，底下是黑屋</text>
+<path class="l" d="M114 51l6 6m0 -6l-6 6"/>
+<text x="126" y="56" font-size="13">北垄下的坑（五十年前）</text>
+<circle class="gl" cx="240" cy="160" r="5" fill="none"/><path class="gl" d="M235 160h10M240 155v10"/>
+<path class="l thin" d="M245 155L268 130"/>
+<text x="260" y="108" font-size="13" class="gt">堵上的井</text>
+<text x="260" y="124" font-size="13">离黑石九百米</text>
+<circle cx="350" cy="160" r="4" fill="currentColor"/>
+<text x="350" y="182" font-size="13" text-anchor="middle">新井</text>
+<text x="350" y="198" font-size="13" text-anchor="middle">离黑石两千米</text>
+<text x="350" y="214" font-size="13" text-anchor="middle">七百六十米出水</text>
+<path class="l thin" d="M50 152h-8M50 168h-8"/>
+<text x="6" y="188" font-size="13">西门</text>
+<text x="6" y="204" font-size="13">洗脚池</text>
+<text x="6" y="220" font-size="13">窑</text>
+<path class="l" d="M40 300h50M40 296v8M90 296v8"/>
+<text x="98" y="305" font-size="13">500 米</text>
+<circle cx="190" cy="300" r="3" fill="currentColor"/>
+<text x="198" y="305" font-size="13">站着的柱子 19 根</text>
+<path class="l thin" d="M186 323l8 -6"/>
+<text x="198" y="325" font-size="13">倒下的 13 根</text>
+</svg>

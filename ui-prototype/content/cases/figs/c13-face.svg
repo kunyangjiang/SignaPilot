@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 364" role="img" aria-label="三块牌子的正面和背面。左边是旧人埋下的石钱：正面一张眼睛挤紧、嘴张大的脸，背面三片叶子和四行旧字，本意是叫人别过来。中间是满做的惊面牌：脸的嘴角往上提，背面只有装饰性的三片叶子，被当成把病喊走的护身牌。右边是霜降板那年的新牌：三片叶子缩到一角，背面多了一行字：圈内勿掘。底下有铜，铜外有泥，泥是挡水的。">
+<text x="20" y="24" font-size="14" class="gt">正面</text>
+<circle class="l" cx="70" cy="80" r="38" fill="none"/>
+<path class="l" d="M52 70q6 -4 12 0M76 70q6 -4 12 0" fill="none"/>
+<ellipse class="l" cx="70" cy="92" rx="9" ry="12" fill="none"/>
+<path class="l thin" d="M50 60l8 4M90 60l-8 4"/>
+<circle class="l" cx="200" cy="80" r="38" fill="none"/>
+<path class="l" d="M182 70q6 -4 12 0M206 70q6 -4 12 0" fill="none"/>
+<path class="l" d="M189 88q11 18 22 0q-11 -6 -22 0z" fill="none"/>
+<circle class="l" cx="330" cy="80" r="38" fill="none"/>
+<path class="l" d="M312 70q6 -4 12 0M336 70q6 -4 12 0" fill="none"/>
+<path class="l" d="M319 88q11 18 22 0q-11 -6 -22 0z" fill="none"/>
+<text x="20" y="150" font-size="14" class="gt">背面</text>
+<circle class="l" cx="70" cy="205" r="38" fill="none"/>
+<circle class="l" cx="200" cy="205" r="38" fill="none"/>
+<circle class="l" cx="330" cy="205" r="38" fill="none"/>
+<ellipse class="gl" cx="70.0" cy="179.9" rx="6.6" ry="11.0" transform="rotate(0 70.0 179.9)" fill="none"/>
+<ellipse class="gl" cx="59.5" cy="198.1" rx="6.6" ry="11.0" transform="rotate(-120 59.5 198.1)" fill="none"/>
+<ellipse class="gl" cx="80.5" cy="198.1" rx="6.6" ry="11.0" transform="rotate(-240 80.5 198.1)" fill="none"/>
+<path class="l thin" d="M50 214h40"/>
+<path class="l thin" d="M50 219h40"/>
+<path class="l thin" d="M50 224h40"/>
+<path class="l thin" d="M50 229h40"/>
+<ellipse class="gl" cx="200.0" cy="188.5" rx="9.0" ry="15.0" transform="rotate(0 200.0 188.5)" fill="none"/>
+<ellipse class="gl" cx="185.7" cy="213.2" rx="9.0" ry="15.0" transform="rotate(-120 185.7 213.2)" fill="none"/>
+<ellipse class="gl" cx="214.3" cy="213.2" rx="9.0" ry="15.0" transform="rotate(-240 214.3 213.2)" fill="none"/>
+<ellipse class="gl" cx="314.0" cy="181.4" rx="3.6" ry="6.0" transform="rotate(0 314.0 181.4)" fill="none"/>
+<ellipse class="gl" cx="308.3" cy="191.3" rx="3.6" ry="6.0" transform="rotate(-120 308.3 191.3)" fill="none"/>
+<ellipse class="gl" cx="319.7" cy="191.3" rx="3.6" ry="6.0" transform="rotate(-240 319.7 191.3)" fill="none"/>
+<path class="l thin" d="M306 206h48"/>
+<path class="l thin" d="M306 212h40"/>
+<path class="l thin" d="M306 218h32"/>
+<text x="70" y="268" font-size="14" text-anchor="middle">石钱</text>
+<text x="70" y="286" font-size="13" text-anchor="middle">旧人埋下的</text>
+<text x="70" y="306" font-size="13" class="gt" text-anchor="middle">叫人别过来</text>
+<text x="200" y="268" font-size="14" text-anchor="middle">惊面牌</text>
+<text x="200" y="286" font-size="13" text-anchor="middle">满做的</text>
+<text x="200" y="306" font-size="13" class="gt" text-anchor="middle">把病喊走</text>
+<text x="330" y="268" font-size="14" text-anchor="middle">新牌</text>
+<text x="330" y="286" font-size="13" text-anchor="middle">霜降板那年</text>
+<text x="330" y="306" font-size="13" class="gt" text-anchor="middle">多了一行字</text>
+<text x="200" y="334" font-size="13" text-anchor="middle">新牌背面：“圈内勿掘。底下有铜，</text>
+<text x="200" y="352" font-size="13" text-anchor="middle">铜外有泥，泥是挡水的。”</text>
+</svg>

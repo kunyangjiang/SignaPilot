@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 362" role="img" aria-label="上半部分是黑屋墙上剖面图的示意：地面上黑石刻得又高又细，外垄和柱子只有几笔，地下很深处是巷子和一排一排的圆柱。下半部分是两种量法。按黑石的真实高度去比，巷子在离黑石四百八十米以内，九百米处的井点在范围以外；按外垄的真实距离一千米去比，巷子要伸到约一千六百米，井点就在范围以内。">
+<text x="20" y="24" font-size="14" class="gt">黑屋右手墙上的剖面图（示意）</text>
+<path class="l" d="M20 96H380"/>
+<rect x="190" y="40" width="20" height="56" fill="currentColor"/>
+<text x="216" y="56" font-size="13">黑石，刻得很细</text>
+<path class="l" d="M130 96v-10"/>
+<path class="l" d="M270 96v-10"/>
+<path class="l" d="M90 96q10 -12 20 0" fill="none"/>
+<path class="l" d="M290 96q10 -12 20 0" fill="none"/>
+<text x="40" y="116" font-size="13">外垄，几笔带过</text>
+<path class="l thin" d="M60 96l3 -6l3 6M63 90v-7M59 86h8"/><circle class="l thin" cx="63" cy="80" r="2.5" fill="none"/>
+<path class="l" d="M125 160H275"/>
+<rect class="l thin" x="132" y="164" width="5" height="12" fill="none"/>
+<rect class="l thin" x="147" y="164" width="5" height="12" fill="none"/>
+<rect class="l thin" x="162" y="164" width="5" height="12" fill="none"/>
+<rect class="l thin" x="177" y="164" width="5" height="12" fill="none"/>
+<rect class="l thin" x="192" y="164" width="5" height="12" fill="none"/>
+<rect class="l thin" x="207" y="164" width="5" height="12" fill="none"/>
+<rect class="l thin" x="222" y="164" width="5" height="12" fill="none"/>
+<rect class="l thin" x="237" y="164" width="5" height="12" fill="none"/>
+<rect class="l thin" x="252" y="164" width="5" height="12" fill="none"/>
+<rect class="l thin" x="267" y="164" width="5" height="12" fill="none"/>
+<text x="200" y="196" font-size="13" text-anchor="middle">巷子和一排一排的圆柱</text>
+<text x="20" y="242" font-size="13" class="gt">按黑石量：巷子在 480 米以内，井点在外面</text>
+<path class="l thin" d="M40.0 256H360.0"/>
+<path class="l thin" d="M40.0 253v6"/>
+<path class="l thin" d="M200.0 253v6"/>
+<path class="l thin" d="M360.0 253v6"/>
+<rect class="wash" x="40.0" y="250" width="76.8" height="12"/>
+<path class="gl" d="M184.0 246v20"/>
+<path class="l" d="M200.0 248v16" stroke-dasharray="2 2"/>
+<text x="40.0" y="278" font-size="13">黑石</text>
+<text x="180.0" y="278" font-size="13" class="gt" text-anchor="end">井点</text>
+<text x="204.0" y="278" font-size="13">外垄</text>
+<text x="360.0" y="278" font-size="13" text-anchor="end">2000 米</text>
+<text x="20" y="312" font-size="13" class="gt">按外垄量：巷子伸到约 1600 米，井点在里面</text>
+<path class="l thin" d="M40.0 326H360.0"/>
+<path class="l thin" d="M40.0 323v6"/>
+<path class="l thin" d="M200.0 323v6"/>
+<path class="l thin" d="M360.0 323v6"/>
+<rect class="wash" x="40.0" y="320" width="256.0" height="12"/>
+<path class="gl" d="M184.0 316v20"/>
+<path class="l" d="M200.0 318v16" stroke-dasharray="2 2"/>
+<text x="40.0" y="348" font-size="13">黑石</text>
+<text x="180.0" y="348" font-size="13" class="gt" text-anchor="end">井点</text>
+<text x="204.0" y="348" font-size="13">外垄</text>
+<text x="360.0" y="348" font-size="13" text-anchor="end">2000 米</text>
+</svg>

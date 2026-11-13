@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 510" role="img" aria-label="小说虚构的一万年时间线。约一万年前旧人封存场址；之后几千年没有记录，绕山家念里话；两千六百年前立首板，理由只口传；一千八百年前盐王卤挖王坑，说祖宗迎他；之后六百年盐王葬在东南角，禁地成了荣耀之地；盐王倒后坟被盗出金子，有了底下有宝的说法；两百年前世袭守圈人偷卖石钱，改为抽签；五十年前蒿和白杖挖出石钱，后来成了惊面牌；三十年前蒿加上一排一排睡着；今年黑屋挖开、星图到期、钻到铜；明年写下霜降板。空心圆标出的是意思走样的步骤。">
+<text x="20" y="24" font-size="14" class="gt">小说里的一万年</text>
+<path class="l" d="M30 50V450"/>
+<circle cx="30" cy="50" r="5" fill="currentColor"/>
+<text x="44" y="55" font-size="13">约一万年前</text>
+<text x="44" y="72" font-size="13">旧人封存。立柱、堆垄、刻黑石和黑屋，撒下石钱。</text>
+<circle class="gl" cx="30" cy="90" r="5" fill="none"/>
+<text x="44" y="95" font-size="13" class="gt">之后的几千年</text>
+<text x="44" y="112" font-size="13">没有记录。绕山家在羊羔落地时念里话。</text>
+<circle cx="30" cy="130" r="5" fill="currentColor"/>
+<text x="44" y="135" font-size="13">两千六百年前</text>
+<text x="44" y="152" font-size="13">首板。规矩留下了，理由只“口传”。</text>
+<circle class="gl" cx="30" cy="170" r="5" fill="none"/>
+<text x="44" y="175" font-size="13" class="gt">一千八百年前</text>
+<text x="44" y="192" font-size="13">盐王卤挖王坑，挖出石钱，说是祖宗迎他。</text>
+<circle class="gl" cx="30" cy="210" r="5" fill="none"/>
+<text x="44" y="215" font-size="13" class="gt">之后六百年</text>
+<text x="44" y="232" font-size="13">盐王葬在东南角：禁地成了荣耀之地。</text>
+<circle class="gl" cx="30" cy="250" r="5" fill="none"/>
+<text x="44" y="255" font-size="13" class="gt">盐王倒后</text>
+<text x="44" y="272" font-size="13">坟被盗，金子出土：“不留底下有宝”。</text>
+<circle class="gl" cx="30" cy="290" r="5" fill="none"/>
+<text x="44" y="295" font-size="13" class="gt">两百年前</text>
+<text x="44" y="312" font-size="13">世袭守圈人偷卖石钱，改为抽签。</text>
+<circle class="gl" cx="30" cy="330" r="5" fill="none"/>
+<text x="44" y="335" font-size="13" class="gt">五十年前</text>
+<text x="44" y="352" font-size="13">蒿和白杖挖出一块石钱，后来成了惊面牌。</text>
+<circle class="gl" cx="30" cy="370" r="5" fill="none"/>
+<text x="44" y="375" font-size="13" class="gt">三十年前</text>
+<text x="44" y="392" font-size="13">蒿加上“一排一排睡着”：禁地成了坟。</text>
+<circle class="gl" cx="30" cy="410" r="5" fill="none"/>
+<text x="44" y="415" font-size="13" class="gt">今年</text>
+<text x="44" y="432" font-size="13">黑屋挖开；星图“到期”；钻到铜。</text>
+<circle cx="30" cy="450" r="5" fill="currentColor"/>
+<text x="44" y="455" font-size="13">明年</text>
+<text x="44" y="472" font-size="13">霜降板：知道的、不知道的都写下来。</text>
+<circle cx="30" cy="490" r="5" fill="currentColor"/>
+<text x="42" y="495" font-size="13">保存和重写</text>
+<circle class="gl" cx="170" cy="490" r="5" fill="none"/>
+<text x="182" y="495" font-size="13" class="gt">意思走样的一步</text>
+</svg>
