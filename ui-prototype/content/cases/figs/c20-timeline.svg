@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" role="img" aria-label="地方案件与朝廷清查的时间线。地方，公历：1 月 22 日即阴历腊月初德清水门开工；3 月 25 至 26 日即阴历二月上旬穆方周、沈士良两案；4 月 3 日即阴历二月中计兆美在杭州；4 月钱塘、德清会审，三人枷号；4 至 5 月萧山、苏州、胥口各案；6 月 21 日汉阳；6 月末山东拿获乞丐，供出所谓妖首。朝廷，乾隆三十三年阴历：六月中清查上谕下达；七月初一、十七浙江巡抚永德具奏；七月二十一廷寄；八月谕令汇集春间各案口供；九月军机大臣在京复审，供词翻异；九月十七前后怀疑德清石匠一说是否属实；九月二十四决定停止清查。右列日期据孔飞力的注释和茆巍 2023 年的论文，没有核对档案原件。">
+<text x="20.0" y="24.0" font-size="14" class="gt">地方的案子，中央的清查</text>
+<text x="20.0" y="48.0" font-size="13">地方（公历）</text>
+<text x="214.0" y="48.0" font-size="13">朝廷（乾隆三十三年，阴历）</text>
+<circle class="l" cx="24" cy="72" r="3.5" fill="none"/>
+<text x="34.0" y="76.0" font-size="12">1 月 22 日</text>
+<text x="34.0" y="95.0" font-size="12">德清水门开工（腊月初）</text>
+<circle class="l" cx="24" cy="116" r="3.5" fill="none"/>
+<text x="34.0" y="120.0" font-size="12">3 月 25—26 日</text>
+<text x="34.0" y="139.0" font-size="12">穆、沈两案（二月上旬）</text>
+<circle class="l" cx="24" cy="160" r="3.5" fill="none"/>
+<text x="34.0" y="164.0" font-size="12">4 月 3 日</text>
+<text x="34.0" y="183.0" font-size="12">计兆美在杭州（二月中）</text>
+<circle class="l" cx="24" cy="204" r="3.5" fill="none"/>
+<text x="34.0" y="208.0" font-size="12">4 月</text>
+<text x="34.0" y="227.0" font-size="12">钱塘、德清会审；三人枷号</text>
+<circle class="l" cx="24" cy="248" r="3.5" fill="none"/>
+<text x="34.0" y="252.0" font-size="12">4—5 月</text>
+<text x="34.0" y="271.0" font-size="12">萧山、苏州、胥口各案</text>
+<circle class="l" cx="24" cy="292" r="3.5" fill="none"/>
+<text x="34.0" y="296.0" font-size="12">6 月 21 日</text>
+<text x="34.0" y="315.0" font-size="12">汉阳</text>
+<circle class="l" cx="24" cy="336" r="3.5" fill="none"/>
+<text x="34.0" y="340.0" font-size="12">6 月末</text>
+<text x="34.0" y="359.0" font-size="12">山东拿获乞丐，供出“妖首”</text>
+<path class="l thin" fill="none" d="M24 80V332"/>
+<circle class="gdot" cx="218" cy="72" r="3.5"/>
+<text x="228.0" y="76.0" font-size="12">六月中</text>
+<text x="228.0" y="95.0" font-size="12">清查上谕下达</text>
+<circle class="gdot" cx="218" cy="116" r="3.5"/>
+<text x="228.0" y="120.0" font-size="12">七月初一、十七</text>
+<text x="228.0" y="139.0" font-size="12">浙江巡抚永德具奏</text>
+<circle class="gdot" cx="218" cy="160" r="3.5"/>
+<text x="228.0" y="164.0" font-size="12">七月二十一</text>
+<text x="228.0" y="183.0" font-size="12">廷寄</text>
+<circle class="gdot" cx="218" cy="204" r="3.5"/>
+<text x="228.0" y="208.0" font-size="12">八月</text>
+<text x="228.0" y="227.0" font-size="12">谕令汇集春间各案口供</text>
+<circle class="gdot" cx="218" cy="248" r="3.5"/>
+<text x="228.0" y="252.0" font-size="12">九月</text>
+<text x="228.0" y="271.0" font-size="12">军机大臣在京复审，供词翻异</text>
+<circle class="gdot" cx="218" cy="292" r="3.5"/>
+<text x="228.0" y="296.0" font-size="12">九月十七前后</text>
+<text x="228.0" y="315.0" font-size="12">怀疑德清石匠一说是否属实</text>
+<circle class="gdot" cx="218" cy="336" r="3.5"/>
+<text x="228.0" y="340.0" font-size="12">九月二十四</text>
+<text x="228.0" y="359.0" font-size="12">决定停止清查</text>
+<path class="l thin" fill="none" d="M218 80V332"/>
+<path class="l thin" fill="none" d="M20 384H380"/>
+<text x="20.0" y="406.0" font-size="12">左列据孔飞力第一章。右列的阴历日期据孔飞力的注释</text>
+<text x="20.0" y="426.0" font-size="12">和茆巍 2023 年的论文，这次没有核对档案原件。</text>
+<text x="20.0" y="446.0" font-size="12">春天，案子止于省里；夏天以后，题目从上面发下来。</text>
+</svg>
