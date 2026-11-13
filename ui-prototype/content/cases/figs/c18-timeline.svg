@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 326" role="img" aria-label="信号往返时间线：1999 年 1 月 20 日从灰鹤站发出五页、三遍；走 21.336 年，2020 年 5 月 21 日前后到达 HD 219134；回信再走 21.336 年，2041 年 11 月 2 日到达地球。往返 42.672 年，约 15,586 天，即时回信应在 2041 年 9 月 21 日前后到；距离误差 0.007 光年，往返约正负 5 天；实际晚了约 42 天。恒星和距离是真实的，发射、回信和日期是小说设定。">
+<text x="20.0" y="24.0" font-size="14" class="gt">一来一回：约 15,586 天</text>
+<path class="l thin" fill="none" d="M40 88H360"/>
+<circle class="gdot" cx="40" cy="88" r="4"/>
+<text x="20.0" y="74.0" font-size="13">1999.1.20</text>
+<text x="20.0" y="110.0" font-size="12">灰鹤站发出</text>
+<text x="20.0" y="131.0" font-size="12">五页，三遍</text>
+<circle class="gdot" cx="200" cy="88" r="4"/>
+<text x="200.0" y="74.0" font-size="13" text-anchor="middle">2020.5.21</text>
+<text x="200.0" y="110.0" font-size="12" text-anchor="middle">到达 HD 219134</text>
+<text x="200.0" y="131.0" font-size="12" text-anchor="middle">21.336 光年</text>
+<circle class="gdot" cx="360" cy="88" r="4"/>
+<text x="380.0" y="74.0" font-size="13" text-anchor="end">2041.11.2</text>
+<text x="380.0" y="110.0" font-size="12" text-anchor="end">回信到达地球</text>
+<text x="120.0" y="50.0" font-size="12" text-anchor="middle">去：21.336 年</text>
+<text x="280.0" y="50.0" font-size="12" text-anchor="middle">回：21.336 年</text>
+<path class="l thin" fill="none" d="M20 150H380"/>
+<text x="20.0" y="172.0" font-size="12">往返</text>
+<text x="140.0" y="172.0" font-size="13">2 × 21.336 年 = 42.672 年</text>
+<text x="20.0" y="194.0" font-size="12">即时回信应到</text>
+<text x="140.0" y="194.0" font-size="13">2041 年 9 月 21 日前后</text>
+<text x="20.0" y="216.0" font-size="12">距离误差</text>
+<text x="140.0" y="216.0" font-size="13">0.007 光年，往返约 ±5 天</text>
+<text x="20.0" y="238.0" font-size="12">实际到达</text>
+<text x="140.0" y="238.0" font-size="13">2041 年 11 月 2 日</text>
+<text x="20.0" y="260.0" font-size="12">对方用时</text>
+<text x="140.0" y="260.0" font-size="14" class="gt">约 42 天（±5 天）</text>
+<text x="20.0" y="290.0" font-size="12">恒星和距离（Gaia DR3）是真实的；</text>
+<text x="20.0" y="311.0" font-size="12">发射、回信和日期是小说设定。</text>
+</svg>

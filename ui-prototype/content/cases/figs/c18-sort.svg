@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" role="img" aria-label="第二页的两种排法示意。1999 年按运算分组：加法、减法、乘法、除法，其中有 0 除以 1 等于 1 和 1 除以 0 等于不定两行。2041 年收到的版本按结果从小到大排：负 1，0，0，右钩 0 除以 1 等于 0，0.3333 省略，1，2，9，12；1 除以 0 那一行被拿掉，只留一个右钩。12 排在 9 之后、负 1 排在最前，说明依据是数的大小，不是符号的先后。">
+<text x="20.0" y="24.0" font-size="14" class="gt">第二页：两种排法</text>
+<text x="20.0" y="50.0" font-size="13">1999 年：按运算分组</text>
+<text x="214.0" y="50.0" font-size="13">2041 年：按结果大小</text>
+<text x="20.0" y="76.0" font-size="12">加</text>
+<text x="48.0" y="76.0" font-size="13">1 + 1 = 2</text>
+<text x="48.0" y="98.0" font-size="13">1 + 0 = 1</text>
+<text x="20.0" y="120.0" font-size="12">减</text>
+<text x="48.0" y="120.0" font-size="13">1 − 2 = −1</text>
+<text x="48.0" y="142.0" font-size="13">1 − 1 = 0</text>
+<text x="20.0" y="164.0" font-size="12">乘</text>
+<text x="48.0" y="164.0" font-size="13">1 × 0 = 0</text>
+<text x="48.0" y="186.0" font-size="13">3 × 3 = 9</text>
+<text x="48.0" y="208.0" font-size="13">4 × 3 = 12</text>
+<text x="20.0" y="230.0" font-size="12">除</text>
+<text x="48.0" y="230.0" font-size="13">1 / 3 = 0.3333…</text>
+<text x="48.0" y="252.0" font-size="13">0 / 1 = 1</text>
+<text x="48.0" y="274.0" font-size="13">1 / 0 = 不定</text>
+<text x="256.0" y="76.0" font-size="13">1 − 2 = −1</text>
+<text x="256.0" y="98.0" font-size="13">1 − 1 = 0</text>
+<text x="256.0" y="120.0" font-size="13">1 × 0 = 0</text>
+<text x="214.0" y="142.0" font-size="12">右钩</text>
+<text x="256.0" y="142.0" font-size="14" class="gt">0 / 1 = 0</text>
+<text x="256.0" y="164.0" font-size="13">1 / 3 = 0.3333…</text>
+<text x="256.0" y="186.0" font-size="13">1 + 0 = 1</text>
+<text x="256.0" y="208.0" font-size="13">1 + 1 = 2</text>
+<text x="256.0" y="230.0" font-size="13">3 × 3 = 9</text>
+<text x="256.0" y="252.0" font-size="13">4 × 3 = 12</text>
+<text x="214.0" y="274.0" font-size="12">右钩</text>
+<text x="256.0" y="274.0" font-size="14" class="gt">（空）</text>
+<path class="l thin" fill="none" d="M200 40V282"/>
+<path class="l thin" fill="none" d="M20 294H380"/>
+<text x="20.0" y="316.0" font-size="12">只列了十行作示意。12 排在 9 之后、−1 排在最前，</text>
+<text x="20.0" y="336.0" font-size="12">说明依据是数的大小，不是符号的先后。</text>
+</svg>

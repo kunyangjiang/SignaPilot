@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 441" role="img" aria-label="左钩和右钩的 5 乘 7 点阵，两者互为镜像：一条竖线，顶上一横，底下一个回脚。左钩出现 3 次，原文留着，后面多一个答案：第五页质量、第五页半径、第三页最后一行。右钩出现 4 次，换上他们的版本：第二页 1 除以 0 等于不定整行拿掉；第二页 0 除以 1 等于 1 改成等于 0；第四页 1863 改成 1836.15267；第三页最后一行。只有第三页最后一行两个钩都有，原文没有被拿掉。">
+<text x="20.0" y="24.0" font-size="14" class="gt">“一号新符号”其实是两个</text>
+<rect class="l thin" x="58.0" y="42.0" width="49.0" height="67.0" fill="none"/>
+<rect class="gdot" x="60.5" y="44.5" width="8" height="8"/>
+<rect class="gdot" x="69.5" y="44.5" width="8" height="8"/>
+<rect class="gdot" x="78.5" y="44.5" width="8" height="8"/>
+<rect class="gdot" x="87.5" y="44.5" width="8" height="8"/>
+<rect class="gdot" x="96.5" y="44.5" width="8" height="8"/>
+<rect class="gdot" x="96.5" y="53.5" width="8" height="8"/>
+<rect class="gdot" x="96.5" y="62.5" width="8" height="8"/>
+<rect class="gdot" x="96.5" y="71.5" width="8" height="8"/>
+<rect class="gdot" x="96.5" y="80.5" width="8" height="8"/>
+<rect class="gdot" x="96.5" y="89.5" width="8" height="8"/>
+<rect class="gdot" x="87.5" y="98.5" width="8" height="8"/>
+<rect class="gdot" x="96.5" y="98.5" width="8" height="8"/>
+<rect class="l thin" x="248.0" y="42.0" width="49.0" height="67.0" fill="none"/>
+<rect class="gdot" x="250.5" y="44.5" width="8" height="8"/>
+<rect class="gdot" x="259.5" y="44.5" width="8" height="8"/>
+<rect class="gdot" x="268.5" y="44.5" width="8" height="8"/>
+<rect class="gdot" x="277.5" y="44.5" width="8" height="8"/>
+<rect class="gdot" x="286.5" y="44.5" width="8" height="8"/>
+<rect class="gdot" x="250.5" y="53.5" width="8" height="8"/>
+<rect class="gdot" x="250.5" y="62.5" width="8" height="8"/>
+<rect class="gdot" x="250.5" y="71.5" width="8" height="8"/>
+<rect class="gdot" x="250.5" y="80.5" width="8" height="8"/>
+<rect class="gdot" x="250.5" y="89.5" width="8" height="8"/>
+<rect class="gdot" x="250.5" y="98.5" width="8" height="8"/>
+<rect class="gdot" x="259.5" y="98.5" width="8" height="8"/>
+<text x="82.0" y="132.0" font-size="14" class="gt" text-anchor="middle">左钩</text>
+<text x="272.0" y="132.0" font-size="14" class="gt" text-anchor="middle">右钩</text>
+<text x="177.0" y="70.0" font-size="12" text-anchor="middle">互为镜像</text>
+<path class="l thin" fill="none" d="M120 80H234" stroke-dasharray="3 3"/>
+<path class="l thin" fill="none" d="M20 148H380"/>
+<text x="20.0" y="170.0" font-size="13">左钩，3 次：原文留着，后面多一个答案</text>
+<text x="32.0" y="192.0" font-size="12">第五页　? 质量〔那里〕</text>
+<text x="32.0" y="212.0" font-size="12">第五页　? 半径〔那里〕</text>
+<text x="32.0" y="232.0" font-size="12">第三页　最后一行</text>
+<text x="20.0" y="264.0" font-size="13">右钩，4 次：换上他们的版本</text>
+<text x="32.0" y="286.0" font-size="12">第二页　1 / 0 = 不定　→　整行拿掉</text>
+<text x="32.0" y="306.0" font-size="12">第二页　0 / 1 = 1　→　0 / 1 = 0</text>
+<text x="32.0" y="326.0" font-size="12">第四页　1863　→　1836.15267</text>
+<text x="32.0" y="346.0" font-size="12">第三页　最后一行</text>
+<path class="l thin" fill="none" d="M20 364H380"/>
+<text x="20.0" y="386.0" font-size="12">只有第三页最后一行，两个钩都有，原文没有被拿掉。</text>
+<text x="20.0" y="406.0" font-size="12">1999 年的规范不许靠镜像区分符号，</text>
+<text x="20.0" y="427.0" font-size="12">识别软件因此把两个合成了一个。</text>
+</svg>

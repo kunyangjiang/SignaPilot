@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 356" role="img" aria-label="第三页最后一行的三个版本。1998 年 12 月记录本上写的：求 a，a 等于 1 减 0.9999 省略，旁边有铅笔字差一点。1999 年 1 月 20 日实际发出的：求 a，a 等于 1 减 0.9999，少一个省略符号。2041 年 11 月 2 日收到的两行：第一行是原文，左钩，a 等于 0.0001；第二行是右钩，1 减 0.9999 省略等于 0。左钩那一行照原文作答，右钩那一行是补上省略符号以后的版本；别处的右钩都把原文换掉了，这里两行都留着。">
+<text x="20.0" y="24.0" font-size="14" class="gt">第三页最后一行</text>
+<rect class="l thin" x="20.0" y="40.0" width="360.0" height="62.0" fill="none"/>
+<text x="30.0" y="60.0" font-size="12">1998 年 12 月，记录本上写的</text>
+<text x="40.0" y="88.0" font-size="15">?a　a = 1 − 0.9999…</text>
+<text x="250.0" y="88.0" font-size="14" class="gt">差一点！</text>
+<rect class="l thin" x="20.0" y="114.0" width="360.0" height="62.0" fill="none"/>
+<text x="30.0" y="134.0" font-size="12">1999 年 1 月 20 日，实际发出的</text>
+<text x="40.0" y="162.0" font-size="15">?a　a = 1 − 0.9999</text>
+<text x="250.0" y="162.0" font-size="12">少一个省略符号</text>
+<rect class="wash" x="20.0" y="188.0" width="360.0" height="88.0"/>
+<rect class="l thin" x="20.0" y="188.0" width="360.0" height="88.0" fill="none"/>
+<text x="30.0" y="208.0" font-size="12">2041 年 11 月 2 日，收到的</text>
+<text x="40.0" y="236.0" font-size="14">?a　a = 1 − 0.9999　左钩　a = 0.0001</text>
+<text x="40.0" y="262.0" font-size="14">右钩　1 − 0.9999… = 0</text>
+<text x="20.0" y="302.0" font-size="12">左钩那一行：照发出的原文作答，原文一个符号没动。</text>
+<text x="20.0" y="322.0" font-size="12">右钩那一行：补上省略符号以后的版本。</text>
+<text x="20.0" y="342.0" font-size="12">别处的右钩都把原文换掉了；这里两行都留着。</text>
+</svg>

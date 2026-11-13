@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 374" role="img" aria-label="小说里序章五页的结构。每页 127 乘 127 像素，外圈黑框、里圈白框，左右上角各一个二进制页码，符号 5 乘 7，旋转镜像后互不相混，五页共 80,645 比特，每秒 100 比特。第一页数；第二页运算；第三页提问，最后一行本应空白；第四页物质；第五页向对方提三个问题：质量、半径、年龄。格式取自真实的 1999 年 Dutil–Dumas 信息，压成五页和每页的内容是虚构的。">
+<text x="20.0" y="24.0" font-size="14" class="gt">“序章”五页的结构（小说设定）</text>
+<rect class="l" x="20.0" y="42.0" width="96.0" height="96.0" fill="none"/>
+<rect class="l thin" x="26.0" y="48.0" width="84.0" height="84.0" fill="none"/>
+<text x="32.0" y="64.0" font-size="12">页码</text>
+<text x="104.0" y="64.0" font-size="12" text-anchor="end">页码</text>
+<text x="68.0" y="102.0" font-size="12" text-anchor="middle">5 × 7 符号</text>
+<text x="130.0" y="58.0" font-size="13">每页 127 × 127 像素</text>
+<text x="130.0" y="77.0" font-size="12">外圈黑框，里圈白框</text>
+<text x="130.0" y="96.0" font-size="12">左右上角各一个二进制页码</text>
+<text x="130.0" y="115.0" font-size="12">符号 5 × 7，旋转镜像后互不相混</text>
+<text x="130.0" y="134.0" font-size="12">五页 80,645 比特，每秒 100 比特</text>
+<rect class="l thin" x="20.0" y="158.0" width="22.0" height="22.0" fill="none"/>
+<text x="31.0" y="174.0" font-size="12" text-anchor="middle">1</text>
+<text x="54.0" y="174.0" font-size="13">数</text>
+<text x="104.0" y="174.0" font-size="12">0—9，二进制与点；质数 2—89</text>
+<rect class="l thin" x="20.0" y="188.0" width="22.0" height="22.0" fill="none"/>
+<text x="31.0" y="204.0" font-size="12" text-anchor="middle">2</text>
+<text x="54.0" y="204.0" font-size="13">运算</text>
+<text x="104.0" y="204.0" font-size="12">加减乘除；“…”；1/0 = 不定</text>
+<rect class="l thin" x="20.0" y="218.0" width="22.0" height="22.0" fill="none"/>
+<text x="31.0" y="234.0" font-size="12" text-anchor="middle">3</text>
+<text x="54.0" y="234.0" font-size="14" class="gt">提问</text>
+<text x="104.0" y="234.0" font-size="12">?a 等式 答案；末行本应空白</text>
+<rect class="l thin" x="20.0" y="248.0" width="22.0" height="22.0" fill="none"/>
+<text x="31.0" y="264.0" font-size="12" text-anchor="middle">4</text>
+<text x="54.0" y="264.0" font-size="13">物质</text>
+<text x="104.0" y="264.0" font-size="12">氢；质子电子质量比；米、秒、千克</text>
+<rect class="l thin" x="20.0" y="278.0" width="22.0" height="22.0" fill="none"/>
+<text x="31.0" y="294.0" font-size="12" text-anchor="middle">5</text>
+<text x="54.0" y="294.0" font-size="13">问题</text>
+<text x="104.0" y="294.0" font-size="12">? 质量、半径、年龄〔那里〕</text>
+<path class="l thin" fill="none" d="M20 318H380"/>
+<text x="20.0" y="340.0" font-size="12">格式取自真实的 1999 年 Dutil–Dumas 信息（23 页）；</text>
+<text x="20.0" y="360.0" font-size="12">压成五页、每页写什么、其中的几处错，都是虚构的。</text>
+</svg>
