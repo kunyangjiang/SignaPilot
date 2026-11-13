@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" role="img" aria-label="三官手书示意图。一份写着病人姓名和认罪之意的文书，抄成三份：一份放在山上，交给天；一份埋进地里，交给地；一份沉进水里，交给水。据《三国志》裴松之注所引《典略》。">
+<rect class="l" x="150" y="30" width="100" height="70"/>
+<text x="200" y="58" font-size="14" text-anchor="middle">病人姓名</text>
+<text x="200" y="82" font-size="14" text-anchor="middle">认罪之意</text>
+<text x="200" y="122" font-size="14" text-anchor="middle" class="gt">一式三通</text>
+<path class="l" d="M175 132 L80 190 M200 132 V190 M225 132 L320 190"/>
+<path class="l" d="M40 240 L80 196 L120 240 Z"/>
+<text x="80" y="268" font-size="14" text-anchor="middle">放在山上</text>
+<text x="80" y="290" font-size="15" text-anchor="middle" class="gt">天</text>
+<path class="l" d="M165 222 H235"/><path class="l thin" d="M172 232 h12 M194 236 h14 M216 230 h12"/><rect class="l" x="190" y="200" width="20" height="16"/>
+<text x="200" y="268" font-size="14" text-anchor="middle">埋进地里</text>
+<text x="200" y="290" font-size="15" text-anchor="middle" class="gt">地</text>
+<path class="l" d="M285 222 q9 -7 18 0 t18 0 t18 0"/><path class="l" d="M285 236 q9 -7 18 0 t18 0 t18 0"/><rect class="l" x="310" y="200" width="20" height="16"/>
+<text x="320" y="268" font-size="14" text-anchor="middle">沉进水里</text>
+<text x="320" y="290" font-size="15" text-anchor="middle" class="gt">水</text>
+<text x="200" y="326" font-size="14" text-anchor="middle">《典略》：谓之三官手书</text>
+</svg>

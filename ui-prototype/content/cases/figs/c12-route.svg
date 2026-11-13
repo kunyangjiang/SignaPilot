@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 434" role="img" aria-label="小说里一张牒从生死簿到差役手里的五个环节，以及每个环节可能出的错和纠正的办法。簿：抄牒时可能丢字，只有簿房能对簿销牒。牒：盖簿房的印，私改一笔就作废，没有纠正的路。投：投房按抬头投递，可能按旧图投错；没盖到之前，可以驳抬头，或由班头委给别班差役。到：差役盖到字，先盖后看就失去了驳的机会；有箓的章可以让牒缓勾，但名字要一模一样。纸：牒写在衙门的公纸或无主的纸上；无主纸如果被原来烧它的人补签认领，纸有了主，牒就成了私信。">
+<rect class="l" x="20" y="28" width="110" height="58"/>
+<text x="42" y="65" font-size="22" text-anchor="middle" class="gt">簿</text>
+<text x="62" y="54" font-size="13">生死簿</text>
+<text x="146" y="52" font-size="13">✕ 抄牒时丢了一个字</text>
+<text x="146" y="74" font-size="13" class="gt">↺ 销牒：只有簿房能销，要对簿</text>
+<path class="l" d="M75 86 V104 m-5 -6 l5 6 l5 -6"/>
+<rect class="l" x="20" y="104" width="110" height="58"/>
+<text x="42" y="141" font-size="22" text-anchor="middle" class="gt">牒</text>
+<text x="62" y="130" font-size="13">盖簿房</text>
+<text x="62" y="148" font-size="13">的印</text>
+<text x="146" y="128" font-size="13">✕ 私改一笔，牒就作废</text>
+<text x="146" y="150" font-size="13">↺ 没有纠正的路，只有作废</text>
+<path class="l" d="M75 162 V180 m-5 -6 l5 6 l5 -6"/>
+<rect class="l" x="20" y="180" width="110" height="58"/>
+<text x="42" y="217" font-size="22" text-anchor="middle" class="gt">投</text>
+<text x="62" y="206" font-size="13">投房按</text>
+<text x="62" y="224" font-size="13">抬头投递</text>
+<text x="146" y="204" font-size="13">✕ 按旧图投错了地方</text>
+<text x="146" y="226" font-size="13" class="gt">↺ 驳或委：都要在盖“到”之前</text>
+<path class="l" d="M75 238 V256 m-5 -6 l5 6 l5 -6"/>
+<rect class="l" x="20" y="256" width="110" height="58"/>
+<text x="42" y="293" font-size="22" text-anchor="middle" class="gt">到</text>
+<text x="62" y="282" font-size="13">差役盖</text>
+<text x="62" y="300" font-size="13">“到”字</text>
+<text x="146" y="280" font-size="13">✕ 先盖后看</text>
+<text x="146" y="302" font-size="13" class="gt">↺ 缓勾：有箓的章，名字要一模一样</text>
+<path class="l" d="M75 314 V332 m-5 -6 l5 6 l5 -6"/>
+<rect class="l" x="20" y="332" width="110" height="58"/>
+<text x="42" y="369" font-size="22" text-anchor="middle" class="gt">纸</text>
+<text x="62" y="358" font-size="13">写在公纸或</text>
+<text x="62" y="376" font-size="13">无主纸上</text>
+<text x="146" y="356" font-size="13">✕ 无主纸日后可能有主</text>
+<text x="146" y="378" font-size="13" class="gt">↺ 补签：纸有了主，牒就成了私信</text>
+<text x="20" y="422" font-size="13">✕ 可能出错的地方　↺ 小说里可以纠正的办法</text>
+</svg>

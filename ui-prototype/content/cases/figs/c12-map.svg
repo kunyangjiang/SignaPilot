@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 322" role="img" aria-label="两张图的对比。左边是簿房用的洪武年间的旧图：河的一边只有一个“河口”，另一边是水。右边是万历二十三年的样子：老河口改名下河口；对岸的河滩长成了村子，先叫新河口，后改名上河口。簿上写的是新河口，牒上丢了“新”字，投房照旧图把牒投给了下河口。">
+<text x="20" y="24" font-size="14" class="gt">簿房的图（洪武年间）</text>
+<path class="l" d="M70 40 C60 110 95 160 80 250"/><path class="l" d="M110 40 C100 110 135 160 120 250"/>
+<rect class="l" x="26" y="120" width="34" height="24"/>
+<text x="43" y="170" font-size="15" text-anchor="middle">河口</text>
+<path class="l thin" d="M135 90 q8 -6 16 0 t16 0"/>
+<path class="l thin" d="M135 130 q8 -6 16 0 t16 0"/>
+<path class="l thin" d="M135 170 q8 -6 16 0 t16 0"/>
+<text x="160" y="215" font-size="13" text-anchor="middle">水</text>
+<path class="l thin" d="M200 30 V255" stroke-dasharray="3 5"/>
+<text x="212" y="24" font-size="14" class="gt">万历二十三年</text>
+<path class="l" d="M260 40 C250 110 285 160 270 250"/><path class="l" d="M300 40 C290 110 325 160 310 250"/>
+<rect class="l" x="216" y="120" width="34" height="24"/>
+<text x="233" y="170" font-size="14" text-anchor="middle">下河口</text>
+<text x="233" y="188" font-size="12" text-anchor="middle">（老河口）</text>
+<path class="wash" style="opacity:.3" d="M322 95 q30 -14 56 6 q10 40 -8 70 q-30 10 -46 -10 q-12 -30 -2 -66z"/>
+<rect class="l" x="334" y="118" width="30" height="22"/>
+<text x="350" y="168" font-size="14" text-anchor="middle">上河口</text>
+<text x="350" y="186" font-size="12" text-anchor="middle">（旧名新河口）</text>
+<text x="20" y="284" font-size="14">簿上写的是“新河口”，牒上丢了“新”字。</text>
+<text x="20" y="308" font-size="14">投房照老图投递，河口就是下河口。</text>
+</svg>
