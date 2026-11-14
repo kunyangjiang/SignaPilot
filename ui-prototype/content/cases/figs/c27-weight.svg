@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 334" role="img" aria-label="五次称重和情况说明的页数">
+<text x="20.0" y="24.0" font-size="14" class="gt">612 克和 589 克</text>
+<text x="100.0" y="59.0" font-size="12" text-anchor="end">2009 基准</text>
+<rect class="l" x="110.0" y="44.0" width="220.3" height="20.0" rx="3" fill="none"/>
+<text x="336.3" y="59.0" font-size="12">612</text>
+<text x="100.0" y="85.0" font-size="12" text-anchor="end">2011 重称</text>
+<rect class="l" x="110.0" y="70.0" width="220.4" height="20.0" rx="3" fill="none"/>
+<text x="336.4" y="85.0" font-size="12">612.3</text>
+<text x="100.0" y="111.0" font-size="12" text-anchor="end">2014 普查</text>
+<rect class="l" x="110.0" y="96.0" width="220.3" height="20.0" rx="3" fill="none"/>
+<text x="336.3" y="111.0" font-size="12">612</text>
+<text x="100.0" y="137.0" font-size="12" text-anchor="end">1979 简报</text>
+<rect class="wash" x="110.0" y="122.0" width="212.0" height="20.0" rx="3"/>
+<text x="328.0" y="137.0" font-size="12">589</text>
+<text x="100.0" y="163.0" font-size="12" text-anchor="end">2023 原镜</text>
+<rect class="wash" x="110.0" y="148.0" width="212.1" height="20.0" rx="3"/>
+<text x="328.1" y="163.0" font-size="12">589.2</text>
+<text x="20.0" y="192.0" font-size="12">前三次互相对得上，没有一次回头对 1979 年。</text>
+<path class="l thin" fill="none" d="M20 206H380"/>
+<text x="20.0" y="228.0" font-size="12">A4 无酸纸 120 克/平方米：一张约 7.5 克</text>
+<text x="30.0" y="250.0" font-size="12">补 23 克要三张：22.5 克</text>
+<text x="30.0" y="272.0" font-size="12">情况说明写完是六张：44.9 克</text>
+<text x="20.0" y="296.0" font-size="12">柜门没开，纸没垫，六张放进原镜的囊匣。</text>
+<text x="20.0" y="318.0" font-size="12">病害记录：五块，没剔，没上药，等批准。</text>
+</svg>
