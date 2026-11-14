@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 382" role="img" aria-label="示意柱状图：第一块样品比第二块多出来的 D 型氨基酸分子数，按异缬氨酸等于 1 折算：丙氨酸 3，谷氨酸 2，缬氨酸 1，天冬氨酸 1，异缬氨酸 1，不分左右的 Aib 多出 2，甘氨酸比不出来。下面用圆点画 LP-11 的成分：D 丙氨酸 3 个，D 谷氨酸 2 个，D 缬氨酸、D 天冬氨酸、D 异缬氨酸各 1 个，Aib 2 个，甘氨酸 2 个，两行对得上。L 型那一边两回几乎一样。含 Aib 和异缬氨酸的键难水解，比例只是大约。3 月 26 日的天平擦拭样里 D 型远多于 L 型，异缬氨酸全是 D。LP-11 和所有数字都是小说虚构。">
+<text x="20.0" y="24.0" font-size="14" class="gt">第一块比第二块多出来的（示意）</text>
+<text x="20.0" y="46.0" font-size="12">上：多出来的分子数（按纳摩尔/克算），异缬氨酸 = 1</text>
+<text x="20.0" y="64.0" font-size="12">下：LP-11 的成分，各几个</text>
+<rect class="wash" x="40.0" y="80.0" width="24.0" height="90.0" rx="3"/>
+<rect class="gl" x="40.0" y="80.0" width="24.0" height="90.0" rx="3" fill="none"/>
+<text x="52.0" y="190.0" font-size="12" text-anchor="middle">丙</text>
+<circle class="gdot" cx="52" cy="210" r="3.5"/>
+<circle class="gdot" cx="52" cy="224" r="3.5"/>
+<circle class="gdot" cx="52" cy="238" r="3.5"/>
+<rect class="wash" x="90.0" y="110.0" width="24.0" height="60.0" rx="3"/>
+<rect class="gl" x="90.0" y="110.0" width="24.0" height="60.0" rx="3" fill="none"/>
+<text x="102.0" y="190.0" font-size="12" text-anchor="middle">谷</text>
+<circle class="gdot" cx="102" cy="210" r="3.5"/>
+<circle class="gdot" cx="102" cy="224" r="3.5"/>
+<rect class="wash" x="140.0" y="140.0" width="24.0" height="30.0" rx="3"/>
+<rect class="gl" x="140.0" y="140.0" width="24.0" height="30.0" rx="3" fill="none"/>
+<text x="152.0" y="190.0" font-size="12" text-anchor="middle">缬</text>
+<circle class="gdot" cx="152" cy="210" r="3.5"/>
+<rect class="wash" x="190.0" y="140.0" width="24.0" height="30.0" rx="3"/>
+<rect class="gl" x="190.0" y="140.0" width="24.0" height="30.0" rx="3" fill="none"/>
+<text x="202.0" y="190.0" font-size="12" text-anchor="middle">天冬</text>
+<circle class="gdot" cx="202" cy="210" r="3.5"/>
+<rect class="wash" x="240.0" y="140.0" width="24.0" height="30.0" rx="3"/>
+<rect class="gl" x="240.0" y="140.0" width="24.0" height="30.0" rx="3" fill="none"/>
+<text x="252.0" y="190.0" font-size="12" text-anchor="middle">异缬</text>
+<circle class="gdot" cx="252" cy="210" r="3.5"/>
+<rect class="wash" x="290.0" y="110.0" width="24.0" height="60.0" rx="3"/>
+<rect class="gl" x="290.0" y="110.0" width="24.0" height="60.0" rx="3" fill="none"/>
+<text x="302.0" y="190.0" font-size="12" text-anchor="middle">Aib</text>
+<circle class="gdot" cx="302" cy="210" r="3.5"/>
+<circle class="gdot" cx="302" cy="224" r="3.5"/>
+<text x="352.0" y="160.0" font-size="12" text-anchor="middle">？</text>
+<text x="352.0" y="190.0" font-size="12" text-anchor="middle">甘</text>
+<circle class="gdot" cx="352" cy="210" r="3.5"/>
+<circle class="gdot" cx="352" cy="224" r="3.5"/>
+<path class="l thin" fill="none" d="M20 170H380"/>
+<path class="l thin" fill="none" d="M20 268H380"/>
+<text x="20.0" y="290.0" font-size="12">Aib 不分左右，只看含量。甘氨酸到处都有，比不出来。</text>
+<text x="20.0" y="310.0" font-size="12">L 型那一边两回几乎一样，没有多出来。</text>
+<text x="20.0" y="330.0" font-size="12">Aib、异缬氨酸的键难水解，比例只是“大约”。</text>
+<text x="20.0" y="350.0" font-size="12">天平擦拭样（3 月 26 日）：D 远多于 L，异缬氨酸全是 D。</text>
+<text x="20.0" y="370.0" font-size="12">LP-11 和所有数字都是小说虚构。</text>
+</svg>

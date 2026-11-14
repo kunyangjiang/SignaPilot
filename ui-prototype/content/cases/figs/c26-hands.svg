@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 414" role="img" aria-label="示意图：用手比喻氨基酸的手性。上面一只左手和一只右手，标着 L 型和 D 型，成分一样，互为镜像，普通色谱柱分不开。中间：各接一只 L 型试剂，画成灰色的手，得到 L 加 L、D 加 L 两种组合，不再是镜像，在柱子里走得一快一慢。下面是一段异缬氨酸的色谱图：两个峰，D 在前，L 在后；每一种氨基酸的次序都要用纯标样定；要是试剂本身装成了 D 型，次序就整个反过来。">
+<text x="20.0" y="24.0" font-size="14" class="gt">怎样把左右手分开（示意）</text>
+<path class="l" fill="none" d="M-12 0v-30q0-12 12-12t12 12v12l9-9q4-4 7 0t0 7l-16 17v3z" transform="translate(80 96)"/>
+<path class="l" fill="none" d="M-12 0v-30q0-12 12-12t12 12v12l9-9q4-4 7 0t0 7l-16 17v3z" transform="translate(150 96) scale(-1 1)"/>
+<path class="l thin" fill="none" d="M115 50v52" stroke-dasharray="3 3"/>
+<text x="80.0" y="116.0" font-size="12" text-anchor="middle">L 型</text>
+<text x="150.0" y="116.0" font-size="12" text-anchor="middle">D 型</text>
+<text x="200.0" y="66.0" font-size="12">成分一样，互为镜像，</text>
+<text x="200.0" y="86.0" font-size="12">普通的柱子分不开。</text>
+<path class="l thin" fill="none" d="M20 132H380"/>
+<text x="20.0" y="154.0" font-size="12">各接一只 L 型试剂（灰色）：</text>
+<path class="l" fill="none" d="M-12 0v-30q0-12 12-12t12 12v12l9-9q4-4 7 0t0 7l-16 17v3z" transform="translate(70 220)"/>
+<path class="gl" fill="none" d="M-12 0v-30q0-12 12-12t12 12v12l9-9q4-4 7 0t0 7l-16 17v3z" transform="translate(100 220)"/>
+<path class="l" fill="none" d="M-12 0v-30q0-12 12-12t12 12v12l9-9q4-4 7 0t0 7l-16 17v3z" transform="translate(170 220) scale(-1 1)"/>
+<path class="gl" fill="none" d="M-12 0v-30q0-12 12-12t12 12v12l9-9q4-4 7 0t0 7l-16 17v3z" transform="translate(200 220)"/>
+<text x="85.0" y="240.0" font-size="12" text-anchor="middle">L＋L</text>
+<text x="185.0" y="240.0" font-size="12" text-anchor="middle">D＋L</text>
+<text x="240.0" y="190.0" font-size="12">不再是镜像，</text>
+<text x="240.0" y="210.0" font-size="12">走得一快一慢。</text>
+<path class="l thin" fill="none" d="M20 258H380"/>
+<text x="20.0" y="280.0" font-size="12">色谱图上的异缬氨酸：</text>
+<path class="l" fill="none" d="M20 360H380"/>
+<path class="l" fill="none" d="M120 360q8 0 10 -50q2 -10 4 0q2 50 10 50"/>
+<path class="l" fill="none" d="M220 360q8 0 10 -50q2 -10 4 0q2 50 10 50"/>
+<text x="132.0" y="300.0" font-size="12" text-anchor="middle">D</text>
+<text x="232.0" y="300.0" font-size="12" text-anchor="middle">L</text>
+<text x="20.0" y="382.0" font-size="12">异缬氨酸 D 在前、L 在后。每一种氨基酸的次序都要用纯标样定。</text>
+<text x="20.0" y="402.0" font-size="12">要是试剂本身装成了 D 型，次序就整个反过来。</text>
+</svg>

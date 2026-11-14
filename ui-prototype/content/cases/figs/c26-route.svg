@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 414" role="img" aria-label="示意图：研究所三层楼。5 楼是骆组，做多肽药 LP-11；4 楼是公用天平室，2 号天平；3 楼是洁净实验室，有自己的天平。下面是时间线：2 月 24 日洁净室天平送去年检；2 月 27 日 8 点 20 分骆组在 2 号天平称 LP-11 粗品；8 点 55 分柯屿在同一台天平称第一块陨石；9 点 30 分骆组再称 LP-11；3 月 7 日洁净室天平送回；3 月 10 日第二块样品在洁净室称。称第一块时手套没换，拉过天平门，捏过铝箔边。蛇纹石空白 1 月已在洁净室称好，没有经过 4 楼。研究所、楼层和时刻都是小说虚构。">
+<text x="20.0" y="24.0" font-size="14" class="gt">两块样品是在哪里称的</text>
+<rect class="l" x="20.0" y="44.0" width="360.0" height="36.0" rx="3" fill="none"/>
+<text x="32.0" y="67.0" font-size="12">5 楼</text>
+<text x="90.0" y="67.0" font-size="12">骆组：多肽药 LP-11</text>
+<rect class="wash" x="20.0" y="88.0" width="360.0" height="36.0" rx="3"/>
+<text x="32.0" y="111.0" font-size="12">4 楼</text>
+<text x="90.0" y="111.0" font-size="12">公用天平室（2 号天平）</text>
+<rect class="l" x="20.0" y="132.0" width="360.0" height="36.0" rx="3" fill="none"/>
+<text x="32.0" y="155.0" font-size="12">3 楼</text>
+<text x="90.0" y="155.0" font-size="12">洁净实验室（自己的天平）</text>
+<path class="l thin" fill="none" d="M20 186H380"/>
+<circle class="l" cx="30" cy="206" r="3.5" fill="none"/>
+<text x="44.0" y="210.0" font-size="12">2 月 24 日</text>
+<text x="170.0" y="210.0" font-size="12">洁净室天平送去年检</text>
+<circle class="l" cx="30" cy="230" r="3.5" fill="none"/>
+<text x="44.0" y="234.0" font-size="12">2 月 27 日 08:20</text>
+<text x="170.0" y="234.0" font-size="12">骆组称 LP-11 粗品（2 号天平）</text>
+<circle class="gdot" cx="30" cy="254" r="3.5"/>
+<text x="44.0" y="258.0" font-size="12">2 月 27 日 08:55</text>
+<text x="170.0" y="258.0" font-size="12">柯屿称第一块陨石（2 号天平）</text>
+<circle class="l" cx="30" cy="278" r="3.5" fill="none"/>
+<text x="44.0" y="282.0" font-size="12">2 月 27 日 09:30</text>
+<text x="170.0" y="282.0" font-size="12">骆组再称 LP-11（2 号天平）</text>
+<circle class="l" cx="30" cy="302" r="3.5" fill="none"/>
+<text x="44.0" y="306.0" font-size="12">3 月 7 日</text>
+<text x="170.0" y="306.0" font-size="12">洁净室天平送回</text>
+<circle class="l" cx="30" cy="326" r="3.5" fill="none"/>
+<text x="44.0" y="330.0" font-size="12">3 月 10 日</text>
+<text x="170.0" y="330.0" font-size="12">第二块在洁净室称</text>
+<path class="l thin" fill="none" d="M30 206V330"/>
+<text x="20.0" y="362.0" font-size="12">第一块：手套没换，拉过天平门，捏过铝箔边。</text>
+<text x="20.0" y="382.0" font-size="12">蛇纹石空白 1 月已在洁净室称好，没有经过 4 楼。</text>
+<text x="20.0" y="402.0" font-size="12">研究所、楼层和时刻都是小说虚构。</text>
+</svg>

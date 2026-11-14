@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 394" role="img" aria-label="示意图：三段色谱图，都是 33 分钟附近异缬氨酸的位置。第一段是空白，平的。第二段是在 4 楼称的第一块样品，前面的 D 峰比后面的 L 峰高，D 型过量 9.0 正负 2.5%。第三段是在洁净室称的第二块样品，后面的 L 峰比前面的 D 峰高，L 型过量 7.4 正负 2.7%。同一块石头，同一瓶试剂，同一台仪器，同一批空白粉。过量等于两型之差除以两型之和，已校正外消旋标样的偏差，8 针。都是小说虚构的数。">
+<text x="20.0" y="24.0" font-size="14" class="gt">33 分钟附近：异缬氨酸（示意）</text>
+<text x="20.0" y="56.0" font-size="12">空白</text>
+<path class="l" fill="none" d="M140 90h60h24h20h24h100"/>
+<text x="20.0" y="76.0" font-size="12">平的</text>
+<text x="20.0" y="156.0" font-size="12">第一块（4 楼称）</text>
+<path class="gl" fill="none" d="M140 190h60q7 0 9 -66q2 -8 4 0q2 66 9 66h20q7 0 9 -55q2 -8 4 0q2 55 9 55h100"/>
+<text x="20.0" y="176.0" font-size="12">D 多：过量 9.0±2.5%</text>
+<text x="212.0" y="206.0" font-size="12" text-anchor="middle">D</text>
+<text x="256.0" y="206.0" font-size="12" text-anchor="middle">L</text>
+<text x="20.0" y="256.0" font-size="12">第二块（洁净室称）</text>
+<path class="l" fill="none" d="M140 290h60q7 0 9 -56q2 -8 4 0q2 56 9 56h20q7 0 9 -65q2 -8 4 0q2 65 9 65h100"/>
+<text x="20.0" y="276.0" font-size="12">L 多：过量 7.4±2.7%</text>
+<text x="212.0" y="306.0" font-size="12" text-anchor="middle">D</text>
+<text x="256.0" y="306.0" font-size="12" text-anchor="middle">L</text>
+<path class="l thin" fill="none" d="M20 320H380"/>
+<text x="20.0" y="342.0" font-size="12">同一块石头，同一瓶试剂，同一台仪器，同一批空白粉。</text>
+<text x="20.0" y="362.0" font-size="12">过量 = 两型之差 ÷ 两型之和，已校正外消旋标样的偏差。</text>
+<text x="20.0" y="382.0" font-size="12">8 针。都是小说虚构的数。</text>
+</svg>
