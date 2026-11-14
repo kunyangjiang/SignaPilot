@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 302" role="img" aria-label="正殿七尊神与七块牌子：左右整排镜像，只有正中的保生大帝挂对">
+<text x="20.0" y="24.0" font-size="14" class="gt">神坐的位置，和牌子挂的位置</text>
+<text x="20.0" y="52.0" font-size="12">神</text>
+<text x="20.0" y="132.0" font-size="12">牌子</text>
+<rect class="l" x="30.0" y="60.0" width="44.0" height="44.0" rx="3" fill="none"/>
+<text x="52.0" y="77.0" font-size="12" text-anchor="middle">注生</text>
+<text x="52.0" y="97.0" font-size="12" text-anchor="middle">娘娘</text>
+<rect class="wash" x="30.0" y="140.0" width="44.0" height="44.0" rx="3"/>
+<text x="52.0" y="167.0" font-size="12" text-anchor="middle">魁星</text>
+<path class="l thin" fill="none" d="M52.0 106V136"/>
+<rect class="l" x="82.0" y="60.0" width="44.0" height="44.0" rx="3" fill="none"/>
+<text x="104.0" y="87.0" font-size="12" text-anchor="middle">文昌</text>
+<rect class="wash" x="82.0" y="140.0" width="44.0" height="44.0" rx="3"/>
+<text x="104.0" y="167.0" font-size="12" text-anchor="middle">财神</text>
+<path class="l thin" fill="none" d="M104.0 106V136"/>
+<rect class="l" x="134.0" y="60.0" width="44.0" height="44.0" rx="3" fill="none"/>
+<text x="156.0" y="87.0" font-size="12" text-anchor="middle">龙王</text>
+<rect class="wash" x="134.0" y="140.0" width="44.0" height="44.0" rx="3"/>
+<text x="156.0" y="167.0" font-size="12" text-anchor="middle">月老</text>
+<path class="l thin" fill="none" d="M156.0 106V136"/>
+<rect class="l" x="186.0" y="60.0" width="44.0" height="44.0" rx="3" fill="none"/>
+<text x="208.0" y="87.0" font-size="12" text-anchor="middle">大道公</text>
+<rect class="l" x="186.0" y="140.0" width="44.0" height="44.0" rx="3" fill="none"/>
+<text x="208.0" y="157.0" font-size="12" text-anchor="middle">保生</text>
+<text x="208.0" y="177.0" font-size="12" text-anchor="middle">大帝</text>
+<path class="l thin" fill="none" d="M208.0 106V136"/>
+<rect class="l" x="238.0" y="60.0" width="44.0" height="44.0" rx="3" fill="none"/>
+<text x="260.0" y="87.0" font-size="12" text-anchor="middle">月老</text>
+<rect class="wash" x="238.0" y="140.0" width="44.0" height="44.0" rx="3"/>
+<text x="260.0" y="167.0" font-size="12" text-anchor="middle">龙王</text>
+<path class="l thin" fill="none" d="M260.0 106V136"/>
+<rect class="l" x="290.0" y="60.0" width="44.0" height="44.0" rx="3" fill="none"/>
+<text x="312.0" y="87.0" font-size="12" text-anchor="middle">财神</text>
+<rect class="wash" x="290.0" y="140.0" width="44.0" height="44.0" rx="3"/>
+<text x="312.0" y="167.0" font-size="12" text-anchor="middle">文昌</text>
+<path class="l thin" fill="none" d="M312.0 106V136"/>
+<rect class="l" x="342.0" y="60.0" width="44.0" height="44.0" rx="3" fill="none"/>
+<text x="364.0" y="87.0" font-size="12" text-anchor="middle">魁星</text>
+<rect class="wash" x="342.0" y="140.0" width="44.0" height="44.0" rx="3"/>
+<text x="364.0" y="157.0" font-size="12" text-anchor="middle">注生</text>
+<text x="364.0" y="177.0" font-size="12" text-anchor="middle">娘娘</text>
+<path class="l thin" fill="none" d="M364.0 106V136"/>
+<text x="20.0" y="210.0" font-size="12">游客的左手</text>
+<text x="380.0" y="210.0" font-size="12" text-anchor="end">游客的右手（神的左手，龙边）</text>
+<path class="l thin" fill="none" d="M20 222H380"/>
+<text x="20.0" y="244.0" font-size="12">本子：龙边起，从神的左手数，第一位是魁星。</text>
+<text x="20.0" y="266.0" font-size="12">施工单：从左至右，第一块挂在注生娘娘头上。</text>
+<text x="20.0" y="288.0" font-size="12">整排镜像，只有正中不动。土地公那块，挂上了榕树。</text>
+</svg>

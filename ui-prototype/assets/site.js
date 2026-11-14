@@ -355,6 +355,7 @@
     '25': { story: 'content/cases/c25.md', notes: 'content/cases/c25-notes.md' },
     '26': { story: 'content/cases/c26.md', notes: 'content/cases/c26-notes.md' },
     '27': { story: 'content/cases/c27.md', notes: 'content/cases/c27-notes.md' },
+    '28': { story: 'content/cases/c28.md', notes: 'content/cases/c28-notes.md' },
   };
   const inline = s => esc(s).replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a class="ext" href="$2" target="_blank" rel="noopener">$1</a>').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>');
   // A deliberately small Markdown reader: just the handful of block types the manuscripts use.

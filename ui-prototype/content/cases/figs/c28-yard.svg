@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 410" role="img" aria-label="合兴宫院子平面：正殿、榕树和新牌子、放生池、大门、石龛和横幅、马路对面的公交站">
+<text x="20.0" y="24.0" font-size="14" class="gt">合兴宫的院子（从街上看进去）</text>
+<rect class="l" x="110.0" y="44.0" width="180.0" height="54.0" rx="3" fill="none"/>
+<text x="200.0" y="66.0" font-size="13" text-anchor="middle">正殿</text>
+<text x="200.0" y="86.0" font-size="12" text-anchor="middle">一条长供桌，七尊神</text>
+<path class="l thin" fill="none" d="M40 116H360"/>
+<text x="200.0" y="136.0" font-size="12" text-anchor="middle">院子</text>
+<path class="l" fill="none" d="M40 236H170M230 236H360"/>
+<text x="200.0" y="240.0" font-size="12" text-anchor="middle">大门</text>
+<circle class="l" fill="none" cx="88" cy="196" r="30"/>
+<text x="88.0" y="200.0" font-size="12" text-anchor="middle">老榕树</text>
+<path class="gl" fill="none" d="M128 214v-22" stroke-width="2"/>
+<text x="132.0" y="188.0" font-size="12">新牌子</text>
+<rect class="wash" x="40.0" y="128.0" width="70.0" height="36.0" rx="3"/>
+<text x="75.0" y="150.0" font-size="12" text-anchor="middle">放生池</text>
+<rect class="l" x="280.0" y="244.0" width="40.0" height="26.0" rx="3" fill="none"/>
+<text x="300.0" y="262.0" font-size="12" text-anchor="middle">石龛</text>
+<path class="gl" fill="none" d="M252 278H348" stroke-width="3"/>
+<text x="300.0" y="296.0" font-size="12" text-anchor="middle">横幅</text>
+<path class="l thin" fill="none" d="M20 316H380"/>
+<text x="200.0" y="334.0" font-size="12" text-anchor="middle">马路</text>
+<rect class="l" x="160.0" y="348.0" width="80.0" height="22.0" rx="3" fill="none"/>
+<text x="200.0" y="364.0" font-size="12" text-anchor="middle">公交站</text>
+<text x="20.0" y="396.0" font-size="12">站在街上看：榕树在左，石龛在右。</text>
+</svg>
