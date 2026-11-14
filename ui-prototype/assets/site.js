@@ -156,6 +156,9 @@
     const save = () => sess.set(POS_KEY, { y: Math.round(scrollY), open: !!($('.all') && $('.all').open), filter: ($('#filters [aria-pressed="true"]') || {}).textContent || '' });
     addEventListener('scroll', () => { clearTimeout(st); st = setTimeout(save, 120); }, { passive: true });
     addEventListener('pagehide', save);
+    // phones do not always deliver the last scroll event or pagehide before leaving: record the place on the way out too
+    document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') save(); });
+    document.addEventListener('click', e => { if (e.target.closest('a[href]')) { clearTimeout(st); save(); } }, true);
     document.addEventListener('click', e => {
       const b = e.target.closest('[data-back]'); if (!b) return;
       let sameSite = false; try { sameSite = !!document.referrer && new URL(document.referrer).origin === location.origin; } catch (err) { /* no usable referrer */ }
@@ -214,14 +217,30 @@
     const p = isBack && sess.get(POS_KEY); if (!p) return false;
     if (p.open && $('.all')) $('.all').open = true;
     if (p.filter) { const b = $$('#filters button').find(x => x.textContent === p.filter); if (b) b.click(); }
-    // layout keeps settling as web fonts arrive, so re-apply a few times — but stop the moment the reader scrolls themselves
-    let live = true; const stop = () => { live = false; };
-    ['wheel', 'touchstart', 'keydown', 'pointerdown'].forEach(ev => addEventListener(ev, stop, { once: true, passive: true }));
-    const go = () => { if (live) scrollTo(0, p.y); };
-    go(); if (document.fonts && document.fonts.ready) document.fonts.ready.then(go);
-    addEventListener('load', go); setTimeout(go, 400); setTimeout(() => { go(); live = false; }, 900);
+    holdPosition(p.y);
     return true;
   }
+  // Layout keeps settling while web fonts and figures arrive, and on a phone that can take seconds, so keep putting the
+  // page back while it is still growing. Stop the moment the reader scrolls themselves; a plain tap does not count.
+  function holdPosition(y) {
+    let live = true, fontsIn = !document.fonts, loaded = document.readyState === 'complete', t0 = Date.now();
+    const stop = () => { live = false; if (ro) ro.disconnect(); };
+    ['wheel', 'touchmove', 'keydown'].forEach(ev => addEventListener(ev, stop, { once: true, passive: true }));
+    const go = () => { if (!live) return; if (Math.abs(scrollY - y) > 2) scrollTo(0, y); if ((fontsIn && loaded && Date.now() - t0 > 1200) || Date.now() - t0 > 5000) stop(); };
+    const ro = window.ResizeObserver ? new ResizeObserver(go) : null;
+    if (ro) ro.observe(document.documentElement);
+    go();
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { fontsIn = true; go(); });
+    addEventListener('load', () => { loaded = true; go(); });
+    [200, 600, 1300, 2500, 5100].forEach(ms => setTimeout(go, ms));
+  }
+  // A page the browser kept whole in its back/forward cache does not run this script again. Phones may still hand it
+  // back scrolled to the top (scroll restoration is manual here), so put it where the reader left it.
+  addEventListener('pageshow', e => {
+    if (!e.persisted || readerNow || page === 'home') return;
+    const p = sess.get(POS_KEY);
+    if (p && Math.abs(scrollY - p.y) > 2) holdPosition(p.y);
+  });
 
   const G = {
     home: '<circle cx="24" cy="24" r="15"/><path d="M24 24l10.5-10.5"/>', k: D.stages[0].glyph,
@@ -380,7 +399,7 @@
   const table = b => `<div class="tblwrap"><table><thead><tr>${b.rows[0].map(c => `<th>${inline(c)}</th>`).join('')}</tr></thead><tbody>${b.rows.slice(1).map(r => `<tr>${r.map(c => `<td>${inline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
   // Figures are original SVG drawings stored next to the manuscript. They are fetched and placed inline rather than
   // shown as <img>, so their lines follow the page's ink colour, day or night, and share its hand-drawn filter.
-  const figure = b => `<figure class="fig ill" data-src="content/cases/${esc(b.src)}"><div class="fig-frame"></div>${b.cap ? `<figcaption>${inline(b.cap)}</figcaption>` : ''}</figure>`;
+  const figure = (b, base = 'content/cases/', no = '') => `<figure class="fig ill" data-src="${base}${esc(b.src)}"><div class="fig-frame"></div>${b.cap ? `<figcaption>${no ? `<b>图 ${no}</b>` : ''}${inline(b.cap)}</figcaption>` : ''}</figure>`;
   const placeFigures = root => $$('figure.ill[data-src]', root).forEach(f => load(f.dataset.src)
     .then(svg => { if (/^\s*<svg[\s>]/.test(svg)) $('.fig-frame', f).innerHTML = svg; else f.remove(); })
     .catch(() => f.remove()));
@@ -434,22 +453,143 @@
   // 'no-cache' makes the browser check with the server each time, so an edited manuscript shows up on reload
   const load = url => fetch(url, { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error(r.status); return r.text(); });
 
+  // Knowledge courses that have their own manuscript, with the state shown for them: 'done' once the PO has sealed the
+  // course, 'draft' while it waits for review. Every other course still shows the layout sample, labelled as such.
+  const WRITTEN_K = {
+    '01-01': { src: 'content/knowledge/01-01.md', state: 'done' },
+  };
+  const K_STATE = { done: '已完成', draft: '初稿 · 待审读' };
+  // A course manuscript: "# 标题", an optional "> 初稿…" status line, a lead paragraph, "**…**" question lines,
+  // "## 一、标题" sections, "> 引文" ending in "> —— 出处", figures, numbered notes ("[^3]" in the text, "[^3]: …" on
+  // a line of its own, shown in the margin), one fenced ```widget block per interactive figure, and a closing
+  // "## 参考与出处" list.
+  function lessonHtml(text) {
+    const widgets = [];
+    text = text.replace(/\r/g, '').replace(/^```widget\n([\s\S]*?)\n```$/gm, (_, j) => `@@widget${widgets.push(JSON.parse(j)) - 1}@@`);
+    const notes = {};
+    text = text.replace(/^\[\^(\d+)\]:\s*(.+)$/gm, (_, n, s) => { notes[n] = s; return ''; });
+    const seen = new Set();
+    // a note sits in the margin beside the paragraph that first points to it
+    const withNotes = s => {
+      let pre = '';
+      const body = inline(s).replace(/\[\^(\d+)\]/g, (_, n) => {
+        if (!seen.has(n) && notes[n]) { seen.add(n); pre += `<span class="sn" id="sn${n}"><b>${n}</b>${inline(notes[n])}</span>`; }
+        return `<a class="cite" href="#sn${n}" data-n="${n}" aria-label="注 ${n}">${n}</a>`;
+      });
+      return { pre, body };
+    };
+    let status = '', lead = true, fig = 0, refs = false, html = '';
+    blocks(text).forEach(b => {
+      if (b.t === 'h1') return;
+      if (b.t === 'quote' && !html && /^(初稿|修订稿|定稿)/.test(b.s[0])) { status = b.s[0]; return; }
+      if (b.t === 'h2') {
+        if (b.s.trim() === '参考与出处') { refs = true; html += '<section class="refs" id="refs"><h2>参考与出处</h2>'; return; }
+        const m = b.s.match(/^(.+?)、(.+)$/);
+        html += `<h2>${m ? `<span class="mono">${esc(m[1])}</span>${esc(m[2])}` : esc(b.s)}</h2>`; return;
+      }
+      if (refs) { if (b.t === 'ul') html += `<ol>${b.it.map((x, k) => `<li data-n="${k + 1}"><b>${k + 1}</b><span>${inline(x)}</span></li>`).join('')}</ol>`; return; }
+      if (b.t === 'img') { html += figure(b, 'content/knowledge/', ++fig); return; }
+      if (b.t === 'quote') {
+        const last = b.s[b.s.length - 1], src = /^——/.test(last) ? last.replace(/^——\s*/, '') : '';
+        const lines = src ? b.s.slice(0, -1) : b.s;
+        html += `<blockquote class="source">${lines.map(l => `<p>${inline(l)}</p>`).join('')}${src ? `<cite>${inline(src)}</cite>` : ''}</blockquote>`; return;
+      }
+      if (b.t === 'ul') { const parts = b.it.map(withNotes); html += parts.map(p => p.pre).join('') + `<ul>${parts.map(p => `<li>${p.body}</li>`).join('')}</ul>`; return; }
+      if (b.t === 'table') { html += table(b); return; }
+      if (b.t !== 'p') return;
+      const w = b.s.match(/^@@widget(\d+)@@$/);
+      if (w) { html += widgetHtml(widgets[w[1]], ++fig); return; }
+      const { pre, body } = withNotes(b.s);
+      if (/^\*\*[^*]+\*\*(\[\^\d+\])?$/.test(b.s)) html += `${pre}<p class="beat"><mark>${body.replace(/<\/?strong>/g, '')}</mark></p>`;
+      // a drop cap suits a character, not the first digit of a date
+      else { html += `${pre}<p${lead ? ` class="lead${/^\d/.test(b.s) ? ' nocap' : ''}"` : ''}>${body}</p>`; lead = false; }
+    });
+    if (refs) html += '</section>';
+    return { html, status, widgets };
+  }
+  // Interactive figures, described as data in the manuscript. "context-shift": one form, several situations; each
+  // situation rates every candidate reading 0 (no support), 1 (plausible, not enough evidence) or 2 (supported), with a reason.
+  const LEVELS = ['没有依据', '说得通，证据不足', '有依据'];
+  function widgetHtml(w, no) {
+    if (!w || w.type !== 'context-shift') return '';
+    const id = 'ctx' + no;
+    return `<figure class="fig ctx" data-widget="${no}">
+      <div class="fig-frame">
+        <p class="ctx-form"><span class="label">形状不变</span>${esc(w.form)}</p>
+        <div class="layers-tabs ctx-tabs" role="tablist" aria-label="选择处境">${w.contexts.map((c, k) => `<button type="button" role="tab" id="${id}-t${k}" aria-controls="${id}-p" aria-selected="${k === 0}" tabindex="${k === 0 ? 0 : -1}">${esc(c.label)}</button>`).join('')}</div>
+        <div class="ctx-body" id="${id}-p" role="tabpanel" aria-live="polite"></div>
+      </div>
+      <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption>
+    </figure>`;
+  }
+  function widgetWire(fig, w) {
+    const tabs = $$('[role=tab]', fig), out = $('.ctx-body', fig);
+    const show = k => {
+      const c = w.contexts[k];
+      tabs.forEach((t, j) => { t.setAttribute('aria-selected', j === k); t.tabIndex = j === k ? 0 : -1; });
+      out.setAttribute('aria-labelledby', tabs[k].id);
+      // strongest reading first, so the eye lands on what this situation supports
+      const rows = w.readings.map((r, j) => ({ r, lv: c.levels[j], why: c.why[j] })).map((x, j) => ({ ...x, j })).sort((a, b) => b.lv - a.lv || a.j - b.j);
+      out.innerHTML = `<p class="ctx-scene">${inline(c.scene)}</p><ul class="ctx-rows">${rows.map(x => `<li class="lv${x.lv}">
+        <div class="ctx-r"><b>${esc(x.r)}</b><span class="ctx-lv"><span class="meter" aria-hidden="true">${[1, 2].map(d => `<i class="${d <= x.lv ? 'on' : ''}"></i>`).join('')}</span>${LEVELS[x.lv]}</span></div>
+        <p>${inline(x.why)}</p></li>`).join('')}</ul>`;
+    };
+    fig.addEventListener('click', e => { const b = e.target.closest('[role=tab]'); if (b) show(tabs.indexOf(b)); });
+    fig.addEventListener('keydown', e => {
+      const k = tabs.indexOf(document.activeElement); if (k < 0) return;
+      const to = { ArrowRight: k + 1, ArrowLeft: k - 1, Home: 0, End: tabs.length - 1 }[e.key];
+      if (to === undefined) return;
+      e.preventDefault(); const t = (to + tabs.length) % tabs.length; tabs[t].focus(); show(t);
+    });
+    show(0);
+  }
+  const hanCount = el => (el.textContent.match(/[一-鿿]/g) || []).length;
+
   // The chapter list that stays at the left edge of a reading page (wide screens only). It is built from the
   // headings already on the page, marks the one being read, and is only shown while the text itself is on screen.
   // items: [{ el, n, label, sub }]
+  // On narrower screens, where that list has no room, the same items fold into a "目" button among the corner tools;
+  // a tap opens them as a panel from the bottom edge, and choosing one goes there and folds the panel away.
   function chapterNav(article, items) {
-    const old = $('.chap-nav'); if (old) old.remove();
+    ['.chap-nav', '.toc-sheet', '.toc-btn'].forEach(s => { const old = $(s); if (old) old.remove(); });
     if (!article || items.length < 2) return;
+    const list = `<ol>${items.map((it, k) => `<li class="${it.sub ? 'sub' : ''}"><a href="#" data-k="${k}">${it.n ? `<b>${esc(it.n)}</b>` : ''}${it.label ? `<span>${esc(it.label)}</span>` : ''}</a></li>`).join('')}</ol>`;
     const nav = document.createElement('nav');
     nav.className = 'chap-nav'; nav.setAttribute('aria-label', '章节目录');
-    nav.innerHTML = `<p class="label">目录</p><ol>${items.map((it, k) => `<li class="${it.sub ? 'sub' : ''}"><a href="#" data-k="${k}">${it.n ? `<b>${esc(it.n)}</b>` : ''}${it.label ? `<span>${esc(it.label)}</span>` : ''}</a></li>`).join('')}</ol>`;
+    nav.innerHTML = `<p class="label">目录</p>${list}`;
     body.append(nav);
-    const links = $$('a', nav);
+    const sheetEl = document.createElement('div');
+    sheetEl.className = 'toc-sheet'; sheetEl.id = 'toc-sheet'; sheetEl.hidden = true;
+    sheetEl.innerHTML = `<div class="toc-scrim" data-toc-close></div><div class="toc-panel" role="dialog" aria-modal="true" aria-label="目录"><div class="toc-head"><span class="label">目录</span><button type="button" data-toc-close>收起</button></div>${list}</div>`;
+    body.append(sheetEl);
+    $('.tools').insertAdjacentHTML('afterbegin', '<button type="button" class="toc-btn" aria-label="目录" aria-controls="toc-sheet" aria-expanded="false">目</button>');
+    const tocBtn = $('.toc-btn'), links = $$('a', nav), sheetLinks = $$('a', sheetEl);
+    const go = k => {
+      const top = items[k].el.getBoundingClientRect().top + scrollY - 110;
+      scrollTo({ top: Math.max(0, top), behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+    };
+    const openToc = () => {
+      sheetEl.hidden = false; void sheetEl.offsetWidth; sheetEl.classList.add('open'); tocBtn.setAttribute('aria-expanded', 'true');
+      const on = $('a.on', sheetEl) || sheetLinks[0], ol = $('ol', sheetEl);
+      ol.scrollTop = Math.max(0, on.offsetTop - ol.clientHeight / 2); on.focus({ preventScroll: true });
+    };
+    const closeToc = (refocus = true) => {
+      if (sheetEl.hidden) return;
+      sheetEl.classList.remove('open'); tocBtn.setAttribute('aria-expanded', 'false');
+      setTimeout(() => { if (!sheetEl.classList.contains('open')) sheetEl.hidden = true; }, 220);
+      if (refocus) tocBtn.focus({ preventScroll: true });
+    };
+    tocBtn.addEventListener('click', () => (sheetEl.hidden ? openToc() : closeToc()));
+    sheetEl.addEventListener('click', e => {
+      if (e.target.closest('[data-toc-close]')) { closeToc(); return; }
+      const a = e.target.closest('a'); if (!a) return;
+      e.preventDefault(); closeToc(false); go(+a.dataset.k);
+    });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeToc(); });
+    addEventListener('resize', () => { if (!tocBtn.offsetParent) closeToc(false); });   // widened past the point where the side list returns
     nav.addEventListener('click', e => {
       const a = e.target.closest('a'); if (!a) return;
-      e.preventDefault();
-      const top = items[+a.dataset.k].el.getBoundingClientRect().top + scrollY - 110;
-      scrollTo({ top: Math.max(0, top), behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+      e.preventDefault(); go(+a.dataset.k);
     });
     let cur = -2;
     const update = () => {
@@ -459,7 +599,7 @@
       items.forEach((it, j) => { if (it.el.getBoundingClientRect().top <= innerHeight * 0.4) k = j; });
       if (k === cur) return;
       cur = k;
-      links.forEach((a, j) => { a.classList.toggle('on', j === k); if (j === k) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current'); });
+      [links, sheetLinks].forEach(ls => ls.forEach((a, j) => { a.classList.toggle('on', j === k); if (j === k) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current'); }));
       const on = links[k];
       if (on && nav.scrollHeight > nav.clientHeight) nav.scrollTop = on.offsetTop - nav.clientHeight / 2;
     };
@@ -572,7 +712,7 @@
           </div><div class="stage-num" aria-hidden="true">${draw(i)}</div></div>
         </div></div>
         <div class="wrap"><ol class="seq">${s.courses.map(c => {
-          return `<li class="${hooks[c.id] ? 'featured' : ''}"><div><span class="mono">${c.id}</span><h3><a href="${lessonHref(c.id)}">${esc(c.title)}</a></h3><p class="scope">${esc(c.scope)}</p>${hooks[c.id] ? `<p class="hook">${hooks[c.id]}</p>` : ''}</div></li>`;
+          return `<li class="${hooks[c.id] ? 'featured' : ''}"><div><span class="mono">${c.id}</span><h3><a href="${lessonHref(c.id)}">${esc(c.title)}</a>${WRITTEN_K[c.id] ? ` <span class="state">${K_STATE[WRITTEN_K[c.id].state]}</span>` : ''}</h3><p class="scope">${esc(c.scope)}</p>${hooks[c.id] ? `<p class="hook">${hooks[c.id]}</p>` : ''}</div></li>`;
         }).join('')}</ol>
         <nav class="stage-nav">${i > 0 ? `<a href="stage.html?s=${D.stages[i - 1].id}"><span class="label">上一阶段</span><b>${esc(D.stages[i - 1].title)}</b></a>` : '<span></span>'}${i < 8 ? `<a href="stage.html?s=${D.stages[i + 1].id}"><span class="label">下一阶段</span><b>${esc(D.stages[i + 1].title)}</b></a>` : '<span></span>'}</nav></div>`;
       headField($('.page-head'));
@@ -586,20 +726,49 @@
       $('#l-crumb').insertAdjacentHTML('beforebegin', rail(c.stage.id));
       $('#l-id').textContent = `${id} · 第 ${c.n} / ${c.stage.courses.length} 课`;
       $('#l-title').textContent = c.title;
-      if (id !== '05-06') $('#l-note').hidden = false;
       const p = all[i - 1], n = all[i + 1];
       $('#l-pager').innerHTML = (p ? `<a href="${lessonHref(p.id)}"><span>上一课 · ${p.id}</span><b>${esc(p.title)}</b></a>` : '<span></span>') + (n ? `<a href="${lessonHref(n.id)}"><span>下一课 · ${n.id}</span><b>${esc(n.title)}</b></a>` : '<span></span>');
-      chapterNav($('.prose'), $$('.prose h2').map(el => {
+      const toc = () => chapterNav($('.prose'), $$('.prose h2').map(el => {
         const m = $('.mono', el), n = m ? m.textContent.trim() : '';
         return { el, n, label: el.textContent.trim().slice(n.length) };
       }));
       // citation marker: on narrow screens it unfolds its note under the paragraph; on wide screens it points at the reference
-      $$('.cite').forEach(a => a.addEventListener('click', e => {
+      const cites = () => $$('.prose .cite').forEach(a => a.addEventListener('click', e => {
         e.preventDefault();
         const sn = $('#sn' + a.dataset.n);
-        if (sn) { if (matchMedia('(max-width: 1060px)').matches) a.closest('p').after(sn); sn.classList.toggle('open'); }
-        $$('.refs li').forEach(li => li.classList.toggle('hl', li.dataset.n === a.dataset.r));
+        if (sn) { if (matchMedia('(max-width: 1060px)').matches) a.closest('p, li').after(sn); sn.classList.toggle('open'); }
+        $$('.refs li').forEach(li => li.classList.toggle('hl', !!a.dataset.r && li.dataset.n === a.dataset.r));
       }));
+      const wk = WRITTEN_K[id], src = wk && wk.src, prose = $('.prose'), note = $('#l-note');
+      if (src) {
+        // a written course replaces the layout sample with its own manuscript; the sample is never shown in its place
+        prose.innerHTML = '<p class="loading">正文载入中……</p>';
+        load(src).then(text => {
+          const L = lessonHtml(text);
+          prose.innerHTML = L.html;
+          placeFigures(prose);
+          $$('figure.ctx', prose).forEach(f => widgetWire(f, L.widgets[$$('figure.ctx', prose).indexOf(f)]));
+          // the length shown is the running text only: margin notes, references and figure text are left out
+          const figs = $$('figure.fig', prose).length - L.widgets.length, main = prose.cloneNode(true);
+          $$('.sn, .refs, figure', main).forEach(x => x.remove());
+          const chars = Math.round(hanCount(main) / 100) * 100;
+          $('.lesson-head .sub').innerHTML = `<span>约 ${chars.toLocaleString('en')} 字</span><span>${figs} 幅图${L.widgets.length ? ` · ${L.widgets.length} 个可操作图示` : ''}</span><span class="state">${K_STATE[wk.state]}</span>`;
+          toc(); cites();
+          fields.forEach(f => f());
+          resumeReading();
+        }).catch(() => {
+          prose.innerHTML = '<p class="loading">这一课的正文暂时没有加载出来，请稍后刷新。</p>';
+          resumeReading();
+        });
+        deferResume = true;
+      } else {
+        note.textContent = id === '05-06'
+          ? '本课尚未写成：下面是版式样稿，内容与出处都未经核实。'
+          : `本课尚未写成：下面是 05-06 的版式样稿，不是本课正文。`;
+        note.hidden = false;
+        $('.lesson-head .sub').innerHTML = '<span>尚未写成 · 版式样稿</span>';   // the sample's length and figure count are not this course's
+        toc(); cites();
+      }
       // a manuscript plate that is still waiting for its image shows faint writing instead of an empty box
       $$('.fig-frame').filter(f => $('.ph', f)).forEach(f => field(f, (W, H, rect) => around($('.ph div', f) || $('.ph', f), rect, [1.2, 1.5], 0.6, 1.6), 0.55));
       const layers = [
@@ -683,9 +852,18 @@
           const n = notesHtml(text);
           $('.notes-nav').innerHTML = n.nav; $('.notes-body').innerHTML = n.body;
           placeFigures($('.notes-body'));
+          notesToc();
           restorePosition();
         }).catch(() => { const n = $('#n-note'); n.textContent = '这篇的 Case Notes 暂时没有加载出来，下面显示的是示例结构。'; n.hidden = false; });
       } else if (c.id !== '01') $('#n-note').hidden = false;
+      // the notes have their own section list at the top; the "目" button keeps it at hand further down the page
+      function notesToc() {
+        chapterNav($('.notes-body'), $$('.notes-body > section > h2').map(el => {
+          const m = $('.mono', el), n = m ? m.textContent.trim() : '';
+          return { el, n, label: el.textContent.trim().slice(n.length) };
+        }));
+      }
+      if (!w) notesToc();
       headField($('.notes-head'));
       $('#n-links').innerHTML = ['01-03', '02-02', '02-04'].map(id => { const k = D.courseIndex[id]; return `<a href="${lessonHref(id)}"><span class="mono">${id}</span><span class="t">${esc(k.title)}</span><em>Stage ${Number(k.stage.id)}</em></a>`; }).join('');
     },
