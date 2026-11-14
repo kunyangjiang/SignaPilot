@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 326" role="img" aria-label="示意图：两条心电图。上面一条是课本上常见的样子：一个小包，一个又高又尖的峰，落回平线，平一小段，再鼓一个圆包，这样重复三次。下面一条是小说里涛胸前导联上的样子：尖峰落下来以后没有回到平线，悬在高处，拖着一道斜坡慢慢滑到平线底下，勾一个小弯才回来，后面没有圆包，每一跳都一样。图只画出大概的样子，不能用来对照诊断。">
+<text x="20.0" y="24.0" font-size="14" class="gt">两条心电图的样子（示意）</text>
+<rect class="wash" x="20.0" y="40.0" width="360.0" height="90.0" rx="3"/>
+<path class="l thin" fill="none" d="M50 40v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M80 40v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M110 40v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M140 40v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M170 40v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M200 40v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M230 40v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M260 40v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M290 40v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M320 40v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M350 40v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M20 70h360" opacity=".25"/>
+<path class="l thin" fill="none" d="M20 100h360" opacity=".25"/>
+<rect class="wash" x="20.0" y="150.0" width="360.0" height="90.0" rx="3"/>
+<path class="l thin" fill="none" d="M50 150v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M80 150v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M110 150v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M140 150v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M170 150v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M200 150v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M230 150v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M260 150v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M290 150v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M320 150v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M350 150v90" opacity=".25"/>
+<path class="l thin" fill="none" d="M20 180h360" opacity=".25"/>
+<path class="l thin" fill="none" d="M20 210h360" opacity=".25"/>
+<path class="l" fill="none" d="M20 100h10q8 -8 16 0h8l4 4l6 -44l6 50l4 -10h14q14 -18 28 0h24h10q8 -8 16 0h8l4 4l6 -44l6 50l4 -10h14q14 -18 28 0h24h10q8 -8 16 0h8l4 4l6 -44l6 50l4 -10h14q14 -18 28 0h24"/>
+<path class="gl" fill="none" d="M20 205h10q8 -8 16 0h8l4 4l6 -30l5 12l5 -16c10 2 22 30 32 38q8 2 14 -8h20h10q8 -8 16 0h8l4 4l6 -30l5 12l5 -16c10 2 22 30 32 38q8 2 14 -8h20h10q8 -8 16 0h8l4 4l6 -30l5 12l5 -16c10 2 22 30 32 38q8 2 14 -8h20"/>
+<text x="20.0" y="146.0" font-size="12">课本上的：尖峰落下来，平一小段，再鼓一个圆包。</text>
+<text x="20.0" y="258.0" font-size="12">涛的：尖峰落下来以后悬着，拖一道斜坡滑到</text>
+<text x="20.0" y="278.0" font-size="12">平线底下。每一跳都一样。</text>
+<path class="l thin" fill="none" d="M20 294H380"/>
+<text x="20.0" y="314.0" font-size="12">只画出大概的样子，不能用来对照诊断。</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" role="img" aria-label="小说示例：麦记在表格背面的数。走访 40 户，20 到 45 岁的男人 52 个。说家里男人被压过的，报纸登出来以前 23 户，以后 31 户。夜里有人不睡、守着别人的，以前 0 户，以后 17 户。被压过的人都活着，是他们自己说的。城里死的 5 个人里，1 个据妻子转述被压过，3 个没有人知道，1 个本人生前说从来没有。多出来的 8 户没有出新的事，是把从前的一夜归到了新听来的名字底下。这些数是小说里编的，不是调查结果。">
+<text x="20.0" y="24.0" font-size="14" class="gt">表的背面：麦记的数（小说示例）</text>
+<text x="20.0" y="48.0" font-size="13">走访 40 户，20 到 45 岁的男人 52 个</text>
+<text x="20.0" y="76.0" font-size="12">说家里男人被压过：报纸登出来以前</text>
+<rect class="l thin" x="20.0" y="82.0" width="320.0" height="14.0" rx="3" fill="none"/>
+<rect class="wash" x="20.0" y="82.0" width="184.0" height="14.0" rx="3"/>
+<rect class="l thin" x="20.0" y="82.0" width="184.0" height="14.0" rx="3" fill="none"/>
+<text x="350.0" y="94.0" font-size="12">23 / 40</text>
+<text x="20.0" y="120.0" font-size="12">同一问题：报纸登出来以后</text>
+<rect class="l thin" x="20.0" y="126.0" width="320.0" height="14.0" rx="3" fill="none"/>
+<rect class="wash" x="20.0" y="126.0" width="248.0" height="14.0" rx="3"/>
+<rect class="l thin" x="20.0" y="126.0" width="248.0" height="14.0" rx="3" fill="none"/>
+<text x="350.0" y="138.0" font-size="12">31 / 40</text>
+<text x="20.0" y="164.0" font-size="12">夜里有人不睡、守着别人：以前</text>
+<rect class="l thin" x="20.0" y="170.0" width="320.0" height="14.0" rx="3" fill="none"/>
+<text x="350.0" y="182.0" font-size="12">0 / 40</text>
+<text x="20.0" y="208.0" font-size="12">夜里有人不睡、守着别人：以后</text>
+<rect class="l thin" x="20.0" y="214.0" width="320.0" height="14.0" rx="3" fill="none"/>
+<rect class="wash" x="20.0" y="214.0" width="136.0" height="14.0" rx="3"/>
+<rect class="l thin" x="20.0" y="214.0" width="136.0" height="14.0" rx="3" fill="none"/>
+<text x="350.0" y="226.0" font-size="12">17 / 40</text>
+<path class="l thin" fill="none" d="M20 244H380"/>
+<text x="20.0" y="264.0" font-size="12">被压过的人都活着，是他们自己说的。</text>
+<text x="20.0" y="284.0" font-size="12">城里死的 5 个人：1 个据妻子转述被压过，</text>
+<text x="20.0" y="304.0" font-size="12">3 个没有人知道，1 个本人生前说从来没有。</text>
+<text x="20.0" y="324.0" font-size="12">多出来的 8 户没有出新的事，是把从前的一夜</text>
+<text x="20.0" y="344.0" font-size="12">归到了新听来的名字底下。</text>
+<text x="20.0" y="364.0" font-size="12">这些数是小说里编的，不是调查结果。</text>
+</svg>

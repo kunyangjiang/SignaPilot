@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 484" role="img" aria-label="图表：美国疾病控制中心 1981 年 12 月 4 日通报里的 38 例。按来的地方：老挝赫蒙人 25，老挝其他 8，越南 4，柬埔寨 1。按报告的州：加利福尼亚 12，明尼苏达 8，俄勒冈 5，华盛顿州 3，伊利诺伊 3，罗得岛 2，另外 5 个州各 1。37 个男人，1 个女人；年龄 19 到 63 岁，中位数 32.5；到美国 5 天到 52 个月，中位数 6 个月，34 人有记录。头一例 1977 年 7 月 15 日，最近一例 1981 年 10 月 28 日。29 例有人在场，都在夜里 9 点半到早上 7 点之间。36 例验完，30 例找不到死因。通报写：目击者未描述疼痛或做噩梦受惊的迹象。据 MMWR 第 30 卷第 47 期原文。">
+<text x="20.0" y="24.0" font-size="14" class="gt">1981 年 12 月 4 日的通报：38 个人</text>
+<text x="20.0" y="50.0" font-size="13">按来的地方</text>
+<rect class="wash" x="120.0" y="60.0" width="225.0" height="14.0" rx="3"/>
+<rect class="l thin" x="120.0" y="60.0" width="225.0" height="14.0" rx="3" fill="none"/>
+<text x="20.0" y="72.0" font-size="12">老挝：赫蒙人</text>
+<text x="351.0" y="72.0" font-size="12">25</text>
+<rect class="wash" x="120.0" y="82.0" width="72.0" height="14.0" rx="3"/>
+<rect class="l thin" x="120.0" y="82.0" width="72.0" height="14.0" rx="3" fill="none"/>
+<text x="20.0" y="94.0" font-size="12">老挝：其他</text>
+<text x="198.0" y="94.0" font-size="12">8</text>
+<rect class="wash" x="120.0" y="104.0" width="36.0" height="14.0" rx="3"/>
+<rect class="l thin" x="120.0" y="104.0" width="36.0" height="14.0" rx="3" fill="none"/>
+<text x="20.0" y="116.0" font-size="12">越南</text>
+<text x="162.0" y="116.0" font-size="12">4</text>
+<rect class="wash" x="120.0" y="126.0" width="9.0" height="14.0" rx="3"/>
+<rect class="l thin" x="120.0" y="126.0" width="9.0" height="14.0" rx="3" fill="none"/>
+<text x="20.0" y="138.0" font-size="12">柬埔寨</text>
+<text x="135.0" y="138.0" font-size="12">1</text>
+<text x="20.0" y="162.0" font-size="13">按报告的州</text>
+<rect class="wash" x="120.0" y="172.0" width="108.0" height="14.0" rx="3"/>
+<rect class="l thin" x="120.0" y="172.0" width="108.0" height="14.0" rx="3" fill="none"/>
+<text x="20.0" y="184.0" font-size="12">加利福尼亚</text>
+<text x="234.0" y="184.0" font-size="12">12</text>
+<rect class="wash" x="120.0" y="194.0" width="72.0" height="14.0" rx="3"/>
+<rect class="l thin" x="120.0" y="194.0" width="72.0" height="14.0" rx="3" fill="none"/>
+<text x="20.0" y="206.0" font-size="12">明尼苏达</text>
+<text x="198.0" y="206.0" font-size="12">8</text>
+<rect class="wash" x="120.0" y="216.0" width="45.0" height="14.0" rx="3"/>
+<rect class="l thin" x="120.0" y="216.0" width="45.0" height="14.0" rx="3" fill="none"/>
+<text x="20.0" y="228.0" font-size="12">俄勒冈</text>
+<text x="171.0" y="228.0" font-size="12">5</text>
+<rect class="wash" x="120.0" y="238.0" width="27.0" height="14.0" rx="3"/>
+<rect class="l thin" x="120.0" y="238.0" width="27.0" height="14.0" rx="3" fill="none"/>
+<text x="20.0" y="250.0" font-size="12">华盛顿州</text>
+<text x="153.0" y="250.0" font-size="12">3</text>
+<rect class="wash" x="120.0" y="260.0" width="27.0" height="14.0" rx="3"/>
+<rect class="l thin" x="120.0" y="260.0" width="27.0" height="14.0" rx="3" fill="none"/>
+<text x="20.0" y="272.0" font-size="12">伊利诺伊</text>
+<text x="153.0" y="272.0" font-size="12">3</text>
+<rect class="wash" x="120.0" y="282.0" width="18.0" height="14.0" rx="3"/>
+<rect class="l thin" x="120.0" y="282.0" width="18.0" height="14.0" rx="3" fill="none"/>
+<text x="20.0" y="294.0" font-size="12">罗得岛</text>
+<text x="144.0" y="294.0" font-size="12">2</text>
+<rect class="wash" x="120.0" y="304.0" width="45.0" height="14.0" rx="3"/>
+<rect class="l thin" x="120.0" y="304.0" width="45.0" height="14.0" rx="3" fill="none"/>
+<text x="20.0" y="316.0" font-size="12">另外 5 个州各 1</text>
+<text x="171.0" y="316.0" font-size="12">5</text>
+<path class="l thin" fill="none" d="M20 330H380"/>
+<text x="20.0" y="350.0" font-size="12">37 个男人，1 个女人。年龄 19 到 63 岁，中位数 32.5。</text>
+<text x="20.0" y="370.0" font-size="12">到美国 5 天到 52 个月，中位数 6 个月（34 人有记录）。</text>
+<text x="20.0" y="390.0" font-size="12">头一例 1977 年 7 月 15 日，最近一例 1981 年 10 月 28 日。</text>
+<text x="20.0" y="410.0" font-size="12">29 例有人在场：都在夜里 9 点半到早上 7 点之间。</text>
+<text x="20.0" y="430.0" font-size="12">36 例验完，30 例找不到死因。</text>
+<text x="20.0" y="450.0" font-size="12">“目击者未描述疼痛或做噩梦受惊的迹象。”</text>
+<text x="20.0" y="474.0" font-size="12">据 MMWR 第 30 卷第 47 期原文。</text>
+</svg>
