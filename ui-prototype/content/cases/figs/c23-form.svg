@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" role="img" aria-label="列宁遗体上换掉的和保住的。物质一样一样在换：脑和内脏 1924 年取出；体液换成浸泡液；脂肪逐步换成蜡质；睫毛是后来另装的；鼻子重塑过；右脚一块皮是 1945 年补的。形态一直照原样量：脸的轮廓，皮肤的颜色和弹性，体重，关节能不能弯，看不见的地方也算，比如脚跟、腋下、胸口。照还剩几成原来的肉去量，有杂志算出过百分之二十三；实验室不这么量，它量的是形态。据 Yurchak 2015，他把这一栏称作动态形态。">
+<text x="20.0" y="24.0" font-size="14" class="gt">换掉的，和保住的</text>
+<text x="20.0" y="48.0" font-size="13">物质（一样一样在换）</text>
+<text x="220.0" y="48.0" font-size="13">形态（一直照原样量）</text>
+<circle class="l" cx="26" cy="72" r="3.5" fill="none"/>
+<text x="38.0" y="76.0" font-size="12">脑和内脏：1924 年取出</text>
+<circle class="l" cx="26" cy="102" r="3.5" fill="none"/>
+<text x="38.0" y="106.0" font-size="12">体液：换成浸泡液</text>
+<circle class="l" cx="26" cy="132" r="3.5" fill="none"/>
+<text x="38.0" y="136.0" font-size="12">脂肪：逐步换成蜡质</text>
+<circle class="l" cx="26" cy="162" r="3.5" fill="none"/>
+<text x="38.0" y="166.0" font-size="12">睫毛：后来另装的</text>
+<circle class="l" cx="26" cy="192" r="3.5" fill="none"/>
+<text x="38.0" y="196.0" font-size="12">鼻子：重塑过</text>
+<circle class="l" cx="26" cy="222" r="3.5" fill="none"/>
+<text x="38.0" y="226.0" font-size="12">右脚一块皮：1945 年补的</text>
+<circle class="gdot" cx="226" cy="72" r="3.5"/>
+<text x="238.0" y="76.0" font-size="12">脸的轮廓</text>
+<circle class="gdot" cx="226" cy="102" r="3.5"/>
+<text x="238.0" y="106.0" font-size="12">皮肤的颜色和弹性</text>
+<circle class="gdot" cx="226" cy="132" r="3.5"/>
+<text x="238.0" y="136.0" font-size="12">体重</text>
+<circle class="gdot" cx="226" cy="162" r="3.5"/>
+<text x="238.0" y="166.0" font-size="12">关节能不能弯</text>
+<circle class="gdot" cx="226" cy="192" r="3.5"/>
+<text x="238.0" y="196.0" font-size="12">看不见的地方也算：</text>
+<text x="238.0" y="226.0" font-size="12">脚跟、腋下、胸口</text>
+<path class="l thin" fill="none" d="M206 40V240"/>
+<path class="l thin" fill="none" d="M20 256H380"/>
+<text x="20.0" y="280.0" font-size="12">照“还剩几成原来的肉”去量，有杂志算出过 23%。</text>
+<text x="20.0" y="300.0" font-size="12">实验室不这么量。它量的是右边这一栏。</text>
+<text x="20.0" y="326.0" font-size="12">据 Yurchak 2015。右边一栏他称作“动态形态”。</text>
+</svg>

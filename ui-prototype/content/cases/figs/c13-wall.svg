@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 584" role="img" aria-label="示意图：黑屋的两面墙。上面是对着门的那一面：一个点着许多星的圆，圆里有一条弧线，弧线上两个记号；三幅小画，一个人在挖，一个人弯腰捂着肚子，一个人躺下；一张眼睛挤紧、嘴张大的脸；一个方框，框里三片一般大的扇形叶子，叶尖朝里，围着正中一个小圆点；最底下一排七个圆，头一个全黑，第二个黑一半，第三个黑四分之一，往后每个都是前一个的一半，每两个圆之间刻着同一串记号。下面是右手墙上的一角：一条横线是地面，上面立着一块黑石和一个小人；地下很深处有横道，横道底下一排竖着的圆柱；每根圆柱伸出几道直线，朝四面散开，其中一道从地面上那个小人的身上穿了过去。">
+<text x="20" y="24" font-size="14" class="gt">黑屋的两面墙（示意）</text>
+<text x="20" y="48" font-size="12">对着门的那一面</text>
+<rect class="l thin" x="20" y="58" width="360" height="282" rx="3" fill="none"/>
+<circle class="l" cx="200" cy="112" r="44" fill="none"/>
+<circle cx="176" cy="92" r="1.6" fill="currentColor"/>
+<circle cx="190" cy="128" r="1.6" fill="currentColor"/>
+<circle cx="214" cy="86" r="1.6" fill="currentColor"/>
+<circle cx="226" cy="120" r="1.6" fill="currentColor"/>
+<circle cx="200" cy="104" r="1.6" fill="currentColor"/>
+<circle cx="168" cy="116" r="1.6" fill="currentColor"/>
+<circle cx="210" cy="140" r="1.6" fill="currentColor"/>
+<circle cx="186" cy="78" r="1.6" fill="currentColor"/>
+<circle cx="232" cy="100" r="1.6" fill="currentColor"/>
+<path class="gl" fill="none" d="M170 132A34 34 0 0 1 230 96"/>
+<circle class="gdot" cx="170" cy="132" r="3.5"/><circle class="gdot" cx="230" cy="96" r="3.5"/>
+<circle class="l" cx="52" cy="184" r="5" fill="none"/><path class="l" fill="none" d="M52 189v16M52 205l-6 12M52 205l6 12M52 194l12 6M64 190v28M60 218h8"/>
+<circle class="l" cx="104" cy="190" r="5" fill="none"/><path class="l" fill="none" d="M100 194l-6 12M94 206l-4 11M94 206l6 11M98 198l-6 5"/>
+<circle class="l" cx="136" cy="212" r="5" fill="none"/><path class="l" fill="none" d="M141 213h26M150 213l4 5M160 213l4 5"/>
+<path class="l thin" fill="none" d="M34 220h140"/>
+<circle class="l" cx="226" cy="196" r="24" fill="none"/><path class="l" fill="none" d="M214 190q5 -3 9 0M229 190q5 -3 9 0"/><ellipse class="l" cx="226" cy="204" rx="6" ry="8" fill="none"/>
+<rect class="l" x="282" y="166" width="62" height="62" fill="none"/>
+<circle class="gdot" cx="313.0" cy="199.0" r="4.6"/>
+<path class="gdot" d="M319.9 199.0L336.0 199.0A23.0 23.0 0 0 0 324.5 179.1L316.4 193.0A6.9 6.9 0 0 1 319.9 199.0Z"/>
+<path class="gdot" d="M309.6 193.0L301.5 179.1A23.0 23.0 0 0 0 290.0 199.0L306.1 199.0A6.9 6.9 0 0 1 309.6 193.0Z"/>
+<path class="gdot" d="M309.6 205.0L301.5 218.9A23.0 23.0 0 0 0 324.5 218.9L316.4 205.0A6.9 6.9 0 0 1 309.6 205.0Z"/>
+<circle class="gdot" cx="50" cy="290" r="15"/>
+<circle class="l" cx="50" cy="290" r="15" fill="none"/>
+<path class="l thin" fill="none" d="M69 287h3M74 287h2M78 287h3M69 293h2M73 293h3M78 293h3"/>
+<path class="gdot" d="M100 290L100 275A15 15 0 0 1 100.00 305.00Z"/>
+<circle class="l" cx="100" cy="290" r="15" fill="none"/>
+<path class="l thin" fill="none" d="M119 287h3M124 287h2M128 287h3M119 293h2M123 293h3M128 293h3"/>
+<path class="gdot" d="M150 290L150 275A15 15 0 0 1 165.00 290.00Z"/>
+<circle class="l" cx="150" cy="290" r="15" fill="none"/>
+<path class="l thin" fill="none" d="M169 287h3M174 287h2M178 287h3M169 293h2M173 293h3M178 293h3"/>
+<path class="gdot" d="M200 290L200 275A15 15 0 0 1 210.61 279.39Z"/>
+<circle class="l" cx="200" cy="290" r="15" fill="none"/>
+<path class="l thin" fill="none" d="M219 287h3M224 287h2M228 287h3M219 293h2M223 293h3M228 293h3"/>
+<path class="gdot" d="M250 290L250 275A15 15 0 0 1 255.74 276.14Z"/>
+<circle class="l" cx="250" cy="290" r="15" fill="none"/>
+<path class="l thin" fill="none" d="M269 287h3M274 287h2M278 287h3M269 293h2M273 293h3M278 293h3"/>
+<path class="gdot" d="M300 290L300 275A15 15 0 0 1 302.93 275.29Z"/>
+<circle class="l" cx="300" cy="290" r="15" fill="none"/>
+<path class="l thin" fill="none" d="M319 287h3M324 287h2M328 287h3M319 293h2M323 293h3M328 293h3"/>
+<path class="gdot" d="M350 290L350 275A15 15 0 0 1 351.47 275.07Z"/>
+<circle class="l" cx="350" cy="290" r="15" fill="none"/>
+<text x="20" y="368" font-size="12">右手墙上的一角</text>
+<rect class="l thin" x="20" y="378" width="360" height="190" rx="3" fill="none"/>
+<path class="l" fill="none" d="M34 420h332"/>
+<rect class="l" x="150" y="390" width="18" height="30" fill="none"/>
+<circle class="l" cx="300" cy="402" r="4" fill="none"/><path class="l" fill="none" d="M300 406v8M300 414l-4 6M300 414l4 6M295 409h10"/>
+<path class="l" fill="none" d="M60 520h280"/><path class="l thin" fill="none" d="M60 512h280"/>
+<rect class="l" x="76" y="526" width="8" height="22" rx="2" fill="none"/>
+<rect class="l" x="106" y="526" width="8" height="22" rx="2" fill="none"/>
+<rect class="l" x="136" y="526" width="8" height="22" rx="2" fill="none"/>
+<rect class="l" x="166" y="526" width="8" height="22" rx="2" fill="none"/>
+<rect class="l" x="196" y="526" width="8" height="22" rx="2" fill="none"/>
+<rect class="l" x="226" y="526" width="8" height="22" rx="2" fill="none"/>
+<rect class="l" x="256" y="526" width="8" height="22" rx="2" fill="none"/>
+<rect class="l" x="286" y="526" width="8" height="22" rx="2" fill="none"/>
+<rect class="l" x="316" y="526" width="8" height="22" rx="2" fill="none"/>
+<path class="gl" fill="none" d="M110 526l-34 -40"/>
+<path class="gl" fill="none" d="M110 526l-16 -52"/>
+<path class="gl" fill="none" d="M110 526l30 -46"/>
+<path class="gl" fill="none" d="M110 526l44 -22"/>
+<path class="gl" fill="none" d="M200 526l-34 -40"/>
+<path class="gl" fill="none" d="M200 526l-16 -52"/>
+<path class="gl" fill="none" d="M200 526l30 -46"/>
+<path class="gl" fill="none" d="M200 526l44 -22"/>
+<path class="gl" fill="none" d="M260 526l-34 -40"/>
+<path class="gl" fill="none" d="M260 526l-16 -52"/>
+<path class="gl" fill="none" d="M260 526l30 -46"/>
+<path class="gl" fill="none" d="M260 526l44 -22"/>
+<path class="gl" fill="none" d="M260 526L306 388"/>
+</svg>
