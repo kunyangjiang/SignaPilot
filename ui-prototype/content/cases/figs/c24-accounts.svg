@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 514" role="img" aria-label="小说示例：同一批玉米的三样记录。院长驻兵那一年从村里出去的玉米是 600 驮，其中仓里出的 360 驮，是 3 年的存粮，每年 120；房里出的 240 驮，来自下族 20 户，18 户各 12 驮，一户 9 驮，一户 15 驮。村里的大绳记 600；村里的两根小绳记 360 和 240；头人的总绳记 600，是 13 年前照大绳打的；陛下的军需账记 360，只记进了营里粮仓的。四个数都没有算错，差别在各自数的是哪一段。法院要在数目后头写一个词：写缴，就是贡赋，年年如此，贡额可以定到 600；写给，就是馈赠，功劳记在头人名下；写拿，就是被夺，要有人赔，先得说清谁拿的；写陛下的，仓和地跟着归国王。小说里的判词：360 照村里的说法写作米塔之粮，记为全村的效劳；240 是头人和管绳人的摊派，归还 20 户；贡额仍是每年 150 驮。">
+<text x="20.0" y="24.0" font-size="14" class="gt">同一批玉米，三样记录（小说示例）</text>
+<text x="20.0" y="46.0" font-size="12">院长驻兵那一年，从村里出去的玉米：600 驮</text>
+<rect class="wash" x="20.0" y="54.0" width="216.0" height="18.0" rx="3"/>
+<rect class="l thin" x="20.0" y="54.0" width="216.0" height="18.0" rx="3" fill="none"/>
+<rect class="l thin" x="236.0" y="54.0" width="144.0" height="18.0" rx="3" fill="none"/>
+<text x="128.0" y="68.0" font-size="12" text-anchor="middle">仓里出的 360</text>
+<text x="308.0" y="68.0" font-size="12" text-anchor="middle">房里出的 240</text>
+<text x="20.0" y="90.0" font-size="12">3 年的存粮，每年 120</text>
+<text x="380.0" y="90.0" font-size="12" text-anchor="end">下族 20 户</text>
+<text x="380.0" y="108.0" font-size="12" text-anchor="end">18 户各 12，一户 9，一户 15</text>
+<path class="l thin" fill="none" d="M20 122H380"/>
+<text x="20.0" y="142.0" font-size="12">村里的大绳：600</text>
+<rect class="wash" x="20.0" y="148.0" width="360.0" height="14.0" rx="3"/>
+<rect class="l thin" x="20.0" y="148.0" width="360.0" height="14.0" rx="3" fill="none"/>
+<text x="20.0" y="182.0" font-size="12">村里的两根小绳：360、240</text>
+<rect class="wash" x="20.0" y="188.0" width="216.0" height="14.0" rx="3"/>
+<rect class="l thin" x="20.0" y="188.0" width="216.0" height="14.0" rx="3" fill="none"/>
+<rect class="l thin" x="236.0" y="188.0" width="144.0" height="14.0" rx="3" fill="none"/>
+<text x="20.0" y="222.0" font-size="12">头人的总绳：600（13 年前照大绳打的）</text>
+<rect class="wash" x="20.0" y="228.0" width="360.0" height="14.0" rx="3"/>
+<rect class="l thin" x="20.0" y="228.0" width="360.0" height="14.0" rx="3" fill="none"/>
+<text x="20.0" y="262.0" font-size="12">陛下的军需账：360（只记进了营里粮仓的）</text>
+<rect class="wash" x="20.0" y="268.0" width="216.0" height="14.0" rx="3"/>
+<rect class="l thin" x="20.0" y="268.0" width="216.0" height="14.0" rx="3" fill="none"/>
+<text x="20.0" y="302.0" font-size="12">四个数都没有算错。差别在各自数的是哪一段。</text>
+<path class="l thin" fill="none" d="M20 316H380"/>
+<text x="20.0" y="336.0" font-size="13">法院要在数目后头写一个词</text>
+<text x="28.0" y="358.0" font-size="12">缴（贡赋）</text>
+<text x="120.0" y="358.0" font-size="12">年年如此，贡额可以定到 600</text>
+<text x="28.0" y="378.0" font-size="12">给（馈赠）</text>
+<text x="120.0" y="378.0" font-size="12">功劳记在头人名下</text>
+<text x="28.0" y="398.0" font-size="12">拿（被夺）</text>
+<text x="120.0" y="398.0" font-size="12">要有人赔，先得说清谁拿的</text>
+<text x="28.0" y="418.0" font-size="12">陛下的</text>
+<text x="120.0" y="418.0" font-size="12">仓和地跟着归国王</text>
+<path class="l thin" fill="none" d="M20 434H380"/>
+<text x="20.0" y="454.0" font-size="12">小说里的判词：360 照村里的说法写作“米塔之粮”，</text>
+<text x="20.0" y="474.0" font-size="12">记为全村的效劳；240 是头人和管绳人的摊派，</text>
+<text x="20.0" y="494.0" font-size="12">归还 20 户；贡额仍是每年 150 驮。</text>
+</svg>

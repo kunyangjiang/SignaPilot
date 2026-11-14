@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 608" role="img" aria-label="示意图：一根结绳怎么记数。一根粗的主绳横在上面，一头有粗结，是开头。主绳上垂下四根垂绳，垂绳上分百位、十位、个位三段。第一根垂绳在百位上有 6 个单结，是 600；它旁边系着两根附绳，一根百位 3 个结、十位 6 个结，是 360，另一根是虚线，百位 2 个结、十位 4 个结，是 240。第二根垂绳十位上 2 个结，是 20；它的附绳个位上一个绕 6 圈的长结，是 6。第三根十位上 4 个结，个位上一个绕 8 圈的长结，是 48。第四根个位上一个 8 字结，是 1。图例：单结在十位、百位上，打几个就是几；长结在个位上，绕几圈就是几，从 2 到 9；8 字结是个位上的 1；空着的一位是 0；附绳系在垂绳上，常用来记一个数里的各部分。图上的数目是小说里的，记数法依 20 世纪初 Locke 以来的研究；颜色和捻向的含义各地各件不同，图上不表示。">
+<text x="20.0" y="24.0" font-size="14" class="gt">一根绳怎么记数（示意）</text>
+<path class="l" fill="none" d="M24 60H376" stroke-width="4"/>
+<circle class="gdot" cx="24" cy="60" r="6"/>
+<text x="376.0" y="50.0" font-size="12" text-anchor="end">主绳</text>
+<text x="36.0" y="50.0" font-size="12">粗结的一头是开头</text>
+<rect class="wash" x="40.0" y="92.0" width="316.0" height="76.0" rx="3"/>
+<text x="394.0" y="134.0" font-size="12" text-anchor="end">百位</text>
+<rect class="wash" x="40.0" y="180.0" width="316.0" height="76.0" rx="3"/>
+<text x="394.0" y="222.0" font-size="12" text-anchor="end">十位</text>
+<rect class="wash" x="40.0" y="268.0" width="316.0" height="76.0" rx="3"/>
+<text x="394.0" y="310.0" font-size="12" text-anchor="end">个位</text>
+<path class="l" fill="none" d="M60 60V362"/>
+<path class="l" fill="none" d="M200 60V362"/>
+<path class="l" fill="none" d="M282 60V362"/>
+<path class="l" fill="none" d="M336 60V362"/>
+<path class="l thin" fill="none" d="M60 78L95 92V362"/>
+<path class="l thin" fill="none" d="M60 78L130 92V362" stroke-dasharray="4 3"/>
+<path class="l thin" fill="none" d="M200 78L235 92V362"/>
+<circle class="gdot" cx="60" cy="104" r="3.5"/>
+<circle class="gdot" cx="60" cy="115" r="3.5"/>
+<circle class="gdot" cx="60" cy="126" r="3.5"/>
+<circle class="gdot" cx="60" cy="137" r="3.5"/>
+<circle class="gdot" cx="60" cy="148" r="3.5"/>
+<circle class="gdot" cx="60" cy="159" r="3.5"/>
+<circle class="gdot" cx="95" cy="104" r="3.5"/>
+<circle class="gdot" cx="95" cy="115" r="3.5"/>
+<circle class="gdot" cx="95" cy="126" r="3.5"/>
+<circle class="gdot" cx="95" cy="192" r="3.5"/>
+<circle class="gdot" cx="95" cy="203" r="3.5"/>
+<circle class="gdot" cx="95" cy="214" r="3.5"/>
+<circle class="gdot" cx="95" cy="225" r="3.5"/>
+<circle class="gdot" cx="95" cy="236" r="3.5"/>
+<circle class="gdot" cx="95" cy="247" r="3.5"/>
+<circle class="gdot" cx="130" cy="104" r="3.5"/>
+<circle class="gdot" cx="130" cy="115" r="3.5"/>
+<circle class="gdot" cx="130" cy="192" r="3.5"/>
+<circle class="gdot" cx="130" cy="203" r="3.5"/>
+<circle class="gdot" cx="130" cy="214" r="3.5"/>
+<circle class="gdot" cx="130" cy="225" r="3.5"/>
+<circle class="gdot" cx="200" cy="192" r="3.5"/>
+<circle class="gdot" cx="200" cy="203" r="3.5"/>
+<rect class="gdot" x="231" y="280" width="8" height="34" rx="3"/>
+<circle class="gdot" cx="282" cy="192" r="3.5"/>
+<circle class="gdot" cx="282" cy="203" r="3.5"/>
+<circle class="gdot" cx="282" cy="214" r="3.5"/>
+<circle class="gdot" cx="282" cy="225" r="3.5"/>
+<rect class="gdot" x="278" y="280" width="8" height="44" rx="3"/>
+<circle class="l" cx="336" cy="286" r="3.2" fill="none"/>
+<circle class="l" cx="336" cy="292.4" r="3.2" fill="none"/>
+<text x="60.0" y="382.0" font-size="13" text-anchor="middle">600</text>
+<text x="60.0" y="400.0" font-size="12" text-anchor="middle">垂绳</text>
+<text x="95.0" y="382.0" font-size="13" text-anchor="middle">360</text>
+<text x="95.0" y="400.0" font-size="12" text-anchor="middle">附绳</text>
+<text x="130.0" y="382.0" font-size="13" text-anchor="middle">240</text>
+<text x="130.0" y="400.0" font-size="12" text-anchor="middle">附绳</text>
+<text x="200.0" y="382.0" font-size="13" text-anchor="middle">20</text>
+<text x="200.0" y="400.0" font-size="12" text-anchor="middle">垂绳</text>
+<text x="235.0" y="382.0" font-size="13" text-anchor="middle">6</text>
+<text x="235.0" y="400.0" font-size="12" text-anchor="middle">附绳</text>
+<text x="282.0" y="382.0" font-size="13" text-anchor="middle">48</text>
+<text x="282.0" y="400.0" font-size="12" text-anchor="middle">垂绳</text>
+<text x="336.0" y="382.0" font-size="13" text-anchor="middle">1</text>
+<text x="336.0" y="400.0" font-size="12" text-anchor="middle">垂绳</text>
+<circle class="gdot" cx="28" cy="426" r="3.5"/>
+<text x="40.0" y="430.0" font-size="12">单结：在十位、百位上，打几个就是几。</text>
+<rect class="gdot" x="24" y="438" width="8" height="16" rx="3"/>
+<text x="40.0" y="452.0" font-size="12">长结：在个位上，绕几圈就是几（2 到 9）。</text>
+<circle class="l" cx="28" cy="465" r="3.2" fill="none"/>
+<circle class="l" cx="28" cy="471.4" r="3.2" fill="none"/>
+<text x="40.0" y="474.0" font-size="12">8 字结：个位上的 1。</text>
+<text x="40.0" y="496.0" font-size="12">哪一位空着，那一位就是 0。</text>
+<text x="40.0" y="518.0" font-size="12">附绳系在垂绳上，常用来记一个数里的各部分。</text>
+<path class="l thin" fill="none" d="M20 532H380"/>
+<text x="20.0" y="550.0" font-size="12">图上的数目是小说里的。记数法依 20 世纪初 Locke</text>
+<text x="20.0" y="570.0" font-size="12">以来的研究。虚线表示另一种线；颜色、捻向的含义</text>
+<text x="20.0" y="590.0" font-size="12">各地、各件不同，这里不表示。</text>
+</svg>

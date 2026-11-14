@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 566" role="img" aria-label="流程图：一次结绳证词怎样进了案卷。第一步，绳：数目在结上，是什么东西靠位置和次序，次序的规矩在管绳人的记忆里。第二步，管绳人用本地话开口：可变的是只念总数还是连附绳一起念，念得快了会摸错相邻的一根。第三步，通译说成西班牙话：可变的是本地的分类没有现成的词，问话太长被缩成一句。第四步，书记写在纸上：可变的是答话套进问话的句子，补上公历年份，写错了涂掉重写，页脚注明或不注明。第五步，法官写判词：一个数目后头只能跟一个类别。留下来的通常只有最后两步的纸；读绳的场面、通译的原话、没有念出来的绳，都不在案卷里。各步的归纳据 Medrano 2022 第二章及其引的研究；可变的例子有的出自史料，有的是小说里的。">
+<text x="20.0" y="24.0" font-size="14" class="gt">一次结绳证词怎样进了案卷</text>
+<rect class="wash" x="20.0" y="44.0" width="360.0" height="70.0" rx="3"/>
+<rect class="l thin" x="20.0" y="44.0" width="360.0" height="70.0" rx="3" fill="none"/>
+<text x="32.0" y="66.0" font-size="13">绳</text>
+<text x="32.0" y="88.0" font-size="12">数目在结上；是什么东西，靠位置和次序。</text>
+<text x="32.0" y="108.0" font-size="12">次序的规矩在管绳人的记忆里。</text>
+<path class="gl" fill="none" d="M200 117V133M194 127L200 133L206 127"/>
+<rect class="l thin" x="20.0" y="136.0" width="360.0" height="70.0" rx="3" fill="none"/>
+<rect class="l thin" x="20.0" y="136.0" width="360.0" height="70.0" rx="3" fill="none"/>
+<text x="32.0" y="158.0" font-size="13">管绳人开口（本地话）</text>
+<text x="32.0" y="180.0" font-size="12">可变：只念总数，还是连附绳一起念；</text>
+<text x="32.0" y="200.0" font-size="12">念得快了，会摸错相邻的一根。</text>
+<path class="gl" fill="none" d="M200 209V225M194 219L200 225L206 219"/>
+<rect class="wash" x="20.0" y="228.0" width="360.0" height="70.0" rx="3"/>
+<rect class="l thin" x="20.0" y="228.0" width="360.0" height="70.0" rx="3" fill="none"/>
+<text x="32.0" y="250.0" font-size="13">通译（西班牙话）</text>
+<text x="32.0" y="272.0" font-size="12">可变：本地的分类没有现成的词；</text>
+<text x="32.0" y="292.0" font-size="12">问话太长，被缩成一句。</text>
+<path class="gl" fill="none" d="M200 301V317M194 311L200 317L206 311"/>
+<rect class="l thin" x="20.0" y="320.0" width="360.0" height="70.0" rx="3" fill="none"/>
+<rect class="l thin" x="20.0" y="320.0" width="360.0" height="70.0" rx="3" fill="none"/>
+<text x="32.0" y="342.0" font-size="13">书记（纸）</text>
+<text x="32.0" y="364.0" font-size="12">可变：答话套进问话的句子；补上公历年份；</text>
+<text x="32.0" y="384.0" font-size="12">写错了涂掉重写，页脚注明或不注明。</text>
+<path class="gl" fill="none" d="M200 393V409M194 403L200 409L206 403"/>
+<rect class="wash" x="20.0" y="412.0" width="360.0" height="50.0" rx="3"/>
+<rect class="l thin" x="20.0" y="412.0" width="360.0" height="50.0" rx="3" fill="none"/>
+<text x="32.0" y="434.0" font-size="13">法官（判词）</text>
+<text x="32.0" y="456.0" font-size="12">可变：一个数目后头只能跟一个类别。</text>
+<text x="20.0" y="486.0" font-size="12">留下来的通常只有最后两步的纸。读绳的场面、</text>
+<text x="20.0" y="506.0" font-size="12">通译的原话、没有念出来的绳，都不在案卷里。</text>
+<text x="20.0" y="526.0" font-size="12">各步的归纳据 Medrano 2022 第二章及其引的研究；</text>
+<text x="20.0" y="546.0" font-size="12">“可变”的例子有的出自史料，有的是小说里的。</text>
+</svg>
