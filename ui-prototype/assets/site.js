@@ -463,11 +463,11 @@
     '01-05': { src: 'content/knowledge/01-05.md', state: 'done' },
     '01-06': { src: 'content/knowledge/01-06.md', state: 'done' },
     '01-07': { src: 'content/knowledge/01-07.md', state: 'done' },
-    '02-01': { src: 'content/knowledge/02-01.md', state: 'draft' },
-    '02-02': { src: 'content/knowledge/02-02.md', state: 'draft' },
-    '02-03': { src: 'content/knowledge/02-03.md', state: 'draft' },
-    '02-04': { src: 'content/knowledge/02-04.md', state: 'draft' },
-    '02-05': { src: 'content/knowledge/02-05.md', state: 'draft' },
+    '02-01': { src: 'content/knowledge/02-01.md', state: 'done' },
+    '02-02': { src: 'content/knowledge/02-02.md', state: 'done' },
+    '02-03': { src: 'content/knowledge/02-03.md', state: 'done' },
+    '02-04': { src: 'content/knowledge/02-04.md', state: 'done' },
+    '02-05': { src: 'content/knowledge/02-05.md', state: 'done' },
   };
   const K_STATE = { done: '已完成', draft: '初稿 · 待审读' };
   // A course manuscript: "# 标题", an optional "> 初稿…" status line, a lead paragraph, "**…**" question lines,
