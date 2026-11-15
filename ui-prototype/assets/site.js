@@ -428,7 +428,7 @@
     bs.slice(a + 1, end).forEach(b => {
       if (b.t === 'p' && /^\*\*[^*]+\*\*$/.test(b.s)) { cur = { name: b.s.replace(/\*/g, ''), who: [] }; groups.push(cur); }
       else if (b.t === 'p') intro += `<p class="cast-intro">${inline(b.s)}</p>`;
-      else if (b.t === 'ul') { if (!cur) { cur = { name: '', who: [] }; groups.push(cur); } b.it.forEach(x => { const m = x.match(/^\*\*(.+?)\*\*[：:]\s*(.+)$/); cur.who.push(m ? { n: m[1], d: m[2] } : { n: '', d: x }); }); }
+      else if (b.t === 'ul') { if (!cur) { cur = { name: '', who: [] }; groups.push(cur); } b.it.forEach(x => { const m = x.match(/^\*\*(.+?)\*\*[：:]\s*(.+)$/); cur.who.push(m ? { n: m[1].replace(/\*\*/g, ''), d: m[2] } : { n: '', d: x }); }); }
     });
     return `<h2 class="label">本篇人物</h2>${intro}<div class="cast-groups">${groups.map(g => `<section>${g.name ? `<h3>${esc(g.name)}</h3>` : ''}<dl>${g.who.map(w => `<div><dt>${esc(w.n)}</dt><dd>${inline(w.d)}</dd></div>`).join('')}</dl></section>`).join('')}</div>`;
   }
@@ -457,6 +457,9 @@
   // course, 'draft' while it waits for review. Every other course still shows the layout sample, labelled as such.
   const WRITTEN_K = {
     '01-01': { src: 'content/knowledge/01-01.md', state: 'done' },
+    '01-02': { src: 'content/knowledge/01-02.md', state: 'draft' },
+    '01-03': { src: 'content/knowledge/01-03.md', state: 'draft' },
+    '01-04': { src: 'content/knowledge/01-04.md', state: 'draft' },
   };
   const K_STATE = { done: '已完成', draft: '初稿 · 待审读' };
   // A course manuscript: "# 标题", an optional "> 初稿…" status line, a lead paragraph, "**…**" question lines,
@@ -507,11 +510,18 @@
     if (refs) html += '</section>';
     return { html, status, widgets };
   }
-  // Interactive figures, described as data in the manuscript. "context-shift": one form, several situations; each
-  // situation rates every candidate reading 0 (no support), 1 (plausible, not enough evidence) or 2 (supported), with a reason.
+  // Interactive figures, described as data in the manuscript (one fenced widget block each). Every type is used in
+  // its own way, so that lessons do not end up with copies of one control:
+  //  "context-shift" (01-01): one form, several situations, chosen with tabs; each situation rates every candidate
+  //    reading 0 (no support), 1 (plausible, not enough evidence) or 2 (supported), with a reason.
+  //  "system-shift" (01-02): one field of meaning shared out among a few terms. A term marked "toggle" can be switched
+  //    off; the cells it covered then pass to the neighbour named in "to", so the neighbour's extent visibly grows.
+  //  "grounds" (01-03): a drawn map with numbered points; choosing one shows how far each of three grounds holds for
+  //    it (0 not relied on, 1 in part, 2 mainly) and what further sign it produces in a reader.
+  //  "layers" (01-04): a two-tier diagram built one cell at a time with back / next; at the last step, a choice of
+  //    readers shows how each one takes the finished whole.
   const LEVELS = ['没有依据', '说得通，证据不足', '有依据'];
-  function widgetHtml(w, no) {
-    if (!w || w.type !== 'context-shift') return '';
+  function ctxHtml(w, no) {
     const id = 'ctx' + no;
     return `<figure class="fig ctx" data-widget="${no}">
       <div class="fig-frame">
@@ -522,7 +532,7 @@
       <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption>
     </figure>`;
   }
-  function widgetWire(fig, w) {
+  function ctxWire(fig, w) {
     const tabs = $$('[role=tab]', fig), out = $('.ctx-body', fig);
     const show = k => {
       const c = w.contexts[k];
@@ -543,6 +553,126 @@
     });
     show(0);
   }
+  // a row of radio buttons: click, or arrow keys / Home / End once one has focus
+  function radios(box, pick) {
+    const bs = $$('[role=radio]', box);
+    const set = k => { bs.forEach((b, j) => { b.setAttribute('aria-checked', j === k); b.tabIndex = j === k ? 0 : -1; }); pick(k); };
+    box.addEventListener('click', e => { const b = e.target.closest('[role=radio]'); if (b) set(bs.indexOf(b)); });
+    box.addEventListener('keydown', e => {
+      const k = bs.indexOf(document.activeElement); if (k < 0) return;
+      const to = { ArrowRight: k + 1, ArrowDown: k + 1, ArrowLeft: k - 1, ArrowUp: k - 1, Home: 0, End: bs.length - 1 }[e.key];
+      if (to === undefined) return;
+      e.preventDefault(); const t = (to + bs.length) % bs.length; bs[t].focus(); set(t);
+    });
+    set(0);
+  }
+  const radioRow = (cls, label, names) => `<div class="${cls} wpick" role="radiogroup" aria-label="${esc(label)}">${names.map((n, k) => `<button type="button" role="radio" aria-checked="${k === 0}" tabindex="${k === 0 ? 0 : -1}">${esc(n)}</button>`).join('')}</div>`;
+  const W = {
+    'context-shift': { html: ctxHtml, wire: ctxWire },
+    'system-shift': {
+      html: (w, no) => `<figure class="fig sys" data-widget="${no}">
+        <div class="fig-frame">${w.systems.length > 1 ? radioRow('sys-pick', '选择一块意思', w.systems.map(s => s.label)) : ''}<div class="sys-body"></div></div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        const out = $('.sys-body', fig);
+        const show = k => {
+          const s = w.systems[k], on = {};
+          s.terms.forEach(t => { on[t.id] = true; });
+          out.innerHTML = `<p class="sys-field"><span class="label">这一块意思</span>${esc(s.field)}</p>
+            <div class="sys-bar">${s.terms.map(t => `<div class="sys-seg" data-t="${t.id}"><b>${esc(t.name)}</b><span></span></div>`).join('')}</div>
+            <div class="sys-sws">${s.terms.filter(t => t.toggle).map(t => `<button type="button" class="sys-sw" data-t="${t.id}" aria-pressed="true"><i aria-hidden="true"></i><span>这一种语言里有</span> <b>${esc(t.name)}</b></button>`).join('')}</div>
+            <p class="sys-state" aria-live="polite"></p><p class="sys-note">${inline(s.note)}</p>`;
+          // a cell belongs to the term that owns it, or, when that term is switched off, to the neighbour it passes to
+          const owner = i => { let t = s.terms.find(x => x.own.includes(i)); while (t && !on[t.id]) t = s.terms.find(x => x.id === t.to); return t; };
+          const draw = () => {
+            const by = {};
+            s.cells.forEach((c, i) => { const t = owner(i); (by[t.id] = by[t.id] || []).push(c); });
+            $$('.sys-seg', out).forEach(seg => {
+              const t = s.terms.find(x => x.id === seg.dataset.t), cs = by[t.id] || [];
+              seg.style.flexGrow = cs.length;
+              seg.classList.toggle('gone', !cs.length);
+              seg.classList.toggle('grew', cs.length > t.own.length);
+              $('span', seg).textContent = cs.join(' · ');
+            });
+            $('.sys-state', out).textContent = s.terms.every(t => on[t.id]) ? s.on : s.off;
+          };
+          $$('.sys-sw', out).forEach(b => b.addEventListener('click', () => {
+            const id = b.dataset.t;
+            on[id] = !on[id];
+            b.setAttribute('aria-pressed', on[id]);
+            $('span', b).textContent = on[id] ? '这一种语言里有' : '这一种语言里没有';
+            draw();
+          }));
+          draw();
+        };
+        const pick = $('.sys-pick', fig);
+        if (pick) radios(pick, show); else show(0);
+      },
+    },
+    grounds: {
+      html: (w, no) => `<figure class="fig gr" data-widget="${no}">
+        <div class="fig-frame">
+          <div class="gr-map ill"><div class="gr-pos"><div class="gr-svg" role="img" aria-label="${esc(w.alt)}"></div>${w.spots.map((p, k) => `<button type="button" class="gr-dot" style="left:${p.x}%;top:${p.y}%" data-k="${k}" tabindex="-1" aria-hidden="true">${k + 1}</button>`).join('')}</div></div>
+          <ol class="gr-list" aria-label="图上的标记">${w.spots.map((p, k) => `<li><button type="button" data-k="${k}" aria-pressed="${k === 0}" aria-controls="gr${no}-p"><span>${k + 1}</span>${esc(p.label)}</button></li>`).join('')}</ol>
+          <div class="gr-body" id="gr${no}-p" aria-live="polite"></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        const GLV = ['不靠这一条', '部分依据', '主要依据'];
+        // the map is drawn like the other figures, so it is placed inline and follows the page's ink colour
+        load('content/knowledge/' + w.img).then(svg => {
+          if (!/^\s*<svg[\s>]/.test(svg)) return;
+          $('.gr-svg', fig).innerHTML = svg;
+          const el = $('.gr-svg svg', fig); el.removeAttribute('role'); el.removeAttribute('aria-label'); el.setAttribute('aria-hidden', 'true');
+        }).catch(() => {});
+        const show = k => {
+          const p = w.spots[k];
+          $$('[data-k]', fig).forEach(b => { const here = +b.dataset.k === k; b.classList.toggle('on', here); if (b.closest('.gr-list')) b.setAttribute('aria-pressed', here); });
+          $('.gr-body', fig).innerHTML = `<p class="gr-head"><span>${k + 1}</span>${esc(p.label)}</p><ul class="gr-rows">${w.grounds.map((g, j) => `<li class="lv${p.levels[j]}">
+            <div class="gr-r"><b>${esc(g)}</b><span class="gr-lv"><span class="meter" aria-hidden="true">${[1, 2].map(d => `<i class="${d <= p.levels[j] ? 'on' : ''}"></i>`).join('')}</span>${GLV[p.levels[j]]}</span></div>
+            <p>${inline(p.why[j])}</p></li>`).join('')}</ul><p class="gr-interp"><span class="label">在读者那里生出的解释项</span>${inline(p.interp)}</p>`;
+        };
+        fig.addEventListener('click', e => { const b = e.target.closest('[data-k]'); if (b) show(+b.dataset.k); });
+        show(0);
+      },
+    },
+    layers: {
+      html: (w, no) => `<figure class="fig lay" data-widget="${no}">
+        <div class="fig-frame">${radioRow('lay-ex', '选择例子', w.examples.map(x => x.label))}
+          <div class="lay-grid" aria-hidden="true">${w.cells.map((c, i) => `<div class="lay-cell c${i}"><span class="lay-n">${esc(c)}</span><span class="lay-t"></span></div>`).join('')}</div>
+          <div class="lay-body" aria-live="polite"></div>
+          <div class="lay-nav"><button type="button" class="lay-prev">上一步</button><span class="lay-count"></span><button type="button" class="lay-next">下一步</button></div>
+          <div class="lay-readers" hidden><p class="label">换一个读者</p><div class="lay-rd"></div><p class="lay-read" aria-live="polite"></p></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        let ex = w.examples[0], step = 0;
+        const cells = $$('.lay-cell', fig), prev = $('.lay-prev', fig), next = $('.lay-next', fig), rd = $('.lay-readers', fig);
+        const draw = () => {
+          const st = ex.steps[step];
+          cells.forEach((c, i) => {
+            const at = ex.steps.findIndex(x => x.cell === i), shown = at > -1 && at <= step;
+            c.classList.toggle('shown', shown); c.classList.toggle('now', i === st.cell);
+            $('.lay-t', c).textContent = shown ? ex.steps[at].title.replace(/^第.层的/, '') : '';
+          });
+          $('.lay-body', fig).innerHTML = `<p class="lay-h">${esc(st.title)}</p><p>${inline(st.text)}</p>`;
+          $('.lay-count', fig).textContent = `${step + 1} / ${ex.steps.length}`;
+          prev.disabled = step === 0; next.disabled = step === ex.steps.length - 1;
+          rd.hidden = step < ex.steps.length - 1;
+        };
+        const readers = () => {
+          $('.lay-rd', fig).innerHTML = radioRow('lay-rdp', '选择读者', ex.readers.map(r => r.label));
+          radios($('.lay-rdp', fig), k => { $('.lay-read', fig).innerHTML = inline(ex.readers[k].text); });
+        };
+        // a button that has just been disabled would drop the keyboard focus, so it moves to the other one
+        prev.addEventListener('click', () => { if (step > 0) { step--; draw(); if (prev.disabled) next.focus(); } });
+        next.addEventListener('click', () => { if (step < ex.steps.length - 1) { step++; draw(); if (next.disabled) prev.focus(); } });
+        radios($('.lay-ex', fig), k => { ex = w.examples[k]; step = 0; readers(); draw(); });
+      },
+    },
+  };
+  const widgetHtml = (w, no) => (w && W[w.type] ? W[w.type].html(w, no) : '');
+  const widgetWire = (fig, w) => { if (w && W[w.type]) W[w.type].wire(fig, w); };
   const hanCount = el => (el.textContent.match(/[一-鿿]/g) || []).length;
 
   // The chapter list that stays at the left edge of a reading page (wide screens only). It is built from the
@@ -747,7 +877,7 @@
           const L = lessonHtml(text);
           prose.innerHTML = L.html;
           placeFigures(prose);
-          $$('figure.ctx', prose).forEach(f => widgetWire(f, L.widgets[$$('figure.ctx', prose).indexOf(f)]));
+          $$('figure[data-widget]', prose).forEach((f, k) => widgetWire(f, L.widgets[k]));
           // the length shown is the running text only: margin notes, references and figure text are left out
           const figs = $$('figure.fig', prose).length - L.widgets.length, main = prose.cloneNode(true);
           $$('.sn, .refs, figure', main).forEach(x => x.remove());

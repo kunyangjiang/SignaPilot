@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 490 360" role="img" aria-label="左边一列是封面说明和同期杂志里写着的东西：名字迪乌夫，家乡瓦加杜古，身份是法属西非的军校少年，场合是体育宫的军队之夜，时间是 1955 年夏天。这一列被一个大括号括住。右边是神话留下的东西：一个黑人士兵向法国敬礼。箭头从括号指向右边，标着“放进括号”。底部写着：神话夺走的是记忆，不是存在">
+  <g class="l" filter="url(#wob2)">
+    <path d="M226 56c14 0 14 8 14 20v68c0 10 6 16 16 16c-10 0-16 6-16 16v68c0 12 0 20-14 20"/>
+    <path d="M268 176h60M328 176l-10-6M328 176l-10 6"/>
+  </g>
+  <g class="gl" filter="url(#wob2)">
+    <rect x="340" y="120" width="140" height="112" rx="8"/>
+  </g>
+  <rect class="wash" x="340" y="120" width="140" height="112" rx="8"/>
+  <g text-anchor="start">
+    <text font-size="17" x="20" y="42">封面说明里写着的</text>
+    <text class="sm" style="font-size:16px" x="20" y="88">名字：迪乌夫</text>
+    <text class="sm" style="font-size:16px" x="20" y="128">家乡：瓦加杜古</text>
+    <text class="sm" style="font-size:16px" x="20" y="168">身份：法属西非军校少年</text>
+    <text class="sm" style="font-size:16px" x="20" y="208">场合：体育宫“军队之夜”</text>
+    <text class="sm" style="font-size:16px" x="20" y="248">时间：1955 年夏天</text>
+  </g>
+  <g text-anchor="middle">
+    <text class="sm" style="font-size:15px" x="298" y="160">放进括号</text>
+    <text font-size="17" x="410" y="100">神话留下的</text>
+    <text font-size="16" class="gt" x="410" y="160">一个黑人士兵</text>
+    <text font-size="16" class="gt" x="410" y="186">向法国敬礼</text>
+    <text font-size="17" x="240" y="336">夺走的是记忆，不是存在</text>
+  </g>
+</svg>

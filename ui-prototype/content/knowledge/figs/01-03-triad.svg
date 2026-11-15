@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 490 440" role="img" aria-label="一个三角形。上角是表征体：登记簿上的一行字。左下角是对象：9 月 2 日的那次死亡。右下角是解释项：斯诺心里那个更发达的符号，“一例经由布罗德街之水的霍乱”。底边画成虚线，表示对象和解释项之间的关系要经过符号。解释项旁注明：它是一个符号，不是读者。从解释项再引出一个小三角，表示它写进书里又成了新的表征体，在读者那里生出下一个解释项">
+  <g class="l" filter="url(#wob2)">
+    <path d="M190 92L72 268"/>
+    <path d="M226 92L344 268"/>
+  </g>
+  <path class="l thin" d="M110 290h196" stroke-dasharray="4 6"/>
+  <g class="gl" filter="url(#wob2)">
+    <path d="M362 300l40 52M402 352l-40 0M362 352l20-26"/>
+  </g>
+  <g text-anchor="middle">
+    <text font-size="19" x="208" y="44">表征体</text>
+    <text class="sm" style="font-size:16px" x="208" y="72">登记簿上的一行字</text>
+    <text font-size="19" x="80" y="296">对象</text>
+    <text class="sm" style="font-size:16px" x="80" y="324">9 月 2 日的那次死亡</text>
+    <text font-size="19" class="gt" x="340" y="296">解释项</text>
+    <text class="sm" style="font-size:16px" x="250" y="384">斯诺心里一个更发达的符号：</text>
+    <text class="sm" style="font-size:16px" x="250" y="408">“一例经由布罗德街之水的霍乱”</text>
+    <text class="sm" style="font-size:15px" x="208" y="190">“在某个方面”</text>
+    <text class="sm" style="font-size:15px" x="208" y="212">（根据）</text>
+  </g>
+  <g class="sm" style="font-size:15px" text-anchor="start">
+    <text x="410" y="330">写进书里，</text>
+    <text x="410" y="354">又成了新的</text>
+    <text x="410" y="378">表征体……</text>
+  </g>
+  <text class="sm" style="font-size:15px" x="340" y="252" text-anchor="middle">它是符号，不是读者</text>
+</svg>

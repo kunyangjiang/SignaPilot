@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 490 450" role="img" aria-label="三个相交的圆，分别是相似、指示、象征三种根据。只在相似里的是一张设计草图；只在指示里的是敲门声；只在象征里的是“霍乱”这个词。相似和指示的交叠处是照片，指示和象征的交叠处是街名，相似和象征的交叠处是代数公式，三者交叠的中心是斯诺的地图。位置只表示哪几条线在起作用，不是精确的分类">
+  <g class="l" filter="url(#wob2)">
+    <circle cx="170" cy="160" r="118"/>
+    <circle cx="310" cy="160" r="118"/>
+  </g>
+  <g class="gl" filter="url(#wob2)">
+    <circle cx="240" cy="276" r="118"/>
+  </g>
+  <circle class="wash" cx="240" cy="208" r="30"/>
+  <g text-anchor="middle">
+    <text font-size="20" x="110" y="36">相似</text>
+    <text font-size="20" x="370" y="36">指示</text>
+    <text font-size="20" class="gt" x="240" y="428">象征</text>
+    <text class="sm" style="font-size:16px" x="110" y="130">设计草图</text>
+    <text class="sm" style="font-size:16px" x="370" y="130">敲门声</text>
+    <text class="sm" style="font-size:16px" x="240" y="350">“霍乱”这个词</text>
+    <text class="sm" style="font-size:16px" x="240" y="112">照片</text>
+    <text class="sm" style="font-size:16px" x="166" y="264">代数公式</text>
+    <text class="sm" style="font-size:16px" x="316" y="264">街名</text>
+    <text font-size="16" x="240" y="214">斯诺的地图</text>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 490 330" role="img" aria-label="巴特的两层图式。上层是语言：1 能指、2 所指，合成 3 符号。3 号格在下层整个变成 I 形式，与 II 概念合成 III 意指，也就是神话。同一个格子有两个名字：在上层叫意义，在下层叫形式。巴特自己说，这种上下排列只是比喻">
+  <g class="l" filter="url(#wob2)">
+    <rect x="20" y="40" width="140" height="64"/>
+    <rect x="160" y="40" width="140" height="64"/>
+    <rect x="20" y="104" width="280" height="64"/>
+    <rect x="160" y="168" width="300" height="64"/>
+    <rect x="20" y="232" width="440" height="64"/>
+  </g>
+  <g class="gl" filter="url(#wob2)">
+    <rect x="20" y="168" width="140" height="64"/>
+  </g>
+  <rect class="wash" x="20" y="104" width="280" height="64"/>
+  <rect class="wash" x="20" y="168" width="140" height="64"/>
+  <g text-anchor="middle">
+    <text font-size="18" x="90" y="78">1 能指</text>
+    <text font-size="18" x="230" y="78">2 所指</text>
+    <text font-size="18" x="160" y="134">3 符号</text>
+    <text class="sm" style="font-size:15px" x="160" y="158">在这一层叫“意义”（sens）</text>
+    <text font-size="18" class="gt" x="90" y="198">I 形式</text>
+    <text class="sm" style="font-size:15px" x="90" y="222">（forme）</text>
+    <text font-size="18" x="310" y="206">II 概念</text>
+    <text font-size="18" x="240" y="270">III 意指＝神话</text>
+  </g>
+  <g class="sm" style="font-size:15px" text-anchor="start">
+    <text x="312" y="64">第一层</text>
+    <text x="312" y="90">对象语言</text>
+    <text x="312" y="134">（后来称外延）</text>
+  </g>
+  <text class="sm" style="font-size:15px" x="20" y="322">第二层：元语言（结构上可与 1964 年的“内涵”对照）</text>
+</svg>

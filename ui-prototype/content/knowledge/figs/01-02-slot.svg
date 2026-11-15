@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 490 420" role="img" aria-label="一张两栏的交替表。左栏是带 e 的满级，右栏是去掉 e 的零级。pet 对 pt，bheudh 对 bhudh，都整整齐齐；stā 一行的零级却对不上。假设 stā 由 e 加一个看不见的音 A 合成，零级就是 A 单独留下，在辅音之间成为短元音，如希腊语 statos 里的 a。这个 A 先因它在表上的位置被认出；1927 年，赫梯语的 ḫ 给它填上了声音">
+  <g class="l thin">
+    <path d="M30 58h420"/>
+    <path d="M240 20v220"/>
+  </g>
+  <g class="l" filter="url(#wob2)">
+    <path d="M30 240h420"/>
+    <path d="M240 252v38M240 290l-6-10M240 290l6-10"/>
+  </g>
+  <g class="gl" filter="url(#wob2)">
+    <rect x="300" y="182" width="100" height="40" rx="6"/>
+    <rect x="40" y="300" width="400" height="66" rx="8"/>
+  </g>
+  <rect class="wash" x="40" y="300" width="400" height="66" rx="8"/>
+  <g text-anchor="middle">
+    <text font-size="18" x="135" y="44">满级（有 e）</text>
+    <text font-size="18" x="345" y="44">零级（e 掉了）</text>
+    <text font-size="20" x="135" y="102">p<tspan class="gt">e</tspan>t</text>
+    <text font-size="20" x="345" y="102">pt</text>
+    <text font-size="20" x="135" y="152">bh<tspan class="gt">e</tspan>udh</text>
+    <text font-size="20" x="345" y="152">bhudh</text>
+    <text font-size="20" x="135" y="210">stā</text>
+    <text font-size="22" class="gt" x="350" y="210">？</text>
+    <text font-size="18" x="130" y="330">stā = st + <tspan class="gt">e</tspan> + <tspan class="gt">A</tspan></text>
+    <text font-size="18" x="350" y="330">st + <tspan class="gt">A</tspan> → sta</text>
+    <text class="sm" style="font-size:16px" x="240" y="355">希腊语 statos（站着的）里的短 a</text>
+    <text font-size="17" x="240" y="400">A 先因位置被认出，声音要等 1927 年</text>
+  </g>
+  <g class="sm" style="font-size:15px" text-anchor="start">
+    <text x="190" y="102">飞</text>
+    <text x="205" y="152">醒</text>
+    <text x="175" y="210">站</text>
+  </g>
+</svg>

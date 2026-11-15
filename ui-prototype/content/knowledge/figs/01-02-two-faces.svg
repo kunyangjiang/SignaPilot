@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 490 400" role="img" aria-label="左边是一个椭圆，上半是所指，即“树”这个概念，下半是能指，即对“树”这串声音的心理印象；两半合起来是符号，在说话人心里。右边，虚线之外，画着一棵真的树，标为指称对象：窗外那一棵。符号和那棵树之间只有一条虚线，表示《教程》把事物放在符号之外">
+  <g class="l" filter="url(#wob2)">
+    <ellipse cx="140" cy="190" rx="112" ry="132"/>
+    <path d="M30 190h220"/>
+    <path d="M380 330v-110M380 250l-26-22M380 236l24-24M380 280l20-14"/>
+    <path d="M380 220c-60 0-70-60-40-90c-10-40 40-70 70-40c40-10 60 40 30 70c20 40-20 70-60 60"/>
+    <path d="M340 330h80"/>
+  </g>
+  <path class="l thin" d="M290 40v320" stroke-dasharray="3 6"/>
+  <path class="gl" d="M254 190h40" stroke-dasharray="2 6"/>
+  <ellipse class="wash" cx="140" cy="125" rx="104" ry="62"/>
+  <g text-anchor="middle">
+    <text font-size="19" class="gt" x="140" y="118">所指</text>
+    <text class="sm" style="font-size:16px" x="140" y="146">“树”这个概念</text>
+    <text font-size="19" x="140" y="240">能指</text>
+    <text class="sm" style="font-size:16px" x="140" y="268">“shù”的声音形象</text>
+    <text font-size="18" x="140" y="356">符号：在说话人心里</text>
+    <text font-size="18" x="385" y="358">指称对象</text>
+    <text class="sm" style="font-size:16px" x="385" y="384">窗外那一棵</text>
+    <text class="sm" style="font-size:16px" x="385" y="34">《教程》不讨论这一边</text>
+  </g>
+</svg>
