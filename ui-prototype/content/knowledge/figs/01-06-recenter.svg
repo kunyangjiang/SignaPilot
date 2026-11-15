@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 380" role="img" aria-label="示意图，不按实际轮廓。上面一幅是奥特柳斯一路的世界图：0° 经线在正中，从左到右是美洲、大西洋、欧洲和非洲、亚洲，中国挤在最右边。下面一幅是利玛窦的中文本：把原来在亚洲附近太平洋里的 180° 经线挪到正中，从左到右变成欧洲和非洲、亚洲、中国、太平洋、美洲，中国靠近中央。经纬网是同一套，换的只是哪一条线当中轴">
+  <g class="l" filter="url(#wob2)">
+    <rect x="20" y="44" width="450" height="120" rx="60"/>
+    <rect x="20" y="226" width="450" height="120" rx="60"/>
+  </g>
+  <g class="l thin" stroke-dasharray="3 5">
+    <path d="M132 50v108M357 50v108M20 104h450"/>
+    <path d="M132 232v108M357 232v108M20 286h450"/>
+  </g>
+  <g class="gl">
+    <path d="M245 38v132"/>
+    <path d="M245 220v132"/>
+  </g>
+  <rect class="wash" x="356" y="112" width="94" height="34" rx="6"/>
+  <rect class="wash" x="176" y="294" width="62" height="34" rx="6"/>
+  <g text-anchor="middle">
+    <text font-size="17" x="80" y="92">美洲</text>
+    <text class="sm" style="font-size:14px" x="180" y="92">大西洋</text>
+    <text font-size="17" x="290" y="92">欧洲 非洲</text>
+    <text font-size="17" x="410" y="92">亚洲</text>
+    <text font-size="17" x="403" y="135">中国</text>
+    <text class="gt" style="font-size:14px" x="245" y="186">0°</text>
+    <text font-size="17" x="96" y="274">欧洲 非洲</text>
+    <text font-size="17" x="200" y="274">亚洲</text>
+    <text font-size="17" x="207" y="317">中国</text>
+    <text class="sm" style="font-size:14px" x="305" y="274">太平洋</text>
+    <text font-size="17" x="410" y="274">美洲</text>
+    <text class="gt" style="font-size:14px" x="245" y="368">180°</text>
+  </g>
+  <g class="sm" style="font-size:15px" text-anchor="start">
+    <text x="20" y="26">奥特柳斯一路：0° 经线居中，中国在“东方的一角”</text>
+    <text x="20" y="210">利玛窦中文本：180° 经线居中，中国靠近中央</text>
+  </g>
+</svg>

@@ -460,6 +460,9 @@
     '01-02': { src: 'content/knowledge/01-02.md', state: 'done' },
     '01-03': { src: 'content/knowledge/01-03.md', state: 'done' },
     '01-04': { src: 'content/knowledge/01-04.md', state: 'done' },
+    '01-05': { src: 'content/knowledge/01-05.md', state: 'done' },
+    '01-06': { src: 'content/knowledge/01-06.md', state: 'done' },
+    '01-07': { src: 'content/knowledge/01-07.md', state: 'done' },
   };
   const K_STATE = { done: '已完成', draft: '初稿 · 待审读' };
   // A course manuscript: "# 标题", an optional "> 初稿…" status line, a lead paragraph, "**…**" question lines,
@@ -520,6 +523,12 @@
   //    it (0 not relied on, 1 in part, 2 mainly) and what further sign it produces in a reader.
   //  "layers" (01-04): a two-tier diagram built one cell at a time with back / next; at the last step, a choice of
   //    readers shows how each one takes the finished whole.
+  //  "signal" (01-05): a message built from a word list, reordered and trimmed word by word; it shows the flag hoists
+  //    it needs and what the receiver reads, with or without the flag that says which book to use.
+  //  "crossing" (01-06): a grid of stations by elements; each cell says what became of that element at that station
+  //    (kept, rewritten, lost, added, or not recorded), with the grounds for it.
+  //  "evidence" (01-07): evidence switched on and off; each competing reading lists what supports or challenges it,
+  //    with counts only, and never a verdict.
   const LEVELS = ['没有依据', '说得通，证据不足', '有依据'];
   function ctxHtml(w, no) {
     const id = 'ctx' + no;
@@ -668,6 +677,130 @@
         prev.addEventListener('click', () => { if (step > 0) { step--; draw(); if (prev.disabled) next.focus(); } });
         next.addEventListener('click', () => { if (step < ex.steps.length - 1) { step++; draw(); if (next.disabled) prev.focus(); } });
         radios($('.lay-ex', fig), k => { ex = w.examples[k]; step = 0; readers(); draw(); });
+      },
+    },
+    signal: {
+      html: (w, no) => `<figure class="fig sg" data-widget="${no}">
+        <div class="fig-frame">
+          <div class="sg-sec"><p class="label">要发的话</p><ol class="sg-msg" aria-label="要发的话，按顺序"></ol></div>
+          <div class="sg-sec"><p class="label">词汇表与拼写（点一下加到句末）</p><div class="sg-pal">${w.words.map((x, k) => `<button type="button" data-w="${k}">${esc(x.w)}<span>${x.spell ? '要拼' : x.n}</span></button>`).join('')}</div></div>
+          <div class="sg-ctl"><button type="button" class="sg-tel" aria-pressed="true"><i aria-hidden="true"></i>先升电报旗</button><button type="button" class="sg-reset">恢复 1805 年的原句</button></div>
+          <div class="sg-out" aria-live="polite"></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        // Popham's letters: 1–25, no J (read as I), V before U
+        const ABC = 'abcdefghiklmnopqrstvuwxyz';
+        const byW = {}, byN = {};
+        w.words.forEach(x => { byW[x.w] = x; if (x.n) byN[x.n] = x.w; });
+        let msg = w.start.slice(), tel = true;
+        const hoists = () => msg.flatMap((t, i) => { const x = byW[t]; return x.spell ? [...t.toLowerCase().replace(/j/g, 'i')].map(c => ({ n: ABC.indexOf(c) + 1, l: true, i })) : [{ n: x.n, l: false, i }]; });
+        const box = $('.sg-msg', fig), out = $('.sg-out', fig);
+        const draw = focus => {
+          box.innerHTML = msg.length ? msg.map((t, i) => `<li><span>${esc(t)}</span><button type="button" data-a="l" data-i="${i}" aria-label="把 ${esc(t)} 往前移" ${i ? '' : 'disabled'}>←</button><button type="button" data-a="r" data-i="${i}" aria-label="把 ${esc(t)} 往后移" ${i < msg.length - 1 ? '' : 'disabled'}>→</button><button type="button" data-a="x" data-i="${i}" aria-label="删去 ${esc(t)}">×</button></li>`).join('') : '<li class="sg-empty">（还没有要发的话）</li>';
+          const hs = hoists();
+          // what the receiving ship reads: with the telegraph flag, numbers above 25 are words and smaller numbers
+          // are letters, kept together word by word (how spelled words were separated is left out of the model);
+          // without the flag, every number is looked up in the other book
+          let read;
+          if (!hs.length) read = '';
+          else if (tel) {
+            const ws = [];
+            hs.forEach(h => { ws[h.i] = h.l ? (ws[h.i] || '') + ABC[h.n - 1] : byN[h.n]; });
+            read = esc(ws.join(' '));
+          } else read = hs.map(h => `<span class="sg-cmd"><b>${h.n}</b>${esc(w.other[h.n] || '（本模型未设定）')}</span>`).join('');
+          const same = msg.join(' ') === w.start.join(' ');
+          const perm = !same && msg.length === w.start.length && [...msg].sort().join() === [...w.start].sort().join();
+          const note = !tel ? w.notes.nocode : same ? w.notes.same : perm ? w.notes.order : hs.length > 12 ? w.notes.longer : w.notes.ok;
+          out.innerHTML = `<p class="sg-h"><span class="label">升起的挂组</span><b>${hs.length}</b> 挂</p>
+            <p class="sg-nums">${tel ? '<i class="tel">电报旗</i>' : ''}${hs.map(h => `<i class="${h.l ? 'l' : ''}">${h.n}</i>`).join('')}</p>
+            <p class="sg-h"><span class="label">${tel ? '对方查词汇表，读出' : '对方查另一本书，读出'}</span></p>
+            <p class="sg-read${tel ? '' : ' cmds'}">${read || '—'}</p>
+            ${hs.length ? `<p class="sg-note">${inline(note)}</p>` : ''}`;
+          if (focus) { const b = focus.map(f => $(f, box)).find(Boolean) || $('button:not(:disabled)', box); if (b) b.focus(); else $('.sg-pal button', fig).focus(); }
+        };
+        box.addEventListener('click', e => {
+          const b = e.target.closest('button'); if (!b || b.disabled) return;
+          const i = +b.dataset.i, a = b.dataset.a;
+          if (a === 'x') { msg.splice(i, 1); draw([`[data-a="x"][data-i="${Math.min(i, msg.length - 1)}"]`]); return; }
+          const j = a === 'l' ? i - 1 : i + 1;
+          [msg[i], msg[j]] = [msg[j], msg[i]];
+          // keep the keyboard on the word that moved, or on the other arrow once this one runs out
+          draw([`[data-a="${a}"][data-i="${j}"]:not(:disabled)`, `[data-a="${a === 'l' ? 'r' : 'l'}"][data-i="${j}"]`]);
+        });
+        $('.sg-pal', fig).addEventListener('click', e => { const b = e.target.closest('[data-w]'); if (b && msg.length < 16) { msg.push(w.words[+b.dataset.w].w); draw(); } });
+        const telB = $('.sg-tel', fig);
+        telB.addEventListener('click', () => { tel = !tel; telB.setAttribute('aria-pressed', tel); draw(); });
+        $('.sg-reset', fig).addEventListener('click', () => { msg = w.start.slice(); tel = true; telB.setAttribute('aria-pressed', true); draw(); });
+        draw();
+      },
+    },
+    crossing: {
+      html: (w, no) => {
+        const S = { start: '出发', keep: '保留', change: '改写', lose: '丢失', add: '新增', none: '资料未及' };
+        return `<figure class="fig cr" data-widget="${no}">
+        <div class="fig-frame">
+          <div class="cr-grid" role="grid" aria-label="地图上的几样东西在每一站的遭遇">
+            <div class="cr-row cr-head" role="row"><span role="columnheader" class="cr-st">站</span>${w.elements.map(x => `<span role="columnheader">${esc(x)}</span>`).join('')}</div>
+            ${w.stations.map((s, r) => `<div class="cr-row" role="row"><span role="rowheader" class="cr-st">${esc(s)}</span>${w.cells[r].map((c, k) => `<span role="gridcell"><button type="button" class="s-${c.s}" data-r="${r}" data-c="${k}" tabindex="-1" aria-label="${esc(s)}，${esc(w.elements[k])}：${S[c.s]}">${S[c.s]}</button></span>`).join('')}</div>`).join('')}
+          </div>
+          <div class="cr-body" aria-live="polite"></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`;
+      },
+      wire(fig, w) {
+        const S = { start: '出发', keep: '保留', change: '改写', lose: '丢失', add: '新增', none: '资料未及' };
+        const bs = $$('[data-r]', fig), at = (r, c) => bs.find(b => +b.dataset.r === r && +b.dataset.c === c);
+        const R = w.stations.length, C = w.elements.length;
+        const show = (r, c, focus) => {
+          const b = at(r, c), x = w.cells[r][c];
+          bs.forEach(o => { o.tabIndex = o === b ? 0 : -1; o.setAttribute('aria-pressed', o === b); });
+          $('.cr-body', fig).innerHTML = `<p class="cr-h"><span>${esc(w.stations[r])}</span><span>${esc(w.elements[c])}</span><b class="s-${x.s}">${S[x.s]}</b></p><p>${inline(x.t)}</p>`;
+          if (focus) b.focus();
+        };
+        fig.addEventListener('click', e => { const b = e.target.closest('[data-r]'); if (b) show(+b.dataset.r, +b.dataset.c); });
+        // arrow keys move through the grid as in a table; Home / End go to the ends of a row
+        fig.addEventListener('keydown', e => {
+          const b = e.target.closest('[data-r]'); if (!b) return;
+          let r = +b.dataset.r, c = +b.dataset.c;
+          const mv = { ArrowRight: [0, 1], ArrowLeft: [0, -1], ArrowDown: [1, 0], ArrowUp: [-1, 0] }[e.key];
+          if (mv) { r = Math.max(0, Math.min(R - 1, r + mv[0])); c = Math.max(0, Math.min(C - 1, c + mv[1])); }
+          else if (e.key === 'Home') c = 0; else if (e.key === 'End') c = C - 1; else return;
+          e.preventDefault(); show(r, c, true);
+        });
+        show(1, 1);
+      },
+    },
+    evidence: {
+      html: (w, no) => `<figure class="fig evx" data-widget="${no}">
+        <div class="fig-frame">
+          <div class="ev-sec"><p class="label">证据（可多选）</p><div class="ev-list">${w.evidence.map((x, k) => `<button type="button" data-k="${k}" aria-pressed="${k === 0}"><i aria-hidden="true"></i><span class="ev-id">${esc(x.id)}</span>${esc(x.t)}</button>`).join('')}</div>
+            <div class="ev-all"><button type="button" data-all="1">全部选上</button><button type="button" data-all="0">全部清空</button></div>
+            <p class="ev-d" aria-live="polite"></p></div>
+          <div class="ev-hyp" aria-live="polite"></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        const REL = { '+': '支持', '-': '挑战', '0': '关系不大' };
+        const on = w.evidence.map((_, k) => k === 0), bs = $$('[data-k]', fig);
+        const draw = last => {
+          bs.forEach((b, k) => b.setAttribute('aria-pressed', on[k]));
+          const x = w.evidence[last];
+          $('.ev-d', fig).innerHTML = x && on[last] ? `<b>${esc(x.id)}</b>${inline(x.d)}` : '';
+          const sel = w.evidence.filter((_, k) => on[k]);
+          $('.ev-hyp', fig).innerHTML = w.hypotheses.map(h => {
+            const rows = sel.map(e => ({ e, r: e.rel[h.id] })), pro = rows.filter(x => x.r[0] === '+'), con = rows.filter(x => x.r[0] === '-'), mute = rows.length - pro.length - con.length;
+            return `<div class="ev-h"><p class="ev-ht"><span class="ev-id">${esc(h.id)}</span>${esc(h.t)}</p>
+              <p class="ev-n"><span class="p">支持 ${pro.length}</span><span class="c">挑战 ${con.length}</span>${mute ? `<span>另有 ${mute} 条关系不大</span>` : ''}</p>
+              ${pro.length + con.length ? `<ul>${[...con, ...pro].map(x => `<li class="${x.r[0] === '+' ? 'p' : 'c'}"><b>${esc(x.e.id)} ${REL[x.r[0]]}</b>${inline(x.r[1])}</li>`).join('')}</ul>` : `<p class="ev-none">${sel.length ? '选中的证据与这一读法关系都不大。' : '还没有选证据。'}</p>`}</div>`;
+          }).join('');
+        };
+        fig.addEventListener('click', e => {
+          const b = e.target.closest('[data-k]'), a = e.target.closest('[data-all]');
+          if (b) { const k = +b.dataset.k; on[k] = !on[k]; draw(k); }
+          else if (a) { on.fill(a.dataset.all === '1'); draw(-1); }
+        });
+        draw(0);
       },
     },
   };

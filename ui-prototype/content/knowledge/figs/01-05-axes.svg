@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 420" role="img" aria-label="横向一行是 1805 年的信号句子：England、一个空位、that every man will do his、duty。duty 不在词汇表里，拆成 4、21、19、24 四挂。空位下面竖着排了两个候选：expects，号码 269，挂一次；confides，要拼成 3、14、13、6、9、4、5、18，挂八次。横的是组合，词同时在场排成一行；竖的是选择，候选此刻不在场，在记忆里排成一列。帕斯科没有动横的一行，只在竖的一列里换了一个">
+  <g class="l" filter="url(#wob2)">
+    <rect x="10" y="62" width="90" height="56" rx="6"/>
+    <rect x="404" y="62" width="76" height="56" rx="6"/>
+    <rect x="110" y="236" width="124" height="80" rx="6"/>
+  </g>
+  <g class="gl" filter="url(#wob2)">
+    <rect x="110" y="62" width="124" height="56" rx="6" stroke-dasharray="5 5"/>
+    <rect x="110" y="142" width="124" height="80" rx="6"/>
+  </g>
+  <rect class="wash" x="110" y="142" width="124" height="80" rx="6"/>
+  <g class="l thin">
+    <path d="M10 132h470"/>
+    <path d="M476 132l-8-5M476 132l-8 5"/>
+    <path d="M250 142v186"/>
+    <path d="M250 328l-5-8M250 328l5-8"/>
+  </g>
+  <g text-anchor="middle">
+    <text font-size="17" x="55" y="88">England</text>
+    <text class="sm" style="font-size:14px" x="55" y="108">253</text>
+    <text font-size="22" class="gt" x="172" y="98">？</text>
+    <text font-size="15" x="319" y="90">that every man</text>
+    <text font-size="15" x="319" y="116">will do his</text>
+    <text font-size="17" x="442" y="88">duty</text>
+    <text class="sm" style="font-size:13px" x="442" y="108">4 21 19 24</text>
+    <text font-size="18" class="gt" x="172" y="170">expects</text>
+    <text class="sm" style="font-size:14px" x="172" y="192">269</text>
+    <text class="sm" style="font-size:14px" x="172" y="212">挂 1 次</text>
+    <text font-size="18" x="172" y="262">confides</text>
+    <text class="sm" style="font-size:13px" x="172" y="284">3 14 13 6 9 4 5 18</text>
+    <text class="sm" style="font-size:14px" x="172" y="305">挂 8 次</text>
+  </g>
+  <g class="sm" style="font-size:15px" text-anchor="start">
+    <text x="10" y="34">组合：词同时在场，排成一行</text>
+    <text x="264" y="176">选择：此刻不在场的候选，</text>
+    <text x="264" y="198">在记忆里排成一列</text>
+    <text x="264" y="266">书上没有的词，</text>
+    <text x="264" y="288">每个字母单挂一次</text>
+  </g>
+  <text font-size="16" x="245" y="372" text-anchor="middle">帕斯科没有动横的一行，只在竖的一列里换了一个；</text>
+  <text font-size="16" x="245" y="398" text-anchor="middle">理由不在语法，在号码书里的代价</text>
+</svg>

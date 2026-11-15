@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="同一挂旗：上面一面 1，下面一面 6，读作 16。如果前面先升了电报旗，接收方去查波帕姆的词汇表，16 是字母 Q。如果没有电报旗，接收方查 1799 年的《信号书》，第 16 号是与敌舰更近地交战。电报旗本身不说任何事，它说的是接下来该翻哪一本书">
+  <g class="l" filter="url(#wob2)">
+    <path d="M40 60v200"/>
+    <rect x="40" y="128" width="54" height="40"/>
+    <rect x="40" y="172" width="54" height="40"/>
+    <rect x="236" y="40" width="244" height="92" rx="8"/>
+    <rect x="236" y="198" width="244" height="92" rx="8"/>
+    <path d="M104 160C160 150 180 100 228 88M228 88l-10-1M228 88l-6 8"/>
+    <path d="M104 180C160 190 180 236 228 244M228 244l-10 1M228 244l-6-8"/>
+  </g>
+  <g class="gl" filter="url(#wob2)">
+    <path d="M40 66l44 14-44 14z"/>
+  </g>
+  <rect class="wash" x="236" y="198" width="244" height="92" rx="8"/>
+  <g text-anchor="middle">
+    <text font-size="22" x="67" y="156">1</text>
+    <text font-size="22" x="67" y="200">6</text>
+    <text font-size="17" x="358" y="70">波帕姆词汇表</text>
+    <text font-size="20" x="358" y="98">16 ＝ 字母 Q</text>
+    <text class="sm" style="font-size:14px" x="358" y="122">要和后面几挂拼成一个词</text>
+    <text font-size="17" x="358" y="228">1799 年《信号书》</text>
+    <text font-size="20" class="gt" x="358" y="256">第 16 号 ＝ 近战</text>
+    <text class="sm" style="font-size:14px" x="358" y="280">与敌舰更近地交战</text>
+  </g>
+  <g class="sm" style="font-size:14px" text-anchor="start">
+    <text x="92" y="62">电报旗</text>
+    <text x="92" y="84">（有它才查词汇表）</text>
+    <text x="114" y="122">有电报旗</text>
+    <text x="114" y="232">没有电报旗</text>
+  </g>
+  <text class="sm" style="font-size:15px" x="20" y="318">同样的旗，同样的号码；先认出是哪一本书，才谈得上意思</text>
+</svg>

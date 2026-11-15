@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 400" role="img" aria-label="艾柯的三种意图示意。中间是文本，文本里面由文本策略设想出一个模范作者和一个模范读者。右边是真实的读者，他向文本提出推测，推测要回到文本整体去核对：被文本其他部分证实的留下，被挑战的放弃。左边是真实的作者，他的话用虚线连向文本，标注为只用来显示作者意图和文本意图之间的差距，不作判决">
+  <g class="l" filter="url(#wob2)">
+    <rect x="150" y="70" width="190" height="230" rx="10"/>
+    <rect x="10" y="150" width="104" height="70" rx="8"/>
+    <rect x="376" y="150" width="104" height="70" rx="8"/>
+  </g>
+  <rect class="wash" x="168" y="120" width="154" height="44" rx="6"/>
+  <rect class="wash" x="168" y="206" width="154" height="44" rx="6"/>
+  <g class="gl" filter="url(#wob2)">
+    <rect x="168" y="120" width="154" height="44" rx="6"/>
+    <rect x="168" y="206" width="154" height="44" rx="6"/>
+  </g>
+  <g class="l thin">
+    <path d="M376 172C360 160 352 152 342 150"/>
+    <path d="M342 150l9-3-4 9"/>
+    <path d="M342 226C354 222 362 210 376 200"/>
+    <path d="M376 200l-9 1 4 8"/>
+    <path d="M114 185h34" stroke-dasharray="4 4"/>
+    <path d="M148 185l-8-4v8z"/>
+  </g>
+  <g text-anchor="middle">
+    <text font-size="18" x="245" y="100">文本</text>
+    <text font-size="16" x="245" y="148">模范作者</text>
+    <text font-size="16" x="245" y="234">模范读者</text>
+    <text class="sm" style="font-size:13px" x="245" y="190">都由文本策略设想出来</text>
+    <text class="sm" style="font-size:13px" x="245" y="284">文本意图：读者推测出来的</text>
+    <text font-size="16" x="62" y="180">真实作者</text>
+    <text class="sm" style="font-size:13px" x="62" y="202">（如詹姆斯的序）</text>
+    <text font-size="16" x="428" y="180">真实读者</text>
+    <text class="sm" style="font-size:13px" x="428" y="202">（如威尔逊）</text>
+  </g>
+  <g class="sm" style="font-size:14px" text-anchor="start">
+    <text x="350" y="130">提出推测</text>
+    <text x="344" y="252">回到文本整体核对</text>
+    <text x="10" y="248">作者的话：显示差距，</text>
+    <text x="10" y="268">不作判决</text>
+  </g>
+  <text class="sm" style="font-size:15px" x="245" y="338" text-anchor="middle">被文本另一部分证实的，可以接受；</text>
+  <text class="sm" style="font-size:15px" x="245" y="362" text-anchor="middle">被另一部分挑战的，必须放弃</text>
+  <text class="sm" style="font-size:13px" x="245" y="388" text-anchor="middle">（艾柯借用的奥古斯丁原则）</text>
+</svg>
