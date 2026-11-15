@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="三种读法各自处理了故事的哪些段落。纵向是故事的十段情节，从被当作维纳斯朝拜、神谕、山谷宫殿、姐姐来访、举灯，到流浪、四件苦役、冥后的盒子、众神会议和婚礼、女儿快乐的诞生。富尔根提乌斯一行覆盖开头和宫殿、姐姐、举灯，到被逐出宫殿为止，神谕只复述未作解释，后面明说不讲。泰勒一行从头覆盖到尾。Pei He 一行覆盖全篇，重点落在举灯和打开盒子这两处好奇的时刻">
+  <g class="sm" style="font-size:12.5px" text-anchor="end">
+    <text x="128" y="62">1 被当作维纳斯</text>
+    <text x="128" y="86">2 神谕，送上山顶</text>
+    <text x="128" y="110">3 山谷里的宫殿</text>
+    <text x="128" y="134">4 姐姐们来访</text>
+    <text x="128" y="158">5 举灯，丘比特飞走</text>
+    <text x="128" y="182">6 流浪</text>
+    <text x="128" y="206">7 前三件苦役</text>
+    <text x="128" y="230">8 冥后的盒子</text>
+    <text x="128" y="254">9 众神会议、婚礼</text>
+    <text x="128" y="278">10 女儿“快乐”</text>
+  </g>
+  <g style="font-size:14px" text-anchor="middle">
+    <text x="210" y="32">富尔根提乌斯</text>
+    <text x="320" y="32">泰勒</text>
+    <text x="430" y="32">Pei He</text>
+  </g>
+  <rect class="wash" x="180" y="48" width="60" height="22" rx="4"/>
+  <rect class="gl" x="180" y="48" width="60" height="22" rx="4"/>
+  <rect class="l thin" x="180" y="72" width="60" height="22" rx="4"/>
+  <rect class="wash" x="180" y="96" width="60" height="74" rx="6"/>
+  <rect class="gl" x="180" y="96" width="60" height="74" rx="6"/>
+  <g class="l thin" stroke-dasharray="4 5">
+    <path d="M210 176V284"/>
+  </g>
+  <text class="sm" style="font-size:12.5px" x="222" y="222">明说不讲</text>
+  <rect class="wash" x="290" y="48" width="60" height="242" rx="6"/>
+  <rect class="gl" x="290" y="48" width="60" height="242" rx="6"/>
+  <rect class="wash" x="400" y="48" width="60" height="242" rx="6" style="opacity:.07"/>
+  <rect class="l thin" x="400" y="48" width="60" height="242" rx="6"/>
+  <rect class="wash" x="400" y="144" width="60" height="22" rx="4"/>
+  <rect class="wash" x="400" y="216" width="60" height="22" rx="4"/>
+  <rect class="gl" x="400" y="144" width="60" height="22" rx="4"/>
+  <rect class="gl" x="400" y="216" width="60" height="22" rx="4"/>
+  <g class="sm" style="font-size:12.5px" text-anchor="middle">
+    <text x="245" y="316">实框：这种读法给出了对应；浅框：涉及但不是重点</text>
+  </g>
+</svg>

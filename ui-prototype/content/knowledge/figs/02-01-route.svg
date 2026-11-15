@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 380" role="img" aria-label="示意图，不按比例，不是精确地图。中间一条带状的山脉是阿尔卑斯山。山以北，多瑙河自西向东流过维伦多夫。山以南是加尔达湖，旁边标着塞加迪阿拉：这里的鲕粒岩与小像几乎完全吻合。右边远处标着乌克兰东部的伊久姆：吻合程度排第二，但明显较低，实际距离维伦多夫直线至少 1,600 公里，图上用断开的线表示。两条虚线是论文引用的计算机模拟给出的试探性路线：一条从德国施瓦本山区的盖森克勒斯特勒翻越阿尔卑斯山到加尔达湖附近的富马内洞；另一条从维伦多夫附近的克雷姆斯一带绕开阿尔卑斯山南下到加尔达湖，约 930 公里">
+  <path class="wash" d="M20 168C80 150 150 160 210 150S300 140 320 156L326 214C290 230 230 222 170 232S60 246 20 238Z"/>
+  <g class="l thin">
+    <path d="M40 200l10-14 10 14M86 188l10-14 10 14M140 204l10-14 10 14M196 186l10-14 10 14M252 196l10-14 10 14M290 180l10-14 10 14M110 226l9-12 9 12M226 216l9-12 9 12"/>
+  </g>
+  <path class="l" filter="url(#wob2)" d="M24 98C80 90 140 104 190 98S240 96 262 104 320 126 350 138"/>
+  <g class="gl">
+    <circle cx="258" cy="104" r="5"/>
+    <circle cx="116" cy="268" r="5"/>
+  </g>
+  <ellipse class="wash" cx="116" cy="268" rx="14" ry="22" style="opacity:.35"/>
+  <g class="l thin" stroke-dasharray="5 5">
+    <path d="M78 108C96 150 104 190 104 230S108 258 112 262"/>
+    <path d="M262 112C300 160 314 210 290 244S180 270 124 270"/>
+  </g>
+  <g class="l">
+    <circle cx="78" cy="102" r="3.5"/>
+    <circle cx="106" cy="276" r="3"/>
+  </g>
+  <g class="l thin">
+    <path d="M264 98C320 80 360 76 392 76"/>
+    <path d="M398 70l-6 12M406 70l-6 12"/>
+    <path d="M408 76C420 76 432 78 444 82"/>
+  </g>
+  <circle class="l" cx="450" cy="84" r="5"/>
+  <g style="font-size:15px">
+    <text x="270" y="124">维伦多夫</text>
+    <text x="134" y="272">塞加迪阿拉</text>
+    <text x="452" y="112" text-anchor="end">伊久姆</text>
+  </g>
+  <g class="sm" style="font-size:13px">
+    <text x="134" y="294">加尔达湖旁，几乎完全吻合</text>
+    <text x="452" y="136" text-anchor="end">乌克兰东部，排第二</text>
+    <text x="452" y="155" text-anchor="end">吻合程度明显较低</text>
+    <text x="300" y="64">直线至少 1,600 公里</text>
+    <text x="24" y="86">多瑙河</text>
+    <text x="60" y="124">盖森克勒斯特勒</text>
+    <text x="30" y="300">富马内洞</text>
+    <text x="250" y="142" text-anchor="end">（克雷姆斯一带）</text>
+    <text x="150" y="206" class="gt">阿尔卑斯山</text>
+  </g>
+  <g class="sm" style="font-size:13px">
+    <text x="310" y="236">绕山南下，约 930 公里</text>
+    <text x="20" y="160">翻山</text>
+  </g>
+  <g class="sm" style="font-size:13px" text-anchor="middle">
+    <text x="245" y="336">虚线：论文引用的计算机模拟给出的路线，标注为“试探性的”</text>
+    <text x="245" y="356">走过这段路的是原料还是成品，石头本身不能回答</text>
+  </g>
+</svg>

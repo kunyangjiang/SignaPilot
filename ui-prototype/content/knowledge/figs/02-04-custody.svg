@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 420" role="img" aria-label="左右两栏对照。左栏是丹佛美术馆档案里这件木雕的来历，自上而下：祖尼的神龛；一段虚线，标着谁取走、怎样取走，没有任何记录；政府测量员阿瑟·克拉克，据信 1899 至 1901 年间得到；塔尔萨收藏家克拉克·菲尔德买入；1953 年捐给丹佛美术馆；展出和出版 25 年，被称为同类中最好的一件。右栏是 1979 年祖尼代表的说法：鹿氏族、熊氏族首领和资深弓祭司为部族负责战神；它是一位在场的神；它是公有之物，不能出售也不能赠与；它应回到保留地的露天神龛。底部两栏各有一个“公有”：左边是丹佛全体人民共同所有，右边是属于整个部族">
+  <g style="font-size:14px" class="gt">
+    <text x="20" y="28">美术馆档案里的来历</text>
+    <text x="266" y="28">祖尼代表的说法（1979）</text>
+  </g>
+  <path class="l thin" d="M245 16V350"/>
+  <g class="l" filter="url(#wob2)">
+    <rect x="20" y="44" width="200" height="34" rx="4"/>
+    <rect x="20" y="152" width="200" height="46" rx="4"/>
+    <rect x="20" y="214" width="200" height="34" rx="4"/>
+    <rect x="20" y="264" width="200" height="34" rx="4"/>
+    <rect x="20" y="314" width="200" height="34" rx="4"/>
+  </g>
+  <path class="l thin" stroke-dasharray="4 5" d="M120 78V152"/>
+  <g class="l thin">
+    <path d="M120 198V214M120 248V264M120 298V314"/>
+  </g>
+  <g style="font-size:14px" text-anchor="middle">
+    <text x="120" y="66">祖尼的神龛</text>
+  </g>
+  <g class="sm" style="font-size:13px">
+    <text x="130" y="108">谁取走、怎样取走：</text>
+    <text x="130" y="126">没有任何记录</text>
+  </g>
+  <g style="font-size:13px" text-anchor="middle">
+    <text x="120" y="171">政府测量员阿瑟·克拉克</text>
+    <text x="120" y="189" class="sm">据信 1899–1901 年间得到</text>
+    <text x="120" y="236">收藏家克拉克·菲尔德买入</text>
+    <text x="120" y="286">1953 年捐给丹佛美术馆</text>
+    <text x="120" y="336">展出、出版 25 年</text>
+  </g>
+  <rect class="wash" x="260" y="44" width="210" height="300" rx="6"/>
+  <g style="font-size:13px">
+    <text x="272" y="70">鹿氏族、熊氏族首领</text>
+    <text x="272" y="88">和资深弓祭司：</text>
+    <text x="272" y="106">为部族负责战神</text>
+    <text x="272" y="150">它是一位在场的神，</text>
+    <text x="272" y="168">不是符号</text>
+    <text x="272" y="212">公有之物：</text>
+    <text x="272" y="230">不能出售，也不能赠与</text>
+    <text x="272" y="274">应回到保留地的</text>
+    <text x="272" y="292">露天神龛</text>
+  </g>
+  <g class="gl">
+    <circle cx="266" cy="66" r="2.5"/>
+    <circle cx="266" cy="146" r="2.5"/>
+    <circle cx="266" cy="208" r="2.5"/>
+    <circle cx="266" cy="270" r="2.5"/>
+  </g>
+  <g class="l thin">
+    <path d="M120 348V372M365 344V372"/>
+  </g>
+  <g style="font-size:13px" text-anchor="middle">
+    <text x="120" y="392" class="gt">“丹佛全体人民共同所有”</text>
+    <text x="365" y="392" class="gt">“属于整个部族”</text>
+  </g>
+  <text class="sm" style="font-size:12px" x="245" y="414" text-anchor="middle">两边都说“公有”，指的是两个不同的共同体</text>
+</svg>

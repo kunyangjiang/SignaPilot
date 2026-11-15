@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="西阶的侧面示意，不按比例。堂在上，台阶三级。第一次加冠，宾走下一级去接缁布冠；第二次走下两级去接皮弁；第三次走下三级去接爵弁。执冠的人从堂下往上走一级递给他。右边写着《冠义》对这一段的全部解说：三加弥尊，加有成也">
+  <g class="l" filter="url(#wob2)">
+    <path d="M20 90H200V140H240V190H280V240H320V290H470"/>
+  </g>
+  <g class="l thin">
+    <path d="M20 90V290M20 290H320"/>
+  </g>
+  <rect class="wash" x="20" y="64" width="180" height="26"/>
+  <text class="sm" style="font-size:13px" x="30" y="82">堂上</text>
+  <text class="sm" style="font-size:13px" x="380" y="310">堂下（庭）</text>
+  <g class="gl">
+    <circle cx="222" cy="128" r="6"/>
+    <circle cx="262" cy="178" r="6"/>
+    <circle cx="302" cy="228" r="6"/>
+  </g>
+  <g class="l thin">
+    <path d="M190 112C204 104 214 112 220 120"/>
+    <path d="M190 112C214 132 240 150 258 170"/>
+    <path d="M190 112C228 150 270 190 298 220"/>
+  </g>
+  <g style="font-size:14px">
+    <text x="232" y="122">一级：缁布冠</text>
+    <text x="272" y="172">两级：皮弁</text>
+    <text x="312" y="222">三级：爵弁</text>
+  </g>
+  <g class="sm" style="font-size:13px">
+    <text x="20" y="130">宾从堂上走下，</text>
+    <text x="20" y="150">一次比一次走得低，</text>
+    <text x="20" y="170">才接到更尊贵的冠</text>
+  </g>
+  <rect class="wash" x="300" y="30" width="170" height="66" rx="6"/>
+  <g class="sm" style="font-size:13px" text-anchor="middle">
+    <text x="385" y="52">《冠义》对这一段的解说</text>
+    <text x="385" y="78" class="gt" style="font-size:16px">三加弥尊，加有成也</text>
+  </g>
+</svg>

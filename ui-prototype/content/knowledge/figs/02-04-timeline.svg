@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="时间线，1979 年到 2020 年，不按比例。轴上方是美国境内：1979 年丹佛美术馆董事会决议交还，出于自愿；1987 年史密森学会交还两件，此前商谈九年；1990 年国会通过 NAGPRA；1991 年丹佛自然与科学博物馆交还六件，此后祖尼方面开始公开宣传每一次归还；到 2014 年已从美国机构讨回 100 多件；2020 年一家拍卖行交还一件。轴下方是法律管不到的地方：2014 年在巴黎、柏林等地的博物馆收效甚微，只能诉诸道义">
+  <path class="l" d="M24 170H476"/>
+  <path class="l thin" d="M175 150V190"/>
+  <text class="sm" style="font-size:12px" x="175" y="206" text-anchor="middle">1990 NAGPRA</text>
+  <g class="gl">
+    <circle cx="40" cy="170" r="5"/>
+    <circle cx="110" cy="170" r="5"/>
+    <circle cx="200" cy="170" r="5"/>
+    <circle cx="400" cy="170" r="5"/>
+    <circle cx="455" cy="170" r="5"/>
+  </g>
+  <g class="l thin">
+    <path d="M40 165V128M110 165V76M200 165V128M400 165V76M455 165V150"/>
+    <path d="M400 175V238"/>
+  </g>
+  <g style="font-size:13px">
+    <text x="32" y="84" class="gt">1979</text>
+    <text x="32" y="102">丹佛美术馆</text>
+    <text x="32" y="120" class="sm" style="font-size:12px">自愿交还</text>
+    <text x="102" y="32" class="gt">1987</text>
+    <text x="102" y="50">史密森学会两件</text>
+    <text x="102" y="68" class="sm" style="font-size:12px">商谈九年</text>
+    <text x="192" y="84" class="gt">1991</text>
+    <text x="192" y="102">丹佛自然与科学博物馆六件</text>
+    <text x="192" y="120" class="sm" style="font-size:12px">此后祖尼方面公开宣传每次归还</text>
+    <text x="392" y="32" class="gt">2014</text>
+    <text x="392" y="50">美国境内</text>
+    <text x="392" y="68" class="sm" style="font-size:12px">已归还 100 多件</text>
+    <text x="414" y="110" class="gt">2020</text>
+    <text x="414" y="126" class="sm" style="font-size:12px">拍卖行</text>
+    <text x="414" y="142" class="sm" style="font-size:12px">交还一件</text>
+  </g>
+  <rect class="wash" x="250" y="238" width="220" height="62" rx="6"/>
+  <g style="font-size:13px">
+    <text x="262" y="262">巴黎、柏林等地的博物馆：</text>
+    <text x="262" y="284">收效甚微，只能诉诸道义</text>
+  </g>
+  <g class="sm" style="font-size:12px">
+    <text x="24" y="246">轴上方：美国境内</text>
+    <text x="24" y="264">轴下方：法律管不到的地方</text>
+  </g>
+  <text class="sm" style="font-size:12px" x="245" y="322" text-anchor="middle">时间不按比例；1990 年后的归还有法律可依，此前全凭自愿</text>
+</svg>

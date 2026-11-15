@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 360" role="img" aria-label="一层套一层的叙述结构示意。最外层是作者阿普列乌斯写的小说《变形记》；里面一层是变成驴的卢基乌斯在讲自己的遭遇；再里面一层是强盗山洞里，老妇人给被掳来的少女讲故事；最里层才是丘比特与普绪喀的故事。框外右侧，后来的读者从外面读这整个结构：富尔根提乌斯、泰勒、现代学者">
+  <rect class="wash" x="110" y="160" width="190" height="96" rx="8"/>
+  <g class="l" filter="url(#wob2)">
+    <rect x="20" y="30" width="370" height="300" rx="12"/>
+    <rect x="50" y="76" width="310" height="230" rx="10"/>
+    <rect x="80" y="120" width="250" height="160" rx="9"/>
+  </g>
+  <rect class="gl" x="110" y="160" width="190" height="96" rx="8"/>
+  <g style="font-size:15px">
+    <text x="34" y="58">阿普列乌斯《变形记》</text>
+    <text x="64" y="102">驴子卢基乌斯讲自己的遭遇</text>
+    <text x="94" y="146">山洞里，老妇人讲给少女听</text>
+  </g>
+  <g text-anchor="middle">
+    <text x="205" y="200" style="font-size:16px">丘比特与普绪喀</text>
+    <text class="sm" x="205" y="224" style="font-size:13px">4.28–6.24</text>
+  </g>
+  <g class="sm" style="font-size:13px" text-anchor="end">
+    <text x="352" y="298">驴在旁边偷听</text>
+  </g>
+  <g class="l thin">
+    <path d="M462 120C440 140 420 160 392 176"/>
+    <path d="M392 176l9-1-4 8"/>
+  </g>
+  <g class="sm" style="font-size:13px" text-anchor="middle">
+    <text x="444" y="64">后来的读者</text>
+    <text x="444" y="84">从框外读</text>
+    <text x="444" y="226">富尔根提乌斯</text>
+    <text x="444" y="246">泰勒</text>
+    <text x="444" y="266">现代学者</text>
+  </g>
+</svg>

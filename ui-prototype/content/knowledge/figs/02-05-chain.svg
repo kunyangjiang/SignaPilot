@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 470" role="img" aria-label="一条自上而下的证据链。顶端的结论是：庞贝的方块是基督徒写的。它需要四个环节。第一环，字母排列是有意拼出的主祷文十字：证据来自方块内部，排列极巧，说得通但无法证明。第二环，79 年以前庞贝有基督徒：证据是《使徒行传》说附近的普泰奥利有弟兄，以及赫库兰尼姆一个有争议的十字印痕，属于弱证据。第三环，十字和 A、O 那时已是基督教符号：已知最早的十字用法见于约 130 年的《巴拿巴书信》，A、O 在铭文里要到 3 世纪末才出现，属于相反的证据。第四环，基督徒用拉丁文写这样的字谜：热尔法尼翁认为当时基督徒多用希腊文，赫默认为未必，有争议。最下面：直接把方块和庞贝的基督徒联系起来的证据，一件也没有，属于缺失的证据">
+  <rect class="wash" x="80" y="16" width="330" height="40" rx="6"/>
+  <text x="245" y="42" text-anchor="middle" style="font-size:15px" class="gt">结论：庞贝的方块是基督徒写的</text>
+  <g class="l thin">
+    <path d="M245 56V74M245 144V162M245 232V250M245 320V338"/>
+  </g>
+  <g class="l" filter="url(#wob2)">
+    <rect x="20" y="74" width="450" height="70" rx="8"/>
+    <rect x="20" y="162" width="450" height="70" rx="8"/>
+    <rect x="20" y="250" width="450" height="70" rx="8"/>
+    <rect x="20" y="338" width="450" height="70" rx="8"/>
+  </g>
+  <g style="font-size:14px">
+    <text x="34" y="98">① 字母排列是有意拼出的主祷文十字</text>
+    <text x="34" y="186">② 79 年以前庞贝有基督徒</text>
+    <text x="34" y="274">③ 十字和 A、O 那时已是基督教符号</text>
+    <text x="34" y="362">④ 基督徒用拉丁文写这样的字谜</text>
+  </g>
+  <g class="sm" style="font-size:12px">
+    <text x="52" y="118">证据在方块内部：用尽 25 个字母，</text>
+    <text x="52" y="136">剩下的恰是 A、A、O、O</text>
+    <text x="52" y="206">普泰奥利有“弟兄”（《使徒行传》）；</text>
+    <text x="52" y="224">赫库兰尼姆的十字印痕，有争议</text>
+    <text x="52" y="294">十字用法最早见于约 130 年的《巴拿巴书信》；</text>
+    <text x="52" y="312">A、O 在铭文中到 3 世纪末才出现</text>
+    <text x="52" y="382">热尔法尼翁：当时基督徒多用希腊文；</text>
+    <text x="52" y="400">赫默：未必</text>
+  </g>
+  <g style="font-size:13px" text-anchor="end">
+    <text x="458" y="98" class="gt">说得通，无法证明</text>
+    <text x="458" y="186" class="gt">弱</text>
+    <text x="458" y="274" class="gt">相反</text>
+    <text x="458" y="362" class="gt">有争议</text>
+  </g>
+  <path class="l thin" stroke-dasharray="4 5" d="M245 408V426"/>
+  <rect class="l thin" stroke-dasharray="4 5" x="80" y="426" width="330" height="34" rx="6" fill="none"/>
+  <text x="245" y="448" text-anchor="middle" style="font-size:13px">直接证据：一件也没有（缺失）</text>
+</svg>

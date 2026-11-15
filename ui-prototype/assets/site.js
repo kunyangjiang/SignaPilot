@@ -463,6 +463,11 @@
     '01-05': { src: 'content/knowledge/01-05.md', state: 'done' },
     '01-06': { src: 'content/knowledge/01-06.md', state: 'done' },
     '01-07': { src: 'content/knowledge/01-07.md', state: 'done' },
+    '02-01': { src: 'content/knowledge/02-01.md', state: 'draft' },
+    '02-02': { src: 'content/knowledge/02-02.md', state: 'draft' },
+    '02-03': { src: 'content/knowledge/02-03.md', state: 'draft' },
+    '02-04': { src: 'content/knowledge/02-04.md', state: 'draft' },
+    '02-05': { src: 'content/knowledge/02-05.md', state: 'draft' },
   };
   const K_STATE = { done: '已完成', draft: '初稿 · 待审读' };
   // A course manuscript: "# 标题", an optional "> 初稿…" status line, a lead paragraph, "**…**" question lines,
@@ -529,6 +534,16 @@
   //    (kept, rewritten, lost, added, or not recorded), with the grounds for it.
   //  "evidence" (01-07): evidence switched on and off; each competing reading lists what supports or challenges it,
   //    with counts only, and never a verdict.
+  //  "reveal" (02-01): kinds of evidence uncovered one at a time, in a fixed order; each step changes the standing of
+  //    every candidate reading, and a track of dots keeps its history, so a reading the reader picked can be revised.
+  //  "rite" (02-02): a ritual in phases on a drawn ground plan; choosing a phase moves the participants' markers, and
+  //    choosing a participant shows what that body does there, set beside what the explanatory text says.
+  //  "readings" (02-03): one passage split into sentences; choosing an interpretation marks the sentences it uses,
+  //    with the sense it gives each, dims the rest, and names what it brings in from outside the text.
+  //  "voices" (02-04): one object, several questions about it; choosing a question lists what each party claims,
+  //    what the claim rests on and where it stops, then what actually happened in the case.
+  //  "square" (02-05): a 5 x 5 word square in its two orders; each way of reading lights the letters it uses, and
+  //    the two Pompeii finds can be laid over it to show which letters survive and which are restored.
   const LEVELS = ['没有依据', '说得通，证据不足', '有依据'];
   function ctxHtml(w, no) {
     const id = 'ctx' + no;
@@ -801,6 +816,174 @@
           else if (a) { on.fill(a.dataset.all === '1'); draw(-1); }
         });
         draw(0);
+      },
+    },
+    reveal: {
+      html: (w, no) => `<figure class="fig rv" data-widget="${no}">
+        <div class="fig-frame">
+          <div class="rv-sec"><p class="label">先押一个解释（随时可以换）</p></div>${radioRow('rv-pick', '选择你押的解释', w.readings.map(r => r.s))}
+          <ol class="rv-cats" aria-hidden="true">${w.steps.map(s => `<li>${esc(s.cat)}</li>`).join('')}</ol>
+          <div class="rv-ev" aria-live="polite"></div>
+          <div class="rv-nav"><button type="button" class="rv-prev">上一格</button><span class="rv-count"></span><button type="button" class="rv-next">揭开下一格</button></div>
+          <p class="rv-you" aria-live="polite"></p>
+          <ul class="rv-rows"></ul>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        const ST = { open: '尚无约束', ok: '说得通', up: '得到支持', weak: '被削弱', out: '基本排除', na: '这一格说不上话' };
+        let step = 0, mine = 0;
+        const prev = $('.rv-prev', fig), next = $('.rv-next', fig), cats = $$('.rv-cats li', fig);
+        // the last step at or before k where this reading's standing was actually judged
+        const judged = (id, k) => { for (let j = k; j >= 0; j--) { const s = w.steps[j].st[id][0]; if (s !== 'na') return s; } return 'open'; };
+        const draw = () => {
+          const s = w.steps[step];
+          cats.forEach((c, j) => { c.classList.toggle('seen', j <= step); c.classList.toggle('now', j === step); });
+          $('.rv-ev', fig).innerHTML = `<p class="rv-cat"><span>${step + 1}</span>${esc(s.cat)}</p><p>${inline(s.ev)}</p>`;
+          $('.rv-count', fig).textContent = `${step + 1} / ${w.steps.length}`;
+          prev.disabled = step === 0; next.disabled = step === w.steps.length - 1;
+          const r = w.readings[mine], now = s.st[r.id][0], was = step ? judged(r.id, step - 1) : 'open', cur = judged(r.id, step);
+          $('.rv-you', fig).innerHTML = `<span class="label">你押的</span><b>${esc(r.t)}</b>：${now === 'na' ? `这一格对它说不上话，仍是“${ST[cur]}”。` : was === now ? `仍是“${ST[now]}”。` : `从“${ST[was]}”变成了“${ST[now]}”。${now === 'out' || now === 'weak' ? '要不要换一个？' : ''}`}`;
+          $('.rv-rows', fig).innerHTML = w.readings.map((x, i) => {
+            const [st, why] = s.st[x.id];
+            return `<li class="s-${st}${i === mine ? ' mine' : ''}"><div class="rv-r"><b>${esc(x.t)}</b><span class="rv-track" aria-hidden="true">${w.steps.slice(0, step + 1).map(y => `<i class="s-${y.st[x.id][0]}"></i>`).join('')}</span><span class="rv-st">${ST[st]}</span></div><p>${inline(why)}</p></li>`;
+          }).join('');
+        };
+        prev.addEventListener('click', () => { if (step > 0) { step--; draw(); if (prev.disabled) next.focus(); } });
+        next.addEventListener('click', () => { if (step < w.steps.length - 1) { step++; draw(); if (next.disabled) prev.focus(); } });
+        radios($('.rv-pick', fig), k => { mine = k; draw(); });
+      },
+    },
+    rite: {
+      html: (w, no) => `<figure class="fig rt" data-widget="${no}">
+        <div class="fig-frame">
+          <div class="rt-sec"><p class="label">站在谁的位置</p></div>${radioRow('rt-role', '选择参加者', w.roles)}
+          <div class="rt-board ill"><div class="rt-pos"><div class="rt-svg" role="img" aria-label="${esc(w.alt)}"></div>${w.roles.map((r, k) => `<span class="rt-dot" data-r="${k}" aria-hidden="true">${esc((w.marks || [])[k] || r[0])}</span>`).join('')}</div></div>
+          <div class="rt-sec"><p class="label">仪式的步骤</p></div>${radioRow('rt-phase', '选择步骤', w.phases.map((p, k) => `${k + 1} ${p.t}`))}
+          <div class="rt-body" aria-live="polite"></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        load('content/knowledge/' + w.img).then(svg => {
+          if (!/^\s*<svg[\s>]/.test(svg)) return;
+          $('.rt-svg', fig).innerHTML = svg;
+          const el = $('.rt-svg svg', fig); el.removeAttribute('role'); el.removeAttribute('aria-label'); el.setAttribute('aria-hidden', 'true');
+        }).catch(() => {});
+        const [VW, VH] = [490, 400], dots = $$('.rt-dot', fig);
+        let role = 0, ph = 0;
+        const draw = () => {
+          const p = w.phases[ph], name = w.roles[role], used = {};
+          dots.forEach((d, k) => {
+            const at = p.pos[w.roles[k]], xy = at && w.places[at];
+            d.hidden = !xy;
+            if (!xy) return;
+            // people sharing one spot stand side by side rather than on top of each other
+            const n = used[at] = (used[at] || 0) + 1;
+            d.style.left = `${(xy[0] + (n - 1) * 30) / VW * 100}%`; d.style.top = `${xy[1] / VH * 100}%`;
+            d.classList.toggle('on', k === role);
+          });
+          const here = p.pos[name];
+          $('.rt-body', fig).innerHTML = `<p class="rt-h"><span>${ph + 1}</span>${esc(p.t)}<b>${esc(name)}${here ? ` · ${esc(here)}` : ' · 经文未写位置'}</b></p>
+            <p class="rt-do">${inline(p.do[name])}</p>
+            <p class="rt-yi"><span class="label">《冠义》怎么说</span>${inline(p.yi)}</p>
+            ${p.song ? `<p class="rt-song"><span class="label">宋代的改写</span>${inline(p.song)}</p>` : ''}`;
+        };
+        radios($('.rt-role', fig), k => { role = k; draw(); });
+        radios($('.rt-phase', fig), k => { ph = k; draw(); });
+      },
+    },
+    readings: {
+      html: (w, no) => `<figure class="fig rd" data-widget="${no}">
+        <div class="fig-frame">
+          <div class="rd-sec"><p class="label">选一段原文</p></div>${radioRow('rd-psg', '选择段落', w.passages.map(p => p.label))}
+          <div class="rd-sec"><p class="label">选一种读法</p></div><div class="rd-who"></div>
+          <div class="rd-text" aria-live="polite"></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        let p = w.passages[0];
+        const show = k => {
+          const r = p.readings[k], keys = Object.keys(r.uses);
+          $('.rd-text', fig).innerHTML = `<p class="rd-ref">${esc(p.ref)}<span>${esc(r.who)}，${esc(r.when)}</span></p>
+            <ol class="rd-segs">${p.segs.map((s, i) => `<li class="${r.uses[s.k] ? 'on' : 'off'}"><span class="rd-n">${i + 1}</span><div><p class="rd-t">${inline(s.t)}</p>${r.uses[s.k] ? `<p class="rd-g">${inline(r.uses[s.k])}</p>` : ''}</div></li>`).join('')}</ol>
+            <p class="rd-sum">${keys.length ? `用到 ${keys.length} 句，共 ${p.segs.length} 句。` : '这一段它一句也没有处理。'}</p>
+            <p class="rd-x"><span class="label">从文本外带进来的</span>${inline(r.outside)}</p>
+            <p class="rd-x"><span class="label">没有照顾到的</span>${inline(r.leaves)}</p>`;
+        };
+        radios($('.rd-psg', fig), k => {
+          p = w.passages[k];
+          $('.rd-who', fig).innerHTML = radioRow('rd-rdr', '选择读法', p.readings.map(r => r.who));
+          radios($('.rd-rdr', fig), show);
+        });
+      },
+    },
+    voices: {
+      html: (w, no) => `<figure class="fig vc" data-widget="${no}">
+        <div class="fig-frame">
+          <div class="vc-sec"><p class="label">选一个问题</p></div>${radioRow('vc-q', '选择问题', w.questions.map(q => q.q))}
+          <div class="vc-body" aria-live="polite"></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        radios($('.vc-q', fig), k => {
+          const q = w.questions[k];
+          $('.vc-body', fig).innerHTML = `<ul class="vc-rows">${w.voices.map(v => {
+            const x = q.say[v.id];
+            return x ? `<li><b class="vc-who">${esc(v.name)}</b><div><p class="vc-claim">${inline(x.claim)}</p>
+              <p class="vc-x"><span class="label">凭什么</span>${inline(x.basis)}</p>
+              <p class="vc-x"><span class="label">够不着的地方</span>${inline(x.limit)}</p></div></li>`
+              : `<li class="none"><b class="vc-who">${esc(v.name)}</b><div><p class="vc-claim">本案材料里没有这一方对这个问题的说法。</p></div></li>`;
+          }).join('')}</ul><p class="vc-out"><span class="label">这件事里实际发生的</span>${inline(q.outcome)}</p>`;
+        });
+      },
+    },
+    square: {
+      html: (w, no) => `<figure class="fig sq" data-widget="${no}">
+        <div class="fig-frame">
+          <div class="sq-sec"><p class="label">选一种看法</p></div>${radioRow('sq-mode', '选择看法', w.modes.map(m => m.label))}
+          <div class="sq-ordbox"><div class="sq-sec"><p class="label">方块的顺序</p></div>${radioRow('sq-ord', '选择顺序', ['ROTAS 在第一行', 'SATOR 在第一行'])}</div>
+          <div class="sq-stage" aria-live="polite"></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        const ROT = ['ROTAS', 'OPERA', 'TENET', 'AREPO', 'SATOR'];
+        let mode = 0, ord = 0;
+        const rows = () => (ord ? ROT.slice().reverse() : ROT);
+        const rev = t => t.split('').reverse().join('');
+        const grid = (g, cls) => `<div class="sq-grid" role="img" aria-label="${esc(g.join(' '))}">${g.map((r, i) => r.split('').map((ch, j) => `<span class="sq-c ${cls ? cls(i, j) : ''}">${ch}</span>`).join('')).join('')}</div>`;
+        const pass = (g, from, start) => g.slice(from, from + 3).map((r, k) => ((k + start) % 2 ? rev(r) : r)).join(' ');
+        const draw = () => {
+          const m = w.modes[mode], g = rows(), note = typeof m.note === 'string' ? m.note : m.note[ord ? 'SATOR' : 'ROTAS'];
+          $('.sq-ordbox', fig).hidden = !m.order;
+          let body = '';
+          if (m.kind === 'dirs') {
+            const cols = [0, 1, 2, 3, 4].map(j => g.map(r => r[j]).join(''));
+            const ways = [['从左上角横读', g.join(' ')], ['从右下角倒着横读', g.slice().reverse().map(rev).join(' ')], ['从左上角竖读', cols.join(' ')], ['从右下角往上竖读', cols.slice().reverse().map(rev).join(' ')]];
+            body = grid(g) + `<ul class="sq-lines">${ways.map(x => `<li><span class="label">${x[0]}</span><code>${x[1]}</code></li>`).join('')}</ul>`;
+          } else if (m.kind === 'bous') {
+            body = grid(g, i => (i < 3 ? 'on' : '')) + `<ul class="sq-lines">
+              <li><span class="label">从左上角起，→ ← →</span><code>${pass(g, 0, 0)}</code></li>
+              <li><span class="label">从右上角起，← → ←</span><code>${pass(g, 0, 1)}</code></li></ul>`;
+          } else if (m.kind === 'pater') {
+            const word = 'APATERNOSTERO', n = word.length, mid = (n - 1) / 2;
+            const cells = [];
+            for (let i = 0; i < n; i++) for (let j = 0; j < n; j++) {
+              const ch = j === mid ? word[i] : i === mid ? word[j] : '';
+              cells.push(`<span class="sq-c ${ch ? ((i === 0 || i === n - 1 || j === 0 || j === n - 1) ? 'ao' : 'on') : 'nil'}">${ch}</span>`);
+            }
+            const tally = t => { const c = {}; t.replace(/[^A-Z]/g, '').split('').forEach(x => { c[x] = (c[x] || 0) + 1; }); return Object.keys(c).sort().map(k => k + '×' + c[k]).join('  '); };
+            const crossText = word + word.slice(0, mid) + word.slice(mid + 1);
+            body = `<div class="sq-cross" style="--n:${n}" role="img" aria-label="两行 PATERNOSTER 交叉成十字，共用中间的 N；两端各有一个 A 和一个 O">${cells.join('')}</div>
+              <ul class="sq-lines"><li><span class="label">方块的 25 个字母</span><code>${tally(ROT.join(''))}</code></li>
+              <li><span class="label">十字的 25 个字母</span><code>${tally(crossText)}</code></li></ul>`;
+          } else if (m.kind === 'frag') {
+            body = grid(ROT, (i, j) => 'f-' + w.frag[i][j]) + `<p class="sq-key"><span class="f-O">清楚可辨</span><span class="f-T">只剩残笔</span><span class="f-L">缺失，照完整的一件补出</span></p>`;
+          } else if (m.kind === 'col') {
+            body = `<div class="sq-col">${grid(ROT, i => (i === 4 ? 'on' : ''))}<p class="sq-tail"><span class="on">ANO</span><span>SAVTRAN</span><span>VALE</span></p></div>`;
+          }
+          $('.sq-stage', fig).innerHTML = body + `<p class="sq-note">${inline(note)}</p>`;
+        };
+        radios($('.sq-mode', fig), k => { mode = k; draw(); });
+        radios($('.sq-ord', fig), k => { ord = k; draw(); });
       },
     },
   };

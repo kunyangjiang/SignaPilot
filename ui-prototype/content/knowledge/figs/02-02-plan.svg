@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 400" role="img" aria-label="宗庙平面示意，北在上，不按比例，只标出《士冠礼》经文提到的位置。上方是高出地面的堂，堂的东西两面墙叫东序、西序；堂后部东边是房，房的西边是室，室门叫户。堂前有两道台阶，东边是阼阶，西边是西阶。台阶下是庭院，院子东侧靠近东阶处设洗，庭院东墙上有闱门。最南面是庙门">
+  <rect class="wash" x="70" y="40" width="350" height="130"/>
+  <g class="l" filter="url(#wob2)">
+    <rect x="70" y="40" width="350" height="130"/>
+    <path d="M30 196V350H225M265 350H460V292M460 268V196"/>
+    <path d="M150 40V100H255M275 100H300V40M300 100H420"/>
+  </g>
+  <g class="l thin">
+    <path d="M120 170v26h30v-26M120 179h30M120 188h30"/>
+    <path d="M340 170v26h30v-26M340 179h30M340 188h30"/>
+    <path d="M30 196H120M150 196H340M370 196H460"/>
+    <circle cx="398" cy="222" r="9"/>
+  </g>
+  <g style="font-size:16px" text-anchor="middle">
+    <text x="245" y="146">堂</text>
+    <text x="220" y="76">室</text>
+    <text x="360" y="76">房</text>
+    <text x="245" y="282">庭</text>
+  </g>
+  <g class="sm" style="font-size:13px" text-anchor="middle">
+    <text x="265" y="118">户</text>
+    <text x="135" y="214">西阶</text>
+    <text x="355" y="214">阼阶</text>
+    <text x="398" y="246">洗</text>
+    <text x="245" y="372">庙门</text>
+    <text x="474" y="284" text-anchor="start" style="font-size:12px">闱</text>
+    <text x="474" y="302" text-anchor="start" style="font-size:12px">门</text>
+  </g>
+  <g class="sm" style="font-size:13px">
+    <text x="78" y="164">西序</text>
+    <text x="412" y="164" text-anchor="end">东序</text>
+  </g>
+  <text class="gt" style="font-size:13px" x="30" y="26">北</text>
+  <path class="gl" d="M44 22v-12M40 15l4-5 4 5"/>
+</svg>
