@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 542" role="img" aria-label="一条竖排的时间线，不按比例，分三段。古代：公元前 4 世纪亚里士多德分“外传”和“听讲”两种课；公元 2 世纪格利乌斯记下这件事，琉善写逍遥派是“内传、外传”双胞胎，所用的尺子是教学安排。近代：1690 年科尔贝格的《柏拉图—赫尔墨斯式基督教》，尺子是神学纯正；18 世纪启蒙时代，这一组思潮成了“废纸篓”，尺子是理性；18 世纪末德语里出现“秘传主义”一词；1828 年马特尔在《诺斯替主义批判史》中用这个词指秘密教导；19 世纪法国神秘学家把它想象成一条隐秘的传统，带着永恒智慧的色彩；1890 年初版、1922 年出节本的弗雷泽《金枝》，把魔法定义为错误的科学。当代：1994 年费弗尔的“4 + 2”特征，尺子是历史谱系；1997 年厄本的保密社会学；2012 年哈内赫拉夫的“被拒斥的知识”；2014 年阿斯普雷姆分析各家定义背后的研究纲领，问的是每一种定义在回答什么问题">
+  <text x="126" y="24" class="sm" style="font-size:12px">事件</text>
+  <text x="474" y="24" text-anchor="end" class="sm" style="font-size:12px">用的尺子</text>
+  <path class="l" d="M112 44V108M112 132V340M112 364V490"/>
+  <g class="gl"><circle cx="112" cy="53" r="4.5"/><circle cx="112" cy="89" r="4.5"/><circle cx="112" cy="141" r="4.5"/><circle cx="112" cy="177" r="4.5"/><circle cx="112" cy="213" r="4.5"/><circle cx="112" cy="249" r="4.5"/><circle cx="112" cy="285" r="4.5"/><circle cx="112" cy="321" r="4.5"/><circle cx="112" cy="373" r="4.5"/><circle cx="112" cy="409" r="4.5"/><circle cx="112" cy="445" r="4.5"/><circle cx="112" cy="481" r="4.5"/></g>
+  <g style="font-size:14px">
+        <text x="98" y="58" text-anchor="end" class="sm" style="font-size:12px">前 4 世纪</text><text x="126" y="58">亚里士多德分两种课</text>
+    <text x="474" y="58" text-anchor="end" class="gt" style="font-size:12.5px">教学安排</text>
+    <text x="98" y="94" text-anchor="end" class="sm" style="font-size:12px">2 世纪</text><text x="126" y="94">格利乌斯记事；琉善的双胞胎</text>
+    <text x="474" y="94" text-anchor="end" class="gt" style="font-size:12.5px">教学安排</text>
+    <path class="l thin" stroke-dasharray="3 5" d="M112 108V132"/>
+    <text x="98" y="146" text-anchor="end" class="sm" style="font-size:12px">1690</text><text x="126" y="146">科尔贝格的《柏拉图—赫尔墨斯式基督教》</text>
+    <text x="474" y="146" text-anchor="end" class="gt" style="font-size:12.5px">神学纯正</text>
+    <text x="98" y="182" text-anchor="end" class="sm" style="font-size:12px">18 世纪</text><text x="126" y="182">启蒙：成了“废纸篓”</text>
+    <text x="474" y="182" text-anchor="end" class="gt" style="font-size:12.5px">理性</text>
+    <text x="98" y="218" text-anchor="end" class="sm" style="font-size:12px">18 世纪末</text><text x="126" y="218">德语里出现“秘传主义”一词</text>
+    <text x="98" y="254" text-anchor="end" class="sm" style="font-size:12px">1828</text><text x="126" y="254">马特尔《诺斯替主义批判史》</text>
+    <text x="474" y="254" text-anchor="end" class="gt" style="font-size:12.5px">秘密教导</text>
+    <text x="98" y="290" text-anchor="end" class="sm" style="font-size:12px">19 世纪</text><text x="126" y="290">法国神秘学家：一条隐秘的传统</text>
+    <text x="474" y="290" text-anchor="end" class="gt" style="font-size:12.5px">永恒智慧</text>
+    <text x="98" y="326" text-anchor="end" class="sm" style="font-size:12px">1890 / 1922</text><text x="126" y="326">弗雷泽《金枝》</text>
+    <text x="474" y="326" text-anchor="end" class="gt" style="font-size:12.5px">错误的科学</text>
+    <path class="l thin" stroke-dasharray="3 5" d="M112 340V364"/>
+    <text x="98" y="378" text-anchor="end" class="sm" style="font-size:12px">1994</text><text x="126" y="378">费弗尔：“4 + 2”特征</text>
+    <text x="474" y="378" text-anchor="end" class="gt" style="font-size:12.5px">历史谱系</text>
+    <text x="98" y="414" text-anchor="end" class="sm" style="font-size:12px">1997</text><text x="126" y="414">厄本：保密的社会学</text>
+    <text x="474" y="414" text-anchor="end" class="gt" style="font-size:12.5px">保密</text>
+    <text x="98" y="450" text-anchor="end" class="sm" style="font-size:12px">2012</text><text x="126" y="450">哈内赫拉夫：被拒斥的知识</text>
+    <text x="474" y="450" text-anchor="end" class="gt" style="font-size:12.5px">被排除的历史</text>
+    <text x="98" y="486" text-anchor="end" class="sm" style="font-size:12px">2014</text><text x="126" y="486">阿斯普雷姆：各家的研究纲领</text>
+    <text x="474" y="486" text-anchor="end" class="gt" style="font-size:12.5px">问的是什么</text>
+  </g>
+  <text x="245" y="532" text-anchor="middle" class="sm" style="font-size:12px">时间不按比例；虚线处是跳过的几百年</text>
+</svg>

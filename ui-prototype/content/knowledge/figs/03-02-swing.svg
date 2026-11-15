@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 376" role="img" aria-label="一张示意图，横轴是年份，从 1900 到 2020；纵轴从上到下分偏希腊、折中、偏埃及三档。各家观点画成点：1904 年赖岑施泰因，偏埃及；1924 年起司各特，偏希腊；1944 至 1954 年费斯蒂吉埃，最偏希腊；1949 年斯特里克，偏埃及；1962 年德尔尚，偏埃及；1975 年莫米利亚诺，偏希腊，认为是装成埃及的希腊作品；1978 至 1982 年马埃，偏埃及；1986 年福登，折中；2018 年布尔，偏埃及。底部标出新材料：1945 年拿戈玛第抄本出土，1970 年代发表；2005 年埃及语《托特之书》出版。这是示意，点的位置只表示大致倾向">
+  <g class="sm" style="font-size:12px" text-anchor="end">
+    <text x="50" y="74">偏希腊</text><text x="50" y="154">折中</text><text x="50" y="234">偏埃及</text>
+  </g>
+  <g class="l thin" stroke-dasharray="2 6"><path d="M60 70H476M60 150H476M60 230H476"/></g>
+  <path class="l thin" d="M83 230 L150 70 L233 50 L233 230 L277 230 L320 70 L337 230 L357 150 L463 230" fill="none" stroke-dasharray="5 4"/>
+  <g class="gl"><circle cx="83" cy="230" r="5.5"/><circle cx="150" cy="70" r="5.5"/><circle cx="233" cy="50" r="5.5"/><circle cx="233" cy="230" r="5.5"/><circle cx="277" cy="230" r="5.5"/><circle cx="320" cy="70" r="5.5"/><circle cx="337" cy="230" r="5.5"/><circle cx="357" cy="150" r="5.5"/><circle cx="463" cy="230" r="5.5"/></g>
+  <g style="font-size:12.5px"><text x="83" y="252" text-anchor="middle">赖岑施泰因</text><text x="83" y="268" text-anchor="middle" class="sm" style="font-size:11.5px">1904</text><text x="150" y="58" text-anchor="middle">司各特</text><text x="150" y="90" text-anchor="middle" class="sm" style="font-size:11.5px">1924 起</text><text x="233" y="38" text-anchor="middle">费斯蒂吉埃</text><text x="233" y="70" text-anchor="middle" class="sm" style="font-size:11.5px">1944–54</text><text x="233" y="252" text-anchor="middle">斯特里克</text><text x="233" y="268" text-anchor="middle" class="sm" style="font-size:11.5px">1949</text><text x="277" y="202" text-anchor="middle">德尔尚</text><text x="277" y="218" text-anchor="middle" class="sm" style="font-size:11.5px">1962</text><text x="320" y="58" text-anchor="middle">莫米利亚诺</text><text x="320" y="90" text-anchor="middle" class="sm" style="font-size:11.5px">1975</text><text x="337" y="252" text-anchor="middle">马埃</text><text x="337" y="268" text-anchor="middle" class="sm" style="font-size:11.5px">1978–82</text><text x="357" y="138" text-anchor="middle">福登</text><text x="357" y="170" text-anchor="middle" class="sm" style="font-size:11.5px">1986</text><text x="469" y="252" text-anchor="end">布尔</text><text x="469" y="268" text-anchor="end" class="sm" style="font-size:11.5px">2018</text></g>
+  <path class="l" d="M60 290H476"/>
+  <g class="l thin"><path d="M220 284V296M303 284V296M420 284V296"/></g>
+  <rect class="wash" x="220" y="286" width="83" height="8"/>
+  <g class="sm" style="font-size:12px">
+    <text x="60" y="308">1900</text><text x="476" y="308" text-anchor="end">2020</text>
+    <text x="220" y="328">拿戈玛第抄本：1945 出土，1970 年代发表</text>
+    <text x="420" y="346" text-anchor="middle">2005 《托特之书》</text>
+  </g>
+  <text x="245" y="368" text-anchor="middle" class="sm" style="font-size:11.5px">示意图：点的高低只表示大致倾向，不是度量</text>
+</svg>

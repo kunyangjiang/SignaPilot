@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 384" role="img" aria-label="示意图，不表示实际地理比例和路线。亚历山大里亚，约 150 年，原书。巴格达，9 世纪，多个阿拉伯文译本。君士坦丁堡，希腊文抄本。三个拉丁文本：安条克，12 世纪上半叶后期，据塔比特一系；巴勒莫，约 1160 年，据希腊文抄本；托莱多，1175 年起，杰拉德据两个阿拉伯文本。底部：安条克存一部残本，巴勒莫存三部，托莱多广泛流传，1515 年付印">
+  <defs><marker id="ar36" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="gl"/></marker></defs>
+  <g class="l thin" fill="none">
+    <path d="M346 262L332 92" stroke-dasharray="4 5" marker-end="url(#ar36)"/>
+    <path d="M322 88L224 182" marker-end="url(#ar36)"/>
+    <path d="M358 266L452 206" marker-end="url(#ar36)"/>
+    <path d="M452 194L410 146" marker-end="url(#ar36)"/>
+    <path d="M450 198Q250 130 60 168" stroke-dasharray="4 5" marker-end="url(#ar36)"/>
+  </g>
+  <g class="l" fill="none">
+    <circle cx="350" cy="270" r="6"/>
+    <circle cx="460" cy="200" r="6"/>
+    <circle cx="330" cy="82" r="6"/>
+  </g>
+  <g class="gl">
+    <circle cx="50" cy="170" r="8"/>
+    <circle cx="215" cy="190" r="6"/>
+    <circle cx="400" cy="140" r="4"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="330" y="44" style="font-size:14px">君士坦丁堡</text>
+    <text x="330" y="62" class="sm" style="font-size:11.5px">希腊文抄本</text>
+    <text x="400" y="104" style="font-size:14px" class="gt">安条克</text>
+    <text x="400" y="122" class="sm" style="font-size:11.5px">12 世纪上半叶后期</text>
+    <text x="215" y="218" style="font-size:14px" class="gt">巴勒莫</text>
+    <text x="215" y="236" class="sm" style="font-size:11.5px">约 1160 · 从希腊文</text>
+    <text x="350" y="298" style="font-size:14px">亚历山大里亚</text>
+    <text x="350" y="316" class="sm" style="font-size:11.5px">约 150 · 原书</text>
+  </g>
+  <text x="474" y="230" text-anchor="end" style="font-size:14px">巴格达</text>
+  <text x="474" y="248" text-anchor="end" class="sm" style="font-size:11.5px">9 世纪 · 多个译本</text>
+  <text x="24" y="198" style="font-size:14px" class="gt">托莱多</text>
+  <text x="24" y="216" class="sm" style="font-size:11.5px">1175 起 · 从阿拉伯文</text>
+  <text x="150" y="128" class="sm" style="font-size:11.5px">抄本怎样到托莱多，路线不详</text>
+  <path class="l thin" d="M16 336H474"/>
+  <g style="font-size:12px">
+    <text x="16" y="356">实线：有文本传递｜虚线：路线或时间不详｜金色：拉丁文本，点越大流传越广</text>
+    <text x="16" y="376">拉丁文本存世：安条克 1 部残本　｜　巴勒莫 3 部　｜　托莱多广泛流传，1515 年付印</text>
+  </g>
+</svg>

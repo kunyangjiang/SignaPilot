@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 450" role="img" aria-label="一张推理链图，拆开“月亮在白羊宫时不要给头部放血”。上方并排两环：第一环归类，白羊管头，依据是黄道与人体两条顺序，性质是约定；第二环因果，月亮影响液体，依据是潮汐等可见现象，性质是有观察但很笼统。两环汇入第三环推论：月亮在白羊时特别作用于头，依据是假定归类能引导因果的方向，没有独立的依据。最下面是结论：此时不宜在头部放血。底部三条说明：可见的依据只支撑第二环的笼统说法；具体的一层靠第一环的约定和第三环的推论；出了问题可以归咎于别的条件">
+  <defs><marker id="ar34" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="gl"/></marker></defs>
+  <rect class="l" filter="url(#wob2)" fill="none" x="16" y="16" width="222" height="96" rx="8"/>
+  <rect class="wash" x="252" y="16" width="222" height="96" rx="8"/>
+  <rect class="l" fill="none" x="252" y="16" width="222" height="96" rx="8"/>
+  <text x="30" y="42" style="font-size:14.5px">① 归类：白羊管头</text>
+  <text x="30" y="68" class="sm" style="font-size:12.5px">依据：黄道与人体两条顺序</text>
+  <text x="30" y="92" class="sm" style="font-size:12.5px">性质：约定，无可观察</text>
+  <text x="266" y="42" style="font-size:14.5px" class="gt">② 因果：月亮影响液体</text>
+  <text x="266" y="68" class="sm" style="font-size:12.5px">依据：潮汐等可见现象</text>
+  <text x="266" y="92" class="sm" style="font-size:12.5px">性质：有观察，但很笼统</text>
+  <rect class="l thin" stroke-dasharray="4 5" fill="none" x="60" y="150" width="370" height="96" rx="8"/>
+  <text x="76" y="176" style="font-size:14.5px">③ 推论：月亮在白羊时特别作用于头</text>
+  <text x="76" y="202" class="sm" style="font-size:12.5px">依据：假定归类能引导因果的方向</text>
+  <text x="76" y="226" class="sm" style="font-size:12.5px">性质：没有独立的依据</text>
+  <rect class="l" filter="url(#wob2)" fill="none" x="110" y="282" width="270" height="48" rx="8"/>
+  <text x="245" y="311" text-anchor="middle" style="font-size:14.5px">结论：此时不宜在头部放血</text>
+  <g class="l thin" fill="none">
+    <path d="M127 112L170 148" marker-end="url(#ar34)"/>
+    <path d="M363 112L320 148" marker-end="url(#ar34)"/>
+    <path d="M245 246V280" marker-end="url(#ar34)"/>
+  </g>
+  <path class="l thin" d="M16 356H474"/>
+  <g style="font-size:12.5px">
+    <text x="16" y="380">① 可见的依据只支撑第二环，而且只支撑“月亮影响液体”这个笼统说法</text>
+    <text x="16" y="404">② 具体到“白羊—头”这一层，靠的是第一环的约定和第三环的推论</text>
+    <text x="16" y="428">③ 出了问题可以归咎于别的条件；芒特就说，许多情况比月亮更要紧</text>
+  </g>
+</svg>

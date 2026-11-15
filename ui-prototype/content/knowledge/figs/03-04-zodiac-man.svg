@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 450" role="img" aria-label="一个站立的人形，从头到脚标出十二个星座：头，白羊；脖子，金牛；肩，狮子；胸，巨蟹；手臂，双子；腹侧，室女；臀，天秤；下腹，天蝎；大腿，射手；膝盖，摩羯；小腿，宝瓶；脚，双鱼。底部说明：黄道从白羊到双鱼，人体从头到脚，两条顺序一一对应">
+  <g class="l" fill="none" filter="url(#wob2)">
+    <circle cx="245" cy="46" r="22"/>
+    <path d="M205 90Q245 80 285 90L278 200Q245 212 212 200Z"/>
+    <path d="M205 92L182 150L172 212M285 92L308 150L318 212"/>
+    <path d="M224 204L218 300L214 392L200 398M266 204L272 300L276 392L290 398"/>
+  </g>
+  <path class="l thin" d="M239 68V82M251 68V82"/>
+  <g class="l thin" fill="none">
+    <path d="M155 50H222"/>
+    <path d="M155 96H208"/>
+    <path d="M155 150H182"/>
+    <path d="M155 205H215"/>
+    <path d="M155 255H221"/>
+    <path d="M155 345H216"/>
+    <path d="M253 78H335"/>
+    <path d="M262 116H335"/>
+    <path d="M277 160H335"/>
+    <path d="M262 192L335 200"/>
+    <path d="M273 300H335"/>
+    <path d="M276 395H335"/>
+  </g>
+  <g class="gl">
+    <circle cx="222" cy="50" r="2.5"/><circle cx="208" cy="96" r="2.5"/><circle cx="182" cy="150" r="2.5"/>
+    <circle cx="215" cy="205" r="2.5"/><circle cx="221" cy="255" r="2.5"/><circle cx="216" cy="345" r="2.5"/>
+    <circle cx="253" cy="78" r="2.5"/><circle cx="262" cy="116" r="2.5"/><circle cx="277" cy="160" r="2.5"/>
+    <circle cx="262" cy="192" r="2.5"/><circle cx="273" cy="300" r="2.5"/><circle cx="276" cy="395" r="2.5"/>
+  </g>
+  <g style="font-size:13px" text-anchor="end">
+    <text x="150" y="55">① 白羊 · 头</text>
+    <text x="150" y="101">⑤ 狮子 · 肩</text>
+    <text x="150" y="155">③ 双子 · 手臂</text>
+    <text x="150" y="210">⑦ 天秤 · 臀</text>
+    <text x="150" y="260">⑨ 射手 · 大腿</text>
+    <text x="150" y="350">⑪ 宝瓶 · 小腿</text>
+  </g>
+  <g style="font-size:13px">
+    <text x="340" y="83">② 金牛 · 脖子</text>
+    <text x="340" y="121">④ 巨蟹 · 胸</text>
+    <text x="340" y="165">⑥ 室女 · 腹侧</text>
+    <text x="340" y="205">⑧ 天蝎 · 下腹</text>
+    <text x="340" y="305">⑩ 摩羯 · 膝盖</text>
+    <text x="340" y="400">⑫ 双鱼 · 脚</text>
+  </g>
+  <path class="l thin" d="M16 418H474"/>
+  <text x="245" y="440" text-anchor="middle" class="sm" style="font-size:12.5px">黄道：白羊 → 双鱼　｜　人体：头 → 脚　｜　据马尼利乌斯《天文学》4.702–709</text>
+</svg>

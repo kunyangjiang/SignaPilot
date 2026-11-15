@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 400" role="img" aria-label="一张关系图，表示这场争论里的身份与面具。左边是波菲利，生于腓尼基的推罗，他写信给上方中间的阿内博，一位埃及祭司。右边是扬布里柯，出身叙利亚的埃梅萨，他戴着阿巴蒙的面具作答：阿巴蒙自称埃及先知、阿内博的老师；回信指向波菲利。下方三条说明：一、波菲利的信只靠回信部分重建；二、说回信作者是扬布里柯，依据的是抄本前附的一段话，其中引了普罗克洛；三、论埃及人的秘仪这个书名，是 15 世纪菲奇诺的拉丁文译本才加上的">
+  <defs><marker id="ar33" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="gl"/></marker></defs>
+  <rect class="l thin" stroke-dasharray="4 5" fill="none" x="170" y="20" width="150" height="62" rx="8"/>
+  <text x="245" y="46" text-anchor="middle" style="font-size:15px">阿内博</text>
+  <text x="245" y="68" text-anchor="middle" class="sm" style="font-size:12px">埃及祭司（收信人）</text>
+  <g class="l" filter="url(#wob2)">
+    <rect x="16" y="140" width="150" height="70" rx="8"/>
+    <rect x="324" y="140" width="150" height="70" rx="8"/>
+  </g>
+  <text x="91" y="168" text-anchor="middle" style="font-size:15px">波菲利</text>
+  <text x="91" y="192" text-anchor="middle" class="sm" style="font-size:12px">生于腓尼基的推罗</text>
+  <text x="399" y="168" text-anchor="middle" style="font-size:15px">扬布里柯</text>
+  <text x="399" y="192" text-anchor="middle" class="sm" style="font-size:12px">出身叙利亚的埃梅萨</text>
+  <rect class="wash" x="324" y="230" width="150" height="62" rx="8"/>
+  <text x="399" y="256" text-anchor="middle" style="font-size:14px" class="gt">面具：阿巴蒙</text>
+  <text x="399" y="278" text-anchor="middle" class="sm" style="font-size:12px">埃及先知，阿内博的老师</text>
+  <path class="l thin" d="M399 210V230"/>
+  <g class="l thin" fill="none">
+    <path d="M110 140C130 110 150 80 168 60" marker-end="url(#ar33)"/>
+    <path d="M324 262C250 262 160 250 110 212" marker-end="url(#ar33)"/>
+  </g>
+  <g class="sm" style="font-size:12px">
+    <text x="104" y="98">《致阿内博的信》</text>
+    <text x="180" y="290">回信：《答波菲利》</text>
+  </g>
+  <path class="l thin" d="M16 314H474"/>
+  <g style="font-size:12.5px">
+    <text x="16" y="338">① 波菲利的信没有完整传下来，只靠回信部分重建</text>
+    <text x="16" y="362">② 认定作者是扬布里柯，依据抄本前附的一段话，其中引了普罗克洛</text>
+    <text x="16" y="386">③ “论埃及人的秘仪”这个书名，始于 15 世纪菲奇诺的拉丁文译本</text>
+  </g>
+</svg>

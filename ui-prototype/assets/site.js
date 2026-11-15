@@ -468,6 +468,11 @@
     '02-03': { src: 'content/knowledge/02-03.md', state: 'done' },
     '02-04': { src: 'content/knowledge/02-04.md', state: 'done' },
     '02-05': { src: 'content/knowledge/02-05.md', state: 'done' },
+    '03-01': { src: 'content/knowledge/03-01.md', state: 'done' },
+    '03-02': { src: 'content/knowledge/03-02.md', state: 'done' },
+    '03-03': { src: 'content/knowledge/03-03.md', state: 'done' },
+    '03-04': { src: 'content/knowledge/03-04.md', state: 'done' },
+    '03-05': { src: 'content/knowledge/03-05.md', state: 'done' },
   };
   const K_STATE = { done: '已完成', draft: '初稿 · 待审读' };
   // A course manuscript: "# 标题", an optional "> 初稿…" status line, a lead paragraph, "**…**" question lines,
@@ -984,6 +989,216 @@
         };
         radios($('.sq-mode', fig), k => { mode = k; draw(); });
         radios($('.sq-ord', fig), k => { ord = k; draw(); });
+      },
+    },
+    // 03-01: one set of objects, several rulers. Each ruler measures its own category and puts every object in one of
+    // three bins (counted / not counted / not handled); each placement says whether the author discussed it or the
+    // lesson inferred it from the author's criterion. w: { caption, bins, items: [{id,name}], rulers: [{who,cat,rule,asks,put:{id:[bin,note]}}] }
+    sorter: {
+      html: (w, no) => `<figure class="fig so" data-widget="${no}">
+        <div class="fig-frame">
+          <div class="so-sec"><p class="label">选一把尺子</p></div>${radioRow('so-pick', '选择尺子', w.rulers.map(r => r.who))}
+          <div class="so-body" aria-live="polite"></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        const split = t => { const m = /^(.+?)：(.*)$/.exec(t); return m ? [m[1], m[2]] : ['', t]; };
+        radios($('.so-pick', fig), k => {
+          const r = w.rulers[k];
+          const heads = [`算作“${r.cat}”`, '不算', '这把尺子不处理'];
+          const col = b => {
+            const xs = w.items.filter(it => r.put[it.id][0] === b);
+            return `<div class="so-bin b${b}"><p class="so-h">${esc(heads[b])}<span>${xs.length}</span></p>${xs.length ? `<ul>${xs.map(it => {
+              const [tag, why] = split(r.put[it.id][1]);
+              return `<li><b>${esc(it.name)}</b>${tag ? `<span class="so-tag ${tag === '推出' ? 'inf' : 'own'}">${esc(tag)}</span>` : ''}<p>${inline(why)}</p></li>`;
+            }).join('')}</ul>` : '<p class="so-empty">无</p>'}</div>`;
+          };
+          $('.so-body', fig).innerHTML = `<dl class="so-rule"><dt class="label">量的是</dt><dd>${esc(r.cat)}</dd><dt class="label">标准</dt><dd>${inline(r.rule)}</dd><dt class="label">想回答</dt><dd>${inline(r.asks)}</dd></dl>
+            <div class="so-bins">${[0, 1, 2].map(col).join('')}</div>`;
+        });
+      },
+    },
+    // 03-02: what a text says about its own age beside what the evidence says. A self-description sits in a dashed
+    // "远古" zone at the left (not to scale); evidence bars sit on a scaled axis by year.
+    // w: { caption, axis: [from, to], ticks: [years], texts: [{ name, claim, ev: [{from,to,kind,label}], lang, verdict }] }
+    dating: {
+      html: (w, no) => `<figure class="fig dt" data-widget="${no}">
+        <div class="fig-frame">
+          <div class="dt-sec"><p class="label">选一篇文献</p></div>${radioRow('dt-pick', '选择文献', w.texts.map(t => t.name))}
+          <div class="dt-body" aria-live="polite"></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        const [a0, a1] = w.axis, Z = 16; // the left Z% of the track is the unscaled "远古" zone
+        const pos = y => Z + (y - a0) / (a1 - a0) * (100 - Z);
+        const yr = y => (y < 0 ? `前 ${-y}` : y === 1 ? '公元 1' : `${y}`);
+        const KIND = { orig: '原件或原文', copy: '译本或抄本', cite: '被引用' };
+        radios($('.dt-pick', fig), k => {
+          const t = w.texts[k];
+          const bars = t.ev.map((e, i) => `<div class="dt-bar ${e.kind}" style="left:${pos(e.from)}%;width:max(10px, ${pos(Math.min(e.to, a1)) - pos(e.from)}%);top:${8 + i * 22}px" title="${esc(e.label)}"></div>`).join('');
+          $('.dt-body', fig).innerHTML = `
+            <div class="dt-claim"><span class="label">它自己说</span><p>${inline(t.claim)}</p></div>
+            <div class="dt-track" style="height:${18 + t.ev.length * 22}px" role="img" aria-label="${esc(t.ev.map(e => e.label).join('；'))}">
+              <div class="dt-zone" style="width:${Z}%"><span>远古</span></div>
+              ${w.ticks.map(y => `<span class="dt-tick" style="left:${pos(y)}%"><i>${yr(y)}</i></span>`).join('')}${bars}
+            </div>
+            <ul class="dt-ev">${t.ev.map(e => `<li class="${e.kind}"><i aria-hidden="true"></i><span class="label">${KIND[e.kind]}</span>${inline(e.label)}</li>`).join('')}</ul>
+            <p class="dt-lang">${inline(t.lang)}</p>
+            <p class="dt-v"><span class="label">证据说</span>${inline(t.verdict)}</p>`;
+        });
+      },
+    },
+    // 03-03: one cosmic ladder read three ways. Choosing a thinker marks where the human soul sits and draws how it
+    // rises (turning inward / two paths / help from above); choosing a rung shows what that thinker says about it.
+    // w: { caption, levels: [{id,name}], views: [{ who, soul: [ids], soulNote, way, wayKind: in|split|down, notes: {id: text} }] }
+    ladder: {
+      html: (w, no) => `<figure class="fig ld" data-widget="${no}">
+        <div class="fig-frame">
+          <div class="ld-sec"><p class="label">选一个人</p></div>${radioRow('ld-who', '选择人物', w.views.map(v => v.who))}
+          <div class="ld-main">
+            <div class="ld-col"><svg class="ld-arrows" aria-hidden="true"></svg><ol class="ld-rungs" aria-label="宇宙的层级，从上到下">${w.levels.map((l, k) => `<li><button type="button" data-k="${k}" aria-pressed="false"><b>${esc(l.name)}</b><span class="ld-tag"></span></button></li>`).join('')}</ol></div>
+            <div class="ld-side" aria-live="polite"></div>
+          </div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        let v = w.views[0], at = w.levels.findIndex(l => l.id === 'soul');
+        const rungs = $$('.ld-rungs button', fig), svg = $('.ld-arrows', fig), NS = 'http://www.w3.org/2000/svg';
+        const TAG = { in: { nous: '一部分留在这里', soul: '向内转' }, split: { nous: '哲学：只有少数人', soul: '仪式：只到以太' }, down: { gods: '把符号留在下界', soul: '借符号上升' } };
+        const draw = () => {
+          const idx = id => w.levels.findIndex(l => l.id === id);
+          rungs.forEach((b, k) => {
+            const id = w.levels[k].id;
+            b.classList.toggle('soul', v.soul.includes(id));
+            b.setAttribute('aria-pressed', k === at);
+            $('.ld-tag', b).textContent = (TAG[v.wayKind] || {})[id] || '';
+          });
+          // arrows are measured from the rendered rungs, so they follow the layout at any width
+          const box = svg.getBoundingClientRect();
+          const y = id => { const r = rungs[idx(id)].getBoundingClientRect(); return r.top - box.top + r.height / 2; };
+          const mk = `ldm${fig.dataset.widget}`;
+          svg.innerHTML = `<defs><marker id="${mk}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z"/></marker></defs>`;
+          const path = (d, cls) => { const p = document.createElementNS(NS, 'path'); p.setAttribute('d', d); p.setAttribute('class', cls); p.setAttribute('marker-end', `url(#${mk})`); svg.appendChild(p); };
+          if (v.wayKind === 'in') path(`M30 ${y('soul')}C6 ${y('soul') - 20} 6 ${y('nous') + 20} 30 ${y('nous') + 6}`, 'a');
+          if (v.wayKind === 'split') { path(`M14 ${y('soul') - 12}L14 ${y('nous') + 10}`, 'a'); path(`M30 ${y('soul') - 12}L30 ${(y('soul') + y('gods')) / 2}`, 'a dash'); }
+          if (v.wayKind === 'down') path(`M22 ${y('gods') + 10}L22 ${y('soul') - 12}`, 'a');
+          const l = w.levels[at];
+          $('.ld-side', fig).innerHTML = `<p class="ld-soul"><span class="label">人的灵魂在哪里</span>${inline(v.soulNote)}</p>
+            <p class="ld-way"><span class="label">靠什么往上走</span>${inline(v.way)}</p>
+            <p class="ld-note"><span class="label">${esc(v.who)}论“${esc(l.name)}”</span>${inline(v.notes[l.id] || '')}</p>`;
+        };
+        rungs.forEach((b, k) => b.addEventListener('click', () => { at = k; draw(); }));
+        radios($('.ld-who', fig), k => { v = w.views[k]; draw(); });
+        window.addEventListener('resize', draw);
+      },
+    },
+    // 03-04: one statement at a time; the reader names the kind of inference (analogy / cause / sign / assignment).
+    // Mixed statements accept any of their kinds; the reveal explains how they stack and how the link could be tested.
+    // w: { caption, kinds: [{id,name,hint}], items: [{ text, src, ok: [kind ids], why, test }] }
+    infer: {
+      html: (w, no) => `<figure class="fig nf" data-widget="${no}">
+        <div class="fig-frame">
+          <div class="nf-top"><span class="label">第 <b class="nf-at">1</b> / ${w.items.length} 条</span><span class="nf-dots">${w.items.map((_, k) => `<button type="button" data-k="${k}" aria-label="第 ${k + 1} 条"></button>`).join('')}</span></div>
+          <blockquote class="nf-text"></blockquote>
+          <p class="nf-src"></p>
+          <div class="nf-kinds" role="group" aria-label="选择推理的种类">${w.kinds.map(c => `<button type="button" data-id="${esc(c.id)}"><b>${esc(c.name)}</b><span>${esc(c.hint)}</span></button>`).join('')}</div>
+          <div class="nf-out" aria-live="polite"></div>
+          <div class="nf-nav"><button type="button" class="nf-prev">上一条</button><span class="nf-score"></span><button type="button" class="nf-next">下一条</button></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        let at = 0;
+        const picked = w.items.map(() => null);
+        const name = id => (w.kinds.find(c => c.id === id) || {}).name || id;
+        const kinds = $$('.nf-kinds button', fig), dots = $$('.nf-dots button', fig);
+        const draw = () => {
+          const it = w.items[at], got = picked[at];
+          $('.nf-at', fig).textContent = at + 1;
+          $('.nf-text', fig).textContent = it.text;
+          $('.nf-src', fig).textContent = `出处：${it.src}`;
+          kinds.forEach(b => {
+            const id = b.dataset.id;
+            b.disabled = got !== null;
+            b.className = got === null ? '' : it.ok.includes(id) ? 'ok' : id === got ? 'no' : '';
+            b.setAttribute('aria-pressed', id === got);
+          });
+          $('.nf-out', fig).innerHTML = got === null ? '' : `<p class="nf-verdict ${it.ok.includes(got) ? 'ok' : 'no'}">${it.ok.includes(got) ? '对了' : '不太对'}：这一条主要是${it.ok.map(name).join(' + ')}。</p>
+            <p><span class="label">为什么</span>${inline(it.why)}</p><p><span class="label">怎样检验</span>${inline(it.test)}</p>`;
+          dots.forEach((d, k) => { d.className = k === at ? 'at' : picked[k] === null ? '' : w.items[k].ok.includes(picked[k]) ? 'ok' : 'no'; });
+          const done = picked.filter(x => x !== null).length, right = picked.filter((x, k) => x !== null && w.items[k].ok.includes(x)).length;
+          $('.nf-score', fig).textContent = done ? `已答 ${done} 条，对 ${right} 条` : '';
+          $('.nf-prev', fig).disabled = at === 0;
+          $('.nf-next', fig).disabled = at === w.items.length - 1;
+        };
+        kinds.forEach(b => b.addEventListener('click', () => { if (picked[at] === null) { picked[at] = b.dataset.id; draw(); } }));
+        dots.forEach((d, k) => d.addEventListener('click', () => { at = k; draw(); }));
+        $('.nf-prev', fig).addEventListener('click', () => { if (at > 0) { at--; draw(); } });
+        $('.nf-next', fig).addEventListener('click', () => { if (at < w.items.length - 1) { at++; draw(); } });
+        draw();
+      },
+    },
+    // 03-05: step through how one text (or word) moved between languages. Columns are languages, time runs down;
+    // each stop draws lines back to the stops it came from, so branches and merges show as the reader steps on.
+    // w: { caption, routes: [{ name, lanes: [..], stops: [{ id, lane, when, where, title, who, what, change, from?: [ids], nameOnly? }] }] }
+    relay: {
+      html: (w, no) => `<figure class="fig rl" data-widget="${no}">
+        <div class="fig-frame">
+          ${radioRow('rl-pick', '选择线索', w.routes.map(r => r.name))}
+          <div class="rl-board"><div class="rl-lanes"></div><svg class="rl-map" aria-hidden="true"></svg></div>
+          <div class="rl-card" aria-live="polite"></div>
+          <div class="rl-nav"><button type="button" class="rl-prev">上一站</button><span class="rl-count"></span><button type="button" class="rl-next">下一站</button></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        let r = w.routes[0], at = 0;
+        const svg = $('.rl-map', fig), NS = 'http://www.w3.org/2000/svg';
+        const mk = (tag, attrs) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); return e; };
+        const draw = () => {
+          $('.rl-lanes', fig).style.gridTemplateColumns = `repeat(${r.lanes.length}, minmax(0, 1fr))`;
+          $('.rl-lanes', fig).innerHTML = r.lanes.map(l => `<span>${esc(l)}</span>`).join('');
+          // stops sit on evenly spaced rows in order (exact years would make near-dated stops collide)
+          svg.style.height = `${Math.max(220, r.stops.length * 36 + 24)}px`;
+          const W = svg.clientWidth || 300, H = svg.clientHeight || 340;
+          const x = i => W * (i + 0.5) / r.lanes.length;
+          const y = k => 20 + (H - 40) * k / Math.max(1, r.stops.length - 1);
+          const pos = {};
+          r.stops.forEach((st, k) => { pos[st.id] = { x: x(st.lane), y: y(k), k }; });
+          svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+          svg.innerHTML = '';
+          r.lanes.forEach((_, i) => svg.appendChild(mk('line', { x1: x(i), x2: x(i), y1: 6, y2: H - 6, class: 'lane' })));
+          r.stops.forEach((st, k) => (st.from || []).forEach(f => {
+            const a = pos[f], b = pos[st.id];
+            if (!a) return;
+            const cls = `edge${st.nameOnly ? ' name' : ''}${k <= at ? ' on' : ''}${k === at ? ' now' : ''}`;
+            svg.appendChild(mk('path', { d: `M${a.x} ${a.y}C${a.x} ${(a.y + b.y) / 2} ${b.x} ${(a.y + b.y) / 2} ${b.x} ${b.y}`, class: cls }));
+          }));
+          r.stops.forEach((st, k) => {
+            const p = pos[st.id];
+            const g = mk('g', { class: `stop${k < at ? ' seen' : ''}${k === at ? ' now' : ''}`, tabindex: '0', role: 'button', 'aria-label': `第 ${k + 1} 站：${st.title}` });
+            g.appendChild(mk('circle', { cx: p.x, cy: p.y, r: k === at ? 11 : 9 }));
+            const t = mk('text', { x: p.x, y: p.y + 4, 'text-anchor': 'middle' });
+            t.textContent = k + 1;
+            g.appendChild(t);
+            const go = () => { at = k; draw(); };
+            g.addEventListener('click', go);
+            g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
+            svg.appendChild(g);
+          });
+          const st = r.stops[at];
+          const src = (st.from || []).map(f => r.stops.findIndex(z => z.id === f) + 1).filter(n => n > 0);
+          $('.rl-card', fig).innerHTML = `<p class="rl-head"><b>${esc(st.title)}</b><span>${esc(st.when)} · ${esc(st.where)} · ${esc(r.lanes[st.lane])}</span></p>
+            <p><span class="label">谁</span>${inline(st.who)}</p>
+            <p><span class="label">做了什么</span>${inline(st.what)}${src.length ? `<span class="rl-from">材料来自第 ${src.join('、')} 站${st.nameOnly ? '（只传了名字）' : ''}</span>` : ''}</p>
+            <p class="rl-change"><span class="label">这一站改变了什么</span>${inline(st.change)}</p>`;
+          $('.rl-count', fig).textContent = `第 ${at + 1} / ${r.stops.length} 站`;
+          $('.rl-prev', fig).disabled = at === 0;
+          $('.rl-next', fig).disabled = at === r.stops.length - 1;
+        };
+        $('.rl-prev', fig).addEventListener('click', () => { if (at > 0) { at--; draw(); } });
+        $('.rl-next', fig).addEventListener('click', () => { if (at < r.stops.length - 1) { at++; draw(); } });
+        radios($('.rl-pick', fig), k => { r = w.routes[k]; at = 0; draw(); });
+        window.addEventListener('resize', draw);
+        draw();
       },
     },
   };

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 340" role="img" aria-label="费弗尔定义的结构。上层四个实线方框，标着“必备”：对应，可见与不可见相互对应；活的自然，自然有生命、可以阅读；想象与中介，天使、符号与想象力；转化的经验，认识者自身随之改变。下层两个虚线方框，标着“常见，不必备”：一致性的实践，各传统底下有共同智慧；传承，由师父传给弟子。右下另有一个灰色小框：日常意义上的“保密”，不在六项之中。最下面两条说明：正确的用法，是在一批有共同谱系的材料内部作比较；常见的误用，是把六项当作核对清单，拿去给任何东西打分">
+  <text x="20" y="24" class="gt" style="font-size:13px">必备</text>
+  <g class="l" filter="url(#wob2)">
+    <rect x="20" y="34" width="106" height="84" rx="7"/>
+    <rect x="136" y="34" width="106" height="84" rx="7"/>
+    <rect x="252" y="34" width="106" height="84" rx="7"/>
+    <rect x="368" y="34" width="106" height="84" rx="7"/>
+  </g>
+  <g style="font-size:15px" text-anchor="middle">
+    <text x="73" y="62">对应</text>
+    <text x="189" y="62">活的自然</text>
+    <text x="305" y="62">想象与中介</text>
+    <text x="421" y="62">转化的经验</text>
+  </g>
+  <g class="sm" style="font-size:12px" text-anchor="middle">
+    <text x="73" y="86">可见与不可见</text><text x="73" y="104">相互对应</text>
+    <text x="189" y="86">自然有生命</text><text x="189" y="104">可以阅读</text>
+    <text x="305" y="86">天使、符号</text><text x="305" y="104">与想象力</text>
+    <text x="421" y="86">认识者自身</text><text x="421" y="104">随之改变</text>
+  </g>
+  <text x="20" y="150" class="gt" style="font-size:13px">常见，不必备</text>
+  <g class="l thin" stroke-dasharray="4 5" fill="none">
+    <rect x="20" y="160" width="164" height="74" rx="7"/>
+    <rect x="194" y="160" width="164" height="74" rx="7"/>
+  </g>
+  <g style="font-size:15px" text-anchor="middle">
+    <text x="102" y="188">一致性的实践</text>
+    <text x="276" y="188">传承</text>
+  </g>
+  <g class="sm" style="font-size:12px" text-anchor="middle">
+    <text x="102" y="212">各传统底下有共同智慧</text>
+    <text x="276" y="212">由师父传给弟子</text>
+  </g>
+  <rect class="wash" x="374" y="160" width="100" height="74" rx="7"/>
+  <g style="font-size:13px" text-anchor="middle">
+    <text x="424" y="190">“保密”</text>
+    <text x="424" y="212" class="sm" style="font-size:12px">不在六项之中</text>
+  </g>
+  <path class="l thin" d="M20 258H474"/>
+  <g style="font-size:13px">
+    <text x="20" y="284"><tspan class="gt">用法</tspan>　在一批有共同谱系的材料内部作比较</text>
+    <text x="20" y="312"><tspan class="gt">误用</tspan>　把六项当作核对清单，给任何东西打分</text>
+  </g>
+</svg>
