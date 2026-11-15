@@ -457,9 +457,9 @@
   // course, 'draft' while it waits for review. Every other course still shows the layout sample, labelled as such.
   const WRITTEN_K = {
     '01-01': { src: 'content/knowledge/01-01.md', state: 'done' },
-    '01-02': { src: 'content/knowledge/01-02.md', state: 'draft' },
-    '01-03': { src: 'content/knowledge/01-03.md', state: 'draft' },
-    '01-04': { src: 'content/knowledge/01-04.md', state: 'draft' },
+    '01-02': { src: 'content/knowledge/01-02.md', state: 'done' },
+    '01-03': { src: 'content/knowledge/01-03.md', state: 'done' },
+    '01-04': { src: 'content/knowledge/01-04.md', state: 'done' },
   };
   const K_STATE = { done: '已完成', draft: '初稿 · 待审读' };
   // A course manuscript: "# 标题", an optional "> 初稿…" status line, a lead paragraph, "**…**" question lines,
