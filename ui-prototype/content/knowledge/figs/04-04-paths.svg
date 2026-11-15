@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="《创造之书》三十二条路的示意图，本课自绘。左边两列十个小圆圈，标十个塞菲拉；右边二十二个希伯来字母分成三组：最上面三个字母，标三个母字母；中间七个字母，标七个双音字母；下面十二个字母，标十二个单字母。中间写 10 加 22 等于 32。底部：传统说作者是亚伯拉罕；现代学者对它的年代还没有一致意见">
+  <!-- ten circles -->
+  <g class="l"><circle cx="40" cy="60" r="11"/><circle cx="76" cy="60" r="11"/><circle cx="40" cy="96" r="11"/><circle cx="76" cy="96" r="11"/><circle cx="40" cy="132" r="11"/><circle cx="76" cy="132" r="11"/><circle cx="40" cy="168" r="11"/><circle cx="76" cy="168" r="11"/><circle cx="40" cy="204" r="11"/><circle cx="76" cy="204" r="11"/></g>
+  <text x="58" y="240" text-anchor="middle" style="font-size:12.5px">十个塞菲拉</text>
+  <text x="124" y="140" text-anchor="middle" class="gt" style="font-size:26px">+</text>
+  <!-- letters -->
+  <g lang="he" style="font-size:22px;font-family:'SBL Hebrew','Noto Serif Hebrew','Times New Roman',serif" text-anchor="middle">
+    <text x="190" y="66">א</text><text x="222" y="66">מ</text><text x="254" y="66">ש</text>
+    <text x="190" y="130">ב</text><text x="222" y="130">ג</text><text x="254" y="130">ד</text><text x="286" y="130">כ</text><text x="318" y="130">פ</text><text x="350" y="130">ר</text><text x="382" y="130">ת</text>
+    <text x="190" y="194">ה</text><text x="222" y="194">ו</text><text x="254" y="194">ז</text><text x="286" y="194">ח</text><text x="318" y="194">ט</text><text x="350" y="194">י</text>
+    <text x="190" y="226">ל</text><text x="222" y="226">נ</text><text x="254" y="226">ס</text><text x="286" y="226">ע</text><text x="318" y="226">צ</text><text x="350" y="226">ק</text>
+  </g>
+  <g class="l thin" style="opacity:.7"><rect x="172" y="40" width="102" height="36" rx="4"/><rect x="172" y="104" width="228" height="36" rx="4"/><rect x="172" y="168" width="196" height="68" rx="4"/></g>
+  <g class="sm" style="font-size:12px"><text x="284" y="63">三个母字母</text><text x="410" y="120">七个</text><text x="410" y="136">双音字母</text><text x="378" y="200">十二个</text><text x="378" y="216">单字母</text></g>
+  <text x="300" y="270" text-anchor="middle" class="gt" style="font-size:17px">10 + 22 = 32 条智慧之路</text>
+  <path class="l thin" d="M16 288H474"/>
+  <text x="245" y="314" text-anchor="middle" class="sm" style="font-size:12.5px">传统说作者是亚伯拉罕；现代学者对它的年代还没有一致意见</text>
+</svg>

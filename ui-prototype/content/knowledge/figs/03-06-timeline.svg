@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 470" role="img" aria-label="竖排时间线：约 1460 年，希腊文抄本从马其顿带到意大利；1463 年 4 月，菲奇诺译完十四篇；1464 年，科西莫去世；1471 年，特雷维索首次印刷拉丁文本；1488 年，锡耶纳主教座堂铺成赫尔墨斯拼花；1494 年，巴黎版附勒菲弗尔注释；1505 年，巴黎版加入阿斯克勒庇俄斯；1540 年，斯特乌科论永恒的哲学；1554 年，巴黎首次印出希腊原文；1591 年，帕特里齐请求列入大学课程；1614 年，卡索邦论证写于公元后；到 1641 年，至少二十四版。1471 年以前是手抄本，之后是印本">
+  <path class="l thin" d="M100 40V102"/>
+  <path class="gl" d="M100 132V438" style="stroke-width:3"/>
+  <text x="112" y="24" class="sm" style="font-size:11.5px">手抄本：只给少数人读</text>
+  <text x="380" y="140" class="gt" style="font-size:12px">印本 ↓</text>
+  <g class="dotk">
+    <circle cx="100" cy="44" r="4"/><circle cx="100" cy="72" r="4"/><circle cx="100" cy="100" r="4"/>
+  </g>
+  <g class="gdot">
+    <circle cx="100" cy="132" r="5"/><circle cx="100" cy="160" r="4"/><circle cx="100" cy="188" r="4"/>
+    <circle cx="100" cy="216" r="4"/><circle cx="100" cy="244" r="4"/><circle cx="100" cy="272" r="5"/>
+    <circle cx="100" cy="300" r="4"/><circle cx="100" cy="328" r="5"/><circle cx="100" cy="356" r="4"/>
+  </g>
+  <g text-anchor="end" style="font-size:13px">
+    <text x="86" y="49">约 1460</text><text x="86" y="77">1463</text><text x="86" y="105">1464</text>
+    <text x="86" y="137" class="gt">1471</text><text x="86" y="165">1488</text><text x="86" y="193">1494</text>
+    <text x="86" y="221">1505</text><text x="86" y="249">1540</text><text x="86" y="277" class="gt">1554</text>
+    <text x="86" y="305">1591</text><text x="86" y="333" class="gt">1614</text><text x="86" y="361">1641</text>
+  </g>
+  <g style="font-size:13px">
+    <text x="114" y="49">希腊文抄本从马其顿带到意大利</text>
+    <text x="114" y="77">4 月，菲奇诺译完十四篇</text>
+    <text x="114" y="105">科西莫去世</text>
+    <text x="114" y="137">特雷维索首次印刷拉丁文本</text>
+    <text x="114" y="165">锡耶纳主教座堂铺成赫尔墨斯拼花</text>
+    <text x="114" y="193">巴黎版，附勒菲弗尔的注释</text>
+    <text x="114" y="221">巴黎版加入《阿斯克勒庇俄斯》</text>
+    <text x="114" y="249">斯特乌科《论永恒的哲学》</text>
+    <text x="114" y="277">巴黎首次印出希腊原文</text>
+    <text x="114" y="305">帕特里齐请求列入大学课程</text>
+    <text x="114" y="333">卡索邦：写于公元后</text>
+    <text x="114" y="361">到这一年，至少印了二十四版</text>
+  </g>
+  <path class="l thin" d="M16 392H474"/>
+  <g style="font-size:12.5px">
+    <text x="16" y="416">金色年份是三个转折：印成拉丁文、印出希腊原文、年代被推翻</text>
+    <text x="16" y="440" class="sm" style="font-size:11.5px">年份间距不按比例</text>
+  </g>
+</svg>

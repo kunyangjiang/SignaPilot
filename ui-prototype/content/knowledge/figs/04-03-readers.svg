@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 380" role="img" aria-label="三种读者看同一幅图的示意图，本课自绘。中间一幅简化的第 21 组图形：大圆、三角、正方、小圆。左上一个 19 世纪打扮、戴高帽的人，气泡里写讲的是灵魂的修炼；右上一个拿笔记本的心理学家，气泡里写讲的是内心的转化；下方一个在实验台前拿放大镜的研究者，气泡里写先看作者自己怎么说，再看能不能对上实验。底部：每一种读法，都先告诉你读者是谁">
+  <!-- center figure -->
+  <circle class="l" cx="245" cy="150" r="56"/><path class="l" d="M245 94L294 178H196Z"/><rect class="l" x="222" y="138" width="46" height="40"/><circle class="gl" cx="245" cy="158" r="17"/>
+  <!-- left reader: top hat -->
+  <g class="l" transform="translate(70 170)"><path d="M-10 -34H10V-18H-10ZM-16 -18H16"/><circle cx="0" cy="-8" r="9"/><path d="M0 1V44M0 44L-8 70M0 44L8 70M0 14L14 6"/></g>
+  <path class="l thin" d="M20 52H160V106H58L44 122L46 106H20Z"/>
+  <text x="90" y="74" text-anchor="middle" style="font-size:12px">讲的是</text>
+  <text x="90" y="94" text-anchor="middle" style="font-size:12px">灵魂的修炼</text>
+  <text x="70" y="262" text-anchor="middle" class="sm" style="font-size:11.5px">19 世纪的神秘主义者</text>
+  <!-- right reader: notebook -->
+  <g class="l" transform="translate(420 170)"><circle cx="0" cy="-8" r="9"/><path d="M0 1V44M0 44L-8 70M0 44L8 70M0 14L-14 22"/><rect x="-28" y="16" width="14" height="18"/></g>
+  <path class="l thin" d="M330 52H470V106H444L446 122L432 106H330Z"/>
+  <text x="400" y="74" text-anchor="middle" style="font-size:12px">讲的是</text>
+  <text x="400" y="94" text-anchor="middle" style="font-size:12px">内心的转化</text>
+  <text x="420" y="262" text-anchor="middle" class="sm" style="font-size:11.5px">20 世纪的心理学家</text>
+  <!-- bottom reader with lens -->
+  <path class="l" d="M160 286H330"/>
+  <g class="l" transform="translate(196 252)"><circle cx="0" cy="-8" r="8"/><path d="M0 0V34M0 10L22 0"/></g>
+  <circle class="gl" cx="226" cy="252" r="8"/><path class="gl" d="M220 258L214 266"/>
+  <text x="300" y="232" text-anchor="middle" style="font-size:12px">先看作者自己怎么说，</text>
+  <text x="300" y="250" text-anchor="middle" style="font-size:12px">再看能不能对上实验</text>
+  <text x="245" y="306" text-anchor="middle" class="sm" style="font-size:11.5px">今天的科学史研究者</text>
+  <path class="l thin" d="M16 334H474"/>
+  <text x="245" y="362" text-anchor="middle" class="gt" style="font-size:13px">每一种读法，都先告诉你读者是谁</text>
+</svg>

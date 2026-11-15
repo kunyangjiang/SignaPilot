@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 384" role="img" aria-label="同一个词的两张单子，本课自绘。左边标《创造之书》1:5：一个立体的十字坐标，六个箭头分别标上、下、东、西、南、北，下面一条横线从开始指到结束，再一条横线两端标善和恶；坐标上方一个小屋顶标圣所，写主在圣所里统管它们；左栏底部写世界的尺度，和成书年代未定、多放在《塔木德》时代前后。右边标《光明之书》141 到 145 段：从上到下五个方框，至高的冠冕、智慧、托拉的采石场，最下面并排两个方框，左边是大火，标他的左手，右边是公义和慈爱，标他的右手，再往下是省略号；右栏底部写神自己的方面，和 12 世纪末、普罗旺斯。最底部：同一个词，前一本里是数，后一本里是述说神的荣耀；两栏是前后两个时代的对照，不是一一对应，右栏只列前五个">
+  <!-- column titles -->
+  <text x="124" y="24" text-anchor="middle" style="font-size:13px">《创造之书》1:5</text>
+  <text x="366" y="24" text-anchor="middle" style="font-size:13px">《光明之书》§141–145</text>
+  <path class="l thin" d="M245 14V308" stroke-dasharray="3 4"/>
+
+  <!-- LEFT: sanctuary above the frame -->
+  <path class="l thin" d="M98 56L124 40L150 56"/>
+  <path class="l thin" d="M104 56V66M144 56V66"/>
+  <text x="124" y="82" text-anchor="middle" class="gt" style="font-size:11px">主在圣所里统管它们</text>
+  <!-- axes -->
+  <g class="l">
+    <path d="M124 104V196"/><path d="M118 110L124 102L130 110M118 190L124 198L130 190"/>
+    <path d="M70 150H178"/><path d="M76 144L68 150L76 156M172 144L180 150L172 156"/>
+    <path d="M90 178L158 122"/><path d="M150 122L159 121L157 130M91 170L89 179L98 177"/>
+  </g>
+  <circle class="dotk" cx="124" cy="150" r="3"/>
+  <g class="sm" style="font-size:11.5px" text-anchor="middle">
+    <text x="124" y="98">上</text><text x="124" y="212">下</text>
+    <text x="196" y="154">东</text><text x="54" y="154">西</text>
+    <text x="168" y="118">北</text><text x="80" y="192">南</text>
+  </g>
+  <!-- time and good/evil -->
+  <path class="l thin" d="M60 230H184"/><path class="l thin" d="M178 226L186 230L178 234"/>
+  <g class="sm" style="font-size:11.5px"><text x="26" y="234">开始</text><text x="192" y="234">结束</text></g>
+  <path class="l thin" d="M60 252H184"/>
+  <g class="sm" style="font-size:11.5px"><text x="38" y="256">善</text><text x="192" y="256">恶</text></g>
+  <text x="124" y="286" text-anchor="middle" class="gt" style="font-size:13px">世界的尺度</text>
+  <text x="124" y="305" text-anchor="middle" class="sm" style="font-size:11px">成书年代未定，多放在《塔木德》时代前后</text>
+
+  <!-- RIGHT: five boxes -->
+  <g class="l thin">
+    <rect x="300" y="40" width="132" height="28" rx="5"/>
+    <rect x="300" y="82" width="132" height="28" rx="5"/>
+    <rect x="300" y="124" width="132" height="28" rx="5"/>
+    <rect x="262" y="174" width="96" height="44" rx="5"/>
+    <rect x="374" y="174" width="96" height="44" rx="5"/>
+  </g>
+  <path class="wash" d="M300 40h132v28H300Z" style="opacity:.35"/>
+  <g style="font-size:12px" text-anchor="middle">
+    <text x="366" y="59">① 至高的冠冕</text>
+    <text x="366" y="101">② 智慧</text>
+    <text x="366" y="143">③ 托拉的采石场</text>
+    <text x="310" y="193">⑤ 大火</text>
+    <text x="422" y="193">④ 公义、慈爱</text>
+  </g>
+  <g class="gt" style="font-size:11px" text-anchor="middle">
+    <text x="310" y="210">他的左手</text>
+    <text x="422" y="210">他的右手</text>
+  </g>
+  <g class="l thin"><path d="M366 68V82M366 110V124M366 152V164M310 164H422M310 164V174M422 164V174"/></g>
+  <text x="366" y="244" text-anchor="middle" class="sm" style="font-size:13px">……</text>
+  <text x="366" y="262" text-anchor="middle" class="sm" style="font-size:11px">书里还往下讲，这里只列前五个</text>
+  <text x="366" y="286" text-anchor="middle" class="gt" style="font-size:13px">神自己的方面</text>
+  <text x="366" y="305" text-anchor="middle" class="sm" style="font-size:11px">12 世纪末，普罗旺斯</text>
+
+  <!-- bottom -->
+  <path class="l thin" d="M16 320H474"/>
+  <text x="245" y="344" text-anchor="middle" class="sm" style="font-size:12.5px">同一个词：前一本里是“数”，后一本里是“述说”神的荣耀</text>
+  <text x="245" y="368" text-anchor="middle" class="gt" style="font-size:11.5px">两栏是前后两个时代的对照，不是一一对应</text>
+</svg>

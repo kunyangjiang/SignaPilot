@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="预兆书怎么用的示意图，本课自绘。左边：屋顶上一个学者抬头看月亮，月亮外面有一圈光晕。中间：一摞泥板，最上面一块写着如果月亮被光晕围住，箭头指到那么。右边分两条路：一条通向国王，写报告；另一条通向一个小祭坛，写凶兆可以用仪式化解。底部：预兆是警告，不是判决">
+  <!-- sky + moon with halo -->
+  <circle class="gl" cx="70" cy="46" r="14" style="stroke-width:1.8"/>
+  <circle class="gl" cx="70" cy="46" r="26" stroke-dasharray="2 4"/>
+  <g class="gdot"><circle cx="128" cy="30" r="1.8"/><circle cx="24" cy="80" r="1.6"/><circle cx="140" cy="70" r="1.4"/></g>
+  <!-- roof + scholar -->
+  <path class="l" d="M20 186H140V246H20Z"/>
+  <path class="l thin" d="M20 206H140M20 226H140M50 186V206M90 186V206M70 206V226M110 206V226M40 226V246M100 226V246"/>
+  <g class="l" transform="translate(76 148)"><circle cx="0" cy="-12" r="8"/><path d="M0 -4V24M0 24L-8 38M0 24L8 38M0 6L-14 -6M0 6L12 0"/></g>
+  <path class="l thin" d="M68 120L70 76" stroke-dasharray="2 4"/>
+  <text x="80" y="268" text-anchor="middle" style="font-size:13px">屋顶上看天</text>
+  <!-- tablets stack -->
+  <path class="wash" d="M174 120H318V214H174Z"/>
+  <path class="l thin" d="M180 226H312M184 234H308"/>
+  <path class="l" d="M174 120Q172 112 182 112H310Q320 112 318 122V212Q318 220 310 220H182Q172 220 174 212Z" filter="url(#wob2)"/>
+  <text x="246" y="140" text-anchor="middle" style="font-size:12.5px">如果月亮被光晕围住，</text>
+  <text x="246" y="158" text-anchor="middle" style="font-size:12.5px">火星在光晕里……</text>
+  <path class="gl" d="M246 166V180M240 174l6 6 6-6"/>
+  <text x="246" y="202" text-anchor="middle" class="gt" style="font-size:12.5px">那么……</text>
+  <text x="246" y="104" text-anchor="middle" class="sm" style="font-size:11.5px">预兆书：约 7,000 条</text>
+  <text x="246" y="262" text-anchor="middle" style="font-size:13px">翻书对照</text>
+  <path class="l thin" d="M146 214L170 178" stroke-dasharray="3 4"/>
+  <!-- king -->
+  <g class="l" transform="translate(404 70)"><path d="M-10 -26L-6 -16L0 -24L6 -16L10 -26V-12H-10Z"/><circle cx="0" cy="-2" r="9"/><path d="M0 7V36M0 36L-10 56M0 36L10 56M0 16L-14 26M0 16L14 26"/></g>
+  <path class="l thin" d="M322 140L376 88" stroke-dasharray="3 4"/>
+  <text x="404" y="148" text-anchor="middle" style="font-size:13px">报告给国王</text>
+  <!-- altar -->
+  <path class="l" d="M380 222H428V246H380Z"/><path class="l" d="M374 222H434"/>
+  <path class="gl" d="M398 216Q394 204 404 196Q402 206 410 210Q414 202 410 194" style="stroke-width:1.5"/>
+  <path class="l thin" d="M322 196L370 214" stroke-dasharray="3 4"/>
+  <text x="404" y="268" text-anchor="middle" style="font-size:13px">凶兆可以</text>
+  <text x="404" y="286" text-anchor="middle" style="font-size:13px">用仪式化解</text>
+  <path class="l thin" d="M16 298H474"/>
+  <text x="245" y="322" text-anchor="middle" class="gt" style="font-size:13.5px">预兆是警告，不是判决</text>
+</svg>

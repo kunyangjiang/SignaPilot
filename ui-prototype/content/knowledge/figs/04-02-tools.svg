@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 300" role="img" aria-label="三件出土器物的放大示意图，本课自绘，不按比例。左：三角形坩埚，口沿捏成三个角，方便倒出熔液，约 300 个，用同一种耐火黏土做成。中：浅陶盘，约 40 个，做中间步骤。右：骨灰杯，约 60 个，用来精炼金银。下方：它们和当时冶金书上画的工具几乎一样">
+  <g class="l thin" style="opacity:.8"><rect x="16" y="16" width="146" height="200" rx="6"/><rect x="172" y="16" width="146" height="200" rx="6"/><rect x="328" y="16" width="146" height="200" rx="6"/></g>
+  <!-- triangular crucible: top view + side -->
+  <path class="wash" d="M56 120L72 52H106L122 120Z"/>
+  <path class="l" d="M56 120L72 52H106L122 120Z" filter="url(#wob2)"/>
+  <path class="l" d="M72 52L89 40L106 52"/>
+  <path class="l thin" d="M76 52Q89 60 102 52"/>
+  <text x="89" y="148" text-anchor="middle" style="font-size:13px">三角坩埚</text>
+  <text x="89" y="168" text-anchor="middle" class="gt" style="font-size:12px">约 300 个</text>
+  <text x="89" y="188" text-anchor="middle" class="sm" style="font-size:11px">口沿捏成三个角</text>
+  <text x="89" y="204" text-anchor="middle" class="sm" style="font-size:11px">外表都熏成黑色</text>
+  <!-- scorifier -->
+  <path class="wash" d="M200 92Q245 128 290 92Z"/>
+  <path class="l" d="M200 92Q245 128 290 92Z" filter="url(#wob2)"/>
+  <path class="l thin" d="M212 92Q245 112 278 92"/>
+  <text x="245" y="148" text-anchor="middle" style="font-size:13px">浅陶盘</text>
+  <text x="245" y="168" text-anchor="middle" class="gt" style="font-size:12px">约 40 个</text>
+  <text x="245" y="188" text-anchor="middle" class="sm" style="font-size:11px">做中间步骤</text>
+  <!-- cupel -->
+  <path class="wash" d="M366 112Q366 72 401 72Q436 72 436 112Z"/>
+  <path class="l" d="M366 112Q366 72 401 72Q436 72 436 112Z" filter="url(#wob2)"/>
+  <path class="l thin" d="M378 84Q401 98 424 84"/>
+  <circle class="gdot" cx="401" cy="90" r="4"/>
+  <text x="401" y="148" text-anchor="middle" style="font-size:13px">骨灰杯</text>
+  <text x="401" y="168" text-anchor="middle" class="gt" style="font-size:12px">约 60 个</text>
+  <text x="401" y="188" text-anchor="middle" class="sm" style="font-size:11px">用来精炼金银</text>
+  <text x="245" y="246" text-anchor="middle" style="font-size:13px">它们和当时冶金书上画的工具几乎一样</text>
+  <text x="245" y="272" text-anchor="middle" class="sm" style="font-size:11.5px">示意图，不按比例</text>
+</svg>

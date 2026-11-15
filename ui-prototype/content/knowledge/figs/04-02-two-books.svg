@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="斯塔基的两套写法对照示意图，本课自绘，不是原件复制。左边一本印刷书，署名爱任纽·菲拉莱西斯，书页上画着一条龙、两只鸽子和一张网。右边一本手写笔记，每一条前面写着日期，后面是一行行记录和小草图，署名乔治·斯塔基。两本书之间一个等号和一个问号。底部：同一个人，对外写谜语，对自己记实验">
+  <!-- printed book -->
+  <path class="wash" d="M24 40H206V256H24Z"/>
+  <path class="l" d="M24 40H206V256H24Z" filter="url(#wob2)"/>
+  <text x="115" y="64" text-anchor="middle" style="font-size:12.5px">爱任纽·菲拉莱西斯</text>
+  <path class="l thin" d="M44 74H186"/>
+  <!-- dragon -->
+  <path class="l" d="M48 150Q60 120 84 130Q100 136 110 124Q118 114 130 118M130 118L138 112M130 118L136 124M48 150Q44 164 56 168Q66 170 62 160M84 130L80 120L88 124L90 114L96 122"/>
+  <!-- doves -->
+  <path class="l" d="M150 104Q160 96 172 104Q164 106 160 112Q156 106 150 104ZM160 130Q170 122 182 130Q174 132 170 138Q166 132 160 130Z"/>
+  <!-- net -->
+  <path class="l thin" d="M60 190H170M60 206H170M60 222H170M70 182V232M90 182V232M110 182V232M130 182V232M150 182V232"/>
+  <text x="115" y="250" text-anchor="middle" class="sm" style="font-size:11px">龙、鸽子、网</text>
+  <text x="115" y="284" text-anchor="middle" style="font-size:13px">对外：印出来的书</text>
+  <!-- notebook -->
+  <path class="l" d="M284 40H466V256H284Z" filter="url(#wob2)"/>
+  <path class="l thin" d="M292 40V256"/>
+  <text x="375" y="64" text-anchor="middle" style="font-size:12.5px">乔治·斯塔基</text>
+  <g style="font-size:10.5px" class="gt"><text x="300" y="94">某月某日</text><text x="300" y="150">某月某日</text><text x="300" y="206">某月某日</text></g>
+  <g class="l thin"><path d="M300 104H452M300 116H440M300 128H448M300 160H452M300 172H430M300 184H446M300 216H452M300 228H436"/></g>
+  <path class="l thin" d="M412 138Q420 128 428 138Q428 146 420 146Q412 146 412 138ZM420 128V120"/>
+  <text x="375" y="250" text-anchor="middle" class="sm" style="font-size:11px">日期、材料、做法、结果</text>
+  <text x="375" y="284" text-anchor="middle" style="font-size:13px">对自己：实验笔记</text>
+  <!-- between -->
+  <path class="gl" d="M228 140H262M228 152H262" style="stroke-width:2"/>
+  <text x="245" y="124" text-anchor="middle" class="gt" style="font-size:18px">?</text>
+  <text x="245" y="318" text-anchor="middle" class="gt" style="font-size:13.5px">同一个人，对外写谜语，对自己记实验</text>
+</svg>

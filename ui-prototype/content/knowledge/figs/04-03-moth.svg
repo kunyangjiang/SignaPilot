@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 340" role="img" aria-label="飞蛾和婴儿的示意图，本课自绘，按迈尔论述里的比喻画。中间一支点燃的蜡烛。左边一只飞蛾正扑向火焰，翅膀已经烧焦往下掉，旁注飞蛾天生就会扑火；右上方一只蜜蜂和一只苍蝇绕开火焰飞走，旁注蜜蜂、苍蝇天生就会躲火；右下方一个婴儿伸手去碰火，手指被烫了一下，旁注婴儿要被烫过才知道。底部：迈尔的意思是，人的知识要靠经验和劳动，不是天生就有">
+  <!-- candle -->
+  <path class="l" d="M232 160H258V270H232Z"/><path class="l" d="M220 270H270V280H220Z"/>
+  <path class="gl" d="M245 156Q232 136 245 110Q258 136 245 156Z" style="stroke-width:1.8"/>
+  <circle class="gl" cx="245" cy="134" r="34" stroke-dasharray="2 5"/>
+  <!-- moth -->
+  <g class="l" transform="translate(178 118)"><ellipse cx="0" cy="0" rx="10" ry="4"/><path d="M-2 -2L-14 -16L-20 -4ZM-2 2L-12 14L-20 6"/></g>
+  <path class="l thin" d="M190 118L212 126" stroke-dasharray="2 3"/>
+  <path class="l thin" d="M168 136L162 156M172 140L170 160" stroke-dasharray="2 3"/>
+  <g style="font-size:12.5px"><text x="40" y="96">飞蛾</text><text x="40" y="114" class="sm" style="font-size:11.5px">天生就会扑火，</text><text x="40" y="130" class="sm" style="font-size:11.5px">烧了翅膀掉下来</text></g>
+  <!-- bee + fly going away -->
+  <g class="l" transform="translate(330 70)"><ellipse cx="0" cy="0" rx="9" ry="6"/><path d="M-3 -5V5M3 -5V5"/><path d="M-2 -6Q-8 -18 2 -16M2 -6Q8 -18 12 -10"/></g>
+  <g class="l" transform="translate(362 96)"><ellipse cx="0" cy="0" rx="6" ry="4"/><path d="M-2 -4Q-6 -12 2 -12M2 -4Q8 -10 8 -4"/></g>
+  <path class="l thin" d="M290 110Q312 96 322 78M300 124Q330 120 354 100" stroke-dasharray="3 4"/>
+  <g style="font-size:12.5px"><text x="384" y="66">蜜蜂、苍蝇</text><text x="384" y="84" class="sm" style="font-size:11.5px">天生就会躲火</text></g>
+  <!-- baby -->
+  <path class="l" d="M318 240Q318 216 342 216H372Q392 216 392 240Q392 262 372 262H342Q318 262 318 240Z"/>
+  <circle class="l" cx="340" cy="230" r="11"/>
+  <path class="l" d="M330 236L280 214"/>
+  <path class="gl" d="M276 210l-6 -6M280 206l-2 -8M284 208l4 -7" style="stroke-width:1.4"/>
+  <g style="font-size:12.5px"><text x="384" y="196">婴儿</text><text x="384" y="214" class="sm" style="font-size:11.5px">不知道危险，</text><text x="384" y="230" class="sm" style="font-size:11.5px">要被烫过才知道</text></g>
+  <path class="l thin" d="M16 298H474"/>
+  <text x="245" y="324" text-anchor="middle" class="gt" style="font-size:13px">人的知识要靠经验和劳动，不是天生就有</text>
+</svg>

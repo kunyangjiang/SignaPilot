@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 220" role="img" aria-label="七种金属和它们的代号示意图，本课自绘。七个小方块排成一行，每块上面是一个天体的简笔图，下面是代号和金属：太阳是金，月亮是银，墨丘利（水星）是水银，维纳斯（金星）是铜，马尔斯（火星）是铁，朱庇特（木星）是锡，萨图恩（土星）是铅。底部：一个神话故事，因此可以读成一份材料清单">
+  <g class="l thin" style="opacity:.8">
+    <rect x="16" y="20" width="60" height="140" rx="4"/><rect x="83" y="20" width="60" height="140" rx="4"/><rect x="150" y="20" width="60" height="140" rx="4"/><rect x="217" y="20" width="60" height="140" rx="4"/><rect x="284" y="20" width="60" height="140" rx="4"/><rect x="351" y="20" width="60" height="140" rx="4"/><rect x="418" y="20" width="60" height="140" rx="4"/>
+  </g>
+  <!-- sun -->
+  <circle class="gl" cx="46" cy="56" r="11" style="stroke-width:1.8"/><g class="gl"><path d="M46 36V40M46 72V76M26 56H30M62 56H66M32 42L35 45M57 67L60 70M32 70L35 67M57 45L60 42"/></g>
+  <!-- moon -->
+  <path class="gl" d="M120 42A15 15 0 1 0 120 70A11 11 0 1 1 120 42Z" style="stroke-width:1.8"/>
+  <!-- mercury planet small -->
+  <circle class="l" cx="180" cy="56" r="6"/>
+  <!-- venus bright -->
+  <circle class="l" cx="247" cy="56" r="9"/><circle class="gdot" cx="247" cy="56" r="3"/>
+  <!-- mars -->
+  <circle class="l" cx="314" cy="56" r="8"/><path class="l thin" d="M309 52L313 55M316 59L319 61"/>
+  <!-- jupiter -->
+  <circle class="l" cx="381" cy="56" r="13"/><path class="l thin" d="M369 52H393M369 60H393"/>
+  <!-- saturn -->
+  <circle class="l" cx="448" cy="56" r="9"/><ellipse class="l" cx="448" cy="56" rx="18" ry="5"/>
+  <g text-anchor="middle" style="font-size:12px">
+    <text x="46" y="100">太阳</text><text x="113" y="100">月亮</text><text x="180" y="100">墨丘利</text><text x="247" y="100">维纳斯</text><text x="314" y="100">马尔斯</text><text x="381" y="100">朱庇特</text><text x="448" y="100">萨图恩</text>
+  </g>
+  <g text-anchor="middle" class="sm" style="font-size:10.5px">
+    <text x="180" y="116">水星</text><text x="247" y="116">金星</text><text x="314" y="116">火星</text><text x="381" y="116">木星</text><text x="448" y="116">土星</text>
+  </g>
+  <g text-anchor="middle" class="gt" style="font-size:15px">
+    <text x="46" y="146">金</text><text x="113" y="146">银</text><text x="180" y="146">水银</text><text x="247" y="146">铜</text><text x="314" y="146">铁</text><text x="381" y="146">锡</text><text x="448" y="146">铅</text>
+  </g>
+  <text x="245" y="196" text-anchor="middle" style="font-size:13px">一个神话故事，因此可以读成一份材料清单</text>
+</svg>

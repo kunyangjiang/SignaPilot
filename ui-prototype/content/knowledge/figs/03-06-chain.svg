@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 400" role="img" aria-label="上半部分是菲奇诺排出的古代神学传承：赫尔墨斯、俄耳甫斯、阿格劳斐摩斯、毕达哥拉斯、菲洛劳斯、柏拉图，一代传一代，赫尔墨斯在摩西的时代，柏拉图在最后。下半部分是今天学者的时间轴，从公元前 600 年到公元 300 年：毕达哥拉斯约公元前 530 年，菲洛劳斯约公元前 430 年，柏拉图公元前 4 世纪，赫尔墨斯文献大约写于公元 2 到 3 世纪，比柏拉图晚约五百年；俄耳甫斯和阿格劳斐摩斯是传说人物，无法定年。一条虚线把上面的赫尔墨斯连到下面的公元 2 到 3 世纪，表示他从链条的开头挪到了最后">
+  <defs><marker id="ar37" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="gl"/></marker></defs>
+  <text x="16" y="28" class="gt" style="font-size:14px">菲奇诺的“古代神学”：一代传一代</text>
+  <g class="l" fill="none">
+    <circle cx="48" cy="84" r="8"/><circle cx="126" cy="84" r="8"/><circle cx="204" cy="84" r="8"/>
+    <circle cx="282" cy="84" r="8"/><circle cx="360" cy="84" r="8"/><circle cx="440" cy="84" r="10"/>
+  </g>
+  <circle class="gl" cx="48" cy="84" r="12"/>
+  <g class="l thin" fill="none">
+    <path d="M60 84H114" marker-end="url(#ar37)"/><path d="M138 84H192" marker-end="url(#ar37)"/>
+    <path d="M216 84H270" marker-end="url(#ar37)"/><path d="M294 84H348" marker-end="url(#ar37)"/>
+    <path d="M372 84H428" marker-end="url(#ar37)"/>
+  </g>
+  <g text-anchor="middle" style="font-size:12.5px">
+    <text x="48" y="58" class="gt">赫尔墨斯</text><text x="126" y="58">俄耳甫斯</text><text x="204" y="58">阿格劳斐摩斯</text>
+    <text x="282" y="58">毕达哥拉斯</text><text x="360" y="58">菲洛劳斯</text><text x="440" y="58">柏拉图</text>
+    <text x="48" y="114" class="sm" style="font-size:11.5px">摩西的时代</text>
+    <text x="440" y="114" class="sm" style="font-size:11.5px">集大成</text>
+  </g>
+  <path class="l thin" d="M16 146H474"/>
+  <text x="16" y="174" class="gt" style="font-size:14px">今天学者的年代</text>
+  <path class="l" d="M40 272H456"/>
+  <g class="l thin"><path d="M40 266V278"/><path d="M178 266V278"/><path d="M316 266V278"/><path d="M455 266V278"/></g>
+  <g text-anchor="middle" class="sm" style="font-size:11.5px">
+    <text x="40" y="296">前 600</text><text x="178" y="296">前 300</text><text x="316" y="296">公元 1</text><text x="455" y="296">300</text>
+  </g>
+  <g class="gdot"><circle cx="72" cy="272" r="4"/><circle cx="118" cy="272" r="4"/><circle cx="141" cy="272" r="4"/></g>
+  <rect class="wash" x="362" y="262" width="92" height="20" rx="3"/>
+  <rect class="gl" x="362" y="262" width="92" height="20" rx="3"/>
+  <g style="font-size:12px" text-anchor="middle">
+    <text x="72" y="252">毕达哥拉斯</text>
+    <text x="114" y="230">菲洛劳斯</text>
+    <text x="150" y="208">柏拉图</text>
+    <text x="408" y="252" class="gt">赫尔墨斯文献</text>
+  </g>
+  <g class="l thin"><path d="M72 256V266"/><path d="M118 234V266"/><path d="M146 212V266"/></g>
+  <path class="l thin" stroke-dasharray="4 5" d="M48 100Q60 200 330 214Q400 218 404 236" marker-end="url(#ar37)"/>
+  <path class="l thin" d="M16 322H474"/>
+  <g style="font-size:12.5px">
+    <text x="16" y="346">俄耳甫斯、阿格劳斐摩斯是传说人物，无法定年</text>
+    <text x="16" y="370">赫尔墨斯从链条的开头，挪到了柏拉图之后约五百年</text>
+    <text x="16" y="392" class="sm" style="font-size:11.5px">上排据菲奇诺《皮曼德》前言；下排年代为约数</text>
+  </g>
+</svg>

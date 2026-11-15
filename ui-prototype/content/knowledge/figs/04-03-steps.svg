@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 250" role="img" aria-label="第 21 组格言的步骤示意图，本课自绘。从左到右四个图形，箭头相连：一个小圆，里面一男一女；一个正方形；一个三角形；一个大圆。每个图形下面写着迈尔在论述里给它的解释：小圆是男人和女人，正方形是四元素，三角形是身体、精神、灵魂，大圆是不变的红色，也就是完成的哲人石。下方：画上的图形是这四步一层套一层画出来的，最里面是起点，最外面是终点">
+  <circle class="l" cx="62" cy="80" r="38"/>
+  <g class="l thin" transform="translate(50 72)"><circle cx="0" cy="-10" r="5"/><path d="M0 -5V14M0 14L-4 28M0 14L4 28"/></g>
+  <g class="l thin" transform="translate(74 72)"><circle cx="0" cy="-10" r="5"/><path d="M0 -5Q-3 4 0 14M0 14L-4 28M0 14L4 28"/></g>
+  <path class="gl" d="M108 80H132M126 74l6 6-6 6"/>
+  <rect class="l" x="146" y="44" width="72" height="72"/>
+  <path class="gl" d="M228 80H252M246 74l6 6-6 6"/>
+  <path class="l" d="M302 40L344 116H260Z"/>
+  <path class="gl" d="M352 80H376M370 74l6 6-6 6"/>
+  <circle class="gl" cx="428" cy="80" r="44" style="stroke-width:2"/>
+  <g text-anchor="middle" style="font-size:13px">
+    <text x="62" y="146">圆</text><text x="182" y="146">四方</text><text x="302" y="146">三角</text><text x="428" y="146">圆</text>
+  </g>
+  <g text-anchor="middle" class="sm" style="font-size:11.5px">
+    <text x="62" y="166">男人和女人</text><text x="182" y="166">四元素</text><text x="302" y="166">身体、精神、</text><text x="302" y="182">灵魂</text><text x="428" y="166">不变的红色</text><text x="428" y="182">（哲人石）</text>
+  </g>
+  <path class="l thin" d="M16 202H474"/>
+  <text x="245" y="228" text-anchor="middle" class="gt" style="font-size:13px">画上把这四步一层套一层：最里面是起点，最外面是终点</text>
+</svg>

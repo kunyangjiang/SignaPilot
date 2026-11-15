@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 420" role="img" aria-label="迈尔《逃跑的阿塔兰塔》第 21 号寓意图的结构示意图，本课据 1618 年梅里安蚀刻版画自绘，只画结构，不是原画复制。左边一个穿长袍、戴帽子的人，手持一把大圆规，指向身后砖墙上画着的图形。墙上的图形一层套一层：最外面一个大圆，里面一个三角形，三角形里一个正方形，正方形里一个小圆，小圆里站着一男一女两个裸体的人。地上散放着画有几何图形的纸、一个半圆量角器和一把尺子">
+  <!-- wall -->
+  <path class="wash" d="M168 22H482V368H168Z" style="opacity:.28"/>
+  <path class="l thin" d="M168 22H482V368" />
+  <g class="l thin" style="opacity:.35">
+    <path d="M168 46H482M168 70H482M168 94H482M168 118H482M168 142H482M168 166H482M168 190H482M168 214H482M168 238H482M168 262H482M168 286H482M168 310H482M168 334H482M168 358H482"/>
+    <path d="M200 22V46M260 22V46M320 22V46M380 22V46M440 22V46M230 46V70M290 46V70M350 46V70M410 46V70M470 46V70M200 334V358M260 334V358M320 334V358M380 334V358M440 334V358"/>
+  </g>
+  <!-- tower in background -->
+  <path class="l thin" d="M24 150V40H52V150M24 40L38 24L52 40M34 70H42V84H34Z"/>
+  <!-- nested figure -->
+  <circle class="l" cx="330" cy="200" r="150"/>
+  <path class="l" d="M330 50L460 275H200Z"/>
+  <path class="l" d="M270 155H390V275H270Z"/>
+  <circle class="gl" cx="330" cy="215" r="56" style="stroke-width:1.6"/>
+  <!-- man and woman -->
+  <g class="l" transform="translate(310 196)"><circle cx="0" cy="-12" r="7"/><path d="M0 -5V22M0 22L-6 44M0 22L6 44M0 4L-10 16M0 4L10 14"/></g>
+  <g class="l" transform="translate(350 196)"><circle cx="0" cy="-12" r="7"/><path d="M0 -5Q-4 8 0 22M0 22L-5 44M0 22L5 44M0 4L-10 12M0 4L10 16"/></g>
+  <!-- geometer -->
+  <g class="l" transform="translate(96 112)">
+    <path d="M-12 -18Q0 -30 12 -18L10 -10H-10Z"/>
+    <circle cx="0" cy="-2" r="9"/>
+    <path d="M-16 10Q-26 120 -28 236H28Q26 120 16 10Z"/>
+    <path d="M12 26L44 46M44 46L56 40"/>
+    <path d="M12 40L46 62"/>
+    <path d="M-16 236V256H-4V236M8 236V256H20V236"/>
+  </g>
+  <!-- compass -->
+  <path class="gl" d="M150 154L262 74M150 154L234 150" style="stroke-width:2"/>
+  <circle class="gl" cx="150" cy="154" r="3"/>
+  <!-- ground -->
+  <path class="l thin" d="M16 368H482"/>
+  <path class="l thin" d="M36 378H92L100 404H44Z"/>
+  <path class="l thin" d="M56 384L66 380L76 386L72 396L60 396Z"/>
+  <path class="l thin" d="M210 400A26 26 0 0 1 262 400Z"/>
+  <path class="l thin" d="M236 400L224 380M236 400L248 380M236 400V374"/>
+  <path class="l thin" d="M300 404L352 376"/>
+</svg>

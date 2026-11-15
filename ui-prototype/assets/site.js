@@ -473,6 +473,11 @@
     '03-03': { src: 'content/knowledge/03-03.md', state: 'done' },
     '03-04': { src: 'content/knowledge/03-04.md', state: 'done' },
     '03-05': { src: 'content/knowledge/03-05.md', state: 'done' },
+    '03-06': { src: 'content/knowledge/03-06.md', state: 'done' },
+    '04-01': { src: 'content/knowledge/04-01.md', state: 'done' },
+    '04-02': { src: 'content/knowledge/04-02.md', state: 'done' },
+    '04-03': { src: 'content/knowledge/04-03.md', state: 'done' },
+    '04-04': { src: 'content/knowledge/04-04.md', state: 'done' },
   };
   const K_STATE = { done: '已完成', draft: '初稿 · 待审读' };
   // A course manuscript: "# 标题", an optional "> 初稿…" status line, a lead paragraph, "**…**" question lines,
@@ -1199,6 +1204,168 @@
         radios($('.rl-pick', fig), k => { r = w.routes[k]; at = 0; draw(); });
         window.addEventListener('resize', draw);
         draw();
+      },
+    },
+    // 03-06: role-play scenes. Pick a year, look at what is on that reader's desk, answer the question; each answer gets
+    // its own reply, and the first answer also unlocks what real readers did that year. Answers are kept per scene.
+    // w: { caption, scenes: [{ tab, where, desk: [..], ask, options: [{ text, reply }], history }] }
+    scene: {
+      html: (w, no) => `<figure class="fig sc" data-widget="${no}">
+        <div class="fig-frame">
+          ${radioRow('sc-pick', '选择年份', w.scenes.map(s => s.tab))}
+          <div class="sc-body"></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        const chosen = w.scenes.map(() => -1);
+        const body = $('.sc-body', fig);
+        let cur = 0;
+        const draw = focusK => {
+          const s = w.scenes[cur], c = chosen[cur];
+          body.innerHTML = `<p class="sc-where"><span class="label">你是</span>${inline(s.where)}</p>
+            <div class="sc-desk"><span class="label">你手边有</span><ul>${s.desk.map(d => `<li>${inline(d)}</li>`).join('')}</ul></div>
+            <p class="sc-ask">${inline(s.ask)}</p>
+            <div class="sc-opts">${s.options.map((o, k) => `<button type="button" aria-pressed="${k === c}">${inline(o.text)}</button>`).join('')}</div>
+            <div class="sc-out" aria-live="polite">${c < 0 ? '<p class="sc-hint">选一个答案，看看会怎样。</p>' : `<p class="sc-reply">${inline(s.options[c].reply)}</p><p class="sc-hist"><span class="label">那一年真实发生的</span>${inline(s.history)}</p>`}</div>`;
+          const bs = [...body.querySelectorAll('.sc-opts button')];
+          bs.forEach((b, k) => b.addEventListener('click', () => { chosen[cur] = k; draw(k); }));
+          if (focusK !== undefined) bs[focusK].focus();
+        };
+        radios($('.sc-pick', fig), k => { cur = k; draw(); });
+      },
+    },
+    // 04-01: tag the sentences of a source. Pick a document, click a highlighted sentence, then say which kind of work it
+    // does; the answer is checked and explained, and the sentence keeps its tag. Tags are kept per document.
+    // w: { caption, labels: [{ name, hint }], docs: [{ tab, src, segs: [{ t, ans, why } | { t }] }] }
+    tagger: {
+      html: (w, no) => `<figure class="fig tg" data-widget="${no}">
+        <div class="fig-frame">
+          ${radioRow('tg-pick', '选择文献', w.docs.map(d => d.tab))}
+          <div class="tg-body"></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        const got = w.docs.map(d => d.segs.map(() => -1));
+        const body = $('.tg-body', fig);
+        let cur = 0, sel = -1;
+        const draw = focus => {
+          const d = w.docs[cur], g = got[cur];
+          const tagged = d.segs.filter((s, i) => s.ans !== undefined && g[i] >= 0);
+          const total = d.segs.filter(s => s.ans !== undefined).length;
+          const right = d.segs.filter((s, i) => s.ans !== undefined && g[i] === s.ans).length;
+          const s = sel >= 0 ? d.segs[sel] : null;
+          body.innerHTML = `<p class="tg-src">${inline(d.src)}</p>
+            <div class="tg-doc">${d.segs.map((x, i) => x.ans === undefined ? `<span>${inline(x.t)}</span>`
+              : `<button type="button" class="tg-seg${g[i] >= 0 ? ' tg-k' + g[i] : ''}" aria-pressed="${i === sel}" data-i="${i}">${inline(x.t)}${g[i] >= 0 ? `<small>${esc(w.labels[g[i]].name)}</small>` : ''}</button>`).join('')}</div>
+            <div class="tg-key">${w.labels.map((l, k) => `<button type="button" class="tg-k${k}" data-k="${k}"${s ? '' : ' disabled'}><b>${esc(l.name)}</b><span>${inline(l.hint)}</span></button>`).join('')}</div>
+            <div class="tg-out" aria-live="polite">${!s ? `<p class="tg-hint">先点上面一句带框的话，再选它在做哪种事。已标 ${tagged.length} / ${total}，标对 ${right}。</p>`
+              : g[sel] < 0 ? '<p class="tg-hint">这一句在做哪种事？</p>'
+              : `<p class="tg-reply">${g[sel] === s.ans ? '对。' : `这一句更像“${esc(w.labels[s.ans].name)}”。`}${inline(s.why)}</p><p class="tg-hint">已标 ${tagged.length} / ${total}，标对 ${right}。</p>`}</div>`;
+          $$('.tg-seg', body).forEach(b => b.addEventListener('click', () => { sel = +b.dataset.i; draw('seg'); }));
+          $$('.tg-key button', body).forEach(b => b.addEventListener('click', () => { if (sel >= 0) { got[cur][sel] = +b.dataset.k; draw('key'); } }));
+          if (focus === 'seg') { const b = $(`.tg-seg[data-i="${sel}"]`, body); if (b) b.focus(); }
+          if (focus === 'key') { const b = $(`.tg-seg[data-i="${sel}"]`, body); if (b) b.focus(); }
+        };
+        radios($('.tg-pick', fig), k => { cur = k; sel = -1; draw(); });
+      },
+    },
+    // 04-02: code-word cards. Each card shows an alchemical code phrase; turning it over shows what historians think it
+    // names on the bench, how they know, and how sure they are. No procedures: the back names materials, not steps.
+    // w: { caption, cards: [{ code, who, plain, how, sure }] }
+    decoder: {
+      html: (w, no) => `<figure class="fig dc" data-widget="${no}">
+        <div class="fig-frame"><div class="dc-grid">${w.cards.map((c, k) => `<div class="dc-card">
+          <p class="dc-who">${inline(c.who)}</p>
+          <p class="dc-code">${inline(c.code)}</p>
+          <button type="button" aria-expanded="false" aria-controls="dc-${no}-${k}">翻到实验台那一面</button>
+          <div class="dc-back" id="dc-${no}-${k}" hidden>
+            <p class="dc-plain"><span class="label">指的是</span>${inline(c.plain)}</p>
+            <p><span class="label">怎么知道的</span>${inline(c.how)}</p>
+            <p class="dc-sure"><span class="label">把握</span>${inline(c.sure)}</p>
+          </div></div>`).join('')}</div>
+          <p class="dc-count" aria-live="polite">已翻开 0 / ${w.cards.length}</p></div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        const count = () => { $('.dc-count', fig).textContent = `已翻开 ${$$('.dc-card button[aria-expanded="true"]', fig).length} / ${w.cards.length}`; };
+        $$('.dc-card', fig).forEach(card => {
+          const b = $('button', card), back = $('.dc-back', card);
+          b.addEventListener('click', () => {
+            const open = b.getAttribute('aria-expanded') !== 'true';
+            b.setAttribute('aria-expanded', open); back.hidden = !open; card.classList.toggle('on', open);
+            b.textContent = open ? '翻回谜语那一面' : '翻到实验台那一面'; count();
+          });
+        });
+      },
+    },
+    // 04-03: one picture, several ways of reading it. Pick a reading (layer), then a part of the picture; a part the
+    // chosen reading has nothing to say about is dimmed, and saying so is part of the lesson.
+    // w: { caption, img, alt, layers: [{ name, hint }], spots: [{ x, y, label, notes: [text | null per layer] }] }
+    emblem: {
+      html: (w, no) => `<figure class="fig em" data-widget="${no}">
+        <div class="fig-frame">
+          <div class="em-sec"><p class="label">用哪一种眼光看</p></div>${radioRow('em-layer', '选择读法', w.layers.map(l => l.name))}
+          <p class="em-hint"></p>
+          <div class="gr-map ill"><div class="gr-pos"><div class="gr-svg" role="img" aria-label="${esc(w.alt)}"></div>${w.spots.map((p, k) => `<button type="button" class="gr-dot" style="left:${p.x}%;top:${p.y}%" data-k="${k}" tabindex="-1" aria-hidden="true">${k + 1}</button>`).join('')}</div></div>
+          <ol class="gr-list em-list" aria-label="图上的部位">${w.spots.map((p, k) => `<li><button type="button" data-k="${k}" aria-pressed="${k === 0}" aria-controls="em${no}-p"><span>${k + 1}</span>${esc(p.label)}</button></li>`).join('')}</ol>
+          <div class="em-body" id="em${no}-p" aria-live="polite"></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        load('content/knowledge/' + w.img).then(svg => {
+          if (!/^\s*<svg[\s>]/.test(svg)) return;
+          $('.gr-svg', fig).innerHTML = svg;
+          const el = $('.gr-svg svg', fig); el.removeAttribute('role'); el.removeAttribute('aria-label'); el.setAttribute('aria-hidden', 'true');
+        }).catch(() => {});
+        let L = 0, S = 0;
+        const draw = () => {
+          const p = w.spots[S], note = p.notes[L];
+          $('.em-hint', fig).innerHTML = inline(w.layers[L].hint);
+          $$('[data-k]', fig).forEach(b => {
+            const k = +b.dataset.k, here = k === S;
+            b.classList.toggle('on', here); b.classList.toggle('em-off', !w.spots[k].notes[L]);
+            if (b.closest('.gr-list')) b.setAttribute('aria-pressed', here);
+          });
+          $('.em-body', fig).innerHTML = `<p class="gr-head"><span>${S + 1}</span>${esc(p.label)}<small>${esc(w.layers[L].name)}</small></p>`
+            + (note ? `<p class="em-note">${inline(note)}</p>` : '<p class="em-none">这种眼光对这个部位没有说法。不硬找一个意思出来，也是读图的一部分。</p>');
+        };
+        fig.addEventListener('click', e => { const b = e.target.closest('[data-k]'); if (b) { S = +b.dataset.k; draw(); } });
+        radios($('.em-layer', fig), k => { L = k; draw(); });
+      },
+    },
+    // 04-04: letter values, limited on purpose to examples the sources themselves give. Pick an example, add the
+    // letters up one at a time (right to left, as Hebrew is read), then see what the source does with the number.
+    // There is no free input: the point is how the rabbis used the sums, not to produce new ones.
+    // w: { caption, examples: [{ tab, words: [{ he, say, zh, letters: [[char, name, value]] }], src, use, note }] }
+    gematria: {
+      html: (w, no) => `<figure class="fig gm" data-widget="${no}">
+        <div class="fig-frame">
+          ${radioRow('gm-pick', '选择例子', w.examples.map(x => x.tab))}
+          <div class="gm-body"></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        const body = $('.gm-body', fig);
+        let cur = 0, step = 0;
+        const total = ex => ex.words.reduce((n, wd) => n + wd.letters.length, 0);
+        const draw = focus => {
+          const ex = w.examples[cur], all = total(ex);
+          let seen = 0;
+          const words = ex.words.map(wd => {
+            let sum = 0;
+            const tiles = wd.letters.map(([c, name, v]) => { const on = seen < step; seen++; if (on) sum += v;
+              return `<li class="${on ? 'on' : ''}"><b lang="he">${c}</b><span>${esc(name)}</span><i>${on ? v : '?'}</i></li>`; }).join('');
+            const done = seen <= step;
+            return `<div class="gm-word"><p class="gm-name"><b lang="he">${wd.he}</b> ${esc(wd.say)}，意思是“${esc(wd.zh)}”</p>
+              <ol class="gm-tiles" dir="rtl">${tiles}</ol><p class="gm-sum">${done ? `合计 <b>${sum}</b>` : `已加到 ${sum}`}</p></div>`;
+          }).join('');
+          body.innerHTML = `<p class="gm-src">${inline(ex.src)}</p>${words}
+            <div class="gm-ctl"><button type="button" class="gm-next"${step >= all ? ' disabled' : ''}>${step === 0 ? '从右往左，加第一个字母' : step >= all ? '已经加完' : '再加一个字母'}</button><button type="button" class="gm-all"${step >= all ? ' disabled' : ''}>一次加完</button></div>
+            <div class="gm-out" aria-live="polite">${step >= all ? `<p class="gm-use"><span class="label">原文拿这个数做了什么</span>${inline(ex.use)}</p><p class="gm-note">${inline(ex.note)}</p>` : '<p class="gm-hint">希伯来文从右往左读。每个字母都有一个固定的数值。</p>'}</div>`;
+          $('.gm-next', body).addEventListener('click', () => { step = Math.min(all, step + 1); draw('next'); });
+          $('.gm-all', body).addEventListener('click', () => { step = all; draw('next'); });
+          if (focus === 'next') { const b = $('.gm-next', body); if (!b.disabled) b.focus(); else $('.gm-out', body).setAttribute('tabindex', '-1'), $('.gm-out', body).focus(); }
+        };
+        radios($('.gm-pick', fig), k => { cur = k; step = 0; draw(); });
       },
     },
   };

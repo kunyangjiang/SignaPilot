@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 340" role="img" aria-label="拉希尔报告泥板的示意图，本课自绘，不是原物照片。一块圆角泥板上刻着几行楔形文字，右边用四种括号把文字分成四段：月亮初一出现，标观测；言语可靠、国土欢喜，标解释；火星到第四个月 25 日离开天蝎座，标计算；国王要多加小心，标建议。泥板下方写着：一块泥板，四种工作">
+  <path class="wash" d="M40 34Q36 22 50 20H236Q252 22 250 36L254 262Q254 280 238 282H54Q38 280 38 264Z"/>
+  <path class="l" d="M40 34Q36 22 50 20H236Q252 22 250 36L254 262Q254 280 238 282H54Q38 280 38 264Z" filter="url(#wob2)"/>
+  <!-- wedge rows -->
+  <g class="l thin">
+    <path d="M58 52l6 -6 0 12zM76 52l6 -6 0 12zM94 52h14M112 46l5 6-5 6M126 52l6 -6 0 12zM146 52h20M172 46v12M182 52l6 -6 0 12zM202 52h18"/>
+    <path d="M58 82l6 -6 0 12zM72 82h18M96 76v12M106 82l6 -6 0 12zM124 82h14M144 76l5 6-5 6M158 82l6 -6 0 12zM176 82h24M206 76v12"/>
+    <path d="M58 112h16M80 106l6 6-6 6M94 112l6 -6 0 12zM112 112h22M140 106v12M150 112l6 -6 0 12zM168 112h16M190 106l5 6-5 6M204 112l6 -6 0 12z"/>
+    <path d="M58 142l6 -6 0 12zM76 142h20M102 136v12M112 142l6 -6 0 12zM130 142h14M150 136l5 6-5 6M164 142l6 -6 0 12zM182 142h22"/>
+    <path d="M58 172h18M82 166v12M92 172l6 -6 0 12zM110 172h16M132 166l5 6-5 6M146 172l6 -6 0 12zM164 172h28M198 166v12"/>
+    <path d="M58 202l6 -6 0 12zM74 202h20M100 196l5 6-5 6M114 202l6 -6 0 12zM132 202h18M156 196v12M166 202l6 -6 0 12zM184 202h18"/>
+    <path d="M58 232h14M78 226v12M88 232l6 -6 0 12zM106 232h22M134 226l5 6-5 6M148 232l6 -6 0 12zM166 232h16M188 226v12"/>
+    <path d="M58 260l6 -6 0 12zM74 260h18M98 254v12M108 260l6 -6 0 12zM126 260h20"/>
+  </g>
+  <!-- brackets -->
+  <g class="gl" style="stroke-width:1.6">
+    <path d="M262 40h8v24h-8"/>
+    <path d="M262 72h8v24h-8"/>
+    <path d="M262 102h8v84h-8"/>
+    <path d="M262 192h8v74h-8"/>
+  </g>
+  <g style="font-size:13px">
+    <text x="280" y="50" class="gt">观测</text><text x="316" y="50" class="sm" style="font-size:12px">月亮在初一出现</text>
+    <text x="280" y="88" class="gt">解释</text><text x="316" y="88" class="sm" style="font-size:12px">言语可靠，国土欢喜</text>
+    <text x="280" y="140" class="gt">观测</text><text x="316" y="140" class="sm" style="font-size:12px">火星在天蝎座里，变暗</text>
+    <text x="280" y="160" class="gt">计算</text><text x="316" y="160" class="sm" style="font-size:12px">第四个月 25 日离开</text>
+    <text x="280" y="222" class="gt">解释</text><text x="316" y="222" class="sm" style="font-size:12px">国王应当高兴</text>
+    <text x="280" y="242" class="gt">建议</text><text x="316" y="242" class="sm" style="font-size:12px">火星出去前要小心</text>
+  </g>
+  <text x="146" y="306" text-anchor="middle" class="sm" style="font-size:11.5px">楔形文字为示意，不对应原文字形</text>
+  <text x="245" y="330" text-anchor="middle" class="gt" style="font-size:13.5px">一块泥板，装着四种工作</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 360" role="img" aria-label="两种读天方式的对照图，本课自绘。左栏预兆：上面是正在发生的月食，下面是一座城墙和一个戴王冠的人，箭头写现在发生的天象到国家和国王，最下面一个小祭坛写可以用仪式化解。右栏出生星盘：上面是一圈十二格的星座带，几个行星落在格子里，下面是襁褓里的婴儿，箭头写出生那一刻的天象到这个人的一生，最下面写出生时刻改不了。底部：读天的对象从国家换成了个人">
+  <text x="122" y="26" text-anchor="middle" style="font-size:14px">预兆</text>
+  <text x="368" y="26" text-anchor="middle" class="gt" style="font-size:14px">出生星盘</text>
+  <path class="l thin" d="M245 40V286" stroke-dasharray="3 6"/>
+  <!-- left: eclipse -->
+  <circle class="gl" cx="122" cy="70" r="20" style="stroke-width:1.8"/>
+  <path class="wash" d="M122 50A20 20 0 0 1 122 90A12 20 0 0 0 122 50Z"/>
+  <path class="gl" d="M122 98V124M116 118l6 6 6-6"/>
+  <!-- city wall + king -->
+  <path class="l" d="M50 196V150H62V160H74V150H86V160H98V150H110V196Z"/>
+  <g class="l" transform="translate(160 160)"><path d="M-8 -20L-4 -12L0 -18L4 -12L8 -20V-9H-8Z"/><circle cx="0" cy="-1" r="7"/><path d="M0 6V26M0 26L-7 38M0 26L7 38M0 12L-10 20M0 12L10 20"/></g>
+  <text x="122" y="220" text-anchor="middle" style="font-size:12.5px">现在发生的天象 → 国家和国王</text>
+  <path class="l" d="M104 250H140V266H104Z"/><path class="l" d="M98 250H146"/>
+  <path class="gl" d="M116 246Q112 236 120 230Q120 238 126 240" style="stroke-width:1.4"/>
+  <text x="122" y="284" text-anchor="middle" class="sm" style="font-size:12px">可以用仪式化解</text>
+  <!-- right: zodiac ring -->
+  <circle class="l" cx="368" cy="74" r="40"/><circle class="l thin" cx="368" cy="74" r="28"/>
+  <g class="l thin"><path d="M368 34V46M368 102V114M328 74H340M396 74H408M348 39.4L354 49.8M382 98.2L388 108.6M333.4 54L343.8 60M392.2 88L402.6 94M388 39.4L382 49.8M354 98.2L348 108.6M402.6 54L392.2 60M343.8 88L333.4 94"/></g>
+  <g class="gdot"><circle cx="390" cy="50" r="3"/><circle cx="342" cy="88" r="3"/><circle cx="380" cy="106" r="3"/></g>
+  <path class="gl" d="M368 122V140M362 134l6 6 6-6"/>
+  <!-- baby -->
+  <path class="l" d="M336 166Q336 150 352 150H386Q402 150 402 166Q402 182 386 182H352Q336 182 336 166Z"/>
+  <circle class="l" cx="352" cy="166" r="9"/>
+  <path class="l thin" d="M366 156L396 176M366 176L396 156"/>
+  <text x="368" y="220" text-anchor="middle" style="font-size:12.5px">出生那一刻的天象</text>
+  <text x="368" y="238" text-anchor="middle" style="font-size:12.5px">→ 这个人的一生</text>
+  <text x="368" y="284" text-anchor="middle" class="sm" style="font-size:12px">出生时刻改不了</text>
+  <path class="l thin" d="M16 304H474"/>
+  <text x="245" y="334" text-anchor="middle" class="gt" style="font-size:13.5px">读天的对象，从国家换成了个人</text>
+</svg>

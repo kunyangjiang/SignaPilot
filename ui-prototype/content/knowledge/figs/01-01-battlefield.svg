@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 360" role="img" aria-label="从远处炮位望过去的战场示意。左半边：两个弯腰的人影，一个抬着担架上的伤员，一个搬着弹药箱，远看几乎一样，中间一个问号。右半边：同样两个人影，抬伤员的那个左臂多了一条白底红十字臂章，一眼就能分出来。底部：缺的不是善意，是一个双方都认得的记号">
+  <text x="122" y="26" text-anchor="middle" style="font-size:14px">没有记号</text>
+  <text x="368" y="26" text-anchor="middle" class="gt" style="font-size:14px">有了记号</text>
+  <path class="l thin" d="M245 40V262" stroke-dasharray="3 6"/>
+  <path class="l thin" d="M16 230H230M260 230H474"/>
+  <g class="l" transform="translate(44 128)"><circle cx="0" cy="0" r="9"/><path d="M2 10Q12 32 16 58"/><path d="M16 58L6 100M16 58L28 100"/><path d="M8 22L36 44"/><path d="M32 46H84"/><path d="M44 38Q62 30 76 38"/><circle cx="82" cy="34" r="6"/></g>
+  <g class="l" transform="translate(206 128)"><circle cx="0" cy="0" r="9"/><path d="M-2 10Q-12 32 -16 58"/><path d="M-16 58L-26 100M-16 58L-4 100"/><path d="M-8 22L-24 40"/><rect x="-46" y="38" width="24" height="16" rx="2"/></g>
+  <text x="146" y="112" text-anchor="middle" class="gt" style="font-size:26px">?</text>
+  <g class="l" transform="translate(290 128)"><circle cx="0" cy="0" r="9"/><path d="M2 10Q12 32 16 58"/><path d="M16 58L6 100M16 58L28 100"/><path d="M8 22L36 44"/><path d="M32 46H84"/><path d="M44 38Q62 30 76 38"/><circle cx="82" cy="34" r="6"/></g>
+  <rect x="297" y="143" width="16" height="12" rx="2" class="wash"/>
+  <rect x="297" y="143" width="16" height="12" rx="2" class="l thin" style="opacity:1"/>
+  <path class="gl" d="M305 145V153M301 149H309" style="stroke-width:2.2"/>
+  <path class="gl" d="M312 142Q330 112 352 104" stroke-dasharray="3 4"/>
+  <text x="356" y="104" class="gt" style="font-size:12.5px">白底红十字臂章</text>
+  <g class="l" transform="translate(452 128)"><circle cx="0" cy="0" r="9"/><path d="M-2 10Q-12 32 -16 58"/><path d="M-16 58L-26 100M-16 58L-4 100"/><path d="M-8 22L-24 40"/><rect x="-46" y="38" width="24" height="16" rx="2"/></g>
+  <g text-anchor="middle" class="sm" style="font-size:12px">
+    <text x="84" y="252">抬伤员的医生</text><text x="190" y="252">搬弹药的士兵</text>
+    <text x="330" y="252">抬伤员的医生</text><text x="436" y="252">士兵</text>
+  </g>
+  <path class="l thin" d="M16 282H474"/>
+  <text x="245" y="310" text-anchor="middle" style="font-size:13.5px">隔着几百米，弯腰抬人和弯腰搬箱子看起来一样</text>
+  <text x="245" y="336" text-anchor="middle" class="gt" style="font-size:13.5px">缺的不是善意，是一个双方都认得的记号</text>
+</svg>

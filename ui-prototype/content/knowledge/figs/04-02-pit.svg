@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 350" role="img" aria-label="奥伯施托克施塔尔地下坑的剖面示意图，本课自绘。上面是小教堂的侧影和圣器室的地板线，地板下面是一个坑，坑里画着几样出土器物：一叠三角形坩埚、一个浅陶盘、一个圆形骨灰杯、一个带长嘴的玻璃蒸馏头、几块炉砖。右边标注数量：三角坩埚约 300 个，浅陶盘约 40 个，骨灰杯约 60 个。底部：大约 800 件，16 世纪下半叶">
+  <!-- chapel -->
+  <path class="l" d="M40 120V60L90 22L140 60V120M90 22V8M84 14H96"/>
+  <path class="l" d="M140 120V78H230V120"/>
+  <path class="l thin" d="M80 120V92Q90 82 100 92V120"/>
+  <text x="185" y="104" text-anchor="middle" class="sm" style="font-size:11.5px">圣器室</text>
+  <!-- ground -->
+  <path class="l" d="M16 120H300"/>
+  <path class="l thin" d="M16 128H300" stroke-dasharray="2 5"/>
+  <!-- pit -->
+  <path class="wash" d="M120 132Q118 236 150 256H240Q270 236 268 132Z"/>
+  <path class="l" d="M120 132Q118 236 150 256H240Q270 236 268 132" filter="url(#wob2)"/>
+  <!-- crucibles stack -->
+  <g class="l"><path d="M138 232L146 206H164L172 232Z"/><path d="M150 206L156 198L162 206"/><path d="M168 236L176 210H194L202 236Z"/><path d="M180 210L186 202L192 210"/><path d="M156 196L162 176H176L182 196Z"/></g>
+  <!-- scorifier -->
+  <path class="l" d="M206 164Q226 178 246 164"/><path class="l thin" d="M206 164H246"/>
+  <!-- cupel -->
+  <path class="l" d="M212 228Q212 210 228 210Q244 210 244 228Z"/><path class="l thin" d="M218 216Q228 222 238 216"/>
+  <!-- alembic -->
+  <path class="l" d="M134 166Q134 146 150 146Q166 146 166 166Q166 172 160 172H140Q134 172 134 166ZM164 156L196 140"/>
+  <!-- bricks -->
+  <path class="l thin" d="M206 240H236V250H206ZM238 240H256V250H238Z"/>
+  <!-- labels -->
+  <g style="font-size:12.5px">
+    <path class="gl" d="M196 220L310 178" stroke-dasharray="2 3"/><text x="316" y="180">三角坩埚</text><text x="316" y="200" class="gt">约 300 个</text>
+    <path class="gl" d="M248 166L310 132" stroke-dasharray="2 3"/><text x="316" y="124">浅陶盘</text><text x="316" y="144" class="gt">约 40 个</text>
+    <path class="gl" d="M244 222L310 232" stroke-dasharray="2 3"/><text x="316" y="234">骨灰杯</text><text x="316" y="254" class="gt">约 60 个</text>
+    <text x="316" y="284" class="sm" style="font-size:12px">还有蒸馏器、接收瓶、</text>
+    <text x="316" y="300" class="sm" style="font-size:12px">炉砖、金属渣、皮革……</text>
+  </g>
+  <text x="194" y="274" text-anchor="middle" class="sm" style="font-size:11.5px">地板下的坑（剖面）</text>
+  <text x="245" y="336" text-anchor="middle" class="gt" style="font-size:13.5px">大约 800 件，16 世纪下半叶的一间实验室</text>
+</svg>

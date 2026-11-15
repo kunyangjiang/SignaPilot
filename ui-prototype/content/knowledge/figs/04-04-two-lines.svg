@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="两条时间线的对照示意图，本课自绘。上面一条标传统说它从谁传下来：约公元 100 年拉比尼胡尼亚，对应《光明之书》；公元 2 世纪拉比西蒙·巴尔·约海，对应《光辉之书》。下面一条标研究者认为它何时写成：12 世纪末普罗旺斯，《光明之书》；13 世纪 80 年代卡斯蒂利亚，《光辉之书》，摩西·德·莱昂。两条线之间用虚线把同一本书连起来，虚线横跨一千多年。底部：两个问题，两种答案；回答一个，不等于回答了另一个">
+  <text x="16" y="34" style="font-size:13px">传统说它从谁传下来</text>
+  <path class="l" d="M16 64H474"/>
+  <g class="sm" style="font-size:11px" text-anchor="middle"><text x="40" y="84">公元 1 年</text><text x="245" y="84">700 年</text><text x="450" y="84">1300 年</text></g>
+  <g class="dotk"><circle cx="74" cy="64" r="5"/><circle cx="96" cy="64" r="5"/></g>
+  <text x="62" y="54" text-anchor="middle" class="gt" style="font-size:11.5px">约 100 年</text>
+  <text x="128" y="54" class="gt" style="font-size:11.5px">2 世纪</text>
+  <text x="16" y="174" style="font-size:13px">研究者认为它何时写成</text>
+  <path class="l" d="M16 204H474"/>
+  <g class="sm" style="font-size:11px" text-anchor="middle"><text x="40" y="224">公元 1 年</text><text x="245" y="224">700 年</text><text x="450" y="224">1300 年</text></g>
+  <g class="dotk"><circle cx="424" cy="204" r="5"/><circle cx="454" cy="204" r="5"/></g>
+  <text x="418" y="172" text-anchor="end" class="gt" style="font-size:11.5px">12 世纪末</text>
+  <text x="474" y="194" text-anchor="end" class="gt" style="font-size:11.5px">13 世纪 80 年代</text>
+  <path class="l thin" d="M74 70Q240 120 424 198" stroke-dasharray="4 4"/>
+  <path class="gl" d="M96 70Q260 112 454 198" stroke-dasharray="4 4"/>
+  <g style="font-size:12px">
+    <text x="190" y="112">《光明之书》</text>
+    <text x="300" y="132" class="gt">《光辉之书》</text>
+  </g>
+  <g class="sm" style="font-size:11px">
+    <text x="16" y="248">《光明之书》：传统归于拉比尼胡尼亚；研究者认为编于普罗旺斯</text>
+    <text x="16" y="266">《光辉之书》：传统归于拉比西蒙·巴尔·约海；由摩西·德·莱昂在卡斯蒂利亚传出</text>
+  </g>
+  <path class="l thin" d="M16 284H474"/>
+  <text x="245" y="312" text-anchor="middle" class="gt" style="font-size:13px">两个问题，两种答案；回答一个，不等于回答了另一个</text>
+</svg>

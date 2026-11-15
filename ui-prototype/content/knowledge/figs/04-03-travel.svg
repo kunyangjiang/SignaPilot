@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="一个图式在书和书之间旅行的示意图，本课自绘。左边一本 1550 年的书，标《哲人玫瑰园》，写圆、方、三角、圆的说法，配在讲受孕的一章；中间一本 1618 年的书，标《逃跑的阿塔兰塔》，上面画着拿圆规的人和墙上的图形，写迈尔加了几何学者、墙和工具，又写了一篇讲知识从哪里来的论述；右边写 1572 年、1622 年，《玫瑰园》的图又被翻刻和重画。底部：同一个图式，每到一本书里就换一次身份">
+  <!-- book 1 -->
+  <path class="wash" d="M24 50H134V170H24Z"/><path class="l" d="M24 50H134V170H24Z" filter="url(#wob2)"/>
+  <path class="l thin" d="M30 50V170"/>
+  <circle class="l thin" cx="80" cy="104" r="26"/><path class="l thin" d="M80 78L102 116H58Z"/><rect class="l thin" x="68" y="98" width="24" height="18"/>
+  <text x="79" y="36" text-anchor="middle" class="gt" style="font-size:13px">1550</text>
+  <text x="79" y="192" text-anchor="middle" style="font-size:12.5px">《哲人玫瑰园》</text>
+  <g class="sm" style="font-size:11.5px" text-anchor="middle"><text x="79" y="212">圆—方—三角—圆</text><text x="79" y="228">配在讲“受孕”的一章</text><text x="79" y="244">20 幅木刻</text></g>
+  <path class="gl" d="M144 110H178M172 104l6 6-6 6"/>
+  <!-- book 2 -->
+  <path class="wash" d="M190 50H300V170H190Z"/><path class="l" d="M190 50H300V170H190Z" filter="url(#wob2)"/>
+  <path class="l thin" d="M196 50V170"/>
+  <circle class="l thin" cx="262" cy="104" r="26"/><path class="l thin" d="M262 78L284 116H240Z"/>
+  <g class="l thin" transform="translate(214 98)"><circle cx="0" cy="-10" r="5"/><path d="M-6 -4Q-8 30 -8 58H8Q8 30 6 -4ZM6 4L28 -6"/></g>
+  <text x="245" y="36" text-anchor="middle" class="gt" style="font-size:13px">1618</text>
+  <text x="245" y="192" text-anchor="middle" style="font-size:12.5px">《逃跑的阿塔兰塔》</text>
+  <g class="sm" style="font-size:11.5px" text-anchor="middle"><text x="245" y="212">加了几何学者、墙、工具</text><text x="245" y="228">论述改讲“知识从哪里来”</text></g>
+  <!-- reprints -->
+  <path class="l thin" d="M144 120Q160 270 340 250" stroke-dasharray="3 4"/>
+  <path class="l" d="M356 70H420V150H356ZM364 78H428V158H364" style="opacity:.8"/>
+  <text x="400" y="36" text-anchor="middle" class="gt" style="font-size:13px">1572 · 1622</text>
+  <g class="sm" style="font-size:11.5px" text-anchor="middle"><text x="400" y="192">《玫瑰园》的图</text><text x="400" y="208">被翻刻、重画</text></g>
+  <path class="l thin" d="M16 278H474"/>
+  <text x="245" y="306" text-anchor="middle" class="gt" style="font-size:13px">同一个图式，每到一本书里就换一次身份</text>
+</svg>

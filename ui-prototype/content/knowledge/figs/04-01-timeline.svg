@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 420" role="img" aria-label="从预兆到星盘的时间线，本课自绘。一条竖向时间轴，从上到下：公元前 2 千纪前期，预兆书开始编；公元前 7 世纪，亚述学者给国王写天象报告，替身国王仪式；公元前 410 年前后，巴比伦最早的个人出生星盘；约公元前 100 年，希腊化埃及的星盘格式固定下来；公元 2 世纪，托勒密写《占星四书》，把一部分美索不达米亚预兆也收进去；最下面一个手机，写今天的运势栏。左侧箭头标计算越来越准，右侧标解释一直靠规则">
+  <path class="l" d="M150 30V356"/>
+  <g class="dotk"><circle cx="150" cy="44" r="4.5"/><circle cx="150" cy="106" r="4.5"/><circle cx="150" cy="172" r="4.5"/><circle cx="150" cy="232" r="4.5"/><circle cx="150" cy="292" r="4.5"/></g>
+  <g text-anchor="end" class="gt" style="font-size:12.5px">
+    <text x="138" y="48">前 2 千纪前期</text><text x="138" y="110">前 7 世纪</text><text x="138" y="176">约前 410 年</text><text x="138" y="236">约前 100 年</text><text x="138" y="296">公元 2 世纪</text><text x="138" y="380">今天</text>
+  </g>
+  <g style="font-size:13px">
+    <text x="166" y="48">美索不达米亚开始编预兆书</text>
+    <text x="166" y="110">亚述学者给国王写天象报告</text>
+    <text x="166" y="128" class="sm" style="font-size:12px">替身国王仪式</text>
+    <text x="166" y="176">巴比伦最早的个人出生星盘</text>
+    <text x="166" y="236">希腊化埃及：星盘格式固定下来</text>
+    <text x="166" y="296">托勒密《占星四书》</text>
+    <text x="166" y="314" class="sm" style="font-size:12px">新旧两种读天装进同一本书</text>
+    <text x="196" y="380">手机上的运势栏</text>
+  </g>
+  <!-- phone -->
+  <rect class="l" x="160" y="358" width="26" height="44" rx="5"/><path class="l thin" d="M166 368H180M166 376H180M166 384H176"/>
+  <path class="l thin" d="M150 356V364" stroke-dasharray="2 3"/>
+  <!-- side arrows -->
+  <path class="gl" d="M24 60V340M18 332l6 8 6-8"/>
+  <text x="34" y="200" class="gt" style="font-size:12px;writing-mode:vertical-rl">计算越来越准</text>
+  <path class="l thin" d="M470 60V340" stroke-dasharray="4 4"/>
+  <text x="458" y="200" class="sm" style="font-size:12px;writing-mode:vertical-rl">解释一直靠规则</text>
+</svg>

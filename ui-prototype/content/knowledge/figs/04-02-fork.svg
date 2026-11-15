@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 320" role="img" aria-label="两条路的示意图，本课自绘。左边一个炉子，炉子前站着一个人，上面写 17 世纪：同一个炉子。从炉子出发分出两条路：上面一条通向一排烧瓶和天平，写试金、蒸馏、称重、记录，留了下来，进入化学；下面一条通向一块发光的石头和一棵金属树，写哲人石、金属会生长，被放弃。分叉处立着一块路牌，写约 1720 年起，开始划线">
+  <text x="70" y="40" text-anchor="middle" style="font-size:12.5px">17 世纪</text>
+  <text x="70" y="58" text-anchor="middle" class="sm" style="font-size:11.5px">同一个炉子</text>
+  <!-- furnace -->
+  <path class="l" d="M40 210V120Q40 100 70 100Q100 100 100 120V210Z"/>
+  <path class="l thin" d="M56 210V180Q70 168 84 180V210"/>
+  <path class="gl" d="M62 206Q58 194 68 186Q68 196 76 198Q80 190 76 182" style="stroke-width:1.4"/>
+  <path class="l" d="M64 100V80H76V100"/>
+  <path class="l" d="M16 214H124"/>
+  <!-- roads -->
+  <path class="l" d="M124 160Q190 160 230 110Q260 76 300 76"/>
+  <path class="l" d="M124 168Q190 168 230 220Q260 254 300 254"/>
+  <!-- sign -->
+  <path class="l" d="M150 176V244"/><rect class="l" x="104" y="244" width="92" height="44" rx="3"/>
+  <text x="150" y="262" text-anchor="middle" class="gt" style="font-size:11.5px">约 1720 年起</text>
+  <text x="150" y="280" text-anchor="middle" class="gt" style="font-size:11.5px">开始划线</text>
+  <!-- upper: flasks + balance -->
+  <path class="l" d="M314 86Q306 80 306 70Q306 60 316 60V48H322V60Q332 60 332 70Q332 80 324 86Z"/>
+  <path class="l" d="M346 86V54M346 54H376M352 54L346 70H358ZM370 54L364 70H376Z"/>
+  <text x="310" y="114" style="font-size:12.5px">试金、蒸馏、称重、记录</text>
+  <text x="310" y="132" class="gt" style="font-size:12.5px">留了下来，进入化学</text>
+  <!-- lower: stone + tree -->
+  <path class="gl" d="M320 236L330 222L344 228L340 244L326 246Z" style="stroke-width:1.6"/>
+  <g class="gl"><path d="M318 222L312 214M346 222L352 214M332 214V206"/></g>
+  <path class="l" d="M372 248V226M372 236L362 224M372 230L384 218M362 224L358 214M384 218L388 208"/>
+  <text x="310" y="280" style="font-size:12.5px">哲人石、金属会生长</text>
+  <text x="310" y="298" class="sm" style="font-size:12.5px">被放弃</text>
+</svg>

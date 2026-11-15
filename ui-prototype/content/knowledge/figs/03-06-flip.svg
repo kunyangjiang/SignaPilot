@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 380" role="img" aria-label="左右对照。左边，1471 年的读法：上面是赫尔墨斯，摩西的时代；下面是基督教；箭头从赫尔墨斯指向基督教，写着预见。右边，1614 年以后的读法：上面是基督教，1 世纪；下面是赫尔墨斯文献，2 到 3 世纪；箭头从基督教指向赫尔墨斯文献，写着抄袭。中间是同一块牌子：相似。底部：文本没变，年代变了，箭头就掉了头">
+  <defs><marker id="ar38" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="gl"/></marker></defs>
+  <text x="122" y="28" text-anchor="middle" class="gt" style="font-size:14px">1471 年的读法</text>
+  <text x="368" y="28" text-anchor="middle" class="gt" style="font-size:14px">1614 年以后的读法</text>
+  <circle class="wash" cx="122" cy="88" r="44"/><circle class="l" cx="122" cy="88" r="44"/>
+  <circle class="l" cx="122" cy="252" r="44"/>
+  <circle class="l" cx="368" cy="88" r="44"/>
+  <circle class="wash" cx="368" cy="252" r="44"/><circle class="l" cx="368" cy="252" r="44"/>
+  <g text-anchor="middle">
+    <text x="122" y="86" style="font-size:14px">赫尔墨斯</text>
+    <text x="122" y="106" class="sm" style="font-size:11.5px">摩西的时代</text>
+    <text x="122" y="257" style="font-size:14px">基督教</text>
+    <text x="368" y="86" style="font-size:14px">基督教</text>
+    <text x="368" y="106" class="sm" style="font-size:11.5px">1 世纪</text>
+    <text x="368" y="250" style="font-size:13px">赫尔墨斯文献</text>
+    <text x="368" y="270" class="sm" style="font-size:11.5px">2—3 世纪</text>
+  </g>
+  <path class="gl" d="M122 134V204" marker-end="url(#ar38)"/>
+  <path class="gl" d="M368 134V204" marker-end="url(#ar38)"/>
+  <text x="108" y="174" text-anchor="end" class="gt" style="font-size:15px">预见</text>
+  <text x="382" y="174" class="gt" style="font-size:15px">抄袭</text>
+  <rect class="l thin" x="196" y="152" width="98" height="40" rx="6"/>
+  <text x="245" y="167" text-anchor="middle" class="sm" style="font-size:11.5px">同样的</text>
+  <text x="245" y="185" text-anchor="middle" style="font-size:13px">相似</text>
+  <g class="l thin" stroke-dasharray="3 4"><path d="M196 172H140"/><path d="M294 172H350"/></g>
+  <path class="l thin" d="M16 322H474"/>
+  <text x="245" y="352" text-anchor="middle" style="font-size:13.5px">文本没变，年代变了，箭头就掉了头</text>
+</svg>

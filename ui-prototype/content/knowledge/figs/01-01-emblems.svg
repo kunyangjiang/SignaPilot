@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 300" role="img" aria-label="四个保护标志从左到右：白底红十字，1864 年；白底红新月，1876 年起使用，1929 年承认；红狮与太阳，1929 年承认，图中以简化的太阳形示意；白底红色立方框红水晶，2005 年通过。最右边：红水晶方框里嵌着一个红十字，表示国家红会可以在方框里放入原来的标志。下方：空方框负责受保护，嵌进去的标志负责我是谁">
+  <g class="l thin" style="opacity:.8">
+    <rect x="16" y="30" width="84" height="84" rx="4"/><rect x="110" y="30" width="84" height="84" rx="4"/>
+    <rect x="204" y="30" width="84" height="84" rx="4"/><rect x="298" y="30" width="84" height="84" rx="4"/>
+    <rect x="392" y="30" width="84" height="84" rx="4"/>
+  </g>
+  <path class="gl" d="M50 48H66V64H82V80H66V96H50V80H34V64H50Z" style="stroke-width:2"/>
+  <path class="gl" d="M162 50A24 24 0 1 0 162 94A19 19 0 1 1 162 50Z" style="stroke-width:2"/>
+  <circle class="gl" cx="246" cy="66" r="12" style="stroke-width:2"/>
+  <g class="gl" style="stroke-width:1.6"><path d="M246 44V50M246 82V88M224 66H230M262 66H268M231 51L235 55M257 77L261 81M231 81L235 77M257 55L261 51"/></g>
+  <text x="246" y="104" text-anchor="middle" class="sm" style="font-size:10.5px">（简化示意）</text>
+  <path class="gl" d="M340 42L364 72L340 102L316 72Z" style="stroke-width:2"/>
+  <path class="gl" d="M434 42L458 72L434 102L410 72Z" style="stroke-width:2"/>
+  <path class="gl" d="M434 62V82M424 72H444" style="stroke-width:2.2"/>
+  <g text-anchor="middle" style="font-size:13px">
+    <text x="58" y="138">红十字</text><text x="152" y="138">红新月</text><text x="246" y="138">红狮与太阳</text>
+    <text x="340" y="138" class="gt">红水晶</text><text x="434" y="138">嵌入旧标志</text>
+  </g>
+  <g text-anchor="middle" class="sm" style="font-size:11.5px">
+    <text x="58" y="158">1864</text><text x="152" y="158">1876 年起用</text><text x="246" y="158">1929 年承认</text>
+    <text x="340" y="158">2005</text><text x="434" y="158">可选</text>
+    <text x="152" y="176">1929 年承认</text>
+  </g>
+  <path class="l thin" d="M16 204H474"/>
+  <text x="16" y="232" style="font-size:13px">空方框负责说“受保护”；嵌进去的标志负责说“我是谁”</text>
+  <text x="16" y="258" class="sm" style="font-size:12px">1949 年，红色大卫盾的提案两次被否决；2006 年，大卫红盾会</text>
+  <text x="16" y="278" class="sm" style="font-size:12px">和巴勒斯坦红新月会同时加入运动</text>
+</svg>

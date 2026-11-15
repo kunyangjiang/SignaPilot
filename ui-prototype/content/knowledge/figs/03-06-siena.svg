@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 470" role="img" aria-label="锡耶纳主教座堂地面赫尔墨斯拼花的结构示意，本课自绘，不是原作复制。中间是戴高帽、穿长袍的赫尔墨斯；他向左递出一本书，书上写着埃及人啊，接受文字和法律吧；左边两个求教的人，一个缠头巾，一个蒙面纱；右边两只狮身人面像托着一块石板，石板上是一段讲神造了第二位神、爱他如儿子的话；画面底部的铭文写着摩西的同时代人">
+  <rect class="l" filter="url(#wob2)" x="16" y="16" width="458" height="314" rx="4"/>
+  <path class="l thin" d="M24 292H466"/>
+  <!-- Hermes -->
+  <path class="wash" d="M231 100Q220 190 206 292L286 292Q272 190 261 100Z"/>
+  <path class="l" d="M231 100Q220 190 206 292L286 292Q272 190 261 100Z"/>
+  <path class="l" d="M232 74L236 34L256 34L260 74Z"/>
+  <circle class="l" cx="246" cy="87" r="13"/>
+  <path class="l thin" d="M240 98Q246 112 252 98"/>
+  <path class="l" d="M236 118Q206 134 182 136"/>
+  <path class="l" d="M258 118Q300 118 334 104"/>
+  <!-- book -->
+  <path class="gl" d="M144 122L163 128L182 122L182 152L163 158L144 152Z"/>
+  <path class="gl" d="M163 128V158"/>
+  <!-- two seekers -->
+  <ellipse class="l" cx="58" cy="132" rx="15" ry="8"/>
+  <circle class="l" cx="60" cy="144" r="11"/>
+  <path class="l" d="M50 158Q40 222 34 292L88 292Q82 222 72 158Z"/>
+  <path class="l" d="M96 170Q108 138 124 168"/>
+  <circle class="l" cx="110" cy="166" r="11"/>
+  <path class="l" d="M100 180Q94 236 90 292L134 292Q128 236 120 180Z"/>
+  <path class="l thin" d="M76 176Q100 160 120 190"/>
+  <!-- slab and sphinxes -->
+  <rect class="wash" x="340" y="92" width="116" height="80" rx="3"/>
+  <rect class="l" x="340" y="92" width="116" height="80" rx="3"/>
+  <g class="l thin"><path d="M352 112H444"/><path d="M352 128H444"/><path d="M352 144H444"/><path d="M352 160H420"/></g>
+  <circle class="l" cx="360" cy="186" r="9"/>
+  <path class="l" d="M349 192L351 178Q360 170 369 178L371 192"/>
+  <path class="l" d="M352 197Q345 214 348 236H396Q398 216 386 206Q376 199 366 198"/>
+  <path class="l thin" d="M368 206Q388 186 404 196Q394 208 378 216"/>
+  <path class="l thin" d="M352 236V224M362 236V226"/>
+  <circle class="l" cx="436" cy="186" r="9"/>
+  <path class="l" d="M447 192L445 178Q436 170 427 178L425 192"/>
+  <path class="l" d="M444 197Q451 214 448 236H400Q398 216 410 206Q420 199 430 198"/>
+  <path class="l thin" d="M428 206Q408 186 392 196Q402 208 418 216"/>
+  <path class="l thin" d="M444 236V224M434 236V226"/>
+  <rect class="l thin" x="338" y="236" width="120" height="56" rx="2"/>
+  <!-- inscription band -->
+  <rect class="l thin" x="150" y="300" width="192" height="22" rx="2"/>
+  <text x="246" y="316" text-anchor="middle" class="sm" style="font-size:11px;letter-spacing:.5px">CONTEMPORANEUS MOYSI</text>
+  <!-- callouts -->
+  <g text-anchor="middle" style="font-size:13px" class="gt">
+    <text x="163" y="112">①</text>
+    <text x="398" y="86">②</text>
+    <text x="360" y="316">③</text>
+    <text x="84" y="116">④</text>
+  </g>
+  <path class="l thin" d="M16 348H474"/>
+  <g style="font-size:12.5px">
+    <text x="16" y="372">① 书上写着：“埃及人啊，接受文字和法律吧”</text>
+    <text x="16" y="394">② 石板：神造了第二位神，爱他如儿子（大意）</text>
+    <text x="16" y="416">③ 底部铭文：“摩西的同时代人”</text>
+    <text x="16" y="438">④ 两个求教者：一个缠头巾，一个蒙面纱</text>
+    <text x="16" y="462" class="sm" style="font-size:11.5px">1488 年铺成 · 设计者一般认为是乔瓦尼·迪·斯特凡诺 · 示意图</text>
+  </g>
+</svg>

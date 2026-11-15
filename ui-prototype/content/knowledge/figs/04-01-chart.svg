@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 400" role="img" aria-label="一张希腊化格式星盘的结构示意图，本课自绘，不是某一份真实的星盘。外圈是黄道十二宫，每格 30 度，写着白羊、金牛等名字。一条横线是地平线，左端东方标着上升点。内圈从上升点开始逆时针编号 1 到 12。三个行星落在不同格子里。右边旁注：外圈说行星在哪个宫，内圈说落在人生的哪个方面；平均大约每两小时，上升点换一个宫，实际快慢要看纬度，也要看正升起的是哪个宫">
+<circle class="l" cx="200" cy="190" r="146"/><circle class="l" cx="200" cy="190" r="116"/><circle class="l thin" cx="200" cy="190" r="90"/><circle class="l thin" cx="200" cy="190" r="30"/>
+<path class="l thin" d="M268.2 283.8L285.8 308.1 M306.0 237.2L333.4 249.4 M315.4 177.9L345.2 174.7 M293.8 121.8L318.1 104.2 M247.2 84.0L259.4 56.6 M187.9 74.6L184.7 44.8 M131.8 96.2L114.2 71.9 M94.0 142.8L66.6 130.6 M84.6 202.1L54.8 205.3 M106.2 258.2L81.9 275.8 M152.8 296.0L140.6 323.4 M212.1 305.4L215.3 335.2"/>
+<text x="301.8" y="276.9" text-anchor="middle" style="font-size:12px">白羊</text>
+<text x="329.4" y="215.0" text-anchor="middle" style="font-size:12px">金牛</text>
+<text x="322.3" y="147.6" text-anchor="middle" style="font-size:12px">双子</text>
+<text x="282.4" y="92.7" text-anchor="middle" style="font-size:12px">巨蟹</text>
+<text x="220.5" y="65.1" text-anchor="middle" style="font-size:12px">狮子</text>
+<text x="153.1" y="72.2" text-anchor="middle" style="font-size:12px">处女</text>
+<text x="98.2" y="112.1" text-anchor="middle" style="font-size:12px">天秤</text>
+<text x="70.6" y="174.0" text-anchor="middle" style="font-size:12px">天蝎</text>
+<text x="77.7" y="241.4" text-anchor="middle" style="font-size:12px">人马</text>
+<text x="117.6" y="296.3" text-anchor="middle" style="font-size:12px">摩羯</text>
+<text x="179.5" y="323.9" text-anchor="middle" style="font-size:12px">宝瓶</text>
+<text x="246.9" y="316.8" text-anchor="middle" style="font-size:12px">双鱼</text>
+<path class="l thin" d="M170.0 190.0L110.0 190.0 M174.0 205.0L122.1 235.0 M185.0 216.0L155.0 267.9 M200.0 220.0L200.0 280.0 M215.0 216.0L245.0 267.9 M226.0 205.0L277.9 235.0 M230.0 190.0L290.0 190.0 M226.0 175.0L277.9 145.0 M215.0 164.0L245.0 112.1 M200.0 160.0L200.0 100.0 M185.0 164.0L155.0 112.1 M174.0 175.0L122.1 145.0" stroke-dasharray="3 3"/>
+<text x="134.3" y="212.1" text-anchor="middle" class="sm" style="font-size:12px">1</text>
+<text x="151.9" y="242.6" text-anchor="middle" class="sm" style="font-size:12px">2</text>
+<text x="182.4" y="260.2" text-anchor="middle" class="sm" style="font-size:12px">3</text>
+<text x="217.6" y="260.2" text-anchor="middle" class="sm" style="font-size:12px">4</text>
+<text x="248.1" y="242.6" text-anchor="middle" class="sm" style="font-size:12px">5</text>
+<text x="265.7" y="212.1" text-anchor="middle" class="sm" style="font-size:12px">6</text>
+<text x="265.7" y="176.9" text-anchor="middle" class="sm" style="font-size:12px">7</text>
+<text x="248.1" y="146.4" text-anchor="middle" class="sm" style="font-size:12px">8</text>
+<text x="217.6" y="128.8" text-anchor="middle" class="sm" style="font-size:12px">9</text>
+<text x="182.4" y="128.8" text-anchor="middle" class="sm" style="font-size:12px">10</text>
+<text x="151.9" y="146.4" text-anchor="middle" class="sm" style="font-size:12px">11</text>
+<text x="134.3" y="176.9" text-anchor="middle" class="sm" style="font-size:12px">12</text>
+<path class="gl" d="M46 190H354" style="stroke-width:1.8"/>
+<text x="4" y="183" class="gt" style="font-size:12px">上升点</text>
+<text x="4" y="207" class="sm" style="font-size:11px">东方</text>
+<text x="200" y="186" text-anchor="middle" class="sm" style="font-size:11px">地平线</text>
+<circle class="gdot" cx="121.1" cy="256.2" r="9" style="opacity:.25"/><text x="121.1" y="260.7" text-anchor="middle" class="gt" style="font-size:12px">火</text>
+<circle class="gdot" cx="217.9" cy="88.6" r="9" style="opacity:.25"/><text x="217.9" y="93.1" text-anchor="middle" class="gt" style="font-size:12px">金</text>
+<circle class="gdot" cx="296.8" cy="225.2" r="9" style="opacity:.25"/><text x="296.8" y="229.7" text-anchor="middle" class="gt" style="font-size:12px">土</text>
+<text x="362" y="56" class="gt" style="font-size:12.5px">外圈：十二宫</text>
+<text x="362" y="77" class="sm" style="font-size:12.5px">每宫 30 度</text>
+<text x="362" y="98" class="sm" style="font-size:12.5px">看行星在哪个宫</text>
+<text x="362" y="140" class="gt" style="font-size:12.5px">内圈：十二个位</text>
+<text x="362" y="161" class="sm" style="font-size:12.5px">从上升点起</text>
+<text x="362" y="182" class="sm" style="font-size:12.5px">逆时针数 1 到 12</text>
+<text x="362" y="203" class="sm" style="font-size:12.5px">各管人生一方面</text>
+<text x="362" y="245" class="gt" style="font-size:12.5px">上升点</text>
+<text x="362" y="266" class="sm" style="font-size:12.5px">出生那一刻</text>
+<text x="362" y="287" class="sm" style="font-size:12.5px">正从东方升起的点</text>
+<text x="362" y="308" class="sm" style="font-size:12.5px">平均约两小时</text>
+<text x="362" y="329" class="sm" style="font-size:12.5px">换一个宫；快慢</text>
+<text x="362" y="350" class="sm" style="font-size:12.5px">要看纬度和哪个宫</text>
+<text x="245" y="388" text-anchor="middle" class="sm" style="font-size:11.5px">行星位置是随手放的示意，不对应任何真实出生时刻</text>
+</svg>

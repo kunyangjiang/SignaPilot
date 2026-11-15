@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="一卷《托拉》和一个字母的示意图，本课自绘。中间一卷摊开的羊皮纸经卷，两边卷在木轴上，上面是一列列手写文字的示意线。其中一处用放大镜放大，里面是一个细长的希伯来字母瓦夫，旁边写多一个、少一个，整卷都不能用。底部：字面上的意思没变；可在纳赫曼尼德斯看来，字母的排法本身就有意义">
+  <!-- rollers -->
+  <path class="l" d="M52 30V250M44 30H60M44 250H60M430 30V250M422 30H438M422 250H438"/>
+  <path class="wash" d="M60 50Q70 40 80 50V230Q70 240 60 230ZM410 50Q420 40 430 50V230Q420 240 410 230Z"/>
+  <path class="l" d="M60 50Q70 40 80 50V230Q70 240 60 230ZM410 50Q420 40 430 50V230Q420 240 410 230Z"/>
+  <!-- parchment -->
+  <path class="wash" d="M80 50H410V230H80Z" style="opacity:.45"/>
+  <path class="l" d="M80 50H410M80 230H410"/>
+  <!-- columns of text lines -->
+  <g class="l thin" style="opacity:.75">
+    <path d="M100 70H180M96 82H180M100 94H180M98 106H180M100 118H180M96 130H180M100 142H180M98 154H180M100 166H180M96 178H180M100 190H180M98 202H180M100 214H180"/>
+    <path d="M206 70H286M202 82H286M206 94H286M204 106H286M206 118H286M202 130H286M206 142H286M204 154H286M206 166H286M202 178H286M206 190H286M204 202H286M206 214H286"/>
+    <path d="M312 70H392M308 82H392M312 94H392M310 106H392M312 118H392M308 130H392M312 142H392M310 154H392M312 166H392M308 178H392M312 190H392M310 202H392M312 214H392"/>
+  </g>
+  <!-- magnifier -->
+  <circle class="gl" cx="246" cy="130" r="14" style="stroke-width:1.6"/>
+  <path class="gl" d="M256 140L300 176" stroke-dasharray="3 3"/>
+  <circle class="wash" cx="330" cy="206" r="38" style="opacity:1"/>
+  <circle class="l" cx="330" cy="206" r="40"/>
+  <text x="330" y="226" text-anchor="middle" lang="he" style="font-size:54px;font-family:'SBL Hebrew','Noto Serif Hebrew','Times New Roman',serif">ו</text>
+  <path class="l" d="M358 236L378 258"/>
+  <text x="390" y="200" class="gt" style="font-size:12.5px">瓦夫</text>
+  <text x="96" y="262" style="font-size:13px">多一个、少一个，整卷都不能用</text>
+  <path class="l thin" d="M16 282H474"/>
+  <text x="245" y="304" text-anchor="middle" class="sm" style="font-size:12.5px">字面上的意思没变；</text>
+  <text x="245" y="322" text-anchor="middle" class="gt" style="font-size:13px">可在纳赫曼尼德斯看来，字母的排法本身就有意义</text>
+</svg>

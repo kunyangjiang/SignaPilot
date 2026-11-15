@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 440" role="img" aria-label="替身国王仪式的四格示意图，本课自绘，按学者通信的描述排列，不是古代图像。第一格：夜空里月亮被遮住一块，屋顶上的学者在看。第二格：一个普通人坐上王座，头戴王冠，写替身登上王位。第三格：真国王穿粗布衣服站在田边，写真国王被称为农夫，旁边有人在做净化仪式。第四格：王座、桌子、武器和权杖在火里，写危险期一过，替身和王后被处死，用品烧掉。底部：仪式又长又贵，学者要等天象真的出现才启动">
+  <g class="l thin" style="opacity:.8">
+    <rect x="16" y="16" width="220" height="180" rx="6"/><rect x="254" y="16" width="220" height="180" rx="6"/>
+    <rect x="16" y="210" width="220" height="180" rx="6"/><rect x="254" y="210" width="220" height="180" rx="6"/>
+  </g>
+  <g class="gt" style="font-size:13px"><text x="28" y="38">1</text><text x="266" y="38">2</text><text x="28" y="232">3</text><text x="266" y="232">4</text></g>
+  <!-- 1 eclipse -->
+  <circle class="gl" cx="150" cy="62" r="20" style="stroke-width:1.8"/>
+  <path class="wash" d="M150 42A20 20 0 0 1 150 82A13 20 0 0 0 150 42Z" style="opacity:.9"/>
+  <path class="l" d="M42 150H120V170H42Z"/>
+  <g class="l" transform="translate(80 118)"><circle cx="0" cy="-10" r="7"/><path d="M0 -3V20M0 20L-7 32M0 20L7 32M0 6L14 -8M0 6L-10 12"/></g>
+  <text x="126" y="186" text-anchor="middle" style="font-size:12.5px">天象真的出现了</text>
+  <!-- 2 substitute on throne -->
+  <path class="l" d="M332 66V150M332 66H350V112H398V150M350 130H398"/>
+  <g class="l" transform="translate(372 98)"><path d="M-9 -24L-5 -14L0 -22L5 -14L9 -24V-11H-9Z"/><circle cx="0" cy="-2" r="8"/><path d="M0 6V30M0 30H18V50M0 16L14 22"/></g>
+  <text x="364" y="186" text-anchor="middle" style="font-size:12.5px">替身登上王位</text>
+  <!-- 3 real king as farmer -->
+  <path class="l thin" d="M40 340H210M60 340l10-18M86 340l10-18M112 340l10-18M138 340l10-18"/>
+  <g class="l" transform="translate(176 282)"><circle cx="0" cy="-10" r="8"/><path d="M-10 -2H10L14 34H-14Z"/><path d="M-6 34L-8 52M6 34L8 52"/></g>
+  <g class="l" transform="translate(70 284)"><circle cx="0" cy="-10" r="7"/><path d="M0 -3V22M0 22L-7 36M0 22L7 36M0 6L16 0"/></g>
+  <path class="gl" d="M90 278q6 -8 0 -16q-6 -8 0 -16" style="stroke-width:1.4"/>
+  <text x="126" y="370" text-anchor="middle" style="font-size:12.5px">真国王被称为“农夫”</text>
+  <text x="126" y="384" text-anchor="middle" class="sm" style="font-size:11px">同时做净化仪式</text>
+  <!-- 4 objects burned -->
+  <path class="l" d="M290 330H330V290H302V318M346 330H386V306H346ZM404 330L420 270M436 330V276M430 282H442"/>
+  <path class="gl" d="M296 330Q284 312 300 296Q300 312 312 314Q318 298 312 284Q334 300 324 330M360 306Q352 294 364 284Q366 296 374 296Q378 288 376 280Q392 294 382 306M412 300Q402 288 414 276Q418 288 424 290" style="stroke-width:1.5"/>
+  <path class="l thin" d="M276 340H460"/>
+  <text x="364" y="364" text-anchor="middle" style="font-size:12.5px">危险期一过，替身和王后被处死</text>
+  <text x="364" y="382" text-anchor="middle" class="sm" style="font-size:11px">王座、桌子、武器、权杖烧掉</text>
+  <text x="245" y="420" text-anchor="middle" class="gt" style="font-size:13px">仪式又长又贵，学者要等天象真的出现才启动</text>
+</svg>

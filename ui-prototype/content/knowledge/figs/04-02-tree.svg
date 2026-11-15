@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 340" role="img" aria-label="哲人之树的示意图，本课自绘。一个圆底长颈的玻璃烧瓶，封着口。瓶底一小团东西，从里面向上长出分叉的枝条，像珊瑚，又像没有叶子的树冠，枝条是金色的。旁边小字：这种实验要用到水银，水银蒸气有剧毒，本课不提供任何做法。底部：对炼金术士来说，这是金属活着、会长的证据">
+  <path class="wash" d="M150 288Q90 280 90 216Q90 160 150 146V60H190V146Q250 160 250 216Q250 280 190 288Z"/>
+  <path class="l" d="M150 288Q90 280 90 216Q90 160 150 146V60H190V146Q250 160 250 216Q250 280 190 288Z" filter="url(#wob2)"/>
+  <path class="l" d="M144 60H196V48H144Z"/>
+  <path class="l thin" d="M110 260Q170 274 230 260"/>
+  <ellipse class="l" cx="170" cy="262" rx="26" ry="7"/>
+  <g class="gl" style="stroke-width:1.6">
+    <path d="M170 258V200M170 230L146 206M146 206L136 186M146 206L152 186M170 214L196 190M196 190L206 172M196 190L188 170M170 200L162 176M170 200L178 172M162 176L156 160M178 172L186 158M136 186L128 176M206 172L214 164M158 248L130 232M130 232L118 218M182 248L212 228M212 228L226 214M130 232L126 214M212 228L216 210"/>
+  </g>
+  <g class="gdot"><circle cx="136" cy="186" r="2"/><circle cx="206" cy="172" r="2"/><circle cx="156" cy="160" r="2"/><circle cx="186" cy="158" r="2"/><circle cx="118" cy="218" r="2"/><circle cx="226" cy="214" r="2"/></g>
+  <text x="170" y="312" text-anchor="middle" class="sm" style="font-size:11.5px">封口的烧瓶（示意）</text>
+  <g style="font-size:12.5px">
+    <text x="282" y="150">从瓶底一团金属里</text>
+    <text x="282" y="170">向上长出分叉的枝条</text>
+    <text x="282" y="190">像珊瑚，像没有叶子的树</text>
+  </g>
+  <g class="sm" style="font-size:11.5px">
+    <text x="282" y="230">这种实验要用到水银，</text>
+    <text x="282" y="248">水银蒸气有剧毒。</text>
+    <text x="282" y="266">本课不提供任何做法。</text>
+  </g>
+  <text x="245" y="334" text-anchor="middle" class="gt" style="font-size:13px">对炼金术士来说，这是金属“活着、会长”的证据</text>
+</svg>
