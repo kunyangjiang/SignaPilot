@@ -7,16 +7,15 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="apple-mobile-web-app-title" content="SignaPilot">
-<link rel="stylesheet" href="assets/site.css?v=76">
+<link rel="stylesheet" href="assets/site.css?v=79">
 <script>try{if(localStorage.getItem('sp-day')==='1')document.documentElement.classList.add('day')}catch(e){}</script>
 </head>
 <body data-page="home">
 
 <main class="home">
   <header class="e-top">
-    <a href="knowledge.html">Knowledge 知识</a>
-    <a href="cases.html">Cases 小说</a>
-    <button type="button" data-search>搜索</button>
+    <nav aria-label="栏目"><a href="knowledge.html">Knowledge<small>知识</small></a><a href="cases.html">Cases<small>小说</small></a></nav>
+    <button class="search-btn" type="button" data-search><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L20 20"/></svg><span>搜索</span><kbd>/</kbd></button>
   </header>
   <div class="e-objs" id="e-objs"></div>
   <div class="e-objs e-objs-m" id="e-objs-m"></div>
@@ -31,6 +30,6 @@
 </main>
 
 <script src="assets/data.js?v=76"></script>
-<script src="assets/site.js?v=76"></script>
+<script src="assets/site.js?v=79"></script>
 </body>
 </html>

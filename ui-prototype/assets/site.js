@@ -64,7 +64,7 @@
   // Fill a host element with writing. `setup(W, H, rect)` returns a weight function (x, y) -> 0..1 that says how
   // strongly the writing shows at each point, so it can thin out around titles and drawings.
   const fields = [];
-  function field(host, setup, strength) {
+  function field(host, setup, strength, opt = {}) {
     const cv = document.createElement('canvas'); cv.className = 'script'; cv.setAttribute('aria-hidden', 'true');
     host.prepend(cv);
     const cx = cv.getContext('2d'); let cells = [], cs = 38, timer = 0, rgb = '236,232,220';
@@ -78,13 +78,15 @@
       clearInterval(timer); if (!W || !H) return;
       rgb = getComputedStyle(cv).getPropertyValue('--script').trim() || rgb;
       cv.width = W * dpr; cv.height = H * dpr; cx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      cs = W < 700 ? 30 : 38;
-      const cols = Math.floor((W - 20) / cs), rows = Math.max(1, Math.floor((H - 10) / (cs * 1.25)));
-      const ox = (W - cols * cs) / 2, oy = (H - rows * cs * 1.25) / 2, weight = setup(W, H, cv.getBoundingClientRect());
+      // opt.cs / opt.lead / opt.skip let one page ask for tighter writing (smaller cells, closer rows, fewer gaps)
+      cs = opt.cs ? opt.cs(W) : W < 700 ? 30 : 38;
+      const lead = cs * (opt.lead || 1.25), skip = opt.skip ?? 0.12;
+      const cols = Math.floor((W - 20) / cs), rows = Math.max(1, Math.floor((H - 10) / lead));
+      const ox = (W - cols * cs) / 2, oy = (H - rows * lead) / 2, weight = setup(W, H, cv.getBoundingClientRect());
       cells = [];
       for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {
-        const x = ox + c * cs, y = oy + r * cs * 1.25, a = weight(x + cs / 2, y + cs / 2) * (strength || 1);
-        if (Math.random() > 0.12 && a > 0.05) cells.push({ x, y, a });
+        const x = ox + c * cs, y = oy + r * lead, a = weight(x + cs / 2, y + cs / 2) * (strength || 1);
+        if (Math.random() > skip && a > 0.05) cells.push({ x, y, a });
       }
       cells.forEach(write);
       // a few characters are rewritten every moment, so the page never quite settles
@@ -251,11 +253,11 @@
       <a class="brand" href="index.html">SignaPilot</a>
       <a class="back" href="${parentHref}" data-back aria-label="返回上一页"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 5.5L8 12l6.5 6.5"/></svg><span>返回</span></a>
       <nav aria-label="主导航">
-        <a href="knowledge.html" class="${dept === 'k' ? 'on' : ''}">Knowledge 知识</a>
-        <a href="cases.html" class="${dept === 'c' ? 'on' : ''}">Cases 小说</a>
+        <a href="knowledge.html" class="${dept === 'k' ? 'on' : ''}"${dept === 'k' ? ' aria-current="page"' : ''}>Knowledge<small>知识</small></a>
+        <a href="cases.html" class="${dept === 'c' ? 'on' : ''}"${dept === 'c' ? ' aria-current="page"' : ''}>Cases<small>小说</small></a>
       </nav>
       <span class="sp"></span>
-      <button class="search-btn" type="button" data-search>搜索<kbd>/</kbd></button>
+      <button class="search-btn" type="button" data-search><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L20 20"/></svg><span>搜索</span><kbd>/</kbd></button>
     </div></header>`);
   body.insertAdjacentHTML('beforeend', `
     <nav class="tabbar" aria-label="底部导航">
@@ -268,6 +270,9 @@
       <div class="sheet-head"><input type="search" placeholder="搜课程、小说、主题…" aria-label="搜索"><button type="button" data-close>关闭 Esc</button></div>
       <div class="res"></div>
     </div></div>`);
+
+  /* the bar is see-through over the page head; once anything scrolls beneath it, it turns into a solid shelf */
+  { const bar = $('.top'), stick = () => bar.classList.toggle('stuck', scrollY > 4); addEventListener('scroll', stick, { passive: true }); stick(); }
 
   /* search: a plain client-side filter over the 61 + 14 catalogue entries */
   const sheet = $('.sheet'), input = $('.sheet input'), res = $('.res');
@@ -1457,10 +1462,11 @@
       const home = $('.home');
       const restart = field(home, (W, H, rect) => {
         const small = W <= 700, c = $('.e-center');
-        const mid = small ? around(c, rect, [1, 1.16], 0.85, 1.55) : around(c, rect, [Math.max(1.24, W * 0.4 / c.offsetWidth), Math.max(1.6, H * 0.4 / c.offsetHeight)], 0.7, 2.1);
-        const spots = $$('.e-obj', home).filter(el => el.getBoundingClientRect().width > 0).map(el => around(el, rect, [1.2, 1.2], 0.75, 1.7));
+        // the clear space hugs the title and the drawings; everything else is written edge to edge
+        const mid = small ? around(c, rect, [0.86, 1.08], 0.62, 1.2) : around(c, rect, [Math.max(1.1, W * 0.34 / c.offsetWidth), Math.max(1.35, H * 0.32 / c.offsetHeight)], 0.66, 1.6);
+        const spots = $$('.e-obj', home).filter(el => el.getBoundingClientRect().width > 0).map(el => around(el, rect, [1.1, 1.1], 0.75, 1.45));
         return (x, y) => spots.reduce((f, s) => f * s(x, y), mid(x, y));
-      });
+      }, 1, { cs: W => W < 700 ? 24 : 30, lead: 1.12, skip: 0.03 });
 
       // The wordmark is deciphered: each slot flickers through the unreadable script, spins through candidate letters,
       // then locks, left to right. Driven by timers and the clock, so it always ends on the word.

@@ -54,14 +54,25 @@ html.day .draw .wash { opacity: .55; }
 @keyframes bob { 0%, 100% { translate: 0 0; } 50% { translate: 0 -6px; } }
 
 /* ---------- top bar ---------- */
-.top { position: sticky; top: 0; z-index: 40; height: var(--top-h); background: color-mix(in srgb, var(--bg) 82%, transparent); backdrop-filter: blur(10px); transition: transform .3s ease; }
+.top { position: sticky; top: 0; z-index: 40; height: calc(var(--top-h) + env(safe-area-inset-top)); padding-top: env(safe-area-inset-top);
+  background: color-mix(in srgb, var(--bg) 72%, transparent); backdrop-filter: blur(14px) saturate(1.15); -webkit-backdrop-filter: blur(14px) saturate(1.15);
+  border-bottom: 1px solid transparent; transition: transform .3s ease, background-color .25s ease, border-color .25s ease, box-shadow .25s ease; }
+/* once the page moves under it, the bar becomes a solid shelf with a hairline edge instead of a see-through film */
+.top.stuck { background: color-mix(in srgb, var(--bg) 94%, transparent); border-bottom-color: var(--line); box-shadow: 0 8px 24px -16px rgba(0, 0, 0, .55); }
+html.day .top.stuck { box-shadow: 0 8px 24px -18px rgba(29, 28, 25, .35); }
 .top.hide { transform: translateY(-100%); }
-.top .wrap { height: 100%; display: flex; align-items: center; gap: 28px; max-width: none; padding: 0 32px; }
-.brand { font-family: var(--f-fell); font-size: 23px; line-height: 1; letter-spacing: .01em; display: inline-flex; align-items: center; height: 30px; }
-.top nav { display: flex; gap: 28px; margin-left: auto; font-size: 14.5px; color: var(--ink-2); }
-.top nav a small { display: none; }
-.top nav a:hover, .top nav a.on { color: var(--ink); }
-.top nav a.on { border-bottom: 1px solid var(--gold); padding-bottom: 3px; }
+.top .wrap { height: 100%; display: flex; align-items: center; gap: 14px; max-width: none; padding: 0 max(32px, env(safe-area-inset-right)) 0 max(32px, env(safe-area-inset-left)); }
+.brand { font-family: var(--f-fell); font-size: 23px; line-height: 1; letter-spacing: .01em; display: inline-flex; align-items: center; height: 30px; margin-right: 12px; }
+/* Knowledge / Cases: one segmented control, the current department lit in gold */
+.top nav, .e-top nav { display: flex; gap: 2px; margin-left: auto; padding: 3px; border: 1px solid var(--line-2); border-radius: 999px;
+  background: color-mix(in srgb, var(--ink) 4%, transparent); font-size: 14px; }
+.top nav a, .e-top nav a { display: inline-flex; align-items: baseline; gap: 6px; height: 32px; padding: 0 15px; border-radius: 999px; line-height: 32px; color: var(--ink-2); white-space: nowrap;
+  transition: background-color .15s, color .15s, box-shadow .15s; }
+.top nav a small, .e-top nav a small { font-size: 12px; color: var(--ink-3); transition: color .15s; }
+.top nav a:hover, .e-top nav a:hover { color: var(--ink); background: color-mix(in srgb, var(--ink) 8%, transparent); }
+.top nav a.on { color: var(--ink); background: color-mix(in srgb, var(--gold) 18%, transparent); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--gold) 60%, transparent); }
+.top nav a.on small, .top nav a:hover small, .e-top nav a:hover small { color: var(--gold); }
+.top nav a:focus-visible, .e-top nav a:focus-visible, .search-btn:focus-visible, .top .back:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 .top .sp { display: none; }
 /* the wordmark is always the first thing in the bar, at the same spot on every page; "back" sits to its right */
 .top .back { display: inline-flex; align-items: center; gap: 3px; height: 30px; padding: 0 13px 0 8px; margin-left: -8px; border: 1px solid var(--line-2); border-radius: 15px;
@@ -109,8 +120,12 @@ body.reader .btt { bottom: 158px; }
 .resume-note.is-on { opacity: 1; transform: translate(-50%, 0); }
 .resume-note button { padding: 7px 18px; border-radius: 999px; background: var(--gold); color: #0b0c0f; font-size: 14.5px; }
 .resume-note button:hover { filter: brightness(1.1); }
-.search-btn { font-size: 14.5px; color: var(--ink-2); display: flex; gap: 8px; align-items: center; }
-.search-btn:hover { color: var(--ink); }
+.search-btn { display: inline-flex; gap: 8px; align-items: center; height: 40px; padding: 0 10px 0 13px; border: 1px solid var(--line-2); border-radius: 999px;
+  background: color-mix(in srgb, var(--ink) 4%, transparent); font-size: 14px; line-height: 1; color: var(--ink-2); white-space: nowrap;
+  transition: border-color .15s, color .15s, background-color .15s; }
+.search-btn svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; display: block; }
+.search-btn:hover { color: var(--ink); border-color: var(--gold); background: color-mix(in srgb, var(--gold) 10%, transparent); }
+.search-btn kbd { line-height: 18px; }
 kbd { font-family: ui-monospace, Consolas, monospace; font-size: 11px; border: 1px solid var(--line-2); border-radius: 4px; padding: 0 5px; color: var(--ink-3); }
 .tabbar { display: none; }
 
@@ -134,8 +149,14 @@ kbd { font-family: ui-monospace, Consolas, monospace; font-size: 11px; border: 1
 body[data-page="home"] { height: 100vh; height: 100dvh; overflow: hidden; }
 body[data-page="home"] .top, body[data-page="home"] .tabbar { display: none; }
 .home { position: fixed; inset: 0; display: grid; place-items: center; overflow: hidden; }
-.e-top { position: absolute; z-index: 4; left: 0; right: 0; top: 0; display: flex; justify-content: flex-end; gap: 28px; padding: 20px 32px; font-size: 14.5px; color: var(--ink-2); }
-.e-top a:hover, .e-top button:hover { color: var(--ink); }
+.e-top { position: absolute; z-index: 4; left: 0; right: 0; top: 0; display: flex; justify-content: flex-end; align-items: center; gap: 10px;
+  padding: calc(18px + env(safe-area-inset-top)) max(28px, env(safe-area-inset-right)) 18px max(28px, env(safe-area-inset-left)); }
+/* the home page has no bar, so over the glyph field each control carries its own ground, or the strokes run straight through the labels */
+.e-top nav, .e-top .search-btn { background: color-mix(in srgb, var(--bg) 86%, transparent); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 6px 20px -12px rgba(0, 0, 0, .6); }
+html.day .e-top nav, html.day .e-top .search-btn { box-shadow: 0 6px 18px -12px rgba(29, 28, 25, .3); }
+.e-top .search-btn { height: 40px; }
+.e-top .search-btn:hover { background: color-mix(in srgb, var(--gold) 12%, var(--bg)); }
 .e-objs { position: absolute; inset: 0; z-index: 2; }
 .e-objs-m { display: none; }
 .e-obj { position: absolute; width: clamp(70px, 8.2vw, 118px); text-align: center; transform: translate(-50%, -50%) rotate(var(--r, 0deg)); transition: transform .35s cubic-bezier(.2, .9, .3, 1.3); }
@@ -1095,7 +1116,10 @@ html.day .rd-segs li.off { opacity: .5; }
 
 /* home: decided by width alone — any window wide enough keeps the ring of seven; a phone gets four small ones */
 @media (max-width: 700px) {
-  .e-top { padding: 14px 20px; gap: 20px; font-size: 13.5px; }
+  .e-top { padding: calc(12px + env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) 12px max(16px, env(safe-area-inset-left)); gap: 8px; }
+  .e-top nav a { height: 30px; line-height: 30px; padding: 0 11px; gap: 5px; font-size: 13px; }
+  .e-top nav a small { font-size: 11px; }
+  .e-top .search-btn { height: 38px; padding: 0 12px 0 10px; font-size: 13px; }
   .e-objs, .e-hint { display: none; }
   .e-objs.e-objs-m { display: block; }
   .e-objs-m .e-obj { width: clamp(52px, 16.5vw, 70px); }
@@ -1113,10 +1137,11 @@ html.day .rd-segs li.off { opacity: .5; }
 
 @media (max-width: 860px) {
   :root { --gutter: 20px; --top-h: 52px; }
-  .top .wrap { padding: 0 20px; gap: 18px; }
+  .top .wrap { padding: 0 max(20px, env(safe-area-inset-right)) 0 max(20px, env(safe-area-inset-left)); gap: 10px; }
+  .brand { margin-right: 6px; }
   .top nav, .search-btn kbd { display: none; }
   .top .back { margin-left: -4px; }
-  .search-btn { margin-left: auto; }
+  .search-btn { margin-left: auto; height: 34px; padding: 0 13px 0 11px; font-size: 13.5px; gap: 6px; }
   .btt { right: 14px; bottom: 122px; }
   body.reader .btt { bottom: 66px; }
   .to-back { left: 14px; bottom: 72px; height: 42px; padding: 0 15px 0 11px; font-size: 14px; }
@@ -1188,3 +1213,24 @@ html.day .rd-segs li.off { opacity: .5; }
   .links em { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+/* ---------- moving between pages ----------
+   Browsers that support cross-document view transitions (Chrome/Edge 126+, Safari 18.2+) cross-fade the old page into
+   the new one, with the new page rising a few pixels; the top bar is its own layer so it holds still instead of flickering.
+   Others get a short fade-in on arrival. Reduced motion turns both off. */
+@view-transition { navigation: auto; }
+.top { view-transition-name: topbar; }
+::view-transition-old(root) { animation: pg-out .22s ease both; }
+::view-transition-new(root) { animation: pg-in .34s cubic-bezier(.2, .7, .2, 1) both; }
+::view-transition-group(topbar) { animation-duration: .25s; }
+@keyframes pg-out { to { opacity: 0; } }
+@keyframes pg-in { from { opacity: 0; transform: translateY(8px); } }
+@keyframes pg-fade { from { opacity: 0; } }
+/* opacity only here: a transform on body would knock the fixed buttons out of place while it runs */
+@supports not (view-transition-name: x) {
+  body { animation: pg-fade .3s ease both; }
+}
+@media (prefers-reduced-motion: reduce) {
+  @view-transition { navigation: none; }
+  body { animation: none; }
+}
