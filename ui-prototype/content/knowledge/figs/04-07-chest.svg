@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 284" role="img" aria-label="一只木箱和几页纸的示意图，本课自绘。左边一只打开的木箱，里面一叠手稿；箱子旁标 1672 年，阿什莫尔得到。右边一个圆形的馅饼盘，盘底垫着一张写满字的纸，纸边露出来，标据韦尔太太的说法，约一半被女仆拿去垫了馅饼。底部：留下来的，是侥幸留下来的">
+  <!-- chest -->
+  <g filter="url(#wob2)">
+    <path class="wash" d="M50 120H210V200H50Z"/>
+    <path class="l" d="M50 120H210V200H50Z"/>
+    <path class="l" d="M50 120L70 60H230L210 120"/>
+    <path class="l" d="M210 200L230 180V60"/>
+  </g>
+  <path class="l thin" d="M64 112H196M68 104H192M72 96H188" />
+  <path class="l thin" d="M50 150H210M120 150V166H140V150"/>
+  <text x="130" y="226" text-anchor="middle" style="font-size:13px">雪松木箱里的手稿</text>
+  <text x="130" y="244" text-anchor="middle" class="sm" style="font-size:11.5px">1672 年到了阿什莫尔手里</text>
+  <!-- pie dish -->
+  <g transform="translate(360 130)">
+    <path class="l thin" d="M-58 -26L50 -44L66 30L-44 44Z" transform="rotate(-6)"/>
+    <path class="sm" d="M-40 -18H30M-38 -8H34M-40 2H28" style="stroke:currentColor;stroke-width:.8;opacity:.6" transform="rotate(-6)"/>
+    <ellipse class="l" rx="62" ry="24" filter="url(#wob2)"/>
+    <ellipse class="gl" rx="50" ry="17"/>
+  </g>
+  <text x="360" y="200" text-anchor="middle" style="font-size:13px">约一半</text>
+  <text x="360" y="218" text-anchor="middle" style="font-size:13px">被女仆拿去垫了馅饼</text>
+  <text x="245" y="276" text-anchor="middle" class="gt" style="font-size:12.5px">留下来的，是侥幸留下来的</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 290" role="img" aria-label="从方格到折线的示意图，本课自绘。左边一张三乘三的空方格，格子里只有淡淡的数字；中间几个格子上标着小圆点，用金色的折线依次连起来，起点画一个小圆圈，终点画一条短横。右边单独画出这条折线，标连出来的形状。底部：这只是说明原理的示意，不是阿格里帕书里任何一个真实的印符">
+  <defs><marker id="ar4602" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <g transform="translate(40 40)">
+    <path class="l" d="M0 0H180V180H0ZM60 0V180M120 0V180M0 60H180M0 120H180" filter="url(#wob2)"/>
+    <g text-anchor="middle" class="sm" style="font-size:20px;opacity:.55">
+      <text x="30" y="38">4</text><text x="90" y="38">9</text><text x="150" y="38">2</text>
+      <text x="30" y="98">3</text><text x="90" y="98">5</text><text x="150" y="98">7</text>
+      <text x="30" y="158">8</text><text x="90" y="158">1</text><text x="150" y="158">6</text>
+    </g>
+    <g class="gl" style="stroke-width:2.2"><path d="M30 90L90 30L150 150L30 150" fill="none"/></g>
+    <circle class="gl" cx="30" cy="90" r="6" style="stroke-width:2"/>
+    <path class="gl" d="M22 158H38" style="stroke-width:2.2"/>
+  </g>
+  <path class="l thin" d="M240 130H290" marker-end="url(#ar4602)"/>
+  <g transform="translate(310 60) scale(.75)">
+    <g class="gl" style="stroke-width:2.6"><path d="M30 90L90 30L150 150L30 150" fill="none"/></g>
+    <circle class="gl" cx="30" cy="90" r="7" style="stroke-width:2.4"/><path class="gl" d="M20 158H40" style="stroke-width:2.6"/>
+  </g>
+  <text x="378" y="210" text-anchor="middle" style="font-size:12.5px">连出来的形状</text>
+  <text x="130" y="246" text-anchor="middle" class="sm" style="font-size:11.5px">字母 → 数字 → 格子 → 连线</text>
+  <text x="245" y="276" text-anchor="middle" class="gt" style="font-size:12px">只是说明原理，不是书里任何一个真实的印符</text>
+</svg>

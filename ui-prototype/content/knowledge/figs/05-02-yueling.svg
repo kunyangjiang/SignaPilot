@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 320" role="img" aria-label="孟春天子的示意图，本课自绘。中间一个站着的人像，身穿长袍，袍子上画斜线表示青色，标衣青衣；身边一面旗，也画斜线，标青旗；身后一辆车，前面几匹马，标乘鸾路、驾苍龙；腰间一块玉，标服苍玉；脚边一碗麦和一只羊，标食麦与羊；后面一座房子标居青阳左个。旁边一列小字：数八，味酸，音角，祀户，祭先脾。底部：一个月里，衣、食、住、行、祭祀，全都配好了">
+  <!-- hall -->
+  <path class="l thin" d="M110 120L180 80L250 120M120 120V230M240 120V230" />
+  <text x="180" y="72" text-anchor="middle" class="sm" style="font-size:11.5px">居青阳左个</text>
+  <!-- figure -->
+  <g transform="translate(180 170)" filter="url(#wob2)">
+    <circle cy="-36" r="12" class="l"/>
+    <path class="l thin" d="M-16 0L14 -16M-20 20L20 0M-22 40L22 18M-24 60L24 38" style="opacity:.5"/>
+    <path class="l" d="M-18 -22Q-30 30 -26 66H26Q30 30 18 -22Z"/>
+  </g>
+  <circle class="gl" cx="196" cy="186" r="5"/>
+  <!-- banner -->
+  <path class="l" d="M60 240V110"/><path class="l thin" d="M64 130L80 114M70 136L90 116M80 136L92 124" style="opacity:.5"/><path class="l" d="M60 110H96L88 124L96 138H60Z"/>
+  <!-- food -->
+  <path class="l" d="M220 238q14 12 28 0z"/><path class="l thin" d="M226 234l4 -8M234 234l2 -10M242 234l-2 -8"/>
+  <g class="l" transform="translate(276 230)"><ellipse rx="12" ry="7"/><circle cx="12" cy="-6" r="4"/><path d="M-8 6V12M6 6V12" class="thin"/></g>
+  <!-- labels -->
+  <g style="font-size:12px">
+    <text x="104" y="104" text-anchor="end">载青旗</text>
+    <text x="214" y="146" class="gt">衣青衣（袍上斜线示意）</text>
+    <text x="222" y="198" class="sm">服苍玉</text>
+    <text x="238" y="262" text-anchor="middle" class="sm">食麦与羊</text>
+  </g>
+  <!-- carriage outline -->
+  <g class="l thin" transform="translate(330 180)">
+    <path d="M0 -20H44V8H0Z"/><circle cx="8" cy="14" r="8"/><circle cx="36" cy="14" r="8"/><path d="M44 -4H74"/>
+    <path d="M74 -14Q86 -24 96 -14L96 8M78 8V-8"/>
+  </g>
+  <text x="380" y="222" text-anchor="middle" class="sm" style="font-size:11.5px">乘鸾路，驾苍龙</text>
+  <!-- side list -->
+  <g style="font-size:12px" class="sm"><text x="330" y="62">其数八</text><text x="330" y="80">其味酸</text><text x="330" y="98">其音角</text><text x="330" y="116">其祀户，祭先脾</text></g>
+  <text x="245" y="296" text-anchor="middle" class="gt" style="font-size:12.5px">一个月里，衣、食、住、行、祭祀，全都配好了</text>
+  <text x="245" y="314" text-anchor="middle" class="sm" style="font-size:11px">据《礼记·月令》孟春之月</text>
+</svg>

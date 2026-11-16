@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="五行两种次序的示意图，本课自绘。左右两个五角形，五个角上各写木、火、土、金、水，位置两边相同。左边沿着五角形的外边画一圈箭头：木到火、火到土、土到金、金到水、水到木，标相生：一个生出下一个，刘向父子用它推出汉为火德。右边画成五角星形的对角箭头：水到火、火到金、金到木、木到土、土到水，箭头表示前者胜后者，标相胜：一个克制另一个，秦用它推出自己为水德。底部：两种次序，用同一组五个字；排法不同，推出的王朝颜色也不同；这是本课为教学画的示意，古书里没有这样一张图">
+  <defs>
+    <marker id="ar5202" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker>
+    <marker id="ar5203" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="gl" fill="none"/></marker>
+  </defs>
+  <!-- positions (left centre 120,140; right centre 370,140; r=78): 木 top-left? use: 木(-74,-24) 火(0,-78) 土(74,-24) 金(46,63) 水(-46,63) -->
+  <g transform="translate(120 140)">
+    <g class="l" marker-end="url(#ar5202)" fill="none">
+      <path d="M-62 -36L-14 -70"/><path d="M14 -70L62 -36"/><path d="M70 -6L52 46"/><path d="M30 64H-30"/><path d="M-52 46L-70 -6"/>
+    </g>
+    <g text-anchor="middle" style="font-size:16px"><text x="-74" y="-18">木</text><text x="0" y="-72">火</text><text x="74" y="-18">土</text><text x="46" y="70">金</text><text x="-46" y="70">水</text></g>
+  </g>
+  <g transform="translate(370 140)">
+    <g class="gl" marker-end="url(#ar5203)" fill="none" style="stroke-width:1.6">
+      <path d="M-40 56L-6 -60"/><path d="M6 -60L40 54"/><path d="M34 60L-60 -18"/><path d="M-58 -26H58"/><path d="M60 -18L-34 60"/>
+    </g>
+    <g text-anchor="middle" style="font-size:16px"><text x="-74" y="-18">木</text><text x="0" y="-72">火</text><text x="74" y="-18">土</text><text x="46" y="70">金</text><text x="-46" y="70">水</text></g>
+  </g>
+  <g text-anchor="middle">
+    <text x="120" y="248" style="font-size:13.5px">相生</text><text x="120" y="266" class="sm" style="font-size:11.5px">一个生出下一个</text><text x="120" y="282" class="sm" style="font-size:11.5px">刘向父子：汉为火德</text>
+    <text x="370" y="248" class="gt" style="font-size:13.5px">相胜</text><text x="370" y="266" class="sm" style="font-size:11.5px">箭头从胜者指向被胜者</text><text x="370" y="282" class="sm" style="font-size:11.5px">秦：水胜火，秦为水德</text>
+  </g>
+  <text x="245" y="314" text-anchor="middle" class="sm" style="font-size:11px">同一组五个字，排法不同，结论不同。本课为教学画的示意，古书里没有这样一张图</text>
+</svg>

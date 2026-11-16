@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="四样东西的示意图，本课自绘。四个竖栏从左到右：犹太卡巴拉，标 12—13 世纪起、普罗旺斯和西班牙、犹太教内部；基督教卡巴拉，标 1486 年起、意大利和德意志、基督徒学者；赫尔墨斯派 Qabalah，标 19 世纪末起、英法的秘传团体、见第 07-05 课；现代流行说法，标今天、书店和网络。栏与栏之间用箭头连起来，箭头上写借用、翻译、重组。底部：后一栏借了前一栏的东西，但每一栏都有自己的问题和目的">
+  <defs><marker id="ar4501" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <g filter="url(#wob2)">
+    <path class="wash" d="M134 30H226V250H134Z"/>
+    <path class="l" d="M14 30H106V250H14ZM134 30H226V250H134ZM254 30H346V250H254ZM374 30H466V250H374Z"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="60" y="56" style="font-size:13.5px">犹太卡巴拉</text>
+    <text x="180" y="56" class="gt" style="font-size:13.5px">基督教卡巴拉</text>
+    <text x="300" y="50" style="font-size:13px">赫尔墨斯派</text><text x="300" y="66" style="font-size:13px">Qabalah</text>
+    <text x="420" y="56" style="font-size:13.5px">现代流行说法</text>
+    <text x="60" y="76" class="sm" style="font-size:11px">Kabbalah</text>
+    <text x="180" y="76" class="sm" style="font-size:11px">Cabala</text>
+    <text x="420" y="76" class="sm" style="font-size:11px">名字随便挂</text>
+  </g>
+  <g text-anchor="middle" style="font-size:12px">
+    <text x="60" y="110">12—13 世纪起</text><text x="60" y="130" class="sm">普罗旺斯</text><text x="60" y="146" class="sm">西班牙</text><text x="60" y="176">犹太教内部</text>
+    <text x="180" y="110">1486 年起</text><text x="180" y="130" class="sm">意大利</text><text x="180" y="146" class="sm">德意志</text><text x="180" y="176">基督徒学者</text>
+    <text x="300" y="110">19 世纪末起</text><text x="300" y="130" class="sm">英国、法国</text><text x="300" y="146" class="sm">的秘传团体</text><text x="300" y="176">见第 07-05 课</text>
+    <text x="420" y="110">今天</text><text x="420" y="130" class="sm">书店</text><text x="420" y="146" class="sm">网络</text><text x="420" y="176">数字命理等</text>
+  </g>
+  <g class="sm" text-anchor="middle" style="font-size:11px">
+    <text x="60" y="222">读《托拉》</text><text x="60" y="238">认识神</text>
+    <text x="180" y="222">为基督教</text><text x="180" y="238">找证据</text>
+    <text x="300" y="222">仪式与修习</text><text x="300" y="238">的框架</text>
+    <text x="420" y="222">个人命运</text><text x="420" y="238">与自我提升</text>
+  </g>
+  <path class="l thin" d="M20 200H100M140 200H220M260 200H340M380 200H460" stroke-dasharray="2 3"/>
+  <g class="l" marker-end="url(#ar4501)"><path d="M106 140H132"/><path d="M226 140H252"/><path d="M346 140H372"/></g>
+  <g class="sm" text-anchor="middle" style="font-size:11px"><text x="120" y="268">翻译</text><text x="240" y="268">重组</text><text x="360" y="268">借名</text></g>
+  <text x="245" y="306" text-anchor="middle" class="gt" style="font-size:12.5px">后一栏借了前一栏的东西，但每一栏都有自己要回答的问题</text>
+  <text x="245" y="324" text-anchor="middle" class="sm" style="font-size:11px">拼写的区分是现代研究的约定</text>
+</svg>

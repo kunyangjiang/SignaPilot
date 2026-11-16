@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 280" role="img" aria-label="四个字母变五个字母的示意图，本课自绘。上一行四个大号希伯来字母，从右往左读，标神名，四个字母，不念出来。下一行五个字母，中间多了一个金色的字母，标加进一个字母；整行标罗伊希林读作耶稣。右侧小字：希伯来文从右往左写。底部：手法是犹太传统里常见的字母游戏；结论却是犹太传统不会得出的">
+  <defs><marker id="ar4503" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <g style="font-size:40px;font-family:'Times New Roman',serif" text-anchor="middle">
+    <text x="300" y="70">י</text><text x="250" y="70">ה</text><text x="200" y="70">ו</text><text x="150" y="70">ה</text>
+  </g>
+  <g style="font-size:40px;font-family:'Times New Roman',serif" text-anchor="middle">
+    <text x="320" y="180">י</text><text x="270" y="180">ה</text><text x="220" y="180" class="gt">ש</text><text x="170" y="180">ו</text><text x="120" y="180">ה</text>
+  </g>
+  <path class="gl" d="M200 128Q220 112 240 128" filter="url(#wob2)"/>
+  <circle class="gl" cx="220" cy="166" r="26" filter="url(#wob2)"/>
+  <path class="l thin" d="M225 86V118" marker-end="url(#ar4503)"/>
+  <text x="352" y="52" style="font-size:13px">神名，四个字母</text>
+  <text x="352" y="70" class="sm" style="font-size:12px">犹太传统里不念出来</text>
+  <text x="352" y="162" class="gt" style="font-size:13px">中间加进一个字母</text>
+  <text x="352" y="180" class="sm" style="font-size:12px">罗伊希林读作“耶稣”</text>
+  <path class="l thin" d="M110 214H330" marker-end="url(#ar4503)" transform="rotate(180 220 214)"/>
+  <text x="220" y="232" text-anchor="middle" class="sm" style="font-size:11.5px">希伯来文从右往左写</text>
+  <text x="245" y="262" text-anchor="middle" class="gt" style="font-size:12.5px">手法来自犹太传统，结论是犹太传统不会得出的</text>
+</svg>

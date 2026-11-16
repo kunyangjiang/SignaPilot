@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 300" role="img" aria-label="土星方格的示意图，本课自绘。一个三乘三的格子，从上到下三行是 4 9 2、3 5 7、8 1 6。每一行右边写 15，每一列下面写 15，两条对角线的延长线上也写 15。旁边一行小字：总和 45。底部：本课按每一行、每一列、每条对角线和都是 15 的排法自绘；阿格里帕书里的方格是插图，排列方向本课没有逐格核对">
+  <g transform="translate(150 40)">
+    <path class="wash" d="M60 60H120V120H60Z"/>
+    <path class="l" d="M0 0H180V180H0ZM60 0V180M120 0V180M0 60H180M0 120H180" filter="url(#wob2)"/>
+    <g text-anchor="middle" style="font-size:28px">
+      <text x="30" y="40">4</text><text x="90" y="40">9</text><text x="150" y="40">2</text>
+      <text x="30" y="100">3</text><text x="90" y="100">5</text><text x="150" y="100">7</text>
+      <text x="30" y="160">8</text><text x="90" y="160">1</text><text x="150" y="160">6</text>
+    </g>
+    <g class="gt" style="font-size:13px">
+      <text x="196" y="36">= 15</text><text x="196" y="96">= 15</text><text x="196" y="156">= 15</text>
+    </g>
+    <g class="gt" text-anchor="middle" style="font-size:13px"><text x="30" y="204">15</text><text x="90" y="204">15</text><text x="150" y="204">15</text></g>
+    <path class="gl" d="M-8 -8L-24 -24M188 -8L204 -24" style="stroke-dasharray:3 3"/>
+    <text x="-28" y="-28" text-anchor="end" class="gt" style="font-size:13px">15</text><text x="208" y="-28" class="gt" style="font-size:13px">15</text>
+  </g>
+  <text x="30" y="120" class="sm" style="font-size:12px">1 到 9</text><text x="30" y="138" class="sm" style="font-size:12px">各用一次</text>
+  <text x="30" y="170" style="font-size:12.5px">总和 45</text>
+  <text x="245" y="272" text-anchor="middle" class="sm" style="font-size:11px">本课按每行、每列、每条对角线和都是 15 的排法自绘</text>
+  <text x="245" y="288" text-anchor="middle" class="sm" style="font-size:11px">阿格里帕书里的方格是插图，排列方向本课没有逐格核对</text>
+</svg>

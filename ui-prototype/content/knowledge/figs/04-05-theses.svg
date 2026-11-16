@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 300" role="img" aria-label="1486 年的 900 条论题示意图，本课自绘。一张长长的印刷单页，上面密密的小横线代表一条条论题，大部分是灰色，靠下有一段标金色，写 119 条讲卡巴拉；最下面一小段更深，写最后 72 条要用卡巴拉证明三位一体和基督。右边一个封印，写 1487 年整本被谴责">
+  <g filter="url(#wob2)">
+    <path class="wash" d="M120 186H250V262H120Z" style="opacity:.55"/>
+    <path class="wash" d="M120 226H250V262H120Z"/>
+    <path class="l" d="M110 18H260V272H110Z"/>
+  </g>
+  <text x="185" y="36" text-anchor="middle" class="gt" style="font-size:12.5px">900 条论题 · 罗马 · 1486</text>
+  <g class="l thin">
+    <path d="M122 48H248M122 56H240M122 64H246M122 72H236M122 80H248M122 88H242M122 96H230M122 104H248M122 112H244M122 120H238M122 128H248M122 136H232M122 144H246M122 152H240M122 160H248M122 168H236M122 176H244"/>
+  </g>
+  <g class="gl">
+    <path d="M122 192H246M122 200H238M122 208H248M122 216H232M122 232H246M122 240H240M122 248H248M122 256H236"/>
+  </g>
+  <text x="104" y="110" text-anchor="end" class="sm" style="font-size:12px">希腊、阿拉伯、</text>
+  <text x="104" y="126" text-anchor="end" class="sm" style="font-size:12px">经院哲学……</text>
+  <path class="gl" d="M266 192h18M266 214h18M284 192V214"/>
+  <text x="292" y="207" class="gt" style="font-size:13px">119 条讲卡巴拉</text>
+  <path class="l" d="M266 228h10M266 258h10M276 228V258"/>
+  <text x="284" y="240" style="font-size:12.5px">最后 72 条：</text>
+  <text x="284" y="256" class="sm" style="font-size:12px">用卡巴拉证明三位一体和基督</text>
+  <!-- seal -->
+  <g transform="translate(400 82)">
+    <circle class="l" r="34" filter="url(#wob2)"/><circle class="l thin" r="27"/>
+    <path class="l" d="M-12 -8L12 8M12 -8L-12 8"/>
+    <text y="56" text-anchor="middle" style="font-size:12.5px">1487 年</text>
+    <text y="72" text-anchor="middle" class="sm" style="font-size:12px">整本被谴责</text>
+  </g>
+  <path class="l thin" d="M262 70Q320 60 362 78" stroke-dasharray="3 3"/>
+  <text x="245" y="292" text-anchor="middle" class="sm" style="font-size:11.5px">示意，不按比例，也不是原书版面</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 340" role="img" aria-label="汉代书架的示意图，本课自绘。上方一行写六略。下面展开两略：左边数术略，下面六个小格：天文、历谱、五行、蓍龟、杂占、形法，旁注 190 家、2528 卷、本是天文历法和占卜官员的职责；右边方技略，下面四个小格：医经、经方、房中、神仙，旁注让人活下去的本事。天文和历谱两格用金色描边，标今天常被叫作科学；神仙一格也用金色描边，标和医书放在一起。底部：汉代的抽屉，和今天的学科划分完全不同">
+  <text x="245" y="26" text-anchor="middle" style="font-size:13.5px">《汉书·艺文志》：六略</text>
+  <g class="sm" text-anchor="middle" style="font-size:11.5px">
+    <text x="50" y="56">六艺</text><text x="110" y="56">诸子</text><text x="170" y="56">诗赋</text><text x="230" y="56">兵书</text>
+  </g>
+  <text x="310" y="56" text-anchor="middle" style="font-size:12.5px">数术</text><text x="410" y="56" text-anchor="middle" style="font-size:12.5px">方技</text>
+  <path class="l thin" d="M20 66H470"/>
+  <path class="l" d="M310 66V84M120 84H360M120 84V100M168 84V100M216 84V100M264 84V100M312 84V100M360 84V100"/>
+  <path class="l" d="M410 66V230"/>
+  <!-- shushu six -->
+  <g filter="url(#wob2)" class="l"><path d="M98 100H142V160H98ZM146 100H190V160H146ZM194 100H238V160H194ZM242 100H286V160H242ZM290 100H334V160H290ZM338 100H382V160H338Z"/></g>
+  <path class="gl" d="M98 100H142V160H98ZM146 100H190V160H146Z" style="stroke-width:2"/>
+  <g text-anchor="middle" style="font-size:13px;writing-mode:vertical-rl">
+    <text x="120" y="130">天文</text><text x="168" y="130">历谱</text><text x="216" y="130">五行</text><text x="264" y="130">蓍龟</text><text x="312" y="130">杂占</text><text x="360" y="130">形法</text>
+  </g>
+  <text x="144" y="180" text-anchor="middle" class="gt" style="font-size:11.5px">今天常被叫作科学</text>
+  <text x="240" y="206" text-anchor="middle" class="sm" style="font-size:11.5px">190 家，2528 卷</text>
+  <text x="240" y="224" text-anchor="middle" class="sm" style="font-size:11.5px">本是天文历法、祭祀和占卜官员的职责</text>
+  <!-- fangji four, vertical list -->
+  <g filter="url(#wob2)" class="l"><path d="M424 84H468V112H424ZM424 118H468V146H424ZM424 152H468V180H424ZM424 186H468V214H424Z"/></g>
+  <path class="gl" d="M424 186H468V214H424Z" style="stroke-width:2"/>
+  <path class="l thin" d="M410 98H424M410 132H424M410 166H424M410 200H424"/>
+  <g text-anchor="middle" style="font-size:12.5px"><text x="446" y="103">医经</text><text x="446" y="137">经方</text><text x="446" y="171">房中</text><text x="446" y="205">神仙</text></g>
+  <text x="446" y="236" text-anchor="middle" class="gt" style="font-size:11px">和医书</text><text x="446" y="252" text-anchor="middle" class="gt" style="font-size:11px">放在一起</text>
+  <text x="470" y="282" text-anchor="end" class="sm" style="font-size:11.5px">方技：让人活下去的本事</text>
+  <text x="245" y="326" text-anchor="middle" class="gt" style="font-size:12.5px">汉代的抽屉，和今天的学科划分完全不同</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 260" role="img" aria-label="一条翻译链的示意图，本课自绘。从左到右四格：第一格一卷希伯来文书，标犹太卡巴拉原著；箭头到第二格，一个伏案的译者，标米特里达特斯的拉丁译稿，旁边有两个小标签，误译和添进去的基督教说法；箭头到第三格，一张印刷单页，标皮科的论题；箭头到第四格，一个教会的封印，标罗马的审查。底部：每过一道手，东西都会变一点；皮科自己只能看到第二格以后的东西">
+  <defs><marker id="ar4502" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <!-- 1 scroll -->
+  <g transform="translate(58 90)" filter="url(#wob2)">
+    <path class="l" d="M-30 -30H30V30H-30Z"/><path class="l" d="M-36 -34V34M36 -34V34"/>
+    <path class="l thin" d="M22 -18H-22M22 -8H-18M22 2H-22M22 12H-14"/>
+  </g>
+  <!-- 2 translator -->
+  <g transform="translate(176 90)" class="l">
+    <circle cx="-8" cy="-26" r="9"/><path d="M-16 -16Q-24 4 -18 24M-18 24H18"/><path d="M-8 -12L14 4"/>
+    <path d="M-2 4H34V10H-2Z" class="thin"/><path d="M-30 30H40"/>
+  </g>
+  <!-- 3 sheet -->
+  <g transform="translate(300 90)" filter="url(#wob2)">
+    <path class="l" d="M-24 -36H24V36H-24Z"/><path class="l thin" d="M-16 -24H16M-16 -16H12M-16 -8H16M-16 0H10M-16 8H16M-16 16H14M-16 24H8"/>
+  </g>
+  <!-- 4 seal -->
+  <g transform="translate(424 90)"><circle class="l" r="28" filter="url(#wob2)"/><circle class="l thin" r="21"/><path class="l" d="M-8 -12V12M-14 0H14"/></g>
+  <g class="l" marker-end="url(#ar4502)"><path d="M100 90H136"/><path d="M222 90H266"/><path d="M332 90H388"/></g>
+  <g text-anchor="middle" style="font-size:12.5px">
+    <text x="58" y="148">犹太卡巴拉原著</text><text x="58" y="164" class="sm" style="font-size:11.5px">希伯来文</text>
+    <text x="180" y="148" class="gt">米特里达特斯</text><text x="180" y="164" class="sm" style="font-size:11.5px">拉丁译稿</text>
+    <text x="300" y="148">皮科的论题</text><text x="300" y="164" class="sm" style="font-size:11.5px">1486</text>
+    <text x="424" y="148">罗马的审查</text><text x="424" y="164" class="sm" style="font-size:11.5px">1487</text>
+  </g>
+  <g style="font-size:11.5px">
+    <path class="gl" d="M196 6H246V24H196ZM196 28H306V46H196Z" style="stroke-width:1"/>
+    <text x="204" y="19" class="gt">误译</text><text x="204" y="41" class="gt">添进基督教说法</text>
+    <path class="gl" d="M196 30L180 50" style="stroke-width:1" stroke-dasharray="2 2"/>
+  </g>
+  <path class="l thin" d="M196 192H468" stroke-dasharray="3 3"/>
+  <text x="332" y="208" text-anchor="middle" class="sm" style="font-size:11.5px">皮科自己能看到的，从这里开始</text>
+  <text x="245" y="244" text-anchor="middle" class="gt" style="font-size:12.5px">每过一道手，东西都会变一点</text>
+</svg>

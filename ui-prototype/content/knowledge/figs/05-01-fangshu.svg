@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 290" role="img" aria-label="方术列传里几种人的示意图，本课自绘。一个大框标《后汉书·方术列传》，里面四个小人像排成一排：一个抬头看天，标看风看星；一个低头摆蓍草，标卜筮；一个拿着针和药罐，标医者，如华佗；一个身后有一个淡淡的影子，标传说中的神仙方士。框外右上角一个人像标张衡，一道虚线连进框里，标范晔称他为阴阳之宗。底部：同一个类传，装下了今天会分在天文、医学、宗教和传说里的人">
+  <path class="l" d="M20 60H400V230H20Z" filter="url(#wob2)"/>
+  <text x="34" y="84" class="gt" style="font-size:13px">《后汉书·方术列传》</text>
+  <g class="l">
+    <g transform="translate(76 160)"><circle cy="-30" r="9"/><path d="M-10 -20Q-14 20 -12 44H12Q14 20 10 -20Z"/><path d="M4 -40L18 -58" class="thin"/></g>
+    <g transform="translate(166 160)"><circle cy="-26" r="9"/><path d="M-10 -16Q-14 20 -12 44H12Q14 20 10 -16Z"/><path d="M-22 44L-4 30M-18 44L0 32M-14 44L4 34" class="thin"/></g>
+    <g transform="translate(256 160)"><circle cy="-30" r="9"/><path d="M-10 -20Q-14 20 -12 44H12Q14 20 10 -20Z"/><path d="M16 4H30V22H16Z" class="thin"/><path d="M-20 -6L-12 -2" class="thin"/></g>
+    <g transform="translate(346 160)"><circle cy="-30" r="9"/><path d="M-10 -20Q-14 20 -12 44H12Q14 20 10 -20Z"/></g>
+  </g>
+  <g transform="translate(362 152)" class="l thin" style="opacity:.45"><circle cy="-30" r="9"/><path d="M-10 -20Q-14 20 -12 44H12Q14 20 10 -20Z"/></g>
+  <g text-anchor="middle" style="font-size:12px"><text x="76" y="222">看风看星</text><text x="166" y="222">卜筮</text><text x="256" y="222">医者，如华佗</text><text x="350" y="222">神仙方士</text></g>
+  <!-- Zhang Heng outside -->
+  <g class="l" transform="translate(448 40)"><circle cy="-8" r="8"/><path d="M-9 0Q-12 22 -10 34H10Q12 22 9 0Z"/></g>
+  <text x="448" y="96" text-anchor="middle" style="font-size:12.5px">张衡</text>
+  <path class="gl" d="M436 60Q410 70 390 90" stroke-dasharray="3 3"/>
+  <text x="448" y="114" text-anchor="middle" class="gt" style="font-size:11px">范晔称他</text><text x="448" y="128" text-anchor="middle" class="gt" style="font-size:11px">“阴阳之宗”</text>
+  <text x="245" y="266" text-anchor="middle" class="sm" style="font-size:11.5px">同一个类传，装下了今天会分在天文、医学、宗教和传说里的人</text>
+</svg>

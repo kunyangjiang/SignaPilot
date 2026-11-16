@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 300" role="img" aria-label="1510 年的一张意见表，本课自绘。表格左列是被征询的几方：美因茨大学、科隆大学、埃尔福特大学、海德堡大学、几位神学家、罗伊希林；右列是对没收的态度，前面几行画着灰色的没有反对没收，最后一行罗伊希林画着金色的反对没收。底部小字：各方意见细节不一，这里只画谁明确反对；书可以保留，因为它们有用，这个理由本身就带着基督徒的眼光">
+  <text x="245" y="26" text-anchor="middle" style="font-size:13.5px">1510 年：皇帝问，犹太人的书该不该没收？</text>
+  <g filter="url(#wob2)">
+    <path class="wash" d="M60 198H430V230H60Z"/>
+    <path class="l" d="M60 40H430V230H60ZM270 40V230"/>
+  </g>
+  <path class="l thin" d="M60 70H430M60 102H430M60 134H430M60 166H430M60 198H430"/>
+  <g style="font-size:12.5px">
+    <text x="74" y="60" class="sm">被征询的</text><text x="284" y="60" class="sm">反对没收吗？</text>
+    <text x="74" y="91">美因茨大学</text><text x="74" y="123">科隆大学</text><text x="74" y="155">埃尔福特大学</text><text x="74" y="187">海德堡大学，几位神学家</text>
+    <text x="74" y="219" class="gt">罗伊希林</text>
+  </g>
+  <g class="sm" style="font-size:12px"><text x="284" y="91">没有</text><text x="284" y="123">没有</text><text x="284" y="155">没有</text><text x="284" y="187">没有</text></g>
+  <text x="284" y="219" class="gt" style="font-size:12.5px">反对</text>
+  <path class="gl" d="M330 214l6 6 12-14"/>
+  <text x="245" y="256" text-anchor="middle" class="sm" style="font-size:11px">各方意见的细节不一，这里只画谁明确反对</text>
+  <text x="245" y="284" text-anchor="middle" class="gt" style="font-size:12.5px">他的理由之一：这些书对基督教神学家有用</text>
+</svg>

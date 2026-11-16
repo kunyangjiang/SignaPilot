@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="一张教学用的五行简表，本课自绘。五列：木、火、土、金、水。几行分别是：季节，春、夏、季夏末、秋、冬；天子衣色，青、朱、黄、白、黑；方位，东、南、中央、西、北。最下面一行标脏腑，分成上下两格：上格标《月令》祭先，脾、肺、心、肝、肾；下格标《素问》，肝、心、脾、肺、肾。上下两格之间画着交叉的虚线，标汉代的两种说法。底部：这是本课据《月令》《素问》拼出来的教学简表，不是哪一部古书原有的表；早期文献的配法并不都这样整齐">
+  <g class="l thin"><path d="M20 30H470M20 66H470M20 102H470M20 138H470M20 174H470M20 216H470M20 258H470"/><path d="M110 30V258M182 30V258M254 30V258M326 30V258M398 30V258"/></g>
+  <path class="l" d="M20 30H470V258H20Z" filter="url(#wob2)"/>
+  <g text-anchor="middle" style="font-size:14px"><text x="146" y="54">木</text><text x="218" y="54">火</text><text x="290" y="54">土</text><text x="362" y="54">金</text><text x="434" y="54">水</text></g>
+  <g style="font-size:12px"><text x="28" y="90">季节</text><text x="28" y="126">天子衣色</text><text x="28" y="162">方位</text><text x="28" y="200" class="gt">脏·《月令》</text><text x="28" y="242" class="gt">脏·《素问》</text></g>
+  <g text-anchor="middle" style="font-size:12.5px">
+    <text x="146" y="90">春</text><text x="218" y="90">夏</text><text x="290" y="90">季夏末</text><text x="362" y="90">秋</text><text x="434" y="90">冬</text>
+    <text x="146" y="126">青</text><text x="218" y="126">朱</text><text x="290" y="126">黄</text><text x="362" y="126">白</text><text x="434" y="126">黑</text>
+    <text x="146" y="162">东</text><text x="218" y="162">南</text><text x="290" y="162">中央</text><text x="362" y="162">西</text><text x="434" y="162">北</text>
+    <text x="146" y="200">脾</text><text x="218" y="200">肺</text><text x="290" y="200">心</text><text x="362" y="200">肝</text><text x="434" y="200">肾</text>
+    <text x="146" y="242">肝</text><text x="218" y="242">心</text><text x="290" y="242">脾</text><text x="362" y="242">肺</text><text x="434" y="242">肾</text>
+  </g>
+  <path class="gl" d="M110 174H398V258H110Z" style="stroke-width:1.2"/>
+  <text x="245" y="282" text-anchor="middle" class="gt" style="font-size:12px">脏腑这一行，汉代就有两种说法</text>
+  <text x="245" y="302" text-anchor="middle" class="sm" style="font-size:11px">本课据《月令》《素问》拼出的教学简表，不是哪一部古书原有的表</text>
+  <text x="245" y="318" text-anchor="middle" class="sm" style="font-size:11px">方位一行据《素问》和一般说法；早期文献的配法并不都这样整齐</text>
+</svg>

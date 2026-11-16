@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 300" role="img" aria-label="汉朝之德几次变化的示意图，本课自绘。一条横向时间轴：文帝时，一个水滴，标水德，丞相张苍；同在文帝时，一个水滴旁边一个问号和一条黄龙，标公孙臣主张土德，三年后报告黄龙见于成纪，下注《汉书》说卒不能明；公元前 104 年太初元年，一个黄色方块，标改为土德，以正月为岁首，色尚黄，印章五字；西汉末年，一团火，标刘向父子用相生推出火德。底部：同一个王朝，前后被认定为三种德；每一次都有人拿出理由和征兆">
+  <path class="l" d="M20 130H470"/>
+  <g class="dotk"><circle cx="70" cy="130" r="4.5"/><circle cx="190" cy="130" r="4.5"/><circle cx="310" cy="130" r="4.5"/><circle cx="430" cy="130" r="4.5"/></g>
+  <!-- icons -->
+  <path class="l" d="M70 64Q84 84 84 94A14 14 0 0 1 56 94Q56 84 70 64Z"/>
+  <g transform="translate(190 88)"><text x="-18" y="8" text-anchor="middle" style="font-size:24px">?</text><path class="gl" d="M2 10Q8 -14 22 -4Q30 2 24 10Q34 6 36 -6" fill="none" style="stroke-width:1.8"/></g>
+  <path class="wash" d="M296 72H324V100H296Z"/><path class="gl" d="M296 72H324V100H296Z"/>
+  <g transform="translate(430 92)"><path class="l" d="M0 -26Q16 -6 11 8Q8 20 0 22Q-8 20 -11 8Q-14 -4 -3 -14Q-2 -3 3 -2Q6 -16 0 -26Z"/></g>
+  <g text-anchor="middle" style="font-size:12.5px">
+    <text x="70" y="156">文帝时</text><text x="190" y="156">文帝时</text><text x="310" y="156" class="gt">前 104 年</text><text x="430" y="156">西汉末年</text>
+  </g>
+  <g text-anchor="middle" style="font-size:12px">
+    <text x="70" y="184">水德</text><text x="190" y="184">主张土德</text><text x="310" y="184" class="gt">改为土德</text><text x="430" y="184">火德</text>
+  </g>
+  <g text-anchor="middle" class="sm" style="font-size:11px">
+    <text x="70" y="202">丞相张苍</text><text x="70" y="216">河决金堤为符</text>
+    <text x="190" y="202">公孙臣上书</text><text x="190" y="216">三年后报黄龙</text><text x="190" y="230">《汉书》：卒不能明</text>
+    <text x="310" y="202">太初元年</text><text x="310" y="216">正月岁首、尚黄</text><text x="310" y="230">印章五字</text>
+    <text x="430" y="202">刘向父子</text><text x="430" y="216">按相生推算</text>
+  </g>
+  <text x="245" y="276" text-anchor="middle" class="gt" style="font-size:12.5px">同一个王朝，前后被认定为三种德</text>
+  <text x="245" y="294" text-anchor="middle" class="sm" style="font-size:11px">每一次都有人拿出理由和征兆</text>
+</svg>

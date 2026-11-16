@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 304" role="img" aria-label="一张桌子的示意图，本课自绘。桌子一头坐着一个人，弯腰盯着桌上一块圆石头，标通灵者：看，说；桌子另一头坐着一个人，拿笔在本子上写，标迪伊：问，记。两人之间有两道弧线：一道从石头到通灵者的眼睛，标看见；一道从通灵者的嘴到迪伊的本子，标说出来。底部：本子上留下的，是迪伊听到的话，不是石头里的东西">
+  <defs><marker id="ar4701" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M70 190H420M90 190V250M400 190V250" filter="url(#wob2)"/>
+  <!-- scryer leaning -->
+  <g class="l"><circle cx="110" cy="110" r="14"/><path d="M98 122Q80 150 84 190M120 124Q140 150 150 170"/></g>
+  <!-- stone -->
+  <circle class="wash" cx="175" cy="176" r="14"/><circle class="gl" cx="175" cy="176" r="14"/>
+  <path class="gl" d="M170 170q3 -3 6 -1" style="stroke-width:1"/>
+  <!-- Dee writing -->
+  <g class="l"><circle cx="370" cy="104" r="14"/><path d="M382 116Q400 150 396 190M360 118Q340 150 330 176"/><path d="M296 176H346L340 186H290Z" class="thin"/><path d="M328 172L340 158" /></g>
+  <!-- arcs -->
+  <path class="gl" d="M170 160Q150 120 124 112" marker-end="url(#ar4701)" stroke-dasharray="3 3"/>
+  <path class="l thin" d="M128 100Q230 30 320 164" marker-end="url(#ar4701)" stroke-dasharray="4 3"/>
+  <text x="150" y="132" class="gt" style="font-size:12px">看见？</text>
+  <text x="232" y="64" text-anchor="middle" style="font-size:12px">说出来</text>
+  <g text-anchor="middle" style="font-size:13px"><text x="110" y="74">通灵者</text><text x="370" y="70">迪伊</text></g>
+  <g text-anchor="middle" class="sm" style="font-size:11.5px"><text x="110" y="270">看，说</text><text x="370" y="270">问，记</text><text x="175" y="214">石头</text></g>
+  <text x="245" y="296" text-anchor="middle" class="gt" style="font-size:12px">本子上留下的，是迪伊听到的话</text>
+</svg>

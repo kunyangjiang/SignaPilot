@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 320" role="img" aria-label="秦朝定水德的示意图，本课自绘。左边一团火焰标周：火德；一个箭头指向右边一道水波，标秦：水德，箭头上写水胜火。水波下面列出五样跟着定下来的东西，每样一个小图：一面黑旗，标衣服旗帜尚黑；一个尺子标六寸六尺；一辆车前面六匹马，标乘六马；一个日历翻在十月，标岁首十月；一条河标黄河改名德水。最底下一行小字：还用来说明法令为什么要严急">
+  <defs><marker id="ar5201" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <!-- fire -->
+  <g transform="translate(120 70)" filter="url(#wob2)"><path class="l" d="M0 -36Q20 -10 14 10Q10 26 0 28Q-10 26 -14 10Q-18 -6 -4 -18Q-2 -4 4 -2Q8 -20 0 -36Z"/></g>
+  <text x="120" y="122" text-anchor="middle" style="font-size:13px">周：火德</text>
+  <!-- water -->
+  <g transform="translate(370 70)" filter="url(#wob2)"><path class="gl" d="M-40 -8q10 -10 20 0t20 0t20 0t20 0M-40 8q10 -10 20 0t20 0t20 0t20 0M-40 24q10 -10 20 0t20 0t20 0t20 0" style="stroke-width:2"/></g>
+  <text x="370" y="122" text-anchor="middle" class="gt" style="font-size:13px">秦：水德</text>
+  <path class="l" d="M170 70H316" marker-end="url(#ar5201)"/>
+  <text x="243" y="60" text-anchor="middle" style="font-size:12.5px">水胜火</text>
+  <text x="243" y="90" text-anchor="middle" class="sm" style="font-size:11px">“秦代周德，从所不胜”</text>
+  <path class="l thin" d="M20 146H470" stroke-dasharray="2 4"/>
+  <!-- five consequences -->
+  <g class="l">
+    <g transform="translate(58 196)"><path d="M-8 26V-26"/><path d="M-8 -26H22V-4H-8Z" style="fill:currentColor;stroke:none;opacity:.85"/><path d="M-8 -26H22V-4H-8Z"/></g>
+    <g transform="translate(150 196)"><path d="M-26 -6H26V8H-26Z"/><path d="M-20 -6V0M-12 -6V2M-4 -6V0M4 -6V2M12 -6V0M20 -6V2" class="thin"/></g>
+    <g transform="translate(245 196)"><path d="M-6 -12H24V8H-6Z"/><circle cx="0" cy="12" r="5"/><circle cx="18" cy="12" r="5"/><path d="M-6 -2H-30M-30 -12V8" class="thin"/><path d="M-30 -14L-38 -20M-30 -8L-40 -10M-30 -2L-40 0M-30 4L-40 8M-30 10L-38 16M-30 -18L-36 -26" class="thin"/></g>
+    <g transform="translate(340 196)"><path d="M-20 -22H20V20H-20Z"/><path d="M-20 -12H20" class="thin"/></g>
+    <g transform="translate(430 196)"><path d="M-30 -14Q-10 -2 -2 -14T30 -10M-30 6Q-10 18 -2 6T30 10" class="thin"/></g>
+  </g>
+  <text x="340" y="204" text-anchor="middle" style="font-size:14px">十</text>
+  <g text-anchor="middle" style="font-size:12px">
+    <text x="58" y="246">尚黑</text><text x="150" y="246">六寸、六尺</text><text x="245" y="246">乘六马</text><text x="340" y="246">岁首十月</text><text x="430" y="246">河名德水</text>
+  </g>
+  <g text-anchor="middle" class="sm" style="font-size:11px"><text x="58" y="262">衣服旗帜</text><text x="150" y="262">数以六为纪</text><text x="340" y="262">朝贺自十月朔</text></g>
+  <text x="245" y="300" text-anchor="middle" class="gt" style="font-size:12px">还被用来说明法令为什么要严急：“然后合五德之数”</text>
+</svg>

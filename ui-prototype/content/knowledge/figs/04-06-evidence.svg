@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 320" role="img" aria-label="三种证据的示意图，本课自绘。中间一本打开的魔法书，标书里写的：怎样做。向外三个箭头，分别指向三样东西：一枚刻着方格的小金属片，标实物：来历常常不清；一卷带封印的文书，标记录：审判、清单、日记；一页书边写着小字的抄本，标页边批注：读者留下的痕迹。底部：书只证明有人写下了做法；做没做、信不信、灵不灵，要另找证据">
+  <defs><marker id="ar4603" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <!-- open book -->
+  <g transform="translate(245 70)" filter="url(#wob2)">
+    <path class="wash" d="M-60 -30Q-30 -38 0 -28Q30 -38 60 -30V30Q30 22 0 32Q-30 22 -60 30Z"/>
+    <path class="l" d="M-60 -30Q-30 -38 0 -28Q30 -38 60 -30V30Q30 22 0 32Q-30 22 -60 30ZM0 -28V32"/>
+    <path class="l thin" d="M-50 -16H-10M-50 -6H-12M-50 4H-10M10 -16H50M12 -6H50M10 4H46"/>
+  </g>
+  <text x="245" y="126" text-anchor="middle" style="font-size:13px">书里写的：怎样做</text>
+  <g class="l thin" marker-end="url(#ar4603)"><path d="M190 120L100 176"/><path d="M245 134V176"/><path d="M300 120L390 176"/></g>
+  <!-- object -->
+  <g transform="translate(80 210)"><path class="l" d="M-22 -16H22V22H-22Z" filter="url(#wob2)"/><path class="l thin" d="M-10 -4H10V16H-10ZM-3.3 -4V16M3.3 -4V16M-10 2.7H10M-10 9.3H10"/></g>
+  <!-- record scroll with seal -->
+  <g transform="translate(245 212)"><path class="l" d="M-26 -18H26V20H-26Z" filter="url(#wob2)"/><path class="l thin" d="M-18 -8H18M-18 0H14M-18 8H10"/><circle class="gl" cx="18" cy="20" r="7"/></g>
+  <!-- annotated page -->
+  <g transform="translate(410 210)"><path class="l" d="M-22 -20H22V22H-22Z" filter="url(#wob2)"/><path class="l thin" d="M-14 -10H8M-14 -2H8M-14 6H8M-14 14H4"/><path class="gl" d="M13 -12q4 6 0 12q-4 6 0 12" style="stroke-width:1"/></g>
+  <g text-anchor="middle" style="font-size:12.5px"><text x="80" y="256">实物</text><text x="245" y="256">记录</text><text x="410" y="256">页边批注</text></g>
+  <g text-anchor="middle" class="sm" style="font-size:11px"><text x="80" y="272">来历常常不清</text><text x="245" y="272">审判、清单、日记</text><text x="410" y="272">读者留下的痕迹</text></g>
+  <text x="245" y="306" text-anchor="middle" class="gt" style="font-size:12.5px">书只证明有人写下了做法；做没做、信不信，要另找证据</text>
+</svg>

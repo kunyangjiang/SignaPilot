@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 320" role="img" aria-label="1533 年科隆版的示意图，本课自绘。一本打开的厚书，左边厚厚一叠标三卷正文：自然、星辰、神名与天使；右边薄薄一叠标附录：作者自己批评魔法的几章。书上方三个小人像：左边一个穿修士袍的人，标宗教裁判官告发；中间一个议事桌，标市议会停印；右边一个戴主教冠的人，标大主教出面。底部：一本讲魔法的书，后面附着它自己的批评">
+  <defs><marker id="ar4601" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <!-- three figures -->
+  <g class="l">
+    <g transform="translate(90 70)"><circle cy="-22" r="9"/><path d="M-9 -30Q0 -40 9 -30"/><path d="M-12 -12Q-18 20 -16 36H16Q18 20 12 -12Z"/><path d="M0 -12V36" class="thin"/></g>
+    <g transform="translate(245 70)"><path d="M-36 20H36M-30 20V36M30 20V36"/><circle cx="-20" cy="0" r="6"/><circle cx="0" cy="-2" r="6"/><circle cx="20" cy="0" r="6"/><path d="M-26 20V10Q-20 6 -14 10V20M-6 20V8Q0 4 6 8V20M14 20V10Q20 6 26 10V20" class="thin"/></g>
+    <g transform="translate(400 70)"><path d="M-8 -34L0 -46L8 -34Z"/><circle cy="-24" r="9"/><path d="M-13 -14Q-18 20 -16 36H16Q18 20 13 -14Z"/><path d="M14 -10V36" class="thin"/></g>
+  </g>
+  <g text-anchor="middle" style="font-size:12px">
+    <text x="90" y="124">宗教裁判官告发</text><text x="245" y="124">市议会停印</text><text x="400" y="124">大主教出面</text>
+    <text x="90" y="140" class="sm" style="font-size:11px">1532 年年底</text><text x="245" y="140" class="sm" style="font-size:11px">圣诞节前</text><text x="400" y="140" class="sm" style="font-size:11px">1533 年得以出版</text>
+  </g>
+  <g class="l thin" marker-end="url(#ar4601)"><path d="M140 96H190"/><path d="M300 96H350"/></g>
+  <!-- book -->
+  <g filter="url(#wob2)">
+    <path class="wash" d="M330 172H380V262H330Z"/>
+    <path class="l" d="M110 172H320V262H110Z"/>
+    <path class="l" d="M114 262V270H318V262M118 270V276H314V270"/>
+    <path class="gl" d="M330 172H380V262H330Z"/>
+  </g>
+  <path class="l thin" d="M180 172V262M250 172V262"/>
+  <g text-anchor="middle" style="font-size:12px">
+    <text x="145" y="206">第一卷</text><text x="145" y="224" class="sm" style="font-size:11px">自然</text>
+    <text x="215" y="206">第二卷</text><text x="215" y="224" class="sm" style="font-size:11px">星辰</text>
+    <text x="285" y="206">第三卷</text><text x="285" y="224" class="sm" style="font-size:11px">神名与天使</text>
+    <text x="355" y="200" class="gt">附录</text><text x="355" y="218" class="sm" style="font-size:11px">批评</text><text x="355" y="232" class="sm" style="font-size:11px">魔法</text>
+  </g>
+  <text x="400" y="186" class="sm" style="font-size:11px">摘自作者</text><text x="400" y="200" class="sm" style="font-size:11px">自己的书</text>
+  <text x="245" y="306" text-anchor="middle" class="gt" style="font-size:12.5px">一本讲魔法的书，后面附着它自己的批评</text>
+</svg>

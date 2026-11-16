@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 370" role="img" aria-label="三个时代的书架对照示意图，本课自绘。三栏从左到右：东汉《汉书·艺文志》、唐初《隋书·经籍志》、清《四库全书总目》。每行跟踪同一样东西：推算历法的书，汉代在数术略历谱，唐初在子部历数类，清代在天文算法类；占验天象的书，汉代在数术略天文，唐初在子部天文类，清代被划进术数类；看宅看墓的书，汉代在形法，唐初在五行类，清代在术数类；医书，汉代在方技略，唐初在医方类，清代在医家类；《太玄》，前两栏在儒家，第三栏在术数类；道经，汉代一栏是空的，唐初附在四部之末，清代在道家类。底部：每个时代划线的地方都不一样；清代一栏的医家、道家两格，是本课据一般说法补的，没有逐条核对">
+  <g text-anchor="middle" style="font-size:12.5px"><text x="200" y="26">东汉 艺文志</text><text x="310" y="26">唐初 经籍志</text><text x="420" y="26">清 四库总目</text></g>
+  <path class="l" d="M20 40H470" />
+  <g class="l thin"><path d="M20 82H470M20 124H470M20 166H470M20 208H470M20 250H470M20 292H470"/><path d="M145 40V292M255 40V292M365 40V292" stroke-dasharray="2 3"/></g>
+  <g style="font-size:12.5px"><text x="28" y="66">推算历法</text><text x="28" y="108">占验天象</text><text x="28" y="150">看宅看墓</text><text x="28" y="192">医书</text><text x="28" y="234" class="gt">《太玄》</text><text x="28" y="276">道经</text></g>
+  <g text-anchor="middle" style="font-size:12px">
+    <text x="200" y="66">数术·历谱</text><text x="310" y="66">子部·历数</text><text x="420" y="66">天文算法</text>
+    <text x="200" y="108">数术·天文</text><text x="310" y="108">子部·天文</text><text x="420" y="108">术数类</text>
+    <text x="200" y="150">数术·形法</text><text x="310" y="150">子部·五行</text><text x="420" y="150">术数类</text>
+    <text x="200" y="192">方技·医经</text><text x="310" y="192">子部·医方</text><text x="420" y="192" class="sm">医家*</text>
+    <text x="200" y="234" class="gt">诸子·儒家</text><text x="310" y="234" class="gt">子部·儒家</text><text x="420" y="234" class="gt">术数类</text>
+    <text x="200" y="276" class="sm">（还没有）</text><text x="310" y="276">附于四部之末</text><text x="420" y="276" class="sm">道家*</text>
+  </g>
+  <path class="gl" d="M150 218H470V248H150Z" style="stroke-width:1" filter="url(#wob2)"/>
+  <text x="245" y="324" text-anchor="middle" class="gt" style="font-size:12.5px">每个时代划线的地方都不一样</text>
+  <text x="245" y="346" text-anchor="middle" class="sm" style="font-size:11px">清代把汉代的“天文”拆成两半：推算归天文算法，占验归术数</text>
+  <text x="245" y="364" text-anchor="middle" class="sm" style="font-size:11px">* 据一般说法补，本课没有逐条核对《总目》</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 340" role="img" aria-label="一块方形护符的教学示意：中间一张三乘三的数字方格，格子上有一条金色折线，左上角一个行星符号，四边一圈铭文带，右上方画着天空和一颗行星。本课自绘，不是真实文物">
+  <g filter="url(#wob2)">
+    <path class="wash" d="M120 40H370V290H120Z" style="opacity:.35"/>
+    <path class="l" d="M120 40H370V290H120Z"/>
+    <path class="l thin" d="M146 66H344V264H146Z"/>
+  </g>
+  <!-- inscription band: placeholder marks only -->
+  <g class="sm" style="font-size:12px;letter-spacing:6px" text-anchor="middle">
+    <text x="245" y="58">· ⁘ · ⁘ · ⁘ · ⁘ ·</text>
+    <text x="245" y="282">· ⁘ · ⁘ · ⁘ · ⁘ ·</text>
+    <text x="133" y="165" transform="rotate(-90 133 165)">· ⁘ · ⁘ · ⁘ ·</text>
+    <text x="357" y="165" transform="rotate(90 357 165)">· ⁘ · ⁘ · ⁘ ·</text>
+  </g>
+  <!-- grid -->
+  <g transform="translate(185 110)">
+    <path class="l" d="M0 0H120V120H0ZM40 0V120M80 0V120M0 40H120M0 80H120"/>
+    <g text-anchor="middle" style="font-size:17px">
+      <text x="20" y="26">4</text><text x="60" y="26">9</text><text x="100" y="26">2</text>
+      <text x="20" y="66">3</text><text x="60" y="66">5</text><text x="100" y="66">7</text>
+      <text x="20" y="106">8</text><text x="60" y="106">1</text><text x="100" y="106">6</text>
+    </g>
+    <path class="gl" d="M20 60L60 20L100 100L20 100" fill="none" style="stroke-width:2"/>
+    <circle class="gl" cx="20" cy="60" r="4.5"/>
+  </g>
+  <!-- planet sign (Saturn) -->
+  <g transform="translate(166 86)" class="l">
+    <circle r="15" class="thin"/>
+    <path d="M-4 -9V6M-8 -5H0M-4 -1Q4 -4 5 2Q6 8 1 10" fill="none"/>
+  </g>
+  <!-- sky -->
+  <g transform="translate(428 66)">
+    <path class="l thin" d="M-46 22Q0 -30 46 22" stroke-dasharray="3 3"/>
+    <circle class="gl" cx="6" cy="-8" r="6"/>
+    <path class="gl" d="M-1 -8H13" style="stroke-width:1"/>
+    <text y="44" text-anchor="middle" class="sm" style="font-size:11.5px">天上的位置</text>
+  </g>
+  <text x="245" y="318" text-anchor="middle" class="sm" style="font-size:11.5px">教学示意，本课自绘，不是真实文物，铭文带只画记号</text>
+</svg>

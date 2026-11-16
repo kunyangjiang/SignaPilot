@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 300" role="img" aria-label="同一本书两个抽屉的示意图，本课自绘。左边一个书柜，标东汉《汉书·艺文志》，一个抽屉拉开，标儒家，里面一卷书标《太玄》；中间一个书柜标唐初《隋书·经籍志》，同样在儒家；右边一个书柜标清乾隆《四库全书总目》，《太玄》出现在另一个抽屉里，标术数类，排第一。底部：书没变，抽屉变了">
+  <g text-anchor="middle" style="font-size:12.5px">
+    <text x="85" y="26">《汉书·艺文志》</text><text x="245" y="26">《隋书·经籍志》</text><text x="405" y="26">《四库全书总目》</text>
+  </g>
+  <g text-anchor="middle" class="sm" style="font-size:11px"><text x="85" y="42">东汉</text><text x="245" y="42">唐初</text><text x="405" y="42">清乾隆</text></g>
+  <g filter="url(#wob2)" class="l">
+    <path d="M35 54H135V236H35Z"/><path d="M195 54H295V236H195Z"/><path d="M355 54H455V236H355Z"/>
+  </g>
+  <g class="l thin">
+    <path d="M35 100H135M35 146H135M35 192H135"/><path d="M195 100H295M195 146H295M195 192H295"/><path d="M355 100H455M355 146H455M355 192H455"/>
+  </g>
+  <!-- open drawers -->
+  <path class="wash" d="M28 100H142V146H28Z"/><path class="l" d="M28 100H142V146H28Z"/>
+  <path class="wash" d="M188 100H302V146H188Z"/><path class="l" d="M188 100H302V146H188Z"/>
+  <path class="wash" d="M348 192H462V236H348Z"/><path class="l" d="M348 192H462V236H348Z"/>
+  <g style="font-size:12.5px">
+    <text x="40" y="128">儒家</text><text x="200" y="128">儒家</text><text x="360" y="220">术数类</text>
+  </g>
+  <g class="gt" style="font-size:12.5px"><text x="84" y="128">《太玄》</text><text x="244" y="128">《太玄》</text><text x="408" y="220">《太玄》</text></g>
+  <text x="405" y="252" text-anchor="middle" class="sm" style="font-size:11px">排在术数类第一部</text>
+  <text x="245" y="286" text-anchor="middle" class="gt" style="font-size:13px">书没变，抽屉变了</text>
+</svg>

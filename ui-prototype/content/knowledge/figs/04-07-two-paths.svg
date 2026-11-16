@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 340" role="img" aria-label="手稿两路去向的示意图，本课自绘。左上一个人像标迪伊，下面分出两条线。一条线向右：1583 年以后的记录，迪伊亲笔的原本藏在托马斯·科顿爵士的图书馆，1659 年卡索邦据它印成书，书的封面上写某些精灵。另一条线向下：1581—1583 年的早期记录，到伍德尔，到琼斯家的箱子，约 1662 年发现，旁边一个馅饼盘标约一半垫了馅饼，再经韦尔在 1672 年交给阿什莫尔，再到斯隆，最后到大英图书馆。底部：两路记录，一路先被印成书，带着编者的判断；一路一直是手稿，差点没有留下来">
+  <defs><marker id="ar4702" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <g class="l"><circle cx="46" cy="40" r="11"/><path d="M34 52Q30 70 32 84H60Q62 70 58 52"/></g>
+  <text x="46" y="104" text-anchor="middle" style="font-size:13px">迪伊</text>
+  <!-- road 1: later records → print -->
+  <g class="l" marker-end="url(#ar4702)"><path d="M70 50H150"/><path d="M220 50H290"/></g>
+  <text x="110" y="40" text-anchor="middle" class="sm" style="font-size:11px">1583 年以后的记录</text>
+  <text x="186" y="55" text-anchor="middle" style="font-size:12.5px">科顿藏书</text>
+  <text x="186" y="74" text-anchor="middle" class="sm" style="font-size:10.5px">托马斯·科顿爵士</text>
+  <g transform="translate(330 50)" filter="url(#wob2)"><path class="wash" d="M-26 -30H26V30H-26Z"/><path class="l" d="M-26 -30H26V30H-26Z"/></g>
+  <text x="330" y="44" text-anchor="middle" class="gt" style="font-size:11px">某些</text><text x="330" y="60" text-anchor="middle" class="gt" style="font-size:11px">精灵</text>
+  <text x="420" y="44" style="font-size:12.5px" text-anchor="middle">1659 年</text><text x="420" y="62" style="font-size:12px" class="sm" text-anchor="middle">卡索邦印成书</text>
+  <!-- road 2: early records -->
+  <path class="l" d="M46 112V300" marker-end="url(#ar4702)"/>
+  <text x="58" y="132" class="sm" style="font-size:11px">1581—1583 年的早期记录</text>
+  <g style="font-size:12.5px"><text x="70" y="166">伍德尔</text><text x="70" y="200">琼斯家的箱子（约 1662）</text><text x="70" y="234">韦尔交给阿什莫尔，1672</text><text x="70" y="268">斯隆，1753 年购入</text><text x="70" y="306" class="gt">今天：大英图书馆</text></g>
+  <g class="dotk"><circle cx="46" cy="162" r="4"/><circle cx="46" cy="196" r="4"/><circle cx="46" cy="230" r="4"/><circle cx="46" cy="264" r="4"/></g>
+  <g transform="translate(300 196)"><ellipse class="l" rx="34" ry="13"/><ellipse class="gl" rx="26" ry="9"/></g>
+  <path class="l thin" d="M226 196H262" stroke-dasharray="3 3"/>
+  <text x="300" y="226" text-anchor="middle" class="sm" style="font-size:11.5px">约一半垫了馅饼</text>
+  <text x="380" y="140" text-anchor="middle" class="sm" style="font-size:11px">一路先印成书，带着编者的判断</text>
+  <text x="380" y="290" text-anchor="middle" class="sm" style="font-size:11px">一路一直是手稿，差点没留下</text>
+</svg>

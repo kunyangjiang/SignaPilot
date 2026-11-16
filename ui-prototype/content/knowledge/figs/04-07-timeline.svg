@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="一条时间线的示意图，本课自绘。竖向时间轴从 1581 年底到 1583 年 5 月。五个点：1581 年 12 月 22 日，索尔，天使安奈尔；1582 年 3 月 10 日，塔尔博特，即凯利，天使乌列尔；1582 年 11 月 21 日，显示石出现；1583 年 3 月 26 日，亚当的字母；1583 年 5 月 5 日，字母的正确写法。1582 年 3 月那一点之后，时间轴变成金色，标凯利当通灵者。底部：每一条都是记录里说发生了什么，不是我们确认发生了什么">
+  <path class="l" d="M150 34V96"/>
+  <path class="gl" d="M150 96V276" style="stroke-width:2.4"/>
+  <text x="128" y="190" text-anchor="middle" class="gt" style="font-size:12px;writing-mode:vertical-rl">凯利当通灵者</text>
+  <g class="dotk"><circle cx="150" cy="40" r="4.5"/><circle cx="150" cy="96" r="4.5"/><circle cx="150" cy="156" r="4.5"/><circle cx="150" cy="216" r="4.5"/><circle cx="150" cy="270" r="4.5"/></g>
+  <g class="gt" text-anchor="end" style="font-size:12px">
+    <text x="108" y="44">1581.12.22</text><text x="108" y="100">1582.3.10</text><text x="108" y="160">1582.11.21</text><text x="108" y="220">1583.3.26</text><text x="108" y="274">1583.5.5</text>
+  </g>
+  <g style="font-size:13px">
+    <text x="166" y="44">通灵者索尔：记录里说天使安奈尔出现</text>
+    <text x="166" y="100">“塔尔博特”来了：记录里说乌列尔出现</text>
+    <text x="166" y="118" class="sm" style="font-size:11.5px">他就是后来的爱德华·凯利</text>
+    <text x="166" y="160">记录里说：一块“显示石”出现</text>
+    <text x="166" y="220">记录里说：“亚当的字母”被启示</text>
+    <text x="166" y="274">记录里说：给出字母的正确写法</text>
+  </g>
+  <text x="245" y="314" text-anchor="middle" class="sm" style="font-size:11.5px">每一条都是“记录里说”，不是我们确认发生了什么</text>
+</svg>
