@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="同一家人，三种切法，本课自绘。上面站着三个人：左边比我大的姐姐，中间是我，右边比我小的妹妹。下面三行：汉语一行，姐姐和妹妹各有一个框；法语一行，一个 sœur 的括号同时罩住两人；英语一行，一个 sister 的括号也同时罩住两人。底部：两个人没变，变的是线画在哪里">
+  <!-- three people -->
+  <g class="l" filter="url(#wob2)">
+    <circle cx="110" cy="34" r="13"/><path d="M110 47V96M110 60L90 80M110 60L130 80M110 96L96 126M110 96L124 126"/>
+    <circle cx="245" cy="46" r="12"/><path d="M245 58V100M245 70L227 88M245 70L263 88M245 100L232 126M245 100L258 126"/>
+    <circle cx="380" cy="62" r="11"/><path d="M380 73V104M380 82L364 96M380 82L396 96M380 104L369 126M380 104L391 126"/>
+  </g>
+  <path class="wash" d="M96 47h28v49H96zM366 73h28v31h-28z" style="opacity:.5"/>
+  <g class="sm" style="font-size:12px" text-anchor="middle">
+    <text x="110" y="146">比我大</text><text x="245" y="146">我</text><text x="380" y="146">比我小</text>
+  </g>
+  <path class="l thin" d="M16 160H474"/>
+  <!-- rows -->
+  <g style="font-size:12.5px" class="sm"><text x="16" y="194">汉语</text><text x="16" y="240">法语</text><text x="16" y="286">英语</text></g>
+  <g class="gl" filter="url(#wob2)">
+    <rect x="70" y="174" width="80" height="30" rx="6"/>
+    <rect x="340" y="174" width="80" height="30" rx="6"/>
+  </g>
+  <g style="font-size:14px" text-anchor="middle"><text x="110" y="194">姐姐</text><text x="380" y="194">妹妹</text></g>
+  <g class="l thin">
+    <path d="M70 222v12H420v-12"/>
+    <path d="M70 268v12H420v-12"/>
+  </g>
+  <g style="font-size:14px" text-anchor="middle"><text x="245" y="252">sœur</text><text x="245" y="298">sister</text></g>
+  <text x="245" y="322" text-anchor="middle" class="gt" style="font-size:13px">两个人没变，变的是线画在哪里</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 340" role="img" aria-label="画框里和画框外，本课自绘的示意图，不复制原封面。中间一个竖长的画框，里面只用几根线示意一个戴军帽、举手敬礼的半身人形，标近景：一张脸、一身军装、一只举起的手。画框外四周用浅色字写着封面说明和同期报道里有、画面里没有的东西：体育宫的演出、观众、同伴伊萨和桑图拉、家乡瓦加杜古，每一项都用虚线指到画框边上，标画面外。底部：近景只留下姿态，来历都在框外">
+  <!-- frame -->
+  <g class="gl" filter="url(#wob2)"><rect x="180" y="30" width="130" height="200" rx="2"/></g>
+  <path class="wash" d="M180 30h130v200H180z" style="opacity:.35"/>
+  <!-- schematic saluting bust -->
+  <g class="l" filter="url(#wob2)">
+    <path d="M222 92Q245 80 268 92L264 100H226Z"/>
+    <circle cx="245" cy="116" r="17"/>
+    <path d="M212 230Q214 160 245 150Q276 160 278 230"/>
+    <path d="M232 150L245 172L258 150"/>
+    <path d="M270 168Q292 150 278 118L262 104"/>
+  </g>
+  <text x="245" y="250" text-anchor="middle" class="sm" style="font-size:11.5px">近景：一张脸、一身军装、</text>
+  <text x="245" y="266" text-anchor="middle" class="sm" style="font-size:11.5px">一只举起的手</text>
+  <!-- outside items -->
+  <g class="sm" style="font-size:12px">
+    <text x="30" y="60">体育宫的演出</text>
+    <text x="30" y="180">观众</text>
+    <text x="340" y="60">同伴伊萨、桑图拉</text>
+    <text x="340" y="180">家乡瓦加杜古</text>
+  </g>
+  <g class="gt" style="font-size:10.5px"><text x="30" y="76">画面外</text><text x="30" y="196">画面外</text><text x="340" y="76">画面外</text><text x="340" y="196">画面外</text></g>
+  <g class="l thin" stroke-dasharray="3 4"><path d="M112 64H178M64 176H178M312 64H336M312 176H336"/></g>
+  <path class="l thin" d="M16 290H474"/>
+  <text x="245" y="320" text-anchor="middle" class="gt" style="font-size:13px">近景只留下姿态，来历都在框外</text>
+</svg>

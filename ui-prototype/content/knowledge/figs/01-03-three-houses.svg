@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 340" role="img" aria-label="三处离水泵都很近的地方，本课据斯诺书中数字自绘。左：波兰街济贫院，自有一口井，不喝布罗德街的水，535 人，霍乱死亡 5 人，旁注照周围的死亡率应死 100 多人。中：啤酒厂，有麦芽酒和自有深井，厂主相信工人不喝水，70 多名工人，无人得重症。右：布罗德街 37 号雷管工厂，常备两桶街上水泵的水，约 200 名工人，霍乱死亡 18 人。底部：三处都离水泵很近；分开它们的，是喝不喝这口井的水">
+  <!-- buildings -->
+  <g class="l" filter="url(#wob2)">
+    <path d="M40 96V50L82 26L124 50V96Z"/><path d="M60 96V74H76V96M90 60h14v12H90zM58 56h14v10H58z"/>
+    <path d="M200 96V40H250V30H270V96Z"/><path d="M212 56h12v12h-12zM236 56h12v12h-12zM226 96V78h14v18"/>
+    <path d="M362 96V44H448V96Z"/><path d="M362 44L384 30L406 44L428 30L448 44"/><path d="M376 60h14v12h-14zM404 60h14v12h-14zM430 60h12v12h-12z"/>
+  </g>
+  <g style="font-size:12.5px" text-anchor="middle">
+    <text x="82" y="118">波兰街济贫院</text><text x="235" y="118">啤酒厂</text><text x="405" y="118">雷管工厂（37 号）</text>
+  </g>
+  <path class="l thin" d="M16 130H474"/>
+  <g class="sm" style="font-size:11px"><text x="16" y="150">喝布罗德街的水？</text></g>
+  <g style="font-size:12px" text-anchor="middle">
+    <text x="82" y="172">不喝</text><text x="235" y="172">不喝</text><text x="405" y="172" class="gt">喝</text>
+  </g>
+  <g class="sm" style="font-size:11px" text-anchor="middle">
+    <text x="82" y="190">院里自有一口井</text><text x="235" y="190">麦芽酒，自有深井</text><text x="405" y="190">厂里常备两桶泵水</text>
+  </g>
+  <path class="l thin" d="M16 204H474"/>
+  <g class="sm" style="font-size:11px"><text x="16" y="222">人数</text></g>
+  <g style="font-size:12px" text-anchor="middle"><text x="82" y="242">535 人</text><text x="235" y="242">70 多名工人</text><text x="405" y="242">约 200 名工人</text></g>
+  <g class="sm" style="font-size:11px"><text x="16" y="264">霍乱死亡</text></g>
+  <g text-anchor="middle"><text x="82" y="284" style="font-size:15px">5 人</text><text x="235" y="284" style="font-size:13px">无人重症</text><text x="405" y="284" class="gt" style="font-size:15px">18 人</text></g>
+  <text x="82" y="300" text-anchor="middle" class="sm" style="font-size:10.5px">照周围的死亡率，应死 100 多人</text>
+  <path class="l thin" d="M16 312H474"/>
+  <text x="245" y="332" text-anchor="middle" class="gt" style="font-size:12.5px">三处都离水泵很近；分开它们的，是喝不喝这口井的水</text>
+</svg>

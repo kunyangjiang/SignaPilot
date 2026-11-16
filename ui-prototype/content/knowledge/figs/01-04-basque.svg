@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="两栋巴斯克风格的房子，本课据巴特的描述自绘。左边是巴斯克乡间的农舍，宽大，有谷仓的大门、一道外梯、屋顶上一个鸽舍，三处都标出名字，下面写各部分都有用处。右边是巴黎郊区街尾的巴斯克小屋，小而整齐，白墙、红瓦、外露的木条，下面写用途去掉了，只剩信号。底部：形状留下了，来历没了，于是一眼就认出巴斯克性">
+  <text x="122" y="22" text-anchor="middle" style="font-size:13px">巴斯克乡间的农舍</text>
+  <text x="370" y="22" text-anchor="middle" style="font-size:13px">巴黎郊区街尾的“巴斯克小屋”</text>
+  <path class="l thin" d="M246 12V250" stroke-dasharray="3 5"/>
+  <!-- farmhouse -->
+  <g class="l" filter="url(#wob2)">
+    <path d="M24 190V96L122 50L220 96V190Z"/>
+    <path d="M50 190V138Q74 118 98 138V190"/>
+    <path d="M150 190L196 148H212V190M160 181H178M170 172H188M180 163H198"/>
+    <path d="M104 70V52H128V70M104 52L116 44L128 52"/>
+    <path d="M140 110h20v18h-20zM68 106h20v16H68z"/>
+  </g>
+  <circle class="dotk" cx="112" cy="60" r="2"/><circle class="dotk" cx="120" cy="60" r="2"/>
+  <g class="sm" style="font-size:11px">
+    <text x="48" y="208">谷仓的大门</text><text x="160" y="208">外梯</text><text x="134" y="40">鸽舍</text>
+  </g>
+  <path class="l thin" d="M74 196V194M176 196V192M132 44L126 52"/>
+  <text x="122" y="236" text-anchor="middle" class="gt" style="font-size:12px">各部分都有用处</text>
+  <!-- chalet -->
+  <g class="l" filter="url(#wob2)">
+    <path d="M300 190V118H440V190Z"/>
+    <path d="M288 120L370 76L452 120"/>
+    <path d="M300 118L440 190M440 118L300 190M370 118V190" style="stroke-width:1.2"/>
+    <path d="M356 190V160H384V190"/>
+  </g>
+  <path class="wash" d="M290 119L370 77L450 119Z" style="opacity:.9"/>
+  <g class="sm" style="font-size:11px"><text x="300" y="208">白墙</text><text x="398" y="72">红瓦</text><text x="400" y="208">外露的木条</text></g>
+  <text x="370" y="236" text-anchor="middle" class="gt" style="font-size:12px">用途去掉了，只剩信号</text>
+  <path class="l thin" d="M16 266H474"/>
+  <text x="245" y="296" text-anchor="middle" class="sm" style="font-size:12.5px">形状留下了，来历没了；</text>
+  <text x="245" y="316" text-anchor="middle" class="gt" style="font-size:13px">于是一眼就认出“巴斯克性”</text>
+</svg>

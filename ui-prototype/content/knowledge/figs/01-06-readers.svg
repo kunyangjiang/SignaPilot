@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 360" role="img" aria-label="同一张图，四种读法。本课据 Yee 1994 所引材料整理的教学示意，不是当时的图像。中间是利玛窦的中文世界图。四个方向各有一位读者和他手里的书：冯应京拿着天文，读出以天定地的新证据；魏濬拿着中国居中的观念，读出中国被画小、画偏；沈㴶拿着边防和礼制，读出八万里是诡计；类书编者拿着三才的分类，读出一页远方知识，纬线可以删掉。底部：接收的一方不是一个整体；“中国人坚信”只说对了其中一群">
+  <g class="l" filter="url(#wob2)"><ellipse cx="245" cy="160" rx="74" ry="40"/></g>
+  <g class="l thin"><path d="M185 160H305M245 124V196M200 140Q245 130 290 140M200 180Q245 190 290 180"/></g>
+  <text x="245" y="164" text-anchor="middle" style="font-size:12.5px">利玛窦的中文本</text>
+  <g class="l thin">
+    <path d="M190 134L140 96"/><path d="M300 134L350 96"/><path d="M190 186L140 226"/><path d="M300 186L350 226"/>
+  </g>
+  <g style="font-size:13px" text-anchor="middle">
+    <text x="100" y="30">冯应京</text><text x="390" y="30">魏濬</text><text x="100" y="244">沈㴶</text><text x="390" y="244">类书编者</text>
+  </g>
+  <g class="sm" style="font-size:11px" text-anchor="middle">
+    <text x="100" y="48">手里的书：天文</text><text x="390" y="48">手里的书：中国居中</text><text x="100" y="262">手里的书：边防、礼制</text><text x="390" y="262">手里的书：三才分类</text>
+  </g>
+  <g class="gt" style="font-size:11.5px" text-anchor="middle">
+    <text x="100" y="70">以天定地的新证据</text><text x="390" y="70">中国被画小、画偏</text><text x="100" y="284">“八万里”是诡计</text><text x="390" y="284">一页远方知识</text>
+    <text x="100" y="86">“真是好东西”</text><text x="390" y="86">北极星在天顶，怎会偏北</text><text x="100" y="300">骗了吕宋，夺了土地</text><text x="390" y="300">纬线可以删掉</text>
+  </g>
+  <path class="l thin" d="M16 318H474"/>
+  <text x="245" y="342" text-anchor="middle" class="sm" style="font-size:12px">接收的一方不是一个整体；“中国人坚信”只说对了其中一群</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 380" role="img" aria-label="一层一层往上搭的信号系统，本课自绘的教学示意，旗子画成带数字的方块，不是当年旗帜的真实图案。最底层：十面数字旗 0 到 9，本身不表示意思。第二层：三面旗竖着挂成一挂，2、5、3，读作 253，一挂可以分出上千个号码。第三层：一本书，253 查出 England，号码查书才变成词。最上层：一行句子，England expects that every man will do his duty，词排成句子，说不完。右边一个向上的箭头，写组合成倍增长。旁边一条小注：1 到 25 留给字母，书上没有的词也能拼出来">
+  <!-- tier labels column -->
+  <g class="sm" style="font-size:11.5px">
+    <text x="16" y="44">④ 排成句子</text>
+    <text x="16" y="128">③ 查书变成词</text>
+    <text x="16" y="216">② 挂成号码</text>
+    <text x="16" y="306">① 十面数字旗</text>
+  </g>
+  <!-- tier 4 sentence -->
+  <g class="gl" filter="url(#wob2)"><rect x="110" y="24" width="300" height="34" rx="5"/></g>
+  <text x="260" y="46" text-anchor="middle" style="font-size:12px">England expects that every man …</text>
+  <text x="260" y="76" text-anchor="middle" class="gt" style="font-size:11px">说不完</text>
+  <!-- tier 3 book -->
+  <g class="l" filter="url(#wob2)"><path d="M180 100h50v46h-50zM230 100h50v46h-50z"/></g>
+  <g style="font-size:12px" text-anchor="middle"><text x="205" y="128">253</text><text x="255" y="128">England</text></g>
+  <path class="l thin" d="M212 124H238M232 120L240 124L232 128"/>
+  <text x="300" y="128" class="gt" style="font-size:11px">到这里才有意思</text>
+  <!-- tier 2 hoist -->
+  <g class="l thin"><path d="M196 172V262"/></g>
+  <g class="l" filter="url(#wob2)"><rect x="198" y="176" width="34" height="24" rx="2"/><rect x="198" y="204" width="34" height="24" rx="2"/><rect x="198" y="232" width="34" height="24" rx="2"/></g>
+  <g style="font-size:13px" text-anchor="middle"><text x="215" y="193">2</text><text x="215" y="221">5</text><text x="215" y="249">3</text></g>
+  <text x="250" y="221" style="font-size:13px">→ 253</text>
+  <text x="300" y="221" class="gt" style="font-size:11px">一挂可分上千个号码</text>
+  <!-- tier 1 ten flags -->
+  <g class="l thin">
+    <rect x="110" y="290" width="26" height="20" rx="2"/><rect x="140" y="290" width="26" height="20" rx="2"/><rect x="170" y="290" width="26" height="20" rx="2"/><rect x="200" y="290" width="26" height="20" rx="2"/><rect x="230" y="290" width="26" height="20" rx="2"/><rect x="260" y="290" width="26" height="20" rx="2"/><rect x="290" y="290" width="26" height="20" rx="2"/><rect x="320" y="290" width="26" height="20" rx="2"/><rect x="350" y="290" width="26" height="20" rx="2"/><rect x="380" y="290" width="26" height="20" rx="2"/>
+  </g>
+  <g style="font-size:11.5px" text-anchor="middle"><text x="123" y="305">0</text><text x="153" y="305">1</text><text x="183" y="305">2</text><text x="213" y="305">3</text><text x="243" y="305">4</text><text x="273" y="305">5</text><text x="303" y="305">6</text><text x="333" y="305">7</text><text x="363" y="305">8</text><text x="393" y="305">9</text></g>
+  <text x="258" y="330" text-anchor="middle" class="gt" style="font-size:11px">单独一面，本身不表示意思</text>
+  <!-- growth arrow -->
+  <path class="gl" d="M452 300V40M446 50L452 38L458 50"/>
+  <text x="460" y="176" class="sm" style="font-size:11px;writing-mode:vertical-rl">组合成倍增长</text>
+  <path class="l thin" d="M16 346H474"/>
+  <text x="245" y="370" text-anchor="middle" class="sm" style="font-size:11.5px">后门：1 到 25 留给字母，书上没有的词也能一个字母一个字母地拼</text>
+</svg>

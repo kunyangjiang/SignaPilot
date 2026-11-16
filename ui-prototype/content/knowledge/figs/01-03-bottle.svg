@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 300" role="img" aria-label="一条物理的链，本课据斯诺的记述自绘。从左到右六个小图：布罗德街的水泵；一大瓶水，8 月 31 日星期四装；每天去西区的马车；一只杯子，当晚和星期五喝下；一张床，星期五晚发病、星期六死去；登记簿上的一行字，西区，9 月 2 日。一排箭头把它们连起来。下面一条虚线箭头从登记簿倒着指回水泵，写斯诺顺着这条链倒着走回去。底部：这行字不像水泵，也不靠约定，靠的是一条实际发生过的链">
+  <!-- pump -->
+  <g class="l" filter="url(#wob2)">
+    <path d="M40 120V60H60V120M36 120H64M60 70H74V80M50 60V50"/>
+    <path d="M60 66L78 54"/>
+  </g>
+  <!-- bottle -->
+  <g class="l" filter="url(#wob2)"><path d="M120 120V82Q120 72 126 68V56H132V68Q138 72 138 82V120Z"/></g>
+  <path class="wash" d="M121 92H137V119H121Z" style="opacity:.6"/>
+  <!-- cart -->
+  <g class="l" filter="url(#wob2)"><path d="M184 98H226V110H184ZM226 104L236 96"/><circle cx="194" cy="116" r="7"/><circle cx="218" cy="116" r="7"/></g>
+  <!-- cup -->
+  <g class="l" filter="url(#wob2)"><path d="M272 82H296L292 118H276Z"/><path d="M296 90Q306 96 294 106"/></g>
+  <!-- bed -->
+  <g class="l" filter="url(#wob2)"><path d="M338 118V92M338 106H388V118M388 106V98M346 100Q356 94 368 100"/><circle cx="346" cy="98" r="5"/></g>
+  <!-- ledger -->
+  <g class="gl" filter="url(#wob2)"><rect x="410" y="66" width="62" height="54" rx="3"/></g>
+  <g class="l thin"><path d="M416 80H466M416 92H466M416 104H460"/></g>
+  <path class="wash" d="M414 87h54v10h-54z" style="opacity:.7"/>
+  <!-- arrows -->
+  <g class="l thin">
+    <path d="M78 100H108M102 96L110 100L102 104"/>
+    <path d="M146 100H172M166 96L174 100L166 104"/>
+    <path d="M244 100H262M256 96L264 100L256 104"/>
+    <path d="M306 100H326M320 96L328 100L320 104"/>
+    <path d="M394 100H404M398 96L406 100L398 104"/>
+  </g>
+  <!-- labels -->
+  <g class="sm" style="font-size:11px" text-anchor="middle">
+    <text x="52" y="144">布罗德街</text><text x="52" y="160">的水泵</text>
+    <text x="129" y="144">8 月 31 日</text><text x="129" y="160">装一大瓶</text>
+    <text x="210" y="144">马车</text><text x="210" y="160">每天去西区</text>
+    <text x="286" y="144">当晚和</text><text x="286" y="160">星期五喝下</text>
+    <text x="364" y="144">星期五晚发病</text><text x="364" y="160">星期六死去</text>
+    <text x="441" y="144">登记簿上</text><text x="441" y="160">的一行字</text>
+  </g>
+  <path class="gl" d="M440 176Q245 236 52 176" stroke-dasharray="5 5"/>
+  <path class="gl" d="M60 172L50 176L58 184"/>
+  <text x="245" y="226" text-anchor="middle" class="gt" style="font-size:12px">斯诺顺着这条链，倒着走回去</text>
+  <path class="l thin" d="M16 250H474"/>
+  <text x="245" y="280" text-anchor="middle" class="sm" style="font-size:12.5px">这行字不像水泵，也不靠约定；靠的是一条实际发生过的链</text>
+</svg>

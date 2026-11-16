@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="信号员读一挂旗的先后顺序，本课据前文自绘的流程示意。最上面：看到一挂旗。往下问：前面有电报旗吗？没有，往左，查 1799 年的《信号书》，例如第 16 号是近战。有，往右，查波帕姆的词汇表，再问：号码小于 26 吗？小于，读字母，等后面几挂拼成一个词；不小于，直接查词，例如 253 是 England。底部：先分类，再查意思；分错了类，后面每一步都错">
+  <g class="l" filter="url(#wob2)"><rect x="185" y="14" width="120" height="30" rx="15"/></g>
+  <text x="245" y="34" text-anchor="middle" style="font-size:12.5px">看到一挂旗</text>
+  <path class="l thin" d="M245 44V58M241 52L245 60L249 52"/>
+  <g class="gl" filter="url(#wob2)"><path d="M245 62L330 88L245 114L160 88Z"/></g>
+  <text x="245" y="92" text-anchor="middle" style="font-size:12px">前面有电报旗吗？</text>
+  <!-- no branch -->
+  <path class="l thin" d="M160 88H90V140M86 134L90 142L94 134"/>
+  <text x="120" y="80" class="sm" style="font-size:11px">没有</text>
+  <g class="l" filter="url(#wob2)"><rect x="24" y="146" width="132" height="44" rx="5"/></g>
+  <text x="90" y="166" text-anchor="middle" style="font-size:12px">查 1799 年《信号书》</text>
+  <text x="90" y="182" text-anchor="middle" class="sm" style="font-size:11px">命令</text>
+  <text x="90" y="212" text-anchor="middle" class="gt" style="font-size:11px">例：第 16 号 = 近战</text>
+  <!-- yes branch -->
+  <path class="l thin" d="M330 88H390V122M386 116L390 124L394 116"/>
+  <text x="344" y="80" class="sm" style="font-size:11px">有</text>
+  <g class="l" filter="url(#wob2)"><rect x="324" y="126" width="132" height="30" rx="5"/></g>
+  <text x="390" y="146" text-anchor="middle" style="font-size:12px">查波帕姆词汇表</text>
+  <path class="l thin" d="M390 156V166M386 160L390 168L394 160"/>
+  <g class="gl" filter="url(#wob2)"><path d="M390 170L458 192L390 214L322 192Z"/></g>
+  <text x="390" y="196" text-anchor="middle" style="font-size:11.5px">号码小于 26？</text>
+  <path class="l thin" d="M322 192H270V232M266 226L270 234L274 226"/>
+  <text x="292" y="186" class="sm" style="font-size:11px">是</text>
+  <path class="l thin" d="M390 214V232M386 226L390 234L394 226"/>
+  <text x="398" y="228" class="sm" style="font-size:11px">否</text>
+  <g class="l" filter="url(#wob2)"><rect x="214" y="238" width="112" height="30" rx="5"/><rect x="346" y="238" width="112" height="30" rx="5"/></g>
+  <g style="font-size:12px" text-anchor="middle"><text x="270" y="258">读字母，等着拼</text><text x="402" y="258">直接查词</text></g>
+  <g class="gt" style="font-size:11px" text-anchor="middle"><text x="270" y="284">例：4 = D</text><text x="402" y="284">例：253 = England</text></g>
+  <path class="l thin" d="M16 298H474"/>
+  <text x="245" y="322" text-anchor="middle" class="sm" style="font-size:12.5px">先分类，再查意思；分错了类，后面每一步都错</text>
+</svg>

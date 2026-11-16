@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 340" role="img" aria-label="我们读到的索绪尔从哪里来，本课自绘。左边一条路：1907 到 1911 年，日内瓦三轮课，每年五到十二个人听；讲稿讲完就毁；往下是几本学生笔记；再往下，巴利和薛施蔼重建，旁注编者几乎没去听课；最后是 1916 年的《普通语言学教程》。右边一条路：1996 年，橘园里找到一只箱子；里面十来个信封，写着论语言的双重本质；最后是 2002 年出版的《普通语言学论集》。底部：一百多年里，人们读到的索绪尔，主要来自左边这条路">
+  <text x="130" y="22" text-anchor="middle" style="font-size:13px">课堂这条路</text>
+  <text x="370" y="22" text-anchor="middle" style="font-size:13px">手稿这条路</text>
+  <path class="l thin" d="M250 10V268" stroke-dasharray="3 5"/>
+  <!-- left: lectern -->
+  <g class="l" filter="url(#wob2)"><path d="M112 70L148 70L140 58H120ZM130 70V96M118 96H142"/><circle cx="96" cy="52" r="7"/><path d="M96 59V84"/></g>
+  <g class="sm" style="font-size:11.5px"><text x="160" y="56">1907–1911 年</text><text x="160" y="72">三轮课，每年</text><text x="160" y="88">5–12 人听</text></g>
+  <text x="34" y="112" class="gt" style="font-size:11px">讲稿讲完就毁</text>
+  <path class="l thin" d="M130 104V118M126 112L130 120L134 112"/>
+  <!-- notebooks -->
+  <g class="l" filter="url(#wob2)"><rect x="92" y="124" width="22" height="30" rx="2"/><rect x="120" y="124" width="22" height="30" rx="2"/><rect x="148" y="124" width="22" height="30" rx="2"/></g>
+  <text x="180" y="144" class="sm" style="font-size:11.5px">学生笔记</text>
+  <path class="l thin" d="M130 158V172M126 166L130 174L134 166"/>
+  <text x="130" y="192" text-anchor="middle" style="font-size:12px">巴利、薛施蔼“重建”</text>
+  <text x="130" y="209" text-anchor="middle" class="gt" style="font-size:11px">两人几乎没去听课</text>
+  <path class="l thin" d="M130 216V228M126 222L130 230L134 222"/>
+  <g class="gl" filter="url(#wob2)"><rect x="80" y="234" width="100" height="30" rx="3"/></g>
+  <path class="wash" d="M80 234h100v30H80z" style="opacity:.4"/>
+  <text x="130" y="254" text-anchor="middle" style="font-size:12px">《教程》1916</text>
+  <!-- right: box -->
+  <g class="l" filter="url(#wob2)"><path d="M332 54H408V96H332ZM332 54L344 42H420L408 54M420 42V84L408 96"/></g>
+  <g class="sm" style="font-size:11.5px" text-anchor="middle"><text x="370" y="114">1996 年，橘园里的箱子</text></g>
+  <path class="l thin" d="M370 120V134M366 128L370 136L374 128"/>
+  <g class="l" filter="url(#wob2)"><rect x="330" y="142" width="34" height="22" rx="2"/><rect x="368" y="146" width="34" height="22" rx="2"/><path d="M330 142L347 155L364 142M368 146L385 159L402 146"/></g>
+  <text x="370" y="186" text-anchor="middle" class="sm" style="font-size:11.5px">十来个信封：</text>
+  <text x="370" y="202" text-anchor="middle" style="font-size:12px">“论语言的双重本质”</text>
+  <path class="l thin" d="M370 210V228M366 222L370 230L374 222"/>
+  <g class="l" filter="url(#wob2)"><rect x="306" y="234" width="128" height="30" rx="3"/></g>
+  <text x="370" y="254" text-anchor="middle" style="font-size:12px">《普通语言学论集》2002</text>
+  <path class="l thin" d="M16 290H474"/>
+  <text x="245" y="320" text-anchor="middle" class="gt" style="font-size:13px">一百多年里，人们读到的“索绪尔”，主要来自左边这条路</text>
+</svg>
