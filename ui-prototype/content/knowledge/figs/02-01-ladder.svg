@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 400" role="img" aria-label="四种把握，本课自绘的分类示意。最下面一层是看得见、量得出的：高 110 毫米，没有脸，表面有半球形凹坑。第二层是由看得见的东西加上背景推出来的：石料不是本地的，大多数凹坑是结核崩落留下的。第三层是说得通、但证据不足的假说：制作者因为石头轻而好刻才挑中它，头上刻的是编织帽。最上面一层是目前不知道的：它拿来做什么，远道而来的是原料还是成品。右边一个向上的箭头，写离石头越来越远。底部：同一段话里，常常四种都有，要分开说">
+  <g class="l" filter="url(#wob2)">
+    <rect x="16" y="276" width="400" height="72" rx="6"/>
+    <rect x="16" y="190" width="400" height="72" rx="6"/>
+    <rect x="16" y="104" width="400" height="72" rx="6"/>
+  </g>
+  <g class="gl" filter="url(#wob2)"><rect x="16" y="18" width="400" height="72" rx="6" stroke-dasharray="8 6"/></g>
+  <path class="wash" d="M18 278H414V346H18Z" style="opacity:.6"/>
+  <g style="font-size:13px">
+    <text x="30" y="300">看得见、量得出</text>
+    <text x="30" y="214">从证据推出来</text>
+    <text x="30" y="128">说得通的假说</text>
+    <text x="30" y="42">目前不知道</text>
+  </g>
+  <g class="gt" style="font-size:11.5px">
+    <text x="30" y="322">高 110 毫米；没有脸；表面有几个半球形小坑；</text>
+    <text x="30" y="340">内部有坚硬的褐铁矿结核</text>
+    <text x="30" y="236">石料不是本地的；石头形成于中生代；</text>
+    <text x="30" y="254">大多数小坑是结核崩落留下的；约三万年</text>
+    <text x="30" y="150">因为轻而好刻，制作者才挑中这块石头；</text>
+    <text x="30" y="168">头上刻的是编织帽；它是丰产女神</text>
+    <text x="30" y="64">它拿来做什么；</text>
+    <text x="30" y="82">走远路的是一块原料，还是一件刻好的小像</text>
+  </g>
+  <path class="gl" d="M450 344V30M444 40L450 28L456 40"/>
+  <text x="458" y="120" class="sm" style="font-size:11px;writing-mode:vertical-rl">离石头越来越远</text>
+  <path class="l thin" d="M16 366H474"/>
+  <text x="245" y="390" text-anchor="middle" class="sm" style="font-size:12px">同一段话里常常四种都有，要分开说</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 360" role="img" aria-label="文本自己的两种线头，本课据《变形记》原文整理的对照示意。左边是邀请人往深处读的线头：普绪喀名叫灵魂，女儿名叫快乐；神谕说的是真话，却让人误解；好奇这个词，从普绪喀的故事一直贯穿到卢基乌斯。右边是让一一对应读不下去的地方：神为照顾作者改说拉丁语；灯会欢喜，剃刀会后悔；那滴油有三个互相竞争的动机；朱庇特开出风流条件。底部：同一个文本，既递出线头，又不肯只让人拉一根">
+  <text x="126" y="24" text-anchor="middle" style="font-size:13px">邀请人往深处读</text>
+  <text x="366" y="24" text-anchor="middle" style="font-size:13px">让一一对应读不下去</text>
+  <path class="l thin" d="M245 12V286" stroke-dasharray="3 5"/>
+  <g class="l" filter="url(#wob2)">
+    <rect x="16" y="40" width="220" height="64" rx="6"/><rect x="16" y="116" width="220" height="64" rx="6"/><rect x="16" y="192" width="220" height="78" rx="6"/>
+  </g>
+  <g class="gl" filter="url(#wob2)">
+    <rect x="256" y="40" width="218" height="52" rx="6"/><rect x="256" y="102" width="218" height="52" rx="6"/><rect x="256" y="164" width="218" height="52" rx="6"/><rect x="256" y="226" width="218" height="52" rx="6"/>
+  </g>
+  <g style="font-size:12px">
+    <text x="28" y="64">名字</text><text x="28" y="140">神谕</text><text x="28" y="216">“好奇”</text>
+    <text x="268" y="62">神改说拉丁语</text><text x="268" y="124">有感情的灯和剃刀</text><text x="268" y="186">那滴油的三个动机</text><text x="268" y="248">朱庇特的条件</text>
+  </g>
+  <g class="gt" style="font-size:11px">
+    <text x="28" y="84">普绪喀＝灵魂，嫁给“爱”，</text><text x="28" y="98">生下“快乐”</text>
+    <text x="28" y="160">“像毒蛇的祸害”说的正是</text><text x="28" y="174">丘比特：真话，却让人误解</text>
+    <text x="28" y="236">亵渎的、相当的、鲁莽的好奇；</text><text x="28" y="250">卢基乌斯也因好奇变成驴，</text><text x="28" y="264">祭司说他得了恶报</text>
+    <text x="268" y="82">“为了照顾作者”</text>
+    <text x="268" y="144">灯光欢喜，剃刀后悔</text>
+    <text x="268" y="206">背叛？嫉妒？想亲一亲？</text>
+    <text x="268" y="268">美丽的姑娘要拿来报答他</text>
+  </g>
+  <path class="l thin" d="M16 300H474"/>
+  <text x="245" y="324" text-anchor="middle" class="sm" style="font-size:12px">同一个文本，既递出线头，</text>
+  <text x="245" y="344" text-anchor="middle" class="sm" style="font-size:12px">又不肯只让人拉一根</text>
+</svg>

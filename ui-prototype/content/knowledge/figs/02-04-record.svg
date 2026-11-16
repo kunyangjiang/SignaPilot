@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 420" role="img" aria-label="丹佛 1979 年的文书记录，本课据美术馆三份文件整理的时间示意，不画任何器物。最左边：1953 年菲尔德捐赠，此后公开展出 25 年。往右：备忘录说，一年多以前，一位祖尼代表提出归还。1979 年 1 月：鹿氏族、熊氏族首领和资深弓祭司在收藏委员会与董事会联席会议上陈述。2 月 13 日：背景备忘录，列出美术馆的顾虑。3 月 21 日：董事会决议五条，授权交还。3 月 29 日：祖尼方面的声明，落款 3 月 30 日。底部：这是美术馆一方保存并公开的记录；祖尼内部怎样商议，不在这些文件里">
+  <path class="l" d="M60 24V350"/>
+  <g class="dotk"><circle cx="60" cy="40" r="4"/><circle cx="60" cy="96" r="4"/><circle cx="60" cy="152" r="4"/><circle cx="60" cy="214" r="4"/><circle cx="60" cy="270" r="4"/><circle cx="60" cy="326" r="4"/></g>
+  <g class="sm" style="font-size:11px" text-anchor="end">
+    <text x="50" y="44">1953</text><text x="50" y="100">约 1977</text><text x="50" y="156">1979.1</text><text x="50" y="218">2.13</text><text x="50" y="274">3.21</text><text x="50" y="330">3.29</text>
+  </g>
+  <g style="font-size:12.5px">
+    <text x="76" y="44">菲尔德捐赠；此后公开展出 25 年</text>
+    <text x="76" y="100">一位祖尼代表找到美术馆，要求归还</text>
+    <text x="76" y="156">联席会议上，祖尼代表陈述</text>
+    <text x="76" y="218">背景备忘录：美术馆的顾虑</text>
+    <text x="76" y="274">董事会决议五条：授权交还</text>
+    <text x="76" y="330">祖尼方面的声明</text>
+  </g>
+  <g class="gt" style="font-size:11px">
+    <text x="76" y="62">来历：测量员克拉克，据信 1899—1901 年得到；怎样得到，无记录</text>
+    <text x="76" y="118">时间据备忘录“一年多以前”推算，文件未写确切日期</text>
+    <text x="76" y="174">来的是鹿氏族、熊氏族首领和资深弓祭司，</text>
+    <text x="76" y="190">“他们为部族负责战神雕像”</text>
+    <text x="76" y="236">来历不明、两种“公有”、先例、露天神龛会使它朽坏</text>
+    <text x="76" y="292">第三条：“一位神……而不是一个符号或一件艺术品”</text>
+    <text x="76" y="348">以祖尼宗教领袖和部族代表的名义发出，落款 3 月 30 日</text>
+  </g>
+  <path class="l thin" d="M16 370H474"/>
+  <text x="245" y="392" text-anchor="middle" class="sm" style="font-size:12px">这是美术馆一方保存并公开的记录；</text>
+  <text x="245" y="412" text-anchor="middle" class="sm" style="font-size:12px">祖尼内部怎样商议，不在这些文件里</text>
+</svg>

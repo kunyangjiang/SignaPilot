@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 440" role="img" aria-label="一场争论的四步，本课自绘。第一步，威尔逊出示证据：除了女教师没人看见鬼，结尾的在哪儿与在那儿，湖边的木片。第二步，威尔逊自己提出反证：管家从描述里认出了从没见过的昆特。第三步，威尔逊的补救：第二章年轻漂亮那段对话，雇主英俊，鬼穿雇主的衣服。第四步，回到第五章核对：红头发、红胡子、没戴帽子都在管家追问之前说出，补救只解释了英俊和衣服。底部：核对的结果是这一条还没被安放好，不是鬼一定是真的">
+  <g class="l" filter="url(#wob2)">
+    <rect x="70" y="14" width="400" height="74" rx="6"/>
+    <rect x="70" y="112" width="400" height="58" rx="6"/>
+    <rect x="70" y="194" width="400" height="74" rx="6"/>
+  </g>
+  <g class="gl" filter="url(#wob2)"><rect x="70" y="292" width="400" height="74" rx="6"/></g>
+  <g class="l thin">
+    <path d="M270 88V108M266 102L270 110L274 102"/><path d="M270 170V190M266 184L270 192L274 184"/><path d="M270 268V288M266 282L270 290L274 282"/>
+  </g>
+  <g style="font-size:13px" text-anchor="middle">
+    <text x="36" y="48">①</text><text x="36" y="138">②</text><text x="36" y="228">③</text><text x="36" y="326">④</text>
+  </g>
+  <g class="sm" style="font-size:11px" text-anchor="middle">
+    <text x="36" y="66">证据</text><text x="36" y="156">反证</text><text x="36" y="246">补救</text><text x="36" y="344">核对</text>
+  </g>
+  <g style="font-size:12px">
+    <text x="84" y="36">威尔逊：除了女教师，没人被写成看见了鬼</text>
+    <text x="84" y="56">结尾“在哪儿？”“在那儿！”：孩子是被吓死的</text>
+    <text x="84" y="76">湖边的木片：一个性的象征</text>
+    <text x="84" y="136">威尔逊自己承认：管家从描述里认出了昆特，</text>
+    <text x="84" y="156">而女教师从没见过、也没听说过这个男仆</text>
+    <text x="84" y="216">威尔逊的补救：第二章那段“年轻漂亮”的对话；</text>
+    <text x="84" y="236">雇主“英俊”，鬼也五官端正，穿着雇主的衣服</text>
+    <text x="84" y="256" class="sm" style="font-size:11px">所以女教师心里早有一个现成的男人形象？</text>
+    <text x="84" y="314">回到第五章：红头发、红胡子、没戴帽子，</text>
+    <text x="84" y="334">都在管家追问“英俊吧？”“穿着呢？”之前说出</text>
+    <text x="84" y="354" class="gt" style="font-size:11.5px">补救解释了英俊和衣服，解释不了红发和红胡子</text>
+  </g>
+  <path class="l thin" d="M16 386H474"/>
+  <text x="245" y="410" text-anchor="middle" class="sm" style="font-size:12px">结果：这一条在“幻觉说”里还没被安放好；</text>
+  <text x="245" y="430" text-anchor="middle" class="sm" style="font-size:12px">这不等于证明了鬼是真的</text>
+</svg>
