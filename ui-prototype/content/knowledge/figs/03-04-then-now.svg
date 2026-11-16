@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 430" role="img" aria-label="四个环节，当时凭什么，今天怎么看。本课整理的对照示意；“今天”一栏是现代的一般科学认识，不是古人的看法。第一行，月亮牵动潮水：当时的依据是人人可见，托勒密列为天体的作用；今天，现象成立，解释换成了引力。第二行，月亮牵动人体里的血液：当时是从海潮引申；今天没有证据支持。第三行，白羊管头：当时是黄道和人体两条顺序的约定；今天看，它不是一个可以观察的事实，无所谓证实或推翻。第四行，出生时的天象塑造性情和命运：当时是从太阳造成四季类推，西塞罗已经反驳；今天没有可靠的证据支持。底部：理解古人为什么相信，不等于接受他们的预测">
+  <g class="sm" style="font-size:11px">
+    <text x="20" y="22">环节</text><text x="186" y="22">当时凭什么</text><text x="350" y="22">今天怎么看</text>
+  </g>
+  <g class="l" filter="url(#wob2)">
+    <rect x="12" y="32" width="466" height="76" rx="6"/>
+    <rect x="12" y="116" width="466" height="76" rx="6"/>
+    <rect x="12" y="200" width="466" height="76" rx="6"/>
+    <rect x="12" y="284" width="466" height="76" rx="6"/>
+  </g>
+  <g class="l thin"><path d="M176 40V100M340 40V100M176 124V184M340 124V184M176 208V268M340 208V268M176 292V352M340 292V352"/></g>
+  <g style="font-size:13px">
+    <text x="22" y="62">月亮牵动潮水</text>
+    <text x="22" y="146">月亮牵动</text><text x="22" y="164">人体里的血液</text>
+    <text x="22" y="230">白羊管头</text>
+    <text x="22" y="314">出生时的天象</text><text x="22" y="332">塑造性情和命运</text>
+  </g>
+  <g class="sm" style="font-size:11.5px">
+    <text x="186" y="62">人人可见；</text><text x="186" y="80">托勒密列为天体的作用</text>
+    <text x="186" y="146">从海潮引申</text><text x="186" y="164">到体内的液体</text>
+    <text x="186" y="230">黄道和人体</text><text x="186" y="248">两条顺序的约定</text>
+    <text x="186" y="314">从太阳造成四季类推；</text><text x="186" y="332">西塞罗已经反驳</text>
+  </g>
+  <g class="gt" style="font-size:12px">
+    <text x="350" y="62">现象成立；</text><text x="350" y="80">解释换成了引力</text>
+    <text x="350" y="146">没有证据支持</text>
+    <text x="350" y="230">不是可观察的事实，</text><text x="350" y="248">无所谓证实或推翻</text>
+    <text x="350" y="314">没有可靠的</text><text x="350" y="332">证据支持</text>
+  </g>
+  <path class="l thin" d="M12 380H478"/>
+  <text x="245" y="402" text-anchor="middle" style="font-size:12.5px">理解古人为什么相信，不等于接受他们的预测</text>
+  <text x="478" y="424" text-anchor="end" class="sm" style="font-size:10px">本课整理；“今天”一栏是现代的一般科学认识</text>
+</svg>

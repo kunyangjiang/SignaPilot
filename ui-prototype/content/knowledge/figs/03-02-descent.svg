@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 462" role="img" aria-label="《波伊曼德瑞斯》里的下降与上升，本课据米德英译整理的示意，不是古代的图。顶上是光，也就是心智、神。下面是第八层，然后是七层，最下面是自然和身体。左边一支箭头向下：原初的人穿过七重往下看，在自然里看见自己的倒影，爱上它，与自然缠绕在一起，于是人成了双重的，身体有死，本质的人不朽。右边一支箭头向上：死后穿过七层，依次交还生长与衰退、作恶的伎俩、欲望的诡计、专横的傲慢、亵渎的胆大、贪财的手段、诱人的谎言，到达第八层，赞美父亲，融入神。底部注明：七个统治者由造物的心智造出，其统治称为命运，一般理解为七颗行星的天球，文本没有直接这样说">
+  <rect class="wash" x="150" y="10" width="190" height="38" rx="19"/>
+  <text x="245" y="35" text-anchor="middle" style="font-size:15px" class="gt">光 · 心智 · 神</text>
+  <rect class="l thin" x="60" y="58" width="370" height="28" rx="5" stroke-dasharray="5 4" fill="none"/>
+  <text x="245" y="77" text-anchor="middle" style="font-size:12.5px">第八层：赞美父亲，融入神</text>
+  <g class="l" filter="url(#wob2)">
+    <rect x="60" y="94" width="370" height="28" rx="5"/>
+    <rect x="60" y="126" width="370" height="28" rx="5"/>
+    <rect x="60" y="158" width="370" height="28" rx="5"/>
+    <rect x="60" y="190" width="370" height="28" rx="5"/>
+    <rect x="60" y="222" width="370" height="28" rx="5"/>
+    <rect x="60" y="254" width="370" height="28" rx="5"/>
+    <rect x="60" y="286" width="370" height="28" rx="5"/>
+  </g>
+  <g class="sm" style="font-size:11.5px">
+    <text x="74" y="113">第七层</text>
+    <text x="74" y="145">第六层</text>
+    <text x="74" y="177">第五层</text>
+    <text x="74" y="209">第四层</text>
+    <text x="74" y="241">第三层</text>
+    <text x="74" y="273">第二层</text>
+    <text x="74" y="305">第一层</text>
+  </g>
+  <g style="font-size:12.5px">
+    <text x="140" y="113">交还：诱人的谎言</text>
+    <text x="140" y="145">交还：贪财的手段</text>
+    <text x="140" y="177">交还：亵渎的胆大</text>
+    <text x="140" y="209">交还：专横的傲慢</text>
+    <text x="140" y="241">交还：欲望的诡计</text>
+    <text x="140" y="273">交还：作恶的伎俩</text>
+    <text x="140" y="305">交还：生长与衰退</text>
+  </g>
+  <rect class="l" filter="url(#wob2)" x="60" y="324" width="370" height="72" rx="6"/>
+  <text x="74" y="346" style="font-size:13px">自然 · 身体</text>
+  <g class="sm" style="font-size:11.5px">
+    <text x="74" y="366">原初的人在自然里看见自己的倒影，爱上它，与之缠绕</text>
+    <text x="74" y="384">于是人是双重的：身体有死，本质的“人”不朽</text>
+  </g>
+  <path class="gl" d="M34 52V380M28 370L34 382L40 370"/>
+  <text x="20" y="120" class="gt" style="font-size:11.5px;writing-mode:vertical-rl">往下：原初的人穿过七重往下看</text>
+  <path class="gl" d="M456 380V52M450 62L456 50L462 62"/>
+  <text x="470" y="120" class="gt" style="font-size:11.5px;writing-mode:vertical-rl">往上：死后逐层交还，从第一层起</text>
+  <g class="sm" style="font-size:10.5px" text-anchor="middle">
+    <text x="245" y="416">七个统治者由造物的心智造出，其统治称为命运；</text>
+    <text x="245" y="432">一般理解为七颗行星的天球，文本没有直接这样说</text>
+    <text x="245" y="452">本课据米德英译整理的示意，不是古代的图</text>
+  </g>
+</svg>

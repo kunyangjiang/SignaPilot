@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 420" role="img" aria-label="两个方向，本课据扬布里柯《答波菲利》2.11 和斯坦福哲学百科条目整理的示意，不涉及任何具体做法。左边是波菲利担心的方向：箭头从人往上指向神，标着祈求、献祭、召请；箭头上打着问号，旁注：神不受影响，既不能被引诱，也不能被强迫，那么这些起什么作用。右边是扬布里柯回答的方向：箭头从神往下，神把符号留在下界；人借这些符号与神一同行动，这叫神术；人的思考、灵魂的良好状态和洁净，只是辅助的原因。底部：争的不是要不要理性，而是力量从哪一边来">
+  <g style="font-size:13px" text-anchor="middle">
+    <text x="128" y="24">波菲利担心的方向</text>
+    <text x="362" y="24">扬布里柯回答的方向</text>
+  </g>
+  <g class="l" filter="url(#wob2)">
+    <rect x="58" y="40" width="140" height="40" rx="20"/>
+    <rect x="58" y="250" width="140" height="40" rx="8"/>
+    <rect x="292" y="40" width="140" height="40" rx="20"/>
+    <rect x="292" y="250" width="140" height="40" rx="8"/>
+  </g>
+  <g style="font-size:14px" text-anchor="middle">
+    <text x="128" y="65">神</text><text x="128" y="275">人</text>
+    <text x="362" y="65">神</text><text x="362" y="275">人</text>
+  </g>
+  <path class="gl" d="M128 246V86M120 98L128 84L136 98"/>
+  <circle class="l thin" cx="128" cy="166" r="14" fill="none"/>
+  <text x="128" y="172" text-anchor="middle" class="gt" style="font-size:15px">？</text>
+  <g class="sm" style="font-size:11.5px">
+    <text x="20" y="140">祈求</text><text x="20" y="160">献祭</text><text x="20" y="180">召请</text>
+  </g>
+  <g class="sm" style="font-size:11px">
+    <text x="148" y="120">神不受影响，</text>
+    <text x="148" y="136">既不能被引诱，</text>
+    <text x="148" y="152">也不能被强迫</text>
+  </g>
+  <path class="l" d="M362 84V246M354 232L362 246L370 232"/>
+  <g style="font-size:12px">
+    <text x="372" y="126">神把符号</text>
+    <text x="372" y="144">留在下界</text>
+  </g>
+  <g class="sm" style="font-size:11px">
+    <text x="252" y="190">人借这些符号</text>
+    <text x="252" y="206">与神一同行动：</text>
+    <text x="252" y="222">“神术”</text>
+  </g>
+  <g class="sm" style="font-size:11px" text-anchor="middle">
+    <text x="128" y="310">那么这些起什么作用？</text>
+    <text x="362" y="310">思考、良好状态、洁净：</text>
+    <text x="362" y="326">只是“辅助的原因”</text>
+  </g>
+  <path class="l thin" d="M245 36V330" stroke-dasharray="3 5"/>
+  <path class="l thin" d="M16 350H474"/>
+  <text x="245" y="376" text-anchor="middle" style="font-size:12.5px">争的不是要不要理性，而是力量从哪一边来</text>
+  <text x="474" y="404" text-anchor="end" class="sm" style="font-size:10.5px">本课整理的示意，不涉及任何具体做法</text>
+</svg>
