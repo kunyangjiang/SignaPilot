@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 448" role="img" aria-label="伊本·萨拉赫对照过的五个本子，本课据注 4、注 5 整理。第一，叙利亚文译本，年代不详，失传。第二，早期阿拉伯文译本，约 800 年，失传。第三，哈贾吉译本，827 至 828 年，巴格达，存两部抄本，一部完整。第四，伊斯哈格译本，879 至 890 年间，为一位维齐尔所作，未经修订的原本失传。第五，塔比特修订的伊斯哈格本，901 年以前，存十部抄本。第五个注明是修订第四个。底部说明：第一个是叙利亚文，第五个是第四个的修订，所以阿拉伯文译本算作四个，也可能五个；完整存世的只有第三和第五；大英图书馆 Add. MS 7474 中，第三个译本的页边抄着第五个的对应段落">
+  <text x="16" y="24" style="font-size:13.5px">伊本·萨拉赫（1154 年卒，大马士革）对照的五个本子</text>
+  <g class="sm" style="font-size:11px">
+    <text x="64" y="50">本子</text><text x="236" y="50">年代 · 地点</text><text x="364" y="50">今天</text>
+  </g>
+  <g class="l thin" fill="none" stroke-dasharray="4 5">
+    <rect x="44" y="60" width="430" height="52" rx="8"/>
+    <rect x="44" y="122" width="430" height="52" rx="8"/>
+    <rect x="44" y="246" width="430" height="52" rx="8"/>
+  </g>
+  <rect class="wash" x="44" y="184" width="430" height="52" rx="8"/>
+  <rect class="wash" x="44" y="308" width="430" height="52" rx="8"/>
+  <g class="l" fill="none" filter="url(#wob2)">
+    <rect x="44" y="184" width="430" height="52" rx="8"/>
+    <rect x="44" y="308" width="430" height="52" rx="8"/>
+  </g>
+  <g text-anchor="middle" style="font-size:14px">
+    <text x="26" y="91">①</text><text x="26" y="153">②</text><text x="26" y="215">③</text><text x="26" y="277">④</text><text x="26" y="339">⑤</text>
+  </g>
+  <g style="font-size:13px">
+    <text x="64" y="91">叙利亚文译本</text>
+    <text x="64" y="153">早期阿拉伯文译本</text>
+    <text x="64" y="215">哈贾吉译本</text>
+    <text x="64" y="277">伊斯哈格译本</text>
+    <text x="64" y="331">塔比特修订的</text><text x="64" y="349">伊斯哈格本</text>
+  </g>
+  <g class="sm" style="font-size:11.5px">
+    <text x="236" y="91">年代不详</text>
+    <text x="236" y="153">约 800 年</text>
+    <text x="236" y="207">827—828 年</text><text x="236" y="224">巴格达</text>
+    <text x="236" y="269">879—890 年间</text><text x="236" y="286">为一位维齐尔所作</text>
+    <text x="236" y="331">901 年以前</text><text x="236" y="348">修订 ④</text>
+    <text x="364" y="91">失传</text>
+    <text x="364" y="153">失传</text>
+    <text x="364" y="277">原本失传</text>
+  </g>
+  <g class="gt" style="font-size:12px">
+    <text x="364" y="207">存 2 部抄本</text><text x="364" y="224">1 部完整</text>
+    <text x="364" y="339">存 10 部抄本</text>
+  </g>
+  <path class="l thin" d="M16 378H474"/>
+  <g style="font-size:12px">
+    <text x="16" y="400">① 是叙利亚文，⑤ 是 ④ 的修订：阿拉伯文译本算作四个，也可能五个</text>
+    <text x="16" y="420">实线：完整存世（③ ⑤）｜虚线：失传或只存修订本</text>
+    <text x="16" y="440">大英图书馆 Add. MS 7474：读者在 ③ 的页边抄上 ⑤ 的对应段落</text>
+  </g>
+</svg>

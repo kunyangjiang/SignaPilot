@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 430" role="img" aria-label="侯奈因翻译盖伦《论派别》的两次工作，据《科学传记大辞典》所引侯奈因自述的英译转述。上面一行，年轻时：手里只有一部错误很多的希腊文抄本，据它译出初译本。下面一行，46 岁时，学生请他修订：先收集几部希腊文抄本，互相校对，定出一个本子，再对照叙利亚文译本改正，得出修订的译本。旁注：他说所有的翻译都这样做。底部：找抄本本身也是工作，为了找盖伦的《论证明》，他走遍美索不达米亚、叙利亚、巴勒斯坦和埃及，到亚历山大里亚也没找到，只在大马士革找到大约一半">
+  <defs>
+    <marker id="ar3503" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="gl"/></marker>
+    <g id="ms3503"><rect x="0" y="0" width="30" height="40" rx="3"/><path d="M6 10H24M6 17H24M6 24H20M6 31H22"/></g>
+  </defs>
+  <text x="16" y="24" class="gt" style="font-size:13.5px">年轻时</text>
+  <g class="l" fill="none"><use href="#ms3503" x="34" y="40"/></g>
+  <text x="49" y="98" text-anchor="middle" class="sm" style="font-size:11px">一部抄本</text>
+  <text x="49" y="113" text-anchor="middle" class="sm" style="font-size:11px">错误很多</text>
+  <path class="l thin" fill="none" d="M76 60H196" marker-end="url(#ar3503)"/>
+  <text x="136" y="52" text-anchor="middle" class="sm" style="font-size:11px">照着译</text>
+  <rect class="l" fill="none" filter="url(#wob2)" x="200" y="38" width="110" height="44" rx="8"/>
+  <text x="255" y="65" text-anchor="middle" style="font-size:13px">初译本</text>
+
+  <path class="l thin" d="M16 136H474"/>
+  <text x="16" y="164" class="gt" style="font-size:13.5px">46 岁，学生请他修订</text>
+  <g class="l" fill="none">
+    <use href="#ms3503" x="18" y="184"/><use href="#ms3503" x="32" y="192"/><use href="#ms3503" x="46" y="200"/>
+  </g>
+  <text x="48" y="262" text-anchor="middle" class="sm" style="font-size:11px">收集几部</text>
+  <text x="48" y="277" text-anchor="middle" class="sm" style="font-size:11px">希腊文抄本</text>
+  <g class="l" fill="none" filter="url(#wob2)">
+    <rect x="104" y="194" width="104" height="48" rx="8"/>
+    <rect x="236" y="194" width="104" height="48" rx="8"/>
+    <rect x="368" y="194" width="106" height="48" rx="8"/>
+  </g>
+  <rect class="wash" x="368" y="284" width="106" height="48" rx="8"/>
+  <rect class="l" fill="none" x="368" y="284" width="106" height="48" rx="8"/>
+  <g class="l thin" fill="none">
+    <path d="M80 218H102" marker-end="url(#ar3503)"/>
+    <path d="M208 218H234" marker-end="url(#ar3503)"/>
+    <path d="M340 218H366" marker-end="url(#ar3503)"/>
+    <path d="M421 242V282" marker-end="url(#ar3503)"/>
+  </g>
+  <g text-anchor="middle" style="font-size:13px">
+    <text x="156" y="223">互相校对</text>
+    <text x="288" y="223">定出一个本子</text>
+    <text x="421" y="214">对照叙利亚文</text><text x="421" y="232">译本改正</text>
+    <text x="421" y="313">修订的译本</text>
+  </g>
+  <text x="236" y="298" class="sm" style="font-size:11.5px">他说：所有的翻译</text>
+  <text x="236" y="316" class="sm" style="font-size:11.5px">都是这样做的</text>
+
+  <path class="l thin" d="M16 352H474"/>
+  <g style="font-size:12px">
+    <text x="16" y="376">找抄本也是工作：为了找盖伦的《论证明》，他走遍美索不达米亚、</text>
+    <text x="16" y="396">叙利亚、巴勒斯坦和埃及，到亚历山大里亚也没找到，只在大马士革找到约一半</text>
+  </g>
+  <text x="474" y="422" text-anchor="end" class="sm" style="font-size:10px">据《科学传记大辞典》所引侯奈因自述（英译转述）</text>
+</svg>

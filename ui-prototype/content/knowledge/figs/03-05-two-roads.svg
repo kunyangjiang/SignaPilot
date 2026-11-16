@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 556" role="img" aria-label="《论原因》的两条路，本课据注 1 至注 3 整理的示意。顶端：普罗克洛《神学要旨》，希腊文，5 世纪，211 条命题。左边一条经过阿拉伯文：9 世纪巴格达，金迪的圈子摘出、改写成《亚里士多德论纯粹之善》，作者成了亚里士多德；1187 年以前在托莱多译成拉丁文《论原因》，译者一般认为是杰拉德；1255 年列入巴黎大学艺学院课程，当作亚里士多德的书来读。右边一条不经过阿拉伯文：1268 年，穆尔贝克的威廉直接从希腊文译出《神学要旨》，作者仍是普罗克洛。底部两条路汇合：1272 年前后，阿奎那对照两个拉丁文本，判断《论原因》看来是某位阿拉伯哲学家从普罗克洛的书中摘出的">
+  <defs><marker id="ar3501" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="gl"/></marker></defs>
+  <g class="l" filter="url(#wob2)">
+    <rect x="135" y="16" width="220" height="58" rx="8"/>
+    <rect x="16" y="108" width="228" height="72" rx="8"/>
+    <rect x="16" y="212" width="228" height="72" rx="8"/>
+    <rect x="16" y="316" width="228" height="72" rx="8"/>
+    <rect x="270" y="212" width="204" height="72" rx="8"/>
+  </g>
+  <rect class="wash" x="95" y="424" width="300" height="76" rx="8"/>
+  <rect class="l" fill="none" x="95" y="424" width="300" height="76" rx="8"/>
+  <g class="l thin" fill="none">
+    <path d="M200 74L140 106" marker-end="url(#ar3501)"/>
+    <path d="M130 180V210" marker-end="url(#ar3501)"/>
+    <path d="M130 284V314" marker-end="url(#ar3501)"/>
+    <path d="M290 74L368 210" marker-end="url(#ar3501)"/>
+    <path d="M150 388L205 422" marker-end="url(#ar3501)"/>
+    <path d="M372 284L300 422" marker-end="url(#ar3501)"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="245" y="40" style="font-size:14px">普罗克洛《神学要旨》</text>
+    <text x="245" y="61" class="sm" style="font-size:11.5px">希腊文 · 5 世纪 · 211 条命题</text>
+    <text x="130" y="132" style="font-size:13.5px">《亚里士多德论纯粹之善》</text>
+    <text x="130" y="152" class="sm" style="font-size:11.5px">巴格达 · 9 世纪 · 金迪的圈子</text>
+    <text x="130" y="170" class="gt" style="font-size:11.5px">摘出、改写；作者成了亚里士多德</text>
+    <text x="130" y="236" style="font-size:13.5px">《论原因》拉丁译本</text>
+    <text x="130" y="256" class="sm" style="font-size:11.5px">托莱多 · 1187 年以前</text>
+    <text x="130" y="274" class="sm" style="font-size:11.5px">译者一般认为是杰拉德</text>
+    <text x="130" y="340" style="font-size:13.5px">巴黎大学的课本</text>
+    <text x="130" y="360" class="sm" style="font-size:11.5px">1255 年列入艺学院课程</text>
+    <text x="130" y="378" class="sm" style="font-size:11.5px">当作亚里士多德的书来读</text>
+    <text x="372" y="236" style="font-size:13.5px">《神学要旨》拉丁译本</text>
+    <text x="372" y="256" class="sm" style="font-size:11.5px">1268 年 · 穆尔贝克的威廉</text>
+    <text x="372" y="274" class="gt" style="font-size:11.5px">作者仍是普罗克洛</text>
+    <text x="245" y="448" style="font-size:13.5px">阿奎那的注释 · 1272 年前后</text>
+    <text x="245" y="468" class="sm" style="font-size:11.5px">把两个拉丁文本放在一起对照：</text>
+    <text x="245" y="487" class="sm" style="font-size:11.5px">“看来”是某位阿拉伯哲学家从普罗克洛书中摘出</text>
+  </g>
+  <text x="34" y="96" class="gt" style="font-size:11.5px">经过阿拉伯文</text>
+  <text x="340" y="140" class="gt" style="font-size:11.5px">直接从希腊文</text>
+  <path class="l thin" d="M16 518H474"/>
+  <text x="16" y="542" style="font-size:12px">本课据注 1—3 整理的示意：两条路都通向拉丁语，在阿奎那手里汇合</text>
+</svg>
