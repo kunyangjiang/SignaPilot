@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 364" role="img" aria-label="同一卦的几种读法的示意图，本课自绘。中间一个六线卦，标观之否，第四爻用金色标出。向外三个箭头：一个指向一句话的卷轴，标读爻辞：观国之光，利用宾于王；一个指向三个三线组合，标读卦象：坤为土，巽为风，乾为天；一个指向一本书，标写书的人：后来陈氏在齐国掌权，果然应验可能是事后整理。底部：三条路读出的东西，不是同一种证据；据《左传》庄公二十二年">
+  <defs><marker id="ar5302" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M210 170H238.7M251.3 170H280" style="stroke-width:4.2"/>
+  <path class="l" d="M210 154H238.7M251.3 154H280" style="stroke-width:4.2"/>
+  <path class="l" d="M210 138H238.7M251.3 138H280" style="stroke-width:4.2"/>
+  <path class="gl" d="M210 122H238.7M251.3 122H280" style="stroke-width:4.2"/>
+  <path class="l" d="M210 106H280" style="stroke-width:4.2"/>
+  <path class="l" d="M210 90H280" style="stroke-width:4.2"/>
+  <text x="245" y="196" text-anchor="middle" style="font-size:13px">《观》之《否》</text>
+  <text x="245" y="212" text-anchor="middle" class="sm" style="font-size:11px">第四爻变</text>
+  <path class="l thin" d="M200 130L150 104" marker-end="url(#ar5302)"/>
+  <path class="wash" d="M30 40H140V92H30Z"/><path class="l" d="M30 40H140V92H30Z" filter="url(#wob2)"/>
+  <text x="85" y="62" text-anchor="middle" style="font-size:12px">观国之光</text>
+  <text x="85" y="80" text-anchor="middle" style="font-size:12px">利用宾于王</text>
+  <text x="85" y="114" text-anchor="middle" class="gt" style="font-size:12.5px">① 读爻辞</text>
+  <path class="l thin" d="M290 130L340 104" marker-end="url(#ar5302)"/>
+  <path class="l" d="M352 88H364.3M369.7 88H382" style="stroke-width:2.6"/>
+  <path class="l" d="M352 80H364.3M369.7 80H382" style="stroke-width:2.6"/>
+  <path class="l" d="M352 72H364.3M369.7 72H382" style="stroke-width:2.6"/>
+  <text x="367" y="46" text-anchor="middle" class="sm" style="font-size:11px">坤·土</text>
+  <path class="l" d="M400 88H412.3M417.7 88H430" style="stroke-width:2.6"/>
+  <path class="l" d="M400 80H430" style="stroke-width:2.6"/>
+  <path class="l" d="M400 72H430" style="stroke-width:2.6"/>
+  <text x="415" y="46" text-anchor="middle" class="sm" style="font-size:11px">巽·风</text>
+  <path class="l" d="M448 88H478" style="stroke-width:2.6"/>
+  <path class="l" d="M448 80H478" style="stroke-width:2.6"/>
+  <path class="l" d="M448 72H478" style="stroke-width:2.6"/>
+  <text x="463" y="46" text-anchor="middle" class="sm" style="font-size:11px">乾·天</text>
+  <text x="415" y="114" text-anchor="middle" class="gt" style="font-size:12.5px">② 读卦象</text>
+  <path class="l thin" d="M245 222V246" marker-end="url(#ar5302)"/>
+  <g class="l"><path d="M200 256H290V300H200Z"/><path d="M245 256V300" class="thin"/></g>
+  <text x="304" y="272" text-anchor="start" class="gt" style="font-size:12px">③ 写书的人</text>
+  <text x="304" y="290" text-anchor="start" class="sm" style="font-size:11px">后来陈氏在齐国掌权</text>
+  <text x="186" y="272" text-anchor="end" class="sm" style="font-size:11px">“果然应验”</text>
+  <text x="186" y="290" text-anchor="end" class="sm" style="font-size:11px">可能是事后整理</text>
+  <text x="245" y="334" text-anchor="middle" class="gt" style="font-size:12px">三条路读出的东西，不是同一种证据</text>
+  <text x="245" y="352" text-anchor="middle" class="sm" style="font-size:11px">据《左传》庄公二十二年（前 672 年）</text>
+</svg>

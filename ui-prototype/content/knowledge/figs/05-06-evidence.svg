@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 322" role="img" aria-label="历史学家手里三种证据的示意图，本课自绘。三列。第一列标实物：一块有字迹的木板或纸片，能告诉我们材料、尺寸、颜料、出土位置，但说不出当时怎样用。第二列标文献描述：一本书，能告诉我们某人说它叫什么、怎样传、用在哪里，但那是作者的说法，不是目击记录。第三列标后来的图样：一本刻本里的一页图，能告诉我们后来的人怎样复制它，但经过多少次转刻、改动了多少，往往无从知道。底部：三种证据要分开看，再放在一起比">
+  <path class="l" d="M64 40H106V120H64Z"/>
+  <path class="l thin" d="M71 50Q83 52 94 50 M77 60Q85 60 93 60 M70 71Q83 72 97 68 M72 84Q85 79 98 87 M78 98Q86 92 94 97 M85 50V110" fill="none"/>
+  <path class="l" d="M208 46H282V116H208Z"/><path class="l thin" d="M245 46V116"/>
+  <path class="l thin" d="M216 60H238M216 72H238M216 84H238M252 60H274M252 72H274M252 84H274"/>
+  <path class="l" d="M368 46H442V116H368Z"/><path class="l thin" d="M376 54H434V108H376Z" stroke-dasharray="2 2"/>
+  <text x="405" y="86" text-anchor="middle" class="sm" style="font-size:14px">图</text>
+  <text x="85" y="148" text-anchor="middle" class="gt" style="font-size:13.5px">实物</text>
+  <text x="85" y="172" text-anchor="middle" style="font-size:10.5px">能告诉我们</text>
+  <text x="85" y="188" text-anchor="middle" class="sm" style="font-size:10.5px">材料、尺寸、颜料</text>
+  <text x="85" y="203" text-anchor="middle" class="sm" style="font-size:10.5px">出土或存放的位置</text>
+  <text x="85" y="232" text-anchor="middle" style="font-size:10.5px">说不到的</text>
+  <text x="85" y="248" text-anchor="middle" class="sm" style="font-size:10.5px">说不出当时怎样用</text>
+  <text x="85" y="263" text-anchor="middle" class="sm" style="font-size:10.5px">也说不出谁这样用</text>
+  <text x="245" y="148" text-anchor="middle" class="gt" style="font-size:13.5px">文献描述</text>
+  <text x="245" y="172" text-anchor="middle" style="font-size:10.5px">能告诉我们</text>
+  <text x="245" y="188" text-anchor="middle" class="sm" style="font-size:10.5px">叫什么名字</text>
+  <text x="245" y="203" text-anchor="middle" class="sm" style="font-size:10.5px">怎样传、用在哪里</text>
+  <text x="245" y="232" text-anchor="middle" style="font-size:10.5px">说不到的</text>
+  <text x="245" y="248" text-anchor="middle" class="sm" style="font-size:10.5px">是作者的说法</text>
+  <text x="245" y="263" text-anchor="middle" class="sm" style="font-size:10.5px">不等于目击记录</text>
+  <text x="405" y="148" text-anchor="middle" class="gt" style="font-size:13.5px">后来的图样</text>
+  <text x="405" y="172" text-anchor="middle" style="font-size:10.5px">能告诉我们</text>
+  <text x="405" y="188" text-anchor="middle" class="sm" style="font-size:10.5px">后人怎样复制它</text>
+  <text x="405" y="203" text-anchor="middle" class="sm" style="font-size:10.5px">怎样编进书里</text>
+  <text x="405" y="232" text-anchor="middle" style="font-size:10.5px">说不到的</text>
+  <text x="405" y="248" text-anchor="middle" class="sm" style="font-size:10.5px">转刻过几次</text>
+  <text x="405" y="263" text-anchor="middle" class="sm" style="font-size:10.5px">改了多少，常常无从知道</text>
+  <path class="l thin" d="M165 140V280M325 140V280" stroke-dasharray="2 4"/>
+  <text x="245" y="310" text-anchor="middle" class="gt" style="font-size:12.5px">三种证据要分开看，再放在一起比</text>
+</svg>

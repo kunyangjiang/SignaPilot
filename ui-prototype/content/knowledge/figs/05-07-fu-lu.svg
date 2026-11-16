@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 310" role="img" aria-label="符和箓的区别的示意图，本课自绘。左边一块符板，画着占位笔画，下面三行：是一件东西；写了拿去用，贴在门上、带在身上；谁拿着都是这一件。右边一卷展开的名册，里面一行行的横线代表人名，顶端写受箓者某某，下面三行：是一份名册，纪诸天曹官属佐吏之名；写着谁、属于谁，缄而佩之；换一个人，就不是这一份。中间一行小字：箓里也夹着符，但箓本身不是一张符。底部：符是用的；箓是登记身份的；据《隋书·经籍志》">
+  <path class="l" d="M60 40H120V160H60Z"/>
+  <path class="l thin" d="M72 56Q90 50 108 58M70 72Q92 80 110 70M90 50V150M74 96Q90 88 106 98M72 120Q92 112 108 124M76 140Q90 136 104 142" fill="none"/>
+  <text x="90" y="186" text-anchor="middle" class="gt" style="font-size:15px">符</text>
+  <text x="90" y="210" text-anchor="middle" style="font-size:11.5px">是一件东西</text>
+  <text x="90" y="228" text-anchor="middle" class="sm" style="font-size:10.5px">拿去用：贴、挂、带</text>
+  <text x="90" y="244" text-anchor="middle" class="sm" style="font-size:10.5px">谁拿着都是这一件</text>
+  <path class="l" d="M300 40H440V160H300Z"/><path class="l thin" d="M292 34V166M448 34V166"/>
+  <text x="370" y="58" text-anchor="middle" class="gt" style="font-size:11px">受箓者：某某</text>
+  <path class="l thin" d="M314 76H426"/>
+  <path class="l thin" d="M314 89H412"/>
+  <path class="l thin" d="M314 102H398"/>
+  <path class="l thin" d="M314 115H426"/>
+  <path class="l thin" d="M314 128H412"/>
+  <path class="l thin" d="M314 141H398"/>
+  <text x="370" y="186" text-anchor="middle" class="gt" style="font-size:15px">箓</text>
+  <text x="370" y="210" text-anchor="middle" style="font-size:11.5px">是一份名册</text>
+  <text x="370" y="228" text-anchor="middle" class="sm" style="font-size:10.5px">“纪诸天曹官属佐吏之名”</text>
+  <text x="370" y="244" text-anchor="middle" class="sm" style="font-size:10.5px">写着属于谁：“缄而佩之”</text>
+  <text x="230" y="98" text-anchor="middle" class="sm" style="font-size:10.5px">箓里也夹着符</text>
+  <text x="230" y="114" text-anchor="middle" class="sm" style="font-size:10.5px">但箓不等于一张符</text>
+  <text x="245" y="280" text-anchor="middle" class="gt" style="font-size:12.5px">符是拿来用的；箓是登记身份的</text>
+  <text x="245" y="298" text-anchor="middle" class="sm" style="font-size:11px">据《隋书·经籍志》道经序</text>
+</svg>

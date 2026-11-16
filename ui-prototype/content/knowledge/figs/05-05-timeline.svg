@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 336" role="img" aria-label="三种术数的证据时间线，本课自绘。一条从西汉到清代的横轴，上中下三行分别是太乙、六壬、遁甲。太乙一行：西汉初汝阴侯墓出土的式盘，据二手研究；《汉书·艺文志》著录泰壹阴阳，书已不存；唐开元年间王希明奉敕编《太乙金镜式经》。六壬一行：西汉初同墓出土的式盘，据二手研究；东汉人写的《吴越春秋》《越绝书》里有近似的说法；《隋书·经籍志》著录六壬式经；唐《唐六典》写下四课、三传、十二将。遁甲一行：南朝宋人写的《后汉书》说东汉高获晓遁甲；《隋书·经籍志》著录遁甲书十几家；北宋杨维德奉命撰《遁甲玉函符应经》；明程道生《遁甲演义》写出九宫、三奇、六仪、八门、九星。底部：越往后，文字写得越完整；早期证据多是名字和器物，具体规则要到很晚才有书写定">
+  <path class="l" d="M24 252H476"/>
+  <path class="l thin" d="M40 246V258"/>
+  <text x="40" y="276" text-anchor="middle" style="font-size:11.5px">西汉</text>
+  <path class="l thin" d="M110 246V258"/>
+  <text x="110" y="276" text-anchor="middle" style="font-size:11.5px">东汉</text>
+  <path class="l thin" d="M180 246V258"/>
+  <text x="180" y="276" text-anchor="middle" style="font-size:11.5px">南北朝</text>
+  <path class="l thin" d="M250 246V258"/>
+  <text x="250" y="276" text-anchor="middle" style="font-size:11.5px">隋唐</text>
+  <path class="l thin" d="M330 246V258"/>
+  <text x="330" y="276" text-anchor="middle" style="font-size:11.5px">宋</text>
+  <path class="l thin" d="M395 246V258"/>
+  <text x="395" y="276" text-anchor="middle" style="font-size:11.5px">明</text>
+  <path class="l thin" d="M455 246V258"/>
+  <text x="455" y="276" text-anchor="middle" style="font-size:11.5px">清</text>
+  <text x="484" y="64" text-anchor="end" class="gt" style="font-size:12.5px">太乙</text>
+  <path class="l thin" d="M24 60H446" stroke-dasharray="2 5"/>
+  <circle class="dotk" cx="40" cy="60" r="4"/>
+  <text x="40" y="50" text-anchor="middle" style="font-size:10.5px">汝阴侯盘</text>
+  <text x="40" y="78" text-anchor="middle" class="sm" style="font-size:10px">二手</text>
+  <circle class="dotk" cx="110" cy="60" r="4"/>
+  <text x="110" y="50" text-anchor="middle" style="font-size:10.5px">汉志书目</text>
+  <text x="110" y="78" text-anchor="middle" class="sm" style="font-size:10px">书不存</text>
+  <circle class="dotk" cx="250" cy="60" r="4"/>
+  <text x="250" y="50" text-anchor="middle" style="font-size:10.5px">王希明书</text>
+  <text x="250" y="78" text-anchor="middle" class="sm" style="font-size:10px">开元奉敕</text>
+  <text x="484" y="132" text-anchor="end" class="gt" style="font-size:12.5px">六壬</text>
+  <path class="l thin" d="M24 128H446" stroke-dasharray="2 5"/>
+  <circle class="dotk" cx="40" cy="128" r="4"/>
+  <text x="40" y="118" text-anchor="middle" style="font-size:10.5px">汝阴侯盘</text>
+  <text x="40" y="146" text-anchor="middle" class="sm" style="font-size:10px">二手</text>
+  <circle class="dotk" cx="110" cy="128" r="4"/>
+  <text x="110" y="118" text-anchor="middle" style="font-size:10.5px">吴越春秋</text>
+  <text x="110" y="146" text-anchor="middle" class="sm" style="font-size:10px">东汉人作</text>
+  <circle class="dotk" cx="215" cy="128" r="4"/>
+  <text x="215" y="118" text-anchor="middle" style="font-size:10.5px">隋志</text>
+  <text x="215" y="146" text-anchor="middle" class="sm" style="font-size:10px">书目</text>
+  <circle class="dotk" cx="275" cy="128" r="4"/>
+  <text x="275" y="118" text-anchor="middle" style="font-size:10.5px">唐六典</text>
+  <text x="275" y="146" text-anchor="middle" class="sm" style="font-size:10px">四课三传</text>
+  <text x="484" y="200" text-anchor="end" class="gt" style="font-size:12.5px">遁甲</text>
+  <path class="l thin" d="M24 196H446" stroke-dasharray="2 5"/>
+  <circle class="dotk" cx="180" cy="196" r="4"/>
+  <text x="180" y="186" text-anchor="middle" style="font-size:10.5px">后汉书</text>
+  <text x="180" y="214" text-anchor="middle" class="sm" style="font-size:10px">“晓遁甲”</text>
+  <circle class="dotk" cx="240" cy="196" r="4"/>
+  <text x="240" y="186" text-anchor="middle" style="font-size:10.5px">隋志</text>
+  <text x="240" y="214" text-anchor="middle" class="sm" style="font-size:10px">13 家</text>
+  <circle class="dotk" cx="330" cy="196" r="4"/>
+  <text x="330" y="186" text-anchor="middle" style="font-size:10.5px">杨维德</text>
+  <text x="330" y="214" text-anchor="middle" class="sm" style="font-size:10px">奉命撰书</text>
+  <circle class="dotk" cx="395" cy="196" r="4"/>
+  <text x="395" y="186" text-anchor="middle" style="font-size:10.5px">程道生</text>
+  <text x="395" y="214" text-anchor="middle" class="sm" style="font-size:10px">九宫八门</text>
+  <text x="245" y="306" text-anchor="middle" class="gt" style="font-size:12px">越往后，文字写得越完整</text>
+  <text x="245" y="324" text-anchor="middle" class="sm" style="font-size:11px">早期证据多是名字和器物；具体规则要到很晚才写定</text>
+</svg>

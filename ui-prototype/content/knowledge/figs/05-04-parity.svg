@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 340" role="img" aria-label="为什么是六十而不是一百二十的示意图，本课自绘。一张十列十二行的格子表，横排十个天干，竖排十二个地支。凡是出现过的组合格子涂上并写出名字，例如甲子、乙丑；没出现过的格子空着，例如甲丑。涂上的格子正好一半，共 60 个，像棋盘一样隔一格涂一格。底部：天干和地支每次同时走一步，单数位的天干只会碰上单数位的地支，双数位只碰双数位；甲丑这样的组合永远不会出现">
+  <text x="89" y="32" text-anchor="middle" style="font-size:12px">甲</text>
+  <text x="127" y="32" text-anchor="middle" style="font-size:12px">乙</text>
+  <text x="165" y="32" text-anchor="middle" style="font-size:12px">丙</text>
+  <text x="203" y="32" text-anchor="middle" style="font-size:12px">丁</text>
+  <text x="241" y="32" text-anchor="middle" style="font-size:12px">戊</text>
+  <text x="279" y="32" text-anchor="middle" style="font-size:12px">己</text>
+  <text x="317" y="32" text-anchor="middle" style="font-size:12px">庚</text>
+  <text x="355" y="32" text-anchor="middle" style="font-size:12px">辛</text>
+  <text x="393" y="32" text-anchor="middle" style="font-size:12px">壬</text>
+  <text x="431" y="32" text-anchor="middle" style="font-size:12px">癸</text>
+  <text x="60" y="54" text-anchor="end" style="font-size:12px">子</text>
+  <text x="60" y="74" text-anchor="end" style="font-size:12px">丑</text>
+  <text x="60" y="94" text-anchor="end" style="font-size:12px">寅</text>
+  <text x="60" y="114" text-anchor="end" style="font-size:12px">卯</text>
+  <text x="60" y="134" text-anchor="end" style="font-size:12px">辰</text>
+  <text x="60" y="154" text-anchor="end" style="font-size:12px">巳</text>
+  <text x="60" y="174" text-anchor="end" style="font-size:12px">午</text>
+  <text x="60" y="194" text-anchor="end" style="font-size:12px">未</text>
+  <text x="60" y="214" text-anchor="end" style="font-size:12px">申</text>
+  <text x="60" y="234" text-anchor="end" style="font-size:12px">酉</text>
+  <text x="60" y="254" text-anchor="end" style="font-size:12px">戌</text>
+  <text x="60" y="274" text-anchor="end" style="font-size:12px">亥</text>
+  <path class="wash" d="M70 40h38v20h-38Z"/>
+  <text x="89" y="54" text-anchor="middle" class="gt" style="font-size:10.5px">甲子</text>
+  <path class="wash" d="M70 80h38v20h-38Z"/>
+  <text x="89" y="94" text-anchor="middle" style="font-size:10.5px">甲寅</text>
+  <path class="wash" d="M70 120h38v20h-38Z"/>
+  <text x="89" y="134" text-anchor="middle" style="font-size:10.5px">甲辰</text>
+  <path class="wash" d="M70 160h38v20h-38Z"/>
+  <text x="89" y="174" text-anchor="middle" style="font-size:10.5px">甲午</text>
+  <path class="wash" d="M70 200h38v20h-38Z"/>
+  <text x="89" y="214" text-anchor="middle" style="font-size:10.5px">甲申</text>
+  <path class="wash" d="M70 240h38v20h-38Z"/>
+  <text x="89" y="254" text-anchor="middle" style="font-size:10.5px">甲戌</text>
+  <path class="wash" d="M108 60h38v20h-38Z"/>
+  <text x="127" y="74" text-anchor="middle" style="font-size:10.5px">乙丑</text>
+  <path class="wash" d="M108 100h38v20h-38Z"/>
+  <text x="127" y="114" text-anchor="middle" style="font-size:10.5px">乙卯</text>
+  <path class="wash" d="M108 140h38v20h-38Z"/>
+  <text x="127" y="154" text-anchor="middle" style="font-size:10.5px">乙巳</text>
+  <path class="wash" d="M108 180h38v20h-38Z"/>
+  <text x="127" y="194" text-anchor="middle" style="font-size:10.5px">乙未</text>
+  <path class="wash" d="M108 220h38v20h-38Z"/>
+  <text x="127" y="234" text-anchor="middle" style="font-size:10.5px">乙酉</text>
+  <path class="wash" d="M108 260h38v20h-38Z"/>
+  <text x="127" y="274" text-anchor="middle" style="font-size:10.5px">乙亥</text>
+  <path class="wash" d="M146 40h38v20h-38Z"/>
+  <text x="165" y="54" text-anchor="middle" style="font-size:10.5px">丙子</text>
+  <path class="wash" d="M146 80h38v20h-38Z"/>
+  <text x="165" y="94" text-anchor="middle" style="font-size:10.5px">丙寅</text>
+  <path class="wash" d="M146 120h38v20h-38Z"/>
+  <text x="165" y="134" text-anchor="middle" style="font-size:10.5px">丙辰</text>
+  <path class="wash" d="M146 160h38v20h-38Z"/>
+  <text x="165" y="174" text-anchor="middle" style="font-size:10.5px">丙午</text>
+  <path class="wash" d="M146 200h38v20h-38Z"/>
+  <text x="165" y="214" text-anchor="middle" style="font-size:10.5px">丙申</text>
+  <path class="wash" d="M146 240h38v20h-38Z"/>
+  <text x="165" y="254" text-anchor="middle" style="font-size:10.5px">丙戌</text>
+  <path class="wash" d="M184 60h38v20h-38Z"/>
+  <text x="203" y="74" text-anchor="middle" style="font-size:10.5px">丁丑</text>
+  <path class="wash" d="M184 100h38v20h-38Z"/>
+  <text x="203" y="114" text-anchor="middle" style="font-size:10.5px">丁卯</text>
+  <path class="wash" d="M184 140h38v20h-38Z"/>
+  <text x="203" y="154" text-anchor="middle" style="font-size:10.5px">丁巳</text>
+  <path class="wash" d="M184 180h38v20h-38Z"/>
+  <text x="203" y="194" text-anchor="middle" style="font-size:10.5px">丁未</text>
+  <path class="wash" d="M184 220h38v20h-38Z"/>
+  <text x="203" y="234" text-anchor="middle" style="font-size:10.5px">丁酉</text>
+  <path class="wash" d="M184 260h38v20h-38Z"/>
+  <text x="203" y="274" text-anchor="middle" style="font-size:10.5px">丁亥</text>
+  <path class="wash" d="M222 40h38v20h-38Z"/>
+  <text x="241" y="54" text-anchor="middle" style="font-size:10.5px">戊子</text>
+  <path class="wash" d="M222 80h38v20h-38Z"/>
+  <text x="241" y="94" text-anchor="middle" style="font-size:10.5px">戊寅</text>
+  <path class="wash" d="M222 120h38v20h-38Z"/>
+  <text x="241" y="134" text-anchor="middle" style="font-size:10.5px">戊辰</text>
+  <path class="wash" d="M222 160h38v20h-38Z"/>
+  <text x="241" y="174" text-anchor="middle" style="font-size:10.5px">戊午</text>
+  <path class="wash" d="M222 200h38v20h-38Z"/>
+  <text x="241" y="214" text-anchor="middle" style="font-size:10.5px">戊申</text>
+  <path class="wash" d="M222 240h38v20h-38Z"/>
+  <text x="241" y="254" text-anchor="middle" style="font-size:10.5px">戊戌</text>
+  <path class="wash" d="M260 60h38v20h-38Z"/>
+  <text x="279" y="74" text-anchor="middle" style="font-size:10.5px">己丑</text>
+  <path class="wash" d="M260 100h38v20h-38Z"/>
+  <text x="279" y="114" text-anchor="middle" style="font-size:10.5px">己卯</text>
+  <path class="wash" d="M260 140h38v20h-38Z"/>
+  <text x="279" y="154" text-anchor="middle" style="font-size:10.5px">己巳</text>
+  <path class="wash" d="M260 180h38v20h-38Z"/>
+  <text x="279" y="194" text-anchor="middle" style="font-size:10.5px">己未</text>
+  <path class="wash" d="M260 220h38v20h-38Z"/>
+  <text x="279" y="234" text-anchor="middle" style="font-size:10.5px">己酉</text>
+  <path class="wash" d="M260 260h38v20h-38Z"/>
+  <text x="279" y="274" text-anchor="middle" style="font-size:10.5px">己亥</text>
+  <path class="wash" d="M298 40h38v20h-38Z"/>
+  <text x="317" y="54" text-anchor="middle" style="font-size:10.5px">庚子</text>
+  <path class="wash" d="M298 80h38v20h-38Z"/>
+  <text x="317" y="94" text-anchor="middle" style="font-size:10.5px">庚寅</text>
+  <path class="wash" d="M298 120h38v20h-38Z"/>
+  <text x="317" y="134" text-anchor="middle" style="font-size:10.5px">庚辰</text>
+  <path class="wash" d="M298 160h38v20h-38Z"/>
+  <text x="317" y="174" text-anchor="middle" style="font-size:10.5px">庚午</text>
+  <path class="wash" d="M298 200h38v20h-38Z"/>
+  <text x="317" y="214" text-anchor="middle" style="font-size:10.5px">庚申</text>
+  <path class="wash" d="M298 240h38v20h-38Z"/>
+  <text x="317" y="254" text-anchor="middle" style="font-size:10.5px">庚戌</text>
+  <path class="wash" d="M336 60h38v20h-38Z"/>
+  <text x="355" y="74" text-anchor="middle" style="font-size:10.5px">辛丑</text>
+  <path class="wash" d="M336 100h38v20h-38Z"/>
+  <text x="355" y="114" text-anchor="middle" style="font-size:10.5px">辛卯</text>
+  <path class="wash" d="M336 140h38v20h-38Z"/>
+  <text x="355" y="154" text-anchor="middle" style="font-size:10.5px">辛巳</text>
+  <path class="wash" d="M336 180h38v20h-38Z"/>
+  <text x="355" y="194" text-anchor="middle" style="font-size:10.5px">辛未</text>
+  <path class="wash" d="M336 220h38v20h-38Z"/>
+  <text x="355" y="234" text-anchor="middle" style="font-size:10.5px">辛酉</text>
+  <path class="wash" d="M336 260h38v20h-38Z"/>
+  <text x="355" y="274" text-anchor="middle" style="font-size:10.5px">辛亥</text>
+  <path class="wash" d="M374 40h38v20h-38Z"/>
+  <text x="393" y="54" text-anchor="middle" style="font-size:10.5px">壬子</text>
+  <path class="wash" d="M374 80h38v20h-38Z"/>
+  <text x="393" y="94" text-anchor="middle" style="font-size:10.5px">壬寅</text>
+  <path class="wash" d="M374 120h38v20h-38Z"/>
+  <text x="393" y="134" text-anchor="middle" style="font-size:10.5px">壬辰</text>
+  <path class="wash" d="M374 160h38v20h-38Z"/>
+  <text x="393" y="174" text-anchor="middle" style="font-size:10.5px">壬午</text>
+  <path class="wash" d="M374 200h38v20h-38Z"/>
+  <text x="393" y="214" text-anchor="middle" style="font-size:10.5px">壬申</text>
+  <path class="wash" d="M374 240h38v20h-38Z"/>
+  <text x="393" y="254" text-anchor="middle" style="font-size:10.5px">壬戌</text>
+  <path class="wash" d="M412 60h38v20h-38Z"/>
+  <text x="431" y="74" text-anchor="middle" style="font-size:10.5px">癸丑</text>
+  <path class="wash" d="M412 100h38v20h-38Z"/>
+  <text x="431" y="114" text-anchor="middle" style="font-size:10.5px">癸卯</text>
+  <path class="wash" d="M412 140h38v20h-38Z"/>
+  <text x="431" y="154" text-anchor="middle" style="font-size:10.5px">癸巳</text>
+  <path class="wash" d="M412 180h38v20h-38Z"/>
+  <text x="431" y="194" text-anchor="middle" style="font-size:10.5px">癸未</text>
+  <path class="wash" d="M412 220h38v20h-38Z"/>
+  <text x="431" y="234" text-anchor="middle" style="font-size:10.5px">癸酉</text>
+  <path class="wash" d="M412 260h38v20h-38Z"/>
+  <text x="431" y="274" text-anchor="middle" style="font-size:10.5px">癸亥</text>
+  <path class="l thin" d="M70 40h380v240h-380Z"/>
+  <path class="l thin" d="M108 40V280M70 60H450" stroke-dasharray="2 3"/>
+  <text x="127" y="74" text-anchor="middle" class="sm" style="font-size:12px">×</text>
+  <text x="245" y="310" text-anchor="middle" class="gt" style="font-size:11.5px">涂色的 60 格会出现；空着的 60 格（如“甲丑”）永远不会出现</text>
+  <text x="245" y="328" text-anchor="middle" class="sm" style="font-size:11px">天干和地支每次一起走一步：单数位只碰单数位，双数位只碰双数位</text>
+</svg>

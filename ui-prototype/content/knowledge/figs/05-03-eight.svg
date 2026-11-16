@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 322" role="img" aria-label="从两种线到八卦的示意图，本课自绘。最上面两种线：一整条标阳爻，断开的一条标阴爻。往下先分成四种两线组合，再分成八个三线组合，从左到右标乾、兑、离、震、巽、坎、艮、坤，每个组合都从下往上画三条线。旁边一行小字：三条线，每条两种状态，一共八种。底部：八卦本身只是八种排法；天、地、雷、风这些象，是解说加上去的">
+  <path class="l" d="M101 44H149" style="stroke-width:3.4"/>
+  <path class="l" d="M341 44H360.68M369.32 44H389" style="stroke-width:3.4"/>
+  <text x="125" y="30" text-anchor="middle" style="font-size:12px">阳爻</text>
+  <text x="365" y="30" text-anchor="middle" style="font-size:12px">阴爻</text>
+  <path class="l" d="M45 108H85" style="stroke-width:2.8"/>
+  <path class="l" d="M45 99H85" style="stroke-width:2.8"/>
+  <path class="l" d="M165 108H205" style="stroke-width:2.8"/>
+  <path class="l" d="M165 99H181.4M188.6 99H205" style="stroke-width:2.8"/>
+  <path class="l" d="M285 108H301.4M308.6 108H325" style="stroke-width:2.8"/>
+  <path class="l" d="M285 99H325" style="stroke-width:2.8"/>
+  <path class="l" d="M405 108H421.4M428.6 108H445" style="stroke-width:2.8"/>
+  <path class="l" d="M405 99H421.4M428.6 99H445" style="stroke-width:2.8"/>
+  <path class="l" d="M17 214H53" style="stroke-width:2.8"/>
+  <path class="l" d="M17 205H53" style="stroke-width:2.8"/>
+  <path class="l" d="M17 196H53" style="stroke-width:2.8"/>
+  <text x="35" y="242" text-anchor="middle" class="gt" style="font-size:14px">乾</text>
+  <path class="l" d="M77 214H113" style="stroke-width:2.8"/>
+  <path class="l" d="M77 205H113" style="stroke-width:2.8"/>
+  <path class="l" d="M77 196H91.76M98.24 196H113" style="stroke-width:2.8"/>
+  <text x="95" y="242" text-anchor="middle" class="gt" style="font-size:14px">兑</text>
+  <path class="l" d="M137 214H173" style="stroke-width:2.8"/>
+  <path class="l" d="M137 205H151.76M158.24 205H173" style="stroke-width:2.8"/>
+  <path class="l" d="M137 196H173" style="stroke-width:2.8"/>
+  <text x="155" y="242" text-anchor="middle" class="gt" style="font-size:14px">离</text>
+  <path class="l" d="M197 214H233" style="stroke-width:2.8"/>
+  <path class="l" d="M197 205H211.76M218.24 205H233" style="stroke-width:2.8"/>
+  <path class="l" d="M197 196H211.76M218.24 196H233" style="stroke-width:2.8"/>
+  <text x="215" y="242" text-anchor="middle" class="gt" style="font-size:14px">震</text>
+  <path class="l" d="M257 214H271.76M278.24 214H293" style="stroke-width:2.8"/>
+  <path class="l" d="M257 205H293" style="stroke-width:2.8"/>
+  <path class="l" d="M257 196H293" style="stroke-width:2.8"/>
+  <text x="275" y="242" text-anchor="middle" class="gt" style="font-size:14px">巽</text>
+  <path class="l" d="M317 214H331.76M338.24 214H353" style="stroke-width:2.8"/>
+  <path class="l" d="M317 205H353" style="stroke-width:2.8"/>
+  <path class="l" d="M317 196H331.76M338.24 196H353" style="stroke-width:2.8"/>
+  <text x="335" y="242" text-anchor="middle" class="gt" style="font-size:14px">坎</text>
+  <path class="l" d="M377 214H391.76M398.24 214H413" style="stroke-width:2.8"/>
+  <path class="l" d="M377 205H391.76M398.24 205H413" style="stroke-width:2.8"/>
+  <path class="l" d="M377 196H413" style="stroke-width:2.8"/>
+  <text x="395" y="242" text-anchor="middle" class="gt" style="font-size:14px">艮</text>
+  <path class="l" d="M437 214H451.76M458.24 214H473" style="stroke-width:2.8"/>
+  <path class="l" d="M437 205H451.76M458.24 205H473" style="stroke-width:2.8"/>
+  <path class="l" d="M437 196H451.76M458.24 196H473" style="stroke-width:2.8"/>
+  <text x="455" y="242" text-anchor="middle" class="gt" style="font-size:14px">坤</text>
+  <path class="l thin" d="M125 52L65 92"/>
+  <path class="l thin" d="M125 52L185 92"/>
+  <path class="l thin" d="M365 52L305 92"/>
+  <path class="l thin" d="M365 52L425 92"/>
+  <path class="l thin" d="M65 116L35 188"/>
+  <path class="l thin" d="M65 116L95 188"/>
+  <path class="l thin" d="M185 116L155 188"/>
+  <path class="l thin" d="M185 116L215 188"/>
+  <path class="l thin" d="M305 116L275 188"/>
+  <path class="l thin" d="M305 116L335 188"/>
+  <path class="l thin" d="M425 116L395 188"/>
+  <path class="l thin" d="M425 116L455 188"/>
+  <text x="245" y="270" text-anchor="middle" style="font-size:12px">从下往上逐条加，每条两种状态：2 × 2 × 2 ＝ 8</text>
+  <text x="245" y="292" text-anchor="middle" class="gt" style="font-size:12px">八卦本身只是八种排法</text>
+  <text x="245" y="310" text-anchor="middle" class="sm" style="font-size:11px">天、地、雷、风这些“象”，是解说加上去的</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 278" role="img" aria-label="符字本义的示意图，本课自绘。左边一根竹片，从中间劈成两半，一半标一半在这边，一半标一半在那边；两半的劈口是同一条不规则的折线。中间一个箭头写合在一起。右边两半合拢，写对得上，就是真的。上方引《说文》：符，信也；汉制以竹，长六寸，分而相合。底部：符原本是一种凭证；道教的符借用了这个字，本课只说明字义，不据此推断它的用法">
+  <defs><marker id="ar5602" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <text x="245" y="30" text-anchor="middle" class="gt" style="font-size:12px">《说文》：“符，信也。汉制以竹，长六寸，分而相合。”</text>
+  <g transform="translate(80 60)"><path class="l" d="M-30 0H0L-4 20L4 40L-5 60L3 80L-3 100L2 120H-30Z"/></g>
+  <g transform="translate(140 60)"><path class="l" d="M30 0H0L-4 20L4 40L-5 60L3 80L-3 100L2 120H30Z"/></g>
+  <text x="65" y="202" text-anchor="middle" class="sm" style="font-size:11px">一半在这边</text>
+  <text x="155" y="202" text-anchor="middle" class="sm" style="font-size:11px">一半在那边</text>
+  <path class="l thin" d="M200 120H272" marker-end="url(#ar5602)"/>
+  <text x="236" y="110" text-anchor="middle" class="sm" style="font-size:11px">合在一起</text>
+  <g transform="translate(360 60)"><path class="gl" d="M-30 0H0L-4 20L4 40L-5 60L3 80L-3 100L2 120H-30Z"/><path class="gl" d="M30 0H0L-4 20L4 40L-5 60L3 80L-3 100L2 120H30Z"/></g>
+  <text x="360" y="202" text-anchor="middle" class="gt" style="font-size:12px">对得上，就是真的</text>
+  <text x="245" y="246" text-anchor="middle" style="font-size:12.5px">“符”原本是一种凭证</text>
+  <text x="245" y="266" text-anchor="middle" class="sm" style="font-size:11px">道教的符借用了这个字；它和凭证之间的联系，本课只点到为止</text>
+</svg>

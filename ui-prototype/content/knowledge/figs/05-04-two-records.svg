@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 322" role="img" aria-label="两件记录指向同一个干支日的示意图，本课自绘。左边一件青铜簋的轮廓，标利簋，1976 年陕西临潼出土，铭文唯甲子朝。右边一卷竹简，标《尚书·牧誓》，时甲子昧爽。两条线汇到中间一个圆，写甲子。圆下面一个箭头指向一个虚线框，写换成公历是哪一天？框里标：夏商周断代工程的推定是公元前 1046 年 1 月 20 日；此外还有许多互相竞争的复原，彼此可以相差很多年。底部：记录给的是干支；换算成公历，是后人的推算">
+  <defs><marker id="ar5401" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <g class="l" filter="url(#wob2)"><path d="M44 50H136"/><path d="M50 50Q46 96 70 112H110Q134 96 130 50"/><path d="M76 112L72 132H108L104 112"/><path d="M50 62Q30 66 34 84Q38 96 54 94M130 62Q150 66 146 84Q142 96 126 94"/></g>
+  <text x="90" y="156" text-anchor="middle" style="font-size:13px">利簋</text>
+  <text x="90" y="174" text-anchor="middle" class="sm" style="font-size:11px">1976 年陕西临潼出土</text>
+  <text x="90" y="192" text-anchor="middle" class="gt" style="font-size:12px">“唯甲子朝”</text>
+  <g class="l"><path d="M354 44H426V128H354Z"/><path d="M366 44V128M378 44V128M390 44V128M402 44V128M414 44V128" class="thin"/></g>
+  <text x="390" y="156" text-anchor="middle" style="font-size:13px">《尚书·牧誓》</text>
+  <text x="390" y="174" text-anchor="middle" class="sm" style="font-size:11px">传世文献</text>
+  <text x="390" y="192" text-anchor="middle" class="gt" style="font-size:12px">“时甲子昧爽”</text>
+  <path class="l thin" d="M150 100L210 112"/><path class="l thin" d="M340 100L280 112"/>
+  <circle class="wash" cx="245" cy="116" r="30"/><circle class="gl" cx="245" cy="116" r="30"/>
+  <text x="245" y="123" text-anchor="middle" class="gt" style="font-size:18px">甲子</text>
+  <path class="l thin" d="M245 150V200" marker-end="url(#ar5401)"/>
+  <path class="l thin" d="M60 210H430V280H60Z" stroke-dasharray="4 4"/>
+  <text x="245" y="232" text-anchor="middle" style="font-size:12.5px">换成公历，是哪一天？</text>
+  <text x="245" y="252" text-anchor="middle" class="sm" style="font-size:11.5px">夏商周断代工程的推定：公元前 1046 年 1 月 20 日</text>
+  <text x="245" y="270" text-anchor="middle" class="sm" style="font-size:11.5px">此外还有许多互相竞争的复原，可相差很多年</text>
+  <text x="245" y="310" text-anchor="middle" class="gt" style="font-size:12px">记录给的是干支；换算成公历，是后人的推算</text>
+</svg>

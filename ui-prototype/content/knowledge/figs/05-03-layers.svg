@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 304" role="img" aria-label="《易》的几层的示意图，本课自绘。三个套在一起的框。最里面一框标经：卦画、卦名、卦辞、爻辞，旁注成书年代学者说法不一。中间一框标传：彖、象、系辞、文言、说卦、序卦、杂卦，合称十翼。最外面一框标历代注疏。右边上半标传统说法：伏羲画卦，文王重卦，孔子作十篇传；北宋欧阳修认为不是一人之言。右边下半一条时间线，标两个出土写本：约前 300 年的楚地竹简本，约前 175 年的马王堆帛书本，后者另有今本没有的解说。底部：传统说法和出土证据，要分开看">
+  <path class="l" d="M16 20H300V266H16Z" filter="url(#wob2)"/>
+  <path class="l" d="M38 62H278V244H38Z"/>
+  <path class="wash" d="M62 116H254V226H62Z"/><path class="gl" d="M62 116H254V226H62Z"/>
+  <text x="158" y="44" text-anchor="middle" style="font-size:12.5px">历代注、疏、解说</text>
+  <text x="158" y="84" text-anchor="middle" style="font-size:12.5px">传：彖、象、系辞、文言</text>
+  <text x="158" y="102" text-anchor="middle" style="font-size:12.5px">说卦、序卦、杂卦（“十翼”）</text>
+  <text x="158" y="142" text-anchor="middle" class="gt" style="font-size:14px">经</text>
+  <text x="158" y="166" text-anchor="middle" style="font-size:12px">卦画、卦名</text>
+  <text x="158" y="186" text-anchor="middle" style="font-size:12px">卦辞、爻辞</text>
+  <text x="158" y="210" text-anchor="middle" class="sm" style="font-size:11px">成书年代学者说法不一</text>
+  <text x="318" y="40" text-anchor="start" style="font-size:12px">传统说法</text>
+  <text x="318" y="58" text-anchor="start" class="sm" style="font-size:11px">伏羲画卦，文王重卦</text>
+  <text x="318" y="74" text-anchor="start" class="sm" style="font-size:11px">孔子作十篇传</text>
+  <text x="318" y="90" text-anchor="start" class="sm" style="font-size:11px">北宋欧阳修：非一人之言</text>
+  <path class="l thin" d="M318 108H474" stroke-dasharray="2 4"/>
+  <text x="318" y="130" text-anchor="start" class="gt" style="font-size:12px">出土写本</text>
+  <path class="l thin" d="M330 146V246"/>
+  <g class="dotk"><circle cx="330" cy="160" r="4"/><circle cx="330" cy="214" r="4"/></g>
+  <text x="342" y="164" text-anchor="start" style="font-size:11.5px">约前 300 年</text>
+  <text x="342" y="180" text-anchor="start" class="sm" style="font-size:11px">楚地竹简本（上博）</text>
+  <text x="342" y="218" text-anchor="start" style="font-size:11.5px">约前 175 年</text>
+  <text x="342" y="234" text-anchor="start" class="sm" style="font-size:11px">马王堆帛书本</text>
+  <text x="342" y="250" text-anchor="start" class="sm" style="font-size:11px">另有今本没有的解说</text>
+  <text x="245" y="292" text-anchor="middle" class="gt" style="font-size:12px">传统说法和出土证据，要分开看</text>
+</svg>

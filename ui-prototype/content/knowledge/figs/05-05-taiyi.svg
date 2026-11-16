@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="太乙行九宫的示意图，本课自绘。左边一个三乘三的九宫格，按《大戴礼记》明堂一节的数字排列：上排二、九、四，中排七、五、三，下排六、一、八；中间的五用金色标出。格子外面一条虚线箭头绕行，写太乙在九宫之间移动。右边从上到下三个框：以岁、月、日、时为纲；八将；落到分野、治乱、水旱兵疫。框边小字：关心的是国家和天下，时间单位常以年计。底部：数字排列据《大戴礼记》，经清代《四库全书总目》引用；太乙的具体行宫次序，各家说法不同，本图不画">
+  <defs><marker id="ar5502" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l thin" d="M40 50h58v58h-58Z"/>
+  <text x="69" y="86" text-anchor="middle" style="font-size:19px">2</text>
+  <path class="l thin" d="M98 50h58v58h-58Z"/>
+  <text x="127" y="86" text-anchor="middle" style="font-size:19px">9</text>
+  <path class="l thin" d="M156 50h58v58h-58Z"/>
+  <text x="185" y="86" text-anchor="middle" style="font-size:19px">4</text>
+  <path class="l thin" d="M40 108h58v58h-58Z"/>
+  <text x="69" y="144" text-anchor="middle" style="font-size:19px">7</text>
+  <path class="wash" d="M98 108h58v58h-58Z"/>
+  <path class="l thin" d="M98 108h58v58h-58Z"/>
+  <text x="127" y="144" text-anchor="middle" class="gt" style="font-size:19px">5</text>
+  <path class="l thin" d="M156 108h58v58h-58Z"/>
+  <text x="185" y="144" text-anchor="middle" style="font-size:19px">3</text>
+  <path class="l thin" d="M40 166h58v58h-58Z"/>
+  <text x="69" y="202" text-anchor="middle" style="font-size:19px">6</text>
+  <path class="l thin" d="M98 166h58v58h-58Z"/>
+  <text x="127" y="202" text-anchor="middle" style="font-size:19px">1</text>
+  <path class="l thin" d="M156 166h58v58h-58Z"/>
+  <text x="185" y="202" text-anchor="middle" style="font-size:19px">8</text>
+  <path class="l" d="M40 50h174v174h-174Z" filter="url(#wob2)"/>
+  <path class="l thin" d="M26 70V36H228V238H80" stroke-dasharray="3 4" fill="none" marker-end="url(#ar5502)"/>
+  <text x="127" y="264" text-anchor="middle" class="sm" style="font-size:11.5px">太乙在九宫之间移动</text>
+  <text x="127" y="28" text-anchor="middle" class="sm" style="font-size:10.5px">《大戴礼记》：二九四、七五三、六一八</text>
+  <path class="l thin" d="M290 50H470V92H290Z"/>
+  <text x="380" y="76" text-anchor="middle" style="font-size:12.5px">以岁、月、日、时为纲</text>
+  <path class="l thin" d="M380 94V114" marker-end="url(#ar5502)"/>
+  <path class="l thin" d="M290 116H470V158H290Z"/>
+  <text x="380" y="135" text-anchor="middle" style="font-size:12.5px">八将</text>
+  <text x="380" y="151" text-anchor="middle" class="sm" style="font-size:10px">太乙与计神等合为八将</text>
+  <path class="l thin" d="M380 160V180" marker-end="url(#ar5502)"/>
+  <path class="l thin" d="M290 182H470V224H290Z"/>
+  <text x="380" y="208" text-anchor="middle" class="gt" style="font-size:12.5px">分野 · 治乱 · 水旱兵疫</text>
+  <text x="380" y="266" text-anchor="middle" class="sm" style="font-size:11px">关心国家、天下，常以年计</text>
+  <text x="245" y="300" text-anchor="middle" class="gt" style="font-size:11.5px">数字排列据《大戴礼记》，经《四库全书总目》引用</text>
+  <text x="245" y="318" text-anchor="middle" class="sm" style="font-size:11px">太乙具体怎样行宫，各家说法不同，本图不画</text>
+</svg>

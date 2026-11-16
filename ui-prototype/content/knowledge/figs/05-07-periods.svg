@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 316" role="img" aria-label="不同时代、不同道派做法不同的示意图，本课自绘。三列。左列标南朝刘宋，陆修静：天师道的治、职位阶梯、命籍、三会。中列标北魏，寇谦之：自称太上老君亲授天师之位和新科，要除去三张伪法、租米钱税、男女合气之术。右列标隋唐：《隋书》记五千文箓、三洞箓、洞玄箓、上清箓的先后；唐张万福列出各级弟子所受的戒，从正一、五千文到灵宝初盟、中盟、大盟，再到上清。每列下面一句：靠什么证明身份。左列写靠师承、治职和登记；中列写靠宣称新的天启；右列写靠层层递进的经、戒、箓。底部：没有一个从古到今、各派共用的单一制度">
+  <path class="l thin" d="M11 30H159V250H11Z"/>
+  <text x="85" y="54" text-anchor="middle" class="gt" style="font-size:13px">南朝刘宋</text>
+  <text x="85" y="72" text-anchor="middle" class="sm" style="font-size:11px">陆修静</text>
+  <text x="85" y="108" text-anchor="middle" style="font-size:10.5px">天师道的“治”</text>
+  <text x="85" y="132" text-anchor="middle" style="font-size:10.5px">职位阶梯</text>
+  <text x="85" y="156" text-anchor="middle" style="font-size:10.5px">命籍、三会</text>
+  <path class="l thin" d="M25 196H145" stroke-dasharray="2 3"/>
+  <text x="85" y="222" text-anchor="middle" class="gt" style="font-size:10.5px">靠师承、治职、登记</text>
+  <path class="l thin" d="M171 30H319V250H171Z"/>
+  <text x="245" y="54" text-anchor="middle" class="gt" style="font-size:13px">北魏</text>
+  <text x="245" y="72" text-anchor="middle" class="sm" style="font-size:11px">寇谦之</text>
+  <text x="245" y="108" text-anchor="middle" style="font-size:10.5px">自称老君亲授“天师之位”</text>
+  <text x="245" y="132" text-anchor="middle" style="font-size:10.5px">新科之诫</text>
+  <text x="245" y="156" text-anchor="middle" style="font-size:10.5px">除去“三张伪法”</text>
+  <path class="l thin" d="M185 196H305" stroke-dasharray="2 3"/>
+  <text x="245" y="222" text-anchor="middle" class="gt" style="font-size:10.5px">靠宣称新的天启</text>
+  <path class="l thin" d="M331 30H479V250H331Z"/>
+  <text x="405" y="54" text-anchor="middle" class="gt" style="font-size:13px">隋唐</text>
+  <text x="405" y="72" text-anchor="middle" class="sm" style="font-size:11px">《隋书》、张万福</text>
+  <text x="405" y="108" text-anchor="middle" style="font-size:10.5px">五千文→三洞→洞玄→上清</text>
+  <text x="405" y="132" text-anchor="middle" style="font-size:10.5px">各级弟子各受其戒</text>
+  <text x="405" y="156" text-anchor="middle" style="font-size:10.5px">灵宝初、中、大盟</text>
+  <path class="l thin" d="M345 196H465" stroke-dasharray="2 3"/>
+  <text x="405" y="222" text-anchor="middle" class="gt" style="font-size:10.5px">靠层层递进的经、戒、箓</text>
+  <text x="245" y="286" text-anchor="middle" class="gt" style="font-size:12.5px">没有一个从古到今、各派共用的单一制度</text>
+  <text x="245" y="304" text-anchor="middle" class="sm" style="font-size:11px">这里只列本课读过的三种材料</text>
+</svg>

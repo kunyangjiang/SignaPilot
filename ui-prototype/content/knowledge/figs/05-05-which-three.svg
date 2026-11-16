@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 296" role="img" aria-label="三式名单前后不同的示意图，本课自绘。左边一块牌子，标唐代《唐六典》太卜署：一雷公式，二太一式，这两种旁边画锁，写禁止私家收藏；三六壬式，写士人百姓都可以用。右边一块牌子，标清代《四库全书总目》：六壬、遁甲、太乙，世谓之三式。两块牌子之间用线连起名字：太一和太乙之间画虚线，表示名字相近、是否同一种式没有证实，六壬和六壬之间画实线；雷公式在右边没有对应，遁甲在左边没有对应。底部：同叫三式，唐代和清代说的不是同一组">
+  <path class="l" d="M20 30H200V230H20Z" filter="url(#wob2)"/>
+  <path class="l" d="M290 30H470V230H290Z" filter="url(#wob2)"/>
+  <text x="110" y="56" text-anchor="middle" class="gt" style="font-size:12.5px">唐《唐六典》太卜署</text>
+  <text x="380" y="56" text-anchor="middle" class="gt" style="font-size:12.5px">清《四库全书总目》</text>
+  <text x="110" y="74" text-anchor="middle" class="sm" style="font-size:11px">8 世纪</text>
+  <text x="380" y="74" text-anchor="middle" class="sm" style="font-size:11px">18 世纪</text>
+  <text x="44" y="112" text-anchor="start" style="font-size:13px">一 雷公式</text>
+  <text x="44" y="150" text-anchor="start" style="font-size:13px">二 太一式</text>
+  <text x="44" y="188" text-anchor="start" style="font-size:13px">三 六壬式</text>
+  <text x="314" y="112" text-anchor="start" style="font-size:13px">六壬</text>
+  <text x="314" y="150" text-anchor="start" style="font-size:13px">遁甲</text>
+  <text x="314" y="188" text-anchor="start" style="font-size:13px">太乙</text>
+  <g class="l thin" transform="translate(160 106)"><path d="M-7 -2H7V10H-7Z"/><path d="M-4 -2V-6A4 4 0 0 1 4 -6V-2" fill="none"/></g>
+  <g class="l thin" transform="translate(160 144)"><path d="M-7 -2H7V10H-7Z"/><path d="M-4 -2V-6A4 4 0 0 1 4 -6V-2" fill="none"/></g>
+  <text x="110" y="210" text-anchor="middle" class="sm" style="font-size:11px">前两种“禁私家畜”</text>
+  <text x="110" y="224" text-anchor="middle" class="sm" style="font-size:11px">六壬“士庶通用之”</text>
+  <path class="gl thin" d="M126 186Q220 150 308 108"/>
+  <path class="l thin" d="M126 148Q220 170 308 184" stroke-dasharray="4 3"/>
+  <path class="l thin" d="M352 146H380" stroke-dasharray="2 3"/>
+  <text x="386" y="150" text-anchor="start" class="sm" style="font-size:10.5px">唐代名单里没有</text>
+  <text x="380" y="212" text-anchor="middle" class="sm" style="font-size:11px">“世谓之三式”</text>
+  <text x="245" y="266" text-anchor="middle" class="gt" style="font-size:12.5px">同叫“三式”，唐代和清代说的不是同一组</text>
+  <text x="245" y="284" text-anchor="middle" class="sm" style="font-size:11px">虚线：名字相近，是否同一种式，本课没有证实</text>
+</svg>

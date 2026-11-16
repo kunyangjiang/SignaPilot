@@ -488,6 +488,11 @@
     '04-07': { src: 'content/knowledge/04-07.md', state: 'done' },
     '05-01': { src: 'content/knowledge/05-01.md', state: 'done' },
     '05-02': { src: 'content/knowledge/05-02.md', state: 'done' },
+    '05-03': { src: 'content/knowledge/05-03.md', state: 'done' },
+    '05-04': { src: 'content/knowledge/05-04.md', state: 'done' },
+    '05-05': { src: 'content/knowledge/05-05.md', state: 'done' },
+    '05-06': { src: 'content/knowledge/05-06.md', state: 'done' },
+    '05-07': { src: 'content/knowledge/05-07.md', state: 'done' },
   };
   const K_STATE = { done: '已完成', draft: '初稿 · 待审读' };
   // A course manuscript: "# 标题", an optional "> 初稿…" status line, a lead paragraph, "**…**" question lines,
@@ -952,7 +957,7 @@
               <p class="vc-x"><span class="label">凭什么</span>${inline(x.basis)}</p>
               <p class="vc-x"><span class="label">够不着的地方</span>${inline(x.limit)}</p></div></li>`
               : `<li class="none"><b class="vc-who">${esc(v.name)}</b><div><p class="vc-claim">本案材料里没有这一方对这个问题的说法。</p></div></li>`;
-          }).join('')}</ul><p class="vc-out"><span class="label">这件事里实际发生的</span>${inline(q.outcome)}</p>`;
+          }).join('')}</ul><p class="vc-out"><span class="label">${esc(w.outLabel || '这件事里实际发生的')}</span>${inline(q.outcome)}</p>`;
         });
       },
     },
@@ -1376,6 +1381,89 @@
           if (focus === 'next') { const b = $('.gm-next', body); if (!b.disabled) b.focus(); else $('.gm-out', body).setAttribute('tabindex', '-1'), $('.gm-out', body).focus(); }
         };
         radios($('.gm-pick', fig), k => { cur = k; step = 0; draw(); });
+      },
+    },
+    // 05-03: change lines of a hexagram. Each case starts from the hexagram a source records; clicking a line turns it
+    // yin <-> yang and the resulting hexagram is named from its two trigrams. When exactly the line the source names has
+    // changed, the line statement and the readings recorded for it are shown. Lines are bits from the bottom (1 = yang).
+    // w: { caption, cases: [{ tab, src, from, line, text, reading, other }] }
+    hexagram: {
+      html: (w, no) => `<figure class="fig hx" data-widget="${no}">
+        <div class="fig-frame">
+          <div class="hx-sec"><p class="label">选一个《左传》里的例子</p></div>${radioRow('hx-pick', '选择例子', w.cases.map(c => c.tab))}
+          <div class="hx-body"></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        const TRI = { '111': '乾', '100': '震', '010': '坎', '001': '艮', '000': '坤', '011': '巽', '101': '离', '110': '兑' };
+        const ORD = ['乾', '震', '坎', '艮', '坤', '巽', '离', '兑'];
+        const NUM = [[1, 25, 6, 33, 12, 44, 13, 10], [34, 51, 40, 62, 16, 32, 55, 54], [5, 3, 29, 39, 8, 48, 63, 60], [26, 27, 4, 52, 23, 18, 22, 41],
+          [11, 24, 7, 15, 2, 46, 36, 19], [9, 42, 59, 53, 20, 57, 37, 61], [14, 21, 64, 56, 35, 50, 30, 38], [43, 17, 47, 31, 45, 28, 49, 58]];
+        const NAME = '乾 坤 屯 蒙 需 讼 师 比 小畜 履 泰 否 同人 大有 谦 豫 随 蛊 临 观 噬嗑 贲 剥 复 无妄 大畜 颐 大过 坎 离 咸 恒 遯 大壮 晋 明夷 家人 睽 蹇 解 损 益 夬 姤 萃 升 困 井 革 鼎 震 艮 渐 归妹 丰 旅 巽 兑 涣 节 中孚 小过 既济 未济'.split(' ');
+        const POS = ['初', '二', '三', '四', '五', '上'];
+        const hex = b => { const lo = TRI[b.slice(0, 3)], up = TRI[b.slice(3)], n = NUM[ORD.indexOf(up)][ORD.indexOf(lo)]; return { lo, up, n, name: NAME[n - 1] }; };
+        const lineName = (b, i) => (i === 0 ? '初' + (b[i] === '1' ? '九' : '六') : i === 5 ? '上' + (b[i] === '1' ? '九' : '六') : (b[i] === '1' ? '九' : '六') + POS[i]);
+        const body = $('.hx-body', fig);
+        let c = w.cases[0], cur = c.from;
+        const draw = focusI => {
+          const a = hex(c.from), z = hex(cur), diff = [...cur].map((x, i) => (x !== c.from[i] ? i : -1)).filter(i => i >= 0);
+          const lines = [5, 4, 3, 2, 1, 0].map(i => `<li><button type="button" class="hx-line${cur[i] === '1' ? ' yang' : ' yin'}${diff.includes(i) ? ' moved' : ''}" data-i="${i}" aria-label="${POS[i]}爻，原来是${c.from[i] === '1' ? '阳' : '阴'}爻，现在是${cur[i] === '1' ? '阳' : '阴'}爻。按一下让它变"><span class="hx-bar" aria-hidden="true"><i></i><i></i></span><span class="hx-tag">${lineName(c.from, i)}</span></button></li>`).join('');
+          let out;
+          if (!diff.length) out = `<p class="hx-hint">还没有爻变。按其中一爻，让它由阴变阳或由阳变阴。</p>`;
+          else if (diff.length === 1 && diff[0] === c.line - 1) out = `<p class="hx-hit">变的是${lineName(c.from, diff[0])}：这正是《左传》记的“遇《${a.name}》之《${z.name}》”。</p>
+            <p class="hx-text"><span class="label">《周易》这一爻的爻辞${c.uncited ? '（《左传》此处没有引用它）' : ''}</span>${inline(c.text)}</p>
+            <p><span class="label">当时的人怎么读</span>${inline(c.reading)}</p>
+            <p><span class="label">同一句话，也可以这样读</span>${inline(c.other)}</p>`;
+          else out = `<p class="hx-hint">现在变了 ${diff.length} 爻（${diff.map(i => lineName(c.from, i)).join('、')}），得到《${z.name}》。这一例《左传》记的本卦和之卦只差一爻，是${lineName(c.from, c.line - 1)}。${diff.length > 1 ? '几爻同时变时该看哪一句，早期材料没有留下统一的规则，后世各家的说法也不一样。' : '换一爻，得到的就是另一个卦。这里只演示这条记载里的情形，不代表各个时代都按同一种办法读。'}</p>`;
+          body.innerHTML = `<p class="hx-src">${inline(c.src)}</p>
+            <div class="hx-main"><ol class="hx-lines" aria-label="六爻，从上到下：上、五、四、三、二、初">${lines}</ol>
+              <div class="hx-read" aria-live="polite"><p class="hx-name"><span class="label">本卦</span><b>${a.name}</b><small>下${a.lo}上${a.up}</small></p>
+                <p class="hx-name${diff.length ? ' on' : ''}"><span class="label">${diff.length ? '变成' : '还没变'}</span><b>${z.name}</b><small>下${z.lo}上${z.up}</small></p></div></div>
+            <div class="hx-out" aria-live="polite">${out}</div>
+            <div class="hx-ctl"><button type="button" class="hx-reset"${diff.length ? '' : ' disabled'}>回到本卦</button></div>`;
+          $$('.hx-line', body).forEach(b => b.addEventListener('click', () => {
+            const i = +b.dataset.i; cur = cur.slice(0, i) + (cur[i] === '1' ? '0' : '1') + cur.slice(i + 1); draw(i);
+          }));
+          $('.hx-reset', body).addEventListener('click', () => { cur = c.from; draw(c.line - 1); });
+          if (focusI !== undefined) $(`.hx-line[data-i="${focusI}"]`, body).focus();
+        };
+        radios($('.hx-pick', fig), k => { c = w.cases[k]; cur = c.from; draw(); });
+      },
+    },
+    // 05-04: step through the sixty-day cycle. The ten stems and the twelve branches each move one place per step; the
+    // grid of sixty fills in as the reader goes, and notes keyed by step number say what that step shows.
+    // w: { caption, stems: [10], branches: [12], notes: { step: text }, end }
+    cycle: {
+      html: (w, no) => `<figure class="fig cy" data-widget="${no}">
+        <div class="fig-frame">
+          <div class="cy-rows" aria-hidden="true"><ol class="cy-st">${w.stems.map(s => `<li>${s}</li>`).join('')}</ol><ol class="cy-br">${w.branches.map(s => `<li>${s}</li>`).join('')}</ol></div>
+          <div class="cy-now" aria-live="polite"></div>
+          <div class="cy-ctl"><button type="button" data-d="1">走 1 步</button><button type="button" data-d="10">走 10 步</button><button type="button" data-d="12">走 12 步</button><button type="button" data-d="-1">退 1 步</button><button type="button" data-d="0">回到甲子</button></div>
+          <ol class="cy-grid" aria-label="六十个组合，已走到的标出"></ol>
+          <p class="cy-note" aria-live="polite"></p>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        const S = w.stems, B = w.branches, name = k => S[k % 10] + B[k % 12];
+        let step = 0, seen = new Set([0]);
+        const draw = () => {
+          const k = step % 60, round = Math.floor(step / 60);
+          $$('.cy-st li', fig).forEach((li, i) => li.classList.toggle('on', i === step % 10));
+          $$('.cy-br li', fig).forEach((li, i) => li.classList.toggle('on', i === step % 12));
+          $('.cy-now', fig).innerHTML = `<b>${name(step)}</b><span>第 ${step + 1} 个位置 · 从甲子起已走 ${step} 步${round ? `（已转完 ${round} 圈六十）` : ''}</span><span>天干第 ${step % 10 + 1} 个 · 地支第 ${step % 12 + 1} 个</span>`;
+          $('.cy-grid', fig).innerHTML = Array.from({ length: 60 }, (_, j) => `<li class="${seen.has(j) ? 'seen' : ''}${j === k ? ' now' : ''}">${seen.has(j) ? name(j) : ''}</li>`).join('');
+          const here = w.notes[step + 1];
+          $('.cy-note', fig).innerHTML = here ? inline(here) : seen.size === 60 ? inline(w.end) : `已经走过 ${seen.size} 个不同的组合，还有 ${60 - seen.size} 个没出现。`;
+        };
+        $('.cy-ctl', fig).addEventListener('click', e => {
+          const b = e.target.closest('[data-d]'); if (!b) return;
+          const d = +b.dataset.d;
+          if (d === 0) { step = 0; seen = new Set([0]); }
+          else if (d < 0) step = Math.max(0, step - 1);
+          else for (let i = 0; i < d; i++) { step++; seen.add(step % 60); }
+          draw();
+        });
+        draw();
       },
     },
   };

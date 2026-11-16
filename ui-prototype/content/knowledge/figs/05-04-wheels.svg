@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 326" role="img" aria-label="两个齿轮的示意图，本课自绘。左边一个小轮，分十格，写着甲到癸十个天干；右边一个大轮，分十二格，写着子到亥十二个地支。两轮在中间相接，接触处的甲和子用金色标出，代表当前是甲子。每走一步，两个轮各转一格。底部：十和十二的最小公倍数是六十，所以要走六十步，两个轮才同时回到起点">
+  <circle class="l" cx="130" cy="140" r="98"/>
+  <circle class="l thin" cx="130" cy="140" r="66"/>
+  <path class="l thin" d="M192.8 119.6L223.2 109.7"/>
+  <text x="212" y="145" text-anchor="middle" class="gt" style="font-size:13.5px">甲</text>
+  <path class="l thin" d="M192.8 160.4L223.2 170.3"/>
+  <text x="196.339" y="193.198" text-anchor="middle" style="font-size:13.5px">乙</text>
+  <path class="l thin" d="M168.8 193.4L187.6 219.3"/>
+  <text x="155.339" y="222.987" text-anchor="middle" style="font-size:13.5px">丙</text>
+  <path class="l thin" d="M130.0 206.0L130.0 238.0"/>
+  <text x="104.661" y="222.987" text-anchor="middle" style="font-size:13.5px">丁</text>
+  <path class="l thin" d="M91.2 193.4L72.4 219.3"/>
+  <text x="63.6606" y="193.198" text-anchor="middle" style="font-size:13.5px">戊</text>
+  <path class="l thin" d="M67.2 160.4L36.8 170.3"/>
+  <text x="48" y="145" text-anchor="middle" style="font-size:13.5px">己</text>
+  <path class="l thin" d="M67.2 119.6L36.8 109.7"/>
+  <text x="63.6606" y="96.8016" text-anchor="middle" style="font-size:13.5px">庚</text>
+  <path class="l thin" d="M91.2 86.6L72.4 60.7"/>
+  <text x="104.661" y="67.0134" text-anchor="middle" style="font-size:13.5px">辛</text>
+  <path class="l thin" d="M130.0 74.0L130.0 42.0"/>
+  <text x="155.339" y="67.0134" text-anchor="middle" style="font-size:13.5px">壬</text>
+  <path class="l thin" d="M168.8 86.6L187.6 60.7"/>
+  <text x="196.339" y="96.8016" text-anchor="middle" style="font-size:13.5px">癸</text>
+  <circle class="l" cx="352" cy="140" r="112"/>
+  <circle class="l thin" cx="352" cy="140" r="80"/>
+  <path class="l thin" d="M429.3 119.3L460.2 111.0"/>
+  <text x="448" y="145" text-anchor="middle" style="font-size:13.5px">午</text>
+  <path class="l thin" d="M429.3 160.7L460.2 169.0"/>
+  <text x="435.138" y="193" text-anchor="middle" style="font-size:13.5px">未</text>
+  <path class="l thin" d="M408.6 196.6L431.2 219.2"/>
+  <text x="400" y="228.138" text-anchor="middle" style="font-size:13.5px">申</text>
+  <path class="l thin" d="M372.7 217.3L381.0 248.2"/>
+  <text x="352" y="241" text-anchor="middle" style="font-size:13.5px">酉</text>
+  <path class="l thin" d="M331.3 217.3L323.0 248.2"/>
+  <text x="304" y="228.138" text-anchor="middle" style="font-size:13.5px">戌</text>
+  <path class="l thin" d="M295.4 196.6L272.8 219.2"/>
+  <text x="268.862" y="193" text-anchor="middle" style="font-size:13.5px">亥</text>
+  <path class="l thin" d="M274.7 160.7L243.8 169.0"/>
+  <text x="256" y="145" text-anchor="middle" class="gt" style="font-size:13.5px">子</text>
+  <path class="l thin" d="M274.7 119.3L243.8 111.0"/>
+  <text x="268.862" y="97" text-anchor="middle" style="font-size:13.5px">丑</text>
+  <path class="l thin" d="M295.4 83.4L272.8 60.8"/>
+  <text x="304" y="61.8616" text-anchor="middle" style="font-size:13.5px">寅</text>
+  <path class="l thin" d="M331.3 62.7L323.0 31.8"/>
+  <text x="352" y="49" text-anchor="middle" style="font-size:13.5px">卯</text>
+  <path class="l thin" d="M372.7 62.7L381.0 31.8"/>
+  <text x="400" y="61.8616" text-anchor="middle" style="font-size:13.5px">辰</text>
+  <path class="l thin" d="M408.6 83.4L431.2 60.8"/>
+  <text x="435.138" y="97" text-anchor="middle" style="font-size:13.5px">巳</text>
+  <path class="gl" d="M232 116V164" style="stroke-width:2"/>
+  <text x="130" y="266" text-anchor="middle" style="font-size:12px">十个天干</text>
+  <text x="352" y="266" text-anchor="middle" style="font-size:12px">十二个地支</text>
+  <text x="240" y="26" text-anchor="middle" class="sm" style="font-size:12px">每走一步，两个轮各转一格</text>
+  <text x="245" y="296" text-anchor="middle" class="gt" style="font-size:12.5px">10 和 12 的最小公倍数是 60</text>
+  <text x="245" y="314" text-anchor="middle" class="sm" style="font-size:11px">要走 60 步，两个轮才同时回到“甲子”</text>
+</svg>

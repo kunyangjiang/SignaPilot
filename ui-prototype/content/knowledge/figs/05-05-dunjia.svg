@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 324" role="img" aria-label="遁甲盘面层次的示意图，本课自绘。四张斜放、上下叠在一起的透明薄片，每张都是三乘三的九宫格，格子里不填内容。最底下一张标九宫，是底；往上依次标三奇六仪：乙丙丁为三奇，戊己庚辛壬癸为六仪；八门：如开、休、生等；九星。旁边一个大括号，写叠在一起看加临，以为趋避。最上方小字：甲不单独出现，藏在六仪之下，故名遁甲。底部：据清代《四库全书总目》对明代程道生《遁甲演义》的概括所画；不是哪一张古盘，格子里故意不填">
+  <path class="wash" d="M70 230L220 230L286 194L136 194Z" style="opacity:.55"/>
+  <path class="gl thin" d="M70 230L220 230L286 194L136 194Z"/>
+  <path class="l thin" d="M120 230L186 194" style="opacity:.6"/>
+  <path class="l thin" d="M92 218L242 218" style="opacity:.6"/>
+  <path class="l thin" d="M170 230L236 194" style="opacity:.6"/>
+  <path class="l thin" d="M114 206L264 206" style="opacity:.6"/>
+  <path class="l thin" d="M242 218H306" stroke-dasharray="2 3"/>
+  <text x="312" y="222" text-anchor="start" class="gt" style="font-size:12.5px">九宫</text>
+  <text x="312" y="238" text-anchor="start" class="sm" style="font-size:10px">底</text>
+  <path class="wash" d="M70 180L220 180L286 144L136 144Z" style="opacity:.55"/>
+  <path class="l thin" d="M70 180L220 180L286 144L136 144Z"/>
+  <path class="l thin" d="M120 180L186 144" style="opacity:.6"/>
+  <path class="l thin" d="M92 168L242 168" style="opacity:.6"/>
+  <path class="l thin" d="M170 180L236 144" style="opacity:.6"/>
+  <path class="l thin" d="M114 156L264 156" style="opacity:.6"/>
+  <path class="l thin" d="M242 168H306" stroke-dasharray="2 3"/>
+  <text x="312" y="172" text-anchor="start" style="font-size:12.5px">三奇六仪</text>
+  <text x="312" y="188" text-anchor="start" class="sm" style="font-size:10px">乙丙丁为三奇；戊至癸为六仪</text>
+  <path class="wash" d="M70 130L220 130L286 94L136 94Z" style="opacity:.55"/>
+  <path class="l thin" d="M70 130L220 130L286 94L136 94Z"/>
+  <path class="l thin" d="M120 130L186 94" style="opacity:.6"/>
+  <path class="l thin" d="M92 118L242 118" style="opacity:.6"/>
+  <path class="l thin" d="M170 130L236 94" style="opacity:.6"/>
+  <path class="l thin" d="M114 106L264 106" style="opacity:.6"/>
+  <path class="l thin" d="M242 118H306" stroke-dasharray="2 3"/>
+  <text x="312" y="122" text-anchor="start" style="font-size:12.5px">八门</text>
+  <text x="312" y="138" text-anchor="start" class="sm" style="font-size:10px">如开、休、生</text>
+  <path class="wash" d="M70 80L220 80L286 44L136 44Z" style="opacity:.55"/>
+  <path class="l thin" d="M70 80L220 80L286 44L136 44Z"/>
+  <path class="l thin" d="M120 80L186 44" style="opacity:.6"/>
+  <path class="l thin" d="M92 68L242 68" style="opacity:.6"/>
+  <path class="l thin" d="M170 80L236 44" style="opacity:.6"/>
+  <path class="l thin" d="M114 56L264 56" style="opacity:.6"/>
+  <path class="l thin" d="M242 68H306" stroke-dasharray="2 3"/>
+  <text x="312" y="72" text-anchor="start" style="font-size:12.5px">九星</text>
+  <path class="l thin" d="M60 80Q48 80 48 100V170Q48 182 38 182Q48 182 48 194V230" fill="none" transform="translate(-14 0)"/>
+  <text x="18" y="160" text-anchor="middle" class="sm" style="font-size:11px">叠</text>
+  <text x="18" y="176" text-anchor="middle" class="sm" style="font-size:11px">看</text>
+  <text x="245" y="22" text-anchor="middle" class="sm" style="font-size:11px">“甲”不单独出现，藏在六仪之下，故号“遁甲”</text>
+  <text x="245" y="276" text-anchor="middle" class="gt" style="font-size:12px">“视其加临之吉凶，以为趋避”</text>
+  <text x="245" y="296" text-anchor="middle" class="sm" style="font-size:11px">据《四库全书总目》对明代《遁甲演义》的概括所画</text>
+  <text x="245" y="312" text-anchor="middle" class="sm" style="font-size:11px">不是哪一张古盘；格子里故意不填</text>
+</svg>

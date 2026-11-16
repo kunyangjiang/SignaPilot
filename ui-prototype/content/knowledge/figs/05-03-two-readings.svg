@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 298" role="img" aria-label="同一句话两种读法的示意图，本课自绘。中间一块竹简样的长条，写着黄裳元吉四个字。左边一个人像标南蒯，箭头指向一个对勾，写以为大吉。右边一个人像标子服惠伯，箭头指向一个分叉：上面一条写忠信之事则可，下面一条写不然必败。底部：字是同一组字，读出来的结论不同；据《左传》昭公十二年">
+  <defs><marker id="ar5301" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="wash" d="M228 30H262V206H228Z"/><path class="l" d="M228 30H262V206H228Z" filter="url(#wob2)"/>
+  <text x="245" y="68" text-anchor="middle" style="font-size:19px">黄</text>
+  <text x="245" y="108" text-anchor="middle" style="font-size:19px">裳</text>
+  <text x="245" y="148" text-anchor="middle" style="font-size:19px">元</text>
+  <text x="245" y="188" text-anchor="middle" style="font-size:19px">吉</text>
+  <g class="l"><circle cx="70" cy="74" r="13"/><path d="M48 122Q50 92 70 90Q90 92 92 122"/></g>
+  <g class="l"><circle cx="420" cy="74" r="13"/><path d="M398 122Q400 92 420 90Q440 92 442 122"/></g>
+  <text x="70" y="142" text-anchor="middle" style="font-size:13px">南蒯</text>
+  <text x="420" y="142" text-anchor="middle" style="font-size:13px">子服惠伯</text>
+  <path class="l thin" d="M216 116H130" marker-end="url(#ar5301)"/>
+  <path class="l thin" d="M274 116H360" marker-end="url(#ar5301)"/>
+  <path class="gl" d="M58 184L70 198L94 168" style="stroke-width:2.4"/>
+  <text x="76" y="222" text-anchor="middle" class="gt" style="font-size:12.5px">以为大吉</text>
+  <path class="l thin" d="M300 196H330M330 196L354 176M330 196L354 216"/>
+  <text x="360" y="180" text-anchor="start" style="font-size:12px">忠信之事则可</text>
+  <text x="360" y="222" text-anchor="start" class="gt" style="font-size:12px">不然必败</text>
+  <text x="245" y="268" text-anchor="middle" class="gt" style="font-size:12.5px">字是同一组字，读出来的结论不同</text>
+  <text x="245" y="286" text-anchor="middle" class="sm" style="font-size:11px">据《左传》昭公十二年（前 530 年）</text>
+</svg>

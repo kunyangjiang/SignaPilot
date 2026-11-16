@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 294" role="img" aria-label="《抱朴子·登涉》里提到的几种载体的示意图，本课自绘。四个小图并排：一块木板，标桃板，丹书，大书其文字令弥满板上，挂在门户、四方四隅；一块方形的布，标绢或白素，丹书，随身带着；一个方块印章，标枣心木，方二寸，刻之，佩带；一个小屋轮廓，标牛马屋、猪栏，写三符兼同著于其上。每个小图里面都是空白或占位记号。底部：同一类东西，可以写、可以刻、可以挂、可以带；载体和位置本身就是证据；本课只记葛洪怎么说，不判断效果">
+  <path class="wash" d="M44 40H96V140H44Z"/>
+  <path class="l" d="M44 40H96V140H44Z" filter="url(#wob2)"/>
+  <path class="l thin" d="M66 36A4 4 0 1 0 74 36A4 4 0 1 0 66 36"/>
+  <path class="l" d="M162 54Q190 46 218 54V128Q190 136 162 128Z"/>
+  <path class="l" d="M286 66H334V114H286Z"/><path class="l thin" d="M292 72H328V108H292Z"/>
+  <path class="l" d="M384 140V90L420 62L456 90V140Z"/><path class="l thin" d="M406 140V110H434V140"/>
+  <path class="gl thin" d="M412 86H428V100H412Z"/>
+  <text x="70" y="172" text-anchor="middle" class="gt" style="font-size:13px">桃板</text>
+  <text x="70" y="192" text-anchor="middle" class="sm" style="font-size:10.5px">丹书，写满整块板</text>
+  <text x="70" y="208" text-anchor="middle" class="sm" style="font-size:10.5px">挂在门户、四方四隅</text>
+  <text x="190" y="172" text-anchor="middle" class="gt" style="font-size:13px">绢 / 白素</text>
+  <text x="190" y="192" text-anchor="middle" class="sm" style="font-size:10.5px">丹书</text>
+  <text x="190" y="208" text-anchor="middle" class="sm" style="font-size:10.5px">随身带着</text>
+  <text x="310" y="172" text-anchor="middle" class="gt" style="font-size:13px">枣心木印</text>
+  <text x="310" y="192" text-anchor="middle" class="sm" style="font-size:10.5px">方二寸，刻成印</text>
+  <text x="310" y="208" text-anchor="middle" class="sm" style="font-size:10.5px">佩带</text>
+  <text x="420" y="172" text-anchor="middle" class="gt" style="font-size:13px">牛马屋、猪栏</text>
+  <text x="420" y="192" text-anchor="middle" class="sm" style="font-size:10.5px">几张符一起</text>
+  <text x="420" y="208" text-anchor="middle" class="sm" style="font-size:10.5px">贴在屋舍栏圈上</text>
+  <text x="245" y="262" text-anchor="middle" class="gt" style="font-size:12.5px">载体、颜料、位置，本身就是证据</text>
+  <text x="245" y="282" text-anchor="middle" class="sm" style="font-size:11px">本课只记葛洪怎样说，不判断效果，也不复原做法</text>
+</svg>

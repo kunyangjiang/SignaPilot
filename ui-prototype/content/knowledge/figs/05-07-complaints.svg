@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 308" role="img" aria-label="陆修静几条抱怨的示意图，本课自绘。四张卡片。第一张：两件衣服，一件长褐，一件裤褶，标只受了小箓的人，偷穿上道法服帔褐。第二张：一张大名单和一张小名单，标佩箓惟多，越多越好。第三张：一个低的台阶和一个高的台阶，标身受下治，署人上品，自己只在低位，却给别人封高位。第四张：一块空白木板，标自荷白板，而加板于人，自己的职位还没被确认，就去任命别人。底部：这些乱象说明，手里有文件、身上有衣服，并不等于有资格；据《陆先生道门科略》">
+  <path class="l thin" d="M20 30H122V250H20Z"/>
+  <text x="71" y="168" text-anchor="middle" class="gt" style="font-size:12.5px">偷穿法服</text>
+  <text x="71" y="190" text-anchor="middle" class="sm" style="font-size:10.5px">只受了小箓，</text>
+  <text x="71" y="206" text-anchor="middle" class="sm" style="font-size:10.5px">却穿上帔褐</text>
+  <path class="l thin" d="M136 30H238V250H136Z"/>
+  <text x="187" y="168" text-anchor="middle" class="gt" style="font-size:12.5px">佩箓惟多</text>
+  <text x="187" y="190" text-anchor="middle" class="sm" style="font-size:10.5px">箓越多越好，</text>
+  <text x="187" y="206" text-anchor="middle" class="sm" style="font-size:10.5px">争先竞胜</text>
+  <path class="l thin" d="M252 30H354V250H252Z"/>
+  <text x="303" y="168" text-anchor="middle" class="gt" style="font-size:12.5px">下治署上品</text>
+  <text x="303" y="190" text-anchor="middle" class="sm" style="font-size:10.5px">自己在低位，</text>
+  <text x="303" y="206" text-anchor="middle" class="sm" style="font-size:10.5px">却封别人高位</text>
+  <path class="l thin" d="M368 30H470V250H368Z"/>
+  <text x="419" y="168" text-anchor="middle" class="gt" style="font-size:12.5px">自荷白板</text>
+  <text x="419" y="190" text-anchor="middle" class="sm" style="font-size:10.5px">自己未经确认，</text>
+  <text x="419" y="206" text-anchor="middle" class="sm" style="font-size:10.5px">却去任命别人</text>
+  <g class="l"><path d="M42 140L48 60H66L72 140Z"/><path d="M48 60L40 80M66 60L74 80" class="thin"/></g>
+  <g class="l"><path d="M84 60H100V96H84Z"/><path d="M84 96L82 140M100 96L102 140M92 96V140" class="thin"/></g>
+  <g class="l"><path d="M152 56H192V140H152Z"/><path d="M158 68H186M158 80H186M158 92H186M158 104H186M158 116H186M158 128H186" class="thin"/></g>
+  <g class="l"><path d="M198 92H220V140H198Z"/><path d="M203 104H215M203 116H215" class="thin"/></g>
+  <g class="l"><path d="M266 140H296V124H266Z"/><path d="M308 140H338V70H308Z"/></g>
+  <g class="l thin"><circle cx="281" cy="112" r="6"/></g>
+  <path class="gl thin" d="M287 110Q300 80 318 80"/>
+  <path class="l" d="M400 56H440V140H400Z"/>
+  <text x="420" y="100" text-anchor="middle" class="sm" style="font-size:16px">?</text>
+  <text x="245" y="278" text-anchor="middle" class="gt" style="font-size:12.5px">手里有文件、身上有衣服，并不等于有资格</text>
+  <text x="245" y="296" text-anchor="middle" class="sm" style="font-size:11px">据《陆先生道门科略》</text>
+</svg>

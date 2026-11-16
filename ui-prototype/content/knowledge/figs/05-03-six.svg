@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 308" role="img" aria-label="一卦六爻的示意图，本课自绘。左边一个六线卦，从下往上标初、二、三、四、五、上；下面三条框起来标下卦，上面三条框起来标上卦。右边两个例子：坤卦六条阴爻，第五条用金色标出，写六五；屯卦最下面一条阳爻用金色标出，写初九。底部：从下往上数；阳爻称九，阴爻称六；六条线是下卦加上卦，8 乘 8 得 64 卦">
+  <path class="l" d="M70 230H160" style="stroke-width:5"/>
+  <path class="l" d="M70 204H106.9M123.1 204H160" style="stroke-width:5"/>
+  <path class="l" d="M70 178H160" style="stroke-width:5"/>
+  <path class="l" d="M70 152H160" style="stroke-width:5"/>
+  <path class="l" d="M70 126H106.9M123.1 126H160" style="stroke-width:5"/>
+  <path class="l" d="M70 100H160" style="stroke-width:5"/>
+  <text x="58" y="235" text-anchor="end" style="font-size:13px">初</text>
+  <text x="58" y="209" text-anchor="end" style="font-size:13px">二</text>
+  <text x="58" y="183" text-anchor="end" style="font-size:13px">三</text>
+  <text x="58" y="157" text-anchor="end" style="font-size:13px">四</text>
+  <text x="58" y="131" text-anchor="end" style="font-size:13px">五</text>
+  <text x="58" y="105" text-anchor="end" style="font-size:13px">上</text>
+  <path class="l thin" d="M170 238H180V170H170" fill="none"/>
+  <path class="l thin" d="M170 160H180V92H170" fill="none"/>
+  <text x="186" y="209" text-anchor="start" class="sm" style="font-size:11.5px">下卦</text>
+  <text x="186" y="131" text-anchor="start" class="sm" style="font-size:11.5px">上卦</text>
+  <path class="l thin" d="M28 244V86" stroke-dasharray="2 4"/>
+  <text x="40" y="264" text-anchor="middle" class="sm" style="font-size:11px">从下往上数</text>
+  <path class="l" d="M266 196H292.24M303.76 196H330" style="stroke-width:4"/>
+  <path class="l" d="M266 180H292.24M303.76 180H330" style="stroke-width:4"/>
+  <path class="l" d="M266 164H292.24M303.76 164H330" style="stroke-width:4"/>
+  <path class="l" d="M266 148H292.24M303.76 148H330" style="stroke-width:4"/>
+  <path class="gl" d="M266 132H292.24M303.76 132H330" style="stroke-width:4"/>
+  <path class="l" d="M266 116H292.24M303.76 116H330" style="stroke-width:4"/>
+  <text x="298" y="224" text-anchor="middle" style="font-size:13px">《坤》</text>
+  <text x="336" y="137" text-anchor="start" class="gt" style="font-size:12.5px">六五</text>
+  <path class="gl" d="M386 196H450" style="stroke-width:4"/>
+  <path class="l" d="M386 180H412.24M423.76 180H450" style="stroke-width:4"/>
+  <path class="l" d="M386 164H412.24M423.76 164H450" style="stroke-width:4"/>
+  <path class="l" d="M386 148H412.24M423.76 148H450" style="stroke-width:4"/>
+  <path class="l" d="M386 132H450" style="stroke-width:4"/>
+  <path class="l" d="M386 116H412.24M423.76 116H450" style="stroke-width:4"/>
+  <text x="418" y="224" text-anchor="middle" style="font-size:13px">《屯》</text>
+  <text x="418" y="244" text-anchor="middle" class="gt" style="font-size:12.5px">初九</text>
+  <text x="358" y="52" text-anchor="middle" style="font-size:12.5px">阳爻称“九”，阴爻称“六”</text>
+  <text x="358" y="72" text-anchor="middle" class="sm" style="font-size:11px">二到五爻先说阴阳：九二、六五</text>
+  <text x="358" y="88" text-anchor="middle" class="sm" style="font-size:11px">初、上两爻先说位置：初九、上六</text>
+  <text x="245" y="294" text-anchor="middle" class="gt" style="font-size:12px">六条线 ＝ 下卦 ＋ 上卦；8 × 8 ＝ 64 卦</text>
+</svg>

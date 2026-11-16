@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="六壬式盘结构的示意图，本课自绘。左边：一个方形底板，四边排着十二个地支，标地盘，下布十二辰；方板上叠一个圆盘，圆周上也是十二格，标天盘，刻十二神；圆盘中央一个小点，表示可以转动。盘下写以月将加卜时。右边：从盘上取出四个格子，标四课；四课里取出三个，排成一列，标三传；旁边一列小字列十二将：天一居中，前有螣蛇、朱雀、六合、句陈、青龙，后有天后、太阴、玄武、太常、白兽、天空。底部：据《唐六典》太卜署的文字画的结构示意，不是出土实物，也不能照着操作">
+  <defs><marker id="ar5501" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M30 40H230V240H30Z" filter="url(#wob2)"/>
+  <text x="130" y="232" text-anchor="middle" class="sm" style="font-size:11.5px">子</text>
+  <text x="86" y="220.21" text-anchor="middle" class="sm" style="font-size:11.5px">丑</text>
+  <text x="53.7898" y="188" text-anchor="middle" class="sm" style="font-size:11.5px">寅</text>
+  <text x="42" y="144" text-anchor="middle" class="sm" style="font-size:11.5px">卯</text>
+  <text x="53.7898" y="100" text-anchor="middle" class="sm" style="font-size:11.5px">辰</text>
+  <text x="86" y="67.7898" text-anchor="middle" class="sm" style="font-size:11.5px">巳</text>
+  <text x="130" y="60" text-anchor="middle" class="sm" style="font-size:11.5px">午</text>
+  <text x="174" y="67.7898" text-anchor="middle" class="sm" style="font-size:11.5px">未</text>
+  <text x="206.21" y="100" text-anchor="middle" class="sm" style="font-size:11.5px">申</text>
+  <text x="218" y="144" text-anchor="middle" class="sm" style="font-size:11.5px">酉</text>
+  <text x="206.21" y="188" text-anchor="middle" class="sm" style="font-size:11.5px">戌</text>
+  <text x="174" y="220.21" text-anchor="middle" class="sm" style="font-size:11.5px">亥</text>
+  <circle class="wash" cx="130" cy="140" r="66"/>
+  <circle class="gl" cx="130" cy="140" r="66"/>
+  <circle class="l thin" cx="130" cy="140" r="40"/>
+  <path class="l thin" d="M168.7 150.3L193.8 157.0"/>
+  <path class="l thin" d="M158.3 168.2L176.8 186.6"/>
+  <path class="l thin" d="M140.4 178.6L147.2 203.7"/>
+  <path class="l thin" d="M119.7 178.7L113.0 203.8"/>
+  <path class="l thin" d="M101.8 168.3L83.4 186.8"/>
+  <path class="l thin" d="M91.4 150.4L66.3 157.2"/>
+  <path class="l thin" d="M91.3 129.7L66.2 123.0"/>
+  <path class="l thin" d="M101.7 111.8L83.2 93.4"/>
+  <path class="l thin" d="M119.6 101.4L112.8 76.3"/>
+  <path class="l thin" d="M140.3 101.3L147.0 76.2"/>
+  <path class="l thin" d="M158.2 111.7L176.6 93.2"/>
+  <path class="l thin" d="M168.6 129.6L193.7 122.8"/>
+  <circle class="dotk" cx="130" cy="140" r="3"/>
+  <text x="130" y="130" text-anchor="middle" class="gt" style="font-size:12px">天盘</text>
+  <text x="130" y="162" text-anchor="middle" class="sm" style="font-size:10.5px">十二神</text>
+  <text x="130" y="30" text-anchor="middle" class="sm" style="font-size:11px">地盘：下布十二辰</text>
+  <text x="130" y="262" text-anchor="middle" class="gt" style="font-size:11.5px">“以月将加卜时”</text>
+  <text x="130" y="278" text-anchor="middle" class="sm" style="font-size:10.5px">“以枫木为天，枣心为地”</text>
+  <path class="l thin" d="M262 60H290V100H262Z"/>
+  <path class="l thin" d="M296 60H324V100H296Z"/>
+  <path class="l thin" d="M330 60H358V100H330Z"/>
+  <path class="l thin" d="M364 60H392V100H364Z"/>
+  <text x="330" y="50" text-anchor="middle" class="gt" style="font-size:12.5px">四课</text>
+  <text x="330" y="118" text-anchor="middle" class="sm" style="font-size:10px">日之阳、日之阴、辰之阳、辰之阴</text>
+  <path class="l thin" d="M330 126V146" marker-end="url(#ar5501)"/>
+  <text x="330" y="162" text-anchor="middle" class="sm" style="font-size:10.5px">“取相克者，三传为用”</text>
+  <path class="l thin" d="M304 172H356V192H304Z"/>
+  <path class="l thin" d="M304 198H356V218H304Z"/>
+  <path class="l thin" d="M304 224H356V244H304Z"/>
+  <text x="380" y="200" text-anchor="start" class="gt" style="font-size:12.5px">三传</text>
+  <text x="478" y="50" text-anchor="end" style="font-size:11.5px">十二将</text>
+  <text x="478" y="70" text-anchor="end" class="gt" style="font-size:10px">天一</text>
+  <text x="478" y="86" text-anchor="end" class="sm" style="font-size:10px">螣蛇</text>
+  <text x="478" y="102" text-anchor="end" class="sm" style="font-size:10px">朱雀</text>
+  <text x="478" y="118" text-anchor="end" class="sm" style="font-size:10px">六合</text>
+  <text x="478" y="134" text-anchor="end" class="sm" style="font-size:10px">句陈</text>
+  <text x="478" y="150" text-anchor="end" class="sm" style="font-size:10px">青龙</text>
+  <text x="478" y="166" text-anchor="end" class="sm" style="font-size:10px">天后</text>
+  <text x="478" y="182" text-anchor="end" class="sm" style="font-size:10px">太阴</text>
+  <text x="478" y="198" text-anchor="end" class="sm" style="font-size:10px">玄武</text>
+  <text x="478" y="214" text-anchor="end" class="sm" style="font-size:10px">太常</text>
+  <text x="478" y="230" text-anchor="end" class="sm" style="font-size:10px">白兽</text>
+  <text x="478" y="246" text-anchor="end" class="sm" style="font-size:10px">天空</text>
+  <text x="245" y="300" text-anchor="middle" class="gt" style="font-size:12px">据《唐六典》太卜署的文字画的结构示意</text>
+  <text x="245" y="318" text-anchor="middle" class="sm" style="font-size:11px">不是出土实物；格子里故意不填内容，也不能照着操作</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 376" role="img" aria-label="箓、师、籍、治之间关系的示意图，本课自绘。中间是一个人，标道民或道士。四个方向各连一个框。上面的框标师：传授，学不由师成，非根生。右边的框标治与职位：署箓、迁治，要有保举，要经天师除正。下面的框标命籍、宅录：生男生女、娶妇、死亡都要报到本治，三会之日注正命籍。左边的框标箓：随身佩带的名册。四条连线中，只有左边那条是一件东西，其余三条都是关系。底部：箓只是四条线中的一条；其余三条，靠师、靠组织、靠每年的登记来维持">
+  <g class="l"><circle cx="245" cy="160" r="14"/><path d="M219 210Q221 180 245 178Q269 180 271 210"/></g>
+  <text x="245" y="232" text-anchor="middle" style="font-size:11.5px">道民 / 道士</text>
+  <path class="l thin" d="M173 20H317V76H173Z"/>
+  <text x="245" y="38" text-anchor="middle" class="gt" style="font-size:12.5px">师</text>
+  <text x="245" y="54" text-anchor="middle" class="sm" style="font-size:10px">传授</text>
+  <text x="245" y="68" text-anchor="middle" class="sm" style="font-size:10px">“学不由师成，非根生”</text>
+  <path class="l thin" d="M333 134H477V190H333Z"/>
+  <text x="405" y="152" text-anchor="middle" class="gt" style="font-size:12.5px">治与职位</text>
+  <text x="405" y="168" text-anchor="middle" class="sm" style="font-size:10px">署箓、迁治要保举</text>
+  <text x="405" y="182" text-anchor="middle" class="sm" style="font-size:10px">要经天师“除正”</text>
+  <path class="l thin" d="M173 264H317V320H173Z"/>
+  <text x="245" y="282" text-anchor="middle" class="gt" style="font-size:12.5px">命籍、宅录</text>
+  <text x="245" y="298" text-anchor="middle" class="sm" style="font-size:10px">生、死、婚嫁报到本治</text>
+  <text x="245" y="312" text-anchor="middle" class="sm" style="font-size:10px">“三会之日”注正</text>
+  <path class="gl thin" d="M13 134H157V190H13Z"/>
+  <text x="85" y="152" text-anchor="middle" class="gt" style="font-size:12.5px">箓</text>
+  <text x="85" y="168" text-anchor="middle" class="sm" style="font-size:10px">随身佩带的名册</text>
+  <text x="85" y="182" text-anchor="middle" class="sm" style="font-size:10px">一件东西</text>
+  <path class="l thin" d="M245 76V144"/>
+  <path class="l thin" d="M262 166H333"/>
+  <path class="l thin" d="M245 240V260"/>
+  <path class="gl thin" d="M157 166H228"/>
+  <text x="245" y="346" text-anchor="middle" class="gt" style="font-size:12.5px">箓只是四条线中的一条</text>
+  <text x="245" y="364" text-anchor="middle" class="sm" style="font-size:11px">其余三条靠师承、组织和每年的登记来维持</text>
+</svg>

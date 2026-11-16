@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 306" role="img" aria-label="《隋书》所记受箓过程的示意图，本课自绘。从左到右五步：先洁斋；带一枚金环和贽币，去见师；师收下贽，授给箓；把金环剖开，师徒各持一半，以为约；弟子把箓封好，佩在身上。第四步的金环用金色画出，剖成两个半圆。下面一行小字，对照上一课：两半合得上才算数，和符字的本义同一个道理。底部：这是《隋书》作者对他那个时代的概括，不是所有道派、所有时代的统一仪式">
+  <defs><marker id="ar5701" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <circle class="l thin" cx="50" cy="90" r="32"/>
+  <text x="50" y="150" text-anchor="middle" style="font-size:12px">洁斋</text>
+  <path class="l thin" d="M86 90H107" marker-end="url(#ar5701)"/>
+  <circle class="l thin" cx="145" cy="90" r="32"/>
+  <text x="145" y="150" text-anchor="middle" style="font-size:12px">带金环、贽币</text>
+  <text x="145" y="168" text-anchor="middle" class="sm" style="font-size:10.5px">见师</text>
+  <path class="l thin" d="M181 90H207" marker-end="url(#ar5701)"/>
+  <circle class="l thin" cx="245" cy="90" r="32"/>
+  <text x="245" y="150" text-anchor="middle" style="font-size:12px">师受贽</text>
+  <text x="245" y="168" text-anchor="middle" class="sm" style="font-size:10.5px">授箓</text>
+  <path class="l thin" d="M281 90H307" marker-end="url(#ar5701)"/>
+  <circle class="l thin" cx="345" cy="90" r="32"/>
+  <text x="345" y="150" text-anchor="middle" class="gt" style="font-size:12px">剖金环</text>
+  <text x="345" y="168" text-anchor="middle" class="sm" style="font-size:10.5px">各持其半</text>
+  <path class="l thin" d="M381 90H402" marker-end="url(#ar5701)"/>
+  <circle class="l thin" cx="440" cy="90" r="32"/>
+  <text x="440" y="150" text-anchor="middle" style="font-size:12px">缄而佩之</text>
+  <path class="l thin" d="M38 96Q50 80 62 96" fill="none"/><path class="l thin" d="M44 88V76M56 88V76"/>
+  <circle class="gl" cx="145" cy="90" r="12" style="stroke-width:2.4" fill="none"/>
+  <path class="l thin" d="M228 76H262V104H228Z"/><path class="l thin" d="M234 84H256M234 92H256"/>
+  <path class="gl" d="M341 78A12 12 0 0 0 341 102" style="stroke-width:2.4" fill="none"/>
+  <path class="gl" d="M349 78A12 12 0 0 1 349 102" style="stroke-width:2.4" fill="none"/>
+  <path class="l thin" d="M428 74H452V106H428Z"/><path class="l thin" d="M428 90H452"/>
+  <path class="l thin" d="M20 196H470" stroke-dasharray="2 4"/>
+  <text x="245" y="222" text-anchor="middle" style="font-size:11.5px">对照上一课：“符”的本义是两半合得上才算数</text>
+  <text x="245" y="240" text-anchor="middle" class="sm" style="font-size:10.5px">剖开的金环，也是一对只有师徒手里才合得上的凭证</text>
+  <text x="245" y="276" text-anchor="middle" class="gt" style="font-size:12px">这是《隋书》作者对当时做法的概括</text>
+  <text x="245" y="294" text-anchor="middle" class="sm" style="font-size:11px">不是所有道派、所有时代的统一仪式</text>
+</svg>

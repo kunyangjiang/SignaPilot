@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 432" role="img" aria-label="一块虚构的教学示意符板，本课自绘：不复制任何历史上或宗教中的符，不是可以使用的法物，板面的占位笔画也不代表任何神圣信息。竖长的木板，上端有一个穿绳的小孔；板面用红色画满抽象的占位笔画；板子顶端贴着一张写名字的小题签；右下角压着一个方形印痕；板子背后画着两枚钉子，表示它被钉在门上">
+  <path class="wash" d="M170 40H320V380H170Z"/>
+  <path class="l" d="M170 40H320V380H170Z" filter="url(#wob2)" style="stroke-width:2"/>
+  <circle class="l thin" cx="245" cy="58" r="6"/>
+  <path class="l thin" d="M206 76H284V100H206Z"/>
+  <text x="245" y="93" text-anchor="middle" class="sm" style="font-size:11px">题签</text>
+  <path class="gl" d="M214 118Q243 122 272 121 M223 131Q258 131 293 134 M222 144Q257 144 291 143 M213 157Q253 153 294 155 M219 171Q254 175 289 169 M200 184Q247 188 294 182 M225 194Q247 192 268 197 M216 206Q252 212 288 207 M222 221Q254 219 285 219 M198 231Q242 232 285 228 M206 244Q245 248 285 244 M210 255Q242 250 273 258 M218 264Q244 258 269 266 M213 275Q253 270 294 273 M202 290Q237 295 272 293 M206 301Q243 304 279 299 M245 118V318" fill="none"/>
+  <path class="l" d="M270 318H306V354H270Z"/><path class="l thin" d="M276 324H300V348H276Z"/>
+  <g class="l"><circle cx="160" cy="120" r="4"/><circle cx="160" cy="300" r="4"/><path d="M156 120H134M156 300H134"/></g>
+  <path class="l thin" d="M110 20V400" stroke-dasharray="6 5"/>
+  <text x="98" y="210" text-anchor="end" class="sm" style="font-size:13px">门</text>
+  <text x="245" y="404" text-anchor="middle" class="sm" style="font-size:11px">虚构的教学示意：不复制任何真符，不是可用的法物</text>
+  <text x="245" y="420" text-anchor="middle" class="sm" style="font-size:11px">占位笔画不代表任何神圣信息</text>
+</svg>

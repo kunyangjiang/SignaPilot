@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 380" role="img" aria-label="介象读符的示意图，本课自绘。上排五块竖长的符板，每块上面画着抽象的弯曲笔画，顶端原本贴着写名字的题签，题签被撕下来放在一旁，写着去其签题。中间一个人像标介象，从他引出五条线，分别回到五块符板，写皆一一据名之；其中一块用金色圈出，写其有误者，便为人定之。下排一条横线，左边标三国吴，右边标葛洪写书时，线上写自是以来，莫有能知者也。底部：笔画是本课随手画的占位记号，不是任何真符；故事出自《抱朴子·遐览》">
+  <defs><marker id="ar5601" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M60 60H104V170H60Z"/>
+  <path class="l thin" d="M70 72Q81 70 91 73 M69 85Q82 89 96 83 M76 95Q84 99 92 95 M69 108Q80 112 91 108 M74 121Q85 125 95 122 M68 132Q78 132 89 134 M74 147Q81 145 88 148 M82 72V162" fill="none"/>
+  <path class="l thin" d="M66 46H98V56H66Z" stroke-dasharray="2 2"/>
+  <path class="l" d="M138 60H182V170H138Z"/>
+  <path class="l thin" d="M148 72Q161 71 173 70 M149 81Q158 85 166 83 M151 92Q161 88 172 89 M154 102Q160 106 167 104 M149 112Q159 115 169 114 M147 126Q158 129 169 126 M150 137Q162 142 173 139 M149 149Q157 150 166 151 M160 72V162" fill="none"/>
+  <path class="l thin" d="M144 46H176V56H144Z" stroke-dasharray="2 2"/>
+  <path class="l" d="M216 60H260V170H216Z"/>
+  <path class="l thin" d="M229 72Q238 76 246 75 M232 85Q242 85 252 88 M232 98Q241 98 251 97 M229 111Q240 107 252 109 M230 125Q241 129 251 123 M225 138Q239 142 252 136 M232 148Q238 146 245 151 M238 72V162" fill="none"/>
+  <path class="l thin" d="M222 46H254V56H222Z" stroke-dasharray="2 2"/>
+  <path class="gl" d="M208 52H268V178H208Z" style="stroke-width:1.6" fill="none"/>
+  <path class="l" d="M294 60H338V170H294Z"/>
+  <path class="l thin" d="M309 72Q316 72 323 71 M308 81Q317 84 326 80 M304 95Q314 97 323 94 M308 107Q318 107 328 109 M309 117Q316 122 324 116 M309 127Q316 126 323 125 M307 137Q317 143 328 138 M308 147Q317 153 327 150 M316 72V162" fill="none"/>
+  <path class="l thin" d="M300 46H332V56H300Z" stroke-dasharray="2 2"/>
+  <path class="l" d="M372 60H416V170H372Z"/>
+  <path class="l thin" d="M383 72Q395 74 407 69 M383 84Q395 84 408 81 M381 96Q394 95 407 98 M382 106Q392 111 403 106 M388 117Q398 121 408 116 M381 127Q393 131 405 125 M385 139Q395 140 405 137 M382 149Q392 148 402 148 M394 72V162" fill="none"/>
+  <path class="l thin" d="M378 46H410V56H378Z" stroke-dasharray="2 2"/>
+  <text x="245" y="36" text-anchor="middle" class="sm" style="font-size:11px">“去其签题以示象”：写名字的题签被拿掉</text>
+  <g class="l"><circle cx="245" cy="214" r="11"/><path d="M227 250Q229 228 245 226Q261 228 263 250"/></g>
+  <text x="245" y="270" text-anchor="middle" style="font-size:13px">介象</text>
+  <path class="l thin" d="M245 202L82 182" stroke-dasharray="2 3"/>
+  <path class="l thin" d="M245 202L160 182" stroke-dasharray="2 3"/>
+  <path class="l thin" d="M245 202L238 182" stroke-dasharray="2 3"/>
+  <path class="l thin" d="M245 202L316 182" stroke-dasharray="2 3"/>
+  <path class="l thin" d="M245 202L394 182" stroke-dasharray="2 3"/>
+  <text x="80" y="216" text-anchor="middle" class="gt" style="font-size:11.5px">“皆一一据名之”</text>
+  <text x="410" y="216" text-anchor="middle" class="gt" style="font-size:11.5px">“其有误者，</text>
+  <text x="410" y="232" text-anchor="middle" class="gt" style="font-size:11.5px">便为人定之”</text>
+  <path class="l thin" d="M60 300H430" marker-end="url(#ar5601)"/>
+  <circle class="dotk" cx="70" cy="300" r="4"/>
+  <text x="70" y="322" text-anchor="middle" class="sm" style="font-size:11px">三国吴</text>
+  <text x="420" y="322" text-anchor="end" class="sm" style="font-size:11px">葛洪写书时</text>
+  <text x="245" y="292" text-anchor="middle" class="gt" style="font-size:12px">“自是以来，莫有能知者也”</text>
+  <text x="245" y="352" text-anchor="middle" class="sm" style="font-size:11px">笔画是本课画的占位记号，不是任何真符</text>
+  <text x="245" y="368" text-anchor="middle" class="sm" style="font-size:11px">故事出自《抱朴子·遐览》，是葛洪转述的</text>
+</svg>

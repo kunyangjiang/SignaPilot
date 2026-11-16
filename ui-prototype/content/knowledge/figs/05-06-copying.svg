@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 366" role="img" aria-label="抄写出错的示意图，本课自绘。上排：一个鱼字，经过三次抄写，变成魯字；一个虛字，变成虎字；旁注书三写，鱼成鲁，虚成虎。中排：七和士两个字并排，标只差笔画的弯直长短。下排：一块画着抽象笔画的符板，经过三次抄写，笔画一点点走样，最后一块旁边写：符上字不可读，误不可觉。底部：认得的字，抄错了能发现；没人认得的符，抄错了也没人知道；据《抱朴子·遐览》">
+  <defs><marker id="ar5603" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <text x="70" y="52" text-anchor="middle" style="font-size:24px">鱼</text>
+  <path class="l thin" d="M110 44H154" marker-end="url(#ar5603)"/>
+  <text x="132" y="38" text-anchor="middle" class="sm" style="font-size:9.5px">第 1 抄</text>
+  <path class="l thin" d="M180 44H224" marker-end="url(#ar5603)"/>
+  <text x="202" y="38" text-anchor="middle" class="sm" style="font-size:9.5px">第 2 抄</text>
+  <path class="l thin" d="M250 44H294" marker-end="url(#ar5603)"/>
+  <text x="272" y="38" text-anchor="middle" class="sm" style="font-size:9.5px">第 3 抄</text>
+  <text x="340" y="52" text-anchor="middle" class="gt" style="font-size:24px">鲁</text>
+  <text x="70" y="100" text-anchor="middle" style="font-size:24px">虚</text>
+  <path class="l thin" d="M110 92H154" marker-end="url(#ar5603)"/>
+  <text x="132" y="86" text-anchor="middle" class="sm" style="font-size:9.5px">第 1 抄</text>
+  <path class="l thin" d="M180 92H224" marker-end="url(#ar5603)"/>
+  <text x="202" y="86" text-anchor="middle" class="sm" style="font-size:9.5px">第 2 抄</text>
+  <path class="l thin" d="M250 92H294" marker-end="url(#ar5603)"/>
+  <text x="272" y="86" text-anchor="middle" class="sm" style="font-size:9.5px">第 3 抄</text>
+  <text x="340" y="100" text-anchor="middle" class="gt" style="font-size:24px">虎</text>
+  <text x="420" y="66" text-anchor="middle" class="sm" style="font-size:11px">“书三写，</text>
+  <text x="420" y="82" text-anchor="middle" class="sm" style="font-size:11px">鱼成鲁，</text>
+  <text x="420" y="98" text-anchor="middle" class="sm" style="font-size:11px">虚成虎”</text>
+  <text x="70" y="150" text-anchor="middle" style="font-size:24px">七</text>
+  <text x="120" y="150" text-anchor="middle" style="font-size:24px">士</text>
+  <text x="150" y="144" text-anchor="start" class="sm" style="font-size:11px">“七与士，但以倨勾长短之间为异耳”</text>
+  <path class="l thin" d="M20 172H470" stroke-dasharray="2 4"/>
+  <path class="l" d="M50 190H90V270H50Z"/>
+  <path class="l thin" d="M60 200Q70 205 79 200 M61 212Q72 212 82 213 M57 226Q69 221 81 228 M56 239Q66 245 76 240 M57 252Q71 252 84 249 M70 200V262" fill="none"/>
+  <path class="l thin" d="M96 230H142" marker-end="url(#ar5603)"/>
+  <path class="l" d="M150 190H190V270H150Z"/>
+  <path class="l thin" d="M162 201Q169 206 181 198 M162 211Q169 212 183 215 M155 226Q168 220 184 228 M157 240Q166 242 178 241 M159 254Q170 252 186 251 M170 200V262" fill="none"/>
+  <path class="l thin" d="M196 230H242" marker-end="url(#ar5603)"/>
+  <path class="l" d="M250 190H290V270H250Z"/>
+  <path class="l thin" d="M256 200Q270 210 282 203 M263 209Q276 212 283 209 M255 229Q265 217 280 226 M256 239Q263 240 274 238 M258 252Q273 251 283 250 M270 200V262" fill="none"/>
+  <path class="l thin" d="M296 230H342" marker-end="url(#ar5603)"/>
+  <path class="l" d="M350 190H390V270H350Z"/>
+  <path class="gl thin" d="M364 201Q367 203 377 193 M368 207Q365 219 376 218 M364 228Q370 227 385 224 M352 234Q373 248 380 235 M355 255Q365 247 379 250 M370 200V262" fill="none"/>
+  <text x="70" y="290" text-anchor="middle" class="sm" style="font-size:11px">原样</text>
+  <text x="370" y="290" text-anchor="middle" class="sm" style="font-size:11px">第 3 抄</text>
+  <text x="245" y="318" text-anchor="middle" class="gt" style="font-size:12.5px">“今符上字不可读，误不可觉”</text>
+  <text x="245" y="338" text-anchor="middle" class="sm" style="font-size:11px">认得的字，抄错了能发现；没人认得的符，抄错了也没人知道</text>
+  <text x="245" y="354" text-anchor="middle" class="sm" style="font-size:10.5px">符板笔画为本课占位记号</text>
+</svg>
