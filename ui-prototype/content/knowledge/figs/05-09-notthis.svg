@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 318" role="img" aria-label="《悟真篇序》批评的三种读法的示意图，本课自绘。左边三个框，每个都标不是这样：一，取铅汞为二气，指脏腑为五行，分心肾为坎离，以肝肺为龙虎，用神气为子母，执津液为铅汞，也就是把词一一对到身体的某个器官或物质上；二，凡砂及水银，也就是普通的矿物；三，当时流行的各种修炼办法，序里说施力虽多而求效莫验。三条线汇到右边一个问号框：那么真铅汞到底是什么？框下写：序和诗里没有直接回答，只说古书都不讲明白。底部：张伯端的批评对象既包括字面的外丹，也包括把词一对一对到器官上的内丹式读法">
+  <defs><marker id="ar5901" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M20 30H250V96H20Z"/>
+  <text x="34" y="50" text-anchor="start" class="gt" style="font-size:12px">不是这样 ①</text>
+  <text x="34" y="68" text-anchor="start" style="font-size:11.5px">把词一一对到器官或体液</text>
+  <text x="34" y="83" text-anchor="start" class="sm" style="font-size:9.5px">“指脏腑为五行，分心肾为坎离，</text>
+  <text x="34" y="93" text-anchor="start" class="sm" style="font-size:9px">以肝肺为龙虎，执津液为铅汞”</text>
+  <path class="l thin" d="M250 63L300 133" stroke-dasharray="2 3"/>
+  <path class="l" d="M20 110H250V176H20Z"/>
+  <text x="34" y="130" text-anchor="start" class="gt" style="font-size:12px">不是这样 ②</text>
+  <text x="34" y="148" text-anchor="start" style="font-size:11.5px">普通的矿物和金属</text>
+  <text x="34" y="163" text-anchor="start" class="sm" style="font-size:9.5px">“不是凡砂及水银”</text>
+  <text x="34" y="173" text-anchor="start" class="sm" style="font-size:9px">（绝句、律诗里反复说）</text>
+  <path class="l thin" d="M250 143L300 133" stroke-dasharray="2 3"/>
+  <path class="l" d="M20 190H250V256H20Z"/>
+  <text x="34" y="210" text-anchor="start" class="gt" style="font-size:12px">不是这样 ③</text>
+  <text x="34" y="228" text-anchor="start" style="font-size:11.5px">当时流行的各种修炼办法</text>
+  <text x="34" y="243" text-anchor="start" class="sm" style="font-size:9.5px">“施力虽多，而求效莫验”</text>
+  <text x="34" y="253" text-anchor="start" class="sm" style="font-size:9px">（序里没有一一教人做法，本课也不展开）</text>
+  <path class="l thin" d="M250 223L300 133" stroke-dasharray="2 3"/>
+  <path class="wash" d="M300 90H470V176H300Z"/><path class="gl" d="M300 90H470V176H300Z"/>
+  <text x="385" y="120" text-anchor="middle" class="gt" style="font-size:13px">那么，“真铅汞”</text>
+  <text x="385" y="142" text-anchor="middle" class="gt" style="font-size:13px">到底是什么？</text>
+  <text x="385" y="164" text-anchor="middle" class="sm" style="font-size:10.5px">序和诗里没有直接说出来</text>
+  <text x="385" y="202" text-anchor="middle" class="sm" style="font-size:10px">序里抱怨：古书“终不言真铅真汞</text>
+  <text x="385" y="216" text-anchor="middle" class="sm" style="font-size:10px">是何物色，不说火候法度”</text>
+  <text x="245" y="288" text-anchor="middle" class="gt" style="font-size:12px">被批评的有两头：字面的外丹，和把词一一对到器官上的读法</text>
+  <text x="245" y="306" text-anchor="middle" class="sm" style="font-size:10.5px">据《悟真篇序》和各首诗（维基文库录文）；序里没有年份，传统上认为作于 11 世纪</text>
+</svg>

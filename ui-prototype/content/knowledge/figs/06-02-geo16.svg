@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 324" role="img" aria-label="地占的 16 个图形的示意图，本课自绘。每个图形由四行点组成，每一行只有一个点或两个点，所以一共有 2 × 2 × 2 × 2 ＝ 16 种。图中列出全部 16 种，排成两排，每排八个，每个图形下面标出四行的单双：1 表示一点，2 表示两点。底部：传统给每个图形起了名字，各文献的名字不同，本课没有核对，所以不列出；图形的排法只是数学上的穷举，不是某一部文献里的原图">
+  <circle class="dotk" cx="55" cy="40" r="3.2"/>
+  <circle class="dotk" cx="55" cy="56" r="3.2"/>
+  <circle class="dotk" cx="55" cy="72" r="3.2"/>
+  <circle class="dotk" cx="55" cy="88" r="3.2"/>
+  <text x="55" y="112" text-anchor="middle" class="sm" style="font-size:11px">1111</text>
+  <circle class="dotk" cx="111" cy="40" r="3.2"/>
+  <circle class="dotk" cx="111" cy="56" r="3.2"/>
+  <circle class="dotk" cx="111" cy="72" r="3.2"/>
+  <circle class="dotk" cx="105" cy="88" r="3.2"/><circle class="dotk" cx="117" cy="88" r="3.2"/>
+  <text x="111" y="112" text-anchor="middle" class="sm" style="font-size:11px">1112</text>
+  <circle class="dotk" cx="167" cy="40" r="3.2"/>
+  <circle class="dotk" cx="167" cy="56" r="3.2"/>
+  <circle class="dotk" cx="161" cy="72" r="3.2"/><circle class="dotk" cx="173" cy="72" r="3.2"/>
+  <circle class="dotk" cx="167" cy="88" r="3.2"/>
+  <text x="167" y="112" text-anchor="middle" class="sm" style="font-size:11px">1121</text>
+  <circle class="dotk" cx="223" cy="40" r="3.2"/>
+  <circle class="dotk" cx="223" cy="56" r="3.2"/>
+  <circle class="dotk" cx="217" cy="72" r="3.2"/><circle class="dotk" cx="229" cy="72" r="3.2"/>
+  <circle class="dotk" cx="217" cy="88" r="3.2"/><circle class="dotk" cx="229" cy="88" r="3.2"/>
+  <text x="223" y="112" text-anchor="middle" class="sm" style="font-size:11px">1122</text>
+  <circle class="dotk" cx="279" cy="40" r="3.2"/>
+  <circle class="dotk" cx="273" cy="56" r="3.2"/><circle class="dotk" cx="285" cy="56" r="3.2"/>
+  <circle class="dotk" cx="279" cy="72" r="3.2"/>
+  <circle class="dotk" cx="279" cy="88" r="3.2"/>
+  <text x="279" y="112" text-anchor="middle" class="sm" style="font-size:11px">1211</text>
+  <circle class="dotk" cx="335" cy="40" r="3.2"/>
+  <circle class="dotk" cx="329" cy="56" r="3.2"/><circle class="dotk" cx="341" cy="56" r="3.2"/>
+  <circle class="dotk" cx="335" cy="72" r="3.2"/>
+  <circle class="dotk" cx="329" cy="88" r="3.2"/><circle class="dotk" cx="341" cy="88" r="3.2"/>
+  <text x="335" y="112" text-anchor="middle" class="sm" style="font-size:11px">1212</text>
+  <circle class="dotk" cx="391" cy="40" r="3.2"/>
+  <circle class="dotk" cx="385" cy="56" r="3.2"/><circle class="dotk" cx="397" cy="56" r="3.2"/>
+  <circle class="dotk" cx="385" cy="72" r="3.2"/><circle class="dotk" cx="397" cy="72" r="3.2"/>
+  <circle class="dotk" cx="391" cy="88" r="3.2"/>
+  <text x="391" y="112" text-anchor="middle" class="sm" style="font-size:11px">1221</text>
+  <circle class="dotk" cx="447" cy="40" r="3.2"/>
+  <circle class="dotk" cx="441" cy="56" r="3.2"/><circle class="dotk" cx="453" cy="56" r="3.2"/>
+  <circle class="dotk" cx="441" cy="72" r="3.2"/><circle class="dotk" cx="453" cy="72" r="3.2"/>
+  <circle class="dotk" cx="441" cy="88" r="3.2"/><circle class="dotk" cx="453" cy="88" r="3.2"/>
+  <text x="447" y="112" text-anchor="middle" class="sm" style="font-size:11px">1222</text>
+  <circle class="dotk" cx="49" cy="150" r="3.2"/><circle class="dotk" cx="61" cy="150" r="3.2"/>
+  <circle class="dotk" cx="55" cy="166" r="3.2"/>
+  <circle class="dotk" cx="55" cy="182" r="3.2"/>
+  <circle class="dotk" cx="55" cy="198" r="3.2"/>
+  <text x="55" y="222" text-anchor="middle" class="sm" style="font-size:11px">2111</text>
+  <circle class="dotk" cx="105" cy="150" r="3.2"/><circle class="dotk" cx="117" cy="150" r="3.2"/>
+  <circle class="dotk" cx="111" cy="166" r="3.2"/>
+  <circle class="dotk" cx="111" cy="182" r="3.2"/>
+  <circle class="dotk" cx="105" cy="198" r="3.2"/><circle class="dotk" cx="117" cy="198" r="3.2"/>
+  <text x="111" y="222" text-anchor="middle" class="sm" style="font-size:11px">2112</text>
+  <circle class="dotk" cx="161" cy="150" r="3.2"/><circle class="dotk" cx="173" cy="150" r="3.2"/>
+  <circle class="dotk" cx="167" cy="166" r="3.2"/>
+  <circle class="dotk" cx="161" cy="182" r="3.2"/><circle class="dotk" cx="173" cy="182" r="3.2"/>
+  <circle class="dotk" cx="167" cy="198" r="3.2"/>
+  <text x="167" y="222" text-anchor="middle" class="sm" style="font-size:11px">2121</text>
+  <circle class="dotk" cx="217" cy="150" r="3.2"/><circle class="dotk" cx="229" cy="150" r="3.2"/>
+  <circle class="dotk" cx="223" cy="166" r="3.2"/>
+  <circle class="dotk" cx="217" cy="182" r="3.2"/><circle class="dotk" cx="229" cy="182" r="3.2"/>
+  <circle class="dotk" cx="217" cy="198" r="3.2"/><circle class="dotk" cx="229" cy="198" r="3.2"/>
+  <text x="223" y="222" text-anchor="middle" class="sm" style="font-size:11px">2122</text>
+  <circle class="dotk" cx="273" cy="150" r="3.2"/><circle class="dotk" cx="285" cy="150" r="3.2"/>
+  <circle class="dotk" cx="273" cy="166" r="3.2"/><circle class="dotk" cx="285" cy="166" r="3.2"/>
+  <circle class="dotk" cx="279" cy="182" r="3.2"/>
+  <circle class="dotk" cx="279" cy="198" r="3.2"/>
+  <text x="279" y="222" text-anchor="middle" class="sm" style="font-size:11px">2211</text>
+  <circle class="dotk" cx="329" cy="150" r="3.2"/><circle class="dotk" cx="341" cy="150" r="3.2"/>
+  <circle class="dotk" cx="329" cy="166" r="3.2"/><circle class="dotk" cx="341" cy="166" r="3.2"/>
+  <circle class="dotk" cx="335" cy="182" r="3.2"/>
+  <circle class="dotk" cx="329" cy="198" r="3.2"/><circle class="dotk" cx="341" cy="198" r="3.2"/>
+  <text x="335" y="222" text-anchor="middle" class="sm" style="font-size:11px">2212</text>
+  <circle class="dotk" cx="385" cy="150" r="3.2"/><circle class="dotk" cx="397" cy="150" r="3.2"/>
+  <circle class="dotk" cx="385" cy="166" r="3.2"/><circle class="dotk" cx="397" cy="166" r="3.2"/>
+  <circle class="dotk" cx="385" cy="182" r="3.2"/><circle class="dotk" cx="397" cy="182" r="3.2"/>
+  <circle class="dotk" cx="391" cy="198" r="3.2"/>
+  <text x="391" y="222" text-anchor="middle" class="sm" style="font-size:11px">2221</text>
+  <circle class="dotk" cx="441" cy="150" r="3.2"/><circle class="dotk" cx="453" cy="150" r="3.2"/>
+  <circle class="dotk" cx="441" cy="166" r="3.2"/><circle class="dotk" cx="453" cy="166" r="3.2"/>
+  <circle class="dotk" cx="441" cy="182" r="3.2"/><circle class="dotk" cx="453" cy="182" r="3.2"/>
+  <circle class="dotk" cx="441" cy="198" r="3.2"/><circle class="dotk" cx="453" cy="198" r="3.2"/>
+  <text x="447" y="222" text-anchor="middle" class="sm" style="font-size:11px">2222</text>
+  <text x="245" y="262" text-anchor="middle" class="gt" style="font-size:12.5px">每个图形四行，每行一点或两点：2 × 2 × 2 × 2 ＝ 16</text>
+  <text x="245" y="280" text-anchor="middle" class="sm" style="font-size:11px">传统给每个图形起了名字，各文献不同，本课没有核对，故不列出</text>
+  <text x="245" y="296" text-anchor="middle" class="sm" style="font-size:11px">这里只是对可能性的穷举，不是某一部文献里的原图</text>
+  <text x="245" y="312" text-anchor="middle" class="sm" style="font-size:10.5px">下面一行数字：自上而下，各行的点数（1 或 2）</text>
+</svg>

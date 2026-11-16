@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 369" role="img" aria-label="坎离互换的卦画示意图，本课自绘。左边一个三线卦坎，中间一条是阳爻，上下是阴爻；右边一个三线卦离，中间一条是阴爻，上下是阳爻。中间两条弯箭头表示把坎的中间一条阳爻取出，放进离的中间。下面是结果：坎变成全阴的坤，离变成全阳的乾。旁注：悟真篇绝句十六说取将坎位中心实，点化离宫腹内阴，从此变成乾健体；坤的一半是本课据卦画推出的，诗里没有写。底部：这是对卦画的图示，不是对身体的描述">
+  <defs><marker id="ar5902" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M70 120H94.6M105.4 120H130" style="stroke-width:5"/>
+  <path class="gl" d="M70 106H130" style="stroke-width:5"/>
+  <path class="l" d="M70 92H94.6M105.4 92H130" style="stroke-width:5"/>
+  <text x="100" y="150" text-anchor="middle" class="gt" style="font-size:14px">坎</text>
+  <path class="l" d="M360 120H420" style="stroke-width:5"/>
+  <path class="gl" d="M360 106H384.6M395.4 106H420" style="stroke-width:5"/>
+  <path class="l" d="M360 92H420" style="stroke-width:5"/>
+  <text x="390" y="150" text-anchor="middle" class="gt" style="font-size:14px">离</text>
+  <path class="gl thin" d="M140 106Q245 60 355 106" fill="none" marker-end="url(#ar5902)"/>
+  <text x="245" y="74" text-anchor="middle" class="gt" style="font-size:11px">取出中间的“实”（阳爻）</text>
+  <path class="l thin" d="M245 180V204" marker-end="url(#ar5902)"/>
+  <path class="l" d="M70 262H94.6M105.4 262H130" style="stroke-width:5"/>
+  <path class="l" d="M70 248H94.6M105.4 248H130" style="stroke-width:5"/>
+  <path class="l" d="M70 234H94.6M105.4 234H130" style="stroke-width:5"/>
+  <text x="100" y="292" text-anchor="middle" style="font-size:12px">坤（全阴）</text>
+  <path class="l" d="M360 262H420" style="stroke-width:5"/>
+  <path class="l" d="M360 248H420" style="stroke-width:5"/>
+  <path class="l" d="M360 234H420" style="stroke-width:5"/>
+  <text x="390" y="292" text-anchor="middle" style="font-size:12px">乾（全阳）</text>
+  <text x="245" y="236" text-anchor="middle" class="sm" style="font-size:11px">“取将坎位中心实，点化离宫腹内阴。从此变成乾健体”</text>
+  <text x="245" y="322" text-anchor="middle" class="sm" style="font-size:10.5px">坤的一半是本课据卦画推出的，诗里没有写</text>
+  <text x="245" y="340" text-anchor="middle" class="gt" style="font-size:12px">这是对卦画的图示，不是对身体的描述</text>
+  <text x="245" y="357" text-anchor="middle" class="sm" style="font-size:10.5px">据《悟真篇》七言绝句十六（维基文库录文）</text>
+</svg>

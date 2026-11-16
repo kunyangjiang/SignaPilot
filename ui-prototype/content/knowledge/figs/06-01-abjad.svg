@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 346" role="img" aria-label="阿拉伯字母数值表的示意图，本课自绘，次序和数值据 10 世纪花剌子密《科学之钥》所列的“حروف حساب الجمل”。三行，每行九格，从右往左读：第一行是 1 到 9，字母 ا ب ج د ه و ز ح ط；第二行是 10 到 90，字母 ي ك ل م ن س ع ف ص；第三行是 100 到 900，字母 ق ر ش ت ث خ ذ ض ظ；最后一个字母 غ 是 1000，单独放在第四行。底部：这是东方的次序。西部（马格里布）的次序不同，س ص ض ظ غ ش 的位置不同；伊本·赫勒敦所列的字母名单按西部次序才对得上">
+  <text x="245" y="20" text-anchor="middle" class="gt" style="font-size:12px">东方次序（从右往左读）</text>
+  <path class="l thin" d="M422 34h40v58h-40Z"/>
+  <text x="442" y="70" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ا</text>
+  <text x="442" y="87" text-anchor="middle" class="gt" style="font-size:11px">1</text>
+  <path class="l thin" d="M378 34h40v58h-40Z"/>
+  <text x="398" y="70" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ب</text>
+  <text x="398" y="87" text-anchor="middle" class="gt" style="font-size:11px">2</text>
+  <path class="l thin" d="M334 34h40v58h-40Z"/>
+  <text x="354" y="70" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ج</text>
+  <text x="354" y="87" text-anchor="middle" class="gt" style="font-size:11px">3</text>
+  <path class="l thin" d="M290 34h40v58h-40Z"/>
+  <text x="310" y="70" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">د</text>
+  <text x="310" y="87" text-anchor="middle" class="gt" style="font-size:11px">4</text>
+  <path class="l thin" d="M246 34h40v58h-40Z"/>
+  <text x="266" y="70" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ه</text>
+  <text x="266" y="87" text-anchor="middle" class="gt" style="font-size:11px">5</text>
+  <path class="l thin" d="M202 34h40v58h-40Z"/>
+  <text x="222" y="70" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">و</text>
+  <text x="222" y="87" text-anchor="middle" class="gt" style="font-size:11px">6</text>
+  <path class="l thin" d="M158 34h40v58h-40Z"/>
+  <text x="178" y="70" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ز</text>
+  <text x="178" y="87" text-anchor="middle" class="gt" style="font-size:11px">7</text>
+  <path class="l thin" d="M114 34h40v58h-40Z"/>
+  <text x="134" y="70" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ح</text>
+  <text x="134" y="87" text-anchor="middle" class="gt" style="font-size:11px">8</text>
+  <path class="l thin" d="M70 34h40v58h-40Z"/>
+  <text x="90" y="70" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ط</text>
+  <text x="90" y="87" text-anchor="middle" class="gt" style="font-size:11px">9</text>
+  <path class="l thin" d="M422 100h40v58h-40Z"/>
+  <text x="442" y="136" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ي</text>
+  <text x="442" y="153" text-anchor="middle" class="gt" style="font-size:11px">10</text>
+  <path class="l thin" d="M378 100h40v58h-40Z"/>
+  <text x="398" y="136" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ك</text>
+  <text x="398" y="153" text-anchor="middle" class="gt" style="font-size:11px">20</text>
+  <path class="l thin" d="M334 100h40v58h-40Z"/>
+  <text x="354" y="136" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ل</text>
+  <text x="354" y="153" text-anchor="middle" class="gt" style="font-size:11px">30</text>
+  <path class="l thin" d="M290 100h40v58h-40Z"/>
+  <text x="310" y="136" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">م</text>
+  <text x="310" y="153" text-anchor="middle" class="gt" style="font-size:11px">40</text>
+  <path class="l thin" d="M246 100h40v58h-40Z"/>
+  <text x="266" y="136" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ن</text>
+  <text x="266" y="153" text-anchor="middle" class="gt" style="font-size:11px">50</text>
+  <path class="l thin" d="M202 100h40v58h-40Z"/>
+  <text x="222" y="136" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">س</text>
+  <text x="222" y="153" text-anchor="middle" class="gt" style="font-size:11px">60</text>
+  <path class="l thin" d="M158 100h40v58h-40Z"/>
+  <text x="178" y="136" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ع</text>
+  <text x="178" y="153" text-anchor="middle" class="gt" style="font-size:11px">70</text>
+  <path class="l thin" d="M114 100h40v58h-40Z"/>
+  <text x="134" y="136" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ف</text>
+  <text x="134" y="153" text-anchor="middle" class="gt" style="font-size:11px">80</text>
+  <path class="l thin" d="M70 100h40v58h-40Z"/>
+  <text x="90" y="136" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ص</text>
+  <text x="90" y="153" text-anchor="middle" class="gt" style="font-size:11px">90</text>
+  <path class="l thin" d="M422 166h40v58h-40Z"/>
+  <text x="442" y="202" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ق</text>
+  <text x="442" y="219" text-anchor="middle" class="gt" style="font-size:11px">100</text>
+  <path class="l thin" d="M378 166h40v58h-40Z"/>
+  <text x="398" y="202" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ر</text>
+  <text x="398" y="219" text-anchor="middle" class="gt" style="font-size:11px">200</text>
+  <path class="l thin" d="M334 166h40v58h-40Z"/>
+  <text x="354" y="202" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ش</text>
+  <text x="354" y="219" text-anchor="middle" class="gt" style="font-size:11px">300</text>
+  <path class="l thin" d="M290 166h40v58h-40Z"/>
+  <text x="310" y="202" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ت</text>
+  <text x="310" y="219" text-anchor="middle" class="gt" style="font-size:11px">400</text>
+  <path class="l thin" d="M246 166h40v58h-40Z"/>
+  <text x="266" y="202" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ث</text>
+  <text x="266" y="219" text-anchor="middle" class="gt" style="font-size:11px">500</text>
+  <path class="l thin" d="M202 166h40v58h-40Z"/>
+  <text x="222" y="202" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">خ</text>
+  <text x="222" y="219" text-anchor="middle" class="gt" style="font-size:11px">600</text>
+  <path class="l thin" d="M158 166h40v58h-40Z"/>
+  <text x="178" y="202" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ذ</text>
+  <text x="178" y="219" text-anchor="middle" class="gt" style="font-size:11px">700</text>
+  <path class="l thin" d="M114 166h40v58h-40Z"/>
+  <text x="134" y="202" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ض</text>
+  <text x="134" y="219" text-anchor="middle" class="gt" style="font-size:11px">800</text>
+  <path class="l thin" d="M70 166h40v58h-40Z"/>
+  <text x="90" y="202" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ظ</text>
+  <text x="90" y="219" text-anchor="middle" class="gt" style="font-size:11px">900</text>
+  <path class="l thin" d="M422 232h40v58h-40Z"/>
+  <text x="442" y="268" text-anchor="middle" lang="ar" direction="rtl" style="font-size:28px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">غ</text>
+  <text x="442" y="285" text-anchor="middle" class="gt" style="font-size:11px">1000</text>
+  <text x="30" y="62" text-anchor="start" class="sm" style="font-size:11px">个位</text>
+  <text x="30" y="128" text-anchor="start" class="sm" style="font-size:11px">十位</text>
+  <text x="30" y="194" text-anchor="start" class="sm" style="font-size:11px">百位</text>
+  <text x="245" y="276" text-anchor="middle" class="gt" style="font-size:12px">这是东方的次序；西部（马格里布）的次序不同</text>
+  <text x="245" y="294" text-anchor="middle" class="sm" style="font-size:10.5px">有六个字母的位置和数值会不一样，所以算数前要先问：按哪一种次序？</text>
+  <text x="245" y="316" text-anchor="middle" lang="ar" direction="rtl" style="font-size:18px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">س   ص   ض   ظ   غ   ش</text>
+  <text x="245" y="336" text-anchor="middle" class="sm" style="font-size:10.5px">次序与数值据 10 世纪《科学之钥》所列，本课据维基文库录文核对</text>
+</svg>

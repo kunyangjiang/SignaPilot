@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 334" role="img" aria-label="外丹三层含义的示意图，本课自绘，据普雷加迪奥（Fabrizio Pregadio）《道教传统导论》网页和《抱朴子》。同一次炼制，三层意思叠在一起。最下一层：物质层，矿物、金属、炉火、容器。中间一层：宇宙层，容器代表天地未分的混沌，金属和矿物配成阴阳，目标是回到未分化的纯阳。最上一层：仪式层，接受经典、建造丹室、起火、服食，每一步都有对神明和师傅的誓约、斋戒、护卫。右边一行小字：三层是研究者归纳的，不等于古人每次都这样分。底部：外丹不能只当化学，也不能只当迷信">
+  <path class="l thin" d="M60 46H430V104H60Z"/>
+  <text x="78" y="70" text-anchor="start" class="gt" style="font-size:13px">仪式层</text>
+  <text x="150" y="70" text-anchor="start" style="font-size:11.5px">接受经典 · 建丹室 · 起火 · 服食</text>
+  <text x="150" y="90" text-anchor="start" class="sm" style="font-size:10.5px">每一步都有誓约、斋戒、对神明和师傅的陈告</text>
+  <path class="gl thin" d="M60 122H430V180H60Z"/>
+  <text x="78" y="146" text-anchor="start" class="gt" style="font-size:13px">宇宙层</text>
+  <text x="150" y="146" text-anchor="start" style="font-size:11.5px">容器 ≈ 天地未分的“混沌”</text>
+  <text x="150" y="166" text-anchor="start" class="sm" style="font-size:10.5px">金属与矿物配成阴阳，目标是回到未分的纯阳</text>
+  <path class="l thin" d="M60 198H430V256H60Z"/>
+  <text x="78" y="222" text-anchor="start" class="gt" style="font-size:13px">物质层</text>
+  <text x="150" y="222" text-anchor="start" style="font-size:11.5px">矿物 · 金属 · 炉火 · 容器</text>
+  <text x="150" y="242" text-anchor="start" class="sm" style="font-size:10.5px">可以描述、可以观察；也最容易出事</text>
+  <defs><marker id="ar5802" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l thin" d="M45 250V50" marker-end="url(#ar5802)"/>
+  <text x="30" y="150" text-anchor="middle" class="sm" style="font-size:10.5px">叠</text>
+  <text x="245" y="288" text-anchor="middle" class="gt" style="font-size:12.5px">同一次炼制，三层意思叠在一起</text>
+  <text x="245" y="306" text-anchor="middle" class="sm" style="font-size:10.5px">三层是研究者的归纳，不等于古人每次都这样分；据 Pregadio（二手）与《抱朴子》</text>
+  <text x="245" y="322" text-anchor="middle" class="sm" style="font-size:11px">外丹不能只当化学来读，也不能只当迷信</text>
+</svg>

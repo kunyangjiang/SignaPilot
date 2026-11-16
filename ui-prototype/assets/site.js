@@ -493,6 +493,11 @@
     '05-05': { src: 'content/knowledge/05-05.md', state: 'done' },
     '05-06': { src: 'content/knowledge/05-06.md', state: 'done' },
     '05-07': { src: 'content/knowledge/05-07.md', state: 'done' },
+    '05-08': { src: 'content/knowledge/05-08.md', state: 'done' },
+    '05-09': { src: 'content/knowledge/05-09.md', state: 'done' },
+    '06-01': { src: 'content/knowledge/06-01.md', state: 'done' },
+    '06-02': { src: 'content/knowledge/06-02.md', state: 'done' },
+    '06-03': { src: 'content/knowledge/06-03.md', state: 'done' },
   };
   const K_STATE = { done: '已完成', draft: '初稿 · 待审读' };
   // A course manuscript: "# 标题", an optional "> 初稿…" status line, a lead paragraph, "**…**" question lines,
@@ -1350,7 +1355,8 @@
     // 04-04: letter values, limited on purpose to examples the sources themselves give. Pick an example, add the
     // letters up one at a time (right to left, as Hebrew is read), then see what the source does with the number.
     // There is no free input: the point is how the rabbis used the sums, not to produce new ones.
-    // w: { caption, examples: [{ tab, words: [{ he, say, zh, letters: [[char, name, value]] }], src, use, note }] }
+    // w: { caption, lang?: 'he' | 'ar', hint?, examples: [{ tab, words: [{ he (or word), say, zh, letters: [[char, name, value]] }], src, use, note }] }
+    // lang defaults to Hebrew; Arabic examples set lang 'ar' and a hint. Letters run right to left in both.
     gematria: {
       html: (w, no) => `<figure class="fig gm" data-widget="${no}">
         <div class="fig-frame">
@@ -1359,7 +1365,7 @@
         </div>
         <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
       wire(fig, w) {
-        const body = $('.gm-body', fig);
+        const body = $('.gm-body', fig), lang = esc(w.lang || 'he');
         let cur = 0, step = 0;
         const total = ex => ex.words.reduce((n, wd) => n + wd.letters.length, 0);
         const draw = focus => {
@@ -1368,14 +1374,14 @@
           const words = ex.words.map(wd => {
             let sum = 0;
             const tiles = wd.letters.map(([c, name, v]) => { const on = seen < step; seen++; if (on) sum += v;
-              return `<li class="${on ? 'on' : ''}"><b lang="he">${c}</b><span>${esc(name)}</span><i>${on ? v : '?'}</i></li>`; }).join('');
+              return `<li class="${on ? 'on' : ''}"><b lang="${lang}">${c}</b><span>${esc(name)}</span><i>${on ? v : '?'}</i></li>`; }).join('');
             const done = seen <= step;
-            return `<div class="gm-word"><p class="gm-name"><b lang="he">${wd.he}</b> ${esc(wd.say)}，意思是“${esc(wd.zh)}”</p>
+            return `<div class="gm-word"><p class="gm-name"><b lang="${lang}">${wd.word || wd.he}</b> ${esc(wd.say)}，意思是“${esc(wd.zh)}”</p>
               <ol class="gm-tiles" dir="rtl">${tiles}</ol><p class="gm-sum">${done ? `合计 <b>${sum}</b>` : `已加到 ${sum}`}</p></div>`;
           }).join('');
           body.innerHTML = `<p class="gm-src">${inline(ex.src)}</p>${words}
             <div class="gm-ctl"><button type="button" class="gm-next"${step >= all ? ' disabled' : ''}>${step === 0 ? '从右往左，加第一个字母' : step >= all ? '已经加完' : '再加一个字母'}</button><button type="button" class="gm-all"${step >= all ? ' disabled' : ''}>一次加完</button></div>
-            <div class="gm-out" aria-live="polite">${step >= all ? `<p class="gm-use"><span class="label">原文拿这个数做了什么</span>${inline(ex.use)}</p><p class="gm-note">${inline(ex.note)}</p>` : '<p class="gm-hint">希伯来文从右往左读。每个字母都有一个固定的数值。</p>'}</div>`;
+            <div class="gm-out" aria-live="polite">${step >= all ? `<p class="gm-use"><span class="label">原文拿这个数做了什么</span>${inline(ex.use)}</p><p class="gm-note">${inline(ex.note)}</p>` : `<p class="gm-hint">${esc(w.hint || '希伯来文从右往左读。每个字母都有一个固定的数值。')}</p>`}</div>`;
           $('.gm-next', body).addEventListener('click', () => { step = Math.min(all, step + 1); draw('next'); });
           $('.gm-all', body).addEventListener('click', () => { step = all; draw('next'); });
           if (focus === 'next') { const b = $('.gm-next', body); if (!b.disabled) b.focus(); else $('.gm-out', body).setAttribute('tabindex', '-1'), $('.gm-out', body).focus(); }
@@ -1464,6 +1470,54 @@
           draw();
         });
         draw();
+      },
+    },
+    // 06-02: inspect a magic square. Click one cell, then another, to swap them; every row, column and diagonal sum is
+    // listed and checked against the constant, so the property can be seen to belong to the arrangement. A case may
+    // give letters for its numbers (only where each number has a single abjad letter, 1-9). Cases say whether the square
+    // is a documented arrangement or a mathematically valid illustration.
+    // w: { caption, cases: [{ tab, kind, src, grid: [[n]], letters?: [char], math, hist }] }
+    magicsq: {
+      html: (w, no) => `<figure class="fig ms" data-widget="${no}">
+        <div class="fig-frame">
+          ${radioRow('ms-pick', '选择幻方', w.cases.map(c => c.tab))}
+          <div class="ms-body"></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`,
+      wire(fig, w) {
+        const body = $('.ms-body', fig);
+        let cur = 0, grid, sel = null, lit = -1, letters = false;
+        const sums = g => {
+          const n = g.length, L = [];
+          for (let i = 0; i < n; i++) L.push({ name: `第 ${i + 1} 行`, cells: g[i].map((_, j) => [i, j]) });
+          for (let j = 0; j < n; j++) L.push({ name: `第 ${j + 1} 列`, cells: g.map((_, i) => [i, j]) });
+          L.push({ name: '对角线 ↘', cells: g.map((_, i) => [i, i]) }, { name: '对角线 ↙', cells: g.map((_, i) => [i, n - 1 - i]) });
+          return L.map(l => ({ ...l, sum: l.cells.reduce((a, [i, j]) => a + g[i][j], 0) }));
+        };
+        const draw = focus => {
+          const c = w.cases[cur], n = grid.length, K = n * (n * n + 1) / 2, L = sums(grid);
+          const ok = L.filter(l => l.sum === K).length, hot = lit >= 0 ? new Set(L[lit].cells.map(([i, j]) => i * n + j)) : new Set();
+          const label = v => (letters && c.letters ? c.letters[v - 1] : v);
+          body.innerHTML = `<p class="ms-src"><span class="ms-kind ${c.kind === 'documented' ? 'doc' : 'ill'}">${c.kind === 'documented' ? '史料中有这种排法' : '数学示例，非某一件史料'}</span>${inline(c.src)}</p>
+            <div class="ms-main"><div class="ms-grid" style="--n:${n}" role="group" aria-label="${n}×${n} 方阵，点一格再点另一格，交换它们">${grid.map((r, i) => r.map((v, j) => `<button type="button" class="ms-cell${hot.has(i * n + j) ? ' hot' : ''}${sel && sel[0] === i && sel[1] === j ? ' sel' : ''}" data-i="${i}" data-j="${j}" ${c.letters && letters ? 'lang="ar"' : ''} aria-label="第 ${i + 1} 行第 ${j + 1} 列，${v}">${label(v)}</button>`).join('')).join('')}</div>
+              <ul class="ms-lines" aria-label="各行各列各对角线的和">${L.map((l, k) => `<li><button type="button" class="ms-line ${l.sum === K ? 'ok' : 'no'}${k === lit ? ' on' : ''}" data-k="${k}" aria-pressed="${k === lit}"><span>${l.name}</span><b>${l.sum}</b><i>${l.sum === K ? '✓' : '✗'}</i></button></li>`).join('')}</ul></div>
+            <p class="ms-sum" aria-live="polite">应有的和：${n} × (${n}² + 1) ÷ 2 ＝ <b>${K}</b>。现在 ${L.length} 条线里有 <b>${ok}</b> 条符合。${ok === L.length ? '' : '交换过的方阵，已经不是幻方了。'}</p>
+            <div class="ms-ctl">${c.letters ? `<button type="button" class="ms-let" aria-pressed="${letters}">${letters ? '改看数字' : '改看字母（abjad）'}</button>` : ''}<button type="button" class="ms-reset"${JSON.stringify(grid) === JSON.stringify(c.grid) ? ' disabled' : ''}>还原</button></div>
+            <div class="ms-out"><p><span class="label">数学上能说的</span>${inline(c.math)}</p><p><span class="label">史料里的说法，要分开看</span>${inline(c.hist)}</p></div>`;
+          $$('.ms-cell', body).forEach(b => b.addEventListener('click', () => {
+            const i = +b.dataset.i, j = +b.dataset.j;
+            if (!sel) sel = [i, j];
+            else { if (sel[0] !== i || sel[1] !== j) { const t = grid[i][j]; grid[i][j] = grid[sel[0]][sel[1]]; grid[sel[0]][sel[1]] = t; } sel = null; }
+            draw(`c${i}-${j}`);
+          }));
+          $$('.ms-line', body).forEach(b => b.addEventListener('click', () => { lit = lit === +b.dataset.k ? -1 : +b.dataset.k; draw(`l${b.dataset.k}`); }));
+          const lb = $('.ms-let', body); if (lb) lb.addEventListener('click', () => { letters = !letters; draw('let'); });
+          $('.ms-reset', body).addEventListener('click', () => { grid = c.grid.map(r => r.slice()); sel = null; draw('reset'); });
+          if (focus && focus[0] === 'c') { const [i, j] = focus.slice(1).split('-'); const b = $(`.ms-cell[data-i="${i}"][data-j="${j}"]`, body); if (b) b.focus(); }
+          else if (focus && focus[0] === 'l') { const b = $(`.ms-line[data-k="${focus.slice(1)}"]`, body); if (b) b.focus(); }
+          else if (focus === 'let') { const b = $('.ms-let', body); if (b) b.focus(); }
+        };
+        radios($('.ms-pick', fig), k => { cur = k; grid = w.cases[k].grid.map(r => r.slice()); sel = null; lit = -1; letters = false; draw(); });
       },
     },
   };

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 322" role="img" aria-label="三阶幻方的示意图，本课自绘。一个三乘三的方阵，数字依次是：上排 4、9、2，中排 3、5、7，下排 8、1、6。每一行、每一列、两条对角线的和都是 15。四个角的数字是 2、4、6、8；在字母数值里，2 是 ب，4 是 د，6 是 و，8 是 ح，这四个字母连起来读作 budūḥ。方阵右边画出三条求和线的例子。底部：这是一种常见的排法；把它转一转、翻一翻，得到的 8 种方阵都是同一个幻方；它叫 budūḥ，是因为四角的字母，不是因为这个排法本身有什么力量">
+  <path class="gl" d="M40 46h70v70h-70Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M40 46h70v70h-70Z"/>
+  <text x="75" y="76" text-anchor="middle" class="gt" style="font-size:22px">4</text>
+  <text x="75" y="108" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:17px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">د</text>
+  <path class="l thin" d="M110 46h70v70h-70Z"/>
+  <text x="145" y="86" text-anchor="middle" style="font-size:24px">9</text>
+  <path class="gl" d="M180 46h70v70h-70Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M180 46h70v70h-70Z"/>
+  <text x="215" y="76" text-anchor="middle" class="gt" style="font-size:22px">2</text>
+  <text x="215" y="108" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:17px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ب</text>
+  <path class="l thin" d="M40 116h70v70h-70Z"/>
+  <text x="75" y="156" text-anchor="middle" style="font-size:24px">3</text>
+  <path class="l thin" d="M110 116h70v70h-70Z"/>
+  <text x="145" y="156" text-anchor="middle" style="font-size:24px">5</text>
+  <path class="l thin" d="M180 116h70v70h-70Z"/>
+  <text x="215" y="156" text-anchor="middle" style="font-size:24px">7</text>
+  <path class="gl" d="M40 186h70v70h-70Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M40 186h70v70h-70Z"/>
+  <text x="75" y="216" text-anchor="middle" class="gt" style="font-size:22px">8</text>
+  <text x="75" y="248" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:17px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ح</text>
+  <path class="l thin" d="M110 186h70v70h-70Z"/>
+  <text x="145" y="226" text-anchor="middle" style="font-size:24px">1</text>
+  <path class="gl" d="M180 186h70v70h-70Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M180 186h70v70h-70Z"/>
+  <text x="215" y="216" text-anchor="middle" class="gt" style="font-size:22px">6</text>
+  <text x="215" y="248" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:17px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">و</text>
+  <text x="145" y="30" text-anchor="middle" class="sm" style="font-size:11.5px">三阶：每行每列每对角线都是 15</text>
+  <text x="290" y="70" text-anchor="start" style="font-size:11.5px">第一行</text>
+  <text x="290" y="86" text-anchor="start" class="gt" style="font-size:11.5px">4 ＋ 9 ＋ 2 ＝ 15</text>
+  <text x="290" y="110" text-anchor="start" style="font-size:11.5px">中间一列</text>
+  <text x="290" y="126" text-anchor="start" class="gt" style="font-size:11.5px">9 ＋ 5 ＋ 1 ＝ 15</text>
+  <text x="290" y="150" text-anchor="start" style="font-size:11.5px">一条对角线</text>
+  <text x="290" y="166" text-anchor="start" class="gt" style="font-size:11.5px">4 ＋ 5 ＋ 6 ＝ 15</text>
+  <text x="290" y="200" text-anchor="start" style="font-size:11.5px">四角：2、4、6、8</text>
+  <text x="380" y="228" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:20px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ب   د   و   ح</text>
+  <text x="290" y="246" text-anchor="start" class="sm" style="font-size:10.5px">对应字母，读作 budūḥ</text>
+  <text x="245" y="276" text-anchor="middle" class="gt" style="font-size:11.5px">转一转、翻一翻，一共 8 种方阵，都是同一个幻方</text>
+  <text x="245" y="294" text-anchor="middle" class="sm" style="font-size:11px">“budūḥ”这个名字来自四角的字母，不是来自排法本身的力量</text>
+  <text x="245" y="310" text-anchor="middle" class="sm" style="font-size:10.5px">名称与字母据美国国立医学图书馆的目录说明；排法为本课选取的一种取向</text>
+</svg>

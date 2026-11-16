@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 396" role="img" aria-label="三种相关但不同的做法的对照图，本课自绘。三列：幻方、地占、护符。每列四行：它处理什么；本课读到的较早证据；留下的材料；最容易混淆的地方。幻方：处理数字的排列，每行每列每条对角线的和相同；较早证据是 9 世纪一部医学文本里的三阶方阵和 10 世纪的数学论著；材料是书里的图和护符上的方阵；容易把数学性质当成效力的证据。地占（ʿilm al-raml）：处理沙上点数的奇偶，由四行点得到 16 种图形；较早证据是 12 世纪中叶译成拉丁文的《地占术》，据说译自阿拉伯文；材料是手稿里的图表；容易把它和幻方、《易》的卦混为一谈。护符：处理一件写好的物件，上面有经文、尊名、祈祷，有时带方阵；较早证据以 18 到 19 世纪的实物为主，来自馆藏目录；材料是皮、纸、银壳等；容易以为一件物件能代表所有。底部：同一件物件里可能同时有几种东西，但它们不是同一种技术">
+  <path class="l thin" d="M13 30H157V340H13Z"/>
+  <text x="85" y="52" text-anchor="middle" class="gt" style="font-size:12.5px">幻方</text>
+  <path class="l thin" d="M13 66H157" stroke-dasharray="2 4"/>
+  <text x="85" y="82" text-anchor="middle" class="gt" style="font-size:9px">它处理什么</text>
+  <text x="85" y="98" text-anchor="middle" style="font-size:9.5px">数字的排列</text>
+  <text x="85" y="111" text-anchor="middle" class="sm" style="font-size:9.5px">每行每列每对角线同和</text>
+  <path class="l thin" d="M13 132H157" stroke-dasharray="2 4"/>
+  <text x="85" y="148" text-anchor="middle" class="gt" style="font-size:9px">较早的证据</text>
+  <text x="85" y="164" text-anchor="middle" style="font-size:9.5px">9 世纪医学文本里的</text>
+  <text x="85" y="177" text-anchor="middle" class="sm" style="font-size:9.5px">三阶方阵；10 世纪数学论著</text>
+  <path class="l thin" d="M13 198H157" stroke-dasharray="2 4"/>
+  <text x="85" y="214" text-anchor="middle" class="gt" style="font-size:9px">留下的材料</text>
+  <text x="85" y="230" text-anchor="middle" style="font-size:9.5px">书里的图；</text>
+  <text x="85" y="243" text-anchor="middle" class="sm" style="font-size:9.5px">护符上的方阵</text>
+  <path class="l thin" d="M13 264H157" stroke-dasharray="2 4"/>
+  <text x="85" y="280" text-anchor="middle" class="gt" style="font-size:9px">最容易混淆</text>
+  <text x="85" y="296" text-anchor="middle" style="font-size:9.5px">把数学性质</text>
+  <text x="85" y="309" text-anchor="middle" class="sm" style="font-size:9.5px">当成效力的证据</text>
+  <path class="l thin" d="M173 30H317V340H173Z"/>
+  <text x="245" y="52" text-anchor="middle" class="gt" style="font-size:12.5px">地占 ʿilm al-raml</text>
+  <path class="l thin" d="M173 66H317" stroke-dasharray="2 4"/>
+  <text x="245" y="82" text-anchor="middle" class="gt" style="font-size:9px">它处理什么</text>
+  <text x="245" y="98" text-anchor="middle" style="font-size:9.5px">沙上点数的奇偶</text>
+  <text x="245" y="111" text-anchor="middle" class="sm" style="font-size:9.5px">四行点 → 16 种图形</text>
+  <path class="l thin" d="M173 132H317" stroke-dasharray="2 4"/>
+  <text x="245" y="148" text-anchor="middle" class="gt" style="font-size:9px">较早的证据</text>
+  <text x="245" y="164" text-anchor="middle" style="font-size:9.5px">12 世纪中叶的拉丁文</text>
+  <text x="245" y="177" text-anchor="middle" class="sm" style="font-size:9.5px">《地占术》，译自阿拉伯文</text>
+  <path class="l thin" d="M173 198H317" stroke-dasharray="2 4"/>
+  <text x="245" y="214" text-anchor="middle" class="gt" style="font-size:9px">留下的材料</text>
+  <text x="245" y="230" text-anchor="middle" style="font-size:9.5px">手稿里的</text>
+  <text x="245" y="243" text-anchor="middle" class="sm" style="font-size:9.5px">图表</text>
+  <path class="l thin" d="M173 264H317" stroke-dasharray="2 4"/>
+  <text x="245" y="280" text-anchor="middle" class="gt" style="font-size:9px">最容易混淆</text>
+  <text x="245" y="296" text-anchor="middle" style="font-size:9.5px">和幻方、《易》卦</text>
+  <text x="245" y="309" text-anchor="middle" class="sm" style="font-size:9.5px">混为一谈</text>
+  <path class="l thin" d="M333 30H477V340H333Z"/>
+  <text x="405" y="52" text-anchor="middle" class="gt" style="font-size:12.5px">护符</text>
+  <path class="l thin" d="M333 66H477" stroke-dasharray="2 4"/>
+  <text x="405" y="82" text-anchor="middle" class="gt" style="font-size:9px">它处理什么</text>
+  <text x="405" y="98" text-anchor="middle" style="font-size:9.5px">一件写好的物件</text>
+  <text x="405" y="111" text-anchor="middle" class="sm" style="font-size:9.5px">经文、尊名、祈祷，有时带方阵</text>
+  <path class="l thin" d="M333 132H477" stroke-dasharray="2 4"/>
+  <text x="405" y="148" text-anchor="middle" class="gt" style="font-size:9px">较早的证据</text>
+  <text x="405" y="164" text-anchor="middle" style="font-size:9.5px">以 18–19 世纪实物</text>
+  <text x="405" y="177" text-anchor="middle" class="sm" style="font-size:9.5px">为主（馆藏目录）</text>
+  <path class="l thin" d="M333 198H477" stroke-dasharray="2 4"/>
+  <text x="405" y="214" text-anchor="middle" class="gt" style="font-size:9px">留下的材料</text>
+  <text x="405" y="230" text-anchor="middle" style="font-size:9.5px">皮、纸、银壳</text>
+  <text x="405" y="243" text-anchor="middle" class="sm" style="font-size:9.5px">卷起的经卷</text>
+  <path class="l thin" d="M333 264H477" stroke-dasharray="2 4"/>
+  <text x="405" y="280" text-anchor="middle" class="gt" style="font-size:9px">最容易混淆</text>
+  <text x="405" y="296" text-anchor="middle" style="font-size:9.5px">以为一件物件</text>
+  <text x="405" y="309" text-anchor="middle" class="sm" style="font-size:9.5px">能代表所有</text>
+  <text x="245" y="366" text-anchor="middle" class="gt" style="font-size:12px">它们常出现在同一件物件、同一部手稿里，但不是同一种技术</text>
+  <text x="245" y="384" text-anchor="middle" class="sm" style="font-size:10.5px">本图据本课读到的二手研究与馆藏目录归纳，各处证据的强弱不同</text>
+</svg>

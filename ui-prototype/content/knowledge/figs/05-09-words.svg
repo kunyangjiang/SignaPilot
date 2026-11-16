@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 318" role="img" aria-label="同一批词在两处的用法对照，本课自绘，右栏都是《悟真篇》的原句。四行：鼎器，外丹里是炼丹的容器，悟真篇绝句一说先把乾坤为鼎器；药，外丹里是矿物，悟真篇绝句一说次将乌兔药来烹，乌兔指日月；铅汞，外丹里是金属，悟真篇七言四韵八说时人要识真铅汞，不是凡砂及水银；火，外丹里是炉火，悟真篇绝句三说自有天然真火育，何须柴炭及吹嘘。底部：同一套词，指的东西换了；这是文本自己说的，不是后人加的">
+  <text x="30" y="28" text-anchor="start" class="gt" style="font-size:12px">词</text>
+  <text x="130" y="28" text-anchor="start" class="gt" style="font-size:12px">在外丹文本里</text>
+  <text x="250" y="28" text-anchor="start" class="gt" style="font-size:12px">《悟真篇》原句</text>
+  <text x="250" y="28" text-anchor="middle" style="font-size:1px"></text>
+  <path class="l thin" d="M20 44H470V94H20Z"/>
+  <text x="30" y="74" text-anchor="start" class="gt" style="font-size:15px">鼎器</text>
+  <text x="130" y="74" text-anchor="start" style="font-size:11.5px">炼丹的容器</text>
+  <text x="250" y="66" text-anchor="start" style="font-size:11px">“先把乾坤为鼎器”</text>
+  <text x="250" y="84" text-anchor="start" class="sm" style="font-size:10.5px">容器是天地（乾坤）</text>
+  <path class="l thin" d="M20 102H470V152H20Z"/>
+  <text x="30" y="132" text-anchor="start" class="gt" style="font-size:15px">药</text>
+  <text x="130" y="132" text-anchor="start" style="font-size:11.5px">矿物</text>
+  <text x="250" y="124" text-anchor="start" style="font-size:11px">“次将乌兔药来烹”</text>
+  <text x="250" y="142" text-anchor="start" class="sm" style="font-size:10.5px">药是日月（乌兔）</text>
+  <path class="l thin" d="M20 160H470V210H20Z"/>
+  <text x="30" y="190" text-anchor="start" class="gt" style="font-size:15px">铅汞</text>
+  <text x="130" y="190" text-anchor="start" style="font-size:11.5px">金属</text>
+  <text x="250" y="182" text-anchor="start" style="font-size:11px">“不是凡砂及水银”</text>
+  <text x="250" y="200" text-anchor="start" class="sm" style="font-size:10.5px">“真铅汞”不是普通的矿物</text>
+  <path class="l thin" d="M20 218H470V268H20Z"/>
+  <text x="30" y="248" text-anchor="start" class="gt" style="font-size:15px">火</text>
+  <text x="130" y="248" text-anchor="start" style="font-size:11.5px">炉火、柴炭</text>
+  <text x="250" y="240" text-anchor="start" style="font-size:11px">“自有天然真火育，何须柴炭”</text>
+  <text x="250" y="258" text-anchor="start" class="sm" style="font-size:10.5px">火不是柴炭烧出来的</text>
+  <text x="245" y="288" text-anchor="middle" class="gt" style="font-size:12.5px">同一套词，指的东西换了</text>
+  <text x="245" y="306" text-anchor="middle" class="sm" style="font-size:10.5px">这是《悟真篇》文本自己说的；至于“换成了什么”，后来各家注释并不一致</text>
+</svg>

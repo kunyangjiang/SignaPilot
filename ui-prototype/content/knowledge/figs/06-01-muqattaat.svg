@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 364" role="img" aria-label="《古兰经》章首“断开的字母”的示意图，本课自绘，字母与章次据本课核对的《古兰经》电子文本。上面是 28 个阿拉伯字母，按字母表次序排成四行七列，从右往左读，其中 14 个用金色标出：ا ح ر س ص ط ع ق ك ل م ن ه ي。下面三行字：29 章以这些字母开头；共有 14 种不同的开头；最常见的是 الم，开 6 章，第 2、3、29、30、31、32 章；حم 开 7 章，第 40 到 46 章；الر 开 5 章，第 10、11、12、14、15 章；طسم 开 2 章，第 26、28 章；其余每种只开一章。底部：这些字母并不构成一个词，“它们是什么意思”，是历代解经家争论的问题">
+  <path class="gl" d="M410 12h50v40h-50Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M410 12h50v40h-50Z"/>
+  <text x="435" y="42" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ا</text>
+  <path class="l thin" d="M354 12h50v40h-50Z"/>
+  <text x="379" y="42" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ب</text>
+  <path class="l thin" d="M298 12h50v40h-50Z"/>
+  <text x="323" y="42" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ت</text>
+  <path class="l thin" d="M242 12h50v40h-50Z"/>
+  <text x="267" y="42" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ث</text>
+  <path class="l thin" d="M186 12h50v40h-50Z"/>
+  <text x="211" y="42" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ج</text>
+  <path class="gl" d="M130 12h50v40h-50Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M130 12h50v40h-50Z"/>
+  <text x="155" y="42" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ح</text>
+  <path class="l thin" d="M74 12h50v40h-50Z"/>
+  <text x="99" y="42" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">خ</text>
+  <path class="l thin" d="M410 58h50v40h-50Z"/>
+  <text x="435" y="88" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">د</text>
+  <path class="l thin" d="M354 58h50v40h-50Z"/>
+  <text x="379" y="88" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ذ</text>
+  <path class="gl" d="M298 58h50v40h-50Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M298 58h50v40h-50Z"/>
+  <text x="323" y="88" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ر</text>
+  <path class="l thin" d="M242 58h50v40h-50Z"/>
+  <text x="267" y="88" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ز</text>
+  <path class="gl" d="M186 58h50v40h-50Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M186 58h50v40h-50Z"/>
+  <text x="211" y="88" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">س</text>
+  <path class="l thin" d="M130 58h50v40h-50Z"/>
+  <text x="155" y="88" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ش</text>
+  <path class="gl" d="M74 58h50v40h-50Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M74 58h50v40h-50Z"/>
+  <text x="99" y="88" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ص</text>
+  <path class="l thin" d="M410 104h50v40h-50Z"/>
+  <text x="435" y="134" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ض</text>
+  <path class="gl" d="M354 104h50v40h-50Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M354 104h50v40h-50Z"/>
+  <text x="379" y="134" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ط</text>
+  <path class="l thin" d="M298 104h50v40h-50Z"/>
+  <text x="323" y="134" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ظ</text>
+  <path class="gl" d="M242 104h50v40h-50Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M242 104h50v40h-50Z"/>
+  <text x="267" y="134" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ع</text>
+  <path class="l thin" d="M186 104h50v40h-50Z"/>
+  <text x="211" y="134" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">غ</text>
+  <path class="l thin" d="M130 104h50v40h-50Z"/>
+  <text x="155" y="134" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ف</text>
+  <path class="gl" d="M74 104h50v40h-50Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M74 104h50v40h-50Z"/>
+  <text x="99" y="134" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ق</text>
+  <path class="gl" d="M410 150h50v40h-50Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M410 150h50v40h-50Z"/>
+  <text x="435" y="180" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ك</text>
+  <path class="gl" d="M354 150h50v40h-50Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M354 150h50v40h-50Z"/>
+  <text x="379" y="180" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ل</text>
+  <path class="gl" d="M298 150h50v40h-50Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M298 150h50v40h-50Z"/>
+  <text x="323" y="180" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">م</text>
+  <path class="gl" d="M242 150h50v40h-50Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M242 150h50v40h-50Z"/>
+  <text x="267" y="180" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ن</text>
+  <path class="gl" d="M186 150h50v40h-50Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M186 150h50v40h-50Z"/>
+  <text x="211" y="180" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ه</text>
+  <path class="l thin" d="M130 150h50v40h-50Z"/>
+  <text x="155" y="180" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">و</text>
+  <path class="gl" d="M74 150h50v40h-50Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M74 150h50v40h-50Z"/>
+  <text x="99" y="180" text-anchor="middle" lang="ar" direction="rtl" class="gt" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ي</text>
+  <text x="245" y="204" text-anchor="middle" class="sm" style="font-size:10.5px">字母按字母表次序排列，金色的 14 个出现在章首</text>
+  <text x="245" y="224" text-anchor="middle" class="gt" style="font-size:12.5px">29 章以这些字母开头，共 14 种不同的开头</text>
+  <text x="77" y="252" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">الم</text>
+  <text x="77" y="270" text-anchor="middle" style="font-size:11.5px">6 章</text>
+  <text x="77" y="286" text-anchor="middle" class="sm" style="font-size:9px">第 2、3、29、30、31、32 章</text>
+  <text x="189" y="252" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">حم</text>
+  <text x="189" y="270" text-anchor="middle" style="font-size:11.5px">7 章</text>
+  <text x="189" y="286" text-anchor="middle" class="sm" style="font-size:9px">第 40–46 章</text>
+  <text x="301" y="252" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">الر</text>
+  <text x="301" y="270" text-anchor="middle" style="font-size:11.5px">5 章</text>
+  <text x="301" y="286" text-anchor="middle" class="sm" style="font-size:9px">第 10、11、12、14、15 章</text>
+  <text x="413" y="252" text-anchor="middle" lang="ar" direction="rtl" style="font-size:26px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">طسم</text>
+  <text x="413" y="270" text-anchor="middle" style="font-size:11.5px">2 章</text>
+  <text x="413" y="286" text-anchor="middle" class="sm" style="font-size:9px">第 26、28 章</text>
+  <text x="245" y="310" text-anchor="middle" class="sm" style="font-size:10.5px">其余每种只开一章：</text>
+  <text x="245" y="332" text-anchor="middle" lang="ar" direction="rtl" style="font-size:15px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">المص    المر    كهيعص    طه    طس    يس    ص    ق    ن</text>
+  <text x="245" y="352" text-anchor="middle" class="sm" style="font-size:11px">它们不构成一个词；“是什么意思”，历代解经家争论不一</text>
+</svg>

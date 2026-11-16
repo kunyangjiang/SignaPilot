@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 316" role="img" aria-label="四种说法的分量的示意图，本课自绘。从上到下四个层级，越往下越有独立证据：一，教义主张，如服之成仙，没有独立检验的支持；二，对物质变化的记录，如丹砂烧后得水银，可以由现代知识解释，但记录本身不是实验报告；三，亲历者对后果的记录，如韩愈所记，可以和现代毒理学的知识相互印证，但个案诊断需要谨慎；四，现代学者对意义的解释，如容器象征混沌，是对文本的解读，不是对物质的检验。底部：每一种说法要用适合它的办法来检验，不能互相替代">
+  <path class="gl thin" d="M20 24H470V74H20Z"/>
+  <text x="32" y="45" text-anchor="start" class="gt" style="font-size:12.5px">教义主张</text>
+  <text x="150" y="45" text-anchor="start" style="font-size:11px">服之得仙；烧之愈久变化愈妙</text>
+  <text x="150" y="64" text-anchor="start" class="sm" style="font-size:10.5px">没有独立检验的支持</text>
+  <path class="l thin" d="M20 86H470V136H20Z"/>
+  <text x="32" y="107" text-anchor="start" class="gt" style="font-size:12.5px">物质变化的记录</text>
+  <text x="150" y="107" text-anchor="start" style="font-size:11px">丹砂烧之成水银，又变回丹砂</text>
+  <text x="150" y="126" text-anchor="start" class="sm" style="font-size:10.5px">现代化学能解释，但原文不是实验报告</text>
+  <path class="l thin" d="M20 148H470V198H20Z"/>
+  <text x="32" y="169" text-anchor="start" class="gt" style="font-size:12.5px">亲历者的后果记录</text>
+  <text x="150" y="169" text-anchor="start" style="font-size:11px">韩愈所记的病与死</text>
+  <text x="150" y="188" text-anchor="start" class="sm" style="font-size:10.5px">与已知的汞等毒性相合，个案诊断仍须谨慎</text>
+  <path class="l thin" d="M20 210H470V260H20Z"/>
+  <text x="32" y="231" text-anchor="start" class="gt" style="font-size:12.5px">现代学者的解释</text>
+  <text x="150" y="231" text-anchor="start" style="font-size:11px">容器象征混沌；炼丹是仪式</text>
+  <text x="150" y="250" text-anchor="start" class="sm" style="font-size:10.5px">是对文本的解读，不是对物质的检验</text>
+  <text x="245" y="286" text-anchor="middle" class="gt" style="font-size:12.5px">每一种说法，要用适合它的办法来检验</text>
+  <text x="245" y="304" text-anchor="middle" class="sm" style="font-size:11px">不能互相替代：信仰的主张不能靠化学证明，化学也不能说明仪式的意义</text>
+</svg>

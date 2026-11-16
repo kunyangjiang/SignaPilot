@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 364" role="img" aria-label="两件馆藏护符物件的示意图，本课自绘，据馆藏目录的文字描述，不复制原物，也不画任何文字。左边：阿迦汗博物馆的一张护符图表，19 世纪伊朗，墨与金色等颜料画在羚羊皮上，约 68.5 乘 53.5 厘米，目录说上面有许多方阵和铭文，皮面有折痕，可能折成一小包存放；用一个带折痕的长方形表示，格子里留空。右边：耶鲁大学拜内克图书馆的一件护符吊坠，18 或 19 世纪，产地和制作者不明，八角形银壳，约 8 厘米长，一端可以旋开，里面有一卷蛇皮写本，约 40 厘米长，写着经文、祈祷和一个方阵；用一个八角形的壳和一卷展开的卷轴表示，内容留空。底部：目录告诉我们它的材料、尺寸、年代和描述的内容，不告诉我们谁在什么情况下用过它">
+  <path class="l" d="M30 50H190V250H30Z" filter="url(#wob2)"/>
+  <path class="l thin" d="M83 50V250M137 50V250M30 117H190M30 183H190" stroke-dasharray="4 4"/>
+  <text x="110" y="150" text-anchor="middle" class="sm" style="font-size:11px">内容留空</text>
+  <text x="110" y="34" text-anchor="middle" class="gt" style="font-size:12.5px">护符图表</text>
+  <text x="110" y="272" text-anchor="middle" class="sm" style="font-size:10.5px">19 世纪，伊朗（阿迦汗博物馆）</text>
+  <text x="110" y="288" text-anchor="middle" class="sm" style="font-size:10.5px">羚羊皮，约 68.5 × 53.5 厘米</text>
+  <text x="110" y="304" text-anchor="middle" class="sm" style="font-size:10.5px">有折痕：可能曾折成小包</text>
+  <path class="l" d="M250 100L262 88H318L330 100V160L318 172H262L250 160Z" transform="rotate(-18 290 130)"/>
+  <path class="l thin" d="M255 110H325M255 150H325" transform="rotate(-18 290 130)"/>
+  <path class="l" d="M300 180Q340 176 372 196Q404 216 440 200" fill="none"/>
+  <path class="l" d="M300 196Q340 192 372 212Q404 232 440 216" fill="none"/>
+  <path class="l thin" d="M300 180V196M440 200V216"/>
+  <text x="370" y="34" text-anchor="middle" class="gt" style="font-size:12.5px">护符吊坠</text>
+  <text x="370" y="258" text-anchor="middle" class="sm" style="font-size:10.5px">18 或 19 世纪，产地不明</text>
+  <text x="370" y="242" text-anchor="middle" class="sm" style="font-size:10.5px">（耶鲁大学拜内克图书馆）</text>
+  <text x="370" y="274" text-anchor="middle" class="sm" style="font-size:10.5px">八角形银壳，约 8 厘米</text>
+  <text x="370" y="290" text-anchor="middle" class="sm" style="font-size:10.5px">里面一卷蛇皮写本，约 40 厘米</text>
+  <text x="370" y="306" text-anchor="middle" class="sm" style="font-size:10.5px">目录：经文、祈祷和一个方阵</text>
+  <text x="245" y="334" text-anchor="middle" class="gt" style="font-size:12px">目录告诉我们材料、尺寸、年代和内容</text>
+  <text x="245" y="352" text-anchor="middle" class="sm" style="font-size:11px">不告诉我们谁、在什么情形下用过它</text>
+</svg>

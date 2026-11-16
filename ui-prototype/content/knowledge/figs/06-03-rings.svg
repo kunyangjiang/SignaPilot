@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 352" role="img" aria-label="九重围合的次序和三角形数目的示意图，本课自绘，据 Chiodo（2021）对 Śrī Yantra 的描述。从外到内九层：一，三重方城（bhūpura）；二，三个圆；三，十六瓣莲花；四，八瓣莲花；然后是四圈三角形，从外到内分别有 14 个、10 个、10 个、8 个；最后是中心的一个三角形，里面是 bindu。四圈三角形加中心三角形，一共 14 加 10 加 10 加 8 加 1，等于 43 个三角形区域；再计入中心的点 bindu 是 44，这是 Tapasyananda 注释的数法，本课所选录文作四十四，另一份转写作四十三。底部：43 是区域数，44 是计入 bindu 的数法；各层的名称与对应的神，要看具体传统">
+  <text x="30" y="22" text-anchor="start" class="gt" style="font-size:11px">由外到内</text>
+  <text x="330" y="22" text-anchor="start" class="gt" style="font-size:11px">数目</text>
+  <path class="l thin" d="M20 34H470V56H20Z"/>
+  <text x="30" y="49" text-anchor="start" style="font-size:11px">1  三重方城 bhūpura</text>
+  <text x="440" y="49" text-anchor="end" class="gt" style="font-size:11px">3 条线</text>
+  <path class="l thin" d="M34 60H456V82H34Z"/>
+  <text x="44" y="75" text-anchor="start" style="font-size:11px">2  三个圆</text>
+  <text x="426" y="75" text-anchor="end" class="gt" style="font-size:11px">3 个</text>
+  <path class="l thin" d="M48 86H442V108H48Z"/>
+  <text x="58" y="101" text-anchor="start" style="font-size:11px">3  十六瓣莲花</text>
+  <text x="412" y="101" text-anchor="end" class="gt" style="font-size:11px">16 瓣</text>
+  <path class="l thin" d="M62 112H428V134H62Z"/>
+  <text x="72" y="127" text-anchor="start" style="font-size:11px">4  八瓣莲花</text>
+  <text x="398" y="127" text-anchor="end" class="gt" style="font-size:11px">8 瓣</text>
+  <path class="gl thin" d="M76 138H414V160H76Z"/>
+  <text x="86" y="153" text-anchor="start" style="font-size:11px">5  三角形环</text>
+  <text x="384" y="153" text-anchor="end" class="gt" style="font-size:11px">14 个</text>
+  <path class="gl thin" d="M90 164H400V186H90Z"/>
+  <text x="100" y="179" text-anchor="start" style="font-size:11px">6  三角形环</text>
+  <text x="370" y="179" text-anchor="end" class="gt" style="font-size:11px">10 个</text>
+  <path class="gl thin" d="M104 190H386V212H104Z"/>
+  <text x="114" y="205" text-anchor="start" style="font-size:11px">7  三角形环</text>
+  <text x="356" y="205" text-anchor="end" class="gt" style="font-size:11px">10 个</text>
+  <path class="gl thin" d="M118 216H372V238H118Z"/>
+  <text x="128" y="231" text-anchor="start" style="font-size:11px">8  三角形环</text>
+  <text x="342" y="231" text-anchor="end" class="gt" style="font-size:11px">8 个</text>
+  <path class="gl thin" d="M132 242H358V264H132Z"/>
+  <text x="142" y="257" text-anchor="start" style="font-size:11px">9  中心三角形（内有 bindu）</text>
+  <text x="328" y="257" text-anchor="end" class="gt" style="font-size:11px">1 个</text>
+  <text x="245" y="288" text-anchor="middle" class="gt" style="font-size:12.5px">14 ＋ 10 ＋ 10 ＋ 8 ＋ 1 ＝ 43 个三角形区域</text>
+  <text x="245" y="306" text-anchor="middle" class="gt" style="font-size:10.5px">再计入中心的点 bindu，是 44——这是 Tapasyananda 注释的数法，诗句字面没有这样说</text>
+  <text x="245" y="324" text-anchor="middle" class="sm" style="font-size:10.5px">本课所选录文作“四十四”，另一份转写作“四十三”；43 是区域数，44 是计入 bindu 的数法</text>
+  <text x="245" y="340" text-anchor="middle" class="sm" style="font-size:10.5px">据 Chiodo（2021）与 Tapasyananda 译注（网页版）；各层的名称和对应的神，要看具体传统</text>
+</svg>

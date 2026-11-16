@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 306" role="img" aria-label="塔巴里（al-Ṭabarī）在注释《黄牛章》第 1 节“الم”时转述的几种说法的示意图，本课自绘，据本课读到的阿拉伯文注释。左边竖排几种说法：一，是《古兰经》的一个名字；二，是开篇语，真主用它们来开启《古兰经》；三，是各章的名字；四，是真主最大的尊名；五，是一种誓言；六，是字母的数值，也就是 ḥisāb al-jummal。右边一个框，标塔巴里自己的看法：每个字母可以指向多种意思，不是只指一种。底部：这是对一段注释的归纳，不是全部；塔巴里转述这些说法，并不都同意">
+  <defs><marker id="ar6101" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <text x="20" y="24" text-anchor="start" class="gt" style="font-size:12px">塔巴里转述的几种说法（本课读到的）</text>
+  <path class="l thin" d="M20 36H250V64H20Z"/>
+  <text x="32" y="55" text-anchor="start" style="font-size:11.5px">1  是《古兰经》的一个名字</text>
+  <path class="l thin" d="M250 50H300" stroke-dasharray="2 3"/>
+  <path class="l thin" d="M20 72H250V100H20Z"/>
+  <text x="32" y="91" text-anchor="start" style="font-size:11.5px">2  是开篇语（fawātiḥ）</text>
+  <path class="l thin" d="M250 86H300" stroke-dasharray="2 3"/>
+  <path class="l thin" d="M20 108H250V136H20Z"/>
+  <text x="32" y="127" text-anchor="start" style="font-size:11.5px">3  是各章的名字</text>
+  <path class="l thin" d="M250 122H300" stroke-dasharray="2 3"/>
+  <path class="l thin" d="M20 144H250V172H20Z"/>
+  <text x="32" y="163" text-anchor="start" style="font-size:11.5px">4  是真主最大的尊名</text>
+  <path class="l thin" d="M250 158H300" stroke-dasharray="2 3"/>
+  <path class="l thin" d="M20 180H250V208H20Z"/>
+  <text x="32" y="199" text-anchor="start" style="font-size:11.5px">5  是一种誓言</text>
+  <path class="l thin" d="M250 194H300" stroke-dasharray="2 3"/>
+  <path class="l thin" d="M20 216H250V244H20Z"/>
+  <text x="32" y="235" text-anchor="start" style="font-size:11.5px">6  是字母的数值（ḥisāb al-jummal）</text>
+  <path class="l thin" d="M250 230H300" stroke-dasharray="2 3"/>
+  <path class="wash" d="M300 70H470V180H300Z"/><path class="gl" d="M300 70H470V180H300Z"/>
+  <text x="385" y="98" text-anchor="middle" class="gt" style="font-size:12.5px">塔巴里自己的看法</text>
+  <text x="385" y="122" text-anchor="middle" style="font-size:11.5px">每个字母可以指向</text>
+  <text x="385" y="138" text-anchor="middle" style="font-size:11.5px">多种意思，</text>
+  <text x="385" y="154" text-anchor="middle" style="font-size:11.5px">不只是一种</text>
+  <text x="385" y="172" text-anchor="middle" class="sm" style="font-size:9.5px">（他把前面的说法都收了进来）</text>
+  <text x="245" y="276" text-anchor="middle" class="gt" style="font-size:12px">一段注释里并存着许多说法，注释家不必只选其中一种</text>
+  <text x="245" y="294" text-anchor="middle" class="sm" style="font-size:10.5px">据塔巴里《古兰经注》（altafsir.com 电子文本）；这里是归纳，转述的说法他并不都同意</text>
+</svg>

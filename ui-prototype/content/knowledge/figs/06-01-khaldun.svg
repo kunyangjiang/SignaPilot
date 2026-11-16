@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 282" role="img" aria-label="伊本·赫勒敦（Ibn Khaldūn）转述的两种“字母之秘”的示意图，本课自绘，据他在《历史绪论》里的概括，他概括的是别人的做法，不是他本人的主张。左边：元素分法。把字母按字母表次序，依次轮流分给火、气、水、土四种元素，每种七个。火：ا ه ط م ف س ذ；气：ب و ي ن ض ت ظ；水：ج ز ك ص ق ث غ；土：د ح ل ع ر خ ش。右边：数字关系。ب、ك、ر 都表示 2，分别在个位、十位、百位；د、م、ت 都表示 4，分别是 4、40、400；二与四之间是一倍的关系。底部：这两种分法依据西部（马格里布）的字母次序才对得上。他还引了布尼的话：字母之秘不靠推理，靠体验和启示">
+  <text x="130" y="22" text-anchor="middle" class="gt" style="font-size:12.5px">一、按“元素”分</text>
+  <text x="370" y="22" text-anchor="middle" class="gt" style="font-size:12.5px">二、按“数字关系”分</text>
+  <path class="l thin" d="M20 38H240V74H20Z"/>
+  <text x="34" y="62" text-anchor="start" class="gt" style="font-size:14px">火</text>
+  <text x="150" y="64" text-anchor="middle" lang="ar" direction="rtl" style="font-size:17px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ا ه ط م ف س ذ</text>
+  <path class="l thin" d="M20 82H240V118H20Z"/>
+  <text x="34" y="106" text-anchor="start" class="gt" style="font-size:14px">气</text>
+  <text x="150" y="108" text-anchor="middle" lang="ar" direction="rtl" style="font-size:17px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ب و ي ن ض ت ظ</text>
+  <path class="l thin" d="M20 126H240V162H20Z"/>
+  <text x="34" y="150" text-anchor="start" class="gt" style="font-size:14px">水</text>
+  <text x="150" y="152" text-anchor="middle" lang="ar" direction="rtl" style="font-size:17px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ج ز ك ص ق ث غ</text>
+  <path class="l thin" d="M20 170H240V206H20Z"/>
+  <text x="34" y="194" text-anchor="start" class="gt" style="font-size:14px">土</text>
+  <text x="150" y="196" text-anchor="middle" lang="ar" direction="rtl" style="font-size:17px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">د ح ل ع ر خ ش</text>
+  <path class="l thin" d="M260 38V210" stroke-dasharray="2 4"/>
+  <path class="l thin" d="M289 40h48v54h-48Z"/>
+  <text x="313" y="70" text-anchor="middle" lang="ar" direction="rtl" style="font-size:24px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ب</text>
+  <text x="313" y="88" text-anchor="middle" class="gt" style="font-size:11px">2</text>
+  <path class="l thin" d="M351 40h48v54h-48Z"/>
+  <text x="375" y="70" text-anchor="middle" lang="ar" direction="rtl" style="font-size:24px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ك</text>
+  <text x="375" y="88" text-anchor="middle" class="gt" style="font-size:11px">20</text>
+  <path class="l thin" d="M413 40h48v54h-48Z"/>
+  <text x="437" y="70" text-anchor="middle" lang="ar" direction="rtl" style="font-size:24px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ر</text>
+  <text x="437" y="88" text-anchor="middle" class="gt" style="font-size:11px">200</text>
+  <text x="375" y="108" text-anchor="middle" class="sm" style="font-size:10.5px">个位 · 十位 · 百位：都是“2”</text>
+  <path class="l thin" d="M289 124h48v54h-48Z"/>
+  <text x="313" y="154" text-anchor="middle" lang="ar" direction="rtl" style="font-size:24px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">د</text>
+  <text x="313" y="172" text-anchor="middle" class="gt" style="font-size:11px">4</text>
+  <path class="l thin" d="M351 124h48v54h-48Z"/>
+  <text x="375" y="154" text-anchor="middle" lang="ar" direction="rtl" style="font-size:24px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">م</text>
+  <text x="375" y="172" text-anchor="middle" class="gt" style="font-size:11px">40</text>
+  <path class="l thin" d="M413 124h48v54h-48Z"/>
+  <text x="437" y="154" text-anchor="middle" lang="ar" direction="rtl" style="font-size:24px;font-family:&quot;Amiri&quot;,&quot;Noto Naskh Arabic&quot;,&quot;Traditional Arabic&quot;,&quot;Geeza Pro&quot;,&quot;Segoe UI&quot;,serif">ت</text>
+  <text x="437" y="172" text-anchor="middle" class="gt" style="font-size:11px">400</text>
+  <text x="375" y="192" text-anchor="middle" class="sm" style="font-size:10.5px">都是“4”；4 与 2 之间是一倍的关系</text>
+  <text x="245" y="236" text-anchor="middle" class="gt" style="font-size:12.5px">他概括的是别人的做法，不是他本人的主张</text>
+  <text x="245" y="254" text-anchor="middle" class="sm" style="font-size:10.5px">这两种分法要用西部（马格里布）的字母次序才对得上他列的名单</text>
+  <text x="245" y="270" text-anchor="middle" class="sm" style="font-size:10.5px">他还引了布尼的话：字母之秘不靠推理，靠亲见和神佑——这是做法的内部说法</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 286" role="img" aria-label="本课涉及的证据的时间线，本课自绘，是二手归纳，年份请以原始研究为准。一条横轴。9 世纪：医学文本里的三阶方阵，据 Tolsa 与 Zsom。10 世纪：兄弟会（Ikhwān al-Ṣafāʾ）等较早讨论方阵的阿拉伯文本，以及安塔基（卒于 987 年）、布兹贾尼的数学论著，据 Tolsa 与 Sesiano 的介绍摘要。12 世纪中叶：雨果·桑塔拉把《地占术》译成拉丁文，据 Palazzo。14 世纪：伊本·赫勒敦（卒于 1406 年）评论护符与方阵。18 到 19 世纪：两件馆藏护符物件。底部：不同的东西有不同的年代，不能统称为“古老的传统”">
+  <path class="l" d="M24 150H466"/>
+  <circle class="dotk" cx="60" cy="150" r="4"/>
+  <text x="60" y="112" text-anchor="middle" class="gt" style="font-size:11.5px">9 世纪</text>
+  <text x="60" y="126" text-anchor="middle" class="sm" style="font-size:10px">医学文本里的</text>
+  <text x="60" y="139" text-anchor="middle" class="sm" style="font-size:10px">三阶方阵</text>
+  <circle class="dotk" cx="150" cy="150" r="4"/>
+  <text x="150" y="178" text-anchor="middle" style="font-size:11.5px">10 世纪</text>
+  <text x="150" y="192" text-anchor="middle" class="sm" style="font-size:10px">较早的方阵论述</text>
+  <text x="150" y="205" text-anchor="middle" class="sm" style="font-size:10px">与数学论著</text>
+  <circle class="dotk" cx="240" cy="150" r="4"/>
+  <text x="240" y="112" text-anchor="middle" class="gt" style="font-size:11.5px">12 世纪中叶</text>
+  <text x="240" y="126" text-anchor="middle" class="sm" style="font-size:10px">《地占术》</text>
+  <text x="240" y="139" text-anchor="middle" class="sm" style="font-size:10px">译成拉丁文</text>
+  <circle class="dotk" cx="330" cy="150" r="4"/>
+  <text x="330" y="178" text-anchor="middle" style="font-size:11.5px">14 世纪</text>
+  <text x="330" y="192" text-anchor="middle" class="sm" style="font-size:10px">伊本·赫勒敦</text>
+  <text x="330" y="205" text-anchor="middle" class="sm" style="font-size:10px">评述护符与方阵</text>
+  <circle class="dotk" cx="420" cy="150" r="4"/>
+  <text x="420" y="112" text-anchor="middle" class="gt" style="font-size:11.5px">18–19 世纪</text>
+  <text x="420" y="126" text-anchor="middle" class="sm" style="font-size:10px">两件馆藏物件</text>
+  <text x="420" y="139" text-anchor="middle" class="sm" style="font-size:10px">（吊坠、图表）</text>
+  <text x="245" y="240" text-anchor="middle" class="gt" style="font-size:12.5px">不同的东西有不同的年代，不能统称为“古老的传统”</text>
+  <text x="245" y="258" text-anchor="middle" class="sm" style="font-size:10.5px">二手归纳：据 Tolsa、Zsom、Sesiano（摘要）、Palazzo，以及伊本·赫勒敦原文</text>
+  <text x="245" y="274" text-anchor="middle" class="sm" style="font-size:10.5px">各处结论的把握不同，详见注释</text>
+</svg>

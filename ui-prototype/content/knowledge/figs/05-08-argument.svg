@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 300" role="img" aria-label="葛洪论证的示意图，本课自绘，据《抱朴子·金丹》。左边两个观察：一，黄金入火，百炼不消，埋之，毕天不朽；二，草木烧了就成灰，丹砂烧之成水银，积变又还成丹砂。两条线汇到中间的类比：外物的坚固，可以借来保护人，像用铜青涂脚入水不腐。再往右是结论：服此二物，炼人身体，故能令人不老不死。结论上方标这是葛洪的主张，不是已被独立检验的结果。底部：这是一个从观察到类比再到结论的推理，每一步的分量不同">
+  <defs><marker id="ar5801" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M20 40H170V110H20Z"/>
+  <text x="95" y="62" text-anchor="middle" class="gt" style="font-size:12px">观察 ①</text>
+  <text x="95" y="82" text-anchor="middle" style="font-size:11px">黄金入火，百炼不消</text>
+  <text x="95" y="98" text-anchor="middle" style="font-size:11px">埋之，毕天不朽</text>
+  <path class="l" d="M20 130H170V210H20Z"/>
+  <text x="95" y="152" text-anchor="middle" class="gt" style="font-size:12px">观察 ②</text>
+  <text x="95" y="172" text-anchor="middle" style="font-size:11px">草木烧之即尽</text>
+  <text x="95" y="188" text-anchor="middle" style="font-size:11px">丹砂烧之成水银，</text>
+  <text x="95" y="204" text-anchor="middle" style="font-size:11px">积变又还成丹砂</text>
+  <path class="l thin" d="M170 75L215 120M170 170L215 130" marker-end="url(#ar5801)"/>
+  <path class="wash" d="M215 80H325V170H215Z"/><path class="gl" d="M215 80H325V170H215Z"/>
+  <text x="270" y="104" text-anchor="middle" class="gt" style="font-size:12.5px">类比</text>
+  <text x="270" y="124" text-anchor="middle" style="font-size:11px">借外物之坚固</text>
+  <text x="270" y="140" text-anchor="middle" style="font-size:11px">以“自坚固”</text>
+  <text x="270" y="156" text-anchor="middle" class="sm" style="font-size:10.5px">如铜青涂脚不腐</text>
+  <path class="l thin" d="M325 125H355" marker-end="url(#ar5801)"/>
+  <path class="l" d="M355 80H470V170H355Z"/>
+  <text x="412" y="104" text-anchor="middle" class="gt" style="font-size:12.5px">结论</text>
+  <text x="412" y="124" text-anchor="middle" style="font-size:11px">服之，炼人身体</text>
+  <text x="412" y="140" text-anchor="middle" style="font-size:11px">令人不老不死</text>
+  <text x="412" y="158" text-anchor="middle" class="sm" style="font-size:10.5px">葛洪的主张</text>
+  <text x="245" y="252" text-anchor="middle" class="gt" style="font-size:12.5px">观察 → 类比 → 结论：每一步的分量不一样</text>
+  <text x="245" y="272" text-anchor="middle" class="sm" style="font-size:11px">观察 ② 是对物质变化的描述；“服之不死”是主张，不是已被独立检验的结果</text>
+  <text x="245" y="288" text-anchor="middle" class="sm" style="font-size:10.5px">据《抱朴子·金丹》；原文还说这是“假求于外物以自坚固”</text>
+</svg>

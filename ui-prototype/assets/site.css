@@ -882,6 +882,7 @@ html.day .rd-segs li.off { opacity: .5; }
 .gm-tiles li::before { display: none; }
 .gm-tiles li b { font-family: "SBL Hebrew", "Ezra SIL", "Noto Serif Hebrew", "Times New Roman", serif; font-size: 26px; font-weight: 400; line-height: 1.2; color: var(--ink); }
 .gm-tiles li span { font-size: 11px; color: var(--ink-3); }
+.gm-name b[lang="ar"], .gm-tiles li b[lang="ar"] { font-family: "Amiri", "Noto Naskh Arabic", "Traditional Arabic", "Geeza Pro", "Segoe UI", "Times New Roman", serif; }
 .gm-tiles li i { font-style: normal; font-family: var(--f-lat); font-size: 15px; color: var(--ink-3); }
 .gm-tiles li.on { border-style: solid; border-color: var(--gold); background: color-mix(in srgb, var(--gold) 8%, transparent); }
 .gm-tiles li.on i { color: var(--gold); }
@@ -942,6 +943,42 @@ html.day .rd-segs li.off { opacity: .5; }
 .cy-grid li.seen { border-style: solid; border-color: var(--line-2); }
 .cy-grid li.now { border-color: var(--gold); color: var(--gold); background: color-mix(in srgb, var(--gold) 10%, transparent); }
 .cy-note { margin: 12px 26px 22px !important; min-height: 3.4em; font-size: 14.5px; line-height: 1.75; color: var(--ink-2); text-align: left !important; }
+/* 06-02: magic-square inspector */
+.ms-body { padding: 14px 26px 22px; }
+.ms-body p { margin: 0 0 8px !important; font-size: 14.5px; line-height: 1.75; color: var(--ink-2); text-align: left !important; }
+.ms-src { font-size: 13px !important; color: var(--ink-3) !important; }
+.ms-kind { display: inline-block; margin-right: 8px; padding: 1px 8px; font-size: 12px; border: 1px solid var(--line-2); border-radius: 10px; color: var(--ink-2); }
+.ms-kind.doc { border-color: var(--gold); color: var(--gold); }
+.ms-main { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 18px; align-items: start; margin: 6px 0 10px; }
+.ms-grid { display: grid; grid-template-columns: repeat(var(--n), 1fr); gap: 4px; }
+.ms-cell { width: 52px; height: 52px; padding: 0; border: 1px solid var(--line-2); border-radius: 4px; background: none; color: var(--ink); font-family: var(--f-lat); font-size: 20px; cursor: pointer; transition: border-color .2s, background .2s; }
+.ms-cell[lang="ar"] { font-family: "Amiri", "Noto Naskh Arabic", "Traditional Arabic", "Geeza Pro", "Segoe UI", "Times New Roman", serif; font-size: 26px; }
+.ms-cell:hover { border-color: var(--gold); }
+.ms-cell.hot { background: color-mix(in srgb, var(--gold) 14%, transparent); border-color: var(--gold); }
+.ms-cell.sel { outline: 2px solid var(--gold); outline-offset: 1px; }
+.ms-lines { list-style: none; margin: 0 !important; padding: 0 !important; display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 4px 8px; }
+.ms-lines li { margin: 0 !important; padding: 0 !important; }
+.ms-lines li::before { display: none; }
+.ms-line { width: 100%; display: flex; justify-content: space-between; align-items: baseline; gap: 6px; padding: 5px 8px; min-height: 32px; border: 1px solid var(--line); border-radius: 3px; background: none; color: var(--ink-2); font: inherit; font-size: 13px; cursor: pointer; }
+.ms-line b { font-family: var(--f-lat); font-weight: 400; color: var(--ink); }
+.ms-line i { font-style: normal; width: 1em; text-align: center; }
+.ms-line.ok i { color: var(--gold); }
+.ms-line.no { border-color: var(--line-2); }
+.ms-line.no i, .ms-line.no b { color: #c0604a; }
+.ms-line.on { border-color: var(--gold); }
+.ms-sum b { font-family: var(--f-lat); color: var(--gold); }
+.ms-ctl { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 12px; }
+.ms-ctl button { padding: 7px 14px; min-height: 38px; border: 1px solid var(--line-2); border-radius: 4px; background: none; color: var(--ink); font: inherit; font-size: 14px; cursor: pointer; }
+.ms-ctl button:hover:not([disabled]) { border-color: var(--gold); }
+.ms-ctl button[disabled] { opacity: .45; cursor: default; }
+.ms-out { padding: 10px 12px; border-left: 2px solid var(--gold); }
+.ms-out p:last-child { margin-bottom: 0 !important; }
+@media (max-width: 700px) {
+  .ms-body { padding-left: 16px; padding-right: 16px; }
+  .ms-main { grid-template-columns: minmax(0, 1fr); }
+  .ms-cell { width: 100%; height: 46px; }
+  .ms-grid { max-width: 260px; }
+}
 @media (max-width: 700px) {
   .hx-sec, .hx-body, .cy-rows, .cy-now, .cy-ctl { padding-left: 16px; padding-right: 16px; }
   .cy-grid, .cy-note { margin-left: 16px !important; margin-right: 16px !important; }

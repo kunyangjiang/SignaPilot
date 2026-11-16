@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 334" role="img" aria-label="画 Śrī Yantra 的几种办法的对照图，本课自绘，据 Chiodo（2021）的综述。左上：传统方法 A，出自《美的波浪》的注释者 Kaivalyāśrama，把竖直直径分成 48 等份，定下各个三角形的位置；三角形底边中点在直径上的位置有 17、27、30、42 这四个点；按图用肉眼就能看出，有些交点并不严格共点。左下：传统方法 B，出自另一位注释者 Lakṣmīdhara，从中心三角形出发，依次围上 8、10、10、14 个三角形；共点条件成立，但最外面的圆有时不能同时经过两个大三角形的顶点。右上：现代研究，Kulaichev（1984）加上四个附加条件并论证有解，是否唯一仍未解决；Huet（1990）用五个参数加一个方程，实际是四个自由参数。右下：Chiodo（2021）给出尺规作图，并说明这个问题等价于阿波罗尼奥斯的一个相切问题。底部：这个图形没有唯一的“标准画法”，传统画法本身也有不严格之处">
+  <path class="l thin" d="M20 36h215v100h-215Z"/>
+  <text x="30" y="56" text-anchor="start" class="gt" style="font-size:12px">传统方法 A</text>
+  <text x="30" y="72" text-anchor="start" class="sm" style="font-size:10.5px">Kaivalyāśrama（注释者）</text>
+  <text x="30" y="92" text-anchor="start" style="font-size:10px">竖直直径分成 48 等份</text>
+  <text x="30" y="107" text-anchor="start" style="font-size:10px">底边中点在 17、27、30、42 处</text>
+  <text x="30" y="122" text-anchor="start" style="font-size:10px">肉眼可见：有些交点不严格共点</text>
+  <path class="l thin" d="M20 150h215v100h-215Z"/>
+  <text x="30" y="170" text-anchor="start" class="gt" style="font-size:12px">传统方法 B</text>
+  <text x="30" y="186" text-anchor="start" class="sm" style="font-size:10.5px">Lakṣmīdhara（注释者）</text>
+  <text x="30" y="206" text-anchor="start" style="font-size:10px">从中心三角形出发</text>
+  <text x="30" y="221" text-anchor="start" style="font-size:10px">依次围上 8、10、10、14 个三角形</text>
+  <text x="30" y="236" text-anchor="start" style="font-size:10px">共点成立；外圆条件有时失败</text>
+  <path class="l thin" d="M245 36h215v100h-215Z"/>
+  <text x="255" y="56" text-anchor="start" class="gt" style="font-size:12px">现代：Kulaichev 1984</text>
+  <text x="255" y="72" text-anchor="start" class="sm" style="font-size:10.5px">与 Huet 1990</text>
+  <text x="255" y="92" text-anchor="start" style="font-size:10px">Kulaichev：再加四个条件，论证有解</text>
+  <text x="255" y="107" text-anchor="start" style="font-size:10px">是否唯一，仍是未解的问题</text>
+  <text x="255" y="122" text-anchor="start" style="font-size:10px">Huet：五个参数加一个方程</text>
+  <path class="l thin" d="M245 150h215v100h-215Z"/>
+  <text x="255" y="170" text-anchor="start" class="gt" style="font-size:12px">现代：Chiodo 2021</text>
+  <text x="255" y="186" text-anchor="start" class="sm" style="font-size:10.5px">尺规作图</text>
+  <text x="255" y="206" text-anchor="start" style="font-size:10px">给出一族“共点”的 Śrī Yantra</text>
+  <text x="255" y="221" text-anchor="start" style="font-size:10px">问题等价于阿波罗尼奥斯的相切问题</text>
+  <text x="255" y="236" text-anchor="start" style="font-size:10px">“相切、过一点”的圆</text>
+  <text x="245" y="288" text-anchor="middle" class="gt" style="font-size:12.5px">这个图形没有唯一的“标准画法”</text>
+  <text x="245" y="306" text-anchor="middle" class="sm" style="font-size:10.5px">传统画法本身，也有不严格共点之处；现代数学把它变成了一个要精确求解的问题</text>
+  <text x="245" y="322" text-anchor="middle" class="sm" style="font-size:10.5px">据 Chiodo, On the construction of the Śrī Yantra, C. R. Math. 359 (2021)</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 316" role="img" aria-label="关于 Śrī Yantra 年代的已知与未知的示意图，本课自绘，据 Chiodo（2021）的综述及其所引的研究。左边一列“较有依据”：有《Rudrayāmala Tantra》的一节诗句，据 Gupta 所述，描述了一个有 bindu、中心三角形和 8、10、10、14 个三角形的图形，外有三个圆和三重方城；《美的波浪》第 11 节用数字描述这个图形，传统上归于商羯罗，现代说法不一；有 Kaivalyāśrama 和 Lakṣmīdhara 的注释，列出传统画法。右边一列“有争议或未知”：图形的起源，Chiodo 说“未知”，要到仪式里去找；Kulaichev 提到苏门答腊一块 7 世纪佛教碑铭和《阿闼婆吠陀》里的相似图形，这些是他的说法，不是定论；Huet 指出，已知最早公开发表的图像不早于 17 世纪；该图形的创造者与时间，没有确证。底部：不能因为图形“很古老的传说”，就说某一个今天看到的画法是古代原物">
+  <text x="130" y="24" text-anchor="middle" class="gt" style="font-size:12.5px">较有依据</text>
+  <text x="370" y="24" text-anchor="middle" class="gt" style="font-size:12.5px">有争议或未知</text>
+  <path class="l thin" d="M245 36V240" stroke-dasharray="2 4"/>
+  <text x="20" y="52" text-anchor="start" class="gt" style="font-size:10.5px">《Rudrayāmala Tantra》一节诗句</text>
+  <text x="20" y="69" text-anchor="start" style="font-size:10.5px">（据 Gupta 所述）描述：</text>
+  <text x="20" y="86" text-anchor="start" style="font-size:10.5px">bindu、中心三角形、8·10·10·14</text>
+  <text x="20" y="103" text-anchor="start" style="font-size:10.5px">三角形，外有三圆三重方城</text>
+  <text x="20" y="120" text-anchor="start" style="font-size:10.5px"></text>
+  <text x="20" y="137" text-anchor="start" class="gt" style="font-size:10.5px">《美的波浪》第 11 节</text>
+  <text x="20" y="154" text-anchor="start" style="font-size:10.5px">用数字描述同一个图形</text>
+  <text x="20" y="171" text-anchor="start" style="font-size:10.5px">传统上归于商羯罗，现代说法不一</text>
+  <text x="20" y="188" text-anchor="start" style="font-size:10.5px"></text>
+  <text x="20" y="205" text-anchor="start" style="font-size:10.5px">两位注释者列出传统画法</text>
+  <text x="20" y="222" text-anchor="start" style="font-size:10.5px">（Kaivalyāśrama、Lakṣmīdhara）</text>
+  <text x="255" y="52" text-anchor="start" class="gt" style="font-size:10.5px">起源：Chiodo 说“未知”</text>
+  <text x="255" y="69" text-anchor="start" style="font-size:10.5px">要到仪式里去找（Padoux）</text>
+  <text x="255" y="86" text-anchor="start" style="font-size:10.5px"></text>
+  <text x="255" y="103" text-anchor="start" class="gt" style="font-size:10.5px">Kulaichev：苏门答腊 7 世纪碑铭、</text>
+  <text x="255" y="120" text-anchor="start" style="font-size:10.5px">《阿闼婆吠陀》里有相似图形</text>
+  <text x="255" y="137" text-anchor="start" style="font-size:10.5px">（他的说法，不是定论）</text>
+  <text x="255" y="154" text-anchor="start" style="font-size:10.5px"></text>
+  <text x="255" y="171" text-anchor="start" class="gt" style="font-size:10.5px">Huet：已知最早公开的图像</text>
+  <text x="255" y="188" text-anchor="start" style="font-size:10.5px">不早于 17 世纪</text>
+  <text x="255" y="205" text-anchor="start" style="font-size:10.5px"></text>
+  <text x="255" y="222" text-anchor="start" style="font-size:10.5px">创造者和时间：没有确证</text>
+  <text x="245" y="270" text-anchor="middle" class="gt" style="font-size:12.5px">“传说很古老”不等于“这个画法是古代原物”</text>
+  <text x="245" y="288" text-anchor="middle" class="sm" style="font-size:10.5px">今天看到的 Śrī Yantra 图，多是后来的画法或数字复原</text>
+  <text x="245" y="304" text-anchor="middle" class="sm" style="font-size:10.5px">据 Chiodo（2021）及其所引 Gupta、Huet、Kulaichev、Padoux；本课没有读这些原著</text>
+</svg>

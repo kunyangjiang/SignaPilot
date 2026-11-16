@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 322" role="img" aria-label="韩愈《李君墓志铭》所记服丹后果的示意图，本课自绘。上面一行：长庆三年（823 年）正月，太学博士李于去世，享年四十八岁；他曾跟随方士柳泌学药法，服后往往下血，约四年后病重而死。下面一排七个小人像，写着归登、李虚中、李逊、李建、孟简、卢坦、李道古，旁边标韩愈说他们是“目见亲与之遊而以药敗者”。底部：这是一位同时代的亲历者的记录，不是现代的医学诊断；具体病因不能仅凭这篇文字判定，但韩愈自己明白地把它们归到“药误”上">
+  <path class="l thin" d="M30 74H460"/>
+  <circle class="gdot" cx="410" cy="74" r="5"/>
+  <text x="410" y="56" text-anchor="middle" class="gt" style="font-size:12px">823 年</text>
+  <text x="410" y="98" text-anchor="middle" class="sm" style="font-size:10.5px">李于卒，年 48</text>
+  <text x="30" y="56" text-anchor="start" style="font-size:11px">约 4 年前：从方士柳泌学“药法”，</text>
+  <text x="30" y="98" text-anchor="start" class="sm" style="font-size:10.5px">服后往往下血，病益急</text>
+  <text x="245" y="142" text-anchor="middle" style="font-size:12px">韩愈接着写他“目见亲与之游，而以药败者六七公”：</text>
+  <g class="l"><circle cx="46" cy="182" r="9"/><path d="M30 220Q31 196 46 194Q61 196 62 220"/></g>
+  <text x="46" y="240" text-anchor="middle" style="font-size:11.5px">归登</text>
+  <g class="l"><circle cx="112" cy="182" r="9"/><path d="M96 220Q97 196 112 194Q127 196 128 220"/></g>
+  <text x="112" y="240" text-anchor="middle" style="font-size:11.5px">李虚中</text>
+  <g class="l"><circle cx="178" cy="182" r="9"/><path d="M162 220Q163 196 178 194Q193 196 194 220"/></g>
+  <text x="178" y="240" text-anchor="middle" style="font-size:11.5px">李逊</text>
+  <g class="l"><circle cx="244" cy="182" r="9"/><path d="M228 220Q229 196 244 194Q259 196 260 220"/></g>
+  <text x="244" y="240" text-anchor="middle" style="font-size:11.5px">李建</text>
+  <g class="l"><circle cx="310" cy="182" r="9"/><path d="M294 220Q295 196 310 194Q325 196 326 220"/></g>
+  <text x="310" y="240" text-anchor="middle" style="font-size:11.5px">孟简</text>
+  <g class="l"><circle cx="376" cy="182" r="9"/><path d="M360 220Q361 196 376 194Q391 196 392 220"/></g>
+  <text x="376" y="240" text-anchor="middle" style="font-size:11.5px">卢坦</text>
+  <g class="l"><circle cx="442" cy="182" r="9"/><path d="M426 220Q427 196 442 194Q457 196 458 220"/></g>
+  <text x="442" y="240" text-anchor="middle" style="font-size:11.5px">李道古</text>
+  <text x="245" y="276" text-anchor="middle" class="gt" style="font-size:12.5px">这是同时代亲历者的记录，不是现代的医学诊断</text>
+  <text x="245" y="294" text-anchor="middle" class="sm" style="font-size:11px">韩愈把他们的死归于“药误”，具体病因不能仅凭这篇文字判定</text>
+  <text x="245" y="310" text-anchor="middle" class="sm" style="font-size:10.5px">据韩愈《故太学博士李君墓志铭》（维基文库录文，含校注）</text>
+</svg>

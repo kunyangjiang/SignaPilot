@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 308" role="img" aria-label="内丹相关文本与读法的时间线，本课自绘，据普雷加迪奥网页导论与对《悟真篇》的介绍，是二手归纳，年份请以原始研究为准。一条横轴。汉代：《周易参同契》，传统上题魏伯阳，是炼丹史上的主要文本，后来内丹的重要来源。约 700 年：现存最早的内丹文本。唐代：教义性的炼丹文本出现。1069 年：张伯端在成都遇真人授诀，据《悟真篇序》。11 世纪：《悟真篇》写成。12 到 13 世纪：南宗北宗的形成与追认。1161 年：叶士表的悟真篇注，1202 年：袁公辅，1335 到 1337 年：翁葆光、戴起宗，1794 年：刘一明。底部：同一部诗，几百年里被不断重新解释">
+  <path class="l" d="M24 150H466"/>
+  <circle class="dotk" cx="40" cy="150" r="4"/>
+  <text x="40" y="120" text-anchor="middle" style="font-size:11.5px">汉代</text>
+  <text x="40" y="135" text-anchor="middle" class="sm" style="font-size:10px">《周易参同契》</text>
+  <circle class="dotk" cx="110" cy="150" r="4"/>
+  <text x="110" y="184" text-anchor="middle" style="font-size:11.5px">约 700</text>
+  <text x="110" y="199" text-anchor="middle" class="sm" style="font-size:10px">最早的内丹文本</text>
+  <circle class="dotk" cx="170" cy="150" r="4"/>
+  <text x="170" y="120" text-anchor="middle" class="gt" style="font-size:11.5px">1069</text>
+  <text x="170" y="135" text-anchor="middle" class="sm" style="font-size:10px">张伯端遇真人</text>
+  <circle class="dotk" cx="225" cy="150" r="4"/>
+  <text x="225" y="184" text-anchor="middle" class="gt" style="font-size:11.5px">11 世纪</text>
+  <text x="225" y="199" text-anchor="middle" class="sm" style="font-size:10px">《悟真篇》</text>
+  <circle class="dotk" cx="290" cy="150" r="4"/>
+  <text x="290" y="120" text-anchor="middle" style="font-size:11.5px">1161</text>
+  <text x="290" y="135" text-anchor="middle" class="sm" style="font-size:10px">叶士表注</text>
+  <circle class="dotk" cx="340" cy="150" r="4"/>
+  <text x="340" y="184" text-anchor="middle" style="font-size:11.5px">1202</text>
+  <text x="340" y="199" text-anchor="middle" class="sm" style="font-size:10px">袁公辅注</text>
+  <circle class="dotk" cx="390" cy="150" r="4"/>
+  <text x="390" y="120" text-anchor="middle" style="font-size:11.5px">1335–37</text>
+  <text x="390" y="135" text-anchor="middle" class="sm" style="font-size:10px">翁葆光、戴起宗</text>
+  <circle class="dotk" cx="445" cy="150" r="4"/>
+  <text x="445" y="184" text-anchor="middle" style="font-size:11.5px">1794</text>
+  <text x="445" y="199" text-anchor="middle" class="sm" style="font-size:10px">刘一明注</text>
+  <path class="l thin" d="M170 196V170" stroke-dasharray="2 3"/>
+  <text x="245" y="262" text-anchor="middle" class="gt" style="font-size:12.5px">同一部诗，几百年里被不断重新解释</text>
+  <text x="245" y="280" text-anchor="middle" class="sm" style="font-size:10.5px">二手归纳：年份据 Pregadio 网页与对《悟真篇》的介绍；本课没有读各家注本</text>
+  <text x="245" y="296" text-anchor="middle" class="sm" style="font-size:10.5px">《悟真篇》的“1075 年序”说法本课没有核对［待核］</text>
+</svg>
