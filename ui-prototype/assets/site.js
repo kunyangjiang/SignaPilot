@@ -404,7 +404,11 @@
   const table = b => `<div class="tblwrap"><table><thead><tr>${b.rows[0].map(c => `<th>${inline(c)}</th>`).join('')}</tr></thead><tbody>${b.rows.slice(1).map(r => `<tr>${r.map(c => `<td>${inline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
   // Figures are original SVG drawings stored next to the manuscript. They are fetched and placed inline rather than
   // shown as <img>, so their lines follow the page's ink colour, day or night, and share its hand-drawn filter.
-  const figure = (b, base = 'content/cases/', no = '') => `<figure class="fig ill" data-src="${base}${esc(b.src)}"><div class="fig-frame"></div>${b.cap ? `<figcaption>${no ? `<b>图 ${no}</b>` : ''}${inline(b.cap)}</figcaption>` : ''}</figure>`;
+  // Real images (public-domain or freely licensed photographs and scans, stored next to the manuscript): a line such as
+  // ![caption](figs/a.jpg;figs/b.jpg) shows one or more images in a row under a single caption that also carries the credit.
+  const isPhoto = src => /\.(jpe?g|png|webp)(\s*;|\s*$)/i.test(src);
+  const photo = (b, base, no) => { const srcs = b.src.split(';').map(x => x.trim()).filter(Boolean); return `<figure class="fig ill photo"><div class="fig-frame" role="img" aria-label="${esc(b.cap)}" style="display:flex;gap:10px;justify-content:center;align-items:flex-start">${srcs.map(x => `<img src="${base}${esc(x)}" alt="" loading="lazy" style="flex:0 1 ${Math.floor(100 / srcs.length) - 2}%;min-width:0;max-width:${srcs.length === 1 ? '420px' : '100%'};height:auto;border:1px solid var(--line);background:var(--bg-2)">`).join('')}</div>${b.cap ? `<figcaption>${no ? `<b>图 ${no}</b>` : ''}${inline(b.cap)}</figcaption>` : ''}</figure>`; };
+  const figure = (b, base = 'content/cases/', no = '') => isPhoto(b.src) ? photo(b, base, no) : `<figure class="fig ill" data-src="${base}${esc(b.src)}"><div class="fig-frame"></div>${b.cap ? `<figcaption>${no ? `<b>图 ${no}</b>` : ''}${inline(b.cap)}</figcaption>` : ''}</figure>`;
   const placeFigures = root => $$('figure.ill[data-src]', root).forEach(f => load(f.dataset.src)
     .then(svg => { if (/^\s*<svg[\s>]/.test(svg)) $('.fig-frame', f).innerHTML = svg; else f.remove(); })
     .catch(() => f.remove()));
