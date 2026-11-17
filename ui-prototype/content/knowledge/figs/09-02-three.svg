@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 300" role="img" aria-label="三种说法的对照：“没有记录所以断了”需要正面证据；“没有记录所以秘密保存”无法检验；“连续尚未确立”由主张的人补证据。">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker><marker id="arg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--gold)"/></marker></defs>
+<text x="20" y="34" text-anchor="start" style="font-size:12.5px">“没有记录，所以断了”</text>
+<path d="M20 66L150 66" class="l"/>
+<path d="M340 66L470 66" class="l"/>
+<path d="M150 66L340 66" class="l" stroke-dasharray="5 5"/>
+<path d="M235 56L255 76" class="l"/>
+<path d="M255 56L235 76" class="l"/>
+<text x="20" y="92" text-anchor="start" class="sm" style="font-size:10px">线在缺口里打了叉；需要正面证据</text>
+<text x="20" y="122" text-anchor="start" style="font-size:12.5px">“没有记录，所以秘密保存”</text>
+<path d="M20 154L150 154" class="l"/>
+<path d="M340 154L470 154" class="l"/>
+<path d="M150 154L340 154" class="l" stroke-dasharray="5 5"/>
+<path d="M215 154a30 20 0 1 1 60 0" class="l" stroke-dasharray="3 3"/>
+<text x="245" y="130" text-anchor="middle" class="sm" style="font-size:12px">↻</text>
+<text x="20" y="180" text-anchor="start" class="sm" style="font-size:10px">线在缺口里是虚线，绕一个圈；有证据证明它，没证据也证明它：无法检验</text>
+<text x="20" y="210" text-anchor="start" class="gt" style="font-size:12.5px">“连续，尚未确立”</text>
+<path d="M20 242L150 242" class="l"/>
+<path d="M340 242L470 242" class="l"/>
+<path d="M150 242L340 242" class="gl" stroke-dasharray="5 5"/>
+<circle cx="245" cy="242" r="11" class="gl"/>
+<text x="245" y="247" text-anchor="middle" class="gt" style="font-size:14px">?</text>
+<text x="20" y="268" text-anchor="start" class="sm" style="font-size:10px">缺口处接一个问号；要主张的人补证据；证据来了，可以改</text>
+</svg>

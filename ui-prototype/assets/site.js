@@ -407,7 +407,7 @@
   // Real images (public-domain or freely licensed photographs and scans, stored next to the manuscript): a line such as
   // ![caption](figs/a.jpg;figs/b.jpg) shows one or more images in a row under a single caption that also carries the credit.
   const isPhoto = src => /\.(jpe?g|png|webp)(\s*;|\s*$)/i.test(src);
-  const photo = (b, base, no) => { const srcs = b.src.split(';').map(x => x.trim()).filter(Boolean); return `<figure class="fig ill photo"><div class="fig-frame" role="img" aria-label="${esc(b.cap)}" style="display:flex;gap:10px;justify-content:center;align-items:flex-start">${srcs.map(x => `<img src="${base}${esc(x)}" alt="" loading="lazy" style="flex:0 1 ${Math.floor(100 / srcs.length) - 2}%;min-width:0;max-width:${srcs.length === 1 ? '420px' : '100%'};height:auto;border:1px solid var(--line);background:var(--bg-2)">`).join('')}</div>${b.cap ? `<figcaption>${no ? `<b>图 ${no}</b>` : ''}${inline(b.cap)}</figcaption>` : ''}</figure>`; };
+  const photo = (b, base, no) => { const srcs = b.src.split(';').map(x => x.trim()).filter(Boolean); return `<figure class="fig ill photo"><div class="fig-frame" role="img" aria-label="${esc(b.cap.replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/\*+/g, ''))}" style="display:flex;gap:10px;justify-content:center;align-items:flex-start">${srcs.map(x => `<img src="${base}${esc(x)}" alt="" loading="lazy" style="flex:0 1 ${Math.floor(100 / srcs.length) - 2}%;min-width:0;max-width:${srcs.length === 1 ? '420px' : '100%'};height:auto;border:1px solid var(--line);background:var(--bg-2)">`).join('')}</div>${b.cap ? `<figcaption>${no ? `<b>图 ${no}</b>` : ''}${inline(b.cap)}</figcaption>` : ''}</figure>`; };
   const figure = (b, base = 'content/cases/', no = '') => isPhoto(b.src) ? photo(b, base, no) : `<figure class="fig ill" data-src="${base}${esc(b.src)}"><div class="fig-frame"></div>${b.cap ? `<figcaption>${no ? `<b>图 ${no}</b>` : ''}${inline(b.cap)}</figcaption>` : ''}</figure>`;
   const placeFigures = root => $$('figure.ill[data-src]', root).forEach(f => load(f.dataset.src)
     .then(svg => { if (/^\s*<svg[\s>]/.test(svg)) $('.fig-frame', f).innerHTML = svg; else f.remove(); })
@@ -522,6 +522,10 @@
     '08-06': { src: 'content/knowledge/08-06.md', state: 'done' },
     '08-07': { src: 'content/knowledge/08-07.md', state: 'done' },
     '09-01': { src: 'content/knowledge/09-01.md', state: 'done' },
+    '09-02': { src: 'content/knowledge/09-02.md', state: 'done' },
+    '09-03': { src: 'content/knowledge/09-03.md', state: 'done' },
+    '09-04': { src: 'content/knowledge/09-04.md', state: 'done' },
+    '09-05': { src: 'content/knowledge/09-05.md', state: 'done' },
   };
   const K_STATE = { done: '已完成', draft: '初稿 · 待审读' };
   // A course manuscript: "# 标题", an optional "> 初稿…" status line, a lead paragraph, "**…**" question lines,
@@ -645,6 +649,35 @@
     set(0);
   }
   const radioRow = (cls, label, names) => `<div class="${cls} wpick" role="radiogroup" aria-label="${esc(label)}">${names.map((n, k) => `<button type="button" role="radio" aria-checked="${k === 0}" tabindex="${k === 0 ? 0 : -1}">${esc(n)}</button>`).join('')}</div>`;
+  // helpers for the Stage 09 widgets (see "rules", "decide" and "chain" in W)
+  const KZ_RULES = [
+    { name: '罗马数字（U 当 V）', f: s => [...s.replace(/U/g, 'V')].reduce((a, c) => a + ({ I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 }[c] || 0), 0) },
+    { name: '罗马数字（U 不计）', f: s => [...s].reduce((a, c) => a + ({ I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 }[c] || 0), 0) },
+    { name: '字母序号 A=1…Z=26', f: s => [...s].reduce((a, c) => a + (/[A-Z]/.test(c) ? c.charCodeAt(0) - 64 : 0), 0) },
+    { name: '倒序 A=26…Z=1', f: s => [...s].reduce((a, c) => a + (/[A-Z]/.test(c) ? 91 - c.charCodeAt(0) : 0), 0) },
+  ];
+    const kzDeckHtml = d => `${d.intro ? `<div class="kz-sec"><p>${inline(d.intro)}</p></div>` : ''}${d.items.map((it, i) => `<div class="kz-it" data-i="${i}"><div class="kz-sec"><p class="kz-q"><b>${i + 1}</b>${inline(it.q)}</p>${it.ctx ? `<p class="kz-ctx">${inline(it.ctx)}</p>` : ''}<div class="kz-opts" role="group" aria-label="第 ${i + 1} 项的选项">${it.opts.map((o, k) => `<button type="button" class="kz-btn" data-o="${k}" aria-pressed="false">${esc(o.t)}</button>`).join('')}</div><div class="kz-fb" aria-live="polite"></div></div></div>`).join('')}`;
+  // each item shows its options; choosing one shows the reason. A deck whose options carry ok: true/false is graded.
+  function kzDeckWire(root, d, onChange) {
+    const pick = d.items.map(() => -1);
+    const graded = it => it.opts.some(o => typeof o.ok === 'boolean');
+    const report = () => {
+      const done = pick.filter(x => x >= 0).length;
+      const good = d.items.some(graded) ? d.items.reduce((a, it, i) => a + (graded(it) && pick[i] >= 0 && it.opts[pick[i]].ok ? 1 : 0), 0) : null;
+      onChange(done, d.items.length, good);
+    };
+    $$('.kz-it', root).forEach((el, i) => {
+      const it = d.items[i], fb = $('.kz-fb', el), bs = $$('.kz-opts .kz-btn', el);
+      bs.forEach((b, k) => b.addEventListener('click', () => {
+        pick[i] = k; bs.forEach((x, j) => x.setAttribute('aria-pressed', j === k));
+        const o = it.opts[k];
+        if (graded(it)) fb.innerHTML = `<p class="kz-v ${o.ok ? 'ok' : 'no'}">${o.ok ? '较合理' : '不太合理'}</p><p>${inline(o.fb)}</p>${o.ok ? '' : `<p><span class="label">较合理的是</span>${it.opts.filter(x => x.ok).map(x => esc(x.t)).join('；')}</p>`}`;
+        else fb.innerHTML = `<p><span class="label">这样做，会怎样</span>${inline(o.fb)}</p>`;
+        report();
+      }));
+    });
+    report();
+  }
   const W = {
     'context-shift': { html: ctxHtml, wire: ctxWire },
     'system-shift': {
@@ -1150,7 +1183,7 @@
           <div class="nf-top"><span class="label">第 <b class="nf-at">1</b> / ${w.items.length} 条</span><span class="nf-dots">${w.items.map((_, k) => `<button type="button" data-k="${k}" aria-label="第 ${k + 1} 条"></button>`).join('')}</span></div>
           <blockquote class="nf-text"></blockquote>
           <p class="nf-src"></p>
-          <div class="nf-kinds" role="group" aria-label="选择推理的种类">${w.kinds.map(c => `<button type="button" data-id="${esc(c.id)}"><b>${esc(c.name)}</b><span>${esc(c.hint)}</span></button>`).join('')}</div>
+          <div class="nf-kinds" role="group" aria-label="${esc((w.words || {}).group || '选择推理的种类')}">${w.kinds.map(c => `<button type="button" data-id="${esc(c.id)}"><b>${esc(c.name)}</b><span>${esc(c.hint)}</span></button>`).join('')}</div>
           <div class="nf-out" aria-live="polite"></div>
           <div class="nf-nav"><button type="button" class="nf-prev">上一条</button><span class="nf-score"></span><button type="button" class="nf-next">下一条</button></div>
         </div>
@@ -1164,18 +1197,18 @@
           const it = w.items[at], got = picked[at];
           $('.nf-at', fig).textContent = at + 1;
           $('.nf-text', fig).textContent = it.text;
-          $('.nf-src', fig).textContent = `出处：${it.src}`;
+          $('.nf-src', fig).textContent = `${(w.words || {}).src || '出处'}：${it.src}`;
           kinds.forEach(b => {
             const id = b.dataset.id;
             b.disabled = got !== null;
             b.className = got === null ? '' : it.ok.includes(id) ? 'ok' : id === got ? 'no' : '';
             b.setAttribute('aria-pressed', id === got);
           });
-          $('.nf-out', fig).innerHTML = got === null ? '' : `<p class="nf-verdict ${it.ok.includes(got) ? 'ok' : 'no'}">${it.ok.includes(got) ? '对了' : '不太对'}：这一条主要是${it.ok.map(name).join(' + ')}。</p>
-            <p><span class="label">为什么</span>${inline(it.why)}</p><p><span class="label">怎样检验</span>${inline(it.test)}</p>`;
+          $('.nf-out', fig).innerHTML = got === null ? '' : `<p class="nf-verdict ${it.ok.includes(got) ? 'ok' : 'no'}">${it.ok.includes(got) ? ((w.words || {}).right || '对了') : ((w.words || {}).wrong || '不太对')}：${(w.words || {}).main || '这一条主要是'}${it.ok.map(name).join(' + ')}。</p>
+            <p><span class="label">为什么</span>${inline(it.why)}</p><p><span class="label">${(w.words || {}).test || '怎样检验'}</span>${inline(it.test)}</p>`;
           dots.forEach((d, k) => { d.className = k === at ? 'at' : picked[k] === null ? '' : w.items[k].ok.includes(picked[k]) ? 'ok' : 'no'; });
           const done = picked.filter(x => x !== null).length, right = picked.filter((x, k) => x !== null && w.items[k].ok.includes(x)).length;
-          $('.nf-score', fig).textContent = done ? `已答 ${done} 条，对 ${right} 条` : '';
+          $('.nf-score', fig).textContent = done ? `已答 ${done} 条，${(w.words || {}).score || '对'} ${right} 条` : '';
           $('.nf-prev', fig).disabled = at === 0;
           $('.nf-next', fig).disabled = at === w.items.length - 1;
         };
@@ -1542,6 +1575,87 @@
           else if (focus === 'let') { const b = $('.ms-let', body); if (b) b.focus(); }
         };
         radios($('.ms-pick', fig), k => { cur = k; grid = w.cases[k].grid.map(r => r.slice()); sel = null; lit = -1; letters = false; draw(); });
+      },
+    },
+    // Stage 09 (09-03, 09-04, 09-05). Three small widgets that share one look (styles added once, below).
+    //  "rules" (09-03): a short word list, four ways of turning letters into numbers, one target. The reader declares one
+    //    rule (or tries them all after the fact) and sees how many combinations were checked and how many matched; the
+    //    unmatched ones can be hidden, as reports usually do. Counts are exact arithmetic on the list, never odds.
+    //    w: { caption, words: [..], mark?: "phrase to tag", maxK? }
+    //  "decide" (09-04): research decisions, one card each. Choosing an option shows what it gains and what it risks;
+    //    no option is marked right, because the case does not have one universal answer.
+    //    w: { caption, steps: [{ q, ctx, opts: [{ t, fb }] }], end }
+    //  "chain" (09-05): an investigation in three decks (classify the evidence, judge each link, state a conclusion).
+    //    Graded options carry ok: true/false and a reason; the last deck lists what new evidence would change.
+    //    w: { caption, decks: [{ tab, intro, items: [{ q, ctx, opts: [{ t, ok, fb }] }], after? }] }
+    rules: {
+      html: (w, no) => {
+        return `<figure class="fig kz kz-ru" data-widget="${no}">
+        <div class="fig-frame">
+          <div class="kz-sec"><span class="label">规则：怎样把字母变成数</span></div>${radioRow('kz-r-rule', '选择规则', KZ_RULES.map(r => r.name).concat(['事后择优：四条都试，哪条中就用哪条']))}
+          <div class="kz-sec"><span class="label">目标数</span></div>${radioRow('kz-r-tgt', '选择目标数', ['666', '616', '666 或 616'])}
+          <div class="kz-sec"><span class="label">每个短语用几个词（不计词序）</span></div>${radioRow('kz-r-k', '选择词数', [1, 2, 3, 4, 5, 6].map(String))}
+          <div class="kz-sec"><button type="button" class="kz-btn kz-hide" aria-pressed="false">只报命中，不报试了多少次</button></div>
+          <div class="kz-out" aria-live="polite"></div>
+          <div class="kz-sec"><span class="label">自己拼一个短语</span></div>
+          <div class="kz-sec kz-chips" role="group" aria-label="选词">${w.words.map((x, i) => `<button type="button" class="kz-btn" data-w="${i}" aria-pressed="false">${esc(x)}</button>`).join('')}</div>
+          <div class="kz-own" aria-live="polite"></div>
+        </div>
+        <figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`;
+      },
+      wire(fig, w) {
+        const words = w.words.map(x => x.toUpperCase());
+        const val = KZ_RULES.map(r => words.map(x => r.f(x)));
+        const choose = (n, k) => { let a = 1; for (let i = 0; i < k; i++) a = a * (n - i) / (i + 1); return Math.round(a); };
+        let rule = 0, tgt = 0, k = 1, hide = false;
+        const T = () => [[666], [616], [666, 616]][tgt];
+        const out = $('.kz-out', fig);
+        const run = () => {
+          const rs = rule < KZ_RULES.length ? [rule] : KZ_RULES.map((_, i) => i), ts = T(), hits = [];
+          let total = 0;
+          const n = words.length, idx = [];
+          const rec = (start, left) => {
+            if (!left) {
+              rs.forEach(r => { const v = idx.reduce((a, i) => a + val[r][i], 0); total += ts.length; if (ts.includes(v)) hits.push({ ph: idx.map(i => words[i]).join(' '), r, v }); });
+              return;
+            }
+            for (let i = start; i <= n - left; i++) { idx.push(i); rec(i + 1, left - 1); idx.pop(); }
+          };
+          rec(0, k);
+          const N = choose(n, k);
+          const list = hits.slice(0, 12).map(h => `<li><b>${esc(h.ph)}</b><span>${esc(KZ_RULES[h.r].name)}，合计 ${h.v}${w.mark && h.ph === w.mark.toUpperCase() ? '　← 1612 年那一条' : ''}</span></li>`).join('');
+          const more = hits.length > 12 ? `<li class="kz-more">……另有 ${hits.length - 12} 个</li>` : '';
+          out.innerHTML = (hide ? '' : `<p>词表里有 ${n} 个词。每个短语取 ${k} 个，共有 <b>${N.toLocaleString('en')}</b> 个候选短语。核对次数：${N.toLocaleString('en')} 个短语 × ${rs.length} 条规则 × ${ts.length} 个目标数 ＝ <b>${total.toLocaleString('en')}</b> 次。</p>`)
+            + `<p>${hide ? '命中' : '其中命中'} <b>${hits.length}</b> ${hide ? '个' : '次'}${!hide && rs.length > 1 ? `（按“短语 × 规则”计；其中不同的短语 ${new Set(hits.map(h => h.ph)).size} 个）` : ''}。</p>`
+            + (hits.length ? `<ul class="kz-hits">${list}${more}</ul>` : '<p class="kz-none">一个也没有。</p>')
+            + `<p class="kz-note">${hide ? '这一页没有告诉你：试了多少次，其余的都去了哪里。读报告时，要问这一问。' : (rule < KZ_RULES.length ? '规则是先声明的，只此一条。' : '规则是事后挑的：同一个短语，换一条规则，可以从没中变成中；上面的次数，已经把“换规则”的自由算进去了。')}</p>`;
+        };
+        const own = () => {
+          const pick = $$('.kz-chips [aria-pressed=true]', fig).map(b => +b.dataset.w);
+          const ph = pick.map(i => words[i]).join(' ');
+          $('.kz-own', fig).innerHTML = pick.length ? `<div class="kz-sec"><p class="kz-ph">${esc(ph)}</p><ul class="kz-vals">${KZ_RULES.map((r, ri) => { const v = pick.reduce((a, i) => a + val[ri][i], 0); return `<li class="${T().includes(v) ? 'hit' : ''}"><span>${esc(r.name)}</span><b>${v}</b><i>${T().includes(v) ? '命中' : ''}</i></li>`; }).join('')}</ul></div>` : '<div class="kz-sec"><p class="kz-note">点上面的词，拼成一个短语，看它在四条规则下各是多少。</p></div>';
+        };
+        radios($('.kz-r-rule', fig), i => { rule = i; run(); own(); });
+        radios($('.kz-r-tgt', fig), i => { tgt = i; run(); own(); });
+        radios($('.kz-r-k', fig), i => { k = i + 1; run(); });
+        $('.kz-hide', fig).addEventListener('click', e => { hide = !hide; e.currentTarget.setAttribute('aria-pressed', hide); e.currentTarget.textContent = hide ? '现在只报命中；点一下，恢复完整报告' : '只报命中，不报试了多少次'; run(); });
+        $$('.kz-chips button', fig).forEach(b => b.addEventListener('click', () => { b.setAttribute('aria-pressed', b.getAttribute('aria-pressed') !== 'true'); own(); }));
+        run(); own();
+      },
+    },
+    decide: {
+      html: (w, no) => { return `<figure class="fig kz kz-de" data-widget="${no}"><div class="fig-frame">${kzDeckHtml({ items: w.steps, intro: w.intro })}<div class="kz-end" aria-live="polite"></div></div><figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`; },
+      wire(fig, w) { kzDeckWire(fig, { items: w.steps }, (done, all) => { $('.kz-end', fig).innerHTML = done === all ? `<div class="kz-sec"><p>${inline(w.end)}</p></div>` : `<div class="kz-sec"><p class="kz-note">已做 ${done} / ${all} 个决定。</p></div>`; }); },
+    },
+    chain: {
+      html: (w, no) => { return `<figure class="fig kz kz-ch" data-widget="${no}"><div class="fig-frame">${radioRow('kz-c-tab', '调查的三步', w.decks.map(d => d.tab))}${w.decks.map((d, i) => `<div class="kz-deck" data-d="${i}"${i ? ' hidden' : ''}>${kzDeckHtml(d)}<div class="kz-after" aria-live="polite"></div></div>`).join('')}</div><figcaption><b>图 ${no}</b>${inline(w.caption)}</figcaption></figure>`; },
+      wire(fig, w) {
+        const decks = $$('.kz-deck', fig);
+        radios($('.kz-c-tab', fig), i => decks.forEach((d, j) => { d.hidden = i !== j; }));
+        decks.forEach((el, i) => kzDeckWire(el, w.decks[i], (done, all, good) => {
+          const d = w.decks[i];
+          $('.kz-after', el).innerHTML = `<div class="kz-sec"><p class="kz-note">${done ? `已答 ${done} / ${all}${good !== null ? `，较合理的 ${good} 个` : ''}。` : ''}</p>${d.after && done === all ? `<div class="kz-aft">${d.after.split('\n').map(x => `<p>${inline(x)}</p>`).join('')}</div>` : ''}</div>`;
+        }));
       },
     },
   };

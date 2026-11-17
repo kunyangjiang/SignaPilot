@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-label="Strehlow 收藏的时间线：1932–33 托付；1947 与 1971 出版；1977 质问；1978 年 8 月杂志刊登，10 月 3 日去世；1984 联邦法；1986 协议；1988 研究中心法；1991 开幕；1992 拍卖与扣押；2023 数码工作室。上方金色是研究者与出版，下方灰色是机构与法律。">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker><marker id="arg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--gold)"/></marker></defs>
+<path d="M20 150L500 150" class="l"/>
+<circle cx="36.0" cy="150" r="4" class="gl"/>
+<path d="M36.0 150L36.0 100" class="l" stroke-dasharray="2 3"/>
+<text x="36.0" y="88" text-anchor="middle" class="gt" style="font-size:9.5px">1932–33</text>
+<text x="36.0" y="104" text-anchor="middle" class="sm" style="font-size:8.6px">托付</text>
+<circle cx="76.72727272727272" cy="150" r="4" class="gl"/>
+<path d="M76.72727272727272 150L76.72727272727272 194" class="l" stroke-dasharray="2 3"/>
+<text x="76.72727272727272" y="208" text-anchor="middle" class="gt" style="font-size:9.5px">1947</text>
+<text x="76.72727272727272" y="222" text-anchor="middle" class="sm" style="font-size:8.6px">《阿兰达传说》</text>
+<circle cx="117.45454545454545" cy="150" r="4" class="gl"/>
+<path d="M117.45454545454545 150L117.45454545454545 100" class="l" stroke-dasharray="2 3"/>
+<text x="117.45454545454545" y="88" text-anchor="middle" class="gt" style="font-size:9.5px">1971</text>
+<text x="117.45454545454545" y="104" text-anchor="middle" class="sm" style="font-size:8.6px">《歌》</text>
+<circle cx="158.1818181818182" cy="150" r="4" class="gl"/>
+<path d="M158.1818181818182 150L158.1818181818182 194" class="l" stroke-dasharray="2 3"/>
+<text x="158.1818181818182" y="208" text-anchor="middle" class="gt" style="font-size:9.5px">1977</text>
+<text x="158.1818181818182" y="222" text-anchor="middle" class="sm" style="font-size:8.6px">CLC 质问</text>
+<circle cx="198.9090909090909" cy="150" r="4" class="gl"/>
+<path d="M198.9090909090909 150L198.9090909090909 100" class="l" stroke-dasharray="2 3"/>
+<text x="198.9090909090909" y="88" text-anchor="middle" class="gt" style="font-size:9.5px">1978.8</text>
+<text x="198.9090909090909" y="104" text-anchor="middle" class="sm" style="font-size:8.6px">杂志刊登</text>
+<circle cx="239.63636363636363" cy="150" r="4" class="gl"/>
+<path d="M239.63636363636363 150L239.63636363636363 194" class="l" stroke-dasharray="2 3"/>
+<text x="239.63636363636363" y="208" text-anchor="middle" class="gt" style="font-size:9.5px">1978.10</text>
+<text x="239.63636363636363" y="222" text-anchor="middle" class="sm" style="font-size:8.6px">去世</text>
+<circle cx="280.3636363636364" cy="150" r="4" class="l"/>
+<path d="M280.3636363636364 150L280.3636363636364 100" class="l" stroke-dasharray="2 3"/>
+<text x="280.3636363636364" y="88" text-anchor="middle" style="font-size:9.5px">1984</text>
+<text x="280.3636363636364" y="104" text-anchor="middle" class="sm" style="font-size:8.6px">联邦法</text>
+<circle cx="321.09090909090907" cy="150" r="4" class="l"/>
+<path d="M321.09090909090907 150L321.09090909090907 194" class="l" stroke-dasharray="2 3"/>
+<text x="321.09090909090907" y="208" text-anchor="middle" style="font-size:9.5px">1986</text>
+<text x="321.09090909090907" y="222" text-anchor="middle" class="sm" style="font-size:8.6px">北领地协议</text>
+<circle cx="361.8181818181818" cy="150" r="4" class="l"/>
+<path d="M361.8181818181818 150L361.8181818181818 100" class="l" stroke-dasharray="2 3"/>
+<text x="361.8181818181818" y="88" text-anchor="middle" style="font-size:9.5px">1988</text>
+<text x="361.8181818181818" y="104" text-anchor="middle" class="sm" style="font-size:8.6px">研究中心法</text>
+<circle cx="402.54545454545456" cy="150" r="4" class="l"/>
+<path d="M402.54545454545456 150L402.54545454545456 194" class="l" stroke-dasharray="2 3"/>
+<text x="402.54545454545456" y="208" text-anchor="middle" style="font-size:9.5px">1991</text>
+<text x="402.54545454545456" y="222" text-anchor="middle" class="sm" style="font-size:8.6px">中心开幕</text>
+<circle cx="443.27272727272725" cy="150" r="4" class="l"/>
+<path d="M443.27272727272725 150L443.27272727272725 100" class="l" stroke-dasharray="2 3"/>
+<text x="443.27272727272725" y="88" text-anchor="middle" style="font-size:9.5px">1992</text>
+<text x="443.27272727272725" y="104" text-anchor="middle" class="sm" style="font-size:8.6px">拍卖·扣押</text>
+<circle cx="484.0" cy="150" r="4" class="l"/>
+<path d="M484.0 150L484.0 194" class="l" stroke-dasharray="2 3"/>
+<text x="484.0" y="208" text-anchor="middle" style="font-size:9.5px">2023</text>
+<text x="484.0" y="222" text-anchor="middle" class="sm" style="font-size:8.6px">数码工作室</text>
+<text x="260" y="30" text-anchor="middle" class="sm" style="font-size:10.5px">金色：研究者与出版　灰色：机构与法律</text>
+<text x="260" y="280" text-anchor="middle" class="sm" style="font-size:11px">同一批材料，在不同的时代，被问的是不同的问题</text>
+</svg>

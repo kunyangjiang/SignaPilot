@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 340" role="img" aria-label="调查结果的三个篮子：几何图形各处出现，装饰性物件（实线），与名字护符之间有约一千年的缺口（断开），名字护符到社区标志（虚线，有道理但没有定论），社区标志到运动旗再到国旗（实线）；另有一支强制标记；下面三个没有证据的说法：三千年连续、大卫的盾、同源于印度。">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker><marker id="arg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--gold)"/></marker></defs>
+<rect x="17" y="70" width="62" height="52" rx="4" class="l" />
+<text x="48" y="93" text-anchor="middle" style="font-size:9.8px">几何图形</text>
+<text x="48" y="110" text-anchor="middle" class="sm" style="font-size:7.8px">各处出现</text>
+<rect x="97" y="70" width="62" height="52" rx="4" class="l" />
+<text x="128" y="93" text-anchor="middle" style="font-size:9.8px">装饰物件</text>
+<text x="128" y="110" text-anchor="middle" class="sm" style="font-size:7.8px">印章·石刻·抄本</text>
+<rect x="177" y="70" width="62" height="52" rx="4" class="l" />
+<text x="208" y="93" text-anchor="middle" style="font-size:9.8px">名字与护符</text>
+<text x="208" y="110" text-anchor="middle" class="sm" style="font-size:7.8px">12–14 世纪</text>
+<rect x="257" y="70" width="62" height="52" rx="4" class="l" />
+<text x="288" y="93" text-anchor="middle" style="font-size:9.8px">社区标志</text>
+<text x="288" y="110" text-anchor="middle" class="sm" style="font-size:7.8px">14 世纪起</text>
+<rect x="337" y="70" width="62" height="52" rx="4" class="l" />
+<text x="368" y="93" text-anchor="middle" style="font-size:9.8px">运动的旗</text>
+<text x="368" y="110" text-anchor="middle" class="sm" style="font-size:7.8px">1897 起</text>
+<rect x="417" y="70" width="62" height="52" rx="4" class="l" />
+<text x="448" y="93" text-anchor="middle" style="font-size:9.8px">国家的旗</text>
+<text x="448" y="110" text-anchor="middle" class="sm" style="font-size:7.8px">1948</text>
+<path d="M79 96L97 96" class="gl" marker-end="url(#arg)"/>
+<path d="M159 96L162 96" class="l"/>
+<text x="168.0" y="92" text-anchor="middle" class="sm" style="font-size:10px">✕</text>
+<path d="M239 96L257 96" class="l" stroke-dasharray="4 3" marker-end="url(#ar)"/>
+<path d="M319 96L337 96" class="gl" marker-end="url(#arg)"/>
+<path d="M399 96L417 96" class="gl" marker-end="url(#arg)"/>
+<path d="M368 122v46" class="gl" marker-end="url(#arg)"/>
+<rect x="332" y="170" width="72" height="44" rx="4" class="l" />
+<text x="368" y="190" text-anchor="middle" style="font-size:10.5px">强制标记</text>
+<text x="368" y="206" text-anchor="middle" class="sm" style="font-size:8.5px">1939–1941</text>
+<text x="245" y="36" text-anchor="middle" class="sm" style="font-size:10.5px">实线：有文献或实物证据　虚线：有道理，没有定论　✕：缺口</text>
+<text x="168" y="142" text-anchor="middle" class="sm" style="font-size:8.5px">约一千年缺口</text>
+<rect x="20" y="250" width="145" height="40" rx="4" class="l" stroke-dasharray="3 3" />
+<text x="92" y="275" text-anchor="middle" class="sm" style="font-size:9.5px">“三千年连续的犹太专有符号”</text>
+<rect x="175" y="250" width="145" height="40" rx="4" class="l" stroke-dasharray="3 3" />
+<text x="247" y="275" text-anchor="middle" class="sm" style="font-size:9.5px">“大卫王盾牌的形状”</text>
+<rect x="330" y="250" width="145" height="40" rx="4" class="l" stroke-dasharray="3 3" />
+<text x="402" y="275" text-anchor="middle" class="sm" style="font-size:9.5px">“与印度同源”</text>
+<text x="245" y="240" text-anchor="middle" class="gt" style="font-size:11px">没有证据支持的说法</text>
+<text x="245" y="322" text-anchor="middle" class="sm" style="font-size:11px">实线只覆盖了一部分；其余的，要写成“不知道”</text>
+</svg>

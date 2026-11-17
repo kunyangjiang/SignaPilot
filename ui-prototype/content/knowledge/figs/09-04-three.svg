@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="法律要求、伦理考虑、具体社群的要求三个相互交叠但不重合的圆；三者可以一致，也可以不一致，要分开来问。只有法律的例子：合同说谁拥有物件；只有伦理的例子：不引用未经同意的私人信件；只有社群要求的例子：某类仪式不可被外人观看。">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker><marker id="arg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--gold)"/></marker></defs>
+<circle cx="195" cy="125" r="72" class="l"/>
+<circle cx="295" cy="125" r="72" class="l"/>
+<circle cx="245" cy="200" r="72" class="gl"/>
+<text x="120" y="28" text-anchor="middle" style="font-size:13px">法律要求</text>
+<text x="120" y="46" text-anchor="middle" class="sm" style="font-size:9.5px">例：合同说谁拥有物件</text>
+<text x="372" y="28" text-anchor="middle" style="font-size:13px">伦理考虑</text>
+<text x="372" y="46" text-anchor="middle" class="sm" style="font-size:9.5px">例：不引用未经同意的私信</text>
+<text x="245" y="306" text-anchor="middle" class="gt" style="font-size:13px">具体社群的要求</text>
+<text x="245" y="324" text-anchor="middle" class="sm" style="font-size:9.5px">例：某类仪式不可被外人观看</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 300" role="img" aria-label="六种连续的对照：形状的留存、名字的留存、解释的连续、做法的连续、机构的连续、有意的重建；六种之间不互相保证。">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker><marker id="arg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--gold)"/></marker></defs>
+<rect x="15" y="20" width="145" height="95" rx="4" class="l" />
+<text x="87" y="46" text-anchor="middle" style="font-size:13px">形状的留存</text>
+<text x="87" y="72" text-anchor="middle" class="sm" style="font-size:10.5px">石圈这种样子，</text>
+<text x="87" y="88" text-anchor="middle" class="sm" style="font-size:10.5px">今天还有人在建</text>
+<rect x="170" y="20" width="145" height="95" rx="4" class="l" />
+<text x="242" y="46" text-anchor="middle" style="font-size:13px">名字的留存</text>
+<text x="242" y="72" text-anchor="middle" class="sm" style="font-size:10.5px">“德鲁伊”这个词，</text>
+<text x="242" y="88" text-anchor="middle" class="sm" style="font-size:10.5px">一直有人在写</text>
+<rect x="325" y="20" width="145" height="95" rx="4" class="l" />
+<text x="397" y="46" text-anchor="middle" style="font-size:13px">解释的连续</text>
+<text x="397" y="72" text-anchor="middle" class="sm" style="font-size:10.5px">同一种说法，</text>
+<text x="397" y="88" text-anchor="middle" class="sm" style="font-size:10.5px">一代代传下来</text>
+<rect x="15" y="135" width="145" height="95" rx="4" class="l" />
+<text x="87" y="161" text-anchor="middle" style="font-size:13px">做法的连续</text>
+<text x="87" y="187" text-anchor="middle" class="sm" style="font-size:10.5px">同一套动作，</text>
+<text x="87" y="203" text-anchor="middle" class="sm" style="font-size:10.5px">一代代有人在做</text>
+<rect x="170" y="135" width="145" height="95" rx="4" class="l" />
+<text x="242" y="161" text-anchor="middle" style="font-size:13px">机构的连续</text>
+<text x="242" y="187" text-anchor="middle" class="sm" style="font-size:10.5px">同一个组织，</text>
+<text x="242" y="203" text-anchor="middle" class="sm" style="font-size:10.5px">成员接成一条线</text>
+<rect x="325" y="135" width="145" height="95" rx="4" class="gl" />
+<text x="397" y="161" text-anchor="middle" class="gt" style="font-size:13px">有意的重建</text>
+<text x="397" y="187" text-anchor="middle" class="sm" style="font-size:10.5px">读了古书，</text>
+<text x="397" y="203" text-anchor="middle" class="sm" style="font-size:10.5px">设计一套新的做法</text>
+<text x="245" y="260" text-anchor="middle" class="gt" style="font-size:13px">六种之间，不互相保证</text>
+<text x="245" y="282" text-anchor="middle" class="sm" style="font-size:11px">先问：我说的“连续”，是哪一种</text>
+</svg>

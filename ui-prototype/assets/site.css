@@ -1332,3 +1332,22 @@ html.day .rd-segs li.off { opacity: .5; }
 html.day .btt:hover, html.day .btt.is-hint, html.day .btt.is-dragging, html.day .btt-label, html.day .to-back:hover, html.day .resume-note button, html.day .rail a.on { color: var(--bg); }
 html.day .ev-id { color: #6b5017; }
 html.day .top nav a.on small, html.day .top nav a:hover small, html.day .cy-grid li.now { color: #6b5017; }
+
+/* Stage 09 widgets (09-03 "rules", 09-04 "decide", 09-05 "chain"): one shared look, all selectors start with .kz */
+.kz .kz-sec { padding: 14px 26px 0; } .kz .kz-sec .label { display: block; margin: 0 0 4px; } .kz .kz-sec p { margin: 0 0 8px; font-size: 14.5px; line-height: 1.75; color: var(--ink-2); }
+.kz .kz-sec + .wpick, .kz .wpick + .kz-sec { padding-top: 8px; } .kz .kz-sec:first-child { padding-top: 16px; } .kz-ru .kz-r-rule + .kz-sec { padding-top: 16px; }
+.kz-btn { padding: 6px 12px; min-height: 34px; border: 1px solid var(--line-2); border-radius: 999px; background: none; color: var(--ink-2); font: inherit; font-size: 14px; line-height: 1.4; cursor: pointer; text-align: left; transition: border-color .2s, background .2s; }
+.kz-btn:hover { border-color: var(--gold); } .kz-btn[aria-pressed="true"] { color: var(--ink); border-color: var(--gold); background: color-mix(in srgb, var(--gold) 14%, transparent); }
+.kz-chips { display: flex; flex-wrap: wrap; gap: 6px; } .kz-chips .kz-btn { padding: 3px 10px; min-height: 30px; font-size: 13px; font-family: var(--f-lat); }
+.kz-out { padding: 14px 26px 0; } .kz-out p, .kz-own p { margin: 0 0 8px; font-size: 14.5px; line-height: 1.75; color: var(--ink-2); } .kz-out b { color: var(--ink); font-weight: 600; }
+.kz-hits { list-style: none; margin: 0 0 8px; padding: 0; } .kz-hits li { display: flex; flex-wrap: wrap; gap: 4px 14px; padding: 5px 0; border-top: 1px solid var(--line); font-size: 14px; } .kz-hits li b { font-family: var(--f-lat); font-size: 15px; letter-spacing: .02em; } .kz-hits li span { color: var(--ink-3); font-size: 13px; } .kz-more { color: var(--ink-3); }
+.kz-note { font-size: 13.5px !important; color: var(--ink-3) !important; } .kz-none { color: var(--ink-3) !important; }
+.kz-own { padding-bottom: 18px; } .kz-ph { font-family: var(--f-lat); font-size: 16px !important; color: var(--ink) !important; }
+.kz-vals { list-style: none; margin: 0; padding: 0; } .kz-vals li { display: grid; grid-template-columns: 1fr 64px 48px; gap: 8px; align-items: baseline; padding: 5px 0; border-top: 1px solid var(--line); font-size: 14px; color: var(--ink-2); } .kz-vals b { text-align: right; color: var(--ink); } .kz-vals i { font-style: normal; color: var(--gold); font-size: 12.5px; } .kz-vals li.hit { background: color-mix(in srgb, var(--gold) 10%, transparent); }
+.kz-it { border-top: 1px solid var(--line); padding-bottom: 14px; } .kz-it:first-of-type { border-top: 0; }
+.kz-q { color: var(--ink) !important; font-family: var(--f-song); font-size: 15.5px !important; } .kz-q b { color: var(--gold); font-family: var(--f-fell); margin-right: 8px; } .kz-ctx { font-size: 13.5px !important; color: var(--ink-3) !important; }
+.kz-opts { display: flex; flex-wrap: wrap; gap: 8px; } .kz-fb:not(:empty) { margin-top: 10px; padding-top: 2px; } .kz-fb p { margin: 0 0 6px !important; }
+.kz-v { font-family: var(--f-hei); color: var(--ink) !important; } .kz-v.ok::before { content: "✓ "; color: var(--gold); } .kz-v.no::before { content: "· "; color: var(--ink-3); }
+.kz-end, .kz-after { padding-bottom: 18px; } .kz-aft { margin-top: 6px; padding: 10px 14px; border-left: 3px solid var(--gold); background: color-mix(in srgb, var(--gold) 7%, transparent); } .kz-aft p { margin: 0 0 6px; font-size: 14px; line-height: 1.75; color: var(--ink-2); }
+.kz-ch .wpick { padding-top: 16px; }
+@media (max-width: 620px) { .kz .kz-sec, .kz-out { padding-left: 16px; padding-right: 16px; } .kz-vals li { grid-template-columns: 1fr 50px 40px; } }

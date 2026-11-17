@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 290" role="img" aria-label="两种做法的对照：爱任纽手里有三个名字都能凑成 666，却不作断言；Helwig 试了许多称号，选中一条宣布为答案。">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker><marker id="arg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--gold)"/></marker></defs>
+<path d="M245 20L245 230" class="l" stroke-dasharray="3 5"/>
+<text x="245" y="254" text-anchor="middle" class="gt" style="font-size:13px">同一个目标数：666</text>
+<text x="122" y="30" text-anchor="middle" style="font-size:13px">爱任纽 · 2 世纪后期</text>
+<text x="122" y="70" text-anchor="middle" class="sm" style="font-size:11.5px">手里有三个名字，</text>
+<text x="122" y="90" text-anchor="middle" class="sm" style="font-size:11.5px">每一个都能凑成 666。</text>
+<text x="122" y="110" text-anchor="middle" class="sm" style="font-size:11.5px">他对每个都说：</text>
+<text x="122" y="130" text-anchor="middle" class="sm" style="font-size:11.5px">“我不作断言”。</text>
+<text x="122" y="172" text-anchor="middle" class="gt" style="font-size:12px">结论：等待应验，更稳妥</text>
+<text x="368" y="30" text-anchor="middle" style="font-size:13px">Helwig · 1612 年</text>
+<text x="368" y="70" text-anchor="middle" class="sm" style="font-size:11.5px">试了许多称号，</text>
+<text x="368" y="90" text-anchor="middle" class="sm" style="font-size:11.5px">希伯来、希腊、拉丁，</text>
+<text x="368" y="110" text-anchor="middle" class="sm" style="font-size:11.5px">选中一条，</text>
+<text x="368" y="130" text-anchor="middle" class="sm" style="font-size:11.5px">宣布它是答案。</text>
+<text x="368" y="172" text-anchor="middle" class="gt" style="font-size:12px">结论：这一条，就是它</text>
+<text x="245" y="278" text-anchor="middle" class="sm" style="font-size:11px">差别不在算术，在算术之前和之后做的选择</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 300" role="img" aria-label="能找到、能读到、能看到、能复制、能再发表是五个不同的台阶，每一级之间都有问号：谁决定？数码化让前四级变得容易，第五级的允许不会自动出现。">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker><marker id="arg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--gold)"/></marker></defs>
+<rect x="22" y="190" width="82" height="70" rx="4" class="l" />
+<text x="63" y="216" text-anchor="middle" style="font-size:12px">能找到</text>
+<text x="63" y="234" text-anchor="middle" class="sm" style="font-size:8.6px">目录里有这一条</text>
+<circle cx="108" cy="184" r="8" class="l"/>
+<text x="108" y="188" text-anchor="middle" class="gt" style="font-size:10px">?</text>
+<rect x="112" y="160" width="82" height="100" rx="4" class="l" />
+<text x="153" y="186" text-anchor="middle" style="font-size:12px">能读到</text>
+<text x="153" y="204" text-anchor="middle" class="sm" style="font-size:8.6px">可以读到文字</text>
+<circle cx="198" cy="154" r="8" class="l"/>
+<text x="198" y="158" text-anchor="middle" class="gt" style="font-size:10px">?</text>
+<rect x="202" y="130" width="82" height="130" rx="4" class="l" />
+<text x="243" y="156" text-anchor="middle" style="font-size:12px">能看到</text>
+<text x="243" y="174" text-anchor="middle" class="sm" style="font-size:8.6px">可以看到图像</text>
+<circle cx="288" cy="124" r="8" class="l"/>
+<text x="288" y="128" text-anchor="middle" class="gt" style="font-size:10px">?</text>
+<rect x="292" y="100" width="82" height="160" rx="4" class="l" />
+<text x="333" y="126" text-anchor="middle" style="font-size:12px">能复制</text>
+<text x="333" y="144" text-anchor="middle" class="sm" style="font-size:8.6px">可以拷一份</text>
+<circle cx="378" cy="94" r="8" class="l"/>
+<text x="378" y="98" text-anchor="middle" class="gt" style="font-size:10px">?</text>
+<rect x="382" y="70" width="82" height="190" rx="4" class="gl" />
+<text x="423" y="96" text-anchor="middle" class="gt" style="font-size:12px">能再发表</text>
+<text x="423" y="114" text-anchor="middle" class="sm" style="font-size:8.6px">放进书里、放上网</text>
+<text x="245" y="284" text-anchor="middle" class="sm" style="font-size:11px">数码化让前四级变容易；第五级的“允许”，不会自动出现</text>
+<text x="245" y="24" text-anchor="middle" class="sm" style="font-size:9.6px">公开的普通材料，几级通常一起开放；神圣或受限的材料，每一级是单独的决定</text>
+</svg>

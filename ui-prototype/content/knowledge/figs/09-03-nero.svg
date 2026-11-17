@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 250" role="img" aria-label="同一个名字的两种希伯来文拼写：נרון קסר（尼禄凯撒）各字母数值之和为 666；去掉末尾的 ן（50）得 נרו קסר，之和为 616。">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker><marker id="arg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--gold)"/></marker></defs>
+<rect x="406" y="24" width="34" height="52" rx="3" class="l" />
+<text x="423" y="52" text-anchor="middle" lang="he" style="font-size:22px">נ</text>
+<text x="423" y="69" text-anchor="middle" class="sm" style="font-size:10px">50</text>
+<rect x="368" y="24" width="34" height="52" rx="3" class="l" />
+<text x="385" y="52" text-anchor="middle" lang="he" style="font-size:22px">ר</text>
+<text x="385" y="69" text-anchor="middle" class="sm" style="font-size:10px">200</text>
+<rect x="330" y="24" width="34" height="52" rx="3" class="l" />
+<text x="347" y="52" text-anchor="middle" lang="he" style="font-size:22px">ו</text>
+<text x="347" y="69" text-anchor="middle" class="sm" style="font-size:10px">6</text>
+<rect x="292" y="24" width="34" height="52" rx="3" class="l" />
+<text x="309" y="52" text-anchor="middle" lang="he" style="font-size:22px">ן</text>
+<text x="309" y="69" text-anchor="middle" class="sm" style="font-size:10px">50</text>
+<rect x="236" y="24" width="34" height="52" rx="3" class="l" />
+<text x="253" y="52" text-anchor="middle" lang="he" style="font-size:22px">ק</text>
+<text x="253" y="69" text-anchor="middle" class="sm" style="font-size:10px">100</text>
+<rect x="198" y="24" width="34" height="52" rx="3" class="l" />
+<text x="215" y="52" text-anchor="middle" lang="he" style="font-size:22px">ס</text>
+<text x="215" y="69" text-anchor="middle" class="sm" style="font-size:10px">60</text>
+<rect x="160" y="24" width="34" height="52" rx="3" class="l" />
+<text x="177" y="52" text-anchor="middle" lang="he" style="font-size:22px">ר</text>
+<text x="177" y="69" text-anchor="middle" class="sm" style="font-size:10px">200</text>
+<text x="40" y="54" text-anchor="start" class="gt" style="font-size:15px">合计 666</text>
+<text x="40" y="72" text-anchor="start" class="sm" style="font-size:10px">尼禄·凯撒（Nerōn）</text>
+<rect x="406" y="122" width="34" height="52" rx="3" class="l" />
+<text x="423" y="150" text-anchor="middle" lang="he" style="font-size:22px">נ</text>
+<text x="423" y="167" text-anchor="middle" class="sm" style="font-size:10px">50</text>
+<rect x="368" y="122" width="34" height="52" rx="3" class="l" />
+<text x="385" y="150" text-anchor="middle" lang="he" style="font-size:22px">ר</text>
+<text x="385" y="167" text-anchor="middle" class="sm" style="font-size:10px">200</text>
+<rect x="330" y="122" width="34" height="52" rx="3" class="l" />
+<text x="347" y="150" text-anchor="middle" lang="he" style="font-size:22px">ו</text>
+<text x="347" y="167" text-anchor="middle" class="sm" style="font-size:10px">6</text>
+<rect x="274" y="122" width="34" height="52" rx="3" class="l" />
+<text x="291" y="150" text-anchor="middle" lang="he" style="font-size:22px">ק</text>
+<text x="291" y="167" text-anchor="middle" class="sm" style="font-size:10px">100</text>
+<rect x="236" y="122" width="34" height="52" rx="3" class="l" />
+<text x="253" y="150" text-anchor="middle" lang="he" style="font-size:22px">ס</text>
+<text x="253" y="167" text-anchor="middle" class="sm" style="font-size:10px">60</text>
+<rect x="198" y="122" width="34" height="52" rx="3" class="l" />
+<text x="215" y="150" text-anchor="middle" lang="he" style="font-size:22px">ר</text>
+<text x="215" y="167" text-anchor="middle" class="sm" style="font-size:10px">200</text>
+<text x="40" y="152" text-anchor="start" class="gt" style="font-size:15px">合计 616</text>
+<text x="40" y="170" text-anchor="start" class="sm" style="font-size:10px">尼禄·凯撒（Nero）</text>
+<path d="M170 80v34" class="gl" marker-end="url(#arg)"/>
+<text x="210" y="102" text-anchor="start" class="sm" style="font-size:10.5px">去掉末尾那个字母（50）</text>
+<text x="245" y="230" text-anchor="middle" class="sm" style="font-size:11px">拼写不同，数不同；两个数，都能对到同一个名字</text>
+</svg>

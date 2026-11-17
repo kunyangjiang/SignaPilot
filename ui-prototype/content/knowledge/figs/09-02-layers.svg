@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 270" role="img" aria-label="三层年代的示意图。最下一层石头：巨石阵约公元前 3100 至前 1600 年；中间一层名字：德鲁伊一词见于约公元前 50 年的恺撒记述；最上一层仪式：Gorsedd 1792 年起于伦敦，1819 年进入 Eisteddfod。三层之间用带问号的虚线连着，表示它们之间是否相连，需要证据。">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker><marker id="arg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--gold)"/></marker></defs>
+<rect x="30" y="200" width="430" height="56" rx="4" class="l" />
+<text x="60" y="234" text-anchor="middle" class="gt" style="font-size:13px">石头</text>
+<text x="110" y="225" text-anchor="start" style="font-size:14px">巨石阵</text>
+<text x="110" y="243" text-anchor="start" class="sm" style="font-size:10.5px">约公元前 3100–1600 年陆续修建</text>
+<rect x="30" y="120" width="430" height="56" rx="4" class="l" />
+<text x="60" y="154" text-anchor="middle" class="gt" style="font-size:13px">名字</text>
+<text x="110" y="145" text-anchor="start" style="font-size:14px">“德鲁伊”</text>
+<text x="110" y="163" text-anchor="start" class="sm" style="font-size:10.5px">约公元前 50 年，恺撒的记述里已有</text>
+<rect x="30" y="40" width="430" height="56" rx="4" class="l" />
+<text x="60" y="74" text-anchor="middle" class="gt" style="font-size:13px">仪式</text>
+<text x="110" y="65" text-anchor="start" style="font-size:14px">Gorsedd</text>
+<text x="110" y="83" text-anchor="start" class="sm" style="font-size:10.5px">1792 年，伦敦；1819 年进入 Eisteddfod</text>
+<path d="M245 176L245 200" class="gl" stroke-dasharray="4 4"/>
+<circle cx="245" cy="188" r="9" class="gl"/>
+<text x="245" y="192" text-anchor="middle" class="gt" style="font-size:12px">?</text>
+<path d="M245 96L245 120" class="gl" stroke-dasharray="4 4"/>
+<circle cx="245" cy="108" r="9" class="gl"/>
+<text x="245" y="112" text-anchor="middle" class="gt" style="font-size:12px">?</text>
+<text x="245" y="26" text-anchor="middle" class="sm" style="font-size:11px">看上去叠在一起，不等于一路传下来</text>
+</svg>

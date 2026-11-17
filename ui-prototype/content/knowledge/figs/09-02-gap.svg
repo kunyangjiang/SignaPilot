@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 330" role="img" aria-label="能把断开的两端连起来的七类证据：有日期的文献、中间的实物、能叫出名字的传递者、机构的记录、地理上的移动、术语的变化，以及后来的起源故事（不能直接当证据）。">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker><marker id="arg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--gold)"/></marker></defs>
+<rect x="15" y="24" width="100" height="44" rx="4" class="l" />
+<text x="65" y="50" text-anchor="middle" style="font-size:12px">古代的记录</text>
+<rect x="375" y="24" width="100" height="44" rx="4" class="l" />
+<text x="425" y="50" text-anchor="middle" style="font-size:12px">现代的做法</text>
+<path d="M115 46L375 46" class="gl" stroke-dasharray="6 5"/>
+<text x="245" y="40" text-anchor="middle" class="gt" style="font-size:11px">缺口</text>
+<rect x="15" y="100" width="145" height="58" rx="4" class="l" />
+<text x="87" y="124" text-anchor="middle" style="font-size:11.5px">有日期的文献</text>
+<text x="87" y="142" text-anchor="middle" class="sm" style="font-size:9.5px">某年某地，有人在做</text>
+<rect x="170" y="100" width="145" height="58" rx="4" class="l" />
+<text x="242" y="124" text-anchor="middle" style="font-size:11.5px">中间的实物</text>
+<text x="242" y="142" text-anchor="middle" class="sm" style="font-size:9.5px">年代落在中间</text>
+<rect x="325" y="100" width="145" height="58" rx="4" class="l" />
+<text x="397" y="124" text-anchor="middle" style="font-size:11.5px">叫得出名字的传递者</text>
+<text x="397" y="142" text-anchor="middle" class="sm" style="font-size:9.5px">跟谁学，传给谁</text>
+<rect x="15" y="170" width="145" height="58" rx="4" class="l" />
+<text x="87" y="194" text-anchor="middle" style="font-size:11.5px">机构的记录</text>
+<text x="87" y="212" text-anchor="middle" class="sm" style="font-size:9.5px">名册、章程、账本</text>
+<rect x="170" y="170" width="145" height="58" rx="4" class="l" />
+<text x="242" y="194" text-anchor="middle" style="font-size:11.5px">地理上的移动</text>
+<text x="242" y="212" text-anchor="middle" class="sm" style="font-size:9.5px">什么时候、经谁、到哪里</text>
+<rect x="325" y="170" width="145" height="58" rx="4" class="l" />
+<text x="397" y="194" text-anchor="middle" style="font-size:11.5px">术语的变化</text>
+<text x="397" y="212" text-anchor="middle" class="sm" style="font-size:9.5px">同一个词，指的还是同一样吗</text>
+<rect x="15" y="246" width="460" height="62" rx="4" class="l" stroke-dasharray="5 4" />
+<text x="245" y="270" text-anchor="middle" class="gt" style="font-size:12.5px">后来的“起源故事”</text>
+<text x="245" y="290" text-anchor="middle" class="sm" style="font-size:10.5px">要和上面六类对照，不能直接当证据</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 260" role="img" aria-label="一次调查的七步：对象；最早的有证据的出现；当时的解释环境；后来的传递与变化；使用者与机构的变化；后来的重新解释或起源说；今天的使用与剩下的不确定。每一步下面问：证据是什么，来自哪一类。">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker><marker id="arg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--gold)"/></marker></defs>
+<rect x="10" y="70" width="62" height="96" rx="4" class="l" />
+<text x="41" y="100" text-anchor="middle" style="font-size:11px">1 对象</text>
+<text x="41" y="122" text-anchor="middle" class="sm" style="font-size:9px">手里是什么</text>
+<path d="M72 118L78 118" class="l" marker-end="url(#ar)"/>
+<text x="41" y="190" text-anchor="middle" class="sm" style="font-size:9.5px">证据？</text>
+<text x="41" y="204" text-anchor="middle" class="sm" style="font-size:9.5px">哪一类？</text>
+<rect x="78" y="70" width="62" height="96" rx="4" class="l" />
+<text x="109" y="100" text-anchor="middle" style="font-size:11px">2 最早</text>
+<text x="109" y="122" text-anchor="middle" class="sm" style="font-size:9px">有证据的出现</text>
+<path d="M140 118L146 118" class="l" marker-end="url(#ar)"/>
+<text x="109" y="190" text-anchor="middle" class="sm" style="font-size:9.5px">证据？</text>
+<text x="109" y="204" text-anchor="middle" class="sm" style="font-size:9.5px">哪一类？</text>
+<rect x="146" y="70" width="62" height="96" rx="4" class="l" />
+<text x="177" y="100" text-anchor="middle" style="font-size:11px">3 当时</text>
+<text x="177" y="122" text-anchor="middle" class="sm" style="font-size:9px">解释的环境</text>
+<path d="M208 118L214 118" class="l" marker-end="url(#ar)"/>
+<text x="177" y="190" text-anchor="middle" class="sm" style="font-size:9.5px">证据？</text>
+<text x="177" y="204" text-anchor="middle" class="sm" style="font-size:9.5px">哪一类？</text>
+<rect x="214" y="70" width="62" height="96" rx="4" class="l" />
+<text x="245" y="100" text-anchor="middle" style="font-size:11px">4 传递</text>
+<text x="245" y="122" text-anchor="middle" class="sm" style="font-size:9px">与变化</text>
+<path d="M276 118L282 118" class="l" marker-end="url(#ar)"/>
+<text x="245" y="190" text-anchor="middle" class="sm" style="font-size:9.5px">证据？</text>
+<text x="245" y="204" text-anchor="middle" class="sm" style="font-size:9.5px">哪一类？</text>
+<rect x="282" y="70" width="62" height="96" rx="4" class="l" />
+<text x="313" y="100" text-anchor="middle" style="font-size:11px">5 使用者</text>
+<text x="313" y="122" text-anchor="middle" class="sm" style="font-size:9px">与机构</text>
+<path d="M344 118L350 118" class="l" marker-end="url(#ar)"/>
+<text x="313" y="190" text-anchor="middle" class="sm" style="font-size:9.5px">证据？</text>
+<text x="313" y="204" text-anchor="middle" class="sm" style="font-size:9.5px">哪一类？</text>
+<rect x="350" y="70" width="62" height="96" rx="4" class="l" />
+<text x="381" y="100" text-anchor="middle" style="font-size:11px">6 后来</text>
+<text x="381" y="122" text-anchor="middle" class="sm" style="font-size:9px">重新解释</text>
+<path d="M412 118L418 118" class="l" marker-end="url(#ar)"/>
+<text x="381" y="190" text-anchor="middle" class="sm" style="font-size:9.5px">证据？</text>
+<text x="381" y="204" text-anchor="middle" class="sm" style="font-size:9.5px">哪一类？</text>
+<rect x="418" y="70" width="62" height="96" rx="4" class="gl" />
+<text x="449" y="100" text-anchor="middle" class="gt" style="font-size:11px">7 今天</text>
+<text x="449" y="122" text-anchor="middle" class="sm" style="font-size:9px">与不确定</text>
+<text x="449" y="190" text-anchor="middle" class="sm" style="font-size:9.5px">证据？</text>
+<text x="449" y="204" text-anchor="middle" class="sm" style="font-size:9.5px">哪一类？</text>
+<text x="245" y="36" text-anchor="middle" style="font-size:14px">一次调查，先分七步</text>
+<text x="245" y="240" text-anchor="middle" class="sm" style="font-size:11px">不是每一格都有答案；没有答案的格子，要写成没有答案</text>
+</svg>
