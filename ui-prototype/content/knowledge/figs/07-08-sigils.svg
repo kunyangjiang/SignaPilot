@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 262" role="img" aria-label="旧式“印记”和混沌魔法里的“sigil”的对比示意图，本课自绘，不含任何真实的印记或 sigil 图形。左：旧式的印记（如《所罗门小钥匙》里七十二个魔鬼的印记，或由魔法方阵转成的印记）：由传统和文本规定，大家共用；意义是“这是某一位灵”，作用是辨认或召唤那个灵；谁来解释：文本与师承。右：混沌魔法里的 sigil（据 Carroll 的描述）：由使用者自己做成，是一个“欲望的字形”，经过风格化，不让人一眼想起那个欲望，做好之后要让自己忘掉；意义是私人的，作用是编码一个愿望；谁来评价：使用者自己，靠自己的记录。底部：同一个词，两种用法：一个是共用的、由传统规定的标识，一个是私人的、由使用者定义的工具；不能把它们说成同一种东西的延续">
+  <path class="l" d="M15 36h215v150h-215Z"/>
+  <text x="122" y="58" text-anchor="middle" class="gt" style="font-size:13px">旧式的印记</text>
+  <text x="122" y="82" text-anchor="middle" style="font-size:10.5px">例：魔鬼的印记、方阵印记</text>
+  <text x="122" y="99" text-anchor="middle" style="font-size:10.5px"></text>
+  <text x="122" y="116" text-anchor="middle" style="font-size:10.5px">意义：“这是某一位灵”</text>
+  <text x="122" y="133" text-anchor="middle" style="font-size:10.5px">作用：辨认或召唤那个灵</text>
+  <text x="122" y="150" text-anchor="middle" style="font-size:10.5px">谁来解释：文本与师承</text>
+  <text x="122" y="167" text-anchor="middle" style="font-size:10.5px">特点：大家共用，由传统规定</text>
+  <path class="gl" d="M260 36h215v150h-215Z"/>
+  <text x="367" y="58" text-anchor="middle" class="gt" style="font-size:13px">混沌魔法的 sigil</text>
+  <text x="367" y="82" text-anchor="middle" style="font-size:10.5px">据 Carroll：“欲望的字形”</text>
+  <text x="367" y="99" text-anchor="middle" style="font-size:10.5px"></text>
+  <text x="367" y="116" text-anchor="middle" style="font-size:10.5px">意义：私人的，由使用者定</text>
+  <text x="367" y="133" text-anchor="middle" style="font-size:10.5px">作用：编码一个愿望</text>
+  <text x="367" y="150" text-anchor="middle" style="font-size:10.5px">谁来评价：使用者自己的记录</text>
+  <text x="367" y="167" text-anchor="middle" style="font-size:10.5px">特点：风格化，做好后要“忘掉”</text>
+  <path class="l thin" d="M245 36V186" stroke-dasharray="3 4"/>
+  <text x="245" y="214" text-anchor="middle" class="gt" style="font-size:12.5px">同一个词，两种用法，不能说成同一种东西的延续</text>
+  <text x="245" y="232" text-anchor="middle" class="sm" style="font-size:11px">一个是共用的、由传统规定的标识；一个是私人的、由使用者定义的工具</text>
+  <text x="245" y="250" text-anchor="middle" class="sm" style="font-size:10.5px">据维基百科“Sigil”条目与 Carroll（1987 年版）；本图不含任何真实图形</text>
+</svg>

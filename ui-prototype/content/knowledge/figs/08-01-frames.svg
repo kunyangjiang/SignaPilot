@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 288" role="img" aria-label="同一幅虚构画面在四种解读框架下的示意图，本课自绘。中间是“同一幅画面”。四个框围绕它：一，预测式：问“将会发生什么”，评价标准是事后是否应验；二，反思式：问“我现在怎样看这件事”，评价标准是读的人觉得有没有启发；三，创作式：问“能写出什么故事”，评价标准是故事好不好；四，社群共用的参照：问“我们圈子里怎么提这张牌”，评价标准是大家是否认得、认同。每一框下面标明“能检验什么”：预测式原则上可以检验是否应验；反思式只能说明读的人的感受，不能证明预测；创作式检验的是作品；社群的参照检验的是共识。底部：不同的框架问不同的问题，用不同的标准评价，所以同一幅画有不同的意义；不是哪一个是“对的”">
+  <path class="gl" d="M195 100h100v50h-100Z"/>
+  <text x="245" y="122" text-anchor="middle" class="gt" style="font-size:12.5px">同一幅画面</text>
+  <text x="245" y="140" text-anchor="middle" class="sm" style="font-size:10px">（虚构）</text>
+  <path class="l" d="M20 24h200v70h-200Z"/>
+  <text x="120" y="42" text-anchor="middle" class="gt" style="font-size:12px">① 预测式</text>
+  <text x="120" y="59" text-anchor="middle" style="font-size:10px">问：将会发生什么？</text>
+  <text x="120" y="73" text-anchor="middle" style="font-size:10px">评价：事后是否应验</text>
+  <text x="120" y="87" text-anchor="middle" class="sm" style="font-size:9.5px">可检验：原则上可以</text>
+  <path class="l" d="M270 24h200v70h-200Z"/>
+  <text x="370" y="42" text-anchor="middle" class="gt" style="font-size:12px">② 反思式</text>
+  <text x="370" y="59" text-anchor="middle" style="font-size:10px">问：我现在怎样看这件事？</text>
+  <text x="370" y="73" text-anchor="middle" style="font-size:10px">评价：读的人觉得有无启发</text>
+  <text x="370" y="87" text-anchor="middle" class="sm" style="font-size:9.5px">可说明：个人的感受，不是预测</text>
+  <path class="l" d="M20 160h200v70h-200Z"/>
+  <text x="120" y="178" text-anchor="middle" class="gt" style="font-size:12px">③ 创作式</text>
+  <text x="120" y="195" text-anchor="middle" style="font-size:10px">问：能写出什么故事？</text>
+  <text x="120" y="209" text-anchor="middle" style="font-size:10px">评价：故事好不好</text>
+  <text x="120" y="223" text-anchor="middle" class="sm" style="font-size:9.5px">检验：作品本身</text>
+  <path class="l" d="M270 160h200v70h-200Z"/>
+  <text x="370" y="178" text-anchor="middle" class="gt" style="font-size:12px">④ 社群的参照</text>
+  <text x="370" y="195" text-anchor="middle" style="font-size:10px">问：圈子里怎么提这张牌？</text>
+  <text x="370" y="209" text-anchor="middle" style="font-size:10px">评价：大家是否认得、认同</text>
+  <text x="370" y="223" text-anchor="middle" class="sm" style="font-size:9.5px">检验：共识，不是真假</text>
+  <text x="245" y="258" text-anchor="middle" class="gt" style="font-size:12.5px">不同的框架，问不同的问题，用不同的标准评价</text>
+  <text x="245" y="276" text-anchor="middle" class="sm" style="font-size:11px">所以同一幅画有不同的意义；不是哪一个才“对”</text>
+</svg>

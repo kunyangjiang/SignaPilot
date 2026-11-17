@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 246" role="img" aria-label="现代异教（Wicca）形成过程中几个有记录的节点的时间线，本课自绘，据 Hutton 2025 年的讲座、Leland 1899 年的书和百科条目的二手归纳。一条横轴，八个点：1899 年，Leland 出版《阿拉迪亚》；1921 年，Murray 出版《西欧的女巫教团》，提出“女巫宗教幸存”的假说；1939 年，Gardner 自称在新森林被一个女巫团接纳，至今没有找到能证实该团存在的证据；1951 年，Gardner 公开宣称女巫宗教幸存；1954 年，Gardner 的《今日巫术》出版，Murray 写了导言；1950 年代中期，Valiente 重写了教团文本；1970 年代起，历史学家系统研究猎巫，证明被告并不是一个幸存的异教的信徒；1999 年，Hutton 出版《月亮的胜利》。底部：有的节点有出版记录，有的只有 Gardner 自己的说法，有的是后来的学术结论">
+  <path class="l" d="M15 110H475"/>
+  <circle class="dotk" cx="48" cy="110" r="4"/>
+  <text x="48" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">1899</text>
+  <text x="48" y="76" text-anchor="middle" style="font-size:10px">《阿拉迪亚》</text>
+  <circle class="dotk" cx="100" cy="110" r="4"/>
+  <text x="100" y="134" text-anchor="middle" class="gt" style="font-size:11.5px">1921</text>
+  <text x="100" y="150" text-anchor="middle" style="font-size:10px">Murray 假说</text>
+  <circle class="dotk" cx="150" cy="110" r="4"/>
+  <text x="150" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">1939</text>
+  <text x="150" y="76" text-anchor="middle" style="font-size:10px">Gardner 自称</text>
+  <circle class="dotk" cx="200" cy="110" r="4"/>
+  <text x="200" y="134" text-anchor="middle" class="gt" style="font-size:11.5px">1951</text>
+  <text x="200" y="150" text-anchor="middle" style="font-size:10px">公开宣称</text>
+  <circle class="dotk" cx="256" cy="110" r="4"/>
+  <text x="256" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">1954</text>
+  <text x="256" y="76" text-anchor="middle" style="font-size:10px">《今日巫术》</text>
+  <circle class="dotk" cx="312" cy="110" r="4"/>
+  <text x="312" y="134" text-anchor="middle" class="gt" style="font-size:11.5px">1950s中</text>
+  <text x="312" y="150" text-anchor="middle" style="font-size:10px">Valiente 重写</text>
+  <circle class="dotk" cx="372" cy="110" r="4"/>
+  <text x="372" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">1970s起</text>
+  <text x="372" y="76" text-anchor="middle" style="font-size:10px">猎巫研究</text>
+  <circle class="dotk" cx="440" cy="110" r="4"/>
+  <text x="440" y="134" text-anchor="middle" class="gt" style="font-size:11.5px">1999</text>
+  <text x="440" y="150" text-anchor="middle" style="font-size:10px">Hutton</text>
+  <text x="245" y="196" text-anchor="middle" class="gt" style="font-size:12.5px">有出版记录的，有只靠 Gardner 一人之言的，有后来的学术结论</text>
+  <text x="245" y="214" text-anchor="middle" class="sm" style="font-size:11px">1939 年的“新森林女巫团”，至今没有找到独立的证据（Hutton）</text>
+  <text x="245" y="232" text-anchor="middle" class="sm" style="font-size:10.5px">据 Hutton（2025 年讲座）、Leland（1899）与百科条目；各日期以原始资料为准</text>
+</svg>

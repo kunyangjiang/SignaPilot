@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 282" role="img" aria-label="混沌魔法里怎样评价一次经验的示意图，本课自绘。五级从上到下：一，符号的外形：一个风格化的图形，外形本身没有固定的意思；二，参与者的解释：参与者的理论，如“它能绕开头脑，让愿望在潜意识里起作用”；三，报告的结果：参与者记下来的、他认为与之相关的事；四，其他可能的解释：暗示、期望、选择性注意、事后追认、巧合；五，研究者能下的结论：参与者报告了这样的经验和这样的解释；现有记录不足以证明符号造成了结果。右边标注：一至三是参与者一方的材料，四至五是研究者要问的问题。底部：意义的制造，和因果的证明，是两件事">
+  <path class="l" d="M15 36h460v32h-460Z"/>
+  <text x="25" y="56" text-anchor="start" class="gt" style="font-size:11.5px">① 符号的外形</text>
+  <text x="150" y="56" text-anchor="start" style="font-size:10px">一个风格化的图形，本身没有固定的意思</text>
+  <text x="465" y="56" text-anchor="end" class="sm" style="font-size:9.5px">参与者</text>
+  <path class="l" d="M15 76h460v32h-460Z"/>
+  <text x="25" y="96" text-anchor="start" class="gt" style="font-size:11.5px">② 参与者的解释</text>
+  <text x="150" y="96" text-anchor="start" style="font-size:10px">“绕开头脑，让愿望在潜意识里起作用”</text>
+  <text x="465" y="96" text-anchor="end" class="sm" style="font-size:9.5px">参与者</text>
+  <path class="l" d="M15 116h460v32h-460Z"/>
+  <text x="25" y="136" text-anchor="start" class="gt" style="font-size:11.5px">③ 报告的结果</text>
+  <text x="150" y="136" text-anchor="start" style="font-size:10px">参与者记下来的、他认为相关的事</text>
+  <text x="465" y="136" text-anchor="end" class="sm" style="font-size:9.5px">参与者</text>
+  <path class="l" d="M15 156h460v32h-460Z"/>
+  <text x="25" y="176" text-anchor="start" class="gt" style="font-size:11.5px">④ 其他可能的解释</text>
+  <text x="150" y="176" text-anchor="start" style="font-size:10px">暗示、期望、选择性注意、事后追认、巧合</text>
+  <text x="465" y="176" text-anchor="end" class="sm" style="font-size:9.5px">研究者要问</text>
+  <path class="gl" d="M15 196h460v32h-460Z"/>
+  <text x="25" y="216" text-anchor="start" class="gt" style="font-size:11.5px">⑤ 研究者能下的结论</text>
+  <text x="150" y="216" text-anchor="start" style="font-size:10px">报告了这样的经验；不足以证明符号造成了结果</text>
+  <text x="465" y="216" text-anchor="end" class="sm" style="font-size:9.5px">研究者要问</text>
+  <text x="245" y="252" text-anchor="middle" class="gt" style="font-size:12.5px">意义的制造，和因果的证明，是两件事</text>
+  <text x="245" y="270" text-anchor="middle" class="sm" style="font-size:11px">前三级是参与者的材料；后两级，是研究者要问的问题</text>
+</svg>

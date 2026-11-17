@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 246" role="img" aria-label="八字从唐代文献到当代 AI 对话的几个有记录的节点的时间线，本课自绘，据韩愈的墓志铭、维基百科“Four Pillars of Destiny”条目和两项 2026 年的研究，二手归纳。一条横轴，六个点：813 年前后，韩愈为李虚中写墓志铭，记他用出生的年、月、日的干支推算寿夭贵贱；宋代，传统上把加入“时”、成为四柱的做法归于徐子平，《渊海子平》是重要的手册；明代，《三命通会》；2024 年，研究引用的数字，称测测（Cece）应用有四千万注册用户，这是公司的说法；2025 年初，DeepSeek 流行，网上出现用 AI 算八字的帖子；2026 年，两项研究分别研究中国社交平台上的 AI 占卜。底部：同一个词“八字”，经过文献、手册、应用和对话，每一步的载体、对象和说话方式都不同">
+  <path class="l" d="M15 110H475"/>
+  <circle class="dotk" cx="58" cy="110" r="4"/>
+  <text x="58" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">约 813</text>
+  <text x="58" y="76" text-anchor="middle" style="font-size:10px">韩愈墓志铭</text>
+  <circle class="dotk" cx="125" cy="110" r="4"/>
+  <text x="125" y="134" text-anchor="middle" class="gt" style="font-size:11.5px">宋</text>
+  <text x="125" y="150" text-anchor="middle" style="font-size:10px">四柱成形（传统说法）</text>
+  <circle class="dotk" cx="180" cy="110" r="4"/>
+  <text x="180" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">明</text>
+  <text x="180" y="76" text-anchor="middle" style="font-size:10px">《三命通会》</text>
+  <circle class="dotk" cx="265" cy="110" r="4"/>
+  <text x="265" y="134" text-anchor="middle" class="gt" style="font-size:11.5px">2024</text>
+  <text x="265" y="150" text-anchor="middle" style="font-size:10px">应用的自称数字</text>
+  <circle class="dotk" cx="345" cy="110" r="4"/>
+  <text x="345" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">2025 初</text>
+  <text x="345" y="76" text-anchor="middle" style="font-size:10px">DeepSeek 流行</text>
+  <circle class="dotk" cx="430" cy="110" r="4"/>
+  <text x="430" y="134" text-anchor="middle" class="gt" style="font-size:11.5px">2026</text>
+  <text x="430" y="150" text-anchor="middle" style="font-size:10px">两项研究</text>
+  <text x="245" y="196" text-anchor="middle" class="gt" style="font-size:12.5px">同一个词“八字”，经过文献、手册、应用和对话</text>
+  <text x="245" y="214" text-anchor="middle" class="sm" style="font-size:11px">每一步的载体、对象和说话方式，都不同</text>
+  <text x="245" y="232" text-anchor="middle" class="sm" style="font-size:10.5px">据韩愈（全唐文）、维基百科条目、Li 等（2026）；宋、明的细节以专门研究为准</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 246" role="img" aria-label="占星从报纸到应用的几个有记录的节点的时间线，本课自绘，据 Jeffrey Moro 2025 年的文章、维基百科“Co–Star”条目及 Know Your Meme 的条目，二手归纳。一条横轴，七个点：1930 年，英国《星期日快报》请占星家为新出生的玛格丽特公主画星盘，据说开启了报纸星座专栏的潮流；1970 年代，出现专用的占星微型计算机；1990 年代，出现专业占星软件；2017 年 10 月，Co–Star 应用发布；2018 年 7 月，“去你的星座”的推特模板首次大范围传播；2023 年，Co–Star 推出“The Void”问答功能；2025 年，Moro 发表对 Co–Star 的分析。底部：同一种符号，经过报纸、软件、应用和社交平台，每一步的载体、听众和说话方式都不同">
+  <path class="l" d="M15 110H475"/>
+  <circle class="dotk" cx="50" cy="110" r="4"/>
+  <text x="50" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">1930</text>
+  <text x="50" y="76" text-anchor="middle" style="font-size:10px">报纸星座专栏</text>
+  <circle class="dotk" cx="105" cy="110" r="4"/>
+  <text x="105" y="134" text-anchor="middle" class="gt" style="font-size:11.5px">1970s</text>
+  <text x="105" y="150" text-anchor="middle" style="font-size:10px">占星微型机</text>
+  <circle class="dotk" cx="150" cy="110" r="4"/>
+  <text x="150" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">1990s</text>
+  <text x="150" y="76" text-anchor="middle" style="font-size:10px">专业软件</text>
+  <circle class="dotk" cx="215" cy="110" r="4"/>
+  <text x="215" y="134" text-anchor="middle" class="gt" style="font-size:11.5px">2017</text>
+  <text x="215" y="150" text-anchor="middle" style="font-size:10px">Co–Star 发布</text>
+  <circle class="dotk" cx="285" cy="110" r="4"/>
+  <text x="285" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">2018.7</text>
+  <text x="285" y="76" text-anchor="middle" style="font-size:10px">“去你的星座”</text>
+  <circle class="dotk" cx="355" cy="110" r="4"/>
+  <text x="355" y="134" text-anchor="middle" class="gt" style="font-size:11.5px">2023</text>
+  <text x="355" y="150" text-anchor="middle" style="font-size:10px">“The Void”</text>
+  <circle class="dotk" cx="440" cy="110" r="4"/>
+  <text x="440" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">2025</text>
+  <text x="440" y="76" text-anchor="middle" style="font-size:10px">Moro 的分析</text>
+  <text x="245" y="196" text-anchor="middle" class="gt" style="font-size:12.5px">同一种符号，换了载体、听众和说话方式</text>
+  <text x="245" y="214" text-anchor="middle" class="sm" style="font-size:11px">报纸 → 软件 → 应用 → 社交平台上的梗</text>
+  <text x="245" y="232" text-anchor="middle" class="sm" style="font-size:10.5px">据 Moro（2025）、维基百科“Co–Star”、Know Your Meme；日期以原始资料为准</text>
+</svg>

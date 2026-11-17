@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 266" role="img" aria-label="一幅虚构的教学用符号画面，本课自绘，不是任何一副真实塔罗牌，也不复制任何商业牌组。画面是一张竖长的卡片形边框，里面有四个简单的形状：上方一盏提灯；中间一扇半开的门；下方一条横过的河；门前一个只有轮廓的小人。卡片下方写着“教学用的虚构画面”。右边列出这幅画本身没有固定意义的几处“空白”：提灯是在照路，还是在等人？门是要进去，还是刚出来？河是阻隔，还是路？小人是谁？底部：画面提供形状，意义要由读它的人、提出的问题和所用的框架来补上">
+  <path class="l" d="M60 30h130v200h-130Z"/><path class="l thin" d="M68 38h114v184h-114Z"/>
+  <path class="gl" d="M115 52h20v6h-20Z"/><path class="gl" d="M118 58h14v26h-14Z"/><path class="l thin" d="M125 40V52"/><path class="wash" d="M118 58h14v26h-14Z"/>
+  <path class="l" d="M98 104h54v62h-54Z"/><path class="l thin" d="M98 104l22 -6v62l-22 6Z"/><path class="l thin" d="M125 135h8"/>
+  <path class="l" d="M72 182q14 -8 28 0t28 0t28 0t24 0"/><path class="l" d="M72 192q14 -8 28 0t28 0t28 0t24 0"/>
+  <circle class="l thin" cx="125" cy="112" r="0.1"/>
+  <path class="l thin" d="M175 150a5 5 0 1 1 0.1 0M175 155v18M175 160l-7 8M175 160l7 8M175 173l-5 10M175 173l5 10" style="stroke-dasharray:2 2"/>
+  <text x="125" y="246" text-anchor="middle" class="sm" style="font-size:10px">教学用的虚构画面</text>
+  <text x="330" y="70" text-anchor="middle" class="gt" style="font-size:12.5px">这幅画自己没有说的</text>
+  <text x="330" y="100" text-anchor="middle" style="font-size:11px">提灯：在照路，还是在等人？</text>
+  <text x="330" y="126" text-anchor="middle" style="font-size:11px">门：要进去，还是刚出来？</text>
+  <text x="330" y="152" text-anchor="middle" style="font-size:11px">河：阻隔，还是一条路？</text>
+  <text x="330" y="178" text-anchor="middle" style="font-size:11px">小人：是谁？是我吗？</text>
+  <text x="330" y="222" text-anchor="middle" class="sm" style="font-size:11px">画面给形状；意义由读的人、</text>
+  <text x="330" y="238" text-anchor="middle" class="sm" style="font-size:11px">问题和所用的框架补上</text>
+  <text x="330" y="254" text-anchor="middle" class="sm" style="font-size:10.5px">本图为本课虚构，不是任何一副牌的复制</text>
+</svg>

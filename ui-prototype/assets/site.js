@@ -508,6 +508,11 @@
     '07-04': { src: 'content/knowledge/07-04.md', state: 'done' },
     '07-05': { src: 'content/knowledge/07-05.md', state: 'done' },
     '07-06': { src: 'content/knowledge/07-06.md', state: 'done' },
+    '07-07': { src: 'content/knowledge/07-07.md', state: 'done' },
+    '07-08': { src: 'content/knowledge/07-08.md', state: 'done' },
+    '08-01': { src: 'content/knowledge/08-01.md', state: 'done' },
+    '08-02': { src: 'content/knowledge/08-02.md', state: 'done' },
+    '08-03': { src: 'content/knowledge/08-03.md', state: 'done' },
   };
   const K_STATE = { done: '已完成', draft: '初稿 · 待审读' };
   // A course manuscript: "# 标题", an optional "> 初稿…" status line, a lead paragraph, "**…**" question lines,

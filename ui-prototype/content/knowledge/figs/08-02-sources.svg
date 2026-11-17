@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 246" role="img" aria-label="分清数字文化材料的四种来源的示意图，本课自绘。四列：一，平台上的帖子和模板：如 2018 年的“去你的星座”推特模板，说明这种格式存在、被怎样改写，不说明有多少人这样用；二，公司的营销声明：如 Co–Star 自称“用 NASA 的数据”，以及公司自己报告的下载量，是公司这样说的证据，不是独立核实的事实；三，媒体与评论文章：如 Moro 对 Co–Star 的分析，是一位作者对一个应用的解读，不是对用户的调查；四，系统的研究：如 Forer 1949 年论文里的课堂演示，是有设计的演示，但说明的是“人们接受笼统的描述”，不是占星是否准确。底部：不要从几个流传很广的例子，推断某种用法有多普遍；也不要把公司的数字当作独立研究">
+  <path class="l" d="M15 34h110v130h-110Z"/>
+  <text x="70" y="56" text-anchor="middle" class="gt" style="font-size:11.5px">平台上的帖子</text>
+  <text x="70" y="76" text-anchor="middle" class="sm" style="font-size:9px">“去你的星座”模板</text>
+  <text x="70" y="108" text-anchor="middle" style="font-size:9.5px">说明：格式存在</text>
+  <text x="70" y="130" text-anchor="middle" class="sm" style="font-size:9.5px">不说明：多少人在用</text>
+  <path class="l" d="M130 34h110v130h-110Z"/>
+  <text x="185" y="56" text-anchor="middle" class="gt" style="font-size:11.5px">公司的营销声明</text>
+  <text x="185" y="76" text-anchor="middle" class="sm" style="font-size:9px">“用 NASA 数据”</text>
+  <text x="185" y="108" text-anchor="middle" style="font-size:9.5px">说明：公司这样说</text>
+  <text x="185" y="130" text-anchor="middle" class="sm" style="font-size:9.5px">不说明：独立核实</text>
+  <path class="l" d="M245 34h110v130h-110Z"/>
+  <text x="300" y="56" text-anchor="middle" class="gt" style="font-size:11.5px">媒体与评论</text>
+  <text x="300" y="76" text-anchor="middle" class="sm" style="font-size:9px">Moro 对 Co–Star</text>
+  <text x="300" y="108" text-anchor="middle" style="font-size:9.5px">说明：作者的解读</text>
+  <text x="300" y="130" text-anchor="middle" class="sm" style="font-size:9.5px">不说明：用户怎么想</text>
+  <path class="l" d="M360 34h110v130h-110Z"/>
+  <text x="415" y="56" text-anchor="middle" class="gt" style="font-size:11.5px">系统的研究</text>
+  <text x="415" y="76" text-anchor="middle" class="sm" style="font-size:9px">Forer 的课堂实验</text>
+  <text x="415" y="108" text-anchor="middle" style="font-size:9.5px">说明：人接受笼统描述</text>
+  <text x="415" y="130" text-anchor="middle" class="sm" style="font-size:9.5px">不说明：占星是否准</text>
+  <text x="245" y="196" text-anchor="middle" class="gt" style="font-size:12.5px">不要从几个流传很广的例子，推断某种用法有多普遍</text>
+  <text x="245" y="214" text-anchor="middle" class="sm" style="font-size:11px">也不要把公司的数字，当作独立研究</text>
+  <text x="245" y="232" text-anchor="middle" class="sm" style="font-size:10.5px">本课用到的各类材料的分类；材料的具体来源见注释</text>
+</svg>

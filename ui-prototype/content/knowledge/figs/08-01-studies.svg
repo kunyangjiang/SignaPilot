@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 252" role="img" aria-label="三项研究能说明什么、不能说明什么的示意图，本课自绘，二手归纳。三列：一，TikTok 上的“预测仪式”：据罗马尼亚学者的综述转述，有的短视频用塔罗牌“预测”将来的事，包括体育结果；这说明这样的内容存在，不能说明它多普遍；二，罗马尼亚塔罗读者的访谈研究（Rughiniș 与 Enoiu，2025）：摘要说基于 6 位实践者的访谈，读者常把塔罗重新说成自我认识与内省，以拉开与“算命”的距离；这说明一部分读者这样说，不能代表所有读者；三，美国的 12 位用 AI 解读塔罗的读者的访谈（Prock 等，2026 年 CHI）：读者用 AI 来应对不确定、取得另一种视角；这说明这一小群人怎样使用，不能代表所有人。底部：这几项研究都是小样本的定性研究，说明“有哪些用法”，不说明“有多少人这样用”">
+  <path class="l" d="M15 34h150v140h-150Z"/>
+  <text x="90" y="56" text-anchor="middle" class="gt" style="font-size:11px">TikTok 的“预测仪式”</text>
+  <text x="90" y="74" text-anchor="middle" class="sm" style="font-size:9.5px">据综述转述</text>
+  <text x="90" y="108" text-anchor="middle" style="font-size:10px">说明：这样的内容存在</text>
+  <text x="90" y="124" text-anchor="middle" style="font-size:10px">不说明：它有多普遍</text>
+  <text x="90" y="156" text-anchor="middle" class="sm" style="font-size:10px">小样本，定性</text>
+  <path class="l" d="M170 34h150v140h-150Z"/>
+  <text x="245" y="56" text-anchor="middle" class="gt" style="font-size:11px">罗马尼亚读者的访谈</text>
+  <text x="245" y="74" text-anchor="middle" class="sm" style="font-size:9.5px">Rughiniș 与 Enoiu，2025</text>
+  <text x="245" y="108" text-anchor="middle" style="font-size:10px">说明：一部分读者把塔罗</text>
+  <text x="245" y="124" text-anchor="middle" style="font-size:10px">说成内省、非“算命”</text>
+  <text x="245" y="156" text-anchor="middle" class="sm" style="font-size:10px">小样本，定性</text>
+  <path class="l" d="M325 34h150v140h-150Z"/>
+  <text x="400" y="56" text-anchor="middle" class="gt" style="font-size:11px">美国 12 位读者的访谈</text>
+  <text x="400" y="74" text-anchor="middle" class="sm" style="font-size:9.5px">Prock 等，CHI 2026</text>
+  <text x="400" y="108" text-anchor="middle" style="font-size:10px">说明：这一小群人用 AI</text>
+  <text x="400" y="124" text-anchor="middle" style="font-size:10px">应对不确定、取新视角</text>
+  <text x="400" y="156" text-anchor="middle" class="sm" style="font-size:10px">小样本，定性</text>
+  <text x="245" y="204" text-anchor="middle" class="gt" style="font-size:12.5px">这些研究说明“有哪些用法”，不说明“有多少人这样用”</text>
+  <text x="245" y="222" text-anchor="middle" class="sm" style="font-size:11px">也不能由此断言，塔罗能或不能预测任何事</text>
+  <text x="245" y="240" text-anchor="middle" class="sm" style="font-size:10.5px">据 Rughiniș 与 Enoiu（2025）、Prock 等（2026）；TikTok 一项据前者转述，本课没有读到原研究</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 246" role="img" aria-label="关于一个现代宗教的两个不同问题的示意图，本课自绘。左：“它从哪里来？”是历史问题，要看文献、出版记录、同时代的证据；Wicca 的答案：现代英国，20 世纪中叶，创始人 Gardner 及其同伴，多种来源拼合，有独特的创新；至今没有证实“古老宗教幸存”的材料。右：“它对今天的人意味着什么？”是宗教与意义的问题，要看参与者怎样理解、实践与共同体怎样运作；答案因人而异，历史批评不能直接回答它。中间一条虚线隔开：两个问题用的证据不同，答案互不能代替。底部：证明一个宗教是新近形成的，不等于证明它没有宗教意义；说它古老，也不能替代对它形成过程的证据">
+  <path class="l" d="M15 36h210v132h-210Z"/>
+  <text x="120" y="58" text-anchor="middle" class="gt" style="font-size:13px">它从哪里来？</text>
+  <text x="120" y="78" text-anchor="middle" class="sm" style="font-size:10.5px">历史问题</text>
+  <text x="120" y="102" text-anchor="middle" style="font-size:10px">看文献、出版记录、</text>
+  <text x="120" y="116" text-anchor="middle" style="font-size:10px">同时代的证据</text>
+  <text x="120" y="130" text-anchor="middle" style="font-size:10px">答案：20 世纪中叶的英国，</text>
+  <text x="120" y="144" text-anchor="middle" style="font-size:10px">Gardner 与同伴，多种来源拼合</text>
+  <text x="120" y="158" text-anchor="middle" style="font-size:10px">没有证实“古老宗教幸存”</text>
+  <path class="gl" d="M265 36h210v132h-210Z"/>
+  <text x="370" y="58" text-anchor="middle" class="gt" style="font-size:13px">它对今天的人意味着什么？</text>
+  <text x="370" y="78" text-anchor="middle" class="sm" style="font-size:10.5px">宗教与意义的问题</text>
+  <text x="370" y="102" text-anchor="middle" style="font-size:10px">看参与者怎样理解、</text>
+  <text x="370" y="116" text-anchor="middle" style="font-size:10px">怎样实践，共同体怎样运作</text>
+  <text x="370" y="130" text-anchor="middle" style="font-size:10px">答案因人而异</text>
+  <text x="370" y="144" text-anchor="middle" style="font-size:10px">历史批评不能直接回答它</text>
+  <text x="370" y="158" text-anchor="middle" style="font-size:10px">也不会因此自动变成“无效”</text>
+  <path class="l thin" d="M245 36V168" stroke-dasharray="3 4"/>
+  <text x="245" y="198" text-anchor="middle" class="gt" style="font-size:12.5px">两个问题，用的证据不同，答案互不能代替</text>
+  <text x="245" y="216" text-anchor="middle" class="sm" style="font-size:11px">证明它是新近形成的，不等于证明它没有宗教意义</text>
+  <text x="245" y="234" text-anchor="middle" class="sm" style="font-size:11px">说它“古老”，也替代不了对它形成过程的证据</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 288" role="img" aria-label="八字的两步：排盘与论命，在三种场合里由谁来做的示意图，本课自绘，据 Li 等（2026）和 Ling 等（2026）的研究和维基百科条目，二手归纳。上方两步：一，排盘：把出生的年月日时，换成四对干支，需要历法的计算，包括按节气定月；二，论命：用五行生克、日主等规则，对这张盘作解读。下方三行：一，传统的命理师：两步都由一个人做，靠师承和经验，可以追问，也可以拒绝；二，应用：排盘由程序算，解读用模板或生成的文字；三，通用 AI 对话：用户常常自己把四柱贴进去，要求“按八字理论”分析；有用户和命理师都说，AI 排盘不稳定，同样的四柱问两次，答案可能不同。底部：同一个词，两步分开之后，每一步由谁来做、能不能被检查，就变了">
+  <path class="l" d="M110 34h150v38h-150Z"/>
+  <text x="185" y="58" text-anchor="middle" class="gt" style="font-size:11.5px">① 排盘：换成四对干支</text>
+  <path class="l" d="M290 34h150v38h-150Z"/>
+  <text x="365" y="58" text-anchor="middle" class="gt" style="font-size:11.5px">② 论命：解读这张盘</text>
+  <path class="l thin" d="M15 86h460v36h-460Z"/>
+  <text x="25" y="108" text-anchor="start" class="gt" style="font-size:11.5px">传统的命理师</text>
+  <text x="125" y="108" text-anchor="start" style="font-size:10px">一个人做两步</text>
+  <text x="465" y="108" text-anchor="end" class="sm" style="font-size:9.5px">靠师承与经验；可追问，可拒绝</text>
+  <path class="l thin" d="M15 130h460v36h-460Z"/>
+  <text x="25" y="152" text-anchor="start" class="gt" style="font-size:11.5px">应用</text>
+  <text x="125" y="152" text-anchor="start" style="font-size:10px">程序排盘；模板或生成文字解读</text>
+  <text x="465" y="152" text-anchor="end" class="sm" style="font-size:9.5px">快、便宜；不能追问师承</text>
+  <path class="gl" d="M15 174h460v36h-460Z"/>
+  <text x="25" y="196" text-anchor="start" class="gt" style="font-size:11.5px">通用 AI 对话</text>
+  <text x="125" y="196" text-anchor="start" style="font-size:10px">用户自己贴四柱；AI 生成解读</text>
+  <text x="465" y="196" text-anchor="end" class="sm" style="font-size:9.5px">排盘不稳；同一四柱问两次，可能不同</text>
+  <text x="245" y="240" text-anchor="middle" class="gt" style="font-size:12.5px">两步分开之后，每一步由谁做、能不能被检查，就变了</text>
+  <text x="245" y="258" text-anchor="middle" class="sm" style="font-size:11px">排盘是计算，可以核对；论命是解释，要看规则与说话的人</text>
+  <text x="245" y="276" text-anchor="middle" class="sm" style="font-size:10.5px">据 Li 等（2026）、Ling 等（2026）与维基百科“Four Pillars of Destiny”</text>
+</svg>

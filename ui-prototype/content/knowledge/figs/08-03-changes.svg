@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 252" role="img" aria-label="传统命理与当代界面相比，丢了什么、加了什么、改了什么的示意图，本课自绘，据两项 2026 年研究的叙述，二手归纳，不代表所有产品与用户。三栏：丢了：面对面的追问；师承与责任；按伦理拒绝有害的请求（研究者指出 AI 工具不能拒绝）；仪式感与“灵力”的氛围（用户说 AI 缺少神秘感，命理师说它缺少“灵力”）；加了：零成本和随时可用；反复生成、换模型对比；社区里互相分享、一起改提示词；一个新的称呼“玄学”，被用作绕开平台审查的词；改了：“准”的标准，从师傅的权威，变成“与我的经历吻合”和“多问几次是否一致”；谁是权威，从师傅变成工具、创作者与社区。底部：这些来自小样本的研究，说明“发生了什么变化”，不说明“有多少人这样用”，也不说明八字是否有效">
+  <path class="l" d="M15 34h150v140h-150Z"/>
+  <text x="90" y="56" text-anchor="middle" class="gt" style="font-size:13px">丢了</text>
+  <text x="90" y="86" text-anchor="middle" style="font-size:10.5px">面对面的追问</text>
+  <text x="90" y="108" text-anchor="middle" style="font-size:10.5px">师承与责任</text>
+  <text x="90" y="130" text-anchor="middle" style="font-size:10.5px">按伦理拒绝有害请求</text>
+  <text x="90" y="152" text-anchor="middle" style="font-size:10.5px">“灵力”与仪式的氛围</text>
+  <path class="l" d="M170 34h150v140h-150Z"/>
+  <text x="245" y="56" text-anchor="middle" class="gt" style="font-size:13px">加了</text>
+  <text x="245" y="86" text-anchor="middle" style="font-size:10.5px">零成本，随时可用</text>
+  <text x="245" y="108" text-anchor="middle" style="font-size:10.5px">反复生成、换模型对比</text>
+  <text x="245" y="130" text-anchor="middle" style="font-size:10.5px">社区里分享、改提示词</text>
+  <text x="245" y="152" text-anchor="middle" style="font-size:10.5px">“玄学”一词绕开审查</text>
+  <path class="gl" d="M325 34h150v140h-150Z"/>
+  <text x="400" y="56" text-anchor="middle" class="gt" style="font-size:13px">改了</text>
+  <text x="400" y="86" text-anchor="middle" style="font-size:10.5px">“准”的标准：</text>
+  <text x="400" y="108" text-anchor="middle" style="font-size:10.5px">从师傅的权威</text>
+  <text x="400" y="130" text-anchor="middle" style="font-size:10.5px">变成“与我的经历吻合”</text>
+  <text x="400" y="152" text-anchor="middle" style="font-size:10.5px">和“问几次是否一致”</text>
+  <text x="245" y="204" text-anchor="middle" class="gt" style="font-size:12.5px">小样本研究，说明“发生了什么变化”</text>
+  <text x="245" y="222" text-anchor="middle" class="sm" style="font-size:11px">不说明有多少人这样用，也不说明八字是否有效</text>
+  <text x="245" y="240" text-anchor="middle" class="sm" style="font-size:10.5px">据 Li 等（2026）、Ling 等（2026）</text>
+</svg>

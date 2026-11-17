@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 232" role="img" aria-label="同一段训示在几个文本之间的传递的示意图，本课自绘，据 Leland 1899 年的书（本课读到原文）和百科条目对 Heselton、Hutton 的转述，二手归纳，不复制任何后来的文本。四格从左到右：一，Leland《阿拉迪亚》（1899）：英译的一段训示，讲每月月圆聚会、不再为奴、礼仪中赤身；二，Gardner 的早期文本（1940 年代末）：据百科条目，他的版本里有 Crowley 的《法之书》等材料；三，Valiente 的重写（1950 年代中期）：据条目，她删去了不喜欢的 Crowley 影响，写了诗体和散文体两个版本；四，后来的传统（Reclaiming 等）：各有改写。格与格之间的箭头标明证据：一到二，条目称第二段大部分来自《阿拉迪亚》；二到三，条目与 Valiente 自述；三到四，后来传统自己的说法。底部：同一段话，换了人、换了场合，意思也换了；意义不在字面，而在谁在什么场合念它">
+  <defs><marker id="ar0707" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="gl" d="M8 40h108v110h-108Z"/>
+  <text x="62" y="62" text-anchor="middle" class="gt" style="font-size:12px">① Leland</text>
+  <text x="62" y="80" text-anchor="middle" class="sm" style="font-size:9.5px">1899 · 《阿拉迪亚》</text>
+  <text x="62" y="108" text-anchor="middle" style="font-size:9.5px">月圆聚会 · 脱离奴役</text>
+  <text x="62" y="130" text-anchor="middle" class="sm" style="font-size:9px">英译的训示（原文读到）</text>
+  <path class="l thin" d="M116 95h14" marker-end="url(#ar0707)"/>
+  <path class="l" d="M130 40h108v110h-108Z"/>
+  <text x="184" y="62" text-anchor="middle" class="gt" style="font-size:12px">② Gardner</text>
+  <text x="184" y="80" text-anchor="middle" class="sm" style="font-size:9.5px">1940 年代末</text>
+  <text x="184" y="108" text-anchor="middle" style="font-size:9.5px">加入 Crowley 等材料</text>
+  <text x="184" y="130" text-anchor="middle" class="sm" style="font-size:9px">据百科条目转述</text>
+  <path class="l thin" d="M238 95h14" marker-end="url(#ar0707)"/>
+  <path class="l" d="M252 40h108v110h-108Z"/>
+  <text x="306" y="62" text-anchor="middle" class="gt" style="font-size:12px">③ Valiente</text>
+  <text x="306" y="80" text-anchor="middle" class="sm" style="font-size:9.5px">1950 年代中期</text>
+  <text x="306" y="108" text-anchor="middle" style="font-size:9.5px">重写：去掉 Crowley</text>
+  <text x="306" y="130" text-anchor="middle" class="sm" style="font-size:9px">诗体与散文体两版</text>
+  <path class="l thin" d="M360 95h14" marker-end="url(#ar0707)"/>
+  <path class="l" d="M374 40h108v110h-108Z"/>
+  <text x="428" y="62" text-anchor="middle" class="gt" style="font-size:12px">④ 后来的传统</text>
+  <text x="428" y="80" text-anchor="middle" class="sm" style="font-size:9.5px">1970 年代以后</text>
+  <text x="428" y="108" text-anchor="middle" style="font-size:9.5px">各自改写、再诠释</text>
+  <text x="428" y="130" text-anchor="middle" class="sm" style="font-size:9px">如 Reclaiming</text>
+  <text x="245" y="182" text-anchor="middle" class="gt" style="font-size:12.5px">同一段话，换了人、换了场合，意思也换了</text>
+  <text x="245" y="200" text-anchor="middle" class="sm" style="font-size:11px">意义不在字面，而在谁、在什么场合、为什么念它</text>
+  <text x="245" y="218" text-anchor="middle" class="sm" style="font-size:10.5px">第一格读到原书；其余据百科条目对 Heselton、Hutton 的转述</text>
+</svg>

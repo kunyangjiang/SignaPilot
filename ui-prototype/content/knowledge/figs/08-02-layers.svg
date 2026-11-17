@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 274" role="img" aria-label="占星从观测到解读的四层，与网上随口说的“星座”的位置的示意图，本课自绘，据 Jeffrey Moro 2025 年的文章对占星“媒介层次”的归纳。四层从下到上：一，观测天体（今天由政府和学术机构承担）；二，把观测整理成星历表；三，据星历画出命盘；四，用语言解读命盘。四层的右边，标出网上随口说的“我是天蝎座”所处的位置：它只用了第三层里的一个点（太阳星座），并把第四层的解读压缩成一个性格标签。再右边，列出完整命盘里，网上随口说的星座没有用到的东西：月亮、上升、行星的位置、宫位、行运。底部：同一个词“星座”，在占星的体系里，是一个很大的数据结构的一小块；在网上的语言里，是一个人人都能用的标签">
+  <defs><marker id="ar0802" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M15 36h200v34h-200Z"/>
+  <text x="115" y="57" text-anchor="middle" class="gt" style="font-size:11.5px">④ 用语言解读命盘</text>
+  <path class="gl" d="M15 80h200v34h-200Z"/>
+  <text x="115" y="101" text-anchor="middle" class="gt" style="font-size:11.5px">③ 据星历画出命盘</text>
+  <path class="l" d="M15 124h200v34h-200Z"/>
+  <text x="115" y="145" text-anchor="middle" class="gt" style="font-size:11.5px">② 整理成星历表</text>
+  <path class="l" d="M15 168h200v34h-200Z"/>
+  <text x="115" y="189" text-anchor="middle" class="gt" style="font-size:11.5px">① 观测天体</text>
+  <path class="gl" d="M260 52h210v50h-210Z"/>
+  <text x="365" y="72" text-anchor="middle" class="gt" style="font-size:12px">网上说的“我是天蝎座”</text>
+  <text x="365" y="90" text-anchor="middle" style="font-size:10px">只用了一个点：太阳星座 → 一个标签</text>
+  <path class="l thin" d="M215 97h45" marker-end="url(#ar0802)"/>
+  <text x="365" y="128" text-anchor="middle" class="sm" style="font-size:10.5px">完整命盘里，没有被用到的：</text>
+  <text x="365" y="146" text-anchor="middle" style="font-size:10.5px">月亮 · 上升 · 各行星的位置</text>
+  <text x="365" y="162" text-anchor="middle" style="font-size:10.5px">宫位 · 行运（随时间的变化）</text>
+  <text x="245" y="226" text-anchor="middle" class="gt" style="font-size:12.5px">同一个词“星座”，在两处是两种东西</text>
+  <text x="245" y="244" text-anchor="middle" class="sm" style="font-size:10.5px">占星体系里，它是一个大数据结构的一小块；网上的语言里，它是一个人人都能用的标签</text>
+  <text x="245" y="262" text-anchor="middle" class="sm" style="font-size:10.5px">据 Moro（2025）对占星媒介层次的归纳；本课不判断占星是否有效</text>
+</svg>
