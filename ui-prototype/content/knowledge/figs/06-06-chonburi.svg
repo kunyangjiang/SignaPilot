@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 304" role="img" aria-label="2023 年春武里佛牌骗局的价格对比图，本课自绘，据美国之音（VOA，2023 年 9 月）报道的警方说法。两根横条，用对数刻度画（每格十倍）：上面一根短的，标“约 11 美元”，是警方称这些复制品本来的价值；下面一根长得多，标“715 至 2,830 美元”，是警方称它们在“寺庙仪式”之后被卖给中国游客的价格。右边注：泰国警方指控 20 人，其中 18 人是中国公民；这是警方的指控，不是法院的判决。底部：一枚小小的物件，价格在几个小时里差了几十到几百倍；这个差距，是谁、用什么说法造出来的？">
+  <text x="245" y="24" text-anchor="middle" class="sm" style="font-size:11px">价格对比（对数刻度，每格一个十倍）</text>
+  <path class="l thin" d="M40 40V210" stroke-dasharray="2 4"/>
+  <text x="40" y="226" text-anchor="middle" class="sm" style="font-size:10px">10</text>
+  <path class="l thin" d="M160 40V210" stroke-dasharray="2 4"/>
+  <text x="160" y="226" text-anchor="middle" class="sm" style="font-size:10px">100</text>
+  <path class="l thin" d="M280 40V210" stroke-dasharray="2 4"/>
+  <text x="280" y="226" text-anchor="middle" class="sm" style="font-size:10px">1,000</text>
+  <path class="l thin" d="M400 40V210" stroke-dasharray="2 4"/>
+  <text x="400" y="226" text-anchor="middle" class="sm" style="font-size:10px">10,000</text>
+  <path class="wash" d="M40 62H45V96H40Z"/><path class="gl" d="M40 62H45V96H40Z"/>
+  <text x="52.9671" y="84" text-anchor="start" style="font-size:11px">约 11 美元（警方称的本来价值）</text>
+  <path class="wash" d="M263 124H334V158H263Z"/><path class="gl" d="M263 124H334V158H263Z"/>
+  <text x="254.517" y="146" text-anchor="end" style="font-size:11px">卖出的价格：715–2,830 美元</text>
+  <text x="245" y="258" text-anchor="middle" class="gt" style="font-size:12.5px">一枚小物件，价格差了几十到几百倍</text>
+  <text x="245" y="276" text-anchor="middle" class="sm" style="font-size:10.5px">2023 年春武里府 Khao Chi Chan 寺：20 人被起诉（18 位中国公民）；指控，不是判决</text>
+  <text x="245" y="292" text-anchor="middle" class="sm" style="font-size:10.5px">据 VOA（2023 年 9 月 14 日）；报道里没有判决，本课也没有查到后续</text>
+</svg>

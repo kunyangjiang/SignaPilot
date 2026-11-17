@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 346" role="img" aria-label="一次纹身涉及的几方和几样东西的示意图，本课自绘，据本课读到的两份材料。中间是“一次 Sak Yant”。上方是师傅（ครู khru，常称 ajarn），左边是求纹者，右边是图案的内容：Khom 文写的巴利语或梵语短句，也可能是几何或图形。下方两个框：一，礼仪，求纹者带着花、香、蜡烛、槟榔和放师傅酬礼的供盘，通过“Wai Khru”和“Pan Khru”表示愿意成为弟子；二，规矩，师傅给自己和弟子立下规矩，据说违背规矩，图案就失去力量。右下：每年一次的“Wai Khru”和“Krob Khru”仪式，据北大年一项研究，在 Wat Chang Hai 举行。底部：这是几处材料拼出的一个轮廓，不是所有传承都这样做；各地、各个师傅，规矩不同">
+  <defs><marker id="ar6502" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="gl" d="M170 110h150v56h-150Z"/>
+  <text x="245" y="134" text-anchor="middle" class="gt" style="font-size:13px">一次 Sak Yant</text>
+  <text x="245" y="154" text-anchor="middle" style="font-size:14px">สักยันต์</text>
+  <path class="l" d="M180 24h130v46h-130Z"/>
+  <text x="245" y="44" text-anchor="middle" style="font-size:12px">师傅 ครู khru</text>
+  <text x="245" y="60" text-anchor="middle" class="sm" style="font-size:10px">（常称 ajarn）</text>
+  <path class="l thin" d="M245 70V110" marker-end="url(#ar6502)"/>
+  <path class="l" d="M16 110h130v56h-130Z"/>
+  <text x="81" y="134" text-anchor="middle" style="font-size:12px">求纹者</text>
+  <text x="81" y="152" text-anchor="middle" class="sm" style="font-size:10px">（弟子）</text>
+  <path class="l thin" d="M146 138H170" marker-end="url(#ar6502)"/>
+  <path class="l" d="M344 98h130v80h-130Z"/>
+  <text x="409" y="120" text-anchor="middle" style="font-size:12px">图案的内容</text>
+  <text x="409" y="138" text-anchor="middle" style="font-size:10px">Khom 文写的</text>
+  <text x="409" y="152" text-anchor="middle" style="font-size:10px">巴利语、梵语短句</text>
+  <text x="409" y="166" text-anchor="middle" style="font-size:10px">或几何、图形</text>
+  <path class="l thin" d="M320 138H344" marker-end="url(#ar6502)"/>
+  <path class="l" d="M16 210h210v78h-210Z"/>
+  <text x="121" y="230" text-anchor="middle" class="gt" style="font-size:12px">礼仪</text>
+  <text x="121" y="248" text-anchor="middle" style="font-size:9.5px">花、香、蜡烛、槟榔、供盘（含酬礼）</text>
+  <text x="121" y="262" text-anchor="middle" style="font-size:9.5px">“Wai Khru”“Pan Khru”：</text>
+  <text x="121" y="276" text-anchor="middle" style="font-size:9.5px">表示愿意成为弟子</text>
+  <path class="l" d="M264 210h210v78h-210Z"/>
+  <text x="369" y="230" text-anchor="middle" class="gt" style="font-size:12px">规矩</text>
+  <text x="369" y="248" text-anchor="middle" style="font-size:9.5px">师傅给自己和弟子立下规矩；</text>
+  <text x="369" y="262" text-anchor="middle" style="font-size:9.5px">据说违背了，图案就失去力量</text>
+  <text x="369" y="276" text-anchor="middle" style="font-size:9.5px">每年 Wai Khru、Krob Khru 仪式</text>
+  <path class="l thin" d="M81 166V210" marker-end="url(#ar6502)"/><path class="l thin" d="M409 178V210" marker-end="url(#ar6502)"/>
+  <text x="245" y="316" text-anchor="middle" class="gt" style="font-size:12px">这是几处材料拼出的轮廓，不是所有传承都这样做</text>
+  <text x="245" y="334" text-anchor="middle" class="sm" style="font-size:10.5px">据北大年案例研究（2025）与泰国基金会文章（2023）；各地各师傅的规矩不同</text>
+</svg>

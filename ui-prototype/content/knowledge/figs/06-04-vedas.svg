@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 242" role="img" aria-label="四部吠陀的示意图，本课自绘，据联合国教科文组织对“吠陀诵读传统”的描述。四个框：《梨俱吠陀》（Ṛgveda），赞歌；《娑摩吠陀》（Sāmaveda），赞歌的乐调；《夜柔吠陀》（Yajurveda），祭司的祷词和祭祀用的口诀；《阿闼婆吠陀》（Atharvaveda），咒语和符咒。框下写：它们都是“很早以前就口耳相传”的。右边一行：本课只用其中的一句话来说明：吠陀被叫作“知识的书”，却是靠口传保存下来的。底部：四部的区分是教科文组织页面的简述；每一部内部、各个学派之间的差别，本课没有读到">
+  <path class="l" d="M20 40h108v96h-108Z"/>
+  <text x="74" y="74" text-anchor="middle" class="gt" style="font-size:12px">Ṛgveda</text>
+  <text x="74" y="104" text-anchor="middle" style="font-size:10.5px">赞歌</text>
+  <path class="l" d="M138 40h108v96h-108Z"/>
+  <text x="192" y="74" text-anchor="middle" class="gt" style="font-size:12px">Sāmaveda</text>
+  <text x="192" y="104" text-anchor="middle" style="font-size:10.5px">赞歌的乐调</text>
+  <path class="l" d="M256 40h108v96h-108Z"/>
+  <text x="310" y="74" text-anchor="middle" class="gt" style="font-size:12px">Yajurveda</text>
+  <text x="310" y="104" text-anchor="middle" style="font-size:10.5px">祷词与口诀</text>
+  <path class="l" d="M374 40h108v96h-108Z"/>
+  <text x="428" y="74" text-anchor="middle" class="gt" style="font-size:12px">Atharvaveda</text>
+  <text x="428" y="104" text-anchor="middle" style="font-size:10.5px">咒语与符咒</text>
+  <text x="245" y="28" text-anchor="middle" class="sm" style="font-size:11px">教科文组织页面对四部吠陀的简述</text>
+  <path class="l thin" d="M20 160H470" stroke-dasharray="2 4"/>
+  <text x="245" y="190" text-anchor="middle" class="gt" style="font-size:12.5px">被叫作“知识的书”，却是靠口传保存下来的</text>
+  <text x="245" y="210" text-anchor="middle" class="sm" style="font-size:11px">婆罗门祭司世代保存；从童年开始学习</text>
+  <text x="245" y="230" text-anchor="middle" class="sm" style="font-size:10px">四部的简述据联合国教科文组织“吠陀诵读传统”页面；各部内部、各学派之间的差别，本课没有读到</text>
+</svg>

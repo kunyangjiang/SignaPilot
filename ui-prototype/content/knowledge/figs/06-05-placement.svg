@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 346" role="img" aria-label="身体各部位在泰国被怎样看待的示意图，本课自绘，据美国国家公共电台（NPR）2011 年的报道。一条竖线，上端标“头：神圣”，下端标“脚：不洁”，中间一条横线标“腰”。腰以上写：佛教图案一般可接受；腰以下写：外国人把佛教图案纹在腰以下，会令泰国人不安。右边引用报道里的话：一位纹身师傅说，他的师傅绝不会把 Sak Yant 纹在腰带以下。底部：这是社会如何理解“位置”的一个例子；位置的意义，不在图案本身，而在人们怎样看待身体的各部分">
+  <path class="l" d="M120 40V270"/>
+  <path class="l" d="M60 150H180"/>
+  <text x="120" y="30" text-anchor="middle" class="gt" style="font-size:12.5px">头：神圣</text>
+  <text x="120" y="290" text-anchor="middle" class="sm" style="font-size:12.5px">脚：不洁</text>
+  <text x="190" y="154" text-anchor="start" style="font-size:11px">腰</text>
+  <text x="40" y="94" text-anchor="end" class="gt" style="font-size:11px">腰以上</text>
+  <text x="260" y="94" text-anchor="start" style="font-size:10.5px">图案本身未必有问题</text>
+  <text x="40" y="214" text-anchor="end" class="gt" style="font-size:11px">腰以下</text>
+  <text x="260" y="206" text-anchor="start" style="font-size:10.5px">外国人把佛教图案</text>
+  <text x="260" y="222" text-anchor="start" style="font-size:10.5px">纹在腰以下，会令泰国人不安</text>
+  <text x="260" y="250" text-anchor="start" class="sm" style="font-size:10px">一位纹身师傅说：他的师傅</text>
+  <text x="260" y="266" text-anchor="start" class="sm" style="font-size:10px">绝不会把 Sak Yant 纹在腰带以下</text>
+  <text x="245" y="316" text-anchor="middle" class="gt" style="font-size:12px">位置的意义，不在图案本身，而在人们怎样看待身体的各部分</text>
+  <text x="245" y="334" text-anchor="middle" class="sm" style="font-size:10.5px">据 NPR（Anthony Kuhn），2011 年 6 月 20 日的报道，是转述；各地各人的看法不一</text>
+</svg>

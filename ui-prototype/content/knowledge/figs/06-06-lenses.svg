@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 276" role="img" aria-label="看一枚佛牌的五个角度的示意图，本课自绘。五个并排的框：一，材质证据：它是什么做的、多大、有什么印纹，需要检测和比对；二，机构来历：哪个寺、哪位僧人、哪一年，需要寺院或机构的记录；三，宗教解释：它代表什么、为什么受敬重，来自僧人、信众、教义；四，市场说法：价格、证书、稀有程度，来自卖家和收藏者；五，不确定：哪些说不清，包括“是否灵验”。下方：每个角度回答的是不同的问题，不能互相代替。底部：一个标价，不能说明它是否神圣；一份证书，不能说明它的来历是否真实">
+  <path class="l thin" d="M10 40h90v150h-90Z"/>
+  <text x="55" y="66" text-anchor="middle" class="gt" style="font-size:12px">材质证据</text>
+  <text x="55" y="100" text-anchor="middle" style="font-size:9.5px">做的材料、大小、</text>
+  <text x="55" y="116" text-anchor="middle" style="font-size:9.5px">印纹，要检测比对</text>
+  <path class="l thin" d="M106 40h90v150h-90Z"/>
+  <text x="151" y="66" text-anchor="middle" class="gt" style="font-size:12px">机构来历</text>
+  <text x="151" y="100" text-anchor="middle" style="font-size:9.5px">哪个寺、哪位僧人、</text>
+  <text x="151" y="116" text-anchor="middle" style="font-size:9.5px">哪一年，要有记录</text>
+  <path class="l thin" d="M202 40h90v150h-90Z"/>
+  <text x="247" y="66" text-anchor="middle" class="gt" style="font-size:12px">宗教解释</text>
+  <text x="247" y="100" text-anchor="middle" style="font-size:9.5px">它代表什么、</text>
+  <text x="247" y="116" text-anchor="middle" style="font-size:9.5px">为什么受敬重</text>
+  <path class="l thin" d="M298 40h90v150h-90Z"/>
+  <text x="343" y="66" text-anchor="middle" class="gt" style="font-size:12px">市场说法</text>
+  <text x="343" y="100" text-anchor="middle" style="font-size:9.5px">价格、证书、稀有，</text>
+  <text x="343" y="116" text-anchor="middle" style="font-size:9.5px">来自卖家与收藏者</text>
+  <path class="gl thin" d="M394 40h90v150h-90Z"/>
+  <text x="439" y="66" text-anchor="middle" class="gt" style="font-size:12px">不确定</text>
+  <text x="439" y="100" text-anchor="middle" style="font-size:9.5px">说不清的地方，</text>
+  <text x="439" y="116" text-anchor="middle" style="font-size:9.5px">包括“是否灵验”</text>
+  <text x="245" y="226" text-anchor="middle" class="gt" style="font-size:12.5px">每个角度回答的是不同的问题，不能互相代替</text>
+  <text x="245" y="246" text-anchor="middle" class="sm" style="font-size:11px">一个标价，不能说明它是否神圣；一份证书，不能说明来历是否真实</text>
+  <text x="245" y="264" text-anchor="middle" class="sm" style="font-size:10.5px">本课据 Zhai（2026）、Kwan（2026）的综述归纳；各角度的具体做法因物件而异</text>
+</svg>

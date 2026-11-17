@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 230" role="img" aria-label="曼谷二十位僧人怎样看佛牌与佛陀教导关系的示意图，本课自绘，据 Zhai（2026）的访谈研究。一排横条，总共 20 位僧人，来自曼谷 8 座寺庙：认为违背佛陀教导的 2 位；认为不违背的 4 位；认为两者无关的 7 位；说不确定的 7 位。底部：这是一项小规模的访谈研究，8 座寺庙里有的出租佛牌、有的不出租；它说明的是“僧人们意见不一”，不能代表泰国所有的僧人或佛教">
+  <text x="245" y="24" text-anchor="middle" class="gt" style="font-size:12px">20 位僧人（8 座曼谷寺庙）：佛牌违背佛陀的教导吗？</text>
+  <path class="l" d="M30 50h39v60h-39Z"/>
+  <text x="49.5" y="76" text-anchor="middle" style="font-size:12px">违背</text>
+  <text x="49.5" y="98" text-anchor="middle" class="gt" style="font-size:12px">2 位</text>
+  <path class="gl" d="M73 50h82v60h-82Z" style="stroke-width:1.8"/>
+  <path class="wash" d="M73 50h82v60h-82Z"/>
+  <text x="114" y="76" text-anchor="middle" style="font-size:12px">不违背</text>
+  <text x="114" y="98" text-anchor="middle" class="gt" style="font-size:12px">4 位</text>
+  <path class="l" d="M159 50h146v60h-146Z"/>
+  <text x="232.25" y="76" text-anchor="middle" style="font-size:12px">两者无关</text>
+  <text x="232.25" y="98" text-anchor="middle" class="gt" style="font-size:12px">7 位</text>
+  <path class="l" d="M310 50h146v60h-146Z"/>
+  <text x="382.75" y="76" text-anchor="middle" style="font-size:12px">不确定</text>
+  <text x="382.75" y="98" text-anchor="middle" class="gt" style="font-size:12px">7 位</text>
+  <text x="245" y="150" text-anchor="middle" class="gt" style="font-size:12px">意见不一：有说违背的，有说不违背的，更多说“无关”或“不确定”</text>
+  <text x="245" y="170" text-anchor="middle" class="sm" style="font-size:10.5px">不出租的寺庙里，多数人说“不确定”；出租的寺庙里，多数人说“不违背”或“无关”</text>
+  <text x="245" y="200" text-anchor="middle" class="gt" style="font-size:12px">这是一项小规模的访谈研究，不能代表泰国所有的僧人或佛教</text>
+  <text x="245" y="218" text-anchor="middle" class="sm" style="font-size:10.5px">据 Zhai, Journal of Buddhist Education and Research 12(2), 2026；本课没有核对问卷</text>
+</svg>

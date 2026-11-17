@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 282" role="img" aria-label="《日本书纪》推古十年（602 年）冬十月一条的示意图，本课自绘，据本课读到的汉文原文。左边：百济僧观勒来，献上三类书：历本；天文地理书；遁甲方术之书。右边：选了书生三四人向观勒学习，三个人的名字和学的东西：阳胡史祖玉陈学历法；大友村主高聪学天文、遁甲；山背臣日并立学方术。最后一句：皆学以成业。底部：这一条说明的是知识怎样被带进来、谁来学；不说明后来的制度是什么样的">
+  <defs><marker id="ar6702" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <text x="80" y="28" text-anchor="middle" class="gt" style="font-size:12.5px">观勒（百济僧）献上</text>
+  <text x="380" y="28" text-anchor="middle" class="gt" style="font-size:12.5px">选书生三四人，向他学习</text>
+  <path class="l" d="M20 44H150V90H20Z"/>
+  <text x="85" y="64" text-anchor="middle" style="font-size:12.5px">历本</text>
+  <text x="85" y="80" text-anchor="middle" class="sm" style="font-size:10px">计算历法的书</text>
+  <path class="l thin" d="M150 67H240" marker-end="url(#ar6702)"/>
+  <path class="l" d="M20 102H150V148H20Z"/>
+  <text x="85" y="122" text-anchor="middle" style="font-size:12.5px">天文地理书</text>
+  <text x="85" y="138" text-anchor="middle" class="sm" style="font-size:10px">观测与地理</text>
+  <path class="l thin" d="M150 125H240" marker-end="url(#ar6702)"/>
+  <path class="l" d="M20 160H150V206H20Z"/>
+  <text x="85" y="180" text-anchor="middle" style="font-size:12.5px">遁甲方术之书</text>
+  <text x="85" y="196" text-anchor="middle" class="sm" style="font-size:10px">遁甲与方术</text>
+  <path class="l thin" d="M150 183H240" marker-end="url(#ar6702)"/>
+  <path class="gl thin" d="M250 44H470V90H250Z"/>
+  <text x="360" y="64" text-anchor="middle" class="gt" style="font-size:12.5px">阳胡史祖玉陈</text>
+  <text x="360" y="80" text-anchor="middle" style="font-size:11px">学历法</text>
+  <path class="gl thin" d="M250 102H470V148H250Z"/>
+  <text x="360" y="122" text-anchor="middle" class="gt" style="font-size:12.5px">大友村主高聪</text>
+  <text x="360" y="138" text-anchor="middle" style="font-size:11px">学天文、遁甲</text>
+  <path class="gl thin" d="M250 160H470V206H250Z"/>
+  <text x="360" y="180" text-anchor="middle" class="gt" style="font-size:12.5px">山背臣日并立</text>
+  <text x="360" y="196" text-anchor="middle" style="font-size:11px">学方术</text>
+  <text x="245" y="232" text-anchor="middle" class="gt" style="font-size:12.5px">“皆学以成业”</text>
+  <text x="245" y="252" text-anchor="middle" class="sm" style="font-size:11px">这一条说明知识怎样被带进来、谁去学；不说明后来的制度是什么样的</text>
+  <text x="245" y="270" text-anchor="middle" class="sm" style="font-size:10.5px">据《日本书纪》推古十年条的汉文录文（韩文维基文库）；“玉陈”另有写作“王陈”的本子</text>
+</svg>

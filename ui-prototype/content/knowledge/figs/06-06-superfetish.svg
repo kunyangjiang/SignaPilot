@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 314" role="img" aria-label="佛牌身上叠着三种价值的示意图，本课自绘，据 Stengs 的“超级拜物”概念，经 Kwan（2026）转述。三个相交的圆：一，有力量的物件，被相信能保护、带来好运；二，商品，在消费市场上交换；三，收藏品，用来显示地位、专业、男性气质和社会权力。三个圆相交的中间，标“佛牌”。底部：一个物件，同时是三种东西；不能只用其中一种去解释它，也不能因为它是商品，就说它不神圣，或因为它神圣，就说它不是商品">
+  <circle class="l" cx="180" cy="120" r="60"/>
+  <circle class="l" cx="260" cy="120" r="60"/>
+  <circle class="l" cx="220" cy="180" r="60"/>
+  <text x="112" y="100" text-anchor="end" class="gt" style="font-size:11px">有力量的物件</text>
+  <text x="112" y="116" text-anchor="end" class="sm" style="font-size:10px">保护、好运</text>
+  <text x="328" y="100" text-anchor="start" class="gt" style="font-size:11px">商品</text>
+  <text x="328" y="116" text-anchor="start" class="sm" style="font-size:10px">在市场上交换</text>
+  <text x="290" y="214" text-anchor="start" class="gt" style="font-size:11px">收藏品</text>
+  <text x="290" y="230" text-anchor="start" class="sm" style="font-size:10px">显示地位、专业</text>
+  <text x="220" y="140" text-anchor="middle" class="gt" style="font-size:13px">佛牌</text>
+  <text x="245" y="268" text-anchor="middle" class="gt" style="font-size:12.5px">一个物件，同时是三种东西</text>
+  <text x="245" y="286" text-anchor="middle" class="sm" style="font-size:11px">不能因为它是商品，就说它不神圣；也不能因为它神圣，就说它不是商品</text>
+  <text x="245" y="302" text-anchor="middle" class="sm" style="font-size:10.5px">“超级拜物”（superfetish）：据 Kwan（2026）对 Stengs 的转述；本课没有读 Stengs 原著</text>
+</svg>

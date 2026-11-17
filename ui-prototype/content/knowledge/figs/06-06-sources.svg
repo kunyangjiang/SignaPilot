@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 308" role="img" aria-label="学者怎样说佛牌的“力量”来自哪里的示意图，本课自绘，据 Zhai（2026）文献综述对各家的转述，是二手归纳。四条线从中间的“佛牌”伸向四处：一，加持的仪式与人们对它的敬重（Dansilp 与 Freeman，2002）；二，佛的遗骨、佛像与圣地（Jackson，1999；Reynolds，2019）；三，受尊敬的僧人和教义（Soontravanich，2013）；四，民间信仰与超自然的成分，如对 Luang Phor Khoon 的崇敬（Yee，1996；Jackson，1999）。底部：不同的学者强调不同的来源；本课没有读这些原著，只读到 Zhai 的转述">
+  <defs><marker id="ar6603" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="gl" d="M190 100h110v50h-110Z"/>
+  <text x="245" y="122" text-anchor="middle" class="gt" style="font-size:14px">佛牌</text>
+  <text x="245" y="140" text-anchor="middle" class="sm" style="font-size:10.5px">“力量”从哪里来？</text>
+  <path class="l" d="M20 30h140v60h-140Z"/>
+  <text x="90" y="50" text-anchor="middle" class="gt" style="font-size:11.5px">加持的仪式</text>
+  <text x="90" y="66" text-anchor="middle" style="font-size:10px">与人们对它的敬重</text>
+  <text x="90" y="82" text-anchor="middle" class="sm" style="font-size:8.5px">Dansilp & Freeman 2002</text>
+  <path class="l thin" d="M205 125L90 90" marker-end="url(#ar6603)"/>
+  <path class="l" d="M330 30h140v60h-140Z"/>
+  <text x="400" y="50" text-anchor="middle" class="gt" style="font-size:11.5px">佛的遗骨、佛像</text>
+  <text x="400" y="66" text-anchor="middle" style="font-size:10px">与圣地</text>
+  <text x="400" y="82" text-anchor="middle" class="sm" style="font-size:8.5px">Jackson 1999；Reynolds 2019</text>
+  <path class="l thin" d="M285 125L400 90" marker-end="url(#ar6603)"/>
+  <path class="l" d="M20 190h140v60h-140Z"/>
+  <text x="90" y="210" text-anchor="middle" class="gt" style="font-size:11.5px">受尊敬的僧人</text>
+  <text x="90" y="226" text-anchor="middle" style="font-size:10px">与教义</text>
+  <text x="90" y="242" text-anchor="middle" class="sm" style="font-size:8.5px">Soontravanich 2013</text>
+  <path class="l thin" d="M205 125L90 190" marker-end="url(#ar6603)"/>
+  <path class="l" d="M330 190h140v60h-140Z"/>
+  <text x="400" y="210" text-anchor="middle" class="gt" style="font-size:11.5px">民间信仰与</text>
+  <text x="400" y="226" text-anchor="middle" style="font-size:10px">超自然的成分</text>
+  <text x="400" y="242" text-anchor="middle" class="sm" style="font-size:8.5px">Yee 1996；Jackson 1999</text>
+  <path class="l thin" d="M285 125L400 190" marker-end="url(#ar6603)"/>
+  <text x="245" y="278" text-anchor="middle" class="gt" style="font-size:12.5px">不同的学者强调不同的来源</text>
+  <text x="245" y="296" text-anchor="middle" class="sm" style="font-size:10.5px">据 Zhai（2026）文献综述的转述；本课没有读这些原著</text>
+</svg>

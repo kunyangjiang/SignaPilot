@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 310" role="img" aria-label="吠陀诵读传承的示意图，本课自绘，据联合国教科文组织的描述。从左到右：一，声音的三项要求：每个词的声调，每个字母的特定发音，声音的特定组合；二，老师：口传；三，学生：从童年开始学；四，仪式场合：在神圣的仪式中诵读。下面一行：目标是“让每个词的声音保持不变”。右下角：吠陀诵读有一千多个传承支系，现在只有十三个保存下来；马哈拉施特拉、喀拉拉、卡纳塔克、奥里萨的四个学派被认为面临迫在眉睫的危险。底部：这是一条靠人维系的链；链断了，声音就断了；写下来的字，保存不了声调与发音">
+  <defs><marker id="ar6402" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="gl" d="M20 40h100v80h-100Z"/>
+  <text x="70" y="70" text-anchor="middle" class="gt" style="font-size:13px">声音</text>
+  <text x="70" y="94" text-anchor="middle" class="sm" style="font-size:9.5px">声调·发音·组合</text>
+  <path class="l thin" d="M120 80h18" marker-end="url(#ar6402)"/>
+  <path class="l" d="M138 40h100v80h-100Z"/>
+  <text x="188" y="70" text-anchor="middle" class="gt" style="font-size:13px">老师</text>
+  <text x="188" y="94" text-anchor="middle" class="sm" style="font-size:9.5px">口传</text>
+  <path class="l thin" d="M238 80h18" marker-end="url(#ar6402)"/>
+  <path class="l" d="M256 40h100v80h-100Z"/>
+  <text x="306" y="70" text-anchor="middle" class="gt" style="font-size:13px">学生</text>
+  <text x="306" y="94" text-anchor="middle" class="sm" style="font-size:9.5px">从童年起学习</text>
+  <path class="l thin" d="M356 80h18" marker-end="url(#ar6402)"/>
+  <path class="l" d="M374 40h100v80h-100Z"/>
+  <text x="424" y="70" text-anchor="middle" class="gt" style="font-size:13px">仪式场合</text>
+  <text x="424" y="94" text-anchor="middle" class="sm" style="font-size:9.5px">在神圣仪式中诵读</text>
+  <text x="245" y="150" text-anchor="middle" class="gt" style="font-size:12.5px">目标：“让每个词的声音保持不变”</text>
+  <path class="wash" d="M20 172H470V232H20Z"/><path class="l thin" d="M20 172H470V232H20Z"/>
+  <text x="245" y="194" text-anchor="middle" class="gt" style="font-size:12px">一千多个诵读支系，现在只有十三个保存下来</text>
+  <text x="245" y="214" text-anchor="middle" style="font-size:10.5px">四个学派（马哈拉施特拉、喀拉拉、卡纳塔克、奥里萨）面临迫在眉睫的危险</text>
+  <text x="245" y="262" text-anchor="middle" class="gt" style="font-size:12.5px">这是一条靠人维系的链；链断了，声音就断了</text>
+  <text x="245" y="280" text-anchor="middle" class="sm" style="font-size:11px">写下来的字，保存不了声调与发音</text>
+  <text x="245" y="298" text-anchor="middle" class="sm" style="font-size:10.5px">据联合国教科文组织“吠陀诵读传统”页面（2008 年列入代表作名录）</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 292" role="img" aria-label="玫瑰十字宣言及其后续的时间线，本课自绘，二手归纳，年份请以原始研究为准。一条横轴。约 1610 年：Fama 以手抄本在德语地区流传（据维基百科对研究的概括，待核）。1614 年：Fama 在卡塞尔印行；同年还有一篇德文的《全世界的总改革》，是意大利讽刺作品的译文。1615 年：Confessio 印行。1616 年：《化学婚礼》印行，传统上与安德雷埃联系在一起。1614 年之后：陆续有人写书、写信回应（如 Maier、Fludd，二手说法，待核）。轴的右侧另起一段，标“后来的组织”：18 世纪的金与蔷薇十字会；1865 年的英格兰蔷薇十字学会；1915 年的 AMORC（日期有争议）。底部：宣言是 1614 到 1616 年的三部匿名文本；后来的组织，是另一回事">
+  <path class="l" d="M24 130H466"/>
+  <circle class="dotk" cx="50" cy="130" r="4"/>
+  <text x="50" y="100" text-anchor="middle" style="font-size:11.5px">约 1610</text>
+  <text x="50" y="114" text-anchor="middle" class="sm" style="font-size:10px">手抄流传（待核）</text>
+  <circle class="dotk" cx="120" cy="130" r="4"/>
+  <text x="120" y="160" text-anchor="middle" class="gt" style="font-size:11.5px">1614</text>
+  <text x="120" y="174" text-anchor="middle" class="sm" style="font-size:10px">Fama·总改革</text>
+  <circle class="dotk" cx="180" cy="130" r="4"/>
+  <text x="180" y="100" text-anchor="middle" class="gt" style="font-size:11.5px">1615</text>
+  <text x="180" y="114" text-anchor="middle" class="sm" style="font-size:10px">Confessio</text>
+  <circle class="dotk" cx="240" cy="130" r="4"/>
+  <text x="240" y="160" text-anchor="middle" class="gt" style="font-size:11.5px">1616</text>
+  <text x="240" y="174" text-anchor="middle" class="sm" style="font-size:10px">《化学婚礼》</text>
+  <path class="wash" d="M105 134H300V146H105Z" style="opacity:.5"/>
+  <text x="205" y="188" text-anchor="middle" class="gt" style="font-size:10.5px">1614 年之后：陆续有人写书、写信回应</text>
+  <path class="l thin" d="M310 36V240" stroke-dasharray="2 4"/>
+  <text x="390" y="30" text-anchor="middle" class="gt" style="font-size:11px">后来的组织（另一回事）</text>
+  <text x="330" y="70" text-anchor="start" class="gt" style="font-size:11px">18 世纪</text>
+  <text x="330" y="85" text-anchor="start" class="sm" style="font-size:9.5px">金与蔷薇十字会（起源与年代有争论）</text>
+  <text x="330" y="110" text-anchor="start" class="gt" style="font-size:11px">1865</text>
+  <text x="330" y="125" text-anchor="start" class="sm" style="font-size:9.5px">英格兰蔷薇十字学会</text>
+  <text x="330" y="150" text-anchor="start" class="gt" style="font-size:11px">1915</text>
+  <text x="330" y="165" text-anchor="start" class="sm" style="font-size:9.5px">AMORC（日期有争议）</text>
+  <text x="245" y="262" text-anchor="middle" class="gt" style="font-size:12px">宣言是 1614 至 1616 年的三部匿名文本；后来的组织是另一回事</text>
+  <text x="245" y="280" text-anchor="middle" class="sm" style="font-size:10.5px">年份据出版社页面与二手综述；“18 世纪”等说法，本课没有读到原始研究</text>
+</svg>

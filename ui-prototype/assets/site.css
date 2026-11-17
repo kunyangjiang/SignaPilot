@@ -8,7 +8,7 @@
   --ink: #e6e1d4;
   --read: #d4cfc2;          /* long-form text: a touch softer than headings */
   --ink-2: #a8a498;
-  --ink-3: #6f6c63;
+  --ink-3: #85827a;
   --line: rgba(236, 232, 220, .13);
   --line-2: rgba(236, 232, 220, .28);
   --gold: #d2b377;
@@ -25,8 +25,8 @@
   --top-h: 58px;
 }
 html.day {
-  --bg: #f2efe7; --bg-2: #e9e5da; --ink: #1d1c19; --read: #262521; --ink-2: #5a574e; --ink-3: #8f8b7f;
-  --line: rgba(29, 28, 25, .14); --line-2: rgba(29, 28, 25, .32); --gold: #94712c; --script: 29, 28, 25;
+  --bg: #f2efe7; --bg-2: #e9e5da; --ink: #1d1c19; --read: #262521; --ink-2: #5a574e; --ink-3: #67635a;
+  --line: rgba(29, 28, 25, .14); --line-2: rgba(29, 28, 25, .32); --gold: #80601f; --script: 29, 28, 25;
 }
 
 * { box-sizing: border-box; }
@@ -1326,3 +1326,9 @@ html.day .rd-segs li.off { opacity: .5; }
   @view-transition { navigation: none; }
   body { animation: none; }
 }
+
+
+/* day theme: gold accent text meets AA on cream; dark-on-gold controls flip to cream-on-gold */
+html.day .btt:hover, html.day .btt.is-hint, html.day .btt.is-dragging, html.day .btt-label, html.day .to-back:hover, html.day .resume-note button, html.day .rail a.on { color: var(--bg); }
+html.day .ev-id { color: #6b5017; }
+html.day .top nav a.on small, html.day .top nav a:hover small, html.day .cy-grid li.now { color: #6b5017; }

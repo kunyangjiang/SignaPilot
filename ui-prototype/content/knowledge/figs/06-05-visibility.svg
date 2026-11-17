@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 282" role="img" aria-label="关于 Sak Yant 被更多人看见的几个时间点的示意图，本课自绘，据本课读到的报道与研究，二手归纳。一条横轴，四个点。传统上：据一位作者的说法，常见于劳动阶层，泰拳选手为在拳台上的保护而纹；每年三月前后，曼谷附近的 Wat Bang Phra 有数以万计的人参加的节日，据报道。名人：据报道，安吉丽娜·朱莉背上纹了 Sak Yant，此后国外的兴趣上升。2011 年 5 至 6 月：泰国文化部长请各府检查纹身店、拟推动立法，随后澄清不针对游客入境；细节含糊，所读报道里没有看到立法完成。2025 年：一项北大年的案例研究，用访谈、焦点小组和参与观察，记录一个师傅的网络。底部：被看见的方式在变；变的是外面的目光，不一定是里面的做法">
+  <path class="l" d="M24 120H466"/>
+  <circle class="dotk" cx="60" cy="120" r="4"/>
+  <text x="60" y="84" text-anchor="middle" class="gt" style="font-size:11.5px">传统上</text>
+  <text x="60" y="98" text-anchor="middle" style="font-size:10px">劳动阶层、泰拳选手</text>
+  <text x="60" y="111" text-anchor="middle" class="sm" style="font-size:9.5px">（一位作者的说法）</text>
+  <circle class="dotk" cx="170" cy="120" r="4"/>
+  <text x="170" y="150" text-anchor="middle" class="gt" style="font-size:11.5px">名人</text>
+  <text x="170" y="164" text-anchor="middle" style="font-size:10px">朱莉背上的 Sak Yant</text>
+  <text x="170" y="177" text-anchor="middle" class="sm" style="font-size:9.5px">（报道）</text>
+  <circle class="dotk" cx="290" cy="120" r="4"/>
+  <text x="290" y="84" text-anchor="middle" class="gt" style="font-size:11.5px">2011 年 6 月</text>
+  <text x="290" y="98" text-anchor="middle" style="font-size:10px">文化部长：检查纹身店、</text>
+  <text x="290" y="111" text-anchor="middle" class="sm" style="font-size:9.5px">拟立法；后澄清不针对游客</text>
+  <circle class="dotk" cx="410" cy="120" r="4"/>
+  <text x="410" y="150" text-anchor="middle" class="gt" style="font-size:11.5px">2025 年</text>
+  <text x="410" y="164" text-anchor="middle" style="font-size:10px">北大年案例研究</text>
+  <text x="410" y="177" text-anchor="middle" class="sm" style="font-size:9.5px">访谈与参与观察</text>
+  <text x="245" y="236" text-anchor="middle" class="gt" style="font-size:12px">被看见的方式在变；变的是外面的目光，不一定是里面的做法</text>
+  <text x="245" y="254" text-anchor="middle" class="sm" style="font-size:10.5px">据 NPR（2011）、The Diplomat（2016，转述 Tom Vater）、Vomgmonta 等（2025）</text>
+  <text x="245" y="270" text-anchor="middle" class="sm" style="font-size:10.5px">“数以万计”“朱莉”等细节为二手报道，本课没有核对原始记录［待核］</text>
+</svg>

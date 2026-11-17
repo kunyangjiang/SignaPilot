@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 314" role="img" aria-label="同一种诵读的四种记录能告诉我们什么的对照图，本课自绘。四列：书面录文；译文；学者的解释；口传的记录。每列两行：能看到什么，看不到什么。书面录文：能看到字，有的版本还标有声调符号；看不到实际的声音、节奏和场合。译文：能看到大意；看不到声音，也看不到它在仪式里起什么作用。学者的解释：能看到不同的理论，比如有一种观点认为这些词在仪式里主要是声音和规则，不靠字面意思；看不到参与者自己怎么想。口传的记录：能看到声音怎样被训练和保存；看不到每个人心里怎么理解。底部：四种记录各看到一部分，没有一种能代替其他三种">
+  <path class="l thin" d="M14 30h112v230h-112Z"/>
+  <text x="70" y="52" text-anchor="middle" class="gt" style="font-size:12px">书面录文</text>
+  <text x="70" y="80" text-anchor="middle" style="font-size:10.5px">能看到</text>
+  <text x="70" y="98" text-anchor="middle" class="sm" style="font-size:9.5px">字，有的版本标声调</text>
+  <text x="70" y="112" text-anchor="middle" class="sm" style="font-size:9.5px">（本课没有核对具体版本）</text>
+  <path class="l thin" d="M22 150h96" stroke-dasharray="2 3"/>
+  <text x="70" y="172" text-anchor="middle" class="gt" style="font-size:10.5px">看不到</text>
+  <text x="70" y="190" text-anchor="middle" class="sm" style="font-size:9.5px">实际的声音、节奏</text>
+  <text x="70" y="204" text-anchor="middle" class="sm" style="font-size:9.5px">诵读的场合</text>
+  <path class="l thin" d="M133 30h112v230h-112Z"/>
+  <text x="189" y="52" text-anchor="middle" class="gt" style="font-size:12px">译文</text>
+  <text x="189" y="80" text-anchor="middle" style="font-size:10.5px">能看到</text>
+  <text x="189" y="98" text-anchor="middle" class="sm" style="font-size:9.5px">大意</text>
+  <path class="l thin" d="M141 150h96" stroke-dasharray="2 3"/>
+  <text x="189" y="172" text-anchor="middle" class="gt" style="font-size:10.5px">看不到</text>
+  <text x="189" y="190" text-anchor="middle" class="sm" style="font-size:9.5px">声音本身</text>
+  <text x="189" y="204" text-anchor="middle" class="sm" style="font-size:9.5px">它在仪式里起什么作用</text>
+  <path class="l thin" d="M252 30h112v230h-112Z"/>
+  <text x="308" y="52" text-anchor="middle" class="gt" style="font-size:12px">学者的解释</text>
+  <text x="308" y="80" text-anchor="middle" style="font-size:10.5px">能看到</text>
+  <text x="308" y="98" text-anchor="middle" class="sm" style="font-size:9.5px">不同的理论</text>
+  <text x="308" y="112" text-anchor="middle" class="sm" style="font-size:9.5px">（如“规则，不靠字面意思”）</text>
+  <path class="l thin" d="M260 150h96" stroke-dasharray="2 3"/>
+  <text x="308" y="172" text-anchor="middle" class="gt" style="font-size:10.5px">看不到</text>
+  <text x="308" y="190" text-anchor="middle" class="sm" style="font-size:9.5px">参与者自己</text>
+  <text x="308" y="204" text-anchor="middle" class="sm" style="font-size:9.5px">怎么理解它</text>
+  <path class="l thin" d="M371 30h112v230h-112Z"/>
+  <text x="427" y="52" text-anchor="middle" class="gt" style="font-size:12px">口传的记录</text>
+  <text x="427" y="80" text-anchor="middle" style="font-size:10.5px">能看到</text>
+  <text x="427" y="98" text-anchor="middle" class="sm" style="font-size:9.5px">声音怎样被训练、保存</text>
+  <path class="l thin" d="M379 150h96" stroke-dasharray="2 3"/>
+  <text x="427" y="172" text-anchor="middle" class="gt" style="font-size:10.5px">看不到</text>
+  <text x="427" y="190" text-anchor="middle" class="sm" style="font-size:9.5px">每个人心里的理解</text>
+  <text x="245" y="284" text-anchor="middle" class="gt" style="font-size:12.5px">四种记录各看到一部分，没有一种能代替其他三种</text>
+  <text x="245" y="302" text-anchor="middle" class="sm" style="font-size:10.5px">“学者的解释”一栏据 Shulman（2015）对 Staal 观点的转述，及检索摘要；本课没有读 Staal 原著</text>
+</svg>

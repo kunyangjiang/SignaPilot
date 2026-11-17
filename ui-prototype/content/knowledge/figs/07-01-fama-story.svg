@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 238" role="img" aria-label="《Fama Fraternitatis》叙述的“罗森克鲁茨”故事的示意图，本课自绘，据本课读到的 17 世纪英译本。这是文本内部的叙述，不是史实。从左到右六步：一，贵族出身而贫穷的孩子，五岁进入修道院；二，与一位修士同行，前往圣地；三，十六岁到大马士革，与当地的“智者”相遇；四，经埃及、地中海，到非洲的菲斯，那里的智者每年互相通信；五，回到家乡，与几位兄弟，立下六条规矩，其中一条是兄弟会要保密一百年；六，死后的墓穴被藏起来，后人发现门上写着“一百二十年后我将打开”。底部：这个故事里的人物和地点，都只在文本里；没有任何独立的史料，证明有这样一个人">
+  <defs><marker id="ar7101" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M20 50h70v100h-70Z"/>
+  <text x="55" y="74" text-anchor="middle" class="gt" style="font-size:12px">孩子</text>
+  <text x="55" y="100" text-anchor="middle" style="font-size:9.5px">出身贫穷的贵族；</text>
+  <text x="55" y="114" text-anchor="middle" style="font-size:9.5px">五岁入修道院</text>
+  <text x="55" y="40" text-anchor="middle" class="sm" style="font-size:11px">1</text>
+  <path class="l thin" d="M90 100H98" marker-end="url(#ar7101)"/>
+  <path class="l" d="M98 50h70v100h-70Z"/>
+  <text x="133" y="74" text-anchor="middle" class="gt" style="font-size:12px">同行</text>
+  <text x="133" y="100" text-anchor="middle" style="font-size:9.5px">与一位修士</text>
+  <text x="133" y="114" text-anchor="middle" style="font-size:9.5px">前往圣地</text>
+  <text x="133" y="40" text-anchor="middle" class="sm" style="font-size:11px">2</text>
+  <path class="l thin" d="M168 100H176" marker-end="url(#ar7101)"/>
+  <path class="l" d="M176 50h70v100h-70Z"/>
+  <text x="211" y="74" text-anchor="middle" class="gt" style="font-size:12px">大马士革</text>
+  <text x="211" y="100" text-anchor="middle" style="font-size:9.5px">十六岁到那里；</text>
+  <text x="211" y="114" text-anchor="middle" style="font-size:9.5px">遇到“智者”</text>
+  <text x="211" y="40" text-anchor="middle" class="sm" style="font-size:11px">3</text>
+  <path class="l thin" d="M246 100H254" marker-end="url(#ar7101)"/>
+  <path class="l" d="M254 50h70v100h-70Z"/>
+  <text x="289" y="74" text-anchor="middle" class="gt" style="font-size:12px">菲斯</text>
+  <text x="289" y="100" text-anchor="middle" style="font-size:9.5px">经埃及渡地中海；</text>
+  <text x="289" y="114" text-anchor="middle" style="font-size:9.5px">那里的人互相通信</text>
+  <text x="289" y="40" text-anchor="middle" class="sm" style="font-size:11px">4</text>
+  <path class="l thin" d="M324 100H332" marker-end="url(#ar7101)"/>
+  <path class="l" d="M332 50h70v100h-70Z"/>
+  <text x="367" y="74" text-anchor="middle" class="gt" style="font-size:12px">回乡</text>
+  <text x="367" y="100" text-anchor="middle" style="font-size:9.5px">与几位兄弟立</text>
+  <text x="367" y="114" text-anchor="middle" style="font-size:9.5px">六条规矩</text>
+  <text x="367" y="40" text-anchor="middle" class="sm" style="font-size:11px">5</text>
+  <path class="l thin" d="M402 100H410" marker-end="url(#ar7101)"/>
+  <path class="gl" d="M410 50h70v100h-70Z"/>
+  <text x="445" y="74" text-anchor="middle" class="gt" style="font-size:12px">墓穴</text>
+  <text x="445" y="100" text-anchor="middle" style="font-size:9.5px">门上：“一百二十</text>
+  <text x="445" y="114" text-anchor="middle" style="font-size:9.5px">年后我将打开”</text>
+  <text x="445" y="40" text-anchor="middle" class="sm" style="font-size:11px">6</text>
+  <text x="245" y="190" text-anchor="middle" class="gt" style="font-size:12.5px">这是文本内部的叙述</text>
+  <text x="245" y="208" text-anchor="middle" class="sm" style="font-size:11px">人物、地点、年代，都只在文本里；没有独立的史料，证明有这样一个人</text>
+  <text x="245" y="226" text-anchor="middle" class="sm" style="font-size:10.5px">据 Fama Fraternitatis 的 17 世纪英译本（维基文库）；本课没有读 1614 年德文原本</text>
+</svg>

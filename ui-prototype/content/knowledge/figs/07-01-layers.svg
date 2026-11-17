@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 298" role="img" aria-label="分清四个层面的示意图，本课自绘。四层从上到下：一，文本里的人物：克里斯蒂安·罗森克鲁茨与他的兄弟会，只存在于文本里；二，真实的作者与出版：三部匿名文本，作者问题没有定论，学界常提到图宾根的一个圈子与安德雷埃，安德雷埃自己承认写了《化学婚礼》，并称它是游戏之作；三，读者与回应：许多人写信、写书，回应一个并不存在的兄弟会；四，后来的组织：用玫瑰十字的象征，宣称继承。每一层右边写这一层有什么证据：文本；出版记录与书信；回应的印本；各组织自己的文件。底部：同一个名字，指四种不同的东西">
+  <text x="30" y="22" text-anchor="start" class="gt" style="font-size:11px">层面</text>
+  <text x="150" y="22" text-anchor="start" class="gt" style="font-size:11px">是什么</text>
+  <text x="330" y="22" text-anchor="start" class="gt" style="font-size:11px">证据在哪里</text>
+  <path class="gl thin" d="M20 34H470V78H20Z"/>
+  <text x="30" y="60" text-anchor="start" class="gt" style="font-size:12px">文本里的人物</text>
+  <text x="150" y="60" text-anchor="start" style="font-size:11px">罗森克鲁茨与兄弟会</text>
+  <text x="330" y="60" text-anchor="start" class="sm" style="font-size:10.5px">只在文本里</text>
+  <path class="l thin" d="M20 88H470V132H20Z"/>
+  <text x="30" y="114" text-anchor="start" class="gt" style="font-size:12px">真实的作者与出版</text>
+  <text x="150" y="114" text-anchor="start" style="font-size:11px">三部匿名文本；作者没有定论</text>
+  <text x="330" y="114" text-anchor="start" class="sm" style="font-size:10.5px">出版记录；安德雷埃自述</text>
+  <path class="l thin" d="M20 142H470V186H20Z"/>
+  <text x="30" y="168" text-anchor="start" class="gt" style="font-size:12px">读者与回应</text>
+  <text x="150" y="168" text-anchor="start" style="font-size:11px">许多人写信、写书，回应兄弟会</text>
+  <text x="330" y="168" text-anchor="start" class="sm" style="font-size:10.5px">回应的印本与书信</text>
+  <path class="l thin" d="M20 196H470V240H20Z"/>
+  <text x="30" y="222" text-anchor="start" class="gt" style="font-size:12px">后来的组织</text>
+  <text x="150" y="222" text-anchor="start" style="font-size:11px">用玫瑰十字的象征，宣称继承</text>
+  <text x="330" y="222" text-anchor="start" class="sm" style="font-size:10.5px">各组织自己的文件</text>
+  <text x="245" y="268" text-anchor="middle" class="gt" style="font-size:12.5px">同一个名字，指四种不同的东西</text>
+  <text x="245" y="286" text-anchor="middle" class="sm" style="font-size:11px">把它们混在一起，就会把“文本里的兄弟会”当成“历史上的兄弟会”</text>
+</svg>

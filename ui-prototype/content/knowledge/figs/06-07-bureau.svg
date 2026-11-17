@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 364" role="img" aria-label="阴阳寮及其职掌的示意图，本课自绘，据日本国立国会图书馆的说明。一个从上到下的层级：朝廷；中务省；阴阳寮。阴阳寮下面三项职掌：历的制定；天文；占卜。右边一行小字：平安时代起，历由贺茂氏世代承担，天文由以安倍晴明为祖的安倍氏世代承担。底部：这是一个官署，也是几个专门家族；它的职掌，和今天说的“宗教”或“迷信”并不重合">
+  <defs><marker id="ar6703" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M120 30H340V76H120Z"/>
+  <text x="230" y="50" text-anchor="middle" style="font-size:13px">朝廷</text>
+  <text x="230" y="66" text-anchor="middle" class="sm" style="font-size:10.5px">大化改新后的律令制</text>
+  <path class="l thin" d="M230 76V92" marker-end="url(#ar6703)"/>
+  <path class="l" d="M120 92H340V138H120Z"/>
+  <text x="230" y="112" text-anchor="middle" style="font-size:13px">中务省</text>
+  <text x="230" y="128" text-anchor="middle" class="sm" style="font-size:10.5px">阴阳寮所属的省</text>
+  <path class="l thin" d="M230 138V154" marker-end="url(#ar6703)"/>
+  <path class="gl" d="M120 154H340V200H120Z"/>
+  <text x="230" y="174" text-anchor="middle" class="gt" style="font-size:13px">阴阳寮</text>
+  <text x="230" y="190" text-anchor="middle" class="sm" style="font-size:10.5px">历、天文、占卜</text>
+  <path class="l thin" d="M230 216V232H110V244" marker-end="url(#ar6703)"/>
+  <path class="l" d="M40 246h140v44h-140Z"/>
+  <text x="110" y="266" text-anchor="middle" style="font-size:12px">历的制定</text>
+  <text x="110" y="282" text-anchor="middle" class="sm" style="font-size:10px">具注历</text>
+  <path class="l thin" d="M230 216V232H260V244" marker-end="url(#ar6703)"/>
+  <path class="l" d="M190 246h140v44h-140Z"/>
+  <text x="260" y="266" text-anchor="middle" style="font-size:12px">天文</text>
+  <text x="260" y="282" text-anchor="middle" class="sm" style="font-size:10px">观测与记录</text>
+  <path class="l thin" d="M230 216V232H410V244" marker-end="url(#ar6703)"/>
+  <path class="l" d="M340 246h140v44h-140Z"/>
+  <text x="410" y="266" text-anchor="middle" style="font-size:12px">占卜</text>
+  <text x="410" y="282" text-anchor="middle" class="sm" style="font-size:10px">判断吉凶</text>
+  <text x="400" y="80" text-anchor="start" class="gt" style="font-size:10.5px">平安时代起：</text>
+  <text x="375" y="98" text-anchor="start" style="font-size:10px">历：贺茂氏世代承担</text>
+  <text x="375" y="114" text-anchor="start" style="font-size:10px">天文：安倍氏世代承担</text>
+  <text x="375" y="130" text-anchor="start" class="sm" style="font-size:10px">（晴明为安倍氏之祖）</text>
+  <text x="245" y="318" text-anchor="middle" class="gt" style="font-size:12.5px">它是一个官署，也是几个专门家族</text>
+  <text x="245" y="336" text-anchor="middle" class="sm" style="font-size:11px">职掌与今天所说的“宗教”或“迷信”并不重合</text>
+  <text x="245" y="352" text-anchor="middle" class="sm" style="font-size:10.5px">据日本国立国会图书馆“日本的历”说明；本课没有读《令》的条文本身</text>
+</svg>
