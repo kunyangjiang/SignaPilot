@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 232" role="img" aria-label="一件东西的“传记”示意图，本课自绘，据 Densmore 1929 年的公报、NativeTech 网页、维基百科条目、2001 年美联社报道和美国 1990 年《印第安艺术与手工艺法》的官方页面，二手归纳。一条横轴，五个点：1900 年代至 1920 年代，Densmore 在奥吉布瓦人中调查，记录摇篮板上的“蜘蛛网”护身物；1929 年，公报出版，图版把它放进一本民族志；1960 至 1970 年代，据百科条目转述，泛印第安运动里出现派生的形式，是团结的符号，这一条待核；1990 年，美国《印第安艺术与手工艺法》规定销售时不得虚假标示为印第安人制作；2001 年，美联社报道便利店和折扣店里的捕梦网，几位印第安人给出不同看法。底部：每一站，物的形状、说法、买家、解释习惯和经济地位，都在变；变的不一定是同一件事">
+  <path class="l" d="M15 100H475"/>
+  <circle class="dotk" cx="50" cy="100" r="4"/>
+  <text x="50" y="82" text-anchor="middle" class="gt" style="font-size:11px">1900s–20s</text>
+  <text x="50" y="66" text-anchor="middle" style="font-size:9.5px">Densmore 调查</text>
+  <circle class="dotk" cx="140" cy="100" r="4"/>
+  <text x="140" y="124" text-anchor="middle" class="gt" style="font-size:11px">1929</text>
+  <text x="140" y="140" text-anchor="middle" style="font-size:9.5px">公报与图版</text>
+  <circle class="dotk" cx="230" cy="100" r="4"/>
+  <text x="230" y="82" text-anchor="middle" class="gt" style="font-size:11px">1960–70s</text>
+  <text x="230" y="66" text-anchor="middle" style="font-size:9.5px">泛印第安运动（待核）</text>
+  <circle class="dotk" cx="320" cy="100" r="4"/>
+  <text x="320" y="124" text-anchor="middle" class="gt" style="font-size:11px">1990</text>
+  <text x="320" y="140" text-anchor="middle" style="font-size:9.5px">《印第安艺术与手工艺法》</text>
+  <circle class="dotk" cx="420" cy="100" r="4"/>
+  <text x="420" y="82" text-anchor="middle" class="gt" style="font-size:11px">2001</text>
+  <text x="420" y="66" text-anchor="middle" style="font-size:9.5px">美联社：便利店里的圈</text>
+  <text x="245" y="182" text-anchor="middle" class="gt" style="font-size:12px">每一站：形状、说法、买家、解释习惯、经济地位，都在变</text>
+  <text x="245" y="200" text-anchor="middle" class="sm" style="font-size:10.5px">变的不一定是同一件事；本图标“待核”的一站，我没有读到原始材料</text>
+  <text x="245" y="218" text-anchor="middle" class="sm" style="font-size:10px">据 Densmore 1929、NativeTech、维基百科、美联社 2001、doi.gov</text>
+</svg>

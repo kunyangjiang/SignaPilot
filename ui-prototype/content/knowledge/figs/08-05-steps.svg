@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 256" role="img" aria-label="从“相似”到“借用”要跨的几步的示意图，本课自绘，不含任何真实的符号图形。五级台阶：一，接触：创作者有没有机会看到那个来源；二，时间：来源是否早于作品；三，独特的细节：相似的是通用形状，还是只有这个来源才有的怪异细节；四，创作者的自述：他怎么说，说得有多详细；五，旁证：同伴或同时代的人有没有留下记录。右边标注 Page 的符号在这五级上目前的状况：一，没有读到记载；二，满足；三，没有读到分析；四，他说过用意，没有说出处；五，同伴的符号可追到一本汇编，但这不能替他说话。底部：一两级满足，不够；要几级同时有证据，才能说“借用”">
+  <path class="l" d="M15 30h460v30h-460Z"/>
+  <text x="25" y="49" text-anchor="start" class="gt" style="font-size:11px">① 接触</text>
+  <text x="125" y="49" text-anchor="start" style="font-size:9.8px">有没有机会看到来源</text>
+  <text x="465" y="49" text-anchor="end" class="sm" style="font-size:9.5px">没有读到记载</text>
+  <path class="gl" d="M15 66h460v30h-460Z"/>
+  <text x="25" y="85" text-anchor="start" class="gt" style="font-size:11px">② 时间</text>
+  <text x="125" y="85" text-anchor="start" style="font-size:9.8px">来源是否早于作品</text>
+  <text x="465" y="85" text-anchor="end" class="sm" style="font-size:9.5px">满足</text>
+  <path class="l" d="M15 102h460v30h-460Z"/>
+  <text x="25" y="121" text-anchor="start" class="gt" style="font-size:11px">③ 独特的细节</text>
+  <text x="125" y="121" text-anchor="start" style="font-size:9.8px">通用形状，还是怪异细节</text>
+  <text x="465" y="121" text-anchor="end" class="sm" style="font-size:9.5px">没有读到分析</text>
+  <path class="l" d="M15 138h460v30h-460Z"/>
+  <text x="25" y="157" text-anchor="start" class="gt" style="font-size:11px">④ 创作者自述</text>
+  <text x="125" y="157" text-anchor="start" style="font-size:9.8px">他怎么说，说得多详细</text>
+  <text x="465" y="157" text-anchor="end" class="sm" style="font-size:9.5px">说过用意，没有说出处</text>
+  <path class="l" d="M15 174h460v30h-460Z"/>
+  <text x="25" y="193" text-anchor="start" class="gt" style="font-size:11px">⑤ 旁证</text>
+  <text x="125" y="193" text-anchor="start" style="font-size:9.8px">同伴、同时代人的记录</text>
+  <text x="465" y="193" text-anchor="end" class="sm" style="font-size:9.5px">同伴的可追到汇编；不能替他说话</text>
+  <text x="245" y="226" text-anchor="middle" class="gt" style="font-size:12px">一两级满足，不够；要几级同时有证据，才能说“借用”</text>
+  <text x="245" y="244" text-anchor="middle" class="sm" style="font-size:10px">右列：Page 的符号目前在这五级上的状况（据本课读到的材料）</text>
+</svg>

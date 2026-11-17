@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 262" role="img" aria-label="一个转发可能是什么意思的阶梯示意图，本课自绘。五级从上到下：一，认真实践：转发的人把它当作一次真实的实践；二，戏仿：用夸张的口气模仿，取笑这套做法；三，角色扮演：在圈子的游戏里，扮演一个“信徒”；四，反讽：嘴上认真，实际上并不信，而且不让人知道；五，试验：想看看会发生什么，持一种不确定的态度。右边标注：从一个帖子本身，常常分不出是哪一种；要分，需要更多的材料，如这个人在别处怎么说、圈子里的人怎么回应、他是否承认。底部：转发一张图，不等于相信它能起作用">
+  <path class="l" d="M15 30h300v30h-300Z"/>
+  <text x="25" y="49" text-anchor="start" class="gt" style="font-size:11.5px">认真实践</text>
+  <text x="100" y="49" text-anchor="start" style="font-size:9.8px">把它当作一次真实的实践</text>
+  <path class="l" d="M15 66h300v30h-300Z"/>
+  <text x="25" y="85" text-anchor="start" class="gt" style="font-size:11.5px">戏仿</text>
+  <text x="100" y="85" text-anchor="start" style="font-size:9.8px">夸张地模仿，取笑这套做法</text>
+  <path class="l" d="M15 102h300v30h-300Z"/>
+  <text x="25" y="121" text-anchor="start" class="gt" style="font-size:11.5px">角色扮演</text>
+  <text x="100" y="121" text-anchor="start" style="font-size:9.8px">在圈子的游戏里扮演“信徒”</text>
+  <path class="l" d="M15 138h300v30h-300Z"/>
+  <text x="25" y="157" text-anchor="start" class="gt" style="font-size:11.5px">反讽</text>
+  <text x="100" y="157" text-anchor="start" style="font-size:9.8px">嘴上认真，其实不信，不让人知道</text>
+  <path class="l" d="M15 174h300v30h-300Z"/>
+  <text x="25" y="193" text-anchor="start" class="gt" style="font-size:11.5px">试验</text>
+  <text x="100" y="193" text-anchor="start" style="font-size:9.8px">想看看会发生什么，持不确定的态度</text>
+  <path class="gl" d="M335 30h140v174h-140Z"/>
+  <text x="405" y="60" text-anchor="middle" style="font-size:9.8px">从一个帖子本身</text>
+  <text x="405" y="78" text-anchor="middle" style="font-size:9.8px">常常分不出</text>
+  <text x="405" y="96" text-anchor="middle" style="font-size:9.8px">是哪一种</text>
+  <text x="405" y="114" text-anchor="middle" style="font-size:9.8px"></text>
+  <text x="405" y="132" text-anchor="middle" style="font-size:9.8px">要分，需要更多材料：</text>
+  <text x="405" y="150" text-anchor="middle" style="font-size:9.8px">他在别处怎么说</text>
+  <text x="405" y="168" text-anchor="middle" style="font-size:9.8px">圈子里的人怎么回应</text>
+  <text x="405" y="186" text-anchor="middle" style="font-size:9.8px">他是否承认</text>
+  <text x="245" y="232" text-anchor="middle" class="gt" style="font-size:12.5px">转发一张图，不等于相信它能起作用</text>
+  <text x="245" y="250" text-anchor="middle" class="sm" style="font-size:10.5px">一个帖子可以是五种中的任何一种</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 226" role="img" aria-label="同一个圈，在几种“框”里的示意图，本课自绘，不含任何真实的展品或商品图像。四个框并排：一，摇篮板上：有人用，有人看着，意义靠使用；二，民族志的图版：编号，一行说明，归在“儿童用品”下；三，商店的货架：形状可以改，标一个价格，面对顾客；四，博物馆的展柜：隔着玻璃，一块说明牌，面对参观者。每个框下标着：谁在说话，说给谁，说的是什么。底部：每一种框，都为东西规定了一种阅读方式；这不是在说哪一种框更好或更差，而是说换了框，读法就变了">
+  <path class="l" d="M10 30h110v118h-110Z"/>
+  <text x="65" y="52" text-anchor="middle" class="gt" style="font-size:11.5px">摇篮板上</text>
+  <text x="65" y="80" text-anchor="middle" style="font-size:10px">有人用</text>
+  <text x="65" y="100" text-anchor="middle" style="font-size:10px">有人看着</text>
+  <text x="65" y="120" text-anchor="middle" style="font-size:10px">意义靠使用</text>
+  <text x="65" y="168" text-anchor="middle" class="sm" style="font-size:9.5px">谁说话，说给谁</text>
+  <path class="l" d="M130 30h110v118h-110Z"/>
+  <text x="185" y="52" text-anchor="middle" class="gt" style="font-size:11.5px">民族志图版</text>
+  <text x="185" y="80" text-anchor="middle" style="font-size:10px">编号，一行说明</text>
+  <text x="185" y="100" text-anchor="middle" style="font-size:10px">归在“儿童用品”下</text>
+  <text x="185" y="120" text-anchor="middle" style="font-size:10px">面对读者</text>
+  <text x="185" y="168" text-anchor="middle" class="sm" style="font-size:9.5px">谁说话，说给谁</text>
+  <path class="l" d="M250 30h110v118h-110Z"/>
+  <text x="305" y="52" text-anchor="middle" class="gt" style="font-size:11.5px">商店货架</text>
+  <text x="305" y="80" text-anchor="middle" style="font-size:10px">形状可以改</text>
+  <text x="305" y="100" text-anchor="middle" style="font-size:10px">标一个价格</text>
+  <text x="305" y="120" text-anchor="middle" style="font-size:10px">面对顾客</text>
+  <text x="305" y="168" text-anchor="middle" class="sm" style="font-size:9.5px">谁说话，说给谁</text>
+  <path class="l" d="M370 30h110v118h-110Z"/>
+  <text x="425" y="52" text-anchor="middle" class="gt" style="font-size:11.5px">博物馆展柜</text>
+  <text x="425" y="80" text-anchor="middle" style="font-size:10px">隔着玻璃</text>
+  <text x="425" y="100" text-anchor="middle" style="font-size:10px">一块说明牌</text>
+  <text x="425" y="120" text-anchor="middle" style="font-size:10px">面对参观者</text>
+  <text x="425" y="168" text-anchor="middle" class="sm" style="font-size:9.5px">谁说话，说给谁</text>
+  <text x="245" y="196" text-anchor="middle" class="gt" style="font-size:12.5px">每一种框，都为东西规定了一种阅读方式</text>
+  <text x="245" y="214" text-anchor="middle" class="sm" style="font-size:10.5px">不说哪种框更好或更差；换了框，读法就变了</text>
+</svg>

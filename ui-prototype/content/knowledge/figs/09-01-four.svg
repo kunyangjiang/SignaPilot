@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 270" role="img" aria-label="四种解释的示意图，本课自绘，不含任何真实的符号图形。两个地方各有一个相似的记号；中间连着四条线，各标一种解释：一，传播：一方接触了另一方，并学来了；二，独立形成：两处各自做出，因为面对相似的条件；三，共同来源：两者都是更早一个源头的后代；四，分类造成的相似：观察者把本来不同的东西，归成了同一类。下面每条线，标着这种解释需要的证据：有年代的实物、地理分布、中间的形式、历史上的接触、文本的传递、材料与技术、解释的变化、独立的学术分类。底部：四种是分析上的备选，不是必须各自成立的四个结论；一个案例里可以是混合的">
+  <defs><marker id="a91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M15 30h100v40h-100Z"/>
+  <text x="65" y="55" text-anchor="middle" style="font-size:11px">甲地的记号</text>
+  <path class="l" d="M375 30h100v40h-100Z"/>
+  <text x="425" y="55" text-anchor="middle" style="font-size:11px">乙地的记号</text>
+  <path class="l" d="M15 86h460v28h-460Z"/>
+  <text x="25" y="104" text-anchor="start" class="gt" style="font-size:11px">一 传播</text>
+  <text x="110" y="104" text-anchor="start" style="font-size:9.3px">有年代的实物 · 路线与接触 · 中间形式 · 文本的传递</text>
+  <path class="l" d="M15 120h460v28h-460Z"/>
+  <text x="25" y="138" text-anchor="start" class="gt" style="font-size:11px">二 独立形成</text>
+  <text x="110" y="138" text-anchor="start" style="font-size:9.3px">无接触证据 · 简单形状或材料技术所致 · 各地意义不同</text>
+  <path class="l" d="M15 154h460v28h-460Z"/>
+  <text x="25" y="172" text-anchor="start" class="gt" style="font-size:11px">三 共同来源</text>
+  <text x="110" y="172" text-anchor="start" style="font-size:9.3px">更早的源头存在 · 语言与文本的连续 · 各自如何发展</text>
+  <path class="gl" d="M15 188h460v28h-460Z"/>
+  <text x="25" y="206" text-anchor="start" class="gt" style="font-size:11px">四 分类造成</text>
+  <text x="110" y="206" text-anchor="start" style="font-size:9.3px">谁把它们归成一类 · 独立的学术分类 · 解释的变化</text>
+  <path class="l thin" d="M115 50H375" stroke-dasharray="4 4" marker-end="url(#a91)"/>
+  <text x="245" y="44" text-anchor="middle" class="sm" style="font-size:10.5px">“像”</text>
+  <text x="245" y="240" text-anchor="middle" class="gt" style="font-size:12px">四种是分析上的备选，不是必须各自成立的四个结论</text>
+  <text x="245" y="258" text-anchor="middle" class="sm" style="font-size:10.5px">一个案例里可以是混合的；本图不含任何真实的符号图形</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 270" role="img" aria-label="五个有记录的地方的“折臂十字”的对照示意图，本课自绘，据 Wilson 1896 和英文维基百科条目的转述，二手归纳，不含任何真实的符号图形。五行：一，特洛伊（Hisarlik）：青铜时代的几个层，19 世纪 70 年代由 Schliemann 发掘，许多记号在纺锤轮上，没有文字说明它的意思；二，印度河流域：据条目转述，约公元前 3000 年前后有这类记号，文字没有释读；三，佛教的中国：随佛教从印度传来，据条目转述，693 年武则天宣布读作“万”，文本明确说它吉祥；四，纳瓦霍人：称“旋转的木头”，据条目转述，用于疗愈，与人和生命有关；五，霍普韦尔文化（北美）：陶器与铜器上有这类记号，意义不明。每行标四项：形状像不像、功能是什么、意义是什么、与别处有没有证据确凿的联系。很多格子里是“不知道”。底部：像，只说明一件事">
+  <text x="20" y="40" text-anchor="start" class="gt" style="font-size:10.5px">地点</text>
+  <text x="110" y="40" text-anchor="start" class="gt" style="font-size:10.5px">形状像</text>
+  <text x="190" y="40" text-anchor="start" class="gt" style="font-size:10.5px">功能</text>
+  <text x="305" y="40" text-anchor="start" class="gt" style="font-size:10.5px">意义</text>
+  <text x="400" y="40" text-anchor="start" class="gt" style="font-size:10.5px">与别处联系</text>
+  <path class="l thin" d="M15 48H475"/>
+  <text x="20" y="70" text-anchor="start" class="gt" style="font-size:9.8px">特洛伊</text>
+  <text x="110" y="70" text-anchor="start" style="font-size:9.8px">有</text>
+  <text x="190" y="70" text-anchor="start" style="font-size:9.8px">纺锤轮等日用品</text>
+  <text x="305" y="70" text-anchor="start" class="sm" style="font-size:9.8px">不知道</text>
+  <text x="400" y="70" text-anchor="start" class="sm" style="font-size:9.8px">不知道</text>
+  <path class="l thin" d="M15 80H475" stroke-dasharray="2 4"/>
+  <text x="20" y="100" text-anchor="start" class="gt" style="font-size:9.8px">印度河</text>
+  <text x="110" y="100" text-anchor="start" style="font-size:9.8px">有</text>
+  <text x="190" y="100" text-anchor="start" style="font-size:9.8px">印章等</text>
+  <text x="305" y="100" text-anchor="start" class="sm" style="font-size:9.8px">不知道</text>
+  <text x="400" y="100" text-anchor="start" class="sm" style="font-size:9.8px">不知道</text>
+  <path class="l thin" d="M15 110H475" stroke-dasharray="2 4"/>
+  <text x="20" y="130" text-anchor="start" class="gt" style="font-size:9.8px">佛教中国</text>
+  <text x="110" y="130" text-anchor="start" style="font-size:9.8px">有</text>
+  <text x="190" y="130" text-anchor="start" style="font-size:9.8px">吉祥记号</text>
+  <text x="305" y="130" text-anchor="start" style="font-size:9.8px">文本说明</text>
+  <text x="400" y="130" text-anchor="start" style="font-size:9.8px">有（佛教传入）</text>
+  <path class="l thin" d="M15 140H475" stroke-dasharray="2 4"/>
+  <text x="20" y="160" text-anchor="start" class="gt" style="font-size:9.8px">纳瓦霍</text>
+  <text x="110" y="160" text-anchor="start" style="font-size:9.8px">有</text>
+  <text x="190" y="160" text-anchor="start" style="font-size:9.8px">疗愈仪式</text>
+  <text x="305" y="160" text-anchor="start" style="font-size:9.8px">人与生命</text>
+  <text x="400" y="160" text-anchor="start" class="sm" style="font-size:9.8px">不知道</text>
+  <path class="l thin" d="M15 170H475" stroke-dasharray="2 4"/>
+  <text x="20" y="190" text-anchor="start" class="gt" style="font-size:9.8px">霍普韦尔</text>
+  <text x="110" y="190" text-anchor="start" style="font-size:9.8px">有</text>
+  <text x="190" y="190" text-anchor="start" style="font-size:9.8px">陶器、铜器</text>
+  <text x="305" y="190" text-anchor="start" class="sm" style="font-size:9.8px">不知道</text>
+  <text x="400" y="190" text-anchor="start" class="sm" style="font-size:9.8px">不知道</text>
+  <path class="l thin" d="M15 200H475" stroke-dasharray="2 4"/>
+  <text x="245" y="240" text-anchor="middle" class="gt" style="font-size:12.5px">很多格子里是“不知道”：像，只说明一件事</text>
+  <text x="245" y="258" text-anchor="middle" class="sm" style="font-size:10px">据 Wilson 1896 与维基百科的转述；有些地点的材料我读得很浅</text>
+</svg>

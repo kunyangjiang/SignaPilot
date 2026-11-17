@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 206" role="img" aria-label="一个虚构游戏里符号约定的建立过程的示意图，本课自编，不是任何真实的作品或截图。游戏名叫《灰烬城》（虚构）。图中的符号只是一个圆点加三道短线，由本课随意设定。第一步：开场的一间安全屋，门上有这个符号；第二步：玩家看到几次，每次都是玩家能休息的地方；第三步：后来，在一个陌生的地方，门上出现同一个符号，玩家预期这里也是安全的；第四步：游戏利用这个预期，让那里变成陷阱。底部：符号的意思，是在这个世界里，由重复、位置和对比建立起来的；它不需要任何历史来源。虚构的例子，不代表任何真实作品">
+  <defs><marker id="a85" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M10 40h110v90h-110Z"/>
+  <text x="65" y="62" text-anchor="middle" class="gt" style="font-size:11px">第一步</text>
+  <text x="65" y="88" text-anchor="middle" style="font-size:10px">开场的一间安全屋</text>
+  <text x="65" y="108" text-anchor="middle" style="font-size:10px">门上有一个符号</text>
+  <path class="l" d="M122 85h6" marker-end="url(#a85)"/>
+  <path class="l" d="M130 40h110v90h-110Z"/>
+  <text x="185" y="62" text-anchor="middle" class="gt" style="font-size:11px">第二步</text>
+  <text x="185" y="88" text-anchor="middle" style="font-size:10px">玩家看到几次</text>
+  <text x="185" y="108" text-anchor="middle" style="font-size:10px">每次都能休息</text>
+  <path class="l" d="M242 85h6" marker-end="url(#a85)"/>
+  <path class="l" d="M250 40h110v90h-110Z"/>
+  <text x="305" y="62" text-anchor="middle" class="gt" style="font-size:11px">第三步</text>
+  <text x="305" y="88" text-anchor="middle" style="font-size:10px">陌生的地方</text>
+  <text x="305" y="108" text-anchor="middle" style="font-size:10px">门上出现同一个符号</text>
+  <path class="l" d="M362 85h6" marker-end="url(#a85)"/>
+  <path class="gl" d="M370 40h110v90h-110Z"/>
+  <text x="425" y="62" text-anchor="middle" class="gt" style="font-size:11px">第四步</text>
+  <text x="425" y="88" text-anchor="middle" style="font-size:10px">玩家预期这里安全</text>
+  <text x="425" y="108" text-anchor="middle" style="font-size:10px">游戏让它变成陷阱</text>
+  <text x="245" y="158" text-anchor="middle" class="gt" style="font-size:12px">这是本课编的虚构游戏《灰烬城》，不是任何真实的作品</text>
+  <text x="245" y="176" text-anchor="middle" class="sm" style="font-size:10.5px">符号只是“一个圆点加三道短线”，由本课随意设定</text>
+  <text x="245" y="194" text-anchor="middle" class="sm" style="font-size:10.5px">意思靠重复、位置和对比建立，不需要历史来源</text>
+</svg>

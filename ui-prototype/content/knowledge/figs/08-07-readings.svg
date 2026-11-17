@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 262" role="img" aria-label="同一件衣服的三种读法的示意图，本课自绘，据 Fred Perry 2020 年 9 月 24 日的官方声明，一手的企业陈述，没有复制任何商标、衣服或照片。中间是一件抽象的衣服：黑色的身，两道黄边，一圈月桂叶；三个方向的箭头：左，公司的读法：一段超过 65 年的传统，一种英国亚文化的“制服”，各种群体因为看到自己的价值而穿它；右上，另一个群体的读法：一种团体的识别标记，公司说它不认同这个团体；右下，一个陌生路人的读法：一件有牌子的衣服，或什么也不是。底部：这件衣服的物质没有变；变的是谁在读、在什么场合读。公司可以说“我不认同”，但没有办法让别人不这样读">
+  <defs><marker id="a87" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="gl" d="M170 60h150v70h-150Z"/>
+  <text x="245" y="84" text-anchor="middle" style="font-size:9.8px">一件黑身、两道黄边</text>
+  <text x="245" y="102" text-anchor="middle" style="font-size:9.8px">绣月桂叶的衣服</text>
+  <text x="245" y="120" text-anchor="middle" style="font-size:9.8px">（抽象示意，非真实图像）</text>
+  <path class="l" d="M15 28h120v66h-120Z"/>
+  <text x="75" y="46" text-anchor="middle" class="gt" style="font-size:10.5px">公司的读法</text>
+  <text x="75" y="66" text-anchor="middle" style="font-size:9.2px">超过 65 年的传统</text>
+  <text x="75" y="81" text-anchor="middle" style="font-size:9.2px">英国亚文化的“制服”</text>
+  <path class="l" d="M170 80L130 56" marker-end="url(#a87)"/>
+  <path class="l" d="M355 28h120v66h-120Z"/>
+  <text x="415" y="46" text-anchor="middle" class="gt" style="font-size:10.5px">另一个群体的读法</text>
+  <text x="415" y="66" text-anchor="middle" style="font-size:9.2px">一种团体的识别记号</text>
+  <text x="415" y="81" text-anchor="middle" style="font-size:9.2px">公司说不认同这个团体</text>
+  <path class="l" d="M320 80L360 56" marker-end="url(#a87)"/>
+  <path class="l" d="M355 130h120v66h-120Z"/>
+  <text x="415" y="148" text-anchor="middle" class="gt" style="font-size:10.5px">陌生路人的读法</text>
+  <text x="415" y="168" text-anchor="middle" style="font-size:9.2px">一件有牌子的衣服</text>
+  <text x="415" y="183" text-anchor="middle" style="font-size:9.2px">或什么也不是</text>
+  <path class="l" d="M320 112L360 148" marker-end="url(#a87)"/>
+  <text x="245" y="214" text-anchor="middle" class="gt" style="font-size:12px">衣服的物质没有变；变的是谁在读、在什么场合读</text>
+  <text x="245" y="232" text-anchor="middle" class="sm" style="font-size:10.5px">公司可以说“我不认同”，没有办法让别人不这样读</text>
+  <text x="245" y="250" text-anchor="middle" class="sm" style="font-size:10px">据 Fred Perry 2020 年 9 月 24 日的官方声明</text>
+</svg>

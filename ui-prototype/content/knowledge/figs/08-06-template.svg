@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 236" role="img" aria-label="一个梗图模板的结构示意图，本课自绘，不含任何真实的梗图。中间是一个方框，写着“固定的画面”（虚构，不是任何真实图片）；方框下面有一条横线，写着“空位：一行字”；左边箭头：圈子的默契，什么字配什么画面才“对味”；右边箭头：平台：转发、改写、截图、被删；上面箭头：读的人：懂的人笑，外人可能误会。底部：意思，不在画面里，也不在字里，而在画面、字、圈子和读的人之间">
+  <defs><marker id="a86b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="gl" d="M160 30h170v62h-170Z"/>
+  <text x="245" y="56" text-anchor="middle" class="gt" style="font-size:10.5px">固定的画面</text>
+  <text x="245" y="74" text-anchor="middle" class="gt" style="font-size:10.5px">（虚构，不是任何真实图片）</text>
+  <path class="l" d="M160 106h170v28h-170Z"/>
+  <text x="245" y="125" text-anchor="middle" style="font-size:11px">空位：一行字</text>
+  <path class="l" d="M160 62H110" marker-end="url(#a86b)"/>
+  <text x="55" y="56" text-anchor="middle" style="font-size:9.5px">圈子的默契</text>
+  <text x="55" y="71" text-anchor="middle" style="font-size:9.5px">什么字配什么画面</text>
+  <path class="l" d="M330 62H380" marker-end="url(#a86b)"/>
+  <text x="432" y="56" text-anchor="middle" style="font-size:9.5px">平台</text>
+  <text x="432" y="71" text-anchor="middle" style="font-size:9.5px">转发、改写、截图</text>
+  <text x="432" y="86" text-anchor="middle" style="font-size:9.5px">被删</text>
+  <path class="l" d="M245 134V160" marker-end="url(#a86b)"/>
+  <text x="245" y="176" text-anchor="middle" style="font-size:10.5px">读的人：懂的人笑，外人可能误会</text>
+  <text x="245" y="204" text-anchor="middle" class="gt" style="font-size:12.5px">意思不在画面里，也不在字里</text>
+  <text x="245" y="222" text-anchor="middle" class="sm" style="font-size:11px">而在画面、字、圈子和读的人之间</text>
+</svg>

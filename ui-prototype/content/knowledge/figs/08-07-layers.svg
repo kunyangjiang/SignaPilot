@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 248" role="img" aria-label="一件衣服的几层符号的示意图，本课自绘，不含任何真实的商标或商品图像。四层由下到上：一，材料层：棉、针织、剪裁，有实用功能，由工厂和裁缝决定；二，标志层：绣上去的月桂叶，是商标，由公司注册并保护；三，颜色层：黑身加两道黄边，公司自己也用这个组合来指称这一款；四，意义层：传统、运动、亚文化、团体、身份，由所有穿它、看它的人在使用中形成。右边标着每层“谁能决定”：下面几层，主要由公司决定；最上一层，没有人能独自决定。底部：品牌拥有标志，但不拥有它的全部意义">
+  <path class="gl" d="M15 30h460v34h-460Z"/>
+  <text x="25" y="51" text-anchor="start" class="gt" style="font-size:11.5px">意义层</text>
+  <text x="95" y="51" text-anchor="start" style="font-size:9.6px">传统、运动、亚文化、团体、身份</text>
+  <text x="465" y="51" text-anchor="end" class="sm" style="font-size:9.5px">所有穿它、看它的人</text>
+  <path class="l" d="M15 70h460v34h-460Z"/>
+  <text x="25" y="91" text-anchor="start" class="gt" style="font-size:11.5px">颜色层</text>
+  <text x="95" y="91" text-anchor="start" style="font-size:9.6px">黑身加两道黄边（公司也用它指称这一款）</text>
+  <text x="465" y="91" text-anchor="end" class="sm" style="font-size:9.5px">公司与使用者共同</text>
+  <path class="l" d="M15 110h460v34h-460Z"/>
+  <text x="25" y="131" text-anchor="start" class="gt" style="font-size:11.5px">标志层</text>
+  <text x="95" y="131" text-anchor="start" style="font-size:9.6px">绣上去的月桂叶：商标</text>
+  <text x="465" y="131" text-anchor="end" class="sm" style="font-size:9.5px">公司注册并保护</text>
+  <path class="l" d="M15 150h460v34h-460Z"/>
+  <text x="25" y="171" text-anchor="start" class="gt" style="font-size:11.5px">材料层</text>
+  <text x="95" y="171" text-anchor="start" style="font-size:9.6px">棉、针织、剪裁：实用功能</text>
+  <text x="465" y="171" text-anchor="end" class="sm" style="font-size:9.5px">工厂与裁缝</text>
+  <text x="245" y="214" text-anchor="middle" class="sm" style="font-size:10px">右列：这一层主要由谁决定</text>
+  <text x="245" y="236" text-anchor="middle" class="gt" style="font-size:12.5px">品牌拥有标志，但不拥有它的全部意义</text>
+</svg>

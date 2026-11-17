@@ -513,6 +513,11 @@
     '08-01': { src: 'content/knowledge/08-01.md', state: 'done' },
     '08-02': { src: 'content/knowledge/08-02.md', state: 'done' },
     '08-03': { src: 'content/knowledge/08-03.md', state: 'done' },
+    '08-04': { src: 'content/knowledge/08-04.md', state: 'done' },
+    '08-05': { src: 'content/knowledge/08-05.md', state: 'done' },
+    '08-06': { src: 'content/knowledge/08-06.md', state: 'done' },
+    '08-07': { src: 'content/knowledge/08-07.md', state: 'done' },
+    '09-01': { src: 'content/knowledge/09-01.md', state: 'done' },
   };
   const K_STATE = { done: '已完成', draft: '初稿 · 待审读' };
   // A course manuscript: "# 标题", an optional "> 初稿…" status line, a lead paragraph, "**…**" question lines,
@@ -1170,7 +1175,7 @@
           $('.nf-prev', fig).disabled = at === 0;
           $('.nf-next', fig).disabled = at === w.items.length - 1;
         };
-        kinds.forEach(b => b.addEventListener('click', () => { if (picked[at] === null) { picked[at] = b.dataset.id; draw(); } }));
+        kinds.forEach(b => b.addEventListener('click', () => { if (picked[at] === null) { picked[at] = b.dataset.id; draw(); /* the choice buttons are now disabled and would drop focus to <body>: hand it to the next control */ const nx = $('.nf-next', fig), pv = $('.nf-prev', fig); (!nx.disabled ? nx : !pv.disabled ? pv : $('.nf-dots .at', fig)).focus(); } }));
         dots.forEach((d, k) => d.addEventListener('click', () => { at = k; draw(); }));
         $('.nf-prev', fig).addEventListener('click', () => { if (at > 0) { at--; draw(); } });
         $('.nf-next', fig).addEventListener('click', () => { if (at < w.items.length - 1) { at++; draw(); } });

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 274" role="img" aria-label="品牌符号和宗教符号的对比示意图，本课自绘，不代表所有品牌或所有宗教。两列：一，品牌符号（以本课的 Fred Perry 例子为参照）：靠约定和重复；由公司注册商标，法律上有所有权；买卖关系，可以不买、可以换；意义来自广告、销售和使用者；没有超越的主张。二，宗教符号（以本课前面几课为参照）：靠约定和重复；权威来自社群、传承；常有长期的义务和仪式；意义牵涉教义、历史、仪式；常常主张同一个超越的东西相关。中间一条横线：相同的地方：约定、反复、划分“我们”和“他们”、争论谁有权解释、可以被拿走和改写。底部：相同的是机制，不同的是承诺、制度和主张，两者不能当成可以互换的东西">
+  <path class="l" d="M15 28h225v156h-225Z"/>
+  <text x="127" y="48" text-anchor="middle" class="gt" style="font-size:12px">品牌符号</text>
+  <path class="l" d="M250 28h225v156h-225Z"/>
+  <text x="362" y="48" text-anchor="middle" class="gt" style="font-size:12px">宗教符号</text>
+  <text x="127" y="72" text-anchor="middle" style="font-size:9.6px">靠约定和重复</text>
+  <text x="362" y="72" text-anchor="middle" style="font-size:9.6px">靠约定和重复</text>
+  <text x="127" y="92" text-anchor="middle" style="font-size:9.6px">公司注册商标，法律上有所有权</text>
+  <text x="362" y="92" text-anchor="middle" style="font-size:9.6px">权威来自社群与传承</text>
+  <text x="127" y="112" text-anchor="middle" style="font-size:9.6px">买卖关系：可以不买，可以换</text>
+  <text x="362" y="112" text-anchor="middle" style="font-size:9.6px">常有长期的义务和仪式</text>
+  <text x="127" y="132" text-anchor="middle" style="font-size:9.6px">意义来自广告、销售和使用者</text>
+  <text x="362" y="132" text-anchor="middle" style="font-size:9.6px">意义牵涉教义、历史、仪式</text>
+  <text x="127" y="152" text-anchor="middle" style="font-size:9.6px">没有超越的主张</text>
+  <text x="362" y="152" text-anchor="middle" style="font-size:9.6px">常常主张同一个超越的东西相关</text>
+  <path class="gl" d="M15 194h460v28h-460Z"/>
+  <text x="245" y="213" text-anchor="middle" style="font-size:9.8px">相同：约定、反复、划分“我们”和“他们”、争论谁有权解释、可被拿走和改写</text>
+  <text x="245" y="244" text-anchor="middle" class="gt" style="font-size:12px">相同的是机制；不同的是承诺、制度和主张</text>
+  <text x="245" y="262" text-anchor="middle" class="sm" style="font-size:10px">两者不能当成可以互换的东西；本图不代表所有品牌或所有宗教</text>
+</svg>

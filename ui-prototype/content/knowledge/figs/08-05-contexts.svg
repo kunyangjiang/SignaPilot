@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 226" role="img" aria-label="一个符号在三种语境里的示意图，本课自绘，不含任何真实的封套或符号图形。左：历史的来源：一本符号汇编书，或一部更早的魔法书、符号词典里，有若干符号，各有各的用法和出处；中：艺术的再创造：1971 年，乐队成员各选或各自设计一个符号，放在一张没有名字的专辑里，作为成员的标记；右：听众的解读：听众给符号取名字、找出处、讨论它的意思。底部：三栏回答三个不同的问题：它原来是什么；创作者拿它做什么；听众怎样读它。三者之间的线，要靠证据去连，不能靠外形相似去连">
+  <path class="l" d="M15 30h150v120h-150Z"/>
+  <text x="90" y="52" text-anchor="middle" class="gt" style="font-size:12px">历史的来源</text>
+  <text x="90" y="80" text-anchor="middle" style="font-size:9.8px">符号汇编书、符号词典</text>
+  <text x="90" y="100" text-anchor="middle" style="font-size:9.8px">更早的魔法书</text>
+  <text x="90" y="120" text-anchor="middle" style="font-size:9.8px">各有各的用法和出处</text>
+  <path class="gl" d="M170 30h150v120h-150Z"/>
+  <text x="245" y="52" text-anchor="middle" class="gt" style="font-size:12px">艺术的再创造</text>
+  <text x="245" y="80" text-anchor="middle" style="font-size:9.8px">1971 年一张没有名字的专辑</text>
+  <text x="245" y="100" text-anchor="middle" style="font-size:9.8px">成员各选或各设计一个符号</text>
+  <text x="245" y="120" text-anchor="middle" style="font-size:9.8px">作为成员的标记</text>
+  <path class="l" d="M325 30h150v120h-150Z"/>
+  <text x="400" y="52" text-anchor="middle" class="gt" style="font-size:12px">听众的解读</text>
+  <text x="400" y="80" text-anchor="middle" style="font-size:9.8px">给符号取名字</text>
+  <text x="400" y="100" text-anchor="middle" style="font-size:9.8px">找它的出处</text>
+  <text x="400" y="120" text-anchor="middle" style="font-size:9.8px">讨论它的意思</text>
+  <path class="l thin" d="M165 90h10M320 90h10" stroke-dasharray="3 3"/>
+  <text x="245" y="178" text-anchor="middle" class="gt" style="font-size:11.5px">三栏回答三个问题：原来是什么；创作者拿它做什么；听众怎样读</text>
+  <text x="245" y="196" text-anchor="middle" class="sm" style="font-size:10.5px">栏与栏之间的线，要靠证据去连，不能靠外形相似去连</text>
+  <text x="245" y="214" text-anchor="middle" class="sm" style="font-size:10px">本图不含任何真实的封套或符号图形</text>
+</svg>

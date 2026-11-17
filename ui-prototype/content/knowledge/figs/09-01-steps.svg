@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 246" role="img" aria-label="一位历史学者的六步的示意图，本课自绘。六个台阶从左到右：一，观察：这两个东西像在哪里；二，分清：我说的“像”是视觉、功能、意义还是联系；三，列出备选：传播、独立形成、共同来源、分类造成的；四，问证据：每个备选应当留下什么痕迹，我有没有看到；五，找有分辨力的证据：哪一类证据能把两个备选分开；六，作判断并说明把握：有几成把握，还缺什么。第五步下面标着：四种解释都预测“两处相似”，所以“像”本身没有分辨力。底部：每一步都要写下来，让别人能检查">
+  <path class="l" d="M15 110h70v70h-70Z"/>
+  <text x="50" y="130" text-anchor="middle" class="gt" style="font-size:10.5px">1 观察</text>
+  <text x="50" y="150" text-anchor="middle" class="sm" style="font-size:9.5px">像在哪里</text>
+  <path class="l" d="M91 100h70v80h-70Z"/>
+  <text x="126" y="120" text-anchor="middle" class="gt" style="font-size:10.5px">2 分清</text>
+  <text x="126" y="140" text-anchor="middle" class="sm" style="font-size:9.5px">视觉</text>
+  <text x="126" y="154" text-anchor="middle" class="sm" style="font-size:9.5px">功能</text>
+  <text x="126" y="168" text-anchor="middle" class="sm" style="font-size:9.5px">意义</text>
+  <text x="126" y="182" text-anchor="middle" class="sm" style="font-size:9.5px">联系</text>
+  <path class="l" d="M167 90h70v90h-70Z"/>
+  <text x="202" y="110" text-anchor="middle" class="gt" style="font-size:10.5px">3 列备选</text>
+  <text x="202" y="130" text-anchor="middle" class="sm" style="font-size:9.5px">传播</text>
+  <text x="202" y="144" text-anchor="middle" class="sm" style="font-size:9.5px">独立</text>
+  <text x="202" y="158" text-anchor="middle" class="sm" style="font-size:9.5px">共同来源</text>
+  <text x="202" y="172" text-anchor="middle" class="sm" style="font-size:9.5px">分类</text>
+  <path class="l" d="M243 80h70v100h-70Z"/>
+  <text x="278" y="100" text-anchor="middle" class="gt" style="font-size:10.5px">4 问证据</text>
+  <text x="278" y="120" text-anchor="middle" class="sm" style="font-size:9.5px">各留下</text>
+  <text x="278" y="134" text-anchor="middle" class="sm" style="font-size:9.5px">什么痕迹</text>
+  <path class="gl" d="M319 70h70v110h-70Z"/>
+  <text x="354" y="90" text-anchor="middle" class="gt" style="font-size:10.5px">5 找分辨</text>
+  <text x="354" y="110" text-anchor="middle" class="sm" style="font-size:9.5px">哪类证据</text>
+  <text x="354" y="124" text-anchor="middle" class="sm" style="font-size:9.5px">能分开</text>
+  <text x="354" y="138" text-anchor="middle" class="sm" style="font-size:9.5px">两个备选</text>
+  <path class="l" d="M395 60h70v120h-70Z"/>
+  <text x="430" y="80" text-anchor="middle" class="gt" style="font-size:10.5px">6 作判断</text>
+  <text x="430" y="100" text-anchor="middle" class="sm" style="font-size:9.5px">说明把握</text>
+  <text x="430" y="114" text-anchor="middle" class="sm" style="font-size:9.5px">还缺什么</text>
+  <text x="245" y="212" text-anchor="middle" class="gt" style="font-size:11.5px">第 5 步：四种解释都预测“两处相似”，所以“像”本身没有分辨力</text>
+  <text x="245" y="232" text-anchor="middle" class="sm" style="font-size:10.5px">每一步都要写下来，让别人能检查</text>
+</svg>
