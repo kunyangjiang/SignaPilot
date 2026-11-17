@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 266" role="img" aria-label="把一件“灵异”事件拆成五层的示意图，本课自绘。五级台阶，从下到上：一，观察：谁在什么条件下，听见或看见了什么；二，证人的说法：他们事后怎样讲；三，解释：这是什么造成的；四，竞争的解释：还有哪些可能，如身体发声、双重曝光、记错；五，有根据的结论：在现有证据下，哪些能说，哪些不能说。每一级右边写着这一级需要什么：条件的记录；多个独立证人；与已知原因的对比；排除别的可能；承认证据的限度。底部：越往上，越需要证据；一个人的“亲眼所见”，在第一、二级，不自动上到第五级">
+  <path class="l" d="M20 190H462v32H20Z"/>
+  <text x="28" y="210" text-anchor="start" class="gt" style="font-size:12px">一 观察</text>
+  <text x="130" y="210" text-anchor="start" style="font-size:10px">谁、在什么条件下听见看见什么</text>
+  <text x="455" y="210" text-anchor="end" class="sm" style="font-size:9.5px">要有条件的记录</text>
+  <path class="l" d="M28 152H462v32H28Z"/>
+  <text x="36" y="172" text-anchor="start" class="gt" style="font-size:12px">二 证人的说法</text>
+  <text x="138" y="172" text-anchor="start" style="font-size:10px">事后怎样讲、讲给谁听</text>
+  <text x="455" y="172" text-anchor="end" class="sm" style="font-size:9.5px">要有多个独立证人</text>
+  <path class="l" d="M36 114H462v32H36Z"/>
+  <text x="44" y="134" text-anchor="start" class="gt" style="font-size:12px">三 解释</text>
+  <text x="146" y="134" text-anchor="start" style="font-size:10px">它是什么造成的？</text>
+  <text x="455" y="134" text-anchor="end" class="sm" style="font-size:9.5px">要与已知的原因对比</text>
+  <path class="l" d="M44 76H462v32H44Z"/>
+  <text x="52" y="96" text-anchor="start" class="gt" style="font-size:12px">四 竞争的解释</text>
+  <text x="154" y="96" text-anchor="start" style="font-size:10px">身体发声？双重曝光？</text>
+  <text x="455" y="96" text-anchor="end" class="sm" style="font-size:9.5px">要逐个排除</text>
+  <path class="gl" d="M52 38H462v32H52Z"/>
+  <text x="60" y="58" text-anchor="start" class="gt" style="font-size:12px">五 有根据的结论</text>
+  <text x="162" y="58" text-anchor="start" style="font-size:10px">什么能说、什么不能说</text>
+  <text x="455" y="58" text-anchor="end" class="sm" style="font-size:9.5px">要承认证据的限度</text>
+  <text x="245" y="236" text-anchor="middle" class="gt" style="font-size:12.5px">越往上，越需要证据</text>
+  <text x="245" y="254" text-anchor="middle" class="sm" style="font-size:11px">“亲眼所见”在第一、二级，不会自动上到第五级</text>
+</svg>

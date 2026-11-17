@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 246" role="img" aria-label="金色黎明早期几个有记录的节点的时间线，本课自绘，据 Gilbert（1987）和 Wheeler（2019）的研究，二手归纳。一条横轴，六个点：1886 或 1887 年，一批密文手稿到了 Westcott 手里，来历没有定论；1887 年起，据 Westcott 的说法，Anna Sprengel 来信授权，学者认为这些信是伪造的；1888 年 3 月前，各级仪式完成，Isis-Urania 神殿特许状签发，月底有九人入会；1888 年底，成员达到 55 人；1890 年 8 月，Westcott 称收到了 Sprengel 去世的通知；1899 至 1900 年，对 Mathers 的领导不满，发生分裂。底部：有的节点有名册和特许状可查，有的只有 Westcott 一个人的说法">
+  <path class="l" d="M20 110H470"/>
+  <circle class="dotk" cx="60" cy="110" r="4"/>
+  <text x="60" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">1886–87</text>
+  <text x="60" y="76" text-anchor="middle" style="font-size:10px">手稿到 Westcott</text>
+  <circle class="dotk" cx="125" cy="110" r="4"/>
+  <text x="125" y="134" text-anchor="middle" class="gt" style="font-size:11.5px">1887 起</text>
+  <text x="125" y="150" text-anchor="middle" style="font-size:10px">“Sprengel”来信</text>
+  <circle class="dotk" cx="205" cy="110" r="4"/>
+  <text x="205" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">1888.3</text>
+  <text x="205" y="76" text-anchor="middle" style="font-size:10px">特许状 · 9 人入会</text>
+  <circle class="dotk" cx="285" cy="110" r="4"/>
+  <text x="285" y="134" text-anchor="middle" class="gt" style="font-size:11.5px">1888 末</text>
+  <text x="285" y="150" text-anchor="middle" style="font-size:10px">55 人</text>
+  <circle class="dotk" cx="365" cy="110" r="4"/>
+  <text x="365" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">1890.8</text>
+  <text x="365" y="76" text-anchor="middle" style="font-size:10px">“Sprengel 去世”</text>
+  <circle class="dotk" cx="440" cy="110" r="4"/>
+  <text x="440" y="134" text-anchor="middle" class="gt" style="font-size:11.5px">1899–1900</text>
+  <text x="440" y="150" text-anchor="middle" style="font-size:10px">分裂</text>
+  <text x="245" y="196" text-anchor="middle" class="gt" style="font-size:12.5px">有的节点有名册和特许状可查，有的只有 Westcott 一个人的说法</text>
+  <text x="245" y="214" text-anchor="middle" class="sm" style="font-size:11px">“Sprengel 来信”与“去世”，只由 Westcott 转述；学者认为信是伪造的</text>
+  <text x="245" y="232" text-anchor="middle" class="sm" style="font-size:10.5px">据 Gilbert（1987）、Wheeler（2019）；日期以原始档案为准</text>
+</svg>

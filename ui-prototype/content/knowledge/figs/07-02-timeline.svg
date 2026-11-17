@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 256" role="img" aria-label="共济会早期有据可查的几个节点的时间线，本课自绘，二手归纳。一条横轴，五个点，每个点下面标明证据的类型：一，1598、1599 年，苏格兰石匠师傅的规章（Schaw 规章），保存在爱丁堡玛丽教堂会所的登记册里，是行会的规章；二，1646 年，Elias Ashmole 的日记里记下自己在沃灵顿“被接纳为共济会员”，是私人日记；三，1721 年 6 月，报纸第一次报道大会所（Grand Lodge）的就职，至于传统上说的 1717 年，最早的说法见于 1738 年，学者仍有争议；四，1723 年，安德森的《章程》印行，是组织自己印的书；五，1730 年，Prichard 的《共济会解剖》，是一个自称曾是会员的人印的小册子。底部：同样叫“共济会”的东西，证据的种类并不一样；组织自己说的话，是它这样说的证据，不自动是它的历史">
+  <path class="l" d="M30 100H460"/>
+  <circle class="dotk" cx="60" cy="100" r="4"/>
+  <text x="60" y="86" text-anchor="middle" class="gt" style="font-size:12px">1598–99</text>
+  <text x="60" y="58" text-anchor="middle" style="font-size:10.5px">苏格兰石匠规章</text>
+  <text x="60" y="44" text-anchor="middle" class="sm" style="font-size:10px">行会的规章</text>
+  <circle class="dotk" cx="150" cy="100" r="4"/>
+  <text x="150" y="120" text-anchor="middle" class="gt" style="font-size:12px">1646</text>
+  <text x="150" y="150" text-anchor="middle" style="font-size:10.5px">Ashmole 日记</text>
+  <text x="150" y="164" text-anchor="middle" class="sm" style="font-size:10px">私人日记</text>
+  <circle class="dotk" cx="240" cy="100" r="4"/>
+  <text x="240" y="86" text-anchor="middle" class="gt" style="font-size:12px">1721</text>
+  <text x="240" y="58" text-anchor="middle" style="font-size:10.5px">报纸首次报道</text>
+  <text x="240" y="44" text-anchor="middle" class="sm" style="font-size:10px">外部记录（1717 有争议）</text>
+  <circle class="dotk" cx="330" cy="100" r="4"/>
+  <text x="330" y="120" text-anchor="middle" class="gt" style="font-size:12px">1723</text>
+  <text x="330" y="150" text-anchor="middle" style="font-size:10.5px">安德森《章程》</text>
+  <text x="330" y="164" text-anchor="middle" class="sm" style="font-size:10px">组织自己印的书</text>
+  <circle class="dotk" cx="420" cy="100" r="4"/>
+  <text x="420" y="86" text-anchor="middle" class="gt" style="font-size:12px">1730</text>
+  <text x="420" y="58" text-anchor="middle" style="font-size:10.5px">Prichard 小册子</text>
+  <text x="420" y="44" text-anchor="middle" class="sm" style="font-size:10px">“前会员”印的册子</text>
+  <text x="245" y="204" text-anchor="middle" class="gt" style="font-size:12.5px">同样叫“共济会”，证据的种类并不一样</text>
+  <text x="245" y="222" text-anchor="middle" class="sm" style="font-size:11px">组织自己说的话，证明它这样说过，不自动证明它说的是历史</text>
+  <text x="245" y="240" text-anchor="middle" class="sm" style="font-size:10.5px">1717 年一说：最早见于 1738 年的《章程》；学者对 1717 与 1721 的看法不一</text>
+</svg>

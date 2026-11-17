@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 280" role="img" aria-label="犹太卡巴拉、基督教卡巴拉与赫尔墨斯卡巴拉的区别的示意图，本课自绘，据本课的相关课程（04-04、04-05）和二手的概述。三层从上到下：一，犹太卡巴拉：犹太教内的神秘传统，有自己的经典与师承；二，基督教卡巴拉：文艺复兴时期的基督教学者，如 Pico、Reuchlin，把卡巴拉的概念放进基督教的神学与哲学；三，赫尔墨斯卡巴拉（本课写作 Qabalah）：19 世纪的西方秘传圈，常提 Éliphas Lévi 把希伯来字母与塔罗牌联系起来，金色黎明把它扩展成一个有许多对应的系统，与行星、元素、塔罗、神的名字相连。右边的箭头：每一层都在重新解释上一层。底部：三者同一个词的拼法不同，历史语境不同，不能互相代替">
+  <defs><marker id="ar0705" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M20 40h330v46h-330Z"/>
+  <text x="30" y="59" text-anchor="start" class="gt" style="font-size:12.5px">犹太卡巴拉</text>
+  <text x="30" y="75" text-anchor="start" style="font-size:10px">犹太教内的神秘传统</text>
+  <text x="340" y="68" text-anchor="end" class="sm" style="font-size:10px">经典、师承、犹太社群（04-04）</text>
+  <path class="l" d="M20 100h330v46h-330Z"/>
+  <text x="30" y="119" text-anchor="start" class="gt" style="font-size:12.5px">基督教卡巴拉</text>
+  <text x="30" y="135" text-anchor="start" style="font-size:10px">文艺复兴的基督教学者重新解释</text>
+  <text x="340" y="128" text-anchor="end" class="sm" style="font-size:10px">Pico、Reuchlin 等（04-05）</text>
+  <path class="gl" d="M20 160h330v46h-330Z"/>
+  <text x="30" y="179" text-anchor="start" class="gt" style="font-size:12.5px">赫尔墨斯卡巴拉</text>
+  <text x="30" y="195" text-anchor="start" style="font-size:10px">19 世纪西方秘传圈的综合</text>
+  <text x="340" y="188" text-anchor="end" class="sm" style="font-size:10px">塔罗、行星、元素等对应；金色黎明</text>
+  <path class="gl thin" d="M185 87V99" marker-end="url(#ar0705)"/>
+  <path class="gl thin" d="M185 147V159" marker-end="url(#ar0705)"/>
+  <text x="245" y="232" text-anchor="middle" class="gt" style="font-size:12.5px">同一个词，三种历史语境，不能互相代替</text>
+  <text x="245" y="250" text-anchor="middle" class="sm" style="font-size:11px">每一层都在重新解释上一层</text>
+  <text x="245" y="268" text-anchor="middle" class="sm" style="font-size:10.5px">据本课读到的概述；赫尔墨斯卡巴拉的细节，本课没有读专著</text>
+</svg>

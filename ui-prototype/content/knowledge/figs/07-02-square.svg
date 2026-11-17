@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 270" role="img" aria-label="同一把“角尺”在三种场合里的示意图，本课自绘，不是任何实物或印本的复制。左：工地，角尺用来检验直角，意义就是它的用途；中：1730 年 Prichard 的小册子里，会所的问答把“角尺”列为会所的摆设和“可移动的宝物”，并把它同职位联系在一起：问答里说，圣经属于上帝，圆规属于会长，角尺属于“匠人”级；会长的位置在东方，据说颈上挂着角尺；右：今天的大众想象，角尺与圆规的图案常被当成某种“秘密的暗号”，被附会上各种意义。底部：同一个物件，意义随着它所在的制度、听的人和用它的方式而变；不是物件自己带着一本词典">
+  <path class="l thin" d="M20 36h140v176h-140Z"/>
+  <text x="90" y="58" text-anchor="middle" class="gt" style="font-size:12px">工地</text>
+  <path class="l" d="M70 74V110H106" style="stroke-width:3"/><path class="l thin" d="M80 110V102M70 100H78"/>
+  <text x="90" y="148" text-anchor="middle" style="font-size:11px">检验直角</text>
+  <text x="90" y="166" text-anchor="middle" style="font-size:11px">意义 = 用途</text>
+  <text x="90" y="196" text-anchor="middle" class="sm" style="font-size:10px">来自建造</text>
+  <path class="l thin" d="M175 36h140v176h-140Z"/>
+  <text x="245" y="58" text-anchor="middle" class="gt" style="font-size:12px">1730 年的会所问答</text>
+  <path class="l" d="M225 74V110H261" style="stroke-width:3"/><path class="l thin" d="M235 110V102M225 100H233"/>
+  <text x="245" y="148" text-anchor="middle" style="font-size:11px">“可移动的宝物”之一</text>
+  <text x="245" y="166" text-anchor="middle" style="font-size:11px">同职位联系在一起</text>
+  <text x="245" y="196" text-anchor="middle" class="sm" style="font-size:10px">来自一份印本</text>
+  <path class="l thin" d="M330 36h140v176h-140Z"/>
+  <text x="400" y="58" text-anchor="middle" class="gt" style="font-size:12px">今天的大众想象</text>
+  <path class="l" d="M380 74V110H416" style="stroke-width:3"/><path class="l thin" d="M390 110V102M380 100H388"/>
+  <text x="400" y="148" text-anchor="middle" style="font-size:11px">角尺与圆规的图案</text>
+  <text x="400" y="166" text-anchor="middle" style="font-size:11px">被附会成“暗号”</text>
+  <text x="400" y="196" text-anchor="middle" class="sm" style="font-size:10px">来自流行文化</text>
+  <text x="245" y="240" text-anchor="middle" class="gt" style="font-size:12.5px">同一个物件，意义随着制度、听的人、用它的方式而变</text>
+  <text x="245" y="258" text-anchor="middle" class="sm" style="font-size:10.5px">本图是示意：左右两格不是某件实物，中间一格据 1730 年印本里的问答</text>
+</svg>

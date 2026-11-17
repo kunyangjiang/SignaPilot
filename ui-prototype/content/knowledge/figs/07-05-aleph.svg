@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 248" role="img" aria-label="希伯来字母 Aleph 在四个来源里的不同联系的示意图，本课自绘，二手归纳，并标明各联系出现的时代。四列：一，《形成之书》（Sefer Yetzirah，成书年代有争议）：Aleph 是三个“母字母”之一，与空气联系；二，Éliphas Lévi（19 世纪中叶）：据 Westcott 的译本注释，Lévi 说第一张塔罗牌“魔术师”的形象像 Aleph；三，金色黎明（1888 年起）：Aleph 配“愚者”牌，又配空气；四，塔罗牌最早的记载（15 世纪）：当时的牌里，没有任何希伯来字母的对应。底部：同一个字母，在不同时代、不同来源里，被联系到不同的东西；金色黎明把这些联系合在一张表里；这不等于这些联系原来就在一起">
+  <path class="l" d="M15 36h110v130h-110Z"/>
+  <text x="70" y="58" text-anchor="middle" class="gt" style="font-size:12px">《形成之书》</text>
+  <text x="70" y="74" text-anchor="middle" class="sm" style="font-size:9.5px">成书年代有争议</text>
+  <text x="70" y="106" text-anchor="middle" style="font-size:10.5px">Aleph ↔ 空气</text>
+  <text x="70" y="126" text-anchor="middle" class="sm" style="font-size:9.5px">三个“母字母”之一</text>
+  <path class="l" d="M130 36h110v130h-110Z"/>
+  <text x="185" y="58" text-anchor="middle" class="gt" style="font-size:12px">Lévi</text>
+  <text x="185" y="74" text-anchor="middle" class="sm" style="font-size:9.5px">19 世纪中叶</text>
+  <text x="185" y="106" text-anchor="middle" style="font-size:10.5px">Aleph ↔ 魔术师</text>
+  <text x="185" y="126" text-anchor="middle" class="sm" style="font-size:9.5px">（据 Westcott 译本注）</text>
+  <path class="gl" d="M245 36h110v130h-110Z"/>
+  <text x="300" y="58" text-anchor="middle" class="gt" style="font-size:12px">金色黎明</text>
+  <text x="300" y="74" text-anchor="middle" class="sm" style="font-size:9.5px">1888 年起</text>
+  <text x="300" y="106" text-anchor="middle" style="font-size:10.5px">Aleph ↔ 愚者 ↔ 空气</text>
+  <text x="300" y="126" text-anchor="middle" class="sm" style="font-size:9.5px">把几个来源合成一张表</text>
+  <path class="l" d="M360 36h110v130h-110Z"/>
+  <text x="415" y="58" text-anchor="middle" class="gt" style="font-size:12px">早期塔罗牌</text>
+  <text x="415" y="74" text-anchor="middle" class="sm" style="font-size:9.5px">15 世纪</text>
+  <text x="415" y="106" text-anchor="middle" style="font-size:10.5px">没有字母对应</text>
+  <text x="415" y="126" text-anchor="middle" class="sm" style="font-size:9.5px">那时的牌是游戏牌</text>
+  <text x="245" y="200" text-anchor="middle" class="gt" style="font-size:12.5px">同一个字母，在不同的时代和来源里，联系的东西不同</text>
+  <text x="245" y="218" text-anchor="middle" class="sm" style="font-size:11px">金色黎明把它们合在一张表里，不等于这些联系原来就在一起</text>
+  <text x="245" y="236" text-anchor="middle" class="sm" style="font-size:10.5px">据 Westcott 译 Lévi 的注释与二手概述；《形成之书》的年代与表述，本课没有读原文</text>
+</svg>

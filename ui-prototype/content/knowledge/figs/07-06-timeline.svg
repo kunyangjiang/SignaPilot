@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 244" role="img" aria-label="塔罗从游戏牌到秘传工具的时间线，本课自绘，二手归纳，各来源日期略有出入。一条横轴，八个点：1442 年，意大利费拉拉宫廷的账目，是最早可靠的塔罗牌记载，一位画家被支付画四副牌；约 1450 至 1460 年代，米兰的维斯孔蒂—斯福尔扎手绘牌；约 1461 年，Boiardo 写了一首以塔罗牌为题的诗；约 1650 年，已知最早的马赛式牌，仍是游戏牌；1781 年，Court de Gébelin 提出“埃及之书”说；1780 年代末，Etteilla 出版为占卜设计的牌；1888 年起，金色黎明把塔罗并入对应表；1909 年，Rider–Waite–Smith 牌。底部：前半段，是游戏；后半段，才是秘传工具；两段之间的转折，是一次解读，不是一个新发现的文件">
+  <path class="l" d="M15 110H475"/>
+  <circle class="dotk" cx="35" cy="110" r="4"/>
+  <text x="35" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">1442</text>
+  <text x="35" y="76" text-anchor="middle" style="font-size:10px">费拉拉账目</text>
+  <circle class="dotk" cx="90" cy="110" r="4"/>
+  <text x="90" y="134" text-anchor="middle" class="gt" style="font-size:11.5px">1450s–60</text>
+  <text x="90" y="150" text-anchor="middle" style="font-size:10px">手绘牌</text>
+  <circle class="dotk" cx="145" cy="110" r="4"/>
+  <text x="145" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">1461</text>
+  <text x="145" y="76" text-anchor="middle" style="font-size:10px">Boiardo 诗</text>
+  <circle class="dotk" cx="205" cy="110" r="4"/>
+  <text x="205" y="134" text-anchor="middle" class="gt" style="font-size:11.5px">1650</text>
+  <text x="205" y="150" text-anchor="middle" style="font-size:10px">马赛式牌</text>
+  <circle class="dotk" cx="265" cy="110" r="4"/>
+  <text x="265" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">1781</text>
+  <text x="265" y="76" text-anchor="middle" style="font-size:10px">“埃及之书”</text>
+  <circle class="dotk" cx="325" cy="110" r="4"/>
+  <text x="325" y="134" text-anchor="middle" class="gt" style="font-size:11.5px">1780s末</text>
+  <text x="325" y="150" text-anchor="middle" style="font-size:10px">Etteilla</text>
+  <circle class="dotk" cx="385" cy="110" r="4"/>
+  <text x="385" y="92" text-anchor="middle" class="gt" style="font-size:11.5px">1888</text>
+  <text x="385" y="76" text-anchor="middle" style="font-size:10px">金色黎明</text>
+  <circle class="dotk" cx="445" cy="110" r="4"/>
+  <text x="445" y="134" text-anchor="middle" class="gt" style="font-size:11.5px">1909</text>
+  <text x="445" y="150" text-anchor="middle" style="font-size:10px">RWS 牌</text>
+  <path class="gl thin" d="M240 168V186" stroke-dasharray="3 3"/>
+  <text x="120" y="182" text-anchor="middle" class="gt" style="font-size:12px">游戏</text>
+  <text x="370" y="182" text-anchor="middle" class="gt" style="font-size:12px">秘传工具</text>
+  <text x="245" y="212" text-anchor="middle" class="gt" style="font-size:12.5px">两段之间的转折，是一次解读，不是一份新发现的文件</text>
+  <text x="245" y="230" text-anchor="middle" class="sm" style="font-size:10.5px">日期据 Ortalli、Wintle 等；Etteilla 的年份，各来源有 1785、1788、1789 之说</text>
+</svg>

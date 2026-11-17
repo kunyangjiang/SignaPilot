@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 236" role="img" aria-label="1781 年 Court de Gébelin 的推理链的示意图，本课自绘，据他在《原始世界》第八卷里的文字。四步：一，他在朋友家看见人们玩塔罗，立刻觉得牌上的画“显然是寓意的”；二，他认为这些寓意“符合古埃及人的学说”；三，他得出结论：只有埃及人能发明它；四，他把它说成“一本幸存下来的埃及之书”。每一步下面标出他提供的东西：一，一次观看；二，他自己的解读；三，一个推论；四，一个修辞。第二步到第三步之间标一个问号：他没有给出能把这副牌同古埃及联系起来的文献或实物。底部：这是一个由解读到结论的链条，中间缺的是证据；当时埃及的象形文字还没有被读出">
+  <defs><marker id="ar0706" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M8 40h108v100h-108Z"/>
+  <text x="62" y="62" text-anchor="middle" class="gt" style="font-size:12.5px">① 看见</text>
+  <text x="62" y="90" text-anchor="middle" style="font-size:9.5px">朋友家有人玩塔罗</text>
+  <text x="62" y="104" text-anchor="middle" style="font-size:9.5px">“画显然是寓意的”</text>
+  <text x="62" y="126" text-anchor="middle" class="sm" style="font-size:9.5px">一次观看</text>
+  <path class="l thin" d="M116 90h10" marker-end="url(#ar0706)"/>
+  <path class="gl" d="M126 40h108v100h-108Z"/>
+  <text x="180" y="62" text-anchor="middle" class="gt" style="font-size:12.5px">② 解读</text>
+  <text x="180" y="90" text-anchor="middle" style="font-size:9.5px">寓意“符合古埃及</text>
+  <text x="180" y="104" text-anchor="middle" style="font-size:9.5px">人的学说”</text>
+  <text x="180" y="126" text-anchor="middle" class="sm" style="font-size:9.5px">他自己的解读</text>
+  <path class="l thin" d="M234 90h10" marker-end="url(#ar0706)"/>
+  <path class="l" d="M244 40h108v100h-108Z"/>
+  <text x="298" y="62" text-anchor="middle" class="gt" style="font-size:12.5px">③ 推论</text>
+  <text x="298" y="90" text-anchor="middle" style="font-size:9.5px">“只有埃及人</text>
+  <text x="298" y="104" text-anchor="middle" style="font-size:9.5px">能发明它”</text>
+  <text x="298" y="126" text-anchor="middle" class="sm" style="font-size:9.5px">一个推论</text>
+  <path class="l thin" d="M352 90h10" marker-end="url(#ar0706)"/>
+  <path class="l" d="M362 40h108v100h-108Z"/>
+  <text x="416" y="62" text-anchor="middle" class="gt" style="font-size:12.5px">④ 宣布</text>
+  <text x="416" y="90" text-anchor="middle" style="font-size:9.5px">“一本幸存下来的</text>
+  <text x="416" y="104" text-anchor="middle" style="font-size:9.5px">埃及之书”</text>
+  <text x="416" y="126" text-anchor="middle" class="sm" style="font-size:9.5px">一个修辞</text>
+  <text x="250" y="158" text-anchor="middle" class="gt" style="font-size:14px">？</text>
+  <text x="245" y="188" text-anchor="middle" class="gt" style="font-size:12px">他没有给出能把这副牌同古埃及联系起来的文献或实物</text>
+  <text x="245" y="206" text-anchor="middle" class="sm" style="font-size:11px">当时埃及的象形文字，还没有被读出来</text>
+  <text x="245" y="224" text-anchor="middle" class="sm" style="font-size:10.5px">据 Court de Gébelin，《原始世界》第八卷（1781）；法文原书，汉译为本课所作</text>
+</svg>

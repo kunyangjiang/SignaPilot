@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 244" role="img" aria-label="同一张“愚者”牌在四种解读体系里的不同含义的示意图，本课自绘，不是任何一副牌的复制，也不含任何牌面图像。四格：一，游戏（15 世纪起）：一张特殊的牌，在规则里可代替跟牌；二，1781 年 Court de Gébelin：一个带着包袱、被“悔恨”（老虎）追赶的疯人，是一个道德寓意；三，19 世纪的秘传系统：Lévi 的“不智者”，金色黎明把它配给希伯来字母 Aleph 与空气；四，今天的通俗解读：本课没有系统调查，只能说明，含义来自所用的解读体系，而不是单凭画面。底部：同一个画面，含义由使用它的体系给出">
+  <path class="l" d="M15 36h110v128h-110Z"/>
+  <text x="70" y="58" text-anchor="middle" class="gt" style="font-size:11.5px">游戏</text>
+  <text x="70" y="74" text-anchor="middle" class="sm" style="font-size:9.5px">15 世纪起</text>
+  <path class="l thin" d="M45 92h50v34h-50Z"/>
+  <text x="70" y="114" text-anchor="middle" style="font-size:11px">愚者</text>
+  <text x="70" y="144" text-anchor="middle" style="font-size:9.5px">一张特殊的牌</text>
+  <text x="70" y="158" text-anchor="middle" class="sm" style="font-size:9px">可代替跟牌</text>
+  <path class="l" d="M130 36h110v128h-110Z"/>
+  <text x="185" y="58" text-anchor="middle" class="gt" style="font-size:11.5px">1781 年 Gébelin</text>
+  <text x="185" y="74" text-anchor="middle" class="sm" style="font-size:9.5px">埃及之书说</text>
+  <path class="l thin" d="M160 92h50v34h-50Z"/>
+  <text x="185" y="114" text-anchor="middle" style="font-size:11px">愚者</text>
+  <text x="185" y="144" text-anchor="middle" style="font-size:9.5px">带包袱的疯人</text>
+  <text x="185" y="158" text-anchor="middle" class="sm" style="font-size:9px">被“悔恨”追赶</text>
+  <path class="gl" d="M245 36h110v128h-110Z"/>
+  <text x="300" y="58" text-anchor="middle" class="gt" style="font-size:11.5px">19 世纪秘传</text>
+  <text x="300" y="74" text-anchor="middle" class="sm" style="font-size:9.5px">Lévi · 金色黎明</text>
+  <path class="l thin" d="M275 92h50v34h-50Z"/>
+  <text x="300" y="114" text-anchor="middle" style="font-size:11px">愚者</text>
+  <text x="300" y="144" text-anchor="middle" style="font-size:9.5px">“不智者”（Lévi）</text>
+  <text x="300" y="158" text-anchor="middle" class="sm" style="font-size:9px">Aleph · 空气（GD）</text>
+  <path class="l" d="M360 36h110v128h-110Z"/>
+  <text x="415" y="58" text-anchor="middle" class="gt" style="font-size:11.5px">今天的通俗解读</text>
+  <text x="415" y="74" text-anchor="middle" class="sm" style="font-size:9.5px">没有系统调查</text>
+  <path class="l thin" d="M390 92h50v34h-50Z"/>
+  <text x="415" y="114" text-anchor="middle" style="font-size:11px">愚者</text>
+  <text x="415" y="144" text-anchor="middle" style="font-size:9.5px">含义来自所用的体系</text>
+  <text x="415" y="158" text-anchor="middle" class="sm" style="font-size:9px">不是单凭画面</text>
+  <text x="245" y="196" text-anchor="middle" class="gt" style="font-size:12.5px">同一个画面，含义由使用它的体系给出</text>
+  <text x="245" y="214" text-anchor="middle" class="sm" style="font-size:11px">中间的小框只是占位，不是任何牌的复制</text>
+  <text x="245" y="232" text-anchor="middle" class="sm" style="font-size:10.5px">据 Court de Gébelin（1781）、Westcott 译 Lévi、二手概述；今天的解读本课没有调查</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 246" role="img" aria-label="神智学早期几个有记录的节点的时间线，本课自绘，二手归纳。一条横轴，八个点：1873 年，锡兰的帕纳杜拉辩论，佛教一方的僧人 Migettuwatte Gunananda 被认为获胜；1875 年，神智学会在纽约成立，Olcott 任会长，Blavatsky 任书记；1878 年底，两人前往印度；1880 年，两人在锡兰的加勒公开皈依，受五戒；1881 年 7 月 7 日，锡兰僧人 H. Sumangala 为 Olcott 的《佛教问答》签发证明；1883 年，Sinnett 的《秘传佛教》出版；1885 年，英国心灵研究会的 Hodgson 报告发表；1897 年，Olcott 在《佛教问答》第 33 版的序言里说，锡兰已有一百多所佛教学校（他自己的说法）。底部：同一个运动，在不同地方留下的证据，种类不同">
+  <path class="l" d="M20 110H470"/>
+  <circle class="dotk" cx="40" cy="110" r="4"/>
+  <text x="40" y="92" text-anchor="middle" class="gt" style="font-size:12px">1873</text>
+  <text x="40" y="76" text-anchor="middle" style="font-size:10.5px">帕纳杜拉辩论</text>
+  <circle class="dotk" cx="95" cy="110" r="4"/>
+  <text x="95" y="134" text-anchor="middle" class="gt" style="font-size:12px">1875</text>
+  <text x="95" y="150" text-anchor="middle" style="font-size:10.5px">纽约成立</text>
+  <circle class="dotk" cx="150" cy="110" r="4"/>
+  <text x="150" y="92" text-anchor="middle" class="gt" style="font-size:12px">1878</text>
+  <text x="150" y="76" text-anchor="middle" style="font-size:10.5px">前往印度</text>
+  <circle class="dotk" cx="205" cy="110" r="4"/>
+  <text x="205" y="134" text-anchor="middle" class="gt" style="font-size:12px">1880</text>
+  <text x="205" y="150" text-anchor="middle" style="font-size:10.5px">加勒皈依</text>
+  <circle class="dotk" cx="260" cy="110" r="4"/>
+  <text x="260" y="92" text-anchor="middle" class="gt" style="font-size:12px">1881</text>
+  <text x="260" y="76" text-anchor="middle" style="font-size:10.5px">僧人证明</text>
+  <circle class="dotk" cx="315" cy="110" r="4"/>
+  <text x="315" y="134" text-anchor="middle" class="gt" style="font-size:12px">1883</text>
+  <text x="315" y="150" text-anchor="middle" style="font-size:10.5px">《秘传佛教》</text>
+  <circle class="dotk" cx="375" cy="110" r="4"/>
+  <text x="375" y="92" text-anchor="middle" class="gt" style="font-size:12px">1885</text>
+  <text x="375" y="76" text-anchor="middle" style="font-size:10.5px">Hodgson 报告</text>
+  <circle class="dotk" cx="440" cy="110" r="4"/>
+  <text x="440" y="134" text-anchor="middle" class="gt" style="font-size:12px">1897</text>
+  <text x="440" y="150" text-anchor="middle" style="font-size:10.5px">百余所学校（自述）</text>
+  <text x="245" y="196" text-anchor="middle" class="gt" style="font-size:12.5px">同一个运动，在不同的地方，留下不同种类的证据</text>
+  <text x="245" y="214" text-anchor="middle" class="sm" style="font-size:11px">纽约的章程，锡兰的证明，伦敦的调查报告，彼此不能互相代替</text>
+  <text x="245" y="232" text-anchor="middle" class="sm" style="font-size:10.5px">据 Cox 与 Sirisena、《佛教问答》第 33、36 版序言、SPR《百科》；日期以原始资料为准</text>
+</svg>

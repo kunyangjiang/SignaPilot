@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 254" role="img" aria-label="塔罗牌作为游戏牌的结构的示意图，本课自绘，据 Pagat 与 Ortalli 的说明，不是任何一副牌的复制。左：四种花色，每种若干张，是普通游戏牌的底子；右：在它上面添了一组固定的“王牌”（trumps，意大利语 trionfi），共 21 张，另有一张“愚者”，在游戏里是特殊的牌，常称“Excuse”，可以代替跟牌；加起来通常是 78 张。下面：王牌的概念，是塔罗最早引进的游戏办法之一，后来许多吃墩牌戏都沿用。底部：在游戏里，每张牌是什么意思，要看它在规则里的作用，比如谁大谁小，谁能打败谁；牌面上的画，是这副牌的装饰，也是王牌的名字">
+  <path class="l" d="M20 36h140v110h-140Z"/>
+  <text x="90" y="58" text-anchor="middle" class="gt" style="font-size:12.5px">四种花色</text>
+  <text x="90" y="80" text-anchor="middle" style="font-size:10.5px">普通游戏牌的底子</text>
+  <text x="90" y="104" text-anchor="middle" style="font-size:10.5px">每种若干张</text>
+  <text x="90" y="124" text-anchor="middle" class="sm" style="font-size:10px">（约 56 张）</text>
+  <path class="gl" d="M180 36h140v110h-140Z"/>
+  <text x="250" y="58" text-anchor="middle" class="gt" style="font-size:12.5px">21 张王牌</text>
+  <text x="250" y="80" text-anchor="middle" style="font-size:10.5px">trionfi · trumps</text>
+  <text x="250" y="104" text-anchor="middle" style="font-size:10.5px">每张有名字和画</text>
+  <text x="250" y="124" text-anchor="middle" class="sm" style="font-size:10px">在规则里按大小排</text>
+  <path class="l" d="M340 36h130v110h-130Z"/>
+  <text x="405" y="58" text-anchor="middle" class="gt" style="font-size:12.5px">愚者</text>
+  <text x="405" y="80" text-anchor="middle" style="font-size:10.5px">Excuse</text>
+  <text x="405" y="104" text-anchor="middle" style="font-size:10.5px">可代替跟牌</text>
+  <text x="405" y="124" text-anchor="middle" class="sm" style="font-size:10px">一张特殊的牌</text>
+  <text x="245" y="176" text-anchor="middle" class="gt" style="font-size:12.5px">合计通常 78 张</text>
+  <text x="245" y="200" text-anchor="middle" style="font-size:11px">在游戏里，牌的“意思”，是它在规则里的作用：谁大，谁能打败谁</text>
+  <text x="245" y="224" text-anchor="middle" class="gt" style="font-size:12.5px">画，是装饰，也是王牌的名字；它并不自带一套隐含的教义</text>
+  <text x="245" y="242" text-anchor="middle" class="sm" style="font-size:10.5px">据 Pagat（牌戏规则）与 Ortalli；各地的牌组、张数与规则并不完全一样</text>
+</svg>

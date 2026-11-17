@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 272" role="img" aria-label="敲击声怎样成为“语言”的示意图，本课自绘，据 1848 至 1850 年代的二手记载，不是对任何一次降神会的复原。三个环节：一，提问：在场的人对着空气发问；二，敲击：用敲击的次数或字母的顺序作答；三，解读：在场的人把敲击翻译成“是”“否”或一个词。三个环节中间是“事先商定的规则”：几下表示什么，要先说好。右边：谁来问、谁来数、谁来解读，在每一次降神会里是不同的人，但“灵媒”往往居于中心。底部：敲击声本身只是声音；它能成为一条“信息”，靠的是一套在房间里商定的约定">
+  <defs><marker id="ar0703" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M20 50h140v70h-140Z"/>
+  <text x="90" y="76" text-anchor="middle" class="gt" style="font-size:13px">① 提问</text>
+  <text x="90" y="98" text-anchor="middle" style="font-size:10.5px">在场的人发问</text>
+  <text x="90" y="111" text-anchor="middle" style="font-size:10.5px"></text>
+  <path class="gl thin" d="M160 85h20" marker-end="url(#ar0703)"/>
+  <path class="l" d="M180 50h140v70h-140Z"/>
+  <text x="250" y="76" text-anchor="middle" class="gt" style="font-size:13px">② 敲击</text>
+  <text x="250" y="98" text-anchor="middle" style="font-size:10.5px">以次数或字母顺序作答</text>
+  <text x="250" y="111" text-anchor="middle" style="font-size:10.5px"></text>
+  <path class="gl thin" d="M320 85h20" marker-end="url(#ar0703)"/>
+  <path class="l" d="M340 50h140v70h-140Z"/>
+  <text x="410" y="76" text-anchor="middle" class="gt" style="font-size:13px">③ 解读</text>
+  <text x="410" y="98" text-anchor="middle" style="font-size:10.5px">在场的人翻译成</text>
+  <text x="410" y="111" text-anchor="middle" style="font-size:10.5px">“是 / 否”或一个词</text>
+  <path class="gl" d="M20 150h440v40h-440Z"/>
+  <text x="240" y="174" text-anchor="middle" class="gt" style="font-size:12px">事先商定的规则：几下表示什么，先要说好</text>
+  <text x="245" y="224" text-anchor="middle" class="gt" style="font-size:12.5px">敲击声本身只是声音</text>
+  <text x="245" y="242" text-anchor="middle" class="sm" style="font-size:11px">它能成为一条“信息”，靠的是在房间里商定的一套约定</text>
+  <text x="245" y="260" text-anchor="middle" class="sm" style="font-size:10.5px">据 1848–1851 年的二手记载；本课不复原任何一次降神会</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 274" role="img" aria-label="1730 年印本里“会所摆设”一问一答的示意图，本课自绘，据 Prichard《共济会解剖》（1730）里公开印出的这一段，不涉及任何暗号、动作或誓词。左边三样东西：圣经；圆规；角尺。右边三个“归属”：上帝；会长；“匠人”级会员。三条线把物件和归属连起来：圣经属于上帝，圆规属于会长，角尺属于“匠人”级。下面一行：这是一个问答的格式，学的人要把答案记下来，问的人用它来检验对方是否“自己人”。底部：物件的意义是在这一问一答里被规定的；这样的规定，不是物件自己带来的，也不一定在各地一样">
+  <defs><marker id="ar0702" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M60 44h90v32h-90Z"/>
+  <text x="105" y="64" text-anchor="middle" class="gt" style="font-size:13px">圣经</text>
+  <path class="l" d="M340 44h110v32h-110Z"/>
+  <text x="395" y="64" text-anchor="middle" class="gt" style="font-size:13px">上帝</text>
+  <path class="gl thin" d="M150 60H340" marker-end="url(#ar0702)"/>
+  <path class="l" d="M60 94h90v32h-90Z"/>
+  <text x="105" y="114" text-anchor="middle" class="gt" style="font-size:13px">圆规</text>
+  <path class="l" d="M340 94h110v32h-110Z"/>
+  <text x="395" y="114" text-anchor="middle" class="gt" style="font-size:13px">会长</text>
+  <path class="gl thin" d="M150 110H340" marker-end="url(#ar0702)"/>
+  <path class="l" d="M60 144h90v32h-90Z"/>
+  <text x="105" y="164" text-anchor="middle" class="gt" style="font-size:13px">角尺</text>
+  <path class="l" d="M340 144h110v32h-110Z"/>
+  <text x="395" y="164" text-anchor="middle" class="gt" style="font-size:13px">“匠人”级</text>
+  <path class="gl thin" d="M150 160H340" marker-end="url(#ar0702)"/>
+  <text x="245" y="36" text-anchor="middle" class="gt" style="font-size:12px">“会所里还有什么摆设？”“它们各属于谁？”</text>
+  <text x="245" y="218" text-anchor="middle" style="font-size:11px">一问一答，学的人要记下答案；问的人借它检验对方是不是“自己人”</text>
+  <text x="245" y="244" text-anchor="middle" class="gt" style="font-size:12.5px">物件的意义，是在这一问一答里被规定的</text>
+  <text x="245" y="262" text-anchor="middle" class="sm" style="font-size:10.5px">据 Prichard（1730）公开印出的一段；本课不复述暗号、动作与誓词；各地做法不一</text>
+</svg>

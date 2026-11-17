@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 292" role="img" aria-label="密文手稿来历的几种说法的示意图，本课自绘，据 Gilbert（1987）和 Wheeler（2019）。中间是“密文手稿”：约六十页，用替换密码写成，现存。四种说法：一，教团的官方历史（Westcott 的叙述）：手稿由一位已故的杰出学者交给 Westcott，德国的 Sprengel 批准建立教团，依据是 Westcott 的陈述；二，Gilbert（1987）：1886 或 1887 年到 Westcott 手里，可能经 Woodford，最终来自共济会大厅翻出的文件，Westcott 本人也可能是作者，依据是一位学者的研究和推测；三，Wheeler（2019）：来历是个谜，内部证据显示写成不久，合理的推测是出自 Mackenzie，依据是一位学者的综述与推论；四，Sprengel：从未被查到，通信“几乎可以肯定”是 Westcott 或其授意者伪造，依据是学者的推论，没有供词。底部：手稿是真的存在的；它的来历没有定论，Sprengel 的“授权”没有独立证据">
+  <path class="gl" d="M170 100h150v54h-150Z"/>
+  <text x="245" y="124" text-anchor="middle" class="gt" style="font-size:13px">密文手稿</text>
+  <text x="245" y="142" text-anchor="middle" class="sm" style="font-size:10px">约 60 页 · 现存</text>
+  <path class="l thin" d="M15 20h220v64h-220Z"/>
+  <text x="125" y="38" text-anchor="middle" class="gt" style="font-size:11.5px">教团的官方历史</text>
+  <text x="125" y="54" text-anchor="middle" style="font-size:9.5px">已故学者交给 Westcott；</text>
+  <text x="125" y="66" text-anchor="middle" style="font-size:9.5px">Sprengel 批准</text>
+  <text x="125" y="79" text-anchor="middle" class="sm" style="font-size:9px">依据：Westcott 的陈述</text>
+  <path class="l thin" d="M255 20h220v64h-220Z"/>
+  <text x="365" y="38" text-anchor="middle" class="gt" style="font-size:11.5px">Gilbert（1987）</text>
+  <text x="365" y="54" text-anchor="middle" style="font-size:9.5px">可能经 Woodford，源自</text>
+  <text x="365" y="66" text-anchor="middle" style="font-size:9.5px">共济会大厅的文件；也可能是 Westcott 所作</text>
+  <text x="365" y="79" text-anchor="middle" class="sm" style="font-size:9px">依据：学者的研究与推测</text>
+  <path class="l thin" d="M15 172h220v64h-220Z"/>
+  <text x="125" y="190" text-anchor="middle" class="gt" style="font-size:11.5px">Wheeler（2019）</text>
+  <text x="125" y="206" text-anchor="middle" style="font-size:9.5px">来历是个谜；</text>
+  <text x="125" y="218" text-anchor="middle" style="font-size:9.5px">合理推测出自 Mackenzie</text>
+  <text x="125" y="231" text-anchor="middle" class="sm" style="font-size:9px">依据：学者的综述与推论</text>
+  <path class="l thin" d="M255 172h220v64h-220Z"/>
+  <text x="365" y="190" text-anchor="middle" class="gt" style="font-size:11.5px">Sprengel</text>
+  <text x="365" y="206" text-anchor="middle" style="font-size:9.5px">从未被查到；通信“几乎可以肯定”</text>
+  <text x="365" y="218" text-anchor="middle" style="font-size:9.5px">是 Westcott 或其授意者伪造</text>
+  <text x="365" y="231" text-anchor="middle" class="sm" style="font-size:9px">依据：学者的推论，没有供词</text>
+  <text x="245" y="262" text-anchor="middle" class="gt" style="font-size:12.5px">手稿是真的存在的；它的来历没有定论</text>
+  <text x="245" y="280" text-anchor="middle" class="sm" style="font-size:10.5px">Sprengel 的“授权”，没有独立的证据；两位学者的方向也不完全一样</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 244" role="img" aria-label="“因果业报”一词在四个阶段的示意图，本课自绘，只显示有文本依据的连接，不假设直接的文本谱系。第一格：早期的出处——《法句经》和《增支部》的经文，被《佛教问答》引用来讲“业”；第二格：神智学的重述——《佛教问答》第 36 版（1903，不是 1881 年初版）把业说成“公正”，并说它与现代科学相合，还说“业与轮回”是最容易被西方人接受的两个观念；第三格：机构的传递——1881 和 1897 年僧人的两份证明、多次再版、佛教神智学会办的学校（序言自述）；第四格：后来的通俗用法——今天英语和中文里“业”的日常用法，本课没有做过系统研究。箭头只连到有材料支持的地方；第三格到第四格用虚线，表示本课没有证据显示直接的传递。底部：相似，不等于来自；有证据的连接用实线，没有的用虚线">
+  <defs><marker id="ar0704b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M10 40h110v118h-110Z"/>
+  <text x="65" y="62" text-anchor="middle" class="gt" style="font-size:11.5px">① 早期的出处</text>
+  <text x="65" y="92" text-anchor="middle" style="font-size:10px">《法句经》《增支部》</text>
+  <text x="65" y="110" text-anchor="middle" style="font-size:10px">“我的业是我的所有”</text>
+  <text x="65" y="128" text-anchor="middle" class="sm" style="font-size:10px">（《问答》引用）</text>
+  <path class="l" d="M130 40h110v118h-110Z"/>
+  <text x="185" y="62" text-anchor="middle" class="gt" style="font-size:11.5px">② 神智学的重述</text>
+  <text x="185" y="92" text-anchor="middle" style="font-size:10px">业 =“公正”</text>
+  <text x="185" y="110" text-anchor="middle" style="font-size:10px">“与科学相合”</text>
+  <text x="185" y="128" text-anchor="middle" class="sm" style="font-size:10px">第 36 版（1903）</text>
+  <path class="l" d="M250 40h110v118h-110Z"/>
+  <text x="305" y="62" text-anchor="middle" class="gt" style="font-size:11.5px">③ 机构的传递</text>
+  <text x="305" y="92" text-anchor="middle" style="font-size:10px">证明：1881、1897</text>
+  <text x="305" y="110" text-anchor="middle" style="font-size:10px">多次再版、翻译</text>
+  <text x="305" y="128" text-anchor="middle" class="sm" style="font-size:10px">学校（序言自述）</text>
+  <path class="l thin" d="M370 40h110v118h-110Z" stroke-dasharray="4 3"/>
+  <text x="425" y="62" text-anchor="middle" class="gt" style="font-size:11.5px">④ 后来的通俗用法</text>
+  <text x="425" y="92" text-anchor="middle" style="font-size:10px">日常里的“业”</text>
+  <text x="425" y="110" text-anchor="middle" style="font-size:10px">（没有系统研究）</text>
+  <text x="425" y="128" text-anchor="middle" class="sm" style="font-size:10px"></text>
+  <path class="gl thin" d="M120 99h10" marker-end="url(#ar0704b)"/>
+  <path class="gl thin" d="M240 99h10" marker-end="url(#ar0704b)"/>
+  <path class="l thin" d="M360 99h10" stroke-dasharray="3 3"/>
+  <text x="245" y="196" text-anchor="middle" class="gt" style="font-size:12.5px">只有一个词，同一个字，四种语境</text>
+  <text x="245" y="214" text-anchor="middle" class="sm" style="font-size:11px">实线：有文本支持的连接；虚线：本课没有证据</text>
+  <text x="245" y="232" text-anchor="middle" class="sm" style="font-size:10.5px">读的是 1903 年的第 36 版，不是 1881 年初版；初版文字没有核对</text>
+</svg>

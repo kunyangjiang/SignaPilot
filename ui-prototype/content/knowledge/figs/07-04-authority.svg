@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 254" role="img" aria-label="《佛教问答》（1881）涉及的几方和各自“说了算”的地方的示意图，本课自绘，据 Cox 与 Sirisena 的研究和《佛教问答》的序言、证明，二手归纳，不是对权力关系的完整描述。左：神智学会，美国人 Olcott 任会长，主张各宗教背后有一个共同的古老智慧；中：锡兰的僧人 Sumangala，在 1881 年 7 月 7 日签证明，说这本书与南传佛教的经典一致；右：锡兰的在家佛教徒，他们在佛教神智学会里组织起来，办学校。三方之间有箭头：Olcott 写书；Sumangala 审阅并证明；在家信徒用它办学校。下面一行：研究者指出，在家佛教徒是在“为自己的目的”使用神智学会，而不是被它使用；总会则觉得锡兰的情形有些“反常”。底部：这不是“一方给另一方单向施加”，也不是“平等的交流”；每一方说了算的地方不同">
+  <defs><marker id="ar0704" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M15 36h140v112h-140Z"/>
+  <text x="85" y="58" text-anchor="middle" class="gt" style="font-size:12.5px">神智学会</text>
+  <text x="85" y="82" text-anchor="middle" style="font-size:10px">Olcott：美国人，会长</text>
+  <text x="85" y="108" text-anchor="middle" style="font-size:10.5px">主张：各宗教背后有</text>
+  <text x="85" y="122" text-anchor="middle" style="font-size:10.5px">一个共同的古老智慧</text>
+  <path class="l" d="M175 36h140v112h-140Z"/>
+  <text x="245" y="58" text-anchor="middle" class="gt" style="font-size:12.5px">僧人 Sumangala</text>
+  <text x="245" y="82" text-anchor="middle" style="font-size:10px">1881 年 7 月 7 日签证明</text>
+  <text x="245" y="108" text-anchor="middle" style="font-size:10.5px">“与南传佛教的经典</text>
+  <text x="245" y="122" text-anchor="middle" style="font-size:10.5px">一致”，推荐给学校</text>
+  <path class="l" d="M335 36h140v112h-140Z"/>
+  <text x="405" y="58" text-anchor="middle" class="gt" style="font-size:12.5px">锡兰的在家信徒</text>
+  <text x="405" y="82" text-anchor="middle" style="font-size:10px">佛教神智学会的会员</text>
+  <text x="405" y="108" text-anchor="middle" style="font-size:10.5px">办学校，组织起来</text>
+  <text x="405" y="122" text-anchor="middle" style="font-size:10.5px">“为自己的目的”使用它</text>
+  <path class="gl thin" d="M155 92h20" marker-end="url(#ar0704)"/>
+  <path class="gl thin" d="M315 92h20" marker-end="url(#ar0704)"/>
+  <text x="165" y="80" text-anchor="middle" class="sm" style="font-size:9px">写书</text>
+  <text x="325" y="80" text-anchor="middle" class="sm" style="font-size:9px">审阅</text>
+  <text x="245" y="206" text-anchor="middle" class="gt" style="font-size:12.5px">每一方“说了算”的地方不同</text>
+  <text x="245" y="224" text-anchor="middle" class="sm" style="font-size:11px">不是单向的施加，也不是平等的交流</text>
+  <text x="245" y="242" text-anchor="middle" class="sm" style="font-size:10.5px">据 Cox 与 Sirisena（研究）和《佛教问答》的证明；总会觉得锡兰的情形“反常”</text>
+</svg>

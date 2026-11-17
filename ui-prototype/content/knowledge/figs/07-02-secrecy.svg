@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 298" role="img" aria-label="保密与公开怎样互相推动的示意图，本课自绘，据 Prichard（1730）的印本和二手研究的转述。四个框围成一圈：一，说要保密，会所用誓词和问答划出“自己人”；二，被印出来，1730 年 Prichard 的小册子公开卖，六便士，据说迅速有重印；三，总会所的回应，据二手转述，1730 年 12 月的会议记录说它“不是真的”，并提醒各会所提防冒名者；四，用熟人担保和问答来验证身份，来访者要有认识的会员作保。然后又回到第一步。底部：公开出来的东西，并没有取消秘密，而是改变了“怎样证明自己是自己人”；这是一个反馈的圈，不是一次性的事件">
+  <defs><marker id="ar0702b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9" class="l" fill="none"/></marker></defs>
+  <path class="l" d="M40 40h180v62h-180Z"/>
+  <text x="130" y="64" text-anchor="middle" class="gt" style="font-size:12.5px">① 说要保密</text>
+  <text x="130" y="84" text-anchor="middle" style="font-size:10.5px">誓词与问答划出“自己人”</text>
+  <path class="l" d="M270 40h180v62h-180Z"/>
+  <text x="360" y="64" text-anchor="middle" class="gt" style="font-size:12.5px">② 被印出来</text>
+  <text x="360" y="84" text-anchor="middle" style="font-size:10.5px">1730 年六便士的小册子</text>
+  <path class="l" d="M270 150h180v62h-180Z"/>
+  <text x="360" y="174" text-anchor="middle" class="gt" style="font-size:12.5px">③ 总会所回应</text>
+  <text x="360" y="192" text-anchor="middle" style="font-size:10.5px">据二手转述：说它“不是真的”</text>
+  <text x="360" y="205" text-anchor="middle" style="font-size:10.5px">，提醒提防冒名者</text>
+  <path class="l" d="M40 150h180v62h-180Z"/>
+  <text x="130" y="174" text-anchor="middle" class="gt" style="font-size:12.5px">④ 靠熟人验证</text>
+  <text x="130" y="194" text-anchor="middle" style="font-size:10.5px">来访者要有会员作保</text>
+  <path class="gl thin" d="M220 71H270" marker-end="url(#ar0702b)"/>
+  <path class="gl thin" d="M360 102V150" marker-end="url(#ar0702b)"/>
+  <path class="gl thin" d="M270 181H220" marker-end="url(#ar0702b)"/>
+  <path class="gl thin" d="M130 150V102" marker-end="url(#ar0702b)"/>
+  <text x="245" y="250" text-anchor="middle" class="gt" style="font-size:12.5px">公开，没有取消秘密；它改变了“怎样证明自己是自己人”</text>
+  <text x="245" y="268" text-anchor="middle" class="sm" style="font-size:11px">这是一个反馈的圈，不是一次性的事件</text>
+  <text x="245" y="286" text-anchor="middle" class="sm" style="font-size:10.5px">② 据 Prichard 印本；③ 据二手转述，本课没有读到会议记录本身</text>
+</svg>
