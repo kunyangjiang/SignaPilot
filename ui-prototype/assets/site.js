@@ -115,10 +115,10 @@
   /* ---------- the shape of the curriculum: four parts, nine stages ---------- */
   // Grouping follows the master plan's outer logic. It is navigation copy, not a change to the sealed catalogue.
   const PARTS = [
-    { id: 'p1', n: '一', name: '学会读符号', note: '两个阶段的方法。之后读到的一切，都要用到它们。', groups: [{ id: 'g-method', stages: ['01', '02'] }] },
+    { id: 'p1', n: '一', name: '学会读符号', note: '', groups: [{ id: 'g-method', stages: ['01', '02'] }] },
     { id: 'p2', n: '二', name: '走进历史世界', note: '三条历史线彼此平行，不分先后，可以任选一条开始。', groups: [{ id: 'g-west', name: '地中海与欧洲', stages: ['03', '04'] }, { id: 'g-china', name: '中国', stages: ['05'] }, { id: 'g-asia', name: '亚洲其他传统', stages: ['06'] }] },
-    { id: 'p3', n: '三', name: '追踪现代的变化', note: '各条线在近现代汇合：旧的象征被重新组织，再进入今天的媒介。', groups: [{ id: 'g-modern', stages: ['07', '08'] }] },
-    { id: 'p4', n: '四', name: '回到比较与判断', note: '最后一个阶段：一种解释，凭什么可信。', groups: [{ id: 'g-judge', stages: ['09'] }] },
+    { id: 'p3', n: '三', name: '追踪现代的变化', note: '', groups: [{ id: 'g-modern', stages: ['07', '08'] }] },
+    { id: 'p4', n: '四', name: '回到比较与判断', note: '', groups: [{ id: 'g-judge', stages: ['09'] }] },
   ];
   const partOf = sid => PARTS.find(p => p.groups.some(g => g.stages.includes(sid)));
   // The route rail: nine numbered stops in four groups. It appears on the overview, on every stage and on every lesson,
@@ -527,7 +527,6 @@
     '09-04': { src: 'content/knowledge/09-04.md', state: 'done' },
     '09-05': { src: 'content/knowledge/09-05.md', state: 'done' },
   };
-  const K_STATE = { done: '已完成', draft: '初稿 · 待审读' };
   // A course manuscript: "# 标题", an optional "> 初稿…" status line, a lead paragraph, "**…**" question lines,
   // "## 一、标题" sections, "> 引文" ending in "> —— 出处", figures, numbered notes ("[^3]" in the text, "[^3]: …" on
   // a line of its own, shown in the margin), one fenced ```widget block per interactive figure, and a closing
@@ -1799,7 +1798,7 @@
         return `<a class="srow" id="st-${sid}" href="stage.html?s=${sid}">${draw(i)}<div><span class="srow-n">Stage ${Number(sid)}</span><h3>${esc(s.title)}</h3><p>${esc(s.q)}</p></div><div class="srow-m"><span>${s.courses.length} 课</span></div><i class="srow-go">→</i></a>`;
       };
       $('#parts').innerHTML = PARTS.map(p => `<section class="part" id="${p.id}">
-        <div class="part-h"><span class="label">第${p.n}部分</span><h2>${p.name}</h2><p>${p.note}</p></div>
+        <div class="part-h"><span class="label">第${p.n}部分</span><h2>${p.name}</h2>${p.note ? `<p>${p.note}</p>` : ''}</div>
         <div class="part-b">${p.groups.map(g => `<div class="grp" id="${g.id}">${g.name ? `<span class="grp-n">${g.name}</span>` : ''}${g.stages.map(srow).join('')}</div>`).join('')}</div>
       </section>`).join('');
       // arriving from a home-page door: the page is drawn by script, so go to the place and mark it ourselves
@@ -1831,7 +1830,7 @@
           </div><div class="stage-num" aria-hidden="true">${draw(i)}</div></div>
         </div></div>
         <div class="wrap"><ol class="seq">${s.courses.map(c => {
-          return `<li class="${hooks[c.id] ? 'featured' : ''}"><div><span class="mono">${c.id}</span><h3><a href="${lessonHref(c.id)}">${esc(c.title)}</a>${WRITTEN_K[c.id] ? ` <span class="state">${K_STATE[WRITTEN_K[c.id].state]}</span>` : ''}</h3><p class="scope">${esc(c.scope)}</p>${hooks[c.id] ? `<p class="hook">${hooks[c.id]}</p>` : ''}</div></li>`;
+          return `<li class="${hooks[c.id] ? 'featured' : ''}"><div><span class="mono">${c.id}</span><h3><a href="${lessonHref(c.id)}">${esc(c.title)}</a></h3><p class="scope">${esc(c.scope)}</p>${hooks[c.id] ? `<p class="hook">${hooks[c.id]}</p>` : ''}</div></li>`;
         }).join('')}</ol>
         <nav class="stage-nav">${i > 0 ? `<a href="stage.html?s=${D.stages[i - 1].id}"><span class="label">上一阶段</span><b>${esc(D.stages[i - 1].title)}</b></a>` : '<span></span>'}${i < 8 ? `<a href="stage.html?s=${D.stages[i + 1].id}"><span class="label">下一阶段</span><b>${esc(D.stages[i + 1].title)}</b></a>` : '<span></span>'}</nav></div>`;
       headField($('.page-head'));
@@ -1871,7 +1870,7 @@
           const figs = $$('figure.fig', prose).length - L.widgets.length, main = prose.cloneNode(true);
           $$('.sn, .refs, figure', main).forEach(x => x.remove());
           const chars = Math.round(hanCount(main) / 100) * 100;
-          $('.lesson-head .sub').innerHTML = `<span>约 ${chars.toLocaleString('en')} 字</span><span>${figs} 幅图${L.widgets.length ? ` · ${L.widgets.length} 个可操作图示` : ''}</span><span class="state">${K_STATE[wk.state]}</span>`;
+          $('.lesson-head .sub').innerHTML = `<span>约 ${chars.toLocaleString('en')} 字</span><span>${figs} 幅图${L.widgets.length ? ` · ${L.widgets.length} 个可操作图示` : ''}</span>`;
           toc(); cites();
           fields.forEach(f => f());
           resumeReading();
