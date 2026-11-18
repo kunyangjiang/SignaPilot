@@ -1830,7 +1830,7 @@
           </div><div class="stage-num" aria-hidden="true">${draw(i)}</div></div>
         </div></div>
         <div class="wrap"><ol class="seq">${s.courses.map(c => {
-          return `<li class="${hooks[c.id] ? 'featured' : ''}"><div><span class="mono">${c.id}</span><h3><a href="${lessonHref(c.id)}">${esc(c.title)}</a></h3><p class="scope">${esc(c.scope)}</p>${hooks[c.id] ? `<p class="hook">${hooks[c.id]}</p>` : ''}</div></li>`;
+          return `<li class="${hooks[c.id] ? 'featured' : ''}"><div><span class="mono">${c.id}</span><h2><a href="${lessonHref(c.id)}">${esc(c.title)}</a></h2><p class="scope">${esc(c.scope)}</p>${hooks[c.id] ? `<p class="hook">${hooks[c.id]}</p>` : ''}</div></li>`;
         }).join('')}</ol>
         <nav class="stage-nav">${i > 0 ? `<a href="stage.html?s=${D.stages[i - 1].id}"><span class="label">上一阶段</span><b>${esc(D.stages[i - 1].title)}</b></a>` : '<span></span>'}${i < 8 ? `<a href="stage.html?s=${D.stages[i + 1].id}"><span class="label">下一阶段</span><b>${esc(D.stages[i + 1].title)}</b></a>` : '<span></span>'}</nav></div>`;
       headField($('.page-head'));

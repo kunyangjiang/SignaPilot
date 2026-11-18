@@ -297,8 +297,8 @@ html.day .e-top { color: var(--ink); }
 .seq li::before { content: ""; position: absolute; left: -5px; top: 34px; width: 9px; height: 9px; border-radius: 50%; background: var(--bg); border: 1px solid var(--ink-3); }
 .seq .ord { display: none; }
 .seq li .mono { color: var(--ink-3) !important; }
-.seq h3 { font-family: var(--f-song); font-size: 22px; line-height: 1.45; }
-.seq h3 a:hover { color: var(--gold); }
+.seq h2 { font-family: var(--f-song); font-size: 22px; line-height: 1.45; }
+.seq h2 a:hover { color: var(--gold); }
 .seq .scope { color: var(--ink-2); font-size: 15px; margin-top: 2px; }
 .seq li.featured .hook { font-family: var(--f-song); font-weight: 300; font-size: 19px; margin-top: 10px; color: var(--gold); }
 .stage-nav { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--line); }
@@ -1266,7 +1266,7 @@ html.day .rd-segs li.off { opacity: .5; }
   .stage-num { order: -1; width: 96px; margin-bottom: 14px; }
   .seq li { grid-template-columns: 1fr; gap: 4px; padding: 18px 0 18px 26px; }
   .seq li::before { top: 30px; }
-  .seq h3 { font-size: 20px; }
+  .seq h2 { font-size: 20px; }
 
   .lesson-head { padding: 30px 0 26px; }
   .prose { font-size: 17px; line-height: 1.98; }
@@ -1349,3 +1349,15 @@ html.day .top nav a.on small, html.day .top nav a:hover small, html.day .cy-grid
 .kz-end, .kz-after { padding-bottom: 18px; } .kz-aft { margin-top: 6px; padding: 10px 14px; border-left: 3px solid var(--gold); background: color-mix(in srgb, var(--gold) 7%, transparent); } .kz-aft p { margin: 0 0 6px; font-size: 14px; line-height: 1.75; color: var(--ink-2); }
 .kz-ch .wpick { padding-top: 16px; }
 @media (max-width: 620px) { .kz .kz-sec, .kz-out { padding-left: 16px; padding-right: 16px; } .kz-vals li { grid-template-columns: 1fr 50px 40px; } }
+
+/* touch targets: on phones and touch screens, small links and controls get a 44px hit area without changing how they look */
+@media (pointer: coarse), (max-width: 620px) {
+  .top .back, .top .brand, .search-btn, .rail a, .prose a.cite, .prose a.ext { position: relative; }
+  .top .back::after, .top .brand::after, .search-btn::after { content: ""; position: absolute; inset: -7px -4px; }
+  .rail a::after { content: ""; position: absolute; inset: -9px; }
+  .rail-g > span { gap: 12px; }
+  .prose a.cite::after { content: ""; position: absolute; inset: -14px -9px; }
+  .prose a.ext::after { content: ""; position: absolute; inset: -12px -2px; }
+  .crumb a { display: inline-block; padding: 13px 0; margin: -13px 0; }
+  figure[data-widget] button, figure[data-widget] .kz-chips .kz-btn { min-height: 44px; min-width: 44px; }
+}
